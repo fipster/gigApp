@@ -982,9 +982,9 @@
       render();
     });
 
-    document.querySelectorAll('.mode-row .chip').forEach(chip => {
+    document.querySelectorAll('#cityFilterDetails .mode-row .chip').forEach(chip => {
       chip.addEventListener('click', () => {
-        document.querySelectorAll('.mode-row .chip').forEach(c => c.classList.remove('active'));
+        document.querySelectorAll('#cityFilterDetails .mode-row .chip').forEach(c => c.classList.remove('active'));
         chip.classList.add('active');
         cityMode = chip.dataset.mode;
         render();
