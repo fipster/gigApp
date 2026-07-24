@@ -579,9 +579,18 @@
     <div class="controls">
       <div class="row">
         <span class="label">BAND</span>
-        <select id="bandSelect">
-          <option value="all">ALL BANDS</option>
-        </select>
+        <details class="city-filter" id="bandFilterDetails">
+          <summary>FILTER BANDS ▾</summary>
+          <div class="city-filter-panel">
+            <div class="row mode-row">
+              <div class="chip acid active" data-bandmode="include">SHOW SELECTED</div>
+              <div class="chip acid" data-bandmode="exclude">HIDE SELECTED</div>
+              <button class="reset-link" id="selectAllBands">select all</button>
+              <button class="reset-link" id="selectNoneBands">select none</button>
+            </div>
+            <div id="bandCheckboxList"></div>
+          </div>
+        </details>
         <div class="spacer"></div>
         <label class="toggle"><input type="checkbox" id="excludeFest"> exclude festivals</label>
       </div>
@@ -749,7 +758,8 @@
     const dowNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
     const countryNames = { NL: "Netherlands", UK: "United Kingdom", ES: "Spain", FR: "France", BE: "Belgium", DE: "Germany", DK: "Denmark", CZ: "Czechia" };
 
-    let activeBand = "all";
+    let bandMode = "include";
+    let bandSelection = new Set();
     let activeOrigin = "all";
     let hideNoDirect = false;
     let excludeFest = false;
@@ -777,19 +787,28 @@
     function cityKey(s) { return s.country + "|" + s.city; }
 
     // ---- BAND DROPDOWN (built dynamically) ----
-    function buildBandSelect() {
+    function buildBandPanel() {
       const uniqueBands = [...new Set(shows.map(s => s.band))].sort();
-      const select = document.getElementById('bandSelect');
-      select.innerHTML = '<option value="all">ALL BANDS</option>';
+      uniqueBands.forEach(band => bandSelection.add(band));
+
+      const container = document.getElementById('bandCheckboxList');
+      container.innerHTML = "";
+
       uniqueBands.forEach(band => {
-        const opt = document.createElement('option');
-        opt.value = band;
-        opt.textContent = band;
-        select.appendChild(opt);
-      });
-      select.addEventListener('change', (e) => {
-        activeBand = e.target.value;
-        render();
+        const row = document.createElement('label');
+        row.className = "city-row";
+        row.style.paddingLeft = "0";
+        const cb = document.createElement('input');
+        cb.type = "checkbox";
+        cb.checked = true;
+        row.appendChild(cb);
+        row.appendChild(document.createTextNode(band));
+        container.appendChild(row);
+
+        cb.addEventListener('change', () => {
+          if (cb.checked) bandSelection.add(band); else bandSelection.delete(band);
+          render();
+        });
       });
     }
 
@@ -871,7 +890,11 @@
       const uniqueBands = [...new Set(shows.map(s => s.band))].sort();
       let list = shows.slice();
 
-      if (activeBand !== "all") list = list.filter(s => s.band === activeBand);
+      if (bandMode === "include") {
+        list = list.filter(s => bandSelection.has(s.band));
+      } else {
+        list = list.filter(s => !bandSelection.has(s.band));
+      }
       if (excludeFest) list = list.filter(s => !s.fest);
       list = list.filter(s => s.date >= dateFrom && s.date <= dateTo);
       if (cityMode === "include") {
@@ -980,6 +1003,27 @@
       render();
     });
 
+    document.querySelectorAll('#bandFilterDetails .mode-row .chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        document.querySelectorAll('#bandFilterDetails .mode-row .chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        bandMode = chip.dataset.bandmode;
+        render();
+      });
+    });
+
+    document.getElementById('selectAllBands').addEventListener('click', () => {
+      document.querySelectorAll('#bandCheckboxList input[type=checkbox]').forEach(cb => cb.checked = true);
+      bandSelection.clear();
+      [...new Set(shows.map(s => s.band))].forEach(b => bandSelection.add(b));
+      render();
+    });
+    document.getElementById('selectNoneBands').addEventListener('click', () => {
+      document.querySelectorAll('#bandCheckboxList input[type=checkbox]').forEach(cb => cb.checked = false);
+      bandSelection.clear();
+      render();
+    });
+
     // ---- INIT ----
     document.getElementById('dateFrom').min = WINDOW_FROM;
     document.getElementById('dateFrom').max = WINDOW_TO;
@@ -988,7 +1032,7 @@
     document.getElementById('dateFrom').value = WINDOW_FROM;
     document.getElementById('dateTo').value = WINDOW_TO;
 
-    buildBandSelect();
+    buildBandPanel();
     buildCityPanel();
     render();
   </script>
