@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROUTE SHEET — Baltic Departure</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EDE8DD;
+    --paper-dark:#E2DCCC;
+    --ink:#1E1A17;
+    --pink:#FF3B78;
+    --blue:#1B4FCB;
+    --acid:#D6FF3E;
+    --line:#C9C2B4;
+    --card:#F6F3EA;
+    --grey:#B7AF9F;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    background-image: radial-gradient(circle at 1px 1px, rgba(30,26,23,0.06) 1px, transparent 0);
+    background-size: 18px 18px;
+    color:var(--ink);
+    font-family:'Work Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:28px 20px 80px;}
+
+  header.bill{
+    border:3px solid var(--ink);
+    padding:22px 20px 18px;
+    margin-bottom:22px;
+    position:relative;
+    background:var(--card);
+  }
+  header.bill::before{
+    content:"";
+    position:absolute; inset:6px;
+    border:1px dashed var(--line);
+    pointer-events:none;
+  }
+  .stamp{
+    position:absolute; top:-14px; right:18px;
+    background:var(--acid);
+    border:2px solid var(--ink);
+    color:var(--ink);
+    font-family:'JetBrains Mono', monospace;
+    font-weight:700;
+    font-size:11px;
+    letter-spacing:.06em;
+    padding:5px 10px;
+    transform:rotate(4deg);
+  }
+  .eyebrow{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--pink);
+    margin:0 0 6px;
+    font-weight:700;
+  }
+  h1{
+    font-family:'Anton', sans-serif;
+    font-weight:400;
+    font-size:clamp(34px,7vw,58px);
+    line-height:.92;
+    margin:0 0 10px;
+    text-transform:uppercase;
+  }
+  h1 span{color:var(--blue);}
+  .sub{font-size:14px; color:#4a433d; max-width:64ch; line-height:1.5; margin:0;}
+  .origin{
+    margin-top:14px;
+    display:flex; gap:18px; flex-wrap:wrap;
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    border-top:1px dashed var(--line);
+    padding-top:12px;
+  }
+  .origin b{color:var(--ink);}
+
+  /* CONTROLS */
+  .controls{
+    display:flex; flex-direction:column; gap:12px;
+    margin:24px 0 6px;
+    padding:14px;
+    background:var(--card);
+    border:2px solid var(--ink);
+  }
+  .row{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
+  .label{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    color:#6b6258;
+    margin-right:2px;
+    min-width:76px;
+  }
+  .chip{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    padding:7px 12px;
+    border:2px solid var(--ink);
+    background:var(--paper);
+    cursor:pointer;
+    user-select:none;
+    transition:transform .12s ease;
+  }
+  .chip:hover{transform:translateY(-1px);}
+  .chip.active{background:var(--ink); color:var(--paper);}
+  .chip.acid.active{background:var(--acid); border-color:var(--ink); color:var(--ink);}
+  .spacer{flex:1;}
+  select, input[type=date]{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    padding:7px 10px;
+    border:2px solid var(--ink);
+    background:var(--paper);
+    color:var(--ink);
+  }
+  #bandSelect{min-width:200px;}
+  .date-range{display:flex; align-items:center; gap:8px;}
+  .date-range span{font-family:'JetBrains Mono', monospace; font-size:11px; color:#8a8175;}
+  .reset-link{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    text-decoration:underline;
+    cursor:pointer;
+    color:var(--pink);
+    background:none; border:none; padding:0;
+  }
+  label.toggle{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    display:flex; align-items:center; gap:6px;
+    cursor:pointer;
+    color:#4a433d;
+  }
+
+  /* CITY/COUNTRY FILTER */
+  details.city-filter{position:relative;}
+  details.city-filter summary{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    padding:7px 12px;
+    border:2px solid var(--ink);
+    background:var(--paper);
+    cursor:pointer;
+    user-select:none;
+    list-style:none;
+  }
+  details.city-filter summary::-webkit-details-marker{display:none;}
+  details.city-filter[open] summary{background:var(--ink); color:var(--paper);}
+  .city-filter-panel{
+    position:absolute;
+    top:calc(100% + 6px);
+    left:0;
+    z-index:20;
+    width:300px;
+    max-height:340px;
+    overflow-y:auto;
+    background:var(--card);
+    border:2px solid var(--ink);
+    padding:10px;
+    box-shadow:4px 4px 0 var(--ink);
+  }
+  .mode-row{margin-bottom:8px; padding-bottom:8px; border-bottom:1px dashed var(--line); flex-wrap:wrap;}
+  .country-group{margin-bottom:6px;}
+  .country-row, .city-row{
+    display:flex; align-items:center; gap:7px;
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    padding:3px 0;
+    cursor:pointer;
+  }
+  .country-row{font-weight:700;}
+  .city-row{padding-left:18px; font-weight:400; color:#4a433d;}
+  .country-row input, .city-row input{cursor:pointer;}
+
+  /* ROUTE LIST */
+  .route{position:relative; margin-top:26px; padding-left:26px;}
+  .route::before{
+    content:"";
+    position:absolute; left:8px; top:6px; bottom:6px;
+    width:2px;
+    background:repeating-linear-gradient(to bottom, var(--ink) 0 6px, transparent 6px 12px);
+  }
+  .month-divider{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--blue);
+    margin:26px 0 10px -26px;
+    padding-left:26px;
+    position:relative;
+  }
+  .month-divider::before{
+    content:"";
+    position:absolute; left:2px; top:6px;
+    width:14px; height:14px;
+    background:var(--blue);
+    border-radius:50%;
+    border:2px solid var(--paper);
+  }
+  .month-divider:first-child{margin-top:0;}
+
+  .stub{
+    position:relative;
+    background:var(--card);
+    border:2px solid var(--ink);
+    margin-bottom:16px;
+    display:grid;
+    grid-template-columns:96px 1fr;
+    min-height:96px;
+  }
+  .stub.dim{opacity:.45;}
+  .stub::before{
+    content:"";
+    position:absolute; left:4px; top:-2px; bottom:-2px;
+    width:6px;
+    background:repeating-linear-gradient(to bottom, var(--paper) 0 6px, transparent 6px 11px);
+  }
+  .stub-dot{
+    position:absolute; left:-22px; top:38px;
+    width:12px; height:12px;
+    background:var(--pink);
+    border:2px solid var(--ink);
+    border-radius:50%;
+  }
+
+  .date-block{
+    background:var(--ink); color:var(--paper);
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    font-family:'JetBrains Mono', monospace;
+    padding:10px 4px;
+    border-right:2px dashed var(--paper-dark);
+  }
+  .date-block .dow{font-size:10px; letter-spacing:.1em; opacity:.7;}
+  .date-block .dnum{font-family:'Anton', sans-serif; font-size:30px; line-height:1;}
+  .date-block .mon{font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+
+  .stub-body{padding:12px 16px 12px 20px;}
+  .stub-top{display:flex; justify-content:space-between; align-items:flex-start; gap:10px; flex-wrap:wrap;}
+  .band-tag{
+    font-family:'JetBrains Mono', monospace;
+    font-size:10px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+    padding:3px 8px;
+    border:1.5px solid var(--ink);
+    display:inline-block;
+  }
+  .band-tag.b0{background:var(--acid);}
+  .band-tag.b1{background:var(--pink); color:var(--paper);}
+  .band-tag.b2{background:var(--blue); color:#fff;}
+  .band-tag.b3{background:#fff; color:var(--ink);}
+  .fest-tag{
+    font-family:'JetBrains Mono', monospace;
+    font-size:10px; color:#6b6258;
+    border:1px dashed var(--line);
+    padding:3px 7px;
+  }
+  .city{font-family:'Anton', sans-serif; font-size:22px; text-transform:uppercase; margin:6px 0 1px; line-height:1.05;}
+  .venue{font-size:12.5px; color:#5c554d;}
+
+  .flights{
+    margin-top:10px;
+    display:flex; gap:10px; flex-wrap:wrap;
+  }
+  .flight-pill{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    border:1.5px solid var(--ink);
+    padding:5px 9px;
+    display:flex; align-items:center; gap:6px;
+    background:var(--paper);
+  }
+  .flight-pill.none{color:var(--grey); border-color:var(--line); font-style:italic;}
+  .flight-pill b{font-weight:700;}
+  .airport-badge{
+    font-weight:700;
+    background:var(--ink); color:var(--paper);
+    padding:1px 5px;
+    font-size:9.5px;
+  }
+  .estimate-note{font-size:9.5px; color:#a39a8c; font-style:italic; margin-top:6px;}
+
+  footer{
+    margin-top:34px; padding-top:16px;
+    border-top:2px dashed var(--line);
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px; color:#8a8175; line-height:1.6;
+  }
+  .empty{padding:40px 20px; text-align:center; font-family:'JetBrains Mono', monospace; color:#8a8175; border:2px dashed var(--line);}
+
+  @media (max-width:520px){
+    .stub{grid-template-columns:78px 1fr;}
+    .date-block .dnum{font-size:24px;}
+    .city{font-size:19px;}
+    .label{min-width:auto;}
+    #bandSelect{min-width:150px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="bill">
+    <div class="stamp">ON SALE NOW</div>
+    <p class="eyebrow">Route Sheet · Baltic Departure</p>
+    <h1>Your Bands<br><span>Are Out There</span></h1>
+    <p class="sub">Confirmed dates for your favorite bands — direct-flight-only status checked from Tallinn (TLL) and Riga (RIX).</p>
+    <div class="origin">
+      <div>ORIGINS: <b>TLL · RIX</b></div>
+      <div>SHOWS TRACKED: <b id="totalCount">–</b></div>
+      <div>WINDOW: <b id="windowLabel">–</b></div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="row">
+      <span class="label">BAND</span>
+      <select id="bandSelect">
+        <option value="all">ALL BANDS</option>
+      </select>
+      <div class="spacer"></div>
+      <label class="toggle"><input type="checkbox" id="excludeFest"> exclude festivals</label>
+    </div>
+    <div class="row">
+      <span class="label">FLY FROM</span>
+      <div class="chip acid active" data-filter="origin" data-value="all">BOTH</div>
+      <div class="chip acid" data-filter="origin" data-value="TLL">TLL ONLY</div>
+      <div class="chip acid" data-filter="origin" data-value="RIX">RIX ONLY</div>
+      <label class="toggle"><input type="checkbox" id="hideNoDirect"> hide shows with no direct flight from selection</label>
+    </div>
+    <div class="row">
+      <span class="label">CITIES</span>
+      <details class="city-filter" id="cityFilterDetails">
+        <summary>FILTER CITIES / COUNTRIES ▾</summary>
+        <div class="city-filter-panel">
+          <div class="row mode-row">
+            <div class="chip acid active" data-mode="include">SHOW SELECTED</div>
+            <div class="chip acid" data-mode="exclude">HIDE SELECTED</div>
+            <button class="reset-link" id="selectAllCities">select all</button>
+            <button class="reset-link" id="selectNoneCities">select none</button>
+          </div>
+          <div id="cityCheckboxList"></div>
+        </div>
+      </details>
+      <div class="spacer"></div>
+    </div>
+    <div class="row">
+      <span class="label">TIMELINE</span>
+      <div class="date-range">
+        <input type="date" id="dateFrom">
+        <span>→</span>
+        <input type="date" id="dateTo">
+      </div>
+      <button class="reset-link" id="resetDates">reset range</button>
+    </div>
+  </div>
+
+  <div class="route" id="route"></div>
+
+  <footer>
+    ※ "Direct flight" = a non-stop route exists from that airport as of the last check. No direct means you'd connect through a hub city instead.<br>
+    ※ Flight status is not live — verify closer to your travel date.
+  </footer>
+</div>
+
+<script>
+// ---- DATA ----
+// One entry per confirmed show. Add more bands by adding more entries —
+// the band dropdown and city filter both build themselves from this list.
+const shows = [
+  {band:"Viagra Boys", date:"2026-08-21", city:"Biddinghuizen", country:"NL", flag:"🇳🇱", venue:"Lowlands Festival", fest:"FESTIVAL",
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:"fly into Amsterdam"},
+  {band:"Viagra Boys", date:"2026-08-28", city:"Liverpool", country:"UK", flag:"🇬🇧", venue:"Liverpool Olympia", fest:null,
+    flightTLL:{direct:false}, flightRIX:{direct:false}, note:"no direct — nearest hub Manchester (RIX) or London (TLL), then train"},
+  {band:"Viagra Boys", date:"2026-08-29", city:"Reading", country:"UK", flag:"🇬🇧", venue:"Reading Festival", fest:"FESTIVAL",
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:"fly into London"},
+
+  {band:"BODEGA", date:"2026-09-03", city:"Miranda de Ebro", country:"ES", flag:"🇪🇸", venue:"Ebrovision Festival", fest:"FESTIVAL",
+    flightTLL:{direct:false}, flightRIX:{direct:false}, note:"no direct — nearest hub Madrid or Bilbao, then train/bus"},
+  {band:"BODEGA", date:"2026-09-04", city:"Puerto de la Cruz", country:"ES", flag:"🇪🇸", venue:"Phe Festival (Tenerife)", fest:"FESTIVAL",
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:null},
+  {band:"BODEGA", date:"2026-09-07", city:"Madrid", country:"ES", flag:"🇪🇸", venue:"El Sol", fest:null,
+    flightTLL:{direct:false}, flightRIX:{direct:true}, note:"only RIX flies direct to Madrid"},
+  {band:"BODEGA", date:"2026-09-08", city:"Valencia", country:"ES", flag:"🇪🇸", venue:"Loco Club", fest:null,
+    flightTLL:{direct:false}, flightRIX:{direct:true}, note:"only RIX flies direct to Valencia"},
+  {band:"BODEGA", date:"2026-09-09", city:"Barcelona", country:"ES", flag:"🇪🇸", venue:"Upload", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:null},
+  {band:"BODEGA", date:"2026-09-10", city:"Zaragoza", country:"ES", flag:"🇪🇸", venue:"La Lata de Bombillas", fest:null,
+    flightTLL:{direct:false}, flightRIX:{direct:false}, note:"no direct — connect via Madrid or Barcelona"},
+  {band:"BODEGA", date:"2026-09-11", city:"San Sebastián", country:"ES", flag:"🇪🇸", venue:"Boga Boga Festival", fest:"FESTIVAL",
+    flightTLL:{direct:false}, flightRIX:{direct:false}, note:"no direct — connect via Madrid or Bilbao"},
+  {band:"BODEGA", date:"2026-09-15", city:"London", country:"UK", flag:"🇬🇧", venue:"The 100 Club", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:null},
+  {band:"BODEGA", date:"2026-09-16", city:"Paris", country:"FR", flag:"🇫🇷", venue:"Pop Up!", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:null},
+
+  {band:"Protomartyr", date:"2027-02-11", city:"Leeds", country:"UK", flag:"🇬🇧", venue:"Irish Centre", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:"TLL route is winter-seasonal (Jet2)"},
+  {band:"Protomartyr", date:"2027-02-12", city:"Glasgow", country:"UK", flag:"🏴", venue:"The Garage", fest:null,
+    flightTLL:{direct:false}, flightRIX:{direct:true}, note:"only RIX flies direct (Ryanair)"},
+  {band:"Protomartyr", date:"2027-02-13", city:"Manchester", country:"UK", flag:"🇬🇧", venue:"Band on the Wall", fest:null,
+    flightTLL:{direct:false}, flightRIX:{direct:true}, note:"TLL–Manchester is seasonal Nov–Jan only, ends before this date"},
+  {band:"Protomartyr", date:"2027-02-15", city:"Bristol", country:"UK", flag:"🇬🇧", venue:"The Lantern", fest:null,
+    flightTLL:{direct:false}, flightRIX:{direct:false}, note:"no direct — connect via London"},
+  {band:"Protomartyr", date:"2027-02-16", city:"London", country:"UK", flag:"🇬🇧", venue:"Electric Brixton", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:null},
+  {band:"Protomartyr", date:"2027-02-18", city:"Lille", country:"FR", flag:"🇫🇷", venue:"L'Aéronef", fest:null,
+    flightTLL:{direct:false}, flightRIX:{direct:false}, note:"no direct — connect via Paris or Brussels"},
+  {band:"Protomartyr", date:"2027-02-19", city:"Paris", country:"FR", flag:"🇫🇷", venue:"Le Trabendo", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:null},
+  {band:"Protomartyr", date:"2027-02-20", city:"Brussels", country:"BE", flag:"🇧🇪", venue:"Le Botanique", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:null},
+  {band:"Protomartyr", date:"2027-02-22", city:"Amsterdam", country:"NL", flag:"🇳🇱", venue:"Paradiso", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:null},
+  {band:"Protomartyr", date:"2027-02-23", city:"Hamburg", country:"DE", flag:"🇩🇪", venue:"Bahnhof Pauli", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:"new TLL route for 2026"},
+  {band:"Protomartyr", date:"2027-02-24", city:"Copenhagen", country:"DK", flag:"🇩🇰", venue:"Pumpehuset", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:"short Baltic/Nordic hop"},
+  {band:"Protomartyr", date:"2027-02-26", city:"Berlin", country:"DE", flag:"🇩🇪", venue:"Bi Nuu Club", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:null},
+  {band:"Protomartyr", date:"2027-02-27", city:"Leipzig", country:"DE", flag:"🇩🇪", venue:"UT Connewitz", fest:null,
+    flightTLL:{direct:false}, flightRIX:{direct:false}, note:"no direct — connect via Berlin"},
+  {band:"Protomartyr", date:"2027-02-28", city:"Prague", country:"CZ", flag:"🇨🇿", venue:"MeetFactory", fest:null,
+    flightTLL:{direct:true}, flightRIX:{direct:true}, note:null},
+];
+
+const WINDOW_FROM = "2026-08-01";
+const WINDOW_TO = "2027-02-28";
+
+const monthNames = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+const dowNames = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
+const countryNames = {NL:"Netherlands", UK:"United Kingdom", ES:"Spain", FR:"France", BE:"Belgium", DE:"Germany", DK:"Denmark", CZ:"Czechia"};
+
+let activeBand = "all";
+let activeOrigin = "all";
+let hideNoDirect = false;
+let excludeFest = false;
+let cityMode = "include";
+let citySelection = new Set();
+let dateFrom = WINDOW_FROM;
+let dateTo = WINDOW_TO;
+
+function escapeHtml(str){
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function formatWindowLabel(from, to){
+  const f = new Date(from + "T00:00:00");
+  const t = new Date(to + "T00:00:00");
+  return `${monthNames[f.getMonth()]} ${f.getFullYear()} – ${monthNames[t.getMonth()]} ${t.getFullYear()}`;
+}
+
+function bandColorClass(bandName, uniqueBands){
+  return "b" + (uniqueBands.indexOf(bandName) % 4);
+}
+
+function cityKey(s){ return s.country + "|" + s.city; }
+
+// ---- BAND DROPDOWN (built dynamically) ----
+function buildBandSelect(){
+  const uniqueBands = [...new Set(shows.map(s => s.band))].sort();
+  const select = document.getElementById('bandSelect');
+  select.innerHTML = '<option value="all">ALL BANDS</option>';
+  uniqueBands.forEach(band => {
+    const opt = document.createElement('option');
+    opt.value = band;
+    opt.textContent = band;
+    select.appendChild(opt);
+  });
+  select.addEventListener('change', (e) => {
+    activeBand = e.target.value;
+    render();
+  });
+}
+
+// ---- CITY / COUNTRY FILTER PANEL ----
+function buildCityPanel(){
+  const byCountry = {};
+  const order = [];
+  shows.forEach(s => {
+    if(!byCountry[s.country]){ byCountry[s.country] = []; order.push(s.country); }
+    if(!byCountry[s.country].some(c => c.city === s.city)){
+      byCountry[s.country].push({city:s.city, flag:s.flag});
+    }
+    citySelection.add(cityKey(s));
+  });
+
+  const container = document.getElementById('cityCheckboxList');
+  container.innerHTML = "";
+
+  order.forEach(country => {
+    const cities = byCountry[country];
+    const group = document.createElement('div');
+    group.className = "country-group";
+
+    const countryRow = document.createElement('label');
+    countryRow.className = "country-row";
+    const countryCb = document.createElement('input');
+    countryCb.type = "checkbox";
+    countryCb.checked = true;
+    countryRow.appendChild(countryCb);
+    countryRow.appendChild(document.createTextNode((cities[0]?.flag||'') + " " + (countryNames[country]||country)));
+    group.appendChild(countryRow);
+
+    const cityRows = [];
+    cities.forEach(c => {
+      const key = country + "|" + c.city;
+      const cityRow = document.createElement('label');
+      cityRow.className = "city-row";
+      const cityCb = document.createElement('input');
+      cityCb.type = "checkbox";
+      cityCb.checked = true;
+      cityRow.appendChild(cityCb);
+      cityRow.appendChild(document.createTextNode(c.city));
+      group.appendChild(cityRow);
+      cityRows.push(cityCb);
+
+      cityCb.addEventListener('change', () => {
+        if(cityCb.checked) citySelection.add(key); else citySelection.delete(key);
+        countryCb.checked = cityRows.every(cb => cb.checked);
+        render();
+      });
+    });
+
+    countryCb.addEventListener('change', () => {
+      cityRows.forEach(cb => {
+        cb.checked = countryCb.checked;
+        const key = country + "|" + cities[cityRows.indexOf(cb)].city;
+        if(cb.checked) citySelection.add(key); else citySelection.delete(key);
+      });
+      render();
+    });
+
+    container.appendChild(group);
+  });
+}
+
+function hasDirectForSelection(show){
+  if(activeOrigin === "all") return show.flightTLL.direct || show.flightRIX.direct;
+  if(activeOrigin === "TLL") return show.flightTLL.direct;
+  if(activeOrigin === "RIX") return show.flightRIX.direct;
+  return true;
+}
+
+function flightPillHtml(originLabel, f){
+  if(!f.direct) return `<div class="flight-pill none"><span class="airport-badge">${originLabel}</span> no direct flight</div>`;
+  return `<div class="flight-pill"><span class="airport-badge">${originLabel}</span> <b>direct flight</b></div>`;
+}
+
+function render(){
+  const uniqueBands = [...new Set(shows.map(s => s.band))].sort();
+  let list = shows.slice();
+
+  if(activeBand !== "all") list = list.filter(s => s.band === activeBand);
+  if(excludeFest) list = list.filter(s => !s.fest);
+  list = list.filter(s => s.date >= dateFrom && s.date <= dateTo);
+  if(cityMode === "include"){
+    list = list.filter(s => citySelection.has(cityKey(s)));
+  } else {
+    list = list.filter(s => !citySelection.has(cityKey(s)));
+  }
+  if(hideNoDirect) list = list.filter(s => hasDirectForSelection(s));
+
+  list.sort((a,b)=> a.date.localeCompare(b.date));
+
+  document.getElementById('totalCount').textContent = shows.length + " confirmed";
+  document.getElementById('windowLabel').textContent = formatWindowLabel(WINDOW_FROM, WINDOW_TO);
+
+  const root = document.getElementById('route');
+  root.innerHTML = "";
+
+  if(list.length === 0){
+    root.innerHTML = '<div class="empty">NO SHOWS MATCH THESE FILTERS</div>';
+    return;
+  }
+
+  let lastMonth = null;
+  list.forEach(s => {
+    const d = new Date(s.date + "T00:00:00");
+    const monthKey = monthNames[d.getMonth()] + " " + d.getFullYear();
+
+    if(monthKey !== lastMonth){
+      const div = document.createElement('div');
+      div.className = "month-divider";
+      div.textContent = monthKey;
+      root.appendChild(div);
+      lastMonth = monthKey;
+    }
+
+    const stub = document.createElement('div');
+    const dim = !hasDirectForSelection(s);
+    stub.className = "stub" + (dim ? " dim" : "");
+
+    let flightsHtml = "";
+    if(activeOrigin === "all" || activeOrigin === "TLL") flightsHtml += flightPillHtml("TLL", s.flightTLL);
+    if(activeOrigin === "all" || activeOrigin === "RIX") flightsHtml += flightPillHtml("RIX", s.flightRIX);
+
+    stub.innerHTML = `
+      <div class="stub-dot"></div>
+      <div class="date-block">
+        <div class="dow">${dowNames[d.getDay()]}</div>
+        <div class="dnum">${d.getDate()}</div>
+        <div class="mon">${monthNames[d.getMonth()]} '${String(d.getFullYear()).slice(2)}</div>
+      </div>
+      <div class="stub-body">
+        <div class="stub-top">
+          <span class="band-tag ${bandColorClass(s.band, uniqueBands)}">${escapeHtml(s.band)}</span>
+          ${s.fest ? `<span class="fest-tag">${escapeHtml(s.fest)}</span>` : ''}
+        </div>
+        <div class="city">${s.flag} ${escapeHtml(s.city)}</div>
+        <div class="venue">${escapeHtml(s.venue)}</div>
+        <div class="flights">${flightsHtml}</div>
+        ${s.note ? `<div class="estimate-note">${escapeHtml(s.note)}</div>` : ''}
+      </div>
+    `;
+    root.appendChild(stub);
+  });
+}
+
+// ---- EVENT WIRING ----
+document.querySelectorAll('.chip[data-filter="origin"]').forEach(chip => {
+  chip.addEventListener('click', () => {
+    document.querySelectorAll('.chip[data-filter="origin"]').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    activeOrigin = chip.dataset.value;
+    render();
+  });
+});
+
+document.getElementById('hideNoDirect').addEventListener('change', (e) => { hideNoDirect = e.target.checked; render(); });
+document.getElementById('excludeFest').addEventListener('change', (e) => { excludeFest = e.target.checked; render(); });
+
+document.getElementById('dateFrom').addEventListener('change', (e) => { dateFrom = e.target.value || WINDOW_FROM; render(); });
+document.getElementById('dateTo').addEventListener('change', (e) => { dateTo = e.target.value || WINDOW_TO; render(); });
+document.getElementById('resetDates').addEventListener('click', () => {
+  dateFrom = WINDOW_FROM; dateTo = WINDOW_TO;
+  document.getElementById('dateFrom').value = dateFrom;
+  document.getElementById('dateTo').value = dateTo;
+  render();
+});
+
+document.querySelectorAll('.mode-row .chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    document.querySelectorAll('.mode-row .chip').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    cityMode = chip.dataset.mode;
+    render();
+  });
+});
+
+document.getElementById('selectAllCities').addEventListener('click', () => {
+  document.querySelectorAll('#cityCheckboxList input[type=checkbox]').forEach(cb => cb.checked = true);
+  citySelection.clear();
+  shows.forEach(s => citySelection.add(cityKey(s)));
+  render();
+});
+document.getElementById('selectNoneCities').addEventListener('click', () => {
+  document.querySelectorAll('#cityCheckboxList input[type=checkbox]').forEach(cb => cb.checked = false);
+  citySelection.clear();
+  render();
+});
+
+// ---- INIT ----
+document.getElementById('dateFrom').min = WINDOW_FROM;
+document.getElementById('dateFrom').max = WINDOW_TO;
+document.getElementById('dateTo').min = WINDOW_FROM;
+document.getElementById('dateTo').max = WINDOW_TO;
+document.getElementById('dateFrom').value = WINDOW_FROM;
+document.getElementById('dateTo').value = WINDOW_TO;
+
+buildBandSelect();
+buildCityPanel();
+render();
+</script>
+</body>
+</html>
