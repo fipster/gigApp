@@ -1,0 +1,50 @@
+[
+  {
+    "band": "Viagra Boys",
+    "date": "2026-08-21",
+    "city": "Biddinghuizen",
+    "country": "NL",
+    "flag": "🇳🇱",
+    "venue": "Lowlands Festival",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": true
+    },
+    "flightRIX": {
+      "direct": true
+    },
+    "note": "fly into Amsterdam"
+  },
+  {
+    "band": "Viagra Boys",
+    "date": "2026-08-28",
+    "city": "Liverpool",
+    "country": "UK",
+    "flag": "🇬🇧",
+    "venue": "Liverpool Olympia",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": "no direct — nearest hub Manchester (RIX) or London (TLL), then train"
+  },
+  {
+    "band": "BODEGA",
+    "date": "2026-09-03",
+    "city": "Miranda de Ebro",
+    "country": "ES",
+    "flag": "🇪🇸",
+    "venue": "Ebrovision Festival",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": "no direct — nearest hub Madrid or Bilbao, then train/bus"
+  }
+]
