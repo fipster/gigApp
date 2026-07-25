@@ -1,7 +1,7 @@
 {
   "gathered_on": "2026-07-25",
   "_generation_notes": {
-    "purpose": "Nonstop destinations from Tallinn (TLL) and Riga (RIX), with flight duration and seasonal-route info, used by scraper.py to populate flightTLL/flightRIX on each show.",
+    "purpose": "Nonstop destinations from Tallinn (TLL) and Riga (RIX), with flight duration and seasonal-route info, used by enrich_flights.py to populate flightTLL/flightRIX on each show.",
     "sources": {
       "wikipedia": [
         "https://en.wikipedia.org/wiki/Riga_International_Airport",

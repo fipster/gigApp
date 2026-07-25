@@ -74,12 +74,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -116,12 +118,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -158,12 +162,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -179,12 +185,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -200,12 +208,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -242,12 +252,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -326,12 +338,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -368,12 +382,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -389,12 +405,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -473,12 +491,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -599,12 +619,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -620,12 +642,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 110
+      "duration_minutes": 110,
+      "carrier": "Ryanair, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 110
+      "duration_minutes": 110,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -788,12 +812,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 30
+      "duration_minutes": 30,
+      "carrier": "Finnair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 30
+      "duration_minutes": 30,
+      "carrier": "Finnair, airBaltic"
     },
     "note": ""
   },
@@ -809,12 +835,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 30
+      "duration_minutes": 30,
+      "carrier": "Finnair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 30
+      "duration_minutes": 30,
+      "carrier": "Finnair, airBaltic"
     },
     "note": ""
   },
@@ -851,12 +879,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -893,12 +923,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -914,12 +946,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 65
+      "duration_minutes": 65,
+      "carrier": "Ryanair, Scandinavian Airlines"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 65
+      "duration_minutes": 65,
+      "carrier": "Norwegian Air Shuttle, Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -935,12 +969,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -956,12 +992,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -977,12 +1015,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -998,12 +1038,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1019,12 +1061,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -1040,12 +1084,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1061,12 +1107,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1082,12 +1130,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1104,12 +1154,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 175,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 175
+      "duration_minutes": 175,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -1125,12 +1177,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1146,12 +1200,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1209,12 +1265,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1251,12 +1309,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1336,12 +1396,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 175,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 175
+      "duration_minutes": 175,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -1358,12 +1420,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 175,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 175
+      "duration_minutes": 175,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -1385,7 +1449,8 @@
       "direct": true,
       "seasonal": true,
       "duration_minutes": null,
-      "seasonal_months": "Dec–Aug"
+      "seasonal_months": "Dec–Aug",
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -1401,12 +1466,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1422,12 +1489,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1443,12 +1512,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1485,12 +1556,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -1569,12 +1642,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1611,12 +1686,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1632,12 +1709,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1653,12 +1732,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1674,12 +1755,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1695,12 +1778,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1716,12 +1801,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1758,12 +1845,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1779,12 +1868,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1800,12 +1891,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1821,12 +1914,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1863,12 +1958,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -1884,12 +1981,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -1906,12 +2005,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -1927,12 +2028,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -1948,12 +2051,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -1969,12 +2074,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -1990,12 +2097,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2074,12 +2183,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2096,12 +2207,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -2122,7 +2235,8 @@
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -2159,12 +2273,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 115
+      "duration_minutes": 115,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 115
+      "duration_minutes": 115,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -2222,12 +2338,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 110
+      "duration_minutes": 110,
+      "carrier": "Ryanair, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 110
+      "duration_minutes": 110,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -2390,12 +2508,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 65
+      "duration_minutes": 65,
+      "carrier": "Ryanair, Scandinavian Airlines"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 65
+      "duration_minutes": 65,
+      "carrier": "Norwegian Air Shuttle, Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2412,12 +2532,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -2476,12 +2598,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -2498,12 +2622,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -2561,12 +2687,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2603,12 +2731,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2624,12 +2754,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 160
+      "duration_minutes": 160,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 160
+      "duration_minutes": 160,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -2672,7 +2804,8 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": null,
-      "seasonal_months": "Dec–Aug"
+      "seasonal_months": "Dec–Aug",
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -2689,12 +2822,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -2731,12 +2866,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2752,12 +2889,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2794,12 +2933,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2857,12 +2998,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2899,12 +3042,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -2920,12 +3065,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2962,12 +3109,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -2984,7 +3133,8 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 190,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": false,
@@ -3005,12 +3155,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, Wizz Air"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, airBaltic"
     },
     "note": ""
   },
@@ -3027,7 +3179,8 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 190,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": false,
@@ -3090,12 +3243,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3111,12 +3266,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3153,12 +3310,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3174,12 +3333,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, Wizz Air"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, airBaltic"
     },
     "note": ""
   },
@@ -3195,12 +3356,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -3216,12 +3379,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 110
+      "duration_minutes": 110,
+      "carrier": "Ryanair, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 110
+      "duration_minutes": 110,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -3237,12 +3402,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3264,7 +3431,8 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": null,
-      "seasonal_months": "May–Aug"
+      "seasonal_months": "May–Aug",
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -3301,12 +3469,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3343,12 +3513,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 90
+      "duration_minutes": 90,
+      "carrier": "Norwegian Air Shuttle, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 90
+      "duration_minutes": 90,
+      "carrier": "Norwegian Air Shuttle, airBaltic"
     },
     "note": ""
   },
@@ -3365,7 +3537,8 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 190,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": false,
@@ -3386,12 +3559,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, Wizz Air"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, airBaltic"
     },
     "note": ""
   },
@@ -3428,12 +3603,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3449,12 +3626,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -3470,12 +3649,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3533,12 +3714,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3554,12 +3737,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -3575,12 +3760,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3638,12 +3825,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3722,12 +3911,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, Wizz Air"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, airBaltic"
     },
     "note": ""
   },
@@ -3765,7 +3956,8 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 190,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": false,
@@ -3828,12 +4020,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3912,12 +4106,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3933,12 +4129,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3954,12 +4152,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -3996,12 +4196,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -4038,12 +4240,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 110
+      "duration_minutes": 110,
+      "carrier": "Ryanair, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 110
+      "duration_minutes": 110,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -4059,12 +4263,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -4081,12 +4287,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -4103,12 +4311,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -4124,12 +4334,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 115
+      "duration_minutes": 115,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 115
+      "duration_minutes": 115,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -4188,12 +4400,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -4209,12 +4423,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, Wizz Air"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, airBaltic"
     },
     "note": ""
   },
@@ -4251,12 +4467,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -4272,12 +4490,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -4341,7 +4561,8 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": null,
-      "seasonal_months": "Dec–Aug"
+      "seasonal_months": "Dec–Aug",
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -4441,12 +4662,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -4483,12 +4706,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -4525,12 +4750,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -4547,12 +4774,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -4652,12 +4881,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -4716,12 +4947,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 175,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 175
+      "duration_minutes": 175,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -4759,12 +4992,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -4843,12 +5078,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -4948,12 +5185,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -4970,12 +5209,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 175,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 175
+      "duration_minutes": 175,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -5012,12 +5253,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5054,12 +5297,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5075,12 +5320,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -5096,12 +5343,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5117,12 +5366,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5138,12 +5389,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -5160,12 +5413,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -5181,12 +5436,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5202,12 +5459,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5223,12 +5482,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5244,12 +5505,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5266,12 +5529,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -5293,7 +5558,8 @@
       "direct": true,
       "seasonal": true,
       "duration_minutes": null,
-      "seasonal_months": "Dec–Aug"
+      "seasonal_months": "Dec–Aug",
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -5309,12 +5575,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5330,12 +5598,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5393,12 +5663,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5414,12 +5686,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5457,12 +5731,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -5478,12 +5754,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5542,12 +5820,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 175,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 175
+      "duration_minutes": 175,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -5563,12 +5843,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, Wizz Air"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, airBaltic"
     },
     "note": ""
   },
@@ -5584,12 +5866,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5626,12 +5910,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5669,12 +5955,14 @@
       "direct": true,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -5691,12 +5979,14 @@
       "direct": true,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -5712,12 +6002,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5733,12 +6025,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5775,12 +6069,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 110
+      "duration_minutes": 110,
+      "carrier": "Ryanair, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 110
+      "duration_minutes": 110,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -5797,12 +6093,14 @@
       "direct": true,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -5818,12 +6116,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -5839,12 +6139,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 150
+      "duration_minutes": 150,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -5860,12 +6162,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -5965,12 +6269,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 115
+      "duration_minutes": 115,
+      "carrier": "airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 115
+      "duration_minutes": 115,
+      "carrier": "airBaltic"
     },
     "note": ""
   },
@@ -6155,12 +6461,14 @@
       "direct": true,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -6219,12 +6527,14 @@
       "direct": true,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -6282,12 +6592,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -6366,12 +6678,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -6429,12 +6743,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -6535,12 +6851,14 @@
       "direct": true,
       "seasonal": true,
       "duration_minutes": 175,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 175
+      "duration_minutes": 175,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -6640,12 +6958,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 65
+      "duration_minutes": 65,
+      "carrier": "Ryanair, Scandinavian Airlines"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 65
+      "duration_minutes": 65,
+      "carrier": "Norwegian Air Shuttle, Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -6661,12 +6981,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -6682,12 +7004,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -6703,12 +7027,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 30
+      "duration_minutes": 30,
+      "carrier": "Finnair"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 30
+      "duration_minutes": 30,
+      "carrier": "Finnair, airBaltic"
     },
     "note": ""
   },
@@ -6724,13 +7050,15 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 120
+      "duration_minutes": 120,
+      "carrier": "Wizz Air"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
       "duration_minutes": 120,
-      "seasonal_months": "Dec–Aug"
+      "seasonal_months": "Dec–Aug",
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -6746,12 +7074,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, Wizz Air"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 100
+      "duration_minutes": 100,
+      "carrier": "LOT Polish Airlines, airBaltic"
     },
     "note": ""
   },
@@ -6789,12 +7119,14 @@
       "direct": true,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -6832,12 +7164,14 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr"
+      "seasonal_months": "Feb–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "carrier": "Ryanair"
     },
     "note": ""
   },
@@ -6854,7 +7188,8 @@
       "direct": false,
       "seasonal": true,
       "duration_minutes": 190,
-      "seasonal_months": "Mar–Apr"
+      "seasonal_months": "Mar–Apr",
+      "carrier": "Jet2.com"
     },
     "flightRIX": {
       "direct": false,
@@ -6896,12 +7231,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -6917,12 +7254,14 @@
     "flightTLL": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair, airBaltic"
     },
     "note": ""
   },
@@ -6980,12 +7319,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 180
+      "duration_minutes": 180,
+      "carrier": "Ryanair"
     },
     "note": ""
   }
