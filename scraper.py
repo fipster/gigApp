@@ -29,16 +29,11 @@ BASE_URL = "https://app.ticketmaster.com/discovery/v2"
 """ ARTISTS_CSV = "artists.csv" """
 ARTISTS_CSV = "artists_test.csv"
 SHOWS_JSON = "shows.json"
+COUNTRIES_JSON = "countries.json"
 REQUEST_DELAY = 0.25  # ~4 req/sec, under the 5 req/sec limit
 
-COUNTRY_FLAGS = {
-    "US": "🇺🇸", "GB": "🇬🇧", "NL": "🇳🇱", "ES": "🇪🇸", "DE": "🇩🇪",
-    "FR": "🇫🇷", "IT": "🇮🇹", "PT": "🇵🇹", "BE": "🇧🇪", "SE": "🇸🇪", "NO": "🇳🇴",
-    "DK": "🇩🇰", "FI": "🇫🇮", "EE": "🇪🇪", "LV": "🇱🇻", "LT": "🇱🇹", "PL": "🇵🇱",
-    "CZ": "🇨🇿", "AT": "🇦🇹", "CH": "🇨🇭", "IE": "🇮🇪", "CA": "🇨🇦", "AU": "🇦🇺",
-    "JP": "🇯🇵", "BR": "🇧🇷", "MX": "🇲🇽", "GR": "🇬🇷", "HU": "🇭🇺", "RO": "🇷🇴",
-    "HR": "🇭🇷", "SI": "🇸🇮", "SK": "🇸🇰", "IS": "🇮🇸", "TR": "🇹🇷", "RS": "🇷🇸",
-}
+with open(COUNTRIES_JSON, encoding="utf-8") as f:
+    ALLOWED_COUNTRIES = json.load(f).keys()
 
 
 def load_artists(path):
@@ -92,6 +87,9 @@ def to_show(artist, event):
     venues = (event.get("_embedded") or {}).get("venues") or [{}]
     venue = venues[0]
     country_code = ((venue.get("country") or {}).get("countryCode")) or ""
+    if country_code not in ALLOWED_COUNTRIES:
+        return None
+
     date = ((event.get("dates") or {}).get("start") or {}).get("localDate") or ""
 
     attractions = (event.get("_embedded") or {}).get("attractions") or []
@@ -102,7 +100,6 @@ def to_show(artist, event):
         "date": date,
         "city": venue.get("city", {}).get("name") or "",
         "country": country_code,
-        "flag": COUNTRY_FLAGS.get(country_code, ""),
         "venue": venue.get("name") or "",
         "fest": "FESTIVAL" if is_festival else None,
         "flightTLL": {"direct": False},
@@ -152,6 +149,8 @@ def main():
 
         for event in fetch_events(attraction_id):
             show = to_show(artist, event)
+            if show is None:
+                continue
             key = show_key(show)
             if key in existing_by_key:
                 continue

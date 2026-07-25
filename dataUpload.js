@@ -4,10 +4,15 @@
     // the band dropdown and city filter both build themselves from this list.
 
     let shows = [];
+    let countries = {};
 
     async function loadShows() {
-      const response = await fetch("shows.json");
-      shows = await response.json();
+      const [showsResponse, countriesResponse] = await Promise.all([
+        fetch("shows.json"),
+        fetch("countries.json"),
+      ]);
+      shows = await showsResponse.json();
+      countries = await countriesResponse.json();
 
       buildBandPanel();
       buildCityPanel();
@@ -21,7 +26,9 @@
 
     const monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
     const dowNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
-    const countryNames = { NL: "Netherlands", UK: "United Kingdom", ES: "Spain", FR: "France", BE: "Belgium", DE: "Germany", DK: "Denmark", CZ: "Czechia" };
+
+    function countryFlag(code) { return countries[code]?.flag || ""; }
+    function countryName(code) { return countries[code]?.name || code; }
 
     let bandMode = "include";
     let bandSelection = new Set();
@@ -84,7 +91,7 @@
       shows.forEach(s => {
         if (!byCountry[s.country]) { byCountry[s.country] = []; order.push(s.country); }
         if (!byCountry[s.country].some(c => c.city === s.city)) {
-          byCountry[s.country].push({ city: s.city, flag: s.flag });
+          byCountry[s.country].push({ city: s.city });
         }
         citySelection.add(cityKey(s));
       });
@@ -103,7 +110,7 @@
         countryCb.type = "checkbox";
         countryCb.checked = true;
         countryRow.appendChild(countryCb);
-        countryRow.appendChild(document.createTextNode((cities[0]?.flag || '') + " " + (countryNames[country] || country)));
+        countryRow.appendChild(document.createTextNode(countryFlag(country) + " " + countryName(country)));
         group.appendChild(countryRow);
 
         const cityRows = [];
@@ -215,7 +222,7 @@
           <span class="band-tag ${bandColorClass(s.band, uniqueBands)}">${escapeHtml(s.band)}</span>
           ${s.fest ? `<span class="fest-tag">${escapeHtml(s.fest)}</span>` : ''}
         </div>
-        <div class="city">${s.flag} ${escapeHtml(s.city)}</div>
+        <div class="city">${countryFlag(s.country)} ${escapeHtml(s.city)}</div>
         <div class="venue">${escapeHtml(s.venue)}</div>
         <div class="flights">${flightsHtml}</div>
         ${s.note ? `<div class="estimate-note">${escapeHtml(s.note)}</div>` : ''}

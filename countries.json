@@ -1,0 +1,587 @@
+{
+  "AL": {
+    "name": "Albania",
+    "flag": "🇦🇱",
+    "region": "europe"
+  },
+  "AD": {
+    "name": "Andorra",
+    "flag": "🇦🇩",
+    "region": "europe"
+  },
+  "AT": {
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "region": "europe"
+  },
+  "BY": {
+    "name": "Belarus",
+    "flag": "🇧🇾",
+    "region": "europe"
+  },
+  "BE": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "region": "europe"
+  },
+  "BA": {
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "region": "europe"
+  },
+  "BG": {
+    "name": "Bulgaria",
+    "flag": "🇧🇬",
+    "region": "europe"
+  },
+  "HR": {
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "region": "europe"
+  },
+  "CY": {
+    "name": "Cyprus",
+    "flag": "🇨🇾",
+    "region": "europe"
+  },
+  "CZ": {
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "region": "europe"
+  },
+  "DK": {
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "region": "europe"
+  },
+  "EE": {
+    "name": "Estonia",
+    "flag": "🇪🇪",
+    "region": "europe"
+  },
+  "FI": {
+    "name": "Finland",
+    "flag": "🇫🇮",
+    "region": "europe"
+  },
+  "FR": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "region": "europe"
+  },
+  "DE": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "region": "europe"
+  },
+  "GR": {
+    "name": "Greece",
+    "flag": "🇬🇷",
+    "region": "europe"
+  },
+  "HU": {
+    "name": "Hungary",
+    "flag": "🇭🇺",
+    "region": "europe"
+  },
+  "IS": {
+    "name": "Iceland",
+    "flag": "🇮🇸",
+    "region": "europe"
+  },
+  "IE": {
+    "name": "Ireland",
+    "flag": "🇮🇪",
+    "region": "europe"
+  },
+  "IT": {
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "region": "europe"
+  },
+  "XK": {
+    "name": "Kosovo",
+    "flag": "🇽🇰",
+    "region": "europe"
+  },
+  "LV": {
+    "name": "Latvia",
+    "flag": "🇱🇻",
+    "region": "europe"
+  },
+  "LI": {
+    "name": "Liechtenstein",
+    "flag": "🇱🇮",
+    "region": "europe"
+  },
+  "LT": {
+    "name": "Lithuania",
+    "flag": "🇱🇹",
+    "region": "europe"
+  },
+  "LU": {
+    "name": "Luxembourg",
+    "flag": "🇱🇺",
+    "region": "europe"
+  },
+  "MT": {
+    "name": "Malta",
+    "flag": "🇲🇹",
+    "region": "europe"
+  },
+  "MD": {
+    "name": "Moldova",
+    "flag": "🇲🇩",
+    "region": "europe"
+  },
+  "MC": {
+    "name": "Monaco",
+    "flag": "🇲🇨",
+    "region": "europe"
+  },
+  "ME": {
+    "name": "Montenegro",
+    "flag": "🇲🇪",
+    "region": "europe"
+  },
+  "NL": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "europe"
+  },
+  "MK": {
+    "name": "North Macedonia",
+    "flag": "🇲🇰",
+    "region": "europe"
+  },
+  "NO": {
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "region": "europe"
+  },
+  "PL": {
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "region": "europe"
+  },
+  "PT": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "region": "europe"
+  },
+  "RO": {
+    "name": "Romania",
+    "flag": "🇷🇴",
+    "region": "europe"
+  },
+  "RU": {
+    "name": "Russia",
+    "flag": "🇷🇺",
+    "region": "europe"
+  },
+  "SM": {
+    "name": "San Marino",
+    "flag": "🇸🇲",
+    "region": "europe"
+  },
+  "RS": {
+    "name": "Serbia",
+    "flag": "🇷🇸",
+    "region": "europe"
+  },
+  "SK": {
+    "name": "Slovakia",
+    "flag": "🇸🇰",
+    "region": "europe"
+  },
+  "SI": {
+    "name": "Slovenia",
+    "flag": "🇸🇮",
+    "region": "europe"
+  },
+  "ES": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "region": "europe"
+  },
+  "SE": {
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "region": "europe"
+  },
+  "CH": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "region": "europe"
+  },
+  "UA": {
+    "name": "Ukraine",
+    "flag": "🇺🇦",
+    "region": "europe"
+  },
+  "GB": {
+    "name": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "europe"
+  },
+  "VA": {
+    "name": "Vatican City",
+    "flag": "🇻🇦",
+    "region": "europe"
+  },
+  "DZ": {
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "region": "africa"
+  },
+  "AO": {
+    "name": "Angola",
+    "flag": "🇦🇴",
+    "region": "africa"
+  },
+  "BJ": {
+    "name": "Benin",
+    "flag": "🇧🇯",
+    "region": "africa"
+  },
+  "BW": {
+    "name": "Botswana",
+    "flag": "🇧🇼",
+    "region": "africa"
+  },
+  "BF": {
+    "name": "Burkina Faso",
+    "flag": "🇧🇫",
+    "region": "africa"
+  },
+  "BI": {
+    "name": "Burundi",
+    "flag": "🇧🇮",
+    "region": "africa"
+  },
+  "CV": {
+    "name": "Cabo Verde",
+    "flag": "🇨🇻",
+    "region": "africa"
+  },
+  "CM": {
+    "name": "Cameroon",
+    "flag": "🇨🇲",
+    "region": "africa"
+  },
+  "CF": {
+    "name": "Central African Republic",
+    "flag": "🇨🇫",
+    "region": "africa"
+  },
+  "TD": {
+    "name": "Chad",
+    "flag": "🇹🇩",
+    "region": "africa"
+  },
+  "KM": {
+    "name": "Comoros",
+    "flag": "🇰🇲",
+    "region": "africa"
+  },
+  "CG": {
+    "name": "Congo",
+    "flag": "🇨🇬",
+    "region": "africa"
+  },
+  "CD": {
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "region": "africa"
+  },
+  "CI": {
+    "name": "Cote d'Ivoire",
+    "flag": "🇨🇮",
+    "region": "africa"
+  },
+  "DJ": {
+    "name": "Djibouti",
+    "flag": "🇩🇯",
+    "region": "africa"
+  },
+  "EG": {
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "region": "africa"
+  },
+  "GQ": {
+    "name": "Equatorial Guinea",
+    "flag": "🇬🇶",
+    "region": "africa"
+  },
+  "ER": {
+    "name": "Eritrea",
+    "flag": "🇪🇷",
+    "region": "africa"
+  },
+  "SZ": {
+    "name": "Eswatini",
+    "flag": "🇸🇿",
+    "region": "africa"
+  },
+  "ET": {
+    "name": "Ethiopia",
+    "flag": "🇪🇹",
+    "region": "africa"
+  },
+  "GA": {
+    "name": "Gabon",
+    "flag": "🇬🇦",
+    "region": "africa"
+  },
+  "GM": {
+    "name": "Gambia",
+    "flag": "🇬🇲",
+    "region": "africa"
+  },
+  "GH": {
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "region": "africa"
+  },
+  "GN": {
+    "name": "Guinea",
+    "flag": "🇬🇳",
+    "region": "africa"
+  },
+  "GW": {
+    "name": "Guinea-Bissau",
+    "flag": "🇬🇼",
+    "region": "africa"
+  },
+  "KE": {
+    "name": "Kenya",
+    "flag": "🇰🇪",
+    "region": "africa"
+  },
+  "LS": {
+    "name": "Lesotho",
+    "flag": "🇱🇸",
+    "region": "africa"
+  },
+  "LR": {
+    "name": "Liberia",
+    "flag": "🇱🇷",
+    "region": "africa"
+  },
+  "LY": {
+    "name": "Libya",
+    "flag": "🇱🇾",
+    "region": "africa"
+  },
+  "MG": {
+    "name": "Madagascar",
+    "flag": "🇲🇬",
+    "region": "africa"
+  },
+  "MW": {
+    "name": "Malawi",
+    "flag": "🇲🇼",
+    "region": "africa"
+  },
+  "ML": {
+    "name": "Mali",
+    "flag": "🇲🇱",
+    "region": "africa"
+  },
+  "MR": {
+    "name": "Mauritania",
+    "flag": "🇲🇷",
+    "region": "africa"
+  },
+  "MU": {
+    "name": "Mauritius",
+    "flag": "🇲🇺",
+    "region": "africa"
+  },
+  "MA": {
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "region": "africa"
+  },
+  "MZ": {
+    "name": "Mozambique",
+    "flag": "🇲🇿",
+    "region": "africa"
+  },
+  "NA": {
+    "name": "Namibia",
+    "flag": "🇳🇦",
+    "region": "africa"
+  },
+  "NE": {
+    "name": "Niger",
+    "flag": "🇳🇪",
+    "region": "africa"
+  },
+  "NG": {
+    "name": "Nigeria",
+    "flag": "🇳🇬",
+    "region": "africa"
+  },
+  "RW": {
+    "name": "Rwanda",
+    "flag": "🇷🇼",
+    "region": "africa"
+  },
+  "ST": {
+    "name": "Sao Tome and Principe",
+    "flag": "🇸🇹",
+    "region": "africa"
+  },
+  "SN": {
+    "name": "Senegal",
+    "flag": "🇸🇳",
+    "region": "africa"
+  },
+  "SC": {
+    "name": "Seychelles",
+    "flag": "🇸🇨",
+    "region": "africa"
+  },
+  "SL": {
+    "name": "Sierra Leone",
+    "flag": "🇸🇱",
+    "region": "africa"
+  },
+  "SO": {
+    "name": "Somalia",
+    "flag": "🇸🇴",
+    "region": "africa"
+  },
+  "ZA": {
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "region": "africa"
+  },
+  "SS": {
+    "name": "South Sudan",
+    "flag": "🇸🇸",
+    "region": "africa"
+  },
+  "SD": {
+    "name": "Sudan",
+    "flag": "🇸🇩",
+    "region": "africa"
+  },
+  "TZ": {
+    "name": "Tanzania",
+    "flag": "🇹🇿",
+    "region": "africa"
+  },
+  "TG": {
+    "name": "Togo",
+    "flag": "🇹🇬",
+    "region": "africa"
+  },
+  "TN": {
+    "name": "Tunisia",
+    "flag": "🇹🇳",
+    "region": "africa"
+  },
+  "UG": {
+    "name": "Uganda",
+    "flag": "🇺🇬",
+    "region": "africa"
+  },
+  "ZM": {
+    "name": "Zambia",
+    "flag": "🇿🇲",
+    "region": "africa"
+  },
+  "ZW": {
+    "name": "Zimbabwe",
+    "flag": "🇿🇼",
+    "region": "africa"
+  },
+  "AM": {
+    "name": "Armenia",
+    "flag": "🇦🇲",
+    "region": "middle_east"
+  },
+  "AZ": {
+    "name": "Azerbaijan",
+    "flag": "🇦🇿",
+    "region": "middle_east"
+  },
+  "BH": {
+    "name": "Bahrain",
+    "flag": "🇧🇭",
+    "region": "middle_east"
+  },
+  "GE": {
+    "name": "Georgia",
+    "flag": "🇬🇪",
+    "region": "middle_east"
+  },
+  "IQ": {
+    "name": "Iraq",
+    "flag": "🇮🇶",
+    "region": "middle_east"
+  },
+  "IL": {
+    "name": "Israel",
+    "flag": "🇮🇱",
+    "region": "middle_east"
+  },
+  "JO": {
+    "name": "Jordan",
+    "flag": "🇯🇴",
+    "region": "middle_east"
+  },
+  "KW": {
+    "name": "Kuwait",
+    "flag": "🇰🇼",
+    "region": "middle_east"
+  },
+  "LB": {
+    "name": "Lebanon",
+    "flag": "🇱🇧",
+    "region": "middle_east"
+  },
+  "OM": {
+    "name": "Oman",
+    "flag": "🇴🇲",
+    "region": "middle_east"
+  },
+  "PS": {
+    "name": "Palestine",
+    "flag": "🇵🇸",
+    "region": "middle_east"
+  },
+  "QA": {
+    "name": "Qatar",
+    "flag": "🇶🇦",
+    "region": "middle_east"
+  },
+  "SA": {
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "region": "middle_east"
+  },
+  "SY": {
+    "name": "Syria",
+    "flag": "🇸🇾",
+    "region": "middle_east"
+  },
+  "TR": {
+    "name": "Turkey",
+    "flag": "🇹🇷",
+    "region": "middle_east"
+  },
+  "AE": {
+    "name": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "region": "middle_east"
+  },
+  "YE": {
+    "name": "Yemen",
+    "flag": "🇾🇪",
+    "region": "middle_east"
+  }
+}
