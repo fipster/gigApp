@@ -1,0 +1,14 @@
+{
+  "Suffolk": { "TLL_hub": "London", "RIX_hub": "London" },
+  "Biddinghuizen": { "TLL_hub": "Amsterdam", "RIX_hub": "Amsterdam" },
+  "Portlaw": { "TLL_hub": "Dublin", "RIX_hub": "Dublin" },
+  "Liverpool": {
+    "TLL_hub": "London", "RIX_hub": "Manchester",
+    "TLL_direct": false, "RIX_direct": false
+  },
+  "Reading": { "TLL_hub": "London", "RIX_hub": "London" },
+  "Miranda de Ebro": {
+    "TLL_hub": "Madrid", "RIX_hub": "Madrid",
+    "TLL_direct": false, "RIX_direct": false
+  }
+}

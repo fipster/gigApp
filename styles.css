@@ -344,10 +344,6 @@
       min-height: 96px;
     }
 
-    .stub.dim {
-      opacity: .45;
-    }
-
     .stub::before {
       content: "";
       position: absolute;
@@ -462,6 +458,18 @@
       color: #5c554d;
     }
 
+    .city a, .venue a,
+    .city a:visited, .venue a:visited,
+    .city a:hover, .venue a:hover,
+    .city a:active, .venue a:active {
+      color: inherit;
+      text-decoration: underline dotted;
+    }
+
+    .city a:hover, .venue a:hover {
+      text-decoration: underline solid;
+    }
+
     .flights {
       margin-top: 10px;
       display: flex;
@@ -481,13 +489,7 @@
     }
 
     .flight-pill.none {
-      color: var(--grey);
-      border-color: var(--line);
-      font-style: italic;
-    }
-
-    .flight-pill b {
-      font-weight: 700;
+      opacity: .45;
     }
 
     .airport-badge {
@@ -496,6 +498,14 @@
       color: var(--paper);
       padding: 1px 5px;
       font-size: 9.5px;
+    }
+
+    .flight-duration {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--grey);
+      margin-left: auto;
+      align-self: center;
     }
 
     .estimate-note {

@@ -1,0 +1,1482 @@
+{
+  "gathered_on": "2026-07-25",
+  "_generation_notes": {
+    "purpose": "Nonstop destinations from Tallinn (TLL) and Riga (RIX), with flight duration and seasonal-route info, used by scraper.py to populate flightTLL/flightRIX on each show.",
+    "sources": {
+      "wikipedia": [
+        "https://en.wikipedia.org/wiki/Riga_International_Airport",
+        "https://en.wikipedia.org/wiki/Tallinn_Airport"
+      ],
+      "flightconnections": [
+        "https://www.flightconnections.com/flights-from-tallinn-tll",
+        "https://www.flightconnections.com/flights-from-riga-rix"
+      ]
+    },
+    "precedence_rule": "On conflict, Wikipedia's Regular/Seasonal classification for a route is authoritative for the `seasonal` boolean (Wikipedia's airport destination tables are maintained and don't show the false-seasonal artifacts flightconnections.com's data can have). flightconnections.com is used only for `duration_minutes` (reliable, stable) and, when both sources agree a route is seasonal, for the specific `seasonal_months` range.",
+    "why_flightconnections_seasonal_flag_is_not_trusted": "flightconnections.com's per-destination `mths` bitmask appears to reflect whatever schedule window is currently loaded in their system rather than a route's true recurring season — e.g. it showed Tallinn-Dublin as seasonal (Dec-Aug) despite Wikipedia confirming Ryanair's TLL-Dublin route is year-round. Do not trust its seasonal boolean standalone.",
+    "flightconnections_api_technique": {
+      "description": "flightconnections.com renders as a JS map with no accessible destination list, but the underlying data loads from a JSON endpoint visible in the network tab.",
+      "endpoint_pattern": "https://www.flightconnections.com/rt<AIRPORT_ID>.json?v=<version>&lang=en&f=no0&direction=from&...",
+      "airport_ids": {
+        "TLL": 294,
+        "RIX": 256
+      },
+      "how_to_find_airport_id": "Navigate to https://www.flightconnections.com/flights-from-<city>-<iata> in a real browser, open network requests, look for the rtNNN.json call.",
+      "response_shape": {
+        "lst": "array of [IATA, city, countryCode, countryName, durationMinutes(string), distanceKm(string), classCode] for each nonstop destination",
+        "mths": "array of 12-bit integer bitmasks, one per destination PLUS a leading 0 for the origin itself (so mths[1:] aligns with lst[0:]); 4095 = all 12 bits set = year-round; any other non-zero value = seasonal with only some months' bits set"
+      },
+      "month_bit_decoding": {
+        "formula": "for bit index i in 0..11: calendar_month = (BIT0_MONTH + i) % 12, where BIT0_MONTH = 2 (March, 0-indexed Jan=0)",
+        "calibration_evidence": "Verified against two Wikipedia-confirmed exact route-start dates: Riga–Kuusamo 'begins 11 December 2026' decodes to Dec–Mar under this formula (December included, consistent with a Dec-11 start); Riga–Turin 'begins 30 January 2027' decodes to Dec–Feb (January included). This is empirical calibration, not from official documentation — re-verify if the site's data format changes.",
+        "caveat": "Even with correct bit decoding, treat flightconnections' seasonal date ranges as approximate hints only, per precedence_rule above — they can reflect data-loading gaps rather than true seasonality."
+      }
+    },
+    "city_normalization": "Both sources' destination names are normalized by stripping airport disambiguation (e.g. 'Rome–Fiumicino' / 'Rome (Fiumicino)' → 'Rome', 'London–Gatwick' / 'London Gatwick' → 'London') so they key consistently and match the plain city names Ticketmaster returns for venues.",
+    "how_to_refresh": "Re-fetch the two Wikipedia pages' 'Airlines and destinations' tables, and re-fetch both rtNNN.json endpoints (ids above, or re-derive via network tab if flightconnections changes airport IDs), then re-run the precedence_rule merge above. Update `gathered_on` to the new date."
+  },
+  "destinations": {
+    "Aarhus": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 95
+      }
+    },
+    "Aberdeen": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 155,
+        "seasonal_months": "Jul–Aug"
+      }
+    },
+    "Alicante": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 255
+      }
+    },
+    "Amsterdam": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 150
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 140
+      }
+    },
+    "Antalya": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 225,
+        "seasonal_months": "Dec–Aug"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 225,
+        "seasonal_months": "May–Aug"
+      }
+    },
+    "Athens": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 215
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 195
+      }
+    },
+    "Barcelona": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 240
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 220
+      }
+    },
+    "Batumi": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 240,
+        "seasonal_months": "Jun–Aug"
+      }
+    },
+    "Belgrade": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 130
+      }
+    },
+    "Bergamo": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Bergen": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 120
+      }
+    },
+    "Berlin": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 110
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 100
+      }
+    },
+    "Billund": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 105,
+        "seasonal_months": "Jul–Sep"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 100
+      }
+    },
+    "Birmingham": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 190,
+        "seasonal_months": "Mar–Apr"
+      },
+      "RIX": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Bodrum": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Brussels": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 160
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 145
+      }
+    },
+    "Bucharest": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 145
+      }
+    },
+    "Budapest": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 140
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 115
+      }
+    },
+    "Burgas": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 220,
+        "seasonal_months": "Jun–Sep"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 160,
+        "seasonal_months": "Jun–Oct"
+      }
+    },
+    "Catania": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 210,
+        "seasonal_months": "May–Dec"
+      }
+    },
+    "Charleroi": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Chișinău": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 145
+      }
+    },
+    "Cologne": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 135,
+        "seasonal_months": "May–Aug"
+      }
+    },
+    "Cologne/Bonn": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      }
+    },
+    "Copenhagen": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 100
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 90
+      }
+    },
+    "Corfu": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 175,
+        "seasonal_months": "May–Oct"
+      }
+    },
+    "Dubai": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 400
+      }
+    },
+    "Dublin": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 195
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 190
+      }
+    },
+    "Dubrovnik": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      }
+    },
+    "Düsseldorf": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 150,
+        "seasonal_months": "May–Aug"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 130
+      }
+    },
+    "East Midlands": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Edinburgh": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 175,
+        "seasonal_months": "Mar–Apr"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 170
+      }
+    },
+    "Enfidha": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      }
+    },
+    "Faro": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 295
+      }
+    },
+    "Frankfurt": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 150
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 140
+      }
+    },
+    "Funchal": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 365,
+        "seasonal_months": "Dec–May"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 355,
+        "seasonal_months": "Dec–May"
+      }
+    },
+    "Gdańsk": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 85
+      },
+      "RIX": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Geneva": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 185,
+        "seasonal_months": "Dec–Mar"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 170,
+        "seasonal_months": "Dec–Mar"
+      }
+    },
+    "Gothenburg": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 85
+      }
+    },
+    "Gran Canaria": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 385,
+        "seasonal_months": "Nov–May"
+      }
+    },
+    "Hamburg": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 115
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 110
+      }
+    },
+    "Helsinki": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 30
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 60
+      }
+    },
+    "Heraklion": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 245,
+        "seasonal_months": "May–Oct"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 210,
+        "seasonal_months": "May–Nov"
+      }
+    },
+    "Hurghada": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 300,
+        "seasonal_months": "Dec–May"
+      }
+    },
+    "Innsbruck": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 145,
+        "seasonal_months": "Dec–Mar"
+      }
+    },
+    "Istanbul": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 215
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 190
+      }
+    },
+    "Kaunas": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Kittilä": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      }
+    },
+    "Krakow": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 120
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 95,
+        "seasonal_months": "Dec–Aug"
+      }
+    },
+    "Kraków": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Kuressaare": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 40
+      },
+      "RIX": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Kuusamo": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 110,
+        "seasonal_months": "Dec–Mar"
+      }
+    },
+    "Kärdla": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 30
+      },
+      "RIX": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Lamezia Terme": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      }
+    },
+    "Larnaca": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 240
+      }
+    },
+    "Leeds / Bradford": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 190,
+        "seasonal_months": "Mar–Apr"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 170,
+        "seasonal_months": "Dec–Aug"
+      }
+    },
+    "Leeds/Bradford": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Lisbon": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 280
+      }
+    },
+    "Ljubljana": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 135
+      }
+    },
+    "London": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 180
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 165
+      }
+    },
+    "Madrid": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 250
+      }
+    },
+    "Malta": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 245,
+        "seasonal_months": "May–Oct"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 215
+      }
+    },
+    "Manchester": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 195,
+        "seasonal_months": "Feb–Apr"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 180
+      }
+    },
+    "Marrakesh": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      }
+    },
+    "Memmingen": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 145
+      }
+    },
+    "Milan": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 185
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 165
+      }
+    },
+    "Munich": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 150
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 130
+      }
+    },
+    "Málaga": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 290
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 280
+      }
+    },
+    "Naples": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 185,
+        "seasonal_months": "May–Oct"
+      }
+    },
+    "Nice": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 205
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 185
+      }
+    },
+    "Nottingham": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 170,
+        "seasonal_months": "Dec–Aug"
+      }
+    },
+    "Olbia": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 200,
+        "seasonal_months": "Jun–Oct"
+      }
+    },
+    "Oslo": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 90
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 90
+      }
+    },
+    "Oulu": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 100
+      }
+    },
+    "Palanga": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 40
+      }
+    },
+    "Palma de Mallorca": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 245,
+        "seasonal_months": "May–Nov"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 230,
+        "seasonal_months": "May–Nov"
+      }
+    },
+    "Paphos": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 235
+      }
+    },
+    "Paris": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 180
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 170
+      }
+    },
+    "Patras": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      }
+    },
+    "Pisa": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 165,
+        "seasonal_months": "May–Nov"
+      }
+    },
+    "Porto": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 265,
+        "seasonal_months": "May–Dec"
+      }
+    },
+    "Prague": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 130,
+        "seasonal_months": "May–Aug"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 110
+      }
+    },
+    "Reykjavik": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 235
+      }
+    },
+    "Reykjavík": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Rhodes": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 240,
+        "seasonal_months": "May–Nov"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 210,
+        "seasonal_months": "May–Oct"
+      }
+    },
+    "Riga": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 50
+      },
+      "RIX": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Rome": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 210
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 185
+      }
+    },
+    "Salzburg": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 150,
+        "seasonal_months": "Dec–Mar"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      }
+    },
+    "Sandefjord": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Sharm El Sheikh": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      }
+    },
+    "Sharm el-Sheikh": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 295,
+        "seasonal_months": "Nov–May"
+      }
+    },
+    "Sofia": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 155
+      }
+    },
+    "Split": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 175,
+        "seasonal_months": "May–Sep"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 155,
+        "seasonal_months": "May–Oct"
+      }
+    },
+    "Stockholm": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 65
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 70
+      }
+    },
+    "Tallinn": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 50
+      }
+    },
+    "Tampere": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 65
+      }
+    },
+    "Tashkent": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 330
+      }
+    },
+    "Tbilisi": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 265
+      }
+    },
+    "Tel Aviv": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 250
+      }
+    },
+    "Tenerife": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 410
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 400
+      }
+    },
+    "Thessaloniki": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 170,
+        "seasonal_months": "May–Oct"
+      }
+    },
+    "Tirana": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 185,
+        "seasonal_months": "May–Aug"
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 160,
+        "seasonal_months": "May–Oct"
+      }
+    },
+    "Tivat": {
+      "TLL": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 160,
+        "seasonal_months": "May–Oct"
+      }
+    },
+    "Treviso": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Trondheim": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 105
+      }
+    },
+    "Turin": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 175,
+        "seasonal_months": "Dec–Feb"
+      }
+    },
+    "Turku": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 65
+      }
+    },
+    "Valencia": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 240,
+        "seasonal_months": "May–Nov"
+      }
+    },
+    "Venice": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 180
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 155,
+        "seasonal_months": "May–Aug"
+      }
+    },
+    "Verona": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": true,
+        "duration_minutes": 160,
+        "seasonal_months": "Dec–Mar"
+      }
+    },
+    "Vienna": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 150
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 120
+      }
+    },
+    "Vilnius": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 70
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 50
+      }
+    },
+    "Warsaw": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 100
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 75
+      }
+    },
+    "Yerevan": {
+      "TLL": {
+        "direct": false,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 240
+      }
+    },
+    "Zurich": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": null
+      }
+    },
+    "Zürich": {
+      "TLL": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 170
+      },
+      "RIX": {
+        "direct": true,
+        "seasonal": false,
+        "duration_minutes": 155
+      }
+    }
+  }
+}

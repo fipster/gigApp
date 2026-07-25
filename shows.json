@@ -6,11 +6,17 @@
     "country": "IE",
     "venue": "Curraghmore House",
     "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05",
     "flightTLL": {
-      "direct": false
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
     },
     "flightRIX": {
-      "direct": false
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
     },
     "note": ""
   },
@@ -21,11 +27,17 @@
     "country": "NL",
     "venue": "Evenemententerrein Walibi",
     "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/lowlands-2026-festivalticket-tickets/1050736969?language=en-us",
     "flightTLL": {
-      "direct": false
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
     },
     "flightRIX": {
-      "direct": false
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
     },
     "note": ""
   },
@@ -36,11 +48,17 @@
     "country": "GB",
     "venue": "Liverpool Olympia",
     "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/50-years-of-rough-trade-presents-viagra-boys-tickets-ZMWL8S?ref=ticketmaster",
     "flightTLL": {
-      "direct": false
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 180
     },
     "flightRIX": {
-      "direct": false
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 180
     },
     "note": ""
   },
@@ -51,11 +69,17 @@
     "country": "GB",
     "venue": "Richfield Avenue",
     "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/reading-festival-2026-saturday-reading-29-08-2026/event/370063493D42C886",
     "flightTLL": {
-      "direct": false
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
     },
     "flightRIX": {
-      "direct": false
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
     },
     "note": ""
   }

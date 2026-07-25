@@ -31,10 +31,39 @@ BASE_URL = "https://app.ticketmaster.com/discovery/v2"
 ARTISTS_CSV = "artists_test.csv"
 SHOWS_JSON = "shows.json"
 COUNTRIES_JSON = "countries.json"
+DIRECT_FLIGHTS_JSON = "direct_flights.json"
+CITY_HUB_OVERRIDES_JSON = "city_hub_overrides.json"
 REQUEST_DELAY = 0.25  # ~4 req/sec, under the 5 req/sec limit
 
 with open(COUNTRIES_JSON, encoding="utf-8") as f:
     ALLOWED_COUNTRIES = json.load(f).keys()
+
+with open(DIRECT_FLIGHTS_JSON, encoding="utf-8") as f:
+    DIRECT_FLIGHTS = json.load(f)["destinations"]
+
+if os.path.exists(CITY_HUB_OVERRIDES_JSON):
+    with open(CITY_HUB_OVERRIDES_JSON, encoding="utf-8") as f:
+        CITY_HUB_OVERRIDES = json.load(f)
+else:
+    CITY_HUB_OVERRIDES = {}
+
+NO_DIRECT = {"direct": False, "seasonal": False, "duration_minutes": None}
+
+
+def flight_info(city, origin):
+    override = CITY_HUB_OVERRIDES.get(city, {})
+    hub = override.get(f"{origin}_hub", city)
+    info = dict(DIRECT_FLIGHTS.get(hub, {}).get(origin, NO_DIRECT))
+    forced = override.get(f"{origin}_direct")
+    if forced is not None:
+        info["direct"] = forced
+
+    # RIX and TLL durations are close enough that we only track one number;
+    # always report TLL's duration regardless of which origin this is for.
+    tll_hub = override.get("TLL_hub", city)
+    info["duration_minutes"] = DIRECT_FLIGHTS.get(tll_hub, {}).get("TLL", NO_DIRECT)["duration_minutes"]
+
+    return info
 
 
 def load_artists(path):
@@ -98,16 +127,20 @@ def to_show(artist, event):
     attractions = (event.get("_embedded") or {}).get("attractions") or []
     is_festival = len(attractions) > 3 or "festival" in event.get("name", "").lower()
 
+    city = venue.get("city", {}).get("name") or ""
+
     return {
         "band": artist,
         "date": event_date,
-        "city": venue.get("city", {}).get("name") or "",
+        "city": city,
         "country": country_code,
         "venue": venue.get("name") or "",
         "fest": "FESTIVAL" if is_festival else None,
-        "flightTLL": {"direct": False},
-        "flightRIX": {"direct": False},
-        "note": "",
+        "source": "Ticketmaster",
+        "url": event.get("url") or "",
+        "flightTLL": flight_info(city, "TLL"),
+        "flightRIX": flight_info(city, "RIX"),
+        "note": CITY_HUB_OVERRIDES.get(city, {}).get("note", ""),
     }
 
 

@@ -7,12 +7,19 @@
     let countries = {};
 
     async function loadShows() {
-      const [showsResponse, countriesResponse] = await Promise.all([
+      const [showsResponse, countriesResponse, flightsResponse] = await Promise.all([
         fetch("shows.json"),
         fetch("countries.json"),
+        fetch("direct_flights.json"),
       ]);
       shows = await showsResponse.json();
       countries = await countriesResponse.json();
+      const flightsData = await flightsResponse.json();
+
+      const sub = document.querySelector('.sub');
+      if (sub && flightsData.gathered_on) {
+        sub.insertAdjacentHTML('beforeend', `<br>Flight info gathered on: ${flightsData.gathered_on}`);
+      }
 
       buildBandPanel();
       buildCityPanel();
@@ -49,6 +56,10 @@
       const div = document.createElement('div');
       div.textContent = str;
       return div.innerHTML;
+    }
+
+    function escapeAttr(str) {
+      return escapeHtml(str).replace(/"/g, '&quot;');
     }
 
     function formatWindowLabel(from, to) {
@@ -158,9 +169,23 @@
       return true;
     }
 
-    function flightPillHtml(originLabel, f) {
-      if (!f.direct) return `<div class="flight-pill none"><span class="airport-badge">${originLabel}</span> no direct flight</div>`;
-      return `<div class="flight-pill"><span class="airport-badge">${originLabel}</span> <b>direct flight</b></div>`;
+    function formatDuration(minutes) {
+      if (!minutes && minutes !== 0) return "";
+      const h = Math.floor(minutes / 60);
+      const m = minutes % 60;
+      return h > 0 ? `${h}h ${m}m` : `${m}m`;
+    }
+
+    function flightPillHtml(originLabel, direct) {
+      return `<div class="flight-pill${direct ? "" : " none"}"><span class="airport-badge">${originLabel}</span></div>`;
+    }
+
+    function flightSummaryHtml(s) {
+      if (!s.flightTLL.direct && !s.flightRIX.direct) return "";
+      const duration = formatDuration(s.flightTLL.duration_minutes);
+      if (!duration) return "";
+      const seasonal = s.flightTLL.seasonal ? ` (seasonal${s.flightTLL.seasonal_months ? `, ${s.flightTLL.seasonal_months}` : ""})` : "";
+      return `<span class="flight-duration">${duration}${seasonal}</span>`;
     }
 
     function render() {
@@ -208,12 +233,12 @@
         }
 
         const stub = document.createElement('div');
-        const dim = !hasDirectForSelection(s);
-        stub.className = "stub" + (dim ? " dim" : "");
+        stub.className = "stub";
 
         let flightsHtml = "";
-        if (activeOrigin === "all" || activeOrigin === "TLL") flightsHtml += flightPillHtml("TLL", s.flightTLL);
-        if (activeOrigin === "all" || activeOrigin === "RIX") flightsHtml += flightPillHtml("RIX", s.flightRIX);
+        if (activeOrigin === "all" || activeOrigin === "TLL") flightsHtml += flightPillHtml("TLL", s.flightTLL.direct);
+        if (activeOrigin === "all" || activeOrigin === "RIX") flightsHtml += flightPillHtml("RIX", s.flightRIX.direct);
+        flightsHtml += flightSummaryHtml(s);
 
         stub.innerHTML = `
       <div class="stub-dot"></div>
@@ -227,8 +252,8 @@
           <span class="band-tag ${bandColorClass(s.band, uniqueBands)}">${escapeHtml(s.band)}</span>
           ${s.fest ? `<span class="fest-tag">${escapeHtml(s.fest)}</span>` : ''}
         </div>
-        <div class="city">${countryFlag(s.country)} ${escapeHtml(s.city)}</div>
-        <div class="venue">${escapeHtml(s.venue)}</div>
+        <div class="city">${s.url ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${countryFlag(s.country)} ${escapeHtml(s.city)}</a>` : `${countryFlag(s.country)} ${escapeHtml(s.city)}`}</div>
+        <div class="venue">${s.url ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.venue)}</a>` : escapeHtml(s.venue)}</div>
         <div class="flights">${flightsHtml}</div>
         ${s.note ? `<div class="estimate-note">${escapeHtml(s.note)}</div>` : ''}
       </div>
