@@ -38,6 +38,7 @@
         <details class="city-filter" id="bandFilterDetails">
           <summary><span class="filter-count" id="bandFilterCount"></span> ▾</summary>
           <div class="city-filter-panel">
+            <input type="text" class="filter-search" id="bandSearchInput" placeholder="search bands…">
             <div class="row mode-row">
               <div class="chip acid active" data-bandmode="include">SHOW SELECTED</div>
               <div class="chip acid" data-bandmode="exclude">HIDE SELECTED</div>
@@ -60,6 +61,7 @@
         <details class="city-filter" id="cityFilterDetails">
           <summary><span class="filter-count" id="cityFilterCount"></span> ▾</summary>
           <div class="city-filter-panel">
+            <input type="text" class="filter-search" id="citySearchInput" placeholder="search cities…">
             <div class="row mode-row">
               <div class="chip acid active" data-mode="include">SHOW SELECTED</div>
               <div class="chip acid" data-mode="exclude">HIDE SELECTED</div>
@@ -85,9 +87,7 @@
     <div class="route" id="route"></div>
 
     <footer>
-      ※ "Direct flight" = a non-stop route exists from that airport as of the last check. No direct means you'd connect
-      through a hub city instead.<br>
-      ※ Flight status is not live — verify closer to your travel date.
+      copyright © 2015. hand-vibed
     </footer>
   </div>
 

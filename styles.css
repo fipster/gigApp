@@ -39,7 +39,7 @@
       background: var(--card);
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
+      align-items: center;
       gap: 24px;
     }
 
@@ -61,10 +61,7 @@
       height: 240px;
       object-fit: cover;
       flex-shrink: 0;
-      border: 3px solid var(--ink);
-      box-shadow: 6px 6px 0 var(--ink);
-      transform: rotate(3deg);
-      margin: 6px 14px 0 0;
+      margin-right: 14px;
     }
 
     @media (max-width:520px) {
@@ -279,6 +276,17 @@
       box-shadow: 4px 4px 0 var(--ink);
     }
 
+    .filter-search {
+      width: 100%;
+      box-sizing: border-box;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      padding: 6px 8px;
+      border: 2px solid var(--ink);
+      background: var(--paper);
+      margin-bottom: 8px;
+    }
+
     .mode-row {
       margin-bottom: 8px;
       padding-bottom: 8px;
@@ -443,6 +451,8 @@
       padding: 3px 8px;
       border: 1.5px solid var(--ink);
       display: inline-block;
+      text-decoration: none;
+      color: inherit;
     }
 
     .band-tag.b0 {

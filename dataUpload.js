@@ -100,6 +100,7 @@
         const cb = document.createElement('input');
         cb.type = "checkbox";
         cb.checked = true;
+        cb.dataset.band = band;
         row.appendChild(cb);
         row.appendChild(document.createTextNode(band));
         container.appendChild(row);
@@ -148,6 +149,7 @@
           const cityCb = document.createElement('input');
           cityCb.type = "checkbox";
           cityCb.checked = true;
+          cityCb.dataset.key = key;
           cityRow.appendChild(cityCb);
           cityRow.appendChild(document.createTextNode(c.city));
           group.appendChild(cityRow);
@@ -194,7 +196,7 @@
       if (!s.flightTLL.direct && !s.flightRIX.direct) return "";
       const duration = formatDuration(s.flightTLL.duration_minutes);
       if (!duration) return "";
-      const seasonal = s.flightTLL.seasonal ? ` (seasonal${s.flightTLL.seasonal_months ? `, ${s.flightTLL.seasonal_months}` : ""})` : "";
+      const seasonal = s.flightTLL.seasonal ? " (seasonal)" : "";
       return `<span class="flight-duration">${duration}${seasonal}</span>`;
     }
 
@@ -264,7 +266,7 @@
       </div>
       <div class="stub-body">
         <div class="stub-top">
-          <span class="band-tag ${bandColorClass(s.band, uniqueBands)}">${escapeHtml(s.band)}</span>
+          <a class="band-tag ${bandColorClass(s.band, uniqueBands)}" href="${escapeAttr("https://music.youtube.com/search?q=" + encodeURIComponent(s.band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.band)}</a>
           ${s.fest ? `<span class="fest-tag">${escapeHtml(s.fest)}</span>` : ''}
         </div>
         <div class="city">${s.url ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${countryFlag(s.country)} ${escapeHtml(s.city)}</a>` : `${countryFlag(s.country)} ${escapeHtml(s.city)}`}</div>
@@ -278,6 +280,40 @@
     }
 
     // ---- EVENT WIRING ----
+    document.getElementById('bandSearchInput').addEventListener('input', (e) => {
+      const term = e.target.value.trim().toLowerCase();
+      document.querySelectorAll('#bandCheckboxList .city-row').forEach(row => {
+        const cb = row.querySelector('input[type=checkbox]');
+        const matches = cb.dataset.band.toLowerCase().includes(term);
+        row.style.display = matches ? "" : "none";
+        cb.checked = matches;
+        if (matches) bandSelection.add(cb.dataset.band); else bandSelection.delete(cb.dataset.band);
+      });
+      render();
+    });
+
+    document.getElementById('citySearchInput').addEventListener('input', (e) => {
+      const term = e.target.value.trim().toLowerCase();
+      document.querySelectorAll('#cityCheckboxList .country-group').forEach(group => {
+        const countryRow = group.querySelector('.country-row');
+        const countryCb = countryRow.querySelector('input[type=checkbox]');
+        const cityRows = [...group.querySelectorAll('.city-row')];
+        const countryMatches = countryRow.textContent.toLowerCase().includes(term);
+        let anyCityMatches = false;
+        cityRows.forEach(row => {
+          const cb = row.querySelector('input[type=checkbox]');
+          const matches = countryMatches || row.textContent.toLowerCase().includes(term);
+          row.style.display = matches ? "" : "none";
+          cb.checked = matches;
+          if (matches) { citySelection.add(cb.dataset.key); anyCityMatches = true; }
+          else citySelection.delete(cb.dataset.key);
+        });
+        group.style.display = (countryMatches || anyCityMatches) ? "" : "none";
+        countryCb.checked = cityRows.every(row => row.querySelector('input[type=checkbox]').checked);
+      });
+      render();
+    });
+
     document.querySelectorAll('.chip[data-filter="origin"]').forEach(chip => {
       chip.addEventListener('click', () => {
         chip.classList.toggle('active');
