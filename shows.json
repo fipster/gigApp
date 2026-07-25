@@ -11,12 +11,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
     },
     "note": ""
   },
@@ -32,12 +34,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Oxfordshire"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Oxfordshire"
     },
     "note": ""
   },
@@ -53,12 +57,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dorset"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dorset"
     },
     "note": ""
   },
@@ -75,13 +81,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -97,12 +105,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wroclaw"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wroclaw"
     },
     "note": ""
   },
@@ -119,13 +129,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -141,12 +153,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Halifax"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Halifax"
     },
     "note": ""
   },
@@ -163,13 +177,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -186,13 +202,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -209,13 +227,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -231,12 +251,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "note": ""
   },
@@ -253,13 +275,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -275,12 +299,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dorset"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dorset"
     },
     "note": ""
   },
@@ -296,12 +322,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Halifax"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Halifax"
     },
     "note": ""
   },
@@ -317,12 +345,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
     },
     "note": ""
   },
@@ -339,13 +369,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -361,12 +393,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Scarborough"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Scarborough"
     },
     "note": ""
   },
@@ -383,13 +417,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -406,13 +442,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -428,12 +466,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "note": ""
   },
@@ -449,12 +489,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "note": ""
   },
@@ -470,12 +512,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Heidelberg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Heidelberg"
     },
     "note": ""
   },
@@ -492,13 +536,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -514,12 +560,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milton Keynes"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milton Keynes"
     },
     "note": ""
   },
@@ -535,12 +583,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milton Keynes"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milton Keynes"
     },
     "note": ""
   },
@@ -556,12 +606,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Praha 7"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Praha 7"
     },
     "note": ""
   },
@@ -577,12 +629,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Poznan"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Poznan"
     },
     "note": ""
   },
@@ -598,12 +652,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sestri Levante"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sestri Levante"
     },
     "note": ""
   },
@@ -620,13 +676,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -643,13 +701,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 110,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Berlin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 110,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Berlin"
     },
     "note": ""
   },
@@ -665,12 +725,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "note": ""
   },
@@ -686,12 +748,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "note": ""
   },
@@ -707,12 +771,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "note": ""
   },
@@ -728,12 +794,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "note": ""
   },
@@ -749,12 +817,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "note": ""
   },
@@ -770,12 +840,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "note": ""
   },
@@ -791,12 +863,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Göteborg"
     },
     "note": ""
   },
@@ -813,13 +887,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 30,
-      "carrier": "Finnair"
+      "carrier": "Finnair",
+      "hub_city": "Helsinki"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 30,
-      "carrier": "Finnair, airBaltic"
+      "carrier": "Finnair, airBaltic",
+      "hub_city": "Helsinki"
     },
     "note": ""
   },
@@ -836,13 +912,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 30,
-      "carrier": "Finnair"
+      "carrier": "Finnair",
+      "hub_city": "Helsinki"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 30,
-      "carrier": "Finnair, airBaltic"
+      "carrier": "Finnair, airBaltic",
+      "hub_city": "Helsinki"
     },
     "note": ""
   },
@@ -858,12 +936,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bonn"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bonn"
     },
     "note": ""
   },
@@ -880,13 +960,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -902,12 +984,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Segrate (Milano)"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Segrate (Milano)"
     },
     "note": ""
   },
@@ -924,13 +1008,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -947,13 +1033,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 65,
-      "carrier": "Ryanair, Scandinavian Airlines"
+      "carrier": "Ryanair, Scandinavian Airlines",
+      "hub_city": "Stockholm"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 65,
-      "carrier": "Norwegian Air Shuttle, Ryanair, airBaltic"
+      "carrier": "Norwegian Air Shuttle, Ryanair, airBaltic",
+      "hub_city": "Stockholm"
     },
     "note": ""
   },
@@ -970,13 +1058,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -993,13 +1083,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -1016,13 +1108,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -1039,13 +1133,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -1062,13 +1158,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -1085,13 +1183,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1108,13 +1208,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1131,13 +1233,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1155,13 +1259,15 @@
       "seasonal": true,
       "duration_minutes": 175,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Edinburgh"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 175,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Edinburgh"
     },
     "note": ""
   },
@@ -1178,13 +1284,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1201,13 +1309,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -1223,12 +1333,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -1244,12 +1356,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -1266,13 +1380,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -1288,12 +1404,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "York"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "York"
     },
     "note": ""
   },
@@ -1310,13 +1428,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -1332,12 +1452,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -1353,12 +1475,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Belfast"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Belfast"
     },
     "note": ""
   },
@@ -1374,12 +1498,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southend-On-Sea"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southend-On-Sea"
     },
     "note": ""
   },
@@ -1397,13 +1523,15 @@
       "seasonal": true,
       "duration_minutes": 175,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Edinburgh"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 175,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Edinburgh"
     },
     "note": ""
   },
@@ -1421,13 +1549,15 @@
       "seasonal": true,
       "duration_minutes": 175,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Edinburgh"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 175,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Edinburgh"
     },
     "note": ""
   },
@@ -1443,14 +1573,16 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
       "duration_minutes": null,
       "seasonal_months": "Dec–Aug",
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Nottingham"
     },
     "note": ""
   },
@@ -1467,13 +1599,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1490,13 +1624,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1513,13 +1649,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1535,12 +1673,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cheshire"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cheshire"
     },
     "note": ""
   },
@@ -1557,13 +1697,15 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -1579,12 +1721,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -1600,12 +1744,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -1621,12 +1767,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -1643,13 +1791,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -1665,12 +1815,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cheshire"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cheshire"
     },
     "note": ""
   },
@@ -1687,13 +1839,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1710,13 +1864,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -1733,13 +1889,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1756,13 +1914,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1779,13 +1939,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1802,13 +1964,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1824,12 +1988,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -1846,13 +2012,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1869,13 +2037,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1892,13 +2062,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1915,13 +2087,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -1937,12 +2111,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Manchester "
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Manchester "
     },
     "note": ""
   },
@@ -1959,13 +2135,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -1982,13 +2160,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -2006,13 +2186,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -2029,13 +2211,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -2052,13 +2236,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -2075,13 +2261,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -2098,13 +2286,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -2120,12 +2310,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milano"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milano"
     },
     "note": ""
   },
@@ -2141,12 +2333,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -2162,12 +2356,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milano"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milano"
     },
     "note": ""
   },
@@ -2184,13 +2380,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -2208,13 +2406,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -2230,13 +2430,15 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": null,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Madrid"
     },
     "note": ""
   },
@@ -2252,12 +2454,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "İstanbul"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "İstanbul"
     },
     "note": ""
   },
@@ -2274,13 +2478,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 115,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Hamburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 115,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Hamburg"
     },
     "note": ""
   },
@@ -2296,12 +2502,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Borgerhout"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Borgerhout"
     },
     "note": ""
   },
@@ -2317,12 +2525,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Utrecht"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Utrecht"
     },
     "note": ""
   },
@@ -2339,13 +2549,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 110,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Berlin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 110,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Berlin"
     },
     "note": ""
   },
@@ -2361,12 +2573,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bologna"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bologna"
     },
     "note": ""
   },
@@ -2382,12 +2596,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lahti"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lahti"
     },
     "note": ""
   },
@@ -2403,12 +2619,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Luzern"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Luzern"
     },
     "note": ""
   },
@@ -2424,12 +2642,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bielsko-Biała"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bielsko-Biała"
     },
     "note": ""
   },
@@ -2445,12 +2665,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milano"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milano"
     },
     "note": ""
   },
@@ -2466,12 +2688,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dundee"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dundee"
     },
     "note": ""
   },
@@ -2487,12 +2711,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -2509,13 +2735,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 65,
-      "carrier": "Ryanair, Scandinavian Airlines"
+      "carrier": "Ryanair, Scandinavian Airlines",
+      "hub_city": "Stockholm"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 65,
-      "carrier": "Norwegian Air Shuttle, Ryanair, airBaltic"
+      "carrier": "Norwegian Air Shuttle, Ryanair, airBaltic",
+      "hub_city": "Stockholm"
     },
     "note": ""
   },
@@ -2533,13 +2761,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -2555,12 +2785,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southend-On-Sea"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southend-On-Sea"
     },
     "note": ""
   },
@@ -2576,12 +2808,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
     },
     "note": ""
   },
@@ -2599,13 +2833,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -2623,13 +2859,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -2645,12 +2883,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Poole"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Poole"
     },
     "note": ""
   },
@@ -2666,12 +2906,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -2688,13 +2930,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -2710,12 +2954,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "note": ""
   },
@@ -2732,13 +2978,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -2755,13 +3003,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 160,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Brussels"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 160,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Brussels"
     },
     "note": ""
   },
@@ -2777,12 +3027,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Newcastle Upon Tyne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Newcastle Upon Tyne"
     },
     "note": ""
   },
@@ -2798,14 +3050,16 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
       "duration_minutes": null,
       "seasonal_months": "Dec–Aug",
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Nottingham"
     },
     "note": ""
   },
@@ -2823,13 +3077,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -2845,12 +3101,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milano"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milano"
     },
     "note": ""
   },
@@ -2867,13 +3125,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -2890,13 +3150,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -2912,12 +3174,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southampton"
     },
     "note": ""
   },
@@ -2934,13 +3198,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -2956,12 +3222,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Segrate (Milano)"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Segrate (Milano)"
     },
     "note": ""
   },
@@ -2977,12 +3245,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Praha 3"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Praha 3"
     },
     "note": ""
   },
@@ -2999,13 +3269,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -3021,12 +3293,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bologna"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bologna"
     },
     "note": ""
   },
@@ -3043,13 +3317,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -3066,13 +3342,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Vienna"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Vienna"
     },
     "note": ""
   },
@@ -3088,12 +3366,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stoke-On-Trent"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stoke-On-Trent"
     },
     "note": ""
   },
@@ -3110,13 +3390,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -3134,12 +3416,14 @@
       "seasonal": true,
       "duration_minutes": 190,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Birmingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 190
+      "duration_minutes": 190,
+      "hub_city": "Birmingham"
     },
     "note": ""
   },
@@ -3156,13 +3440,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, Wizz Air"
+      "carrier": "LOT Polish Airlines, Wizz Air",
+      "hub_city": "Warsaw"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, airBaltic"
+      "carrier": "LOT Polish Airlines, airBaltic",
+      "hub_city": "Warsaw"
     },
     "note": ""
   },
@@ -3180,12 +3466,14 @@
       "seasonal": true,
       "duration_minutes": 190,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Birmingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 190
+      "duration_minutes": 190,
+      "hub_city": "Birmingham"
     },
     "note": ""
   },
@@ -3201,12 +3489,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -3222,12 +3512,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "note": ""
   },
@@ -3244,13 +3536,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Vienna"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Vienna"
     },
     "note": ""
   },
@@ -3267,13 +3561,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -3289,12 +3585,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Praha 1"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Praha 1"
     },
     "note": ""
   },
@@ -3311,13 +3609,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -3334,13 +3634,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, Wizz Air"
+      "carrier": "LOT Polish Airlines, Wizz Air",
+      "hub_city": "Warsaw"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, airBaltic"
+      "carrier": "LOT Polish Airlines, airBaltic",
+      "hub_city": "Warsaw"
     },
     "note": ""
   },
@@ -3357,13 +3659,15 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -3380,13 +3684,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 110,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Berlin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 110,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Berlin"
     },
     "note": ""
   },
@@ -3403,13 +3709,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -3425,14 +3733,16 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
       "duration_minutes": null,
       "seasonal_months": "May–Aug",
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Cologne"
     },
     "note": ""
   },
@@ -3448,12 +3758,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -3470,13 +3782,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -3492,12 +3806,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -3514,13 +3830,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 90,
-      "carrier": "Norwegian Air Shuttle, airBaltic"
+      "carrier": "Norwegian Air Shuttle, airBaltic",
+      "hub_city": "Oslo"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 90,
-      "carrier": "Norwegian Air Shuttle, airBaltic"
+      "carrier": "Norwegian Air Shuttle, airBaltic",
+      "hub_city": "Oslo"
     },
     "note": ""
   },
@@ -3538,12 +3856,14 @@
       "seasonal": true,
       "duration_minutes": 190,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Birmingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 190
+      "duration_minutes": 190,
+      "hub_city": "Birmingham"
     },
     "note": ""
   },
@@ -3560,13 +3880,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, Wizz Air"
+      "carrier": "LOT Polish Airlines, Wizz Air",
+      "hub_city": "Warsaw"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, airBaltic"
+      "carrier": "LOT Polish Airlines, airBaltic",
+      "hub_city": "Warsaw"
     },
     "note": ""
   },
@@ -3582,12 +3904,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -3604,13 +3928,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Vienna"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Vienna"
     },
     "note": ""
   },
@@ -3627,13 +3953,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -3650,13 +3978,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -3672,12 +4002,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Whitley Bay"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Whitley Bay"
     },
     "note": ""
   },
@@ -3693,12 +4025,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Oxford"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Oxford"
     },
     "note": ""
   },
@@ -3715,13 +4049,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -3738,13 +4074,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -3761,13 +4099,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -3783,12 +4123,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "York"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "York"
     },
     "note": ""
   },
@@ -3804,12 +4146,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -3826,13 +4170,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -3848,12 +4194,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -3869,12 +4217,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "København K"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "København K"
     },
     "note": ""
   },
@@ -3890,12 +4240,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -3912,13 +4264,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, Wizz Air"
+      "carrier": "LOT Polish Airlines, Wizz Air",
+      "hub_city": "Warsaw"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, airBaltic"
+      "carrier": "LOT Polish Airlines, airBaltic",
+      "hub_city": "Warsaw"
     },
     "note": ""
   },
@@ -3934,12 +4288,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Gateshead"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Gateshead"
     },
     "note": ""
   },
@@ -3957,12 +4313,14 @@
       "seasonal": true,
       "duration_minutes": 190,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Birmingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 190
+      "duration_minutes": 190,
+      "hub_city": "Birmingham"
     },
     "note": ""
   },
@@ -3978,12 +4336,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Utrecht"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Utrecht"
     },
     "note": ""
   },
@@ -3999,12 +4359,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -4021,13 +4383,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -4043,12 +4407,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Newcastle Upon Tyne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Newcastle Upon Tyne"
     },
     "note": ""
   },
@@ -4064,12 +4430,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -4085,12 +4453,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -4107,13 +4477,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -4130,13 +4502,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -4153,13 +4527,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -4175,12 +4551,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Newcastle upon Tyne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Newcastle upon Tyne"
     },
     "note": ""
   },
@@ -4197,13 +4575,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -4219,12 +4599,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sheffield"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sheffield"
     },
     "note": ""
   },
@@ -4241,13 +4623,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 110,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Berlin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 110,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Berlin"
     },
     "note": ""
   },
@@ -4264,13 +4648,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -4288,13 +4674,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -4312,13 +4700,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -4335,13 +4725,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 115,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Hamburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 115,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Hamburg"
     },
     "note": ""
   },
@@ -4357,12 +4749,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -4378,12 +4772,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "note": ""
   },
@@ -4401,13 +4797,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -4424,13 +4822,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, Wizz Air"
+      "carrier": "LOT Polish Airlines, Wizz Air",
+      "hub_city": "Warsaw"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, airBaltic"
+      "carrier": "LOT Polish Airlines, airBaltic",
+      "hub_city": "Warsaw"
     },
     "note": ""
   },
@@ -4446,12 +4846,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wolverhampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wolverhampton"
     },
     "note": ""
   },
@@ -4468,13 +4870,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -4491,13 +4895,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Vienna"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Vienna"
     },
     "note": ""
   },
@@ -4513,12 +4919,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leicester"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leicester"
     },
     "note": ""
   },
@@ -4534,12 +4942,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Zabrze"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Zabrze"
     },
     "note": ""
   },
@@ -4555,14 +4965,16 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
       "duration_minutes": null,
       "seasonal_months": "Dec–Aug",
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Nottingham"
     },
     "note": ""
   },
@@ -4578,12 +4990,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Blackpool"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Blackpool"
     },
     "note": ""
   },
@@ -4599,12 +5013,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cambridge"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cambridge"
     },
     "note": ""
   },
@@ -4620,12 +5036,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -4641,12 +5059,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wolverhampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wolverhampton"
     },
     "note": ""
   },
@@ -4663,13 +5083,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -4685,12 +5107,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -4707,13 +5131,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -4729,12 +5155,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -4751,13 +5179,15 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -4775,13 +5205,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -4797,12 +5229,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Oxford"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Oxford"
     },
     "note": ""
   },
@@ -4818,12 +5252,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -4839,12 +5275,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -4860,12 +5298,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -4882,13 +5322,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -4904,12 +5346,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -4925,12 +5369,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -4948,13 +5394,15 @@
       "seasonal": true,
       "duration_minutes": 175,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Edinburgh"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 175,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Edinburgh"
     },
     "note": ""
   },
@@ -4970,12 +5418,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -4993,13 +5443,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -5015,12 +5467,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Plymouth"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Plymouth"
     },
     "note": ""
   },
@@ -5036,12 +5490,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -5057,12 +5513,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southampton"
     },
     "note": ""
   },
@@ -5079,13 +5537,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5101,12 +5561,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -5122,12 +5584,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leicester"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leicester"
     },
     "note": ""
   },
@@ -5143,12 +5607,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -5164,12 +5630,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bournemouth"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bournemouth"
     },
     "note": ""
   },
@@ -5186,13 +5654,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5210,13 +5680,15 @@
       "seasonal": true,
       "duration_minutes": 175,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Edinburgh"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 175,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Edinburgh"
     },
     "note": ""
   },
@@ -5232,12 +5704,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -5254,13 +5728,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5276,12 +5752,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "note": ""
   },
@@ -5298,13 +5776,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5321,13 +5801,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -5344,13 +5826,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5367,13 +5851,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5390,13 +5876,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -5414,13 +5902,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -5437,13 +5927,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5460,13 +5952,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5483,13 +5977,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -5506,13 +6002,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5530,13 +6028,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -5552,14 +6052,16 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
       "duration_minutes": null,
       "seasonal_months": "Dec–Aug",
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Nottingham"
     },
     "note": ""
   },
@@ -5576,13 +6078,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5599,13 +6103,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5621,12 +6127,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -5642,12 +6150,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Johannesburg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Johannesburg"
     },
     "note": ""
   },
@@ -5664,13 +6174,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5687,13 +6199,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5709,12 +6223,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -5732,13 +6248,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -5755,13 +6273,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -5777,12 +6297,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -5798,12 +6320,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -5821,13 +6345,15 @@
       "seasonal": true,
       "duration_minutes": 175,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Edinburgh"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 175,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Edinburgh"
     },
     "note": ""
   },
@@ -5844,13 +6370,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, Wizz Air"
+      "carrier": "LOT Polish Airlines, Wizz Air",
+      "hub_city": "Warsaw"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, airBaltic"
+      "carrier": "LOT Polish Airlines, airBaltic",
+      "hub_city": "Warsaw"
     },
     "note": ""
   },
@@ -5867,13 +6395,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Vienna"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Vienna"
     },
     "note": ""
   },
@@ -5889,12 +6419,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Praha 5"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Praha 5"
     },
     "note": ""
   },
@@ -5911,13 +6443,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5933,12 +6467,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -5956,13 +6492,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -5980,13 +6518,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -6003,13 +6543,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -6026,13 +6568,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Dublin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -6048,12 +6592,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Belfast "
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Belfast "
     },
     "note": ""
   },
@@ -6070,13 +6616,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 110,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "Berlin"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 110,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Berlin"
     },
     "note": ""
   },
@@ -6094,13 +6642,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -6117,13 +6667,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -6140,13 +6692,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 150,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -6163,13 +6717,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -6185,12 +6741,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Llandudno"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Llandudno"
     },
     "note": ""
   },
@@ -6206,12 +6764,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stoke-On-Trent"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stoke-On-Trent"
     },
     "note": ""
   },
@@ -6227,12 +6787,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Harrogate"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Harrogate"
     },
     "note": ""
   },
@@ -6248,12 +6810,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Scarborough"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Scarborough"
     },
     "note": ""
   },
@@ -6270,13 +6834,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 115,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Hamburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 115,
-      "carrier": "airBaltic"
+      "carrier": "airBaltic",
+      "hub_city": "Hamburg"
     },
     "note": ""
   },
@@ -6292,12 +6858,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leicester"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leicester"
     },
     "note": ""
   },
@@ -6313,12 +6881,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Torquay"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Torquay"
     },
     "note": ""
   },
@@ -6334,12 +6904,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Salisbury"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Salisbury"
     },
     "note": ""
   },
@@ -6355,12 +6927,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -6376,12 +6950,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Basingstoke"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Basingstoke"
     },
     "note": ""
   },
@@ -6397,12 +6973,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -6418,12 +6996,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Watford"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Watford"
     },
     "note": ""
   },
@@ -6439,12 +7019,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bath"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bath"
     },
     "note": ""
   },
@@ -6462,13 +7044,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -6484,12 +7068,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Croydon"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Croydon"
     },
     "note": ""
   },
@@ -6505,12 +7091,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Eastbourne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Eastbourne"
     },
     "note": ""
   },
@@ -6528,13 +7116,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -6550,12 +7140,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Aylesbury"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Aylesbury"
     },
     "note": ""
   },
@@ -6571,12 +7163,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -6593,13 +7187,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -6615,12 +7211,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Coventry"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Coventry"
     },
     "note": ""
   },
@@ -6636,12 +7234,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -6657,12 +7257,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "note": ""
   },
@@ -6679,13 +7281,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -6701,12 +7305,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Scunthorpe"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Scunthorpe"
     },
     "note": ""
   },
@@ -6722,12 +7328,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Derby"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Derby"
     },
     "note": ""
   },
@@ -6744,13 +7352,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -6766,12 +7376,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Derby"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Derby"
     },
     "note": ""
   },
@@ -6787,12 +7399,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Halifax"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Halifax"
     },
     "note": ""
   },
@@ -6808,12 +7422,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Ghent"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Ghent"
     },
     "note": ""
   },
@@ -6829,12 +7445,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Perth"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Perth"
     },
     "note": ""
   },
@@ -6852,13 +7470,15 @@
       "seasonal": true,
       "duration_minutes": 175,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Edinburgh"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 175,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Edinburgh"
     },
     "note": ""
   },
@@ -6874,12 +7494,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stockton-on-Tees"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stockton-on-Tees"
     },
     "note": ""
   },
@@ -6895,12 +7517,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Basel"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Basel"
     },
     "note": ""
   },
@@ -6916,12 +7540,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "København S"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "København S"
     },
     "note": ""
   },
@@ -6937,12 +7563,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Fornebu"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Fornebu"
     },
     "note": ""
   },
@@ -6959,13 +7587,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 65,
-      "carrier": "Ryanair, Scandinavian Airlines"
+      "carrier": "Ryanair, Scandinavian Airlines",
+      "hub_city": "Stockholm"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 65,
-      "carrier": "Norwegian Air Shuttle, Ryanair, airBaltic"
+      "carrier": "Norwegian Air Shuttle, Ryanair, airBaltic",
+      "hub_city": "Stockholm"
     },
     "note": ""
   },
@@ -6982,13 +7612,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -7005,13 +7637,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -7028,13 +7662,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 30,
-      "carrier": "Finnair"
+      "carrier": "Finnair",
+      "hub_city": "Helsinki"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 30,
-      "carrier": "Finnair, airBaltic"
+      "carrier": "Finnair, airBaltic",
+      "hub_city": "Helsinki"
     },
     "note": ""
   },
@@ -7051,14 +7687,16 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 120,
-      "carrier": "Wizz Air"
+      "carrier": "Wizz Air",
+      "hub_city": "Krakow"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
       "duration_minutes": 120,
       "seasonal_months": "Dec–Aug",
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Krakow"
     },
     "note": ""
   },
@@ -7075,13 +7713,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, Wizz Air"
+      "carrier": "LOT Polish Airlines, Wizz Air",
+      "hub_city": "Warsaw"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 100,
-      "carrier": "LOT Polish Airlines, airBaltic"
+      "carrier": "LOT Polish Airlines, airBaltic",
+      "hub_city": "Warsaw"
     },
     "note": ""
   },
@@ -7097,12 +7737,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Gdansk"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Gdansk"
     },
     "note": ""
   },
@@ -7120,13 +7762,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -7142,12 +7786,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sheffield"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sheffield"
     },
     "note": ""
   },
@@ -7165,13 +7811,15 @@
       "seasonal": true,
       "duration_minutes": 195,
       "seasonal_months": "Feb–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Manchester"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 195,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -7189,12 +7837,14 @@
       "seasonal": true,
       "duration_minutes": 190,
       "seasonal_months": "Mar–Apr",
-      "carrier": "Jet2.com"
+      "carrier": "Jet2.com",
+      "hub_city": "Birmingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": 190
+      "duration_minutes": 190,
+      "hub_city": "Birmingham"
     },
     "note": ""
   },
@@ -7210,12 +7860,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -7232,13 +7884,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -7255,13 +7909,15 @@
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair, airBaltic"
+      "carrier": "Ryanair, airBaltic",
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -7277,12 +7933,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -7298,12 +7956,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "York"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "York"
     },
     "note": ""
   },
@@ -7320,13 +7980,15 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
+      "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic",
+      "hub_city": "London"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": 180,
-      "carrier": "Ryanair"
+      "carrier": "Ryanair",
+      "hub_city": "Manchester"
     },
     "note": ""
   }

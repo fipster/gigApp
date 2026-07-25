@@ -73,13 +73,21 @@
         <div class="spacer"></div>
       </div>
       <div class="row">
-        <span class="label">TIMELINE</span>
-        <div class="date-range">
+        <span class="label">DATES</span>
+        <select id="datePreset">
+          <option value="all">All (no filter)</option>
+          <option value="vaheaeg1">I (26.10–01.11.2026)</option>
+          <option value="vaheaeg2">II (23.12.2026–10.01.2027)</option>
+          <option value="vaheaeg3">III (22–28.02.2027)</option>
+          <option value="vaheaeg4">IV (12–18.04.2027)</option>
+          <option value="vaheaeg5">V (14.06-31.08.2027)</option>
+          <option value="custom">Custom range…</option>
+        </select>
+        <div class="date-range" id="customDateRange" hidden>
           <input type="date" id="dateFrom">
           <span>→</span>
           <input type="date" id="dateTo">
         </div>
-        <button class="reset-link" id="resetDates">reset range</button>
         <div class="spacer"></div>
         <span class="label">SORT BY</span>
         <select id="sortBy">
@@ -96,7 +104,7 @@
     </footer>
   </div>
 
-  <script src="dataUpload.js"></script>
+  <script src="app.js"></script>
 
 </body>
 

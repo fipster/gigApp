@@ -67,6 +67,10 @@ def flight_info(city, origin, event_date):
     tll_hub = override.get("TLL_hub", city)
     info["duration_minutes"] = DIRECT_FLIGHTS.get(tll_hub, {}).get("TLL", NO_DIRECT)["duration_minutes"]
 
+    # the resolved city to actually search flights to/from (may differ from
+    # the venue's own city when a hub override applies, e.g. Liverpool -> London/Manchester)
+    info["hub_city"] = hub
+
     return info
 
 

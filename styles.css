@@ -201,6 +201,10 @@
       gap: 8px;
     }
 
+    .date-range[hidden] {
+      display: none;
+    }
+
     .date-range span {
       font-family: 'JetBrains Mono', monospace;
       font-size: 11px;
@@ -529,6 +533,9 @@
       align-items: center;
       gap: 6px;
       background: var(--paper);
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
     }
 
     .flight-pill.none {
@@ -553,13 +560,10 @@
 
     .carrier-logo {
       height: 22px;
-      width: auto;
-      max-width: 44px;
-      object-fit: contain;
+      width: 22px;
+      object-fit: cover;
       align-self: center;
-      border: 1px solid var(--line);
-      background: var(--paper);
-      padding: 2px 4px;
+      border-radius: 50%;
     }
 
     .estimate-note {

@@ -18,7 +18,6 @@
       const flightsData = await flightsResponse.json();
 
       WINDOW_TO = shows.reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
-      dateTo = WINDOW_TO;
 
       const dateFromEl = document.getElementById('dateFrom');
       const dateToEl = document.getElementById('dateTo');
@@ -51,6 +50,14 @@
     const monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
     const dowNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
+    const SCHOOL_HOLIDAYS = {
+      vaheaeg1: { label: "vaheaeg I", from: "2026-10-26", to: "2026-11-01" },
+      vaheaeg2: { label: "vaheaeg II", from: "2026-12-23", to: "2027-01-10" },
+      vaheaeg3: { label: "vaheaeg III", from: "2027-02-22", to: "2027-02-28" },
+      vaheaeg4: { label: "vaheaeg IV", from: "2027-04-12", to: "2027-04-18" },
+      vaheaeg5: { label: "vaheaeg V", from: "2027-06-14", to: "2027-08-31" },
+    };
+
     function countryFlag(code) { return countries[code]?.flag || ""; }
     function countryName(code) { return countries[code]?.name || code; }
 
@@ -60,8 +67,9 @@
     let excludeFest = false;
     let cityMode = "include";
     let citySelection = new Set();
-    let dateFrom = WINDOW_FROM;
-    let dateTo = WINDOW_TO;
+    let datePreset = "all";
+    let dateFrom = null;
+    let dateTo = null;
     let sortBy = "date";
 
     function escapeHtml(str) {
@@ -189,9 +197,15 @@
       return h > 0 ? `${h}h ${m}m` : `${m}m`;
     }
 
-    function flightPillHtml(originLabel, f) {
+    function googleFlightsUrl(originLabel, city, date) {
+      const q = `Flights from ${originLabel} to ${city} on ${date}`;
+      return `https://www.google.com/travel/flights?q=${encodeURIComponent(q)}`;
+    }
+
+    function flightPillHtml(originLabel, f, date) {
       const title = f.direct && f.carrier ? ` title="${escapeAttr(f.carrier)}"` : "";
-      return `<div class="flight-pill${f.direct ? "" : " none"}"${title}><span class="airport-badge">${originLabel}</span></div>`;
+      const href = googleFlightsUrl(originLabel, f.hub_city, date);
+      return `<a class="flight-pill${f.direct ? "" : " none"}" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer"${title}><span class="airport-badge">${originLabel}</span></a>`;
     }
 
     const CARRIER_IATA = {
@@ -231,7 +245,8 @@
         list = list.filter(s => !bandSelection.has(s.band));
       }
       if (excludeFest) list = list.filter(s => !s.fest);
-      list = list.filter(s => s.date >= dateFrom && s.date <= dateTo);
+      if (dateFrom) list = list.filter(s => s.date >= dateFrom);
+      if (dateTo) list = list.filter(s => s.date <= dateTo);
       if (cityMode === "include") {
         list = list.filter(s => citySelection.has(cityKey(s)));
       } else {
@@ -297,9 +312,9 @@
         const sameCarrier = tllCarrier && tllCarrier === rixCarrier;
 
         let flightsHtml = "";
-        flightsHtml += flightPillHtml("TLL", s.flightTLL);
+        flightsHtml += flightPillHtml("TLL", s.flightTLL, s.date);
         if (!sameCarrier && tllCarrier) flightsHtml += carrierLogosHtml(tllCarrier);
-        flightsHtml += flightPillHtml("RIX", s.flightRIX);
+        flightsHtml += flightPillHtml("RIX", s.flightRIX, s.date);
         if (sameCarrier) flightsHtml += carrierLogosHtml(tllCarrier);
         else if (rixCarrier) flightsHtml += carrierLogosHtml(rixCarrier);
         flightsHtml += flightSummaryHtml(s);
@@ -376,14 +391,28 @@
 
     document.getElementById('excludeFest').addEventListener('change', (e) => { excludeFest = e.target.checked; render(); });
 
-    document.getElementById('dateFrom').addEventListener('change', (e) => { dateFrom = e.target.value || WINDOW_FROM; render(); });
-    document.getElementById('dateTo').addEventListener('change', (e) => { dateTo = e.target.value || WINDOW_TO; render(); });
-    document.getElementById('resetDates').addEventListener('click', () => {
-      dateFrom = WINDOW_FROM; dateTo = WINDOW_TO;
-      document.getElementById('dateFrom').value = dateFrom;
-      document.getElementById('dateTo').value = dateTo;
+    function applyDatePreset(preset) {
+      datePreset = preset;
+      const customDateRange = document.getElementById('customDateRange');
+
+      if (preset === "all") {
+        dateFrom = null; dateTo = null;
+        customDateRange.hidden = true;
+      } else if (preset === "custom") {
+        customDateRange.hidden = false;
+        dateFrom = document.getElementById('dateFrom').value || null;
+        dateTo = document.getElementById('dateTo').value || null;
+      } else {
+        const holiday = SCHOOL_HOLIDAYS[preset];
+        dateFrom = holiday.from; dateTo = holiday.to;
+        customDateRange.hidden = true;
+      }
       render();
-    });
+    }
+
+    document.getElementById('datePreset').addEventListener('change', (e) => applyDatePreset(e.target.value));
+    document.getElementById('dateFrom').addEventListener('change', (e) => { dateFrom = e.target.value || null; render(); });
+    document.getElementById('dateTo').addEventListener('change', (e) => { dateTo = e.target.value || null; render(); });
 
     document.getElementById('sortBy').addEventListener('change', (e) => { sortBy = e.target.value; render(); });
 
