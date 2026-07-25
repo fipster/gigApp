@@ -21,7 +21,12 @@
 
     loadShows();
 
-    const WINDOW_FROM = "2026-08-01";
+    function todayISO() {
+      const d = new Date();
+      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    }
+
+    const WINDOW_FROM = todayISO();
     const WINDOW_TO = "2027-02-28";
 
     const monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];

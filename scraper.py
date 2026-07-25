@@ -19,6 +19,7 @@ import time
 import urllib.parse
 import urllib.request
 import urllib.error
+from datetime import date
 
 from dotenv import load_dotenv
 
@@ -90,14 +91,16 @@ def to_show(artist, event):
     if country_code not in ALLOWED_COUNTRIES:
         return None
 
-    date = ((event.get("dates") or {}).get("start") or {}).get("localDate") or ""
+    event_date = ((event.get("dates") or {}).get("start") or {}).get("localDate") or ""
+    if not event_date or event_date < date.today().isoformat():
+        return None
 
     attractions = (event.get("_embedded") or {}).get("attractions") or []
     is_festival = len(attractions) > 3 or "festival" in event.get("name", "").lower()
 
     return {
         "band": artist,
-        "date": date,
+        "date": event_date,
         "city": venue.get("city", {}).get("name") or "",
         "country": country_code,
         "venue": venue.get("name") or "",
@@ -131,7 +134,7 @@ def main():
 
     artists = load_artists(ARTISTS_CSV)
 
-    if os.path.exists(SHOWS_JSON):
+    if os.path.exists(SHOWS_JSON) and os.path.getsize(SHOWS_JSON) > 0:
         with open(SHOWS_JSON, encoding="utf-8") as f:
             existing = json.load(f)
     else:
@@ -157,7 +160,8 @@ def main():
             merged[key] = show
         time.sleep(REQUEST_DELAY)
 
-    result = sorted(merged.values(), key=lambda s: (s["date"], s["band"]))
+    today = date.today().isoformat()
+    result = sorted((s for s in merged.values() if s["date"] >= today), key=lambda s: (s["date"], s["band"]))
 
     with open(SHOWS_JSON, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
