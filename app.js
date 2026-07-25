@@ -203,28 +203,17 @@
     }
 
     function flightPillHtml(originLabel, f, date) {
-      const title = f.direct && f.carrier ? ` title="${escapeAttr(f.carrier)}"` : "";
+      const carrierNames = (f.carriers || []).map(c => c.name).join(", ");
+      const title = f.direct && carrierNames ? ` title="${escapeAttr(carrierNames)}"` : "";
       const href = googleFlightsUrl(originLabel, f.hub_city, date);
       return `<a class="flight-pill${f.direct ? "" : " none"}" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer"${title}><span class="airport-badge">${originLabel}</span></a>`;
     }
 
-    const CARRIER_IATA = {
-      "airBaltic": "BT", "Ryanair": "FR", "Wizz Air": "W6", "LOT Polish Airlines": "LO",
-      "Lufthansa": "LH", "Finnair": "AY", "Scandinavian Airlines": "SK", "Turkish Airlines": "TK",
-      "Swiss International Air Lines": "LX", "Eurowings": "EW", "Jet2.com": "LS",
-      "Norwegian Air Shuttle": "DY", "Aegean Airlines": "A3", "NyxAir": "OJ",
-      "Pegasus Airlines": "PC", "SunExpress": "XQ", "Transavia": "HV", "flydubai": "FZ",
-      "Uzbekistan Airways": "HY", "SkyUp Airlines": "PQ", "Air Montenegro": "4O", "FlyOne": "5F",
-      "Freebird Airlines": "FH",
-    };
-
-    function carrierLogosHtml(carrierField) {
-      if (!carrierField) return "";
-      return carrierField.split(",").map(name => name.trim()).map(name => {
-        const code = CARRIER_IATA[name];
-        if (!code) return "";
-        return `<img class="carrier-logo" src="https://images.kiwi.com/airlines/64/${code}.png" alt="${escapeAttr(name)}" title="${escapeAttr(name)}" loading="lazy" onerror="this.remove()">`;
-      }).join("");
+    function carrierLogosHtml(carriers) {
+      if (!carriers) return "";
+      return carriers.map(c =>
+        `<img class="carrier-logo" src="https://images.kiwi.com/airlines/64/${c.iata}.png" alt="${escapeAttr(c.name)}" title="${escapeAttr(c.name)}" loading="lazy" onerror="this.remove()">`
+      ).join("");
     }
 
     function flightSummaryHtml(s) {
@@ -307,9 +296,10 @@
         const stub = document.createElement('div');
         stub.className = "stub";
 
-        const tllCarrier = s.flightTLL.direct ? s.flightTLL.carrier : null;
-        const rixCarrier = s.flightRIX.direct ? s.flightRIX.carrier : null;
-        const sameCarrier = tllCarrier && tllCarrier === rixCarrier;
+        const tllCarrier = s.flightTLL.direct ? s.flightTLL.carriers : null;
+        const rixCarrier = s.flightRIX.direct ? s.flightRIX.carriers : null;
+        const carrierKey = (carriers) => (carriers || []).map(c => c.iata).sort().join(",");
+        const sameCarrier = tllCarrier && carrierKey(tllCarrier) === carrierKey(rixCarrier);
 
         let flightsHtml = "";
         flightsHtml += flightPillHtml("TLL", s.flightTLL, s.date);
