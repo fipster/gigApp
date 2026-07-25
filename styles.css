@@ -434,6 +434,12 @@
       padding: 12px 16px 12px 20px;
     }
 
+    .band-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
     .stub-top {
       display: flex;
       justify-content: space-between;
@@ -543,6 +549,17 @@
       color: var(--grey);
       margin-left: auto;
       align-self: center;
+    }
+
+    .carrier-logo {
+      height: 22px;
+      width: auto;
+      max-width: 44px;
+      object-fit: contain;
+      align-self: center;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      padding: 2px 4px;
     }
 
     .estimate-note {

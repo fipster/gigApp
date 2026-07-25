@@ -33,7 +33,9 @@
       }
     },
     "city_normalization": "Both sources' destination names are normalized by stripping airport disambiguation (e.g. 'Rome–Fiumicino' / 'Rome (Fiumicino)' → 'Rome', 'London–Gatwick' / 'London Gatwick' → 'London') so they key consistently and match the plain city names Ticketmaster returns for venues.",
-    "how_to_refresh": "Re-fetch the two Wikipedia pages' 'Airlines and destinations' tables, and re-fetch both rtNNN.json endpoints (ids above, or re-derive via network tab if flightconnections changes airport IDs), then re-run the precedence_rule merge above. Update `gathered_on` to the new date."
+    "carrier_field": "The optional `carrier` field (comma-separated airline names) is sourced only from the Wikipedia tables — flightconnections.com's rtNNN.json data has no per-route airline attribution (it only gives a separate summary of each airline's total destination count, not mapped to specific cities). Only present when direct is true.",
+    "known_naming_mismatches_between_sources": "The two sources sometimes name the same airport differently, which caused duplicate city entries in an earlier version of this file (fixed once, watch for it on refresh): Wikipedia's 'Kraków'/'Reykjavík'/'Zürich' (with diacritics) vs flightconnections' 'Krakow'/'Reykjavik'/'Zurich' (ASCII); Wikipedia's 'Leeds/Bradford' vs flightconnections' 'Leeds / Bradford' (spacing); Wikipedia's 'Sharm el-Sheikh' vs flightconnections' 'Sharm El Sheikh' (case); Wikipedia's 'East Midlands' vs flightconnections' 'Nottingham' for the same airport (IATA EMA); Wikipedia's 'Cologne/Bonn' vs flightconnections' 'Cologne'. When merging carrier data in from Wikipedia, check for near-duplicate keys (accent/case/punctuation-insensitive match) before assuming a city has no entry yet.",
+    "how_to_refresh": "Re-fetch the two Wikipedia pages' 'Airlines and destinations' tables, and re-fetch both rtNNN.json endpoints (ids above, or re-derive via network tab if flightconnections changes airport IDs), then re-run the precedence_rule merge above, including the per-airline city mapping for the carrier field. Update `gathered_on` to the new date."
   },
   "destinations": {
     "Aarhus": {
@@ -45,7 +47,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 95
+        "duration_minutes": 95,
+        "carrier": "Ryanair"
       }
     },
     "Aberdeen": {
@@ -58,7 +61,8 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 155,
-        "seasonal_months": "Jul–Aug"
+        "seasonal_months": "Jul–Aug",
+        "carrier": "airBaltic"
       }
     },
     "Alicante": {
@@ -70,19 +74,22 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 255
+        "duration_minutes": 255,
+        "carrier": "Norwegian Air Shuttle, airBaltic"
       }
     },
     "Amsterdam": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 150
+        "duration_minutes": 150,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 140
+        "duration_minutes": 140,
+        "carrier": "airBaltic"
       }
     },
     "Antalya": {
@@ -90,37 +97,43 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 225,
-        "seasonal_months": "Dec–Aug"
+        "seasonal_months": "Dec–Aug",
+        "carrier": "Corendon Airlines, Freebird Airlines, Heston Airlines, Mavi Gök Airlines, Pegasus Airlines, SunExpress"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 225,
-        "seasonal_months": "May–Aug"
+        "seasonal_months": "May–Aug",
+        "carrier": "Freebird Airlines, Mavi Gök Airlines, airBaltic"
       }
     },
     "Athens": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 215
+        "duration_minutes": 215,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 195
+        "duration_minutes": 195,
+        "carrier": "Aegean Airlines, airBaltic"
       }
     },
     "Barcelona": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 240
+        "duration_minutes": 240,
+        "carrier": "Ryanair, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 220
+        "duration_minutes": 220,
+        "carrier": "Ryanair, airBaltic"
       }
     },
     "Batumi": {
@@ -133,7 +146,8 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 240,
-        "seasonal_months": "Jun–Aug"
+        "seasonal_months": "Jun–Aug",
+        "carrier": "airBaltic"
       }
     },
     "Belgrade": {
@@ -145,7 +159,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 130
+        "duration_minutes": 130,
+        "carrier": "airBaltic"
       }
     },
     "Bergamo": {
@@ -157,7 +172,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines, Ryanair"
       }
     },
     "Bergen": {
@@ -169,19 +185,22 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 120
+        "duration_minutes": 120,
+        "carrier": "Norwegian Air Shuttle, airBaltic"
       }
     },
     "Berlin": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 110
+        "duration_minutes": 110,
+        "carrier": "Ryanair, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 100
+        "duration_minutes": 100,
+        "carrier": "airBaltic"
       }
     },
     "Billund": {
@@ -189,12 +208,14 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 105,
-        "seasonal_months": "Jul–Sep"
+        "seasonal_months": "Jul–Sep",
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 100
+        "duration_minutes": 100,
+        "carrier": "airBaltic"
       }
     },
     "Birmingham": {
@@ -202,7 +223,8 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 190,
-        "seasonal_months": "Mar–Apr"
+        "seasonal_months": "Mar–Apr",
+        "carrier": "Jet2.com"
       },
       "RIX": {
         "direct": false,
@@ -214,7 +236,8 @@
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Freebird Airlines"
       },
       "RIX": {
         "direct": false,
@@ -226,12 +249,14 @@
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 160
+        "duration_minutes": 160,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 145
+        "duration_minutes": 145,
+        "carrier": "airBaltic"
       }
     },
     "Bucharest": {
@@ -243,19 +268,22 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 145
+        "duration_minutes": 145,
+        "carrier": "airBaltic"
       }
     },
     "Budapest": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 140
+        "duration_minutes": 140,
+        "carrier": "Wizz Air"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 115
+        "duration_minutes": 115,
+        "carrier": "airBaltic"
       }
     },
     "Burgas": {
@@ -263,26 +291,30 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 220,
-        "seasonal_months": "Jun–Sep"
+        "seasonal_months": "Jun–Sep",
+        "carrier": "Heston Airlines, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 160,
-        "seasonal_months": "Jun–Oct"
+        "seasonal_months": "Jun–Oct",
+        "carrier": "Heston Airlines, Norwegian Air Shuttle, airBaltic"
       }
     },
     "Catania": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 210,
-        "seasonal_months": "May–Dec"
+        "seasonal_months": "May–Dec",
+        "carrier": "airBaltic"
       }
     },
     "Charleroi": {
@@ -294,7 +326,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Ryanair"
       }
     },
     "Chișinău": {
@@ -306,7 +339,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 145
+        "duration_minutes": 145,
+        "carrier": "airBaltic"
       }
     },
     "Cologne": {
@@ -319,44 +353,37 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 135,
-        "seasonal_months": "May–Aug"
-      }
-    },
-    "Cologne/Bonn": {
-      "TLL": {
-        "direct": false,
-        "seasonal": false,
-        "duration_minutes": null
-      },
-      "RIX": {
-        "direct": true,
-        "seasonal": true,
-        "duration_minutes": null
+        "seasonal_months": "May–Aug",
+        "carrier": "Ryanair"
       }
     },
     "Copenhagen": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 100
+        "duration_minutes": 100,
+        "carrier": "Scandinavian Airlines, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 90
+        "duration_minutes": 90,
+        "carrier": "Norwegian Air Shuttle, Scandinavian Airlines, airBaltic"
       }
     },
     "Corfu": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 175,
-        "seasonal_months": "May–Oct"
+        "seasonal_months": "May–Oct",
+        "carrier": "airBaltic"
       }
     },
     "Dubai": {
@@ -368,19 +395,22 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 400
+        "duration_minutes": 400,
+        "carrier": "airBaltic, flydubai"
       }
     },
     "Dublin": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 195
+        "duration_minutes": 195,
+        "carrier": "Ryanair"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 190
+        "duration_minutes": 190,
+        "carrier": "Ryanair, airBaltic"
       }
     },
     "Dubrovnik": {
@@ -392,7 +422,8 @@
       "RIX": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "airBaltic"
       }
     },
     "Düsseldorf": {
@@ -400,12 +431,14 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 150,
-        "seasonal_months": "May–Aug"
+        "seasonal_months": "May–Aug",
+        "carrier": "Eurowings"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 130
+        "duration_minutes": 130,
+        "carrier": "airBaltic"
       }
     },
     "East Midlands": {
@@ -417,7 +450,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Ryanair"
       }
     },
     "Edinburgh": {
@@ -425,48 +459,56 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 175,
-        "seasonal_months": "Mar–Apr"
+        "seasonal_months": "Mar–Apr",
+        "carrier": "Jet2.com"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 170
+        "duration_minutes": 170,
+        "carrier": "Ryanair"
       }
     },
     "Enfidha": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines"
       }
     },
     "Faro": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 295
+        "duration_minutes": 295,
+        "carrier": "airBaltic"
       }
     },
     "Frankfurt": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 150
+        "duration_minutes": 150,
+        "carrier": "Lufthansa"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 140
+        "duration_minutes": 140,
+        "carrier": "Lufthansa, airBaltic"
       }
     },
     "Funchal": {
@@ -474,20 +516,23 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 365,
-        "seasonal_months": "Dec–May"
+        "seasonal_months": "Dec–May",
+        "carrier": "Heston Airlines, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 355,
-        "seasonal_months": "Dec–May"
+        "seasonal_months": "Dec–May",
+        "carrier": "airBaltic"
       }
     },
     "Gdańsk": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 85
+        "duration_minutes": 85,
+        "carrier": "Wizz Air"
       },
       "RIX": {
         "direct": false,
@@ -500,13 +545,15 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 185,
-        "seasonal_months": "Dec–Mar"
+        "seasonal_months": "Dec–Mar",
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 170,
-        "seasonal_months": "Dec–Mar"
+        "seasonal_months": "Dec–Mar",
+        "carrier": "airBaltic"
       }
     },
     "Gothenburg": {
@@ -518,44 +565,51 @@
       "RIX": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": 85
+        "duration_minutes": 85,
+        "carrier": "Norwegian Air Shuttle, airBaltic"
       }
     },
     "Gran Canaria": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 385,
-        "seasonal_months": "Nov–May"
+        "seasonal_months": "Nov–May",
+        "carrier": "airBaltic"
       }
     },
     "Hamburg": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 115
+        "duration_minutes": 115,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 110
+        "duration_minutes": 110,
+        "carrier": "airBaltic"
       }
     },
     "Helsinki": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 30
+        "duration_minutes": 30,
+        "carrier": "Finnair"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 60
+        "duration_minutes": 60,
+        "carrier": "Finnair, airBaltic"
       }
     },
     "Heraklion": {
@@ -563,26 +617,30 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 245,
-        "seasonal_months": "May–Oct"
+        "seasonal_months": "May–Oct",
+        "carrier": "Heston Airlines, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 210,
-        "seasonal_months": "May–Nov"
+        "seasonal_months": "May–Nov",
+        "carrier": "airBaltic"
       }
     },
     "Hurghada": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines, Skyline Express, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 300,
-        "seasonal_months": "Dec–May"
+        "seasonal_months": "Dec–May",
+        "carrier": "Heston Airlines, Skyline Express, airBaltic"
       }
     },
     "Innsbruck": {
@@ -595,19 +653,22 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 145,
-        "seasonal_months": "Dec–Mar"
+        "seasonal_months": "Dec–Mar",
+        "carrier": "airBaltic"
       }
     },
     "Istanbul": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 215
+        "duration_minutes": 215,
+        "carrier": "Turkish Airlines"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 190
+        "duration_minutes": 190,
+        "carrier": "Turkish Airlines, airBaltic"
       }
     },
     "Kaunas": {
@@ -619,51 +680,45 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "airBaltic"
       }
     },
     "Kittilä": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "airBaltic"
       }
     },
     "Krakow": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 120
+        "duration_minutes": 120,
+        "carrier": "Wizz Air"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 95,
-        "seasonal_months": "Dec–Aug"
-      }
-    },
-    "Kraków": {
-      "TLL": {
-        "direct": true,
-        "seasonal": false,
-        "duration_minutes": null
-      },
-      "RIX": {
-        "direct": true,
-        "seasonal": false,
-        "duration_minutes": null
+        "seasonal_months": "Dec–Aug",
+        "carrier": "Ryanair"
       }
     },
     "Kuressaare": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 40
+        "duration_minutes": 40,
+        "carrier": "NyxAir"
       },
       "RIX": {
         "direct": false,
@@ -681,14 +736,16 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 110,
-        "seasonal_months": "Dec–Mar"
+        "seasonal_months": "Dec–Mar",
+        "carrier": "airBaltic"
       }
     },
     "Kärdla": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 30
+        "duration_minutes": 30,
+        "carrier": "NyxAir"
       },
       "RIX": {
         "direct": false,
@@ -700,50 +757,44 @@
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "airBaltic"
       }
     },
     "Larnaca": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 240
-      }
-    },
-    "Leeds / Bradford": {
-      "TLL": {
-        "direct": true,
-        "seasonal": true,
-        "duration_minutes": 190,
-        "seasonal_months": "Mar–Apr"
-      },
-      "RIX": {
-        "direct": true,
-        "seasonal": true,
-        "duration_minutes": 170,
-        "seasonal_months": "Dec–Aug"
+        "duration_minutes": 240,
+        "carrier": "airBaltic"
       }
     },
     "Leeds/Bradford": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": 190,
+        "carrier": "Jet2.com",
+        "seasonal_months": "Mar–Apr"
       },
       "RIX": {
         "direct": true,
-        "seasonal": false,
-        "duration_minutes": null
+        "seasonal": true,
+        "duration_minutes": 170,
+        "carrier": "Ryanair",
+        "seasonal_months": "Dec–Aug"
       }
     },
     "Lisbon": {
@@ -755,7 +806,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 280
+        "duration_minutes": 280,
+        "carrier": "airBaltic"
       }
     },
     "Ljubljana": {
@@ -767,19 +819,22 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 135
+        "duration_minutes": 135,
+        "carrier": "airBaltic"
       }
     },
     "London": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 180
+        "duration_minutes": 180,
+        "carrier": "Jet2.com, Ryanair, Wizz Air, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 165
+        "duration_minutes": 165,
+        "carrier": "Ryanair, airBaltic"
       }
     },
     "Madrid": {
@@ -791,7 +846,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 250
+        "duration_minutes": 250,
+        "carrier": "airBaltic"
       }
     },
     "Malta": {
@@ -799,12 +855,14 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 245,
-        "seasonal_months": "May–Oct"
+        "seasonal_months": "May–Oct",
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 215
+        "duration_minutes": 215,
+        "carrier": "Ryanair, airBaltic"
       }
     },
     "Manchester": {
@@ -812,12 +870,14 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 195,
-        "seasonal_months": "Feb–Apr"
+        "seasonal_months": "Feb–Apr",
+        "carrier": "Jet2.com"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 180
+        "duration_minutes": 180,
+        "carrier": "Ryanair"
       }
     },
     "Marrakesh": {
@@ -829,7 +889,8 @@
       "RIX": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "airBaltic"
       }
     },
     "Memmingen": {
@@ -841,43 +902,50 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 145
+        "duration_minutes": 145,
+        "carrier": "Ryanair"
       }
     },
     "Milan": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 185
+        "duration_minutes": 185,
+        "carrier": "Ryanair"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 165
+        "duration_minutes": 165,
+        "carrier": "airBaltic"
       }
     },
     "Munich": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 150
+        "duration_minutes": 150,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 130
+        "duration_minutes": 130,
+        "carrier": "airBaltic"
       }
     },
     "Málaga": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 290
+        "duration_minutes": 290,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 280
+        "duration_minutes": 280,
+        "carrier": "Ryanair, airBaltic"
       }
     },
     "Naples": {
@@ -890,19 +958,22 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 185,
-        "seasonal_months": "May–Oct"
+        "seasonal_months": "May–Oct",
+        "carrier": "airBaltic"
       }
     },
     "Nice": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 205
+        "duration_minutes": 205,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 185
+        "duration_minutes": 185,
+        "carrier": "airBaltic"
       }
     },
     "Nottingham": {
@@ -915,7 +986,8 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 170,
-        "seasonal_months": "Dec–Aug"
+        "seasonal_months": "Dec–Aug",
+        "carrier": "Ryanair"
       }
     },
     "Olbia": {
@@ -928,19 +1000,22 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 200,
-        "seasonal_months": "Jun–Oct"
+        "seasonal_months": "Jun–Oct",
+        "carrier": "airBaltic"
       }
     },
     "Oslo": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 90
+        "duration_minutes": 90,
+        "carrier": "Norwegian Air Shuttle, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 90
+        "duration_minutes": 90,
+        "carrier": "Norwegian Air Shuttle, airBaltic"
       }
     },
     "Oulu": {
@@ -952,7 +1027,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 100
+        "duration_minutes": 100,
+        "carrier": "airBaltic"
       }
     },
     "Palanga": {
@@ -964,7 +1040,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 40
+        "duration_minutes": 40,
+        "carrier": "airBaltic"
       }
     },
     "Palma de Mallorca": {
@@ -972,13 +1049,15 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 245,
-        "seasonal_months": "May–Nov"
+        "seasonal_months": "May–Nov",
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 230,
-        "seasonal_months": "May–Nov"
+        "seasonal_months": "May–Nov",
+        "carrier": "airBaltic"
       }
     },
     "Paphos": {
@@ -990,19 +1069,22 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 235
+        "duration_minutes": 235,
+        "carrier": "Ryanair"
       }
     },
     "Paris": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 180
+        "duration_minutes": 180,
+        "carrier": "Transavia, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 170
+        "duration_minutes": 170,
+        "carrier": "airBaltic"
       }
     },
     "Patras": {
@@ -1014,7 +1096,8 @@
       "RIX": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "airBaltic"
       }
     },
     "Pisa": {
@@ -1027,7 +1110,8 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 165,
-        "seasonal_months": "May–Nov"
+        "seasonal_months": "May–Nov",
+        "carrier": "airBaltic"
       }
     },
     "Porto": {
@@ -1040,7 +1124,8 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 265,
-        "seasonal_months": "May–Dec"
+        "seasonal_months": "May–Dec",
+        "carrier": "airBaltic"
       }
     },
     "Prague": {
@@ -1048,36 +1133,28 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 130,
-        "seasonal_months": "May–Aug"
+        "seasonal_months": "May–Aug",
+        "carrier": "Eurowings"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 110
+        "duration_minutes": 110,
+        "carrier": "Ryanair, airBaltic"
       }
     },
     "Reykjavik": {
       "TLL": {
-        "direct": false,
+        "direct": true,
         "seasonal": false,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 235
-      }
-    },
-    "Reykjavík": {
-      "TLL": {
-        "direct": true,
-        "seasonal": false,
-        "duration_minutes": null
-      },
-      "RIX": {
-        "direct": true,
-        "seasonal": false,
-        "duration_minutes": null
+        "duration_minutes": 235,
+        "carrier": "airBaltic"
       }
     },
     "Rhodes": {
@@ -1085,20 +1162,23 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 240,
-        "seasonal_months": "May–Nov"
+        "seasonal_months": "May–Nov",
+        "carrier": "Heston Airlines, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 210,
-        "seasonal_months": "May–Oct"
+        "seasonal_months": "May–Oct",
+        "carrier": "airBaltic"
       }
     },
     "Riga": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 50
+        "duration_minutes": 50,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": false,
@@ -1110,12 +1190,14 @@
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 210
+        "duration_minutes": 210,
+        "carrier": "Wizz Air"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 185
+        "duration_minutes": 185,
+        "carrier": "Ryanair, airBaltic"
       }
     },
     "Salzburg": {
@@ -1123,12 +1205,14 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 150,
-        "seasonal_months": "Dec–Mar"
+        "seasonal_months": "Dec–Mar",
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "airBaltic"
       }
     },
     "Sandefjord": {
@@ -1140,31 +1224,22 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Ryanair"
       }
     },
     "Sharm El Sheikh": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
-      },
-      "RIX": {
-        "direct": true,
-        "seasonal": true,
-        "duration_minutes": null
-      }
-    },
-    "Sharm el-Sheikh": {
-      "TLL": {
-        "direct": false,
-        "seasonal": false,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines, SkyUp Airlines, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 295,
+        "carrier": "Heston Airlines, SkyUp Airlines, airBaltic",
         "seasonal_months": "Nov–May"
       }
     },
@@ -1177,7 +1252,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 155
+        "duration_minutes": 155,
+        "carrier": "airBaltic"
       }
     },
     "Split": {
@@ -1185,25 +1261,29 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 175,
-        "seasonal_months": "May–Sep"
+        "seasonal_months": "May–Sep",
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 155,
-        "seasonal_months": "May–Oct"
+        "seasonal_months": "May–Oct",
+        "carrier": "airBaltic"
       }
     },
     "Stockholm": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 65
+        "duration_minutes": 65,
+        "carrier": "Ryanair, Scandinavian Airlines"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 70
+        "duration_minutes": 70,
+        "carrier": "Norwegian Air Shuttle, Ryanair, airBaltic"
       }
     },
     "Tallinn": {
@@ -1215,7 +1295,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 50
+        "duration_minutes": 50,
+        "carrier": "airBaltic"
       }
     },
     "Tampere": {
@@ -1227,7 +1308,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 65
+        "duration_minutes": 65,
+        "carrier": "airBaltic"
       }
     },
     "Tashkent": {
@@ -1239,7 +1321,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 330
+        "duration_minutes": 330,
+        "carrier": "FlyOne, Uzbekistan Airways"
       }
     },
     "Tbilisi": {
@@ -1251,7 +1334,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 265
+        "duration_minutes": 265,
+        "carrier": "airBaltic"
       }
     },
     "Tel Aviv": {
@@ -1263,19 +1347,22 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 250
+        "duration_minutes": 250,
+        "carrier": "airBaltic"
       }
     },
     "Tenerife": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 410
+        "duration_minutes": 410,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 400
+        "duration_minutes": 400,
+        "carrier": "airBaltic"
       }
     },
     "Thessaloniki": {
@@ -1288,7 +1375,8 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 170,
-        "seasonal_months": "May–Oct"
+        "seasonal_months": "May–Oct",
+        "carrier": "airBaltic"
       }
     },
     "Tirana": {
@@ -1296,26 +1384,30 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 185,
-        "seasonal_months": "May–Aug"
+        "seasonal_months": "May–Aug",
+        "carrier": "Heston Airlines, Wizz Air, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 160,
-        "seasonal_months": "May–Oct"
+        "seasonal_months": "May–Oct",
+        "carrier": "airBaltic"
       }
     },
     "Tivat": {
       "TLL": {
         "direct": true,
         "seasonal": true,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Heston Airlines"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 160,
-        "seasonal_months": "May–Oct"
+        "seasonal_months": "May–Oct",
+        "carrier": "Air Montenegro, Heston Airlines, Norwegian Air Shuttle, airBaltic"
       }
     },
     "Treviso": {
@@ -1327,7 +1419,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": null
+        "duration_minutes": null,
+        "carrier": "Ryanair"
       }
     },
     "Trondheim": {
@@ -1339,7 +1432,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 105
+        "duration_minutes": 105,
+        "carrier": "Norwegian Air Shuttle"
       }
     },
     "Turin": {
@@ -1352,7 +1446,8 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 175,
-        "seasonal_months": "Dec–Feb"
+        "seasonal_months": "Dec–Feb",
+        "carrier": "airBaltic"
       }
     },
     "Turku": {
@@ -1364,7 +1459,8 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 65
+        "duration_minutes": 65,
+        "carrier": "airBaltic"
       }
     },
     "Valencia": {
@@ -1377,20 +1473,23 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 240,
-        "seasonal_months": "May–Nov"
+        "seasonal_months": "May–Nov",
+        "carrier": "airBaltic"
       }
     },
     "Venice": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 180
+        "duration_minutes": 180,
+        "carrier": "Wizz Air"
       },
       "RIX": {
         "direct": true,
         "seasonal": true,
         "duration_minutes": 155,
-        "seasonal_months": "May–Aug"
+        "seasonal_months": "May–Aug",
+        "carrier": "airBaltic"
       }
     },
     "Verona": {
@@ -1403,43 +1502,50 @@
         "direct": true,
         "seasonal": true,
         "duration_minutes": 160,
-        "seasonal_months": "Dec–Mar"
+        "seasonal_months": "Dec–Mar",
+        "carrier": "airBaltic"
       }
     },
     "Vienna": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 150
+        "duration_minutes": 150,
+        "carrier": "airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 120
+        "duration_minutes": 120,
+        "carrier": "Ryanair, airBaltic"
       }
     },
     "Vilnius": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 70
+        "duration_minutes": 70,
+        "carrier": "Wizz Air, airBaltic"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 50
+        "duration_minutes": 50,
+        "carrier": "airBaltic"
       }
     },
     "Warsaw": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 100
+        "duration_minutes": 100,
+        "carrier": "LOT Polish Airlines, Wizz Air"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 75
+        "duration_minutes": 75,
+        "carrier": "LOT Polish Airlines, airBaltic"
       }
     },
     "Yerevan": {
@@ -1451,31 +1557,22 @@
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": 240
+        "duration_minutes": 240,
+        "carrier": "airBaltic"
       }
     },
     "Zurich": {
       "TLL": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": null
+        "duration_minutes": 170,
+        "carrier": "Swiss International Air Lines"
       },
       "RIX": {
         "direct": true,
         "seasonal": false,
-        "duration_minutes": null
-      }
-    },
-    "Zürich": {
-      "TLL": {
-        "direct": true,
-        "seasonal": false,
-        "duration_minutes": 170
-      },
-      "RIX": {
-        "direct": true,
-        "seasonal": false,
-        "duration_minutes": 155
+        "duration_minutes": 155,
+        "carrier": "airBaltic"
       }
     }
   }

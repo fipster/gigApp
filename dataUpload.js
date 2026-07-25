@@ -62,6 +62,7 @@
     let citySelection = new Set();
     let dateFrom = WINDOW_FROM;
     let dateTo = WINDOW_TO;
+    let sortBy = "date";
 
     function escapeHtml(str) {
       const div = document.createElement('div');
@@ -188,8 +189,28 @@
       return h > 0 ? `${h}h ${m}m` : `${m}m`;
     }
 
-    function flightPillHtml(originLabel, direct) {
-      return `<div class="flight-pill${direct ? "" : " none"}"><span class="airport-badge">${originLabel}</span></div>`;
+    function flightPillHtml(originLabel, f) {
+      const title = f.direct && f.carrier ? ` title="${escapeAttr(f.carrier)}"` : "";
+      return `<div class="flight-pill${f.direct ? "" : " none"}"${title}><span class="airport-badge">${originLabel}</span></div>`;
+    }
+
+    const CARRIER_IATA = {
+      "airBaltic": "BT", "Ryanair": "FR", "Wizz Air": "W6", "LOT Polish Airlines": "LO",
+      "Lufthansa": "LH", "Finnair": "AY", "Scandinavian Airlines": "SK", "Turkish Airlines": "TK",
+      "Swiss International Air Lines": "LX", "Eurowings": "EW", "Jet2.com": "LS",
+      "Norwegian Air Shuttle": "DY", "Aegean Airlines": "A3", "NyxAir": "OJ",
+      "Pegasus Airlines": "PC", "SunExpress": "XQ", "Transavia": "HV", "flydubai": "FZ",
+      "Uzbekistan Airways": "HY", "SkyUp Airlines": "PQ", "Air Montenegro": "4O", "FlyOne": "5F",
+      "Freebird Airlines": "FH",
+    };
+
+    function carrierLogosHtml(carrierField) {
+      if (!carrierField) return "";
+      return carrierField.split(",").map(name => name.trim()).map(name => {
+        const code = CARRIER_IATA[name];
+        if (!code) return "";
+        return `<img class="carrier-logo" src="https://images.kiwi.com/airlines/64/${code}.png" alt="${escapeAttr(name)}" title="${escapeAttr(name)}" loading="lazy" onerror="this.remove()">`;
+      }).join("");
     }
 
     function flightSummaryHtml(s) {
@@ -218,7 +239,26 @@
       }
       if (activeOrigins.size > 0) list = list.filter(s => hasDirectForSelection(s));
 
-      list.sort((a, b) => a.date.localeCompare(b.date));
+      // group shows sharing the same date + venue (e.g. festival lineups) into one row
+      const groups = [];
+      const groupByKey = new Map();
+      list.forEach(s => {
+        const key = `${s.date}|${s.venue}|${s.city}|${s.country}`;
+        if (!groupByKey.has(key)) {
+          const group = { ...s, bands: [s.band] };
+          groupByKey.set(key, group);
+          groups.push(group);
+        } else {
+          groupByKey.get(key).bands.push(s.band);
+        }
+      });
+      groups.forEach(g => g.bands.sort());
+
+      if (sortBy === "bandCount") {
+        groups.sort((a, b) => b.bands.length - a.bands.length || a.date.localeCompare(b.date));
+      } else {
+        groups.sort((a, b) => a.date.localeCompare(b.date));
+      }
 
       document.getElementById('totalCount').textContent = shows.length + " confirmed";
       document.getElementById('windowLabel').textContent = formatWindowLabel(WINDOW_FROM, WINDOW_TO);
@@ -237,11 +277,11 @@
       }
 
       let lastMonth = null;
-      list.forEach(s => {
+      groups.forEach(s => {
         const d = new Date(s.date + "T00:00:00");
         const monthKey = monthNames[d.getMonth()] + " " + d.getFullYear();
 
-        if (monthKey !== lastMonth) {
+        if (sortBy === "date" && monthKey !== lastMonth) {
           const div = document.createElement('div');
           div.className = "month-divider";
           div.textContent = monthKey;
@@ -252,10 +292,21 @@
         const stub = document.createElement('div');
         stub.className = "stub";
 
+        const tllCarrier = s.flightTLL.direct ? s.flightTLL.carrier : null;
+        const rixCarrier = s.flightRIX.direct ? s.flightRIX.carrier : null;
+        const sameCarrier = tllCarrier && tllCarrier === rixCarrier;
+
         let flightsHtml = "";
-        flightsHtml += flightPillHtml("TLL", s.flightTLL.direct);
-        flightsHtml += flightPillHtml("RIX", s.flightRIX.direct);
+        flightsHtml += flightPillHtml("TLL", s.flightTLL);
+        if (!sameCarrier && tllCarrier) flightsHtml += carrierLogosHtml(tllCarrier);
+        flightsHtml += flightPillHtml("RIX", s.flightRIX);
+        if (sameCarrier) flightsHtml += carrierLogosHtml(tllCarrier);
+        else if (rixCarrier) flightsHtml += carrierLogosHtml(rixCarrier);
         flightsHtml += flightSummaryHtml(s);
+
+        const bandTagsHtml = s.bands.map(band =>
+          `<a class="band-tag ${bandColorClass(band, uniqueBands)}" href="${escapeAttr("https://music.youtube.com/search?q=" + encodeURIComponent(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
+        ).join('');
 
         stub.innerHTML = `
       <div class="stub-dot"></div>
@@ -266,7 +317,7 @@
       </div>
       <div class="stub-body">
         <div class="stub-top">
-          <a class="band-tag ${bandColorClass(s.band, uniqueBands)}" href="${escapeAttr("https://music.youtube.com/search?q=" + encodeURIComponent(s.band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.band)}</a>
+          <div class="band-tags">${bandTagsHtml}</div>
           ${s.fest ? `<span class="fest-tag">${escapeHtml(s.fest)}</span>` : ''}
         </div>
         <div class="city">${s.url ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${countryFlag(s.country)} ${escapeHtml(s.city)}</a>` : `${countryFlag(s.country)} ${escapeHtml(s.city)}`}</div>
@@ -333,6 +384,8 @@
       document.getElementById('dateTo').value = dateTo;
       render();
     });
+
+    document.getElementById('sortBy').addEventListener('change', (e) => { sortBy = e.target.value; render(); });
 
     document.querySelectorAll('#cityFilterDetails .mode-row .chip').forEach(chip => {
       chip.addEventListener('click', () => {
