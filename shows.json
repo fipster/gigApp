@@ -1,5 +1,110 @@
 [
   {
+    "band": "David Byrne",
+    "date": "2026-07-26",
+    "city": "Cardiff",
+    "country": "GB",
+    "venue": "Cardiff Castle",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/david-byrne-cardiff-26-07-2026/event/1F006357DA0C8A5A",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Groove Armada",
+    "date": "2026-07-30",
+    "city": "Oxfordshire",
+    "country": "GB",
+    "venue": "Cornbury Park",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/audi-presents-wilderness-2026-sustainable-weekend-oxfordshire-30-07-2026/event/1F0062E7A7280FAA",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Leftfield",
+    "date": "2026-07-30",
+    "city": "Dorset",
+    "country": "GB",
+    "venue": "Lulworth Castle",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/camp-bestival-2026-hospitality-camping-dorset-30-07-2026/event/35006313B0F51612",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Thievery Corporation",
+    "date": "2026-07-30",
+    "city": "London",
+    "country": "GB",
+    "venue": "Roundhouse",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/thievery-corporation-london-30-07-2026/event/1F006459E8737ED5",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Crowbar",
+    "date": "2026-07-31",
+    "city": "Wroclaw",
+    "country": "PL",
+    "venue": "Zaklęte Rewiry",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/cancelled-crowbar-tickets/412763015?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Dry Cleaning",
     "date": "2026-07-31",
     "city": "Portlaw",
@@ -8,6 +113,888 @@
     "fest": "FESTIVAL",
     "source": "Ticketmaster",
     "url": "https://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Gary Numan",
+    "date": "2026-07-31",
+    "city": "Halifax",
+    "country": "GB",
+    "venue": "The Piece Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/gary-numan-with-very-special-guest-halifax-31-07-2026/event/3500634FD06D7614",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Gilla Band",
+    "date": "2026-07-31",
+    "city": "Portlaw",
+    "country": "IE",
+    "venue": "Curraghmore House",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Maruja",
+    "date": "2026-07-31",
+    "city": "Portlaw",
+    "country": "IE",
+    "venue": "Curraghmore House",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Mogwai",
+    "date": "2026-07-31",
+    "city": "Portlaw",
+    "country": "IE",
+    "venue": "Curraghmore House",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Nick Cave & The Bad Seeds",
+    "date": "2026-07-31",
+    "city": "Brighton",
+    "country": "GB",
+    "venue": "Preston Park",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/nick-cave-the-bad-seeds-tickets-5HLBZX?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Underworld",
+    "date": "2026-07-31",
+    "city": "Portlaw",
+    "country": "IE",
+    "venue": "Curraghmore House",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Leftfield",
+    "date": "2026-08-01",
+    "city": "Dorset",
+    "country": "GB",
+    "venue": "Lulworth Castle",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/camp-bestival-2026-saturday-day-dorset-01-08-2026/event/3500644BAD755789",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Opeth",
+    "date": "2026-08-01",
+    "city": "Halifax",
+    "country": "GB",
+    "venue": "The Piece Hall",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/opeth-halifax-01-08-2026/event/3500632CD4ED1EE5",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Stranglers",
+    "date": "2026-08-01",
+    "city": "Cardiff",
+    "country": "GB",
+    "venue": "Cardiff Castle",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/sex-pistols-ft-frank-carter-cardiff-01-08-2026/event/1F006378B5A46923",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Opeth",
+    "date": "2026-08-02",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "Bord Gais Energy Theatre",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/opeth-dublin-02-08-2026/event/1800634AAC64235C",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "The Stranglers",
+    "date": "2026-08-02",
+    "city": "Scarborough",
+    "country": "GB",
+    "venue": "Scarborough Open Air Theatre",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/sex-pistols-ft-frank-carter-scarborough-02-08-2026/event/35006378AE9C4825",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Cate Le Bon",
+    "date": "2026-08-03",
+    "city": "London",
+    "country": "GB",
+    "venue": "ICA",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/cate-le-bon-london-03-08-2026/event/1F0064C4A2EB6623",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Cate Le Bon",
+    "date": "2026-08-04",
+    "city": "London",
+    "country": "GB",
+    "venue": "ICA",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/cate-le-bon-london-04-08-2026/event/1F0064C3E22FA3C0",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Gary Numan",
+    "date": "2026-08-04",
+    "city": "Northampton",
+    "country": "GB",
+    "venue": "Roadmender",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/gary-numan-northampton-04-08-2026/event/1F006463E90255A7",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Gary Numan",
+    "date": "2026-08-05",
+    "city": "Northampton",
+    "country": "GB",
+    "venue": "Roadmender",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/gary-numan-northampton-05-08-2026/event/1F006463EF945B28",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Kokoroko",
+    "date": "2026-08-05",
+    "city": "Heidelberg",
+    "country": "DE",
+    "venue": "Metropolink's Commissary",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/metropolink-festival-kokoroko-arp-frique-the-perpetual-singers-uvm-tickets-NM56LD?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Gary Numan",
+    "date": "2026-08-06",
+    "city": "London",
+    "country": "GB",
+    "venue": "Crystal Palace Bowl",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/palace-bowl-presents-gary-numan-london-06-08-2026/event/35006446C2F06E57",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Kool & The Gang",
+    "date": "2026-08-08",
+    "city": "Milton Keynes",
+    "country": "GB",
+    "venue": "The National Bowl",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/electric-paradise-tickets-JBWVRM?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Odyssey",
+    "date": "2026-08-08",
+    "city": "Milton Keynes",
+    "country": "GB",
+    "venue": "The National Bowl",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/electric-paradise-tickets-JBWVRM?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Morcheeba",
+    "date": "2026-08-09",
+    "city": "Praha 7",
+    "country": "CZ",
+    "venue": "SaSaZu",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.cz/event/morcheeba-%7C-prague-tickets/1400981484?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Geordie Greep",
+    "date": "2026-08-10",
+    "city": "Poznan",
+    "country": "PL",
+    "venue": "Klub 2progi",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/geordie-greep-tickets/1690274219?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Maruja",
+    "date": "2026-08-11",
+    "city": "Sestri Levante",
+    "country": "IT",
+    "venue": "Teatro Arena Conchiglia",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.it/biglietti/maruja-support-mojotic-festival-2026-sestri-levante-11-08-2026/event/qa4ewt7b78ux",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Odyssey",
+    "date": "2026-08-14",
+    "city": "Reading",
+    "country": "GB",
+    "venue": "Prospect Park Reading",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/soultasia-reading-14-08-2026/event/1F006391A49239AF",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Bonobo",
+    "date": "2026-08-15",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "Sonnenraum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/bonobo-dj-set--tickets/2025632529?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 110
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 110
+    },
+    "note": ""
+  },
+  {
+    "band": "Earl Sweatshirt",
+    "date": "2026-08-15",
+    "city": "Göteborg",
+    "country": "SE",
+    "venue": "Slottsskogen",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.se/event/way-out-west-august-13-15-2026-tickets/1854460538?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Four Tet",
+    "date": "2026-08-15",
+    "city": "Göteborg",
+    "country": "SE",
+    "venue": "Slottsskogen",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.se/event/way-out-west-august-13-15-2026-accessible-tickets-only-tickets/1164493802?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Geese",
+    "date": "2026-08-15",
+    "city": "Göteborg",
+    "country": "SE",
+    "venue": "Slottsskogen",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.se/event/way-out-west-august-13-15-2026-accessible-tickets-only-tickets/1164493802?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Gorillaz",
+    "date": "2026-08-15",
+    "city": "Göteborg",
+    "country": "SE",
+    "venue": "Slottsskogen",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.se/event/way-out-west-august-13-15-2026-accessible-tickets-only-tickets/1164493802?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Melody's Echo Chamber",
+    "date": "2026-08-15",
+    "city": "Göteborg",
+    "country": "SE",
+    "venue": "Slottsskogen",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.se/event/way-out-west-august-13-15-2026-tickets/1854460538?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Moby",
+    "date": "2026-08-15",
+    "city": "Göteborg",
+    "country": "SE",
+    "venue": "Slottsskogen",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.se/event/way-out-west-august-13-15-2026-accessible-tickets-only-tickets/1164493802?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Nick Cave & The Bad Seeds",
+    "date": "2026-08-15",
+    "city": "Göteborg",
+    "country": "SE",
+    "venue": "Slottsskogen",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.se/event/way-out-west-august-13-15-2026-accessible-tickets-only-tickets/1164493802?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Geese",
+    "date": "2026-08-16",
+    "city": "Helsinki",
+    "country": "FI",
+    "venue": "SUVILAHTI",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.fi/event/flow-festival-2026-tickets/1504032343?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 30
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 30
+    },
+    "note": ""
+  },
+  {
+    "band": "Nick Cave & The Bad Seeds",
+    "date": "2026-08-16",
+    "city": "Helsinki",
+    "country": "FI",
+    "venue": "SUVILAHTI",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.fi/event/flow-festival-2026-tickets/1504032343?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 30
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 30
+    },
+    "note": ""
+  },
+  {
+    "band": "Moby",
+    "date": "2026-08-18",
+    "city": "Bonn",
+    "country": "DE",
+    "venue": "Kunst!Rasen Bonn/Gronau",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/moby-live-26-tickets/796800391?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Chat Pile",
+    "date": "2026-08-19",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Button Factory",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/chat-pile-dublin-19-08-2026/event/18006443D601E204",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Geese",
+    "date": "2026-08-19",
+    "city": "Segrate (Milano)",
+    "country": "IT",
+    "venue": "Circolo Magnolia",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.it/biglietti/geese-unaltrofestival-2026-segrate-19-08-2026/event/dckze1latphs",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Chat Pile",
+    "date": "2026-08-20",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Button Factory",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/chat-pile-dublin-20-08-2026/event/18006443D602E207",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Geordie Greep",
+    "date": "2026-08-20",
+    "city": "Stockholm",
+    "country": "SE",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.se/event/geordie-greep-tickets/721644136?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 65
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 65
+    },
+    "note": ""
+  },
+  {
+    "band": "Geese",
+    "date": "2026-08-21",
+    "city": "Biddinghuizen",
+    "country": "NL",
+    "venue": "Evenemententerrein Walibi",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/lowlands-2026-festivalticket-tickets/1050736969?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Geordie Greep",
+    "date": "2026-08-21",
+    "city": "Biddinghuizen",
+    "country": "NL",
+    "venue": "Evenemententerrein Walibi",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/lowlands-2026-festivalticket-tickets/1050736969?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Maruja",
+    "date": "2026-08-21",
+    "city": "Biddinghuizen",
+    "country": "NL",
+    "venue": "Evenemententerrein Walibi",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/lowlands-2026-festivalticket-tickets/1050736969?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Moby",
+    "date": "2026-08-21",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "IMMA",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/moby-dublin-21-08-2026/event/1800642EABE6BAA7",
     "flightTLL": {
       "direct": true,
       "seasonal": false,
@@ -42,6 +1029,451 @@
     "note": ""
   },
   {
+    "band": "Deftones",
+    "date": "2026-08-23",
+    "city": "London",
+    "country": "GB",
+    "venue": "Victoria Park London",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/all-points-east-presents-outbreak-deftones-london-23-08-2026/event/37006364F65697A3",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "IDLES",
+    "date": "2026-08-23",
+    "city": "London",
+    "country": "GB",
+    "venue": "Victoria Park London",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/all-points-east-presents-outbreak-deftones-london-23-08-2026/event/37006364F65697A3",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Mannequin Pussy",
+    "date": "2026-08-23",
+    "city": "London",
+    "country": "GB",
+    "venue": "Victoria Park London",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/all-points-east-presents-outbreak-deftones-london-23-08-2026/event/37006364F65697A3",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Mogwai",
+    "date": "2026-08-23",
+    "city": "Edinburgh",
+    "country": "GB",
+    "venue": "Royal Highland Showgrounds",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-the-cure-edinburgh-23-08-2026/event/3600633DA2226DE5",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 175,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 175
+    },
+    "note": ""
+  },
+  {
+    "band": "Show Me The Body",
+    "date": "2026-08-23",
+    "city": "London",
+    "country": "GB",
+    "venue": "Victoria Park London",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/all-points-east-presents-outbreak-deftones-london-23-08-2026/event/37006364F65697A3",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Deftones",
+    "date": "2026-08-25",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "IMMA",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/deftones-dublin-25-08-2026/event/180063733F89EEF0",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Earl Sweatshirt",
+    "date": "2026-08-25",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "O2 Academy Glasgow",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/earl-sweatshirt-mike-glasgow-25-08-2026/event/3E0064668FB830A9",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Geese",
+    "date": "2026-08-25",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Barrowland Ballroom",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/geese-glasgow-25-08-2026/event/3600633A743F4737",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "IDLES",
+    "date": "2026-08-25",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "IMMA",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/deftones-dublin-25-08-2026/event/180063733F89EEF0",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Sparks",
+    "date": "2026-08-25",
+    "city": "York",
+    "country": "GB",
+    "venue": "York Barbican",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/sparks-york-25-08-2026/event/36006482E3FB98EA",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Earl Sweatshirt",
+    "date": "2026-08-26",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "Vicar Street",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/earl-sweatshirt-mike-dublin-26-08-2026/event/1800646682895841",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Geese",
+    "date": "2026-08-26",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Barrowland Ballroom",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/geese-glasgow-26-08-2026/event/3600633A6C223288",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "IDLES",
+    "date": "2026-08-26",
+    "city": "Belfast",
+    "country": "GB",
+    "venue": "Custom House Square Belfast",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/idles-belfast-26-08-2026/event/3800636B8D181788",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Sparks",
+    "date": "2026-08-26",
+    "city": "Southend-On-Sea",
+    "country": "GB",
+    "venue": "Southend Cliffs Pavilion",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/sparks-southendonsea-26-08-2026/event/1F006482E9848744",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Deftones",
+    "date": "2026-08-27",
+    "city": "Edinburgh",
+    "country": "GB",
+    "venue": "Royal Highland Showgrounds",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-deftones-edinburgh-27-08-2026/event/36006356DD9BBF48",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 175,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 175
+    },
+    "note": ""
+  },
+  {
+    "band": "IDLES",
+    "date": "2026-08-27",
+    "city": "Edinburgh",
+    "country": "GB",
+    "venue": "Royal Highland Showgrounds",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-deftones-edinburgh-27-08-2026/event/36006356DD9BBF48",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 175,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 175
+    },
+    "note": ""
+  },
+  {
+    "band": "Earl Sweatshirt",
+    "date": "2026-08-28",
+    "city": "Nottingham",
+    "country": "GB",
+    "venue": "Rock City",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/earl-sweatshirt-mike-home-on-the-nottingham-28-08-2026/event/1F00646614CAAF3F",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": null,
+      "seasonal_months": "Dec–Aug"
+    },
+    "note": ""
+  },
+  {
+    "band": "Fontaines D.C.",
+    "date": "2026-08-28",
+    "city": "Reading",
+    "country": "GB",
+    "venue": "Richfield Avenue",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/reading-festival-2026-friday-reading-28-08-2026/event/3700634AD87EAC5E",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Geese",
+    "date": "2026-08-28",
+    "city": "Reading",
+    "country": "GB",
+    "venue": "Richfield Avenue",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/reading-festival-2026-friday-reading-28-08-2026/event/3700634AD87EAC5E",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Lamb",
+    "date": "2026-08-28",
+    "city": "Reading",
+    "country": "GB",
+    "venue": "Richfield Avenue",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/reading-festival-2026-friday-reading-28-08-2026/event/3700634AD87EAC5E",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Underworld",
+    "date": "2026-08-28",
+    "city": "Cheshire",
+    "country": "GB",
+    "venue": "Daresbury",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/creamfields-2026-2-day-standard-non-cheshire-28-08-2026/event/3700630FCDE54AF1",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Viagra Boys",
     "date": "2026-08-28",
     "city": "Liverpool",
@@ -63,6 +1495,111 @@
     "note": ""
   },
   {
+    "band": "Fontaines D.C.",
+    "date": "2026-08-29",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Bramham Park",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/leeds-festival-2026-saturday-leeds-29-08-2026/event/3500634AC87A9FCF",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Geese",
+    "date": "2026-08-29",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Bramham Park",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/leeds-festival-2026-saturday-leeds-29-08-2026/event/3500634AC87A9FCF",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Lamb",
+    "date": "2026-08-29",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Bramham Park",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/leeds-festival-2026-saturday-leeds-29-08-2026/event/3500634AC87A9FCF",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Mac DeMarco",
+    "date": "2026-08-29",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "Collins Barracks",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/mac-demarco-dublin-29-08-2026/event/1800637C9F92F5CB",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Underworld",
+    "date": "2026-08-29",
+    "city": "Cheshire",
+    "country": "GB",
+    "venue": "Daresbury",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/creamfields-2026-2-day-standard-non-cheshire-29-08-2026/event/3700630FCDEA4B0B",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Viagra Boys",
     "date": "2026-08-29",
     "city": "Reading",
@@ -78,6 +1615,5460 @@
     },
     "flightRIX": {
       "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Allah-Las",
+    "date": "2026-08-31",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "Whelans",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/allah-las-dublin-31-08-2026/event/18006449A4FFB45F",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Earl Sweatshirt",
+    "date": "2026-08-31",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Forum Kentish Town",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/earl-sweatshirt-mike-home-on-the-london-31-08-2026/event/3E006466F3688E5B",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-08-31",
+    "city": "London",
+    "country": "GB",
+    "venue": "Eventim Apollo",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/the-black-keys-london-31-08-2026/event/360064457D6A21AC",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Geese",
+    "date": "2026-09-01",
+    "city": "London",
+    "country": "GB",
+    "venue": "Troxy",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/geese-london-01-09-2026/event/3E00649DB3762DF9",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-09-01",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Academy Brixton",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/the-black-keys-london-01-09-2026/event/3E006444BB434FD7",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Earl Sweatshirt",
+    "date": "2026-09-02",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Bristol The Prospect Building",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/earl-sweatshirt-mike-home-on-the-bristol-02-09-2026/event/35006469BC634570",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Geese",
+    "date": "2026-09-02",
+    "city": "London",
+    "country": "GB",
+    "venue": "Troxy",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/geese-london-02-09-2026/event/3E00649DEEA046AF",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Misha Panfilov",
+    "date": "2026-09-02",
+    "city": "London",
+    "country": "GB",
+    "venue": "Jazz Cafe",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/misha-panfilov-septet-postponed-new-date-tbc-tickets-5TW97Y?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-09-02",
+    "city": "London",
+    "country": "GB",
+    "venue": "British Airways ARC",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/the-black-keys-london-02-09-2026/event/370064A1A4896CA6",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Odyssey",
+    "date": "2026-09-03",
+    "city": "London",
+    "country": "GB",
+    "venue": "Boisdale, Canary Wharf",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/odyssey-tickets-67G1PH?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Shame",
+    "date": "2026-09-04",
+    "city": "Manchester ",
+    "country": "GB",
+    "venue": "Projekts Skate Park",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/shame-tickets-XT8YRW?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-09-04",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/the-black-keys-peaches-n-kream-tickets/578848814?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-09-04",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "AFAS Live Loge",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/the-black-keys-%7C-premium-seats-tickets/73840056?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Night Tapes",
+    "date": "2026-09-05",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "O2 Ritz Manchester",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/manchester-psych-fest-2026-o2-ritz-manchester-05-09-2026/event/3E006365FB3D9EF2",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-09-05",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "AFAS Live Loge",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/the-black-keys-%7C-premium-seats-tickets/2036019001?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-09-05",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/the-black-keys-peaches-n-kream-%7C-vip-packages-tickets/1146926987?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Ty Segall",
+    "date": "2026-09-08",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Forum Kentish Town",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/ty-segall-london-08-09-2026/event/3E00646CBCB93E00",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Metric",
+    "date": "2026-09-09",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "3Olympia Theatre",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/all-the-feelings-tour-with-metric-dublin-09-09-2026/event/1800646CAA6BCB0A",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-09-10",
+    "city": "Milano",
+    "country": "IT",
+    "venue": "Alcatraz",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.it/biglietti/the-black-keys-peaches-n-kream-milano-10-09-2026/event/9v333gp14wn1",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Metric",
+    "date": "2026-09-11",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "O2 Academy Glasgow",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/all-the-feelings-tour-with-metric-glasgow-11-09-2026/event/3E00646CB56A3A5C",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-09-11",
+    "city": "Milano",
+    "country": "IT",
+    "venue": "Alcatraz",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.it/biglietti/the-black-keys-peaches-n-kream-milano-11-09-2026/event/w0h68mlm7ele",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Metric",
+    "date": "2026-09-12",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Academy Brixton",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/all-the-feelings-tour-with-metric-london-12-09-2026/event/3E00644BC4B153ED",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Metric",
+    "date": "2026-09-13",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Manchester Academy",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/all-the-feelings-tour-with-metric-manchester-13-09-2026/event/1F0064460828B4B0",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-09-13",
+    "city": "Madrid",
+    "country": "ES",
+    "venue": "Movistar Arena",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.es/event/the-black-keys-peaches-n-kream-tickets/1634798402?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Black Keys",
+    "date": "2026-09-15",
+    "city": "İstanbul",
+    "country": "TR",
+    "venue": "KüçükÇiftlik Park",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.biletix.com/performance/5EP11/001/TURKIYE/tr",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Ty Segall",
+    "date": "2026-09-15",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/ty-segall-tickets/1348354126?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 115
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 115
+    },
+    "note": ""
+  },
+  {
+    "band": "Metric",
+    "date": "2026-09-16",
+    "city": "Borgerhout",
+    "country": "BE",
+    "venue": "De Roma",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.be/event/all-the-feelings-tour-with-metric-%7C-vip-upgrades-tickets/1812712462",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Metric",
+    "date": "2026-09-17",
+    "city": "Utrecht",
+    "country": "NL",
+    "venue": "TivoliVredenburg",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/all-the-feelings-tour-with-metric-broken-social-scene-and-stars-tickets/198856824?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Metric",
+    "date": "2026-09-19",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/all-the-feelings-tour-with-metric-broken-social-scene-and-stars-tickets/359751164?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 110
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 110
+    },
+    "note": ""
+  },
+  {
+    "band": "Destroyer",
+    "date": "2026-09-21",
+    "city": "Bologna",
+    "country": "IT",
+    "venue": "Locomotiv Club",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.it/biglietti/destroyer-bologna-21-09-2026/event/wg93lo7jxgf5",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Caravan",
+    "date": "2026-09-24",
+    "city": "Lahti",
+    "country": "FI",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.fi/event/caravan-2025-tickets/386351933?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Nazareth",
+    "date": "2026-09-25",
+    "city": "Luzern",
+    "country": "CH",
+    "venue": "Braui Event Hall",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ch/event/rock-meets-country-2026-%7C-1-daypass-friday-tickets/1691788870?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Roger Eno",
+    "date": "2026-09-27",
+    "city": "Bielsko-Biała",
+    "country": "PL",
+    "venue": "Bielskie Centrum Kultury",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/soundesign-roger-eno-daniel-bloom-i-gaba-kulka-tickets/1358390849?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Courtney Barnett",
+    "date": "2026-10-01",
+    "city": "Milano",
+    "country": "IT",
+    "venue": "Lime Milano",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.it/biglietti/courtney-barnett-milano-01-10-2026/event/2uyp7ygxevkc",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Exploited",
+    "date": "2026-10-02",
+    "city": "Dundee",
+    "country": "GB",
+    "venue": "Music Hall, Dundee",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/the-exploited-tickets-FB0762?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Exploited",
+    "date": "2026-10-03",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "SLAY",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/the-exploited-tickets-0Y7FPL?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Bass Drum of Death",
+    "date": "2026-10-07",
+    "city": "Stockholm",
+    "country": "SE",
+    "venue": "Debaser Nova",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.se/event/bass-drum-of-death-europe-2026--tickets/23902727?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 65
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 65
+    },
+    "note": ""
+  },
+  {
+    "band": "Gilla Band",
+    "date": "2026-10-07",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "The White Hotel",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/gilla-band-tickets-39KBF4?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-10-07",
+    "city": "Southend-On-Sea",
+    "country": "GB",
+    "venue": "Palace Theatre, Southend",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-southendonsea-07-10-2026/event/35006373F62BBB42",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Laurie Anderson",
+    "date": "2026-10-08",
+    "city": "Cardiff",
+    "country": "GB",
+    "venue": "Wales Millennium Centre",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://theatre.ticketmaster.co.uk/book/1J702-laurie-anderson/#perf=1J702-2&date=2026-10-08&time=8.00PM",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Digitalism",
+    "date": "2026-10-09",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "YES (Pink Room)",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/digitalism-tickets-WD2XLH?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "S.P.Y",
+    "date": "2026-10-09",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Depot Mayfield",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/worried-about-henry-manchester-09-10-2026/event/350064DDD33F0B9D",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-10-10",
+    "city": "Poole",
+    "country": "GB",
+    "venue": "Lighthouse",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-poole-10-10-2026/event/1F006374994B557E",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-10-11",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Bristol Beacon",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-bristol-11-10-2026/event/37006374A87E45A2",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Morcheeba",
+    "date": "2026-10-12",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "Vicar Street",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/morcheeba-dublin-12-10-2026/event/1800647BCFDED56B",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-10-14",
+    "city": "Brighton",
+    "country": "GB",
+    "venue": "Theatre Royal - Brighton",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-brighton-14-10-2026/event/37006373E58385F6",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-10-15",
+    "city": "London",
+    "country": "GB",
+    "venue": "The London Palladium",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-london-15-10-2026/event/370063748D2F2C70",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Sleaford Mods",
+    "date": "2026-10-15",
+    "city": "Brussels",
+    "country": "BE",
+    "venue": "Théâtre National - Grande Salle",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.be/event/sleaford-mods-tickets/1280838020",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 160
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 160
+    },
+    "note": ""
+  },
+  {
+    "band": "Tramhaus",
+    "date": "2026-10-15",
+    "city": "Newcastle Upon Tyne",
+    "country": "GB",
+    "venue": "Newcastle University Student Union",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/notion-live-present-gurriers-tickets-HPCJMF?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Courtney Barnett",
+    "date": "2026-10-16",
+    "city": "Nottingham",
+    "country": "GB",
+    "venue": "Rock City",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/courtney-barnett-nottingham-16-10-2026/event/1F00647AE905981F",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": null,
+      "seasonal_months": "Dec–Aug"
+    },
+    "note": ""
+  },
+  {
+    "band": "Courtney Barnett",
+    "date": "2026-10-17",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Aviva Studios - The Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/courtney-barnett-manchester-17-10-2026/event/3500647BEE77A488",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-10-17",
+    "city": "Milano",
+    "country": "IT",
+    "venue": "Magazzini Generali",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.it/biglietti/yard-act-milano-17-10-2026/event/1z54cuajf6os",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Autechre",
+    "date": "2026-10-20",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "Vicar Street",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/autechre-dublin-20-10-2026/event/1800637CC175C9A0",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Courtney Barnett",
+    "date": "2026-10-20",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Forum Kentish Town",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/courtney-barnett-london-20-10-2026/event/3E006478A3D3301C",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "The Exploited",
+    "date": "2026-10-20",
+    "city": "Southampton",
+    "country": "GB",
+    "venue": "Southampton 1865",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/the-exploited-tickets-KMJ6YB?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Courtney Barnett",
+    "date": "2026-10-21",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Forum Kentish Town",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/courtney-barnett-london-21-10-2026/event/3E00647ADB2E6641",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Temples",
+    "date": "2026-10-21",
+    "city": "Segrate (Milano)",
+    "country": "IT",
+    "venue": "Circolo Magnolia",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.it/biglietti/temples-segrate-milano-21-10-2026/event/jl5m7l6027op",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Digitalism",
+    "date": "2026-10-22",
+    "city": "Praha 3",
+    "country": "CZ",
+    "venue": "Palác Akropolis",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.cz/event/digitalism-tickets/964641980?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Lip Critic",
+    "date": "2026-10-22",
+    "city": "London",
+    "country": "GB",
+    "venue": "Underworld",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketweb.uk/event/lip-critic-the-underworld-camden-tickets/14963173?REFERRAL_ID=tmfeed",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Temples",
+    "date": "2026-10-22",
+    "city": "Bologna",
+    "country": "IT",
+    "venue": "Locomotiv Club",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.it/biglietti/temples-bologna-22-10-2026/event/owq832txqxyr",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Ash Code",
+    "date": "2026-10-23",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Melkweg",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/dave-clarke-presents-30-years-of-ade-tickets/799396911?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Digitalism",
+    "date": "2026-10-23",
+    "city": "Vienna",
+    "country": "AT",
+    "venue": "Flex",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.at/event/digitalism-optimism-tour-2026-tickets/325758166?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-10-23",
+    "city": "Stoke-On-Trent",
+    "country": "GB",
+    "venue": "Victoria Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-stokeontrent-23-10-2026/event/3700637481452407",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Orb",
+    "date": "2026-10-23",
+    "city": "Reading",
+    "country": "GB",
+    "venue": "Sub89",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/the-orb-tickets-QKPG3Y?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Tramhaus",
+    "date": "2026-10-23",
+    "city": "Birmingham",
+    "country": "GB",
+    "venue": "O2 Institute Birmingham",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/gurriers-birmingham-23-10-2026/event/3E0064AF96E62A15",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 190,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 190
+    },
+    "note": ""
+  },
+  {
+    "band": "Digitalism",
+    "date": "2026-10-24",
+    "city": "Warsaw",
+    "country": "PL",
+    "venue": "Niebo",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/digitalism-tickets/1976509912?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-10-24",
+    "city": "Birmingham",
+    "country": "GB",
+    "venue": "Town Hall Birmingham",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-birmingham-24-10-2026/event/1F00637483503D74",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 190,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 190
+    },
+    "note": ""
+  },
+  {
+    "band": "Squid",
+    "date": "2026-10-24",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Brudenell Social Club",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/in-colour-tickets-9G5Q8D?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Exploited",
+    "date": "2026-10-24",
+    "city": "Northampton",
+    "country": "GB",
+    "venue": "Roadmender",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/the-exploited-tickets-Y1C28W?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Temples",
+    "date": "2026-10-25",
+    "city": "Vienna",
+    "country": "AT",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.at/event/temples-bliss-2026-tour-tickets/918391690?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Ezra Furman",
+    "date": "2026-10-26",
+    "city": "London",
+    "country": "GB",
+    "venue": "Union Chapel",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketweb.uk/event/ezra-furman-union-chapel-tickets/14895353?REFERRAL_ID=tmfeed",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Temples",
+    "date": "2026-10-26",
+    "city": "Praha 1",
+    "country": "CZ",
+    "venue": "Rock Café",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.cz/event/temples-support-jewls-tickets/1540729621?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Perfume Genius",
+    "date": "2026-10-27",
+    "city": "London",
+    "country": "GB",
+    "venue": "Union Chapel",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketweb.uk/event/perfume-genius-duo-union-chapel-tickets/14907943?REFERRAL_ID=tmfeed",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Temples",
+    "date": "2026-10-27",
+    "city": "Warsaw",
+    "country": "PL",
+    "venue": "Niebo",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/temples-support-jewls-tickets/1359115773?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-10-28",
+    "city": "Liverpool",
+    "country": "GB",
+    "venue": "Liverpool Philharmonic Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-liverpool-28-10-2026/event/1F00637294BF4095",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Lip Critic",
+    "date": "2026-10-28",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/lip-critic-tickets/1796581387?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 110
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 110
+    },
+    "note": ""
+  },
+  {
+    "band": "Perfume Genius",
+    "date": "2026-10-28",
+    "city": "London",
+    "country": "GB",
+    "venue": "Union Chapel",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketweb.uk/event/perfume-genius-duo-union-chapel-tickets/14907923?REFERRAL_ID=tmfeed",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Lip Critic",
+    "date": "2026-10-29",
+    "city": "Cologne",
+    "country": "DE",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/lip-critic-tickets/596166272?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": null,
+      "seasonal_months": "May–Aug"
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-10-30",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "City Varieties Music Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-leeds-30-10-2026/event/1F0063748B5643B8",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-10-30",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-30-10-2026/event/Zor9uZKbZL4ZefdpbZd",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-10-31",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "City Varieties Music Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-leeds-31-10-2026/event/1F006374893E4215",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Satyricon",
+    "date": "2026-10-31",
+    "city": "Oslo",
+    "country": "NO",
+    "venue": "Oslo Spektrum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.no/event/unholy-halloween-dimmu-borgir-tickets/1759602401?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 90
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 90
+    },
+    "note": ""
+  },
+  {
+    "band": "The Exploited",
+    "date": "2026-10-31",
+    "city": "Birmingham",
+    "country": "GB",
+    "venue": "The Castle & Falcon",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/the-exploited-tickets-TCZVW0?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 190,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 190
+    },
+    "note": ""
+  },
+  {
+    "band": "Sleaford Mods",
+    "date": "2026-11-01",
+    "city": "Warsaw",
+    "country": "PL",
+    "venue": "Klub Stodoła",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/sleaford-mods-the-demise-of-planet-x-tickets/246298570?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "note": ""
+  },
+  {
+    "band": "Tortoise",
+    "date": "2026-11-01",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Queen Margaret Union",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/tortoise-tickets-KG3Y0F?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Sleaford Mods",
+    "date": "2026-11-03",
+    "city": "Vienna",
+    "country": "AT",
+    "venue": "Arena Wien",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.at/event/sleaford-mods-europe-part-2-tickets/1825396788?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Temples",
+    "date": "2026-11-03",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Melkweg",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/temples-tickets/1608831556?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Tortoise",
+    "date": "2026-11-03",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Button Factory",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/tortoise-dublin-03-11-2026/event/18006479A281CEAD",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-11-04",
+    "city": "Whitley Bay",
+    "country": "GB",
+    "venue": "Playhouse, Whitley Bay",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-whitley-bay-04-11-2026/event/3600637494A25288",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Psychedelic Porn Crumpets",
+    "date": "2026-11-04",
+    "city": "Oxford",
+    "country": "GB",
+    "venue": "O2 Academy Oxford",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/psychedelic-porn-crumpets-oxford-04-11-2026/event/3E0064DEDF3F94CC",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Tortoise",
+    "date": "2026-11-04",
+    "city": "London",
+    "country": "GB",
+    "venue": "Hackney Church ",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/pitchfork-festival-london-tortoise-tickets-MGTLCZ?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Digitalism",
+    "date": "2026-11-05",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Melkweg",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/digitalism-tickets/550504421?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-11-05",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-05-11-2026/event/Zor9uZKbZL4ZefdpbZ7",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-11-06",
+    "city": "York",
+    "country": "GB",
+    "venue": "Grand Opera House, York",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-york-06-11-2026/event/3600637492B64FC8",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-06",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "O2 Academy Leeds",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-leeds-06-11-2026/event/3E006473EB234C57",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-11-07",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-07-11-2026/event/Zor9uZKbZL4ZefdpbZA",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-07",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "O2 Academy Leeds",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-leeds-07-11-2026/event/3E006477A3E32AAF",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Mogwai",
+    "date": "2026-11-08",
+    "city": "København K",
+    "country": "DK",
+    "venue": "Operaen, Holmen",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.dk/event/mogwai-mogwai-30-tour-tickets/365371298?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Morcheeba",
+    "date": "2026-11-08",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "O2 Academy Glasgow",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/morcheeba-glasgow-08-11-2026/event/3E0064A6C63F3726",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Machine Girl",
+    "date": "2026-11-09",
+    "city": "Warsaw",
+    "country": "PL",
+    "venue": "Klub Proxima",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/machine-girl-tickets/645948978?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "note": ""
+  },
+  {
+    "band": "Morcheeba",
+    "date": "2026-11-09",
+    "city": "Gateshead",
+    "country": "GB",
+    "venue": "The Glasshouse International Centre for Music",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/morcheeba-gateshead-09-11-2026/event/37006477FB0D4A26",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Igorrr",
+    "date": "2026-11-10",
+    "city": "Birmingham",
+    "country": "GB",
+    "venue": "O2 Institute Birmingham",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/igorrr-birmingham-10-11-2026/event/3E0064AC9E02294B",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 190,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 190
+    },
+    "note": ""
+  },
+  {
+    "band": "Mogwai",
+    "date": "2026-11-10",
+    "city": "Utrecht",
+    "country": "NL",
+    "venue": "TivoliVredenburg",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/mogwai-30-tickets/711665906?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Morcheeba",
+    "date": "2026-11-10",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Stylus",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/morcheeba-tickets-18NTR4?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-11-10",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-10-11-2026/event/Zor9uZKbZL4ZefdpbZk",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-10",
+    "city": "Newcastle Upon Tyne",
+    "country": "GB",
+    "venue": "NX",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/yard-act-tickets-B4HD0M?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Igorrr",
+    "date": "2026-11-11",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Galvanizers SWG3",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/igorrr-glasgow-11-11-2026/event/360064A8F1458DC0",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Morcheeba",
+    "date": "2026-11-11",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Electric Bristol",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/morcheeba-tickets-N4P5VB?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Igorrr",
+    "date": "2026-11-12",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Academy",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/igorrr-dublin-12-11-2026/event/180064ABABB0CCCC",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Odyssey",
+    "date": "2026-11-12",
+    "city": "London",
+    "country": "GB",
+    "venue": "Boisdale, Canary Wharf",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/odyssey-tickets-Y285L1?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Temples",
+    "date": "2026-11-12",
+    "city": "London",
+    "country": "GB",
+    "venue": "Scala",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/temples-london-12-11-2026/event/1F006488DDDA3B66",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "The Orb",
+    "date": "2026-11-12",
+    "city": "Newcastle upon Tyne",
+    "country": "GB",
+    "venue": "Boiler Shop",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/the-orb-ozric-tentacles-tickets-VGJ5DM?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-11-12",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-12-11-2026/event/Zor9uZKbZL4ZefdpbZ6",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-12",
+    "city": "Sheffield",
+    "country": "GB",
+    "venue": "Octagon",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-sheffield-12-11-2026/event/1F0064A1A7643060",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Digitalism",
+    "date": "2026-11-13",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/digitalism-optimism-tour-2026-tickets/397088095?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 110
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 110
+    },
+    "note": ""
+  },
+  {
+    "band": "Morcheeba",
+    "date": "2026-11-13",
+    "city": "London",
+    "country": "GB",
+    "venue": "Troxy",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/morcheeba-london-13-11-2026/event/3E00649DA38126E9",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Temples",
+    "date": "2026-11-13",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "The White Hotel",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/temples-tickets-514DNL?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-13",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "O2 Victoria Warehouse Manchester",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-manchester-13-11-2026/event/3E006473EF864F3C",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Digitalism",
+    "date": "2026-11-14",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "Mojo Club",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/digitalism-optimism-tour-2026-tickets/958351719?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 115
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 115
+    },
+    "note": ""
+  },
+  {
+    "band": "Temples",
+    "date": "2026-11-14",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "King Tuts Wah Wah Hut",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/temples-tickets-724Y8C?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Tropical Fuck Storm",
+    "date": "2026-11-14",
+    "city": "Brighton",
+    "country": "GB",
+    "venue": "Chalk, Brighton",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/tropical-fuck-storm-tickets-2D3CHQ?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Boko Yout",
+    "date": "2026-11-15",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "The Abbey",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/boko-yout-tickets-DKZ8R3?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Nazareth",
+    "date": "2026-11-15",
+    "city": "Warsaw",
+    "country": "PL",
+    "venue": "Progresja",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/nazareth-right-left--centre-tour-2026-tickets/1121881872?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-15",
+    "city": "Wolverhampton",
+    "country": "GB",
+    "venue": "University of Wolverhampton at The Wulfrun Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-wolverhampton-15-11-2026/event/1F0064A19FBD2B1F",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Boko Yout",
+    "date": "2026-11-16",
+    "city": "London",
+    "country": "GB",
+    "venue": "Scala",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketweb.uk/event/boko-yout-scala-tickets/14952083?REFERRAL_ID=tmfeed",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Psychedelic Porn Crumpets",
+    "date": "2026-11-16",
+    "city": "Vienna",
+    "country": "AT",
+    "venue": "Flex",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.at/event/psychedelic-porn-crumpets-tickets/1156357838?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-16",
+    "city": "Leicester",
+    "country": "GB",
+    "venue": "O2 Academy Leicester",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-leicester-16-11-2026/event/3E006490A5392DC2",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Nazareth",
+    "date": "2026-11-17",
+    "city": "Zabrze",
+    "country": "PL",
+    "venue": "Centrum Kultury Wiatrak",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/nazareth-right-left--centre-tour-2026-tickets/1883056582?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-17",
+    "city": "Nottingham",
+    "country": "GB",
+    "venue": "Rock City",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-nottingham-17-11-2026/event/1F0064A446B97E02",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": null,
+      "seasonal_months": "Dec–Aug"
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-11-18",
+    "city": "Blackpool",
+    "country": "GB",
+    "venue": "Blackpool Opera House",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-blackpool-18-11-2026/event/1F0063748FB44744",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-18",
+    "city": "Cambridge",
+    "country": "GB",
+    "venue": "Cambridge Junction",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-cambridge-18-11-2026/event/1F00649EE7FE6BC7",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Orb",
+    "date": "2026-11-19",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "O2 Academy Leeds",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/the-orb-the-ozric-tentacles-leeds-19-11-2026/event/3E006426EC2B3A3D",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Wytches",
+    "date": "2026-11-19",
+    "city": "Wolverhampton",
+    "country": "GB",
+    "venue": "KK's Steel Mill",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/uncle-acid-and-the-deadbeats-tickets-S06CP3?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-11-19",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-19-11-2026/event/Zor9uZKbZL4ZefdpbZF",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Tropical Fuck Storm",
+    "date": "2026-11-19",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Brudenell Social Club",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/tropical-fuck-storm-tickets-3C4L7N?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Boko Yout",
+    "date": "2026-11-20",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Grand Social",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/boko-yout-dublin-20-11-2026/event/180064BCDDADF0E6",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Mogwai",
+    "date": "2026-11-20",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Glasgow Royal Concert Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/mogwai-glasgow-20-11-2026/event/36006465DA9E6320",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Orb",
+    "date": "2026-11-20",
+    "city": "Liverpool",
+    "country": "GB",
+    "venue": "O2 Academy Liverpool",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/the-orb-the-ozric-tentacles-liverpool-20-11-2026/event/3E00642CD7AC3C46",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "The Wytches",
+    "date": "2026-11-20",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Manchester New Century Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/uncle-acid-and-the-deadbeats-manchester-20-11-2026/event/37006496077C8FA6",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-20",
+    "city": "Oxford",
+    "country": "GB",
+    "venue": "O2 Academy Oxford",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-oxford-20-11-2026/event/3E0064A1CAC53D6F",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Boko Yout",
+    "date": "2026-11-21",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Stereo",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/boko-yout-tickets-8BVZKM?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Mogwai",
+    "date": "2026-11-21",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Glasgow Royal Concert Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/mogwai-glasgow-21-11-2026/event/36006465EE2A7BBC",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Wytches",
+    "date": "2026-11-21",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Glasgow Garage",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/uncle-acid-and-the-deadbeats-glasgow-21-11-2026/event/36006495CAB65E3D",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-11-21",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-21-11-2026/event/Zor9uZKbZL4ZefdpbZa",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-21",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Bristol Beacon",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-bristol-21-11-2026/event/370064A13CA99030",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Boko Yout",
+    "date": "2026-11-22",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Brudenell Social Club",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/boko-yout-tickets-92PBV4?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Graham Coxon",
+    "date": "2026-11-22",
+    "city": "Edinburgh",
+    "country": "GB",
+    "venue": "Liquid Room",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/graham-coxon-edinburgh-22-11-2026/event/360064BBD7ABCA74",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 175,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 175
+    },
+    "note": ""
+  },
+  {
+    "band": "The Wytches",
+    "date": "2026-11-22",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Brudenell Social Club",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/uncle-acid-and-the-deadbeats-leeds-22-11-2026/event/350064963AD08205",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Graham Coxon",
+    "date": "2026-11-23",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Manchester New Century Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/graham-coxon-tickets-5LGYF7?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-23",
+    "city": "Plymouth",
+    "country": "GB",
+    "venue": "Plymouth Arena",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-plymouth-23-11-2026/event/1F0064A1BF18429F",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Wytches",
+    "date": "2026-11-24",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Trinity",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/uncle-acid-and-the-deadbeats-bristol-24-11-2026/event/1F006498B8785B68",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-24",
+    "city": "Southampton",
+    "country": "GB",
+    "venue": "O2 Guildhall Southampton",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-southampton-24-11-2026/event/360064A5F3B76EE3",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "BODEGA",
+    "date": "2026-11-25",
+    "city": "London",
+    "country": "GB",
+    "venue": "The Garage",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/bodega-tickets-7QBD2P?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Graham Coxon",
+    "date": "2026-11-25",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Electric Bristol",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/graham-coxon-tickets-KG0ZF6?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-11-25",
+    "city": "Leicester",
+    "country": "GB",
+    "venue": "De Montfort Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-leicester-25-11-2026/event/1F00637486283FEE",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "BODEGA",
+    "date": "2026-11-26",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Leeds Irish Centre",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/bodega-tickets-0BN6QT?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "The Orb",
+    "date": "2026-11-26",
+    "city": "Bournemouth",
+    "country": "GB",
+    "venue": "O2 Academy Bournemouth",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/the-orb-the-ozric-tentacles-bournemouth-26-11-2026/event/3E006435953F2B20",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Yard Act",
+    "date": "2026-11-26",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Academy Brixton",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yard-act-london-26-11-2026/event/3E006473E7064A2C",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-11-27",
+    "city": "Edinburgh",
+    "country": "GB",
+    "venue": "The Queen's Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/dr-john-cooper-clarke-edinburgh-27-11-2026/event/3600637497A957B7",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 175,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 175
+    },
+    "note": ""
+  },
+  {
+    "band": "The Orb",
+    "date": "2026-11-27",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "O2 Academy Bristol",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/the-orb-ozric-tentacles-bristol-27-11-2026/event/3E00642DD3934155",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-11-27",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-27-11-2026/event/Zor9uZKbZL4ZefdpbZ1",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Death in Vegas",
+    "date": "2026-11-28",
+    "city": "Brighton",
+    "country": "GB",
+    "venue": "Chalk, Brighton",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/death-in-vegas-tickets-T9PSQK?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Graham Coxon",
+    "date": "2026-11-28",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Forum Kentish Town",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/graham-coxon-london-28-11-2026/event/3E00648FED0F58A7",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Sleaford Mods",
+    "date": "2026-11-28",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Ziggo Dome",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/the-prodigy-european-tour-tickets/2090976842?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Headache",
+    "date": "2026-12-02",
+    "city": "London",
+    "country": "GB",
+    "venue": "Outernet Live",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/headache-tickets-D9RLPG?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-12-02",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-02-12-2026/event/Zor9uZKbZL4ZefdpbZG",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Romare",
+    "date": "2026-12-03",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Melkweg",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/romare-live--tickets/733359966?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "The Orb",
+    "date": "2026-12-04",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "O2 Ritz Manchester",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/the-orb-ozric-tentacles-manchester-04-12-2026/event/3E00642DE0BD45E9",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "The Orb",
+    "date": "2026-12-05",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Forum Kentish Town",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/the-orb-the-ozric-tentacles-london-05-12-2026/event/3E006434D5673CD3",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-12-05",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-05-12-2026/event/Zor9uZKbZL4ZefdpbZu",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Slift",
+    "date": "2026-12-08",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Academy",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/slift-dublin-08-12-2026/event/18006489E769ACDE",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-12-09",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-09-12-2026/event/Zor9uZKbZL4ZefdpbZC",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Slift",
+    "date": "2026-12-10",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Manchester Gorilla",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/slift-manchester-10-12-2026/event/1F00648D1D5F66F5",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Slift",
+    "date": "2026-12-11",
+    "city": "Nottingham",
+    "country": "GB",
+    "venue": "Nottingham Rescue Rooms",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/slift-tickets-YN92M5?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": null,
+      "seasonal_months": "Dec–Aug"
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2026-12-11",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Coliseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-london-11-12-2026/event/Zor9uZKbZL4ZefdpbZ2",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Odyssey",
+    "date": "2026-12-12",
+    "city": "London",
+    "country": "GB",
+    "venue": "Soul Mama Stratford",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/odyssey-tickets-6NRLM8?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Slift",
+    "date": "2026-12-12",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Thekla",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/slift-tickets-L40TKW?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Limp Bizkit",
+    "date": "2026-12-13",
+    "city": "Johannesburg",
+    "country": "ZA",
+    "venue": "FNB Stadium",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.za/event/limp-bizkit-tickets/1140930466",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Slift",
+    "date": "2026-12-13",
+    "city": "London",
+    "country": "GB",
+    "venue": "Islington Assembly Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/slift-tickets-JRK1PN?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "High On Fire",
+    "date": "2026-12-16",
+    "city": "London",
+    "country": "GB",
+    "venue": "Roundhouse",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/green-lung-london-16-12-2026/event/1F0064AEA8395418",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "High On Fire",
+    "date": "2026-12-17",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Electric Bristol",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/green-lung-tickets-1C8ZTK?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "High On Fire",
+    "date": "2026-12-18",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Manchester Academy",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/green-lung-manchester-18-12-2026/event/1F0064ADF7A2982A",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "High On Fire",
+    "date": "2026-12-19",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Academy",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/green-lung-high-on-fire-gnome-dublin-19-12-2026/event/1800649BA547CAFD",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Echo & The Bunnymen",
+    "date": "2026-12-20",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Barrowland Ballroom",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/echo-the-bunnymen-glasgow-20-12-2026/event/3600649E8DB51B46",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Echo & The Bunnymen",
+    "date": "2026-12-22",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Barrowland Ballroom",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/echo-the-bunnymen-glasgow-22-12-2026/event/3600649E99EB22A5",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Underworld",
+    "date": "2026-12-31",
+    "city": "Edinburgh",
+    "country": "GB",
+    "venue": "West Princes Street Gardens",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/underworld-edinburgh-31-12-2026/event/360064D9C6D00957",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 175,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 175
+    },
+    "note": ""
+  },
+  {
+    "band": "Gilla Band",
+    "date": "2027-01-30",
+    "city": "Warsaw",
+    "country": "PL",
+    "venue": "Hydrozagadka",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/gilla-band-tickets/1691255868?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "note": ""
+  },
+  {
+    "band": "Slow Pulp",
+    "date": "2027-01-30",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Button Factory",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/slow-pulp-dublin-30-01-2027/event/180064E6A46717C0",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Slow Pulp",
+    "date": "2027-02-02",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Manchester Gorilla",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/slow-pulp-tickets-BHMQD4?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Gilla Band",
+    "date": "2027-02-03",
+    "city": "Vienna",
+    "country": "AT",
+    "venue": "Flucc Wanne",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.at/event/gilla-band-2027-uk-eu-tour-tickets/857123277?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Slow Pulp",
+    "date": "2027-02-05",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Project House",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/slow-pulp-tickets-ZF8R1K?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Slow Pulp",
+    "date": "2027-02-06",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Forum Kentish Town",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/slow-pulp-london-06-02-2027/event/3E0064DDE8226F0C",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Iceage",
+    "date": "2027-02-07",
+    "city": "Praha 5",
+    "country": "CZ",
+    "venue": "MeetFactory",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.cz/event/iceage-tickets/1679293160?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Gilla Band",
+    "date": "2027-02-11",
+    "city": "London",
+    "country": "GB",
+    "venue": "Heaven",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketweb.uk/event/gilla-band-heaven-tickets/14940903?REFERRAL_ID=tmfeed",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Protomartyr",
+    "date": "2027-02-11",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Leeds Irish Centre",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/protomartyr-tickets-NQTYXK?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Gilla Band",
+    "date": "2027-02-12",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Band On The Wall.",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/gilla-band-tickets-DC6VL8?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Protomartyr",
+    "date": "2027-02-13",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Band On The Wall.",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/protomartyr-tickets-G71J9T?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Protomartyr",
+    "date": "2027-02-16",
+    "city": "London",
+    "country": "GB",
+    "venue": "Electric Brixton",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/protomartyr-tickets-6GJL2X?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Iceage",
+    "date": "2027-02-19",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "Whelans",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/iceage-dublin-19-02-2027/event/180064BD9C1BCC44",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Iceage",
+    "date": "2027-02-20",
+    "city": "Belfast ",
+    "country": "GB",
+    "venue": "Ulster Sports Club ",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/iceage-belfast-20-02-2027/event/380064DAB1A63F53",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-02-21",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "Uber Arena",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/rush-%7C-box-seat-in-the-ticketmaster-suite-tickets/1864027729?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 110
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 110
+    },
+    "note": ""
+  },
+  {
+    "band": "Iceage",
+    "date": "2027-02-22",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Band On The Wall.",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/iceage-tickets-16S4KN?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-02-23",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Ziggo Dome",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/rush-fifty-something-tickets/932555362?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-02-23",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Ziggo Dome Club",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.nl/event/rush-%7C-venue-premium-packages-tickets/822972519?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150
+    },
+    "note": ""
+  },
+  {
+    "band": "Iceage",
+    "date": "2027-02-24",
+    "city": "London",
+    "country": "GB",
+    "venue": "Electric Brixton",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/iceage-tickets-4HV3GQ?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-02-25",
+    "city": "Llandudno",
+    "country": "GB",
+    "venue": "Venue Cymru Theatre",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-llandudno-25-02-2027/event/1F0064EFF1F48D96",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-02-26",
+    "city": "Stoke-On-Trent",
+    "country": "GB",
+    "venue": "Victoria Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stokeontrent-26-02-2027/event/370064EFF2E4344E",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-02-27",
+    "city": "Harrogate",
+    "country": "GB",
+    "venue": "Harrogate Convention Centre",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-harrogate-27-02-2027/event/350064EFEB89D5F9",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-02-28",
+    "city": "Scarborough",
+    "country": "GB",
+    "venue": "Scarborough Spa Grand Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-in-concert-scarborough-28-02-2027/event/350064F0F27FB932",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-03-02",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "Barclays Arena",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/rush-%7C-box-seat-in-the-ticketmaster-suite-tickets/1820971037?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 115
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 115
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-04",
+    "city": "Leicester",
+    "country": "GB",
+    "venue": "De Montfort Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-leicester-04-03-2027/event/1F0064EF06EEA471",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-06",
+    "city": "Torquay",
+    "country": "GB",
+    "venue": "Princess Theatre - Torquay",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-torquay-06-03-2027/event/360064F08F8C2BCF",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-08",
+    "city": "Salisbury",
+    "country": "GB",
+    "venue": "Salisbury City Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-salisbury-08-03-2027/event/1F0064EFE6697D1F",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-03-08",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "OVO Hydro",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/venue-premium-rush-fifty-something-tour-glasgow-08-03-2027/event/36006457A8BB3607",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-09",
+    "city": "Basingstoke",
+    "country": "GB",
+    "venue": "The Anvil",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-basingstoke-09-03-2027/event/1F0064EFF392901E",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-03-10",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "OVO Hydro",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-11",
+    "city": "Watford",
+    "country": "GB",
+    "venue": "Watford Colosseum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-watford-11-03-2027/event/370064EFE3C521B7",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-12",
+    "city": "Bath",
+    "country": "GB",
+    "venue": "Bath Forum",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-bath-12-03-2027/event/370064F0B49C1FD7",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-03-12",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Co-op Live",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-13",
+    "city": "Croydon",
+    "country": "GB",
+    "venue": "Fairfield Halls",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-croydon-13-03-2027/event/1F0064EFFBA998EE",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-14",
+    "city": "Eastbourne",
+    "country": "GB",
+    "venue": "Congress Theatre",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-eastbourne-14-03-2027/event/1F0064F096EB3451",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-03-14",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Co-op Live",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-15",
+    "city": "Aylesbury",
+    "country": "GB",
+    "venue": "The Waterside Theatre, Aylesbury",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-aylesbury-15-03-2027/event/350064EFED93DD8B",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Lebanon Hanover",
+    "date": "2027-03-16",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Saint Luke's",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/core-presents-lebanon-hanover-tickets-TZF0LP?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-03-16",
+    "city": "London",
+    "country": "GB",
+    "venue": "The O2",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-17",
+    "city": "Coventry",
+    "country": "GB",
+    "venue": "Warwick Arts Centre, Coventry",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-coventry-17-03-2027/event/1F0064EFEE6B856E",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Lebanon Hanover",
+    "date": "2027-03-17",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Brudenell Social Club",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/lebanon-hanover-tickets-HQW9XM?ref=ticketmaster",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-18",
+    "city": "Northampton",
+    "country": "GB",
+    "venue": "Royal and Derngate",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-northampton-18-03-2027/event/1F0064EFFD3C9A71",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-03-18",
+    "city": "London",
+    "country": "GB",
+    "venue": "The O2",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-19",
+    "city": "Scunthorpe",
+    "country": "GB",
+    "venue": "Baths Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-scunthorpe-19-03-2027/event/360064F097033430",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-20",
+    "city": "Derby",
+    "country": "GB",
+    "venue": "Vaillant Live, Derby",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-in-concert-live-lounge-premium-derby-20-03-2027/event/230064EFAA26139B",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-03-21",
+    "city": "London",
+    "country": "GB",
+    "venue": "The O2",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Tosca",
+    "date": "2027-03-21",
+    "city": "Derby",
+    "country": "GB",
+    "venue": "Vaillant Live, Derby",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/tosca-live-lounge-premium-package-derby-21-03-2027/event/230064CADED2CC32",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-22",
+    "city": "Halifax",
+    "country": "GB",
+    "venue": "Victoria Theatre",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-halifax-22-03-2027/event/1F0064F0BEA264E4",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Hooverphonic",
+    "date": "2027-03-22",
+    "city": "Ghent",
+    "country": "BE",
+    "venue": "Capitole Gent",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.be/event/hooverphonic-tickets/1124580418",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-23",
+    "city": "Perth",
+    "country": "GB",
+    "venue": "Perth Concert Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-perth-23-03-2027/event/360064EFF9709AAA",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-24",
+    "city": "Edinburgh",
+    "country": "GB",
+    "venue": "Usher Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 175,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 175
+    },
+    "note": ""
+  },
+  {
+    "band": "10cc",
+    "date": "2027-03-25",
+    "city": "Stockton-on-Tees",
+    "country": "GB",
+    "venue": "Stockton Globe",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stocktonontees-25-03-2027/event/1F0064F00883BB1D",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-04-01",
+    "city": "Basel",
+    "country": "CH",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ch/event/rush-fifty-something-tour-tickets/1328321304?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-04-04",
+    "city": "København S",
+    "country": "DK",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.dk/event/rush-fifty-something-tickets/451798267?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-04-06",
+    "city": "Fornebu",
+    "country": "NO",
+    "venue": "Unity Arena",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.no/event/rush-fifty-something-tickets/1492227638?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-04-08",
+    "city": "Stockholm",
+    "country": "SE",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.se/event/rush-fifty-something-platinum-tickets-tickets/23722100?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 65
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 65
+    },
+    "note": ""
+  },
+  {
+    "band": "Kool & The Gang",
+    "date": "2027-04-10",
+    "city": "London",
+    "country": "GB",
+    "venue": "The O2",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/soultown-in-concert-london-10-04-2027/event/350064D9AFE2E3BD",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Odyssey",
+    "date": "2027-04-10",
+    "city": "London",
+    "country": "GB",
+    "venue": "The O2",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/soultown-in-concert-london-10-04-2027/event/350064D9AFE2E3BD",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Rush",
+    "date": "2027-04-10",
+    "city": "Helsinki",
+    "country": "FI",
+    "venue": "Veikkaus Arena",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.fi/event/rush-fifty-something-%7C-premium-suite-ticket-tickets/272389468?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 30
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 30
+    },
+    "note": ""
+  },
+  {
+    "band": "Morcheeba",
+    "date": "2027-04-12",
+    "city": "Krakow",
+    "country": "PL",
+    "venue": "Klub Studio",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/morcheeba-tickets/693075484?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 120
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 120,
+      "seasonal_months": "Dec–Aug"
+    },
+    "note": ""
+  },
+  {
+    "band": "Morcheeba",
+    "date": "2027-04-13",
+    "city": "Warsaw",
+    "country": "PL",
+    "venue": "Progresja",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/morcheeba-tickets/2074095141?language=en-us",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 100
+    },
+    "note": ""
+  },
+  {
+    "band": "Morcheeba",
+    "date": "2027-04-14",
+    "city": "Gdansk",
+    "country": "PL",
+    "venue": "Klub B90, Stocznia Gdańska",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/morcheeba-tickets/1995249317?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Maruja",
+    "date": "2027-04-30",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "O2 Victoria Warehouse Manchester",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/goat-manchester-30-04-2027/event/3E0064BC91722970",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Yes",
+    "date": "2027-05-02",
+    "city": "Sheffield",
+    "country": "GB",
+    "venue": "Sheffield City Hall Oval Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yes-the-fragile-tour-sheffield-02-05-2027/event/3500632CA9E016D3",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Yes",
+    "date": "2027-05-03",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Bridgewater Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yes-the-fragile-tour-manchester-03-05-2027/event/1F0063319A8C5CE1",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195
+    },
+    "note": ""
+  },
+  {
+    "band": "Yes",
+    "date": "2027-05-06",
+    "city": "Birmingham",
+    "country": "GB",
+    "venue": "Symphony Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yes-the-fragile-tour-birmingham-06-05-2027/event/1F006331841A4406",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 190,
+      "seasonal_months": "Mar–Apr"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 190
+    },
+    "note": ""
+  },
+  {
+    "band": "Yes",
+    "date": "2027-05-07",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Bristol Beacon",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yes-the-fragile-tour-bristol-07-05-2027/event/37006331A2A78FDA",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Yes",
+    "date": "2027-05-10",
+    "city": "London",
+    "country": "GB",
+    "venue": "The London Palladium",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yes-the-fragile-tour-london-10-05-2027/event/370063314C941DDB",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Yes",
+    "date": "2027-05-11",
+    "city": "London",
+    "country": "GB",
+    "venue": "The London Palladium",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yes-the-fragile-tour-london-11-05-2027/event/37006331585D2836",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "note": ""
+  },
+  {
+    "band": "Yes",
+    "date": "2027-05-13",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Glasgow Royal Concert Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yes-the-fragile-tour-glasgow-13-05-2027/event/360063317335254B",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Yes",
+    "date": "2027-05-15",
+    "city": "York",
+    "country": "GB",
+    "venue": "York Barbican",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yes-the-fragile-tour-venue-premium-york-15-05-2027/event/3600649CA3403B3A",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Yes",
+    "date": "2027-05-16",
+    "city": "Liverpool",
+    "country": "GB",
+    "venue": "Liverpool Philharmonic Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/yes-the-fragile-tour-liverpool-16-05-2027/event/1F0063317D303F9E",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 180
+    },
+    "flightRIX": {
+      "direct": false,
       "seasonal": false,
       "duration_minutes": 180
     },

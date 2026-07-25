@@ -19,20 +19,26 @@ import time
 import urllib.parse
 import urllib.request
 import urllib.error
-from datetime import date
+from datetime import date, timedelta
 
 from dotenv import load_dotenv
 
 load_dotenv()
 
+# some artist names contain characters the default Windows console codepage can't print
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 API_KEY = os.environ.get("TICKETMASTER_API_KEY")
 BASE_URL = "https://app.ticketmaster.com/discovery/v2"
-""" ARTISTS_CSV = "artists.csv" """
-ARTISTS_CSV = "artists_test.csv"
+ARTISTS_CSV = "artists.csv"
 SHOWS_JSON = "shows.json"
 COUNTRIES_JSON = "countries.json"
 DIRECT_FLIGHTS_JSON = "direct_flights.json"
 CITY_HUB_OVERRIDES_JSON = "city_hub_overrides.json"
+SCRAPE_STATE_JSON = "scrape_state.json"
+SOURCE_NAME = "Ticketmaster"
+SKIP_IF_CHECKED_WITHIN_DAYS = 14
 REQUEST_DELAY = 0.25  # ~4 req/sec, under the 5 req/sec limit
 
 with open(COUNTRIES_JSON, encoding="utf-8") as f:
@@ -136,7 +142,7 @@ def to_show(artist, event):
         "country": country_code,
         "venue": venue.get("name") or "",
         "fest": "FESTIVAL" if is_festival else None,
-        "source": "Ticketmaster",
+        "source": SOURCE_NAME,
         "url": event.get("url") or "",
         "flightTLL": flight_info(city, "TLL"),
         "flightRIX": flight_info(city, "RIX"),
@@ -176,28 +182,46 @@ def main():
     existing_by_key = {show_key(s): s for s in existing}
     merged = dict(existing_by_key)
 
+    if os.path.exists(SCRAPE_STATE_JSON):
+        with open(SCRAPE_STATE_JSON, encoding="utf-8") as f:
+            scrape_state = json.load(f)
+    else:
+        scrape_state = {}
+
+    today_date = date.today()
+    today = today_date.isoformat()
+    skip_cutoff = today_date - timedelta(days=SKIP_IF_CHECKED_WITHIN_DAYS)
+
     for i, artist in enumerate(artists, 1):
+        last_checked = scrape_state.get(artist, {}).get(SOURCE_NAME)
+        if last_checked and date.fromisoformat(last_checked) > skip_cutoff:
+            print(f"[{i}/{len(artists)}] {artist} — skipped, checked {last_checked}")
+            continue
+
         print(f"[{i}/{len(artists)}] {artist}")
         attraction_id = find_attraction_id(artist)
         time.sleep(REQUEST_DELAY)
-        if not attraction_id:
-            continue
+        if attraction_id:
+            for event in fetch_events(attraction_id):
+                show = to_show(artist, event)
+                if show is None:
+                    continue
+                key = show_key(show)
+                if key in existing_by_key:
+                    continue
+                merged[key] = show
+            time.sleep(REQUEST_DELAY)
 
-        for event in fetch_events(attraction_id):
-            show = to_show(artist, event)
-            if show is None:
-                continue
-            key = show_key(show)
-            if key in existing_by_key:
-                continue
-            merged[key] = show
-        time.sleep(REQUEST_DELAY)
+        scrape_state.setdefault(artist, {})[SOURCE_NAME] = today
 
-    today = date.today().isoformat()
     result = sorted((s for s in merged.values() if s["date"] >= today), key=lambda s: (s["date"], s["band"]))
 
     with open(SHOWS_JSON, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+    with open(SCRAPE_STATE_JSON, "w", encoding="utf-8") as f:
+        json.dump(scrape_state, f, indent=2, ensure_ascii=False, sort_keys=True)
         f.write("\n")
 
     print(f"\nDone. {len(result)} total shows ({len(result) - len(existing)} new).")

@@ -44,8 +44,7 @@
 
     let bandMode = "include";
     let bandSelection = new Set();
-    let activeOrigin = "all";
-    let hideNoDirect = false;
+    let activeOrigins = new Set();
     let excludeFest = false;
     let cityMode = "include";
     let citySelection = new Set();
@@ -163,10 +162,9 @@
     }
 
     function hasDirectForSelection(show) {
-      if (activeOrigin === "all") return show.flightTLL.direct || show.flightRIX.direct;
-      if (activeOrigin === "TLL") return show.flightTLL.direct;
-      if (activeOrigin === "RIX") return show.flightRIX.direct;
-      return true;
+      if (activeOrigins.size === 0) return true;
+      return (activeOrigins.has("TLL") && show.flightTLL.direct) ||
+             (activeOrigins.has("RIX") && show.flightRIX.direct);
     }
 
     function formatDuration(minutes) {
@@ -204,7 +202,7 @@
       } else {
         list = list.filter(s => !citySelection.has(cityKey(s)));
       }
-      if (hideNoDirect) list = list.filter(s => hasDirectForSelection(s));
+      if (activeOrigins.size > 0) list = list.filter(s => hasDirectForSelection(s));
 
       list.sort((a, b) => a.date.localeCompare(b.date));
 
@@ -236,8 +234,8 @@
         stub.className = "stub";
 
         let flightsHtml = "";
-        if (activeOrigin === "all" || activeOrigin === "TLL") flightsHtml += flightPillHtml("TLL", s.flightTLL.direct);
-        if (activeOrigin === "all" || activeOrigin === "RIX") flightsHtml += flightPillHtml("RIX", s.flightRIX.direct);
+        flightsHtml += flightPillHtml("TLL", s.flightTLL.direct);
+        flightsHtml += flightPillHtml("RIX", s.flightRIX.direct);
         flightsHtml += flightSummaryHtml(s);
 
         stub.innerHTML = `
@@ -265,14 +263,13 @@
     // ---- EVENT WIRING ----
     document.querySelectorAll('.chip[data-filter="origin"]').forEach(chip => {
       chip.addEventListener('click', () => {
-        document.querySelectorAll('.chip[data-filter="origin"]').forEach(c => c.classList.remove('active'));
-        chip.classList.add('active');
-        activeOrigin = chip.dataset.value;
+        chip.classList.toggle('active');
+        const value = chip.dataset.value;
+        if (activeOrigins.has(value)) activeOrigins.delete(value); else activeOrigins.add(value);
         render();
       });
     });
 
-    document.getElementById('hideNoDirect').addEventListener('change', (e) => { hideNoDirect = e.target.checked; render(); });
     document.getElementById('excludeFest').addEventListener('change', (e) => { excludeFest = e.target.checked; render(); });
 
     document.getElementById('dateFrom').addEventListener('change', (e) => { dateFrom = e.target.value || WINDOW_FROM; render(); });
