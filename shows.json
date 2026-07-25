@@ -1,5 +1,245 @@
 [
   {
+    "band": "Dry Cleaning",
+    "date": "2026-07-23",
+    "city": "Suffolk",
+    "country": "GB",
+    "flag": "🇬🇧",
+    "venue": "Henham Park",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Viagra Boys",
+    "date": "2026-07-29",
+    "city": "Chicago",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Metro",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Viagra Boys",
+    "date": "2026-07-30",
+    "city": "Chicago",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Grant Park",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Dry Cleaning",
+    "date": "2026-07-31",
+    "city": "Portlaw",
+    "country": "IE",
+    "flag": "🇮🇪",
+    "venue": "Curraghmore House",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Viagra Boys",
+    "date": "2026-07-31",
+    "city": "Montreal",
+    "country": "CA",
+    "flag": "🇨🇦",
+    "venue": "Parc Jean Drapeau",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Viagra Boys",
+    "date": "2026-08-01",
+    "city": "Montreal",
+    "country": "CA",
+    "flag": "🇨🇦",
+    "venue": "Parc Jean Drapeau",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Viagra Boys",
+    "date": "2026-08-02",
+    "city": "Toronto",
+    "country": "CA",
+    "flag": "🇨🇦",
+    "venue": "History",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Viagra Boys",
+    "date": "2026-08-03",
+    "city": "Cleveland",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Agora Theater",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-08-04",
+    "city": "Toronto",
+    "country": "CA",
+    "flag": "🇨🇦",
+    "venue": "Rogers Stadium",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-08-06",
+    "city": "Detroit",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Ford Field",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-08-08",
+    "city": "Chicago",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Soldier Field",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-08-10",
+    "city": "Cleveland",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Huntington Bank Field",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-08-13",
+    "city": "Philadelphia",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Lincoln Financial Field",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-08-15",
+    "city": "Nashville",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Nissan Stadium",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-08-17",
+    "city": "Washington",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Nationals Park",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
     "band": "Viagra Boys",
     "date": "2026-08-21",
     "city": "Biddinghuizen",
@@ -14,6 +254,22 @@
       "direct": true
     },
     "note": "fly into Amsterdam"
+  },
+  {
+    "band": "Viagra Boys",
+    "date": "2026-08-21",
+    "city": "Biddinghuizen",
+    "country": "NL",
+    "flag": "🇳🇱",
+    "venue": "Evenemententerrein Walibi",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
   },
   {
     "band": "Viagra Boys",
@@ -32,6 +288,22 @@
     "note": "no direct — nearest hub Manchester (RIX) or London (TLL), then train"
   },
   {
+    "band": "Viagra Boys",
+    "date": "2026-08-29",
+    "city": "Reading",
+    "country": "GB",
+    "flag": "🇬🇧",
+    "venue": "Richfield Avenue",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
     "band": "BODEGA",
     "date": "2026-09-03",
     "city": "Miranda de Ebro",
@@ -46,5 +318,709 @@
       "direct": false
     },
     "note": "no direct — nearest hub Madrid or Bilbao, then train/bus"
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-09-14",
+    "city": "Indianapolis",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Gainbridge Fieldhouse",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-09-15",
+    "city": "Indianapolis",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Gainbridge Fieldhouse",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-09-15",
+    "city": "Regina",
+    "country": "CA",
+    "flag": "🇨🇦",
+    "venue": "Mosaic Stadium",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-09-17",
+    "city": "Edmonton",
+    "country": "CA",
+    "flag": "🇨🇦",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-09-18",
+    "city": "Chicago",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "United Center",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-09-19",
+    "city": "Chicago",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "United Center",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-09-20",
+    "city": "Vancouver",
+    "country": "CA",
+    "flag": "🇨🇦",
+    "venue": "BC Place",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-09-22",
+    "city": "Columbus",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Nationwide Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-09-24",
+    "city": "Brooklyn",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Barclays Center",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-09-24",
+    "city": "Louisville",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Kentucky Expo Center",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-09-25",
+    "city": "Brooklyn",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Barclays Center",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-09-26",
+    "city": "Brooklyn",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Barclays Center",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-09-26",
+    "city": "Las Vegas",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Allegiant Stadium",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "...And You Will Know Us By The Trail Of Dead",
+    "date": "2026-09-27",
+    "city": "Dallas",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "South Side Ballroom",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-09-28",
+    "city": "Philadelphia",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Xfinity Mobile Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-09-29",
+    "city": "Washington",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Capital One Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-01",
+    "city": "Toronto",
+    "country": "CA",
+    "flag": "🇨🇦",
+    "venue": "Scotiabank Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-02",
+    "city": "Toronto",
+    "country": "CA",
+    "flag": "🇨🇦",
+    "venue": "Scotiabank Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-03",
+    "city": "Detroit",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Little Caesars Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-10-04",
+    "city": "Sacramento",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Discovery Park",
+    "fest": "FESTIVAL",
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-06",
+    "city": "Boston",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "TD Garden",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-07",
+    "city": "Boston",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "TD Garden",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-09",
+    "city": "Charlotte",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Spectrum Center",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-10",
+    "city": "Nashville",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Bridgestone Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Deerhoof",
+    "date": "2026-10-10",
+    "city": "Ferndale",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "The Magic Bag",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-11",
+    "city": "Nashville",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Bridgestone Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Deerhoof",
+    "date": "2026-10-11",
+    "city": "Grand Rapids",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "The Pyramid Scheme",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-13",
+    "city": "Atlanta",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "State Farm Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-16",
+    "city": "Austin",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Moody Center ATX",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-17",
+    "city": "Fort Worth",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Dickies Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-19",
+    "city": "Denver",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Ball Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-23",
+    "city": "Seattle",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Climate Pledge Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-24",
+    "city": "Vancouver",
+    "country": "CA",
+    "flag": "🇨🇦",
+    "venue": "Rogers Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-27",
+    "city": "San Francisco",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Chase Center",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-28",
+    "city": "San Francisco",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Chase Center",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-30",
+    "city": "Inglewood",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Intuit Dome",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-10-31",
+    "city": "Inglewood",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Intuit Dome",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Alex G",
+    "date": "2026-11-01",
+    "city": "Inglewood",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Intuit Dome",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Deerhoof",
+    "date": "2026-11-06",
+    "city": "Somerville",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "Crystal Ballroom at Somerville Theatre",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Deerhoof",
+    "date": "2026-11-14",
+    "city": "Charlottesville",
+    "country": "US",
+    "flag": "🇺🇸",
+    "venue": "The Southern Café & Music Hall",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-12-02",
+    "city": "Singapore",
+    "country": "SG",
+    "flag": "",
+    "venue": "The Star Theatre",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-12-08",
+    "city": "Adelaide",
+    "country": "AU",
+    "flag": "🇦🇺",
+    "venue": "The Drive",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-12-11",
+    "city": "Glenorchy",
+    "country": "AU",
+    "flag": "🇦🇺",
+    "venue": "MyState Bank Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
+  },
+  {
+    "band": "Queens of the Stone Age",
+    "date": "2026-12-20",
+    "city": "Auckland",
+    "country": "NZ",
+    "flag": "",
+    "venue": "Spark Arena",
+    "fest": null,
+    "flightTLL": {
+      "direct": false
+    },
+    "flightRIX": {
+      "direct": false
+    },
+    "note": ""
   }
 ]
