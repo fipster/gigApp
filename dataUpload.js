@@ -5,6 +5,7 @@
 
     let shows = [];
     let countries = {};
+    let WINDOW_TO;
 
     async function loadShows() {
       const [showsResponse, countriesResponse, flightsResponse] = await Promise.all([
@@ -15,6 +16,18 @@
       shows = await showsResponse.json();
       countries = await countriesResponse.json();
       const flightsData = await flightsResponse.json();
+
+      WINDOW_TO = shows.reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
+      dateTo = WINDOW_TO;
+
+      const dateFromEl = document.getElementById('dateFrom');
+      const dateToEl = document.getElementById('dateTo');
+      dateFromEl.min = WINDOW_FROM;
+      dateFromEl.max = WINDOW_TO;
+      dateToEl.min = WINDOW_FROM;
+      dateToEl.max = WINDOW_TO;
+      dateFromEl.value = WINDOW_FROM;
+      dateToEl.value = WINDOW_TO;
 
       const sub = document.querySelector('.sub');
       if (sub && flightsData.gathered_on) {
@@ -34,7 +47,6 @@
     }
 
     const WINDOW_FROM = todayISO();
-    const WINDOW_TO = "2027-02-28";
 
     const monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
     const dowNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
@@ -209,6 +221,11 @@
       document.getElementById('totalCount').textContent = shows.length + " confirmed";
       document.getElementById('windowLabel').textContent = formatWindowLabel(WINDOW_FROM, WINDOW_TO);
 
+      const activeBandCount = bandMode === "include" ? bandSelection.size : uniqueBands.length - bandSelection.size;
+      document.getElementById('bandFilterCount').textContent = `${activeBandCount}/${uniqueBands.length} bands`;
+
+      document.getElementById('cityFilterCount').textContent = `${list.length}/${shows.length} shows`;
+
       const root = document.getElementById('route');
       root.innerHTML = "";
 
@@ -338,14 +355,6 @@
         if (!details.contains(e.target)) details.open = false;
       });
     });
-
-    // ---- INIT ----
-    document.getElementById('dateFrom').min = WINDOW_FROM;
-    document.getElementById('dateFrom').max = WINDOW_TO;
-    document.getElementById('dateTo').min = WINDOW_FROM;
-    document.getElementById('dateTo').max = WINDOW_TO;
-    document.getElementById('dateFrom').value = WINDOW_FROM;
-    document.getElementById('dateTo').value = WINDOW_TO;
 
     //buildBandPanel();
     //buildCityPanel();

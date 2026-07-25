@@ -16,25 +16,27 @@
   <div class="wrap">
 
     <header class="bill">
-      <div class="stamp">ON SALE NOW</div>
-      <p class="eyebrow">One App to Rule Them All</p>
-      <h1>MY Bands<br><span>Are Out There</span></h1>
-      <p class="sub">To-Do:
-        check if are direct flights </p>
-      incoporate links to flight search engine with days before/after show
-      </p>
-      <div class="origin">
-        <div>ORIGINS: <b>TLL · RIX</b></div>
-        <div>SHOWS TRACKED: <b id="totalCount">–</b></div>
-        <div>WINDOW: <b id="windowLabel">–</b></div>
+      <div class="bill-text">
+        <p class="eyebrow">One App to Rule Them All</p>
+        <h1>MY Bands<br><span>Are Out There</span></h1>
+        <p class="sub">To-Do:
+          check if are direct flights </p>
+        incoporate links to flight search engine with days before/after show
+        </p>
+        <div class="origin">
+          <div>ORIGINS: <b>TLL · RIX</b></div>
+          <div>SHOWS: <b id="totalCount">–</b></div>
+          <div>WINDOW: <b id="windowLabel">–</b></div>
+        </div>
       </div>
+      <img class="bill-photo" src="IMG_20260627_191410.jpg" alt="">
     </header>
 
     <div class="controls">
       <div class="row">
-        <span class="label">BAND</span>
+        <span class="label">BANDS</span>
         <details class="city-filter" id="bandFilterDetails">
-          <summary>FILTER BANDS ▾</summary>
+          <summary><span class="filter-count" id="bandFilterCount"></span> ▾</summary>
           <div class="city-filter-panel">
             <div class="row mode-row">
               <div class="chip acid active" data-bandmode="include">SHOW SELECTED</div>
@@ -56,7 +58,7 @@
       <div class="row">
         <span class="label">CITIES</span>
         <details class="city-filter" id="cityFilterDetails">
-          <summary>FILTER CITIES / COUNTRIES ▾</summary>
+          <summary><span class="filter-count" id="cityFilterCount"></span> ▾</summary>
           <div class="city-filter-panel">
             <div class="row mode-row">
               <div class="chip acid active" data-mode="include">SHOW SELECTED</div>

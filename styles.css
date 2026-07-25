@@ -37,6 +37,10 @@
       margin-bottom: 22px;
       position: relative;
       background: var(--card);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 24px;
     }
 
     header.bill::before {
@@ -47,19 +51,33 @@
       pointer-events: none;
     }
 
-    .stamp {
-      position: absolute;
-      top: -14px;
-      right: 18px;
-      background: var(--acid);
-      border: 2px solid var(--ink);
-      color: var(--ink);
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 700;
-      font-size: 11px;
-      letter-spacing: .06em;
-      padding: 5px 10px;
-      transform: rotate(4deg);
+    .bill-text {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .bill-photo {
+      width: 240px;
+      height: 240px;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 3px solid var(--ink);
+      box-shadow: 6px 6px 0 var(--ink);
+      transform: rotate(3deg);
+      margin: 6px 14px 0 0;
+    }
+
+    @media (max-width:520px) {
+      header.bill {
+        flex-direction: column;
+      }
+
+      .bill-photo {
+        align-self: flex-end;
+        width: 160px;
+        height: 160px;
+        margin: 0;
+      }
     }
 
     .eyebrow {
@@ -236,6 +254,15 @@
     details.city-filter[open] summary {
       background: var(--ink);
       color: var(--paper);
+    }
+
+    .filter-count {
+      color: var(--grey);
+      font-weight: 400;
+    }
+
+    details.city-filter[open] summary .filter-count {
+      color: var(--paper-dark);
     }
 
     .city-filter-panel {
