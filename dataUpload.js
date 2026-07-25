@@ -289,6 +289,22 @@
       render();
     });
 
+    document.querySelectorAll('details.city-filter').forEach(details => {
+      details.addEventListener('toggle', () => {
+        if (details.open) {
+          document.querySelectorAll('details.city-filter').forEach(other => {
+            if (other !== details) other.open = false;
+          });
+        }
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      document.querySelectorAll('details.city-filter[open]').forEach(details => {
+        if (!details.contains(e.target)) details.open = false;
+      });
+    });
+
     // ---- INIT ----
     document.getElementById('dateFrom').min = WINDOW_FROM;
     document.getElementById('dateFrom').max = WINDOW_TO;
