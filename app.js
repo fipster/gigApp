@@ -82,6 +82,15 @@
       return escapeHtml(str).replace(/"/g, '&quot;');
     }
 
+    // supports comma-separated search terms: "radiohead, metallica" matches
+    // either, so adding a new term accumulates results instead of replacing them
+    function matchesSearchTerms(text, rawInput) {
+      const terms = rawInput.split(",").map(t => t.trim().toLowerCase()).filter(Boolean);
+      if (terms.length === 0) return true;
+      const lower = text.toLowerCase();
+      return terms.some(term => lower.includes(term));
+    }
+
     function formatWindowLabel(from, to) {
       const f = new Date(from + "T00:00:00");
       const t = new Date(to + "T00:00:00");
@@ -337,10 +346,10 @@
 
     // ---- EVENT WIRING ----
     document.getElementById('bandSearchInput').addEventListener('input', (e) => {
-      const term = e.target.value.trim().toLowerCase();
+      const rawInput = e.target.value;
       document.querySelectorAll('#bandCheckboxList .city-row').forEach(row => {
         const cb = row.querySelector('input[type=checkbox]');
-        const matches = cb.dataset.band.toLowerCase().includes(term);
+        const matches = matchesSearchTerms(cb.dataset.band, rawInput);
         row.style.display = matches ? "" : "none";
         cb.checked = matches;
         if (matches) bandSelection.add(cb.dataset.band); else bandSelection.delete(cb.dataset.band);
@@ -349,16 +358,16 @@
     });
 
     document.getElementById('citySearchInput').addEventListener('input', (e) => {
-      const term = e.target.value.trim().toLowerCase();
+      const rawInput = e.target.value;
       document.querySelectorAll('#cityCheckboxList .country-group').forEach(group => {
         const countryRow = group.querySelector('.country-row');
         const countryCb = countryRow.querySelector('input[type=checkbox]');
         const cityRows = [...group.querySelectorAll('.city-row')];
-        const countryMatches = countryRow.textContent.toLowerCase().includes(term);
+        const countryMatches = matchesSearchTerms(countryRow.textContent, rawInput);
         let anyCityMatches = false;
         cityRows.forEach(row => {
           const cb = row.querySelector('input[type=checkbox]');
-          const matches = countryMatches || row.textContent.toLowerCase().includes(term);
+          const matches = countryMatches || matchesSearchTerms(row.textContent, rawInput);
           row.style.display = matches ? "" : "none";
           cb.checked = matches;
           if (matches) { citySelection.add(cb.dataset.key); anyCityMatches = true; }
