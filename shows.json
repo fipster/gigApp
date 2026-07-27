@@ -195,52 +195,6 @@
     "note": ""
   },
   {
-    "band": "Faust",
-    "date": "2026-07-29",
-    "city": "Triigi",
-    "country": "EE",
-    "venue": "Triigi Filharmoonia",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Triigi"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Triigi"
-    },
-    "note": ""
-  },
-  {
-    "band": "Faust",
-    "date": "2026-07-29",
-    "city": "Saaremaa vald",
-    "country": "EE",
-    "venue": "Triigi Filharmoonia, Saaremaa",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saaremaa vald"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saaremaa vald"
-    },
-    "note": ""
-  },
-  {
     "band": "Gary Numan",
     "date": "2026-07-29",
     "city": "Buckley",
@@ -388,29 +342,6 @@
         }
       ],
       "hub_city": "Amsterdam"
-    },
-    "note": ""
-  },
-  {
-    "band": "Faust",
-    "date": "2026-07-30",
-    "city": "Pärnu",
-    "country": "EE",
-    "venue": "Wunderbaar",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla-185379",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Pärnu"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Pärnu"
     },
     "note": ""
   },
@@ -652,29 +583,6 @@
   {
     "band": "Odyssey",
     "date": "2026-07-30",
-    "city": "Rakvere",
-    "country": "EE",
-    "venue": "Rakvere Teatrimaja",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/odusseia-the-odyssey-2026-rezissoor-christopher-nolan",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Rakvere"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Rakvere"
-    },
-    "note": ""
-  },
-  {
-    "band": "Odyssey",
-    "date": "2026-07-30",
     "city": "Plungė",
     "country": "LT",
     "venue": "Cirko palapinė prie Norfa XL Plungėje",
@@ -789,35 +697,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "We",
-    "date": "2026-07-30",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Joelle Marcelle Antson | Transformation Embodied OÜ",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/we-are-nature-1st-outdoor-workshop",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -949,29 +828,6 @@
         }
       ],
       "hub_city": "Dublin"
-    },
-    "note": ""
-  },
-  {
-    "band": "Faust",
-    "date": "2026-07-31",
-    "city": "Tartu",
-    "country": "EE",
-    "venue": "Tartu Jaani kirik",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla-185380",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tartu"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tartu"
     },
     "note": ""
   },
@@ -1868,35 +1724,6 @@
     "note": ""
   },
   {
-    "band": "Faust",
-    "date": "2026-08-02",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "D3",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla-185384",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": ""
-  },
-  {
     "band": "Groove Armada",
     "date": "2026-08-02",
     "city": "Lowther",
@@ -2439,35 +2266,6 @@
     "note": ""
   },
   {
-    "band": "Chicago",
-    "date": "2026-08-05",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/drag-bingo-august",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": ""
-  },
-  {
     "band": "Dead Meadow",
     "date": "2026-08-05",
     "city": "Dusseldorf",
@@ -2576,29 +2374,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Heidelberg"
-    },
-    "note": ""
-  },
-  {
-    "band": "Metallica",
-    "date": "2026-08-05",
-    "city": "Lääne-Harju vald",
-    "country": "EE",
-    "venue": "Padise klooster",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/c-jam-mad-metallica",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lääne-Harju vald"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lääne-Harju vald"
     },
     "note": ""
   },
@@ -2844,29 +2619,6 @@
     "note": ""
   },
   {
-    "band": "Metallica",
-    "date": "2026-08-06",
-    "city": "Tartu",
-    "country": "EE",
-    "venue": "Antoniuse õu",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/c-jam-mad-metallica-antoniuse-oues",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tartu"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tartu"
-    },
-    "note": ""
-  },
-  {
     "band": "Moby",
     "date": "2026-08-06",
     "city": "Tartu",
@@ -2886,29 +2638,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Tartu"
-    },
-    "note": ""
-  },
-  {
-    "band": "Moby",
-    "date": "2026-08-06",
-    "city": "",
-    "country": "EE",
-    "venue": "Balti Jaama bussiparkla",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/eribuss-moby-tartu-kontserdile",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": ""
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": ""
     },
     "note": ""
   },
@@ -2990,35 +2719,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Caminha"
-    },
-    "note": ""
-  },
-  {
-    "band": "Women",
-    "date": "2026-08-06",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "PoCo Pop And Contemporary Art Museum | Popkunstimuuseum",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/women-are-pop-themed-tour-at-poco-185830",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -3611,35 +3311,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Roma"
-    },
-    "note": ""
-  },
-  {
-    "band": "Up",
-    "date": "2026-08-08",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Imo Lounge",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/best-stand-up-8-avgusta",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -4835,35 +4506,6 @@
     "note": ""
   },
   {
-    "band": "Air",
-    "date": "2026-08-14",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Veetorni Aed",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/psydja-open-air",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": ""
-  },
-  {
     "band": "Chat Pile",
     "date": "2026-08-14",
     "city": "Val De Bagnes",
@@ -5110,29 +4752,6 @@
     "note": ""
   },
   {
-    "band": "Metallica",
-    "date": "2026-08-14",
-    "city": "Hiiumaa vald",
-    "country": "EE",
-    "venue": "Suuremõisa mõis",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/c-jam-mad-metallica-suuremoisa-moisas",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Hiiumaa vald"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Hiiumaa vald"
-    },
-    "note": ""
-  },
-  {
     "band": "Nick Cave & The Bad Seeds",
     "date": "2026-08-14",
     "city": "Gothenburg",
@@ -5269,35 +4888,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Locorotondo"
-    },
-    "note": ""
-  },
-  {
-    "band": "Up",
-    "date": "2026-08-14",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Ratas&Kohv Uus-Veerenni",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/uus-veerenni-stand-up",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -5821,29 +5411,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Göteborg"
-    },
-    "note": ""
-  },
-  {
-    "band": "Metallica",
-    "date": "2026-08-15",
-    "city": "Kuusalu vald",
-    "country": "EE",
-    "venue": "Kolga mõis",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/c-jam-mad-metallica",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kuusalu vald"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kuusalu vald"
     },
     "note": ""
   },
@@ -7256,29 +6823,6 @@
     "note": ""
   },
   {
-    "band": "Air",
-    "date": "2026-08-21",
-    "city": "Laiksaare",
-    "country": "EE",
-    "venue": "Vango Imedemaa / Vango Holiday Village",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/dnd-plein-air-camp-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Laiksaare"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Laiksaare"
-    },
-    "note": ""
-  },
-  {
     "band": "Buzzcocks",
     "date": "2026-08-21",
     "city": "Wakefield",
@@ -7636,29 +7180,6 @@
     "note": ""
   },
   {
-    "band": "Odyssey",
-    "date": "2026-08-21",
-    "city": "Märjamaa vald",
-    "country": "EE",
-    "venue": "Märjamaa Rahvamaja",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/kino-odusseia-the-odyssey",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Märjamaa vald"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Märjamaa vald"
-    },
-    "note": ""
-  },
-  {
     "band": "Show Me The Body",
     "date": "2026-08-21",
     "city": "Nijmegen",
@@ -7701,35 +7222,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Charleville-mézières"
-    },
-    "note": ""
-  },
-  {
-    "band": "The Sound",
-    "date": "2026-08-21",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Heldeke! Tasting Room and Bottle Shop",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/the-sound-of-wine",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -8414,29 +7906,6 @@
     "note": ""
   },
   {
-    "band": "Metallica",
-    "date": "2026-08-23",
-    "city": "Türi vald",
-    "country": "EE",
-    "venue": "Kirna mõis",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/c-jam-mad-metallica",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Türi vald"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Türi vald"
-    },
-    "note": ""
-  },
-  {
     "band": "Moby",
     "date": "2026-08-23",
     "city": "Chateau Gontier Sur Mayenne",
@@ -8515,29 +7984,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "München"
-    },
-    "note": ""
-  },
-  {
-    "band": "Odyssey",
-    "date": "2026-08-23",
-    "city": "Märjamaa vald",
-    "country": "EE",
-    "venue": "Märjamaa Rahvamaja",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/kino-odusseia-the-odyssey",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Märjamaa vald"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Märjamaa vald"
     },
     "note": ""
   },
@@ -9549,35 +8995,6 @@
     "note": ""
   },
   {
-    "band": "Women",
-    "date": "2026-08-27",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Mövenpick Hotel Tallinn",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/women-shaping-the-future",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": ""
-  },
-  {
     "band": "Boko Yout",
     "date": "2026-08-28",
     "city": "Berlin",
@@ -9915,35 +9332,6 @@
     "note": ""
   },
   {
-    "band": "Metallica",
-    "date": "2026-08-28",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "The Krypt Spooky Bar & Stage",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/patarei-coverage-thekrypt",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": ""
-  },
-  {
     "band": "Nick Cave & The Bad Seeds",
     "date": "2026-08-28",
     "city": "Paris",
@@ -10094,35 +9482,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Folkestone"
-    },
-    "note": ""
-  },
-  {
-    "band": "The Sound",
-    "date": "2026-08-28",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Heldeke! Tasting Room and Bottle Shop",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/the-sound-of-whisky",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -10727,35 +10086,6 @@
     "note": ""
   },
   {
-    "band": "Nine Inch Nails",
-    "date": "2026-08-29",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "The Krypt Spooky Bar & Stage",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/nineinchnails-tool-tribute-thekrypt",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": ""
-  },
-  {
     "band": "Opeth",
     "date": "2026-08-29",
     "city": "Rättvik",
@@ -11079,29 +10409,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Köln"
-    },
-    "note": ""
-  },
-  {
-    "band": "Odyssey",
-    "date": "2026-08-30",
-    "city": "Märjamaa vald",
-    "country": "EE",
-    "venue": "Märjamaa Rahvamaja",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/kino-odusseia-the-odyssey",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Märjamaa vald"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Märjamaa vald"
     },
     "note": ""
   },
@@ -12293,35 +11600,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Barking"
-    },
-    "note": ""
-  },
-  {
-    "band": "Earth",
-    "date": "2026-09-05",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Techno club HALL",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/scorched-earth-skee-mask",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -13795,35 +13073,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Brighton"
-    },
-    "note": ""
-  },
-  {
-    "band": "Fuzz",
-    "date": "2026-09-11",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Von Krahli kohvik",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/fuzz-salvation-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -15454,35 +14703,6 @@
     "note": ""
   },
   {
-    "band": "CAN",
-    "date": "2026-09-18",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Uus Laine",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/sytycs-show",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": ""
-  },
-  {
     "band": "Destroyer",
     "date": "2026-09-18",
     "city": "Utrecht",
@@ -16539,35 +15759,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Athina"
-    },
-    "note": ""
-  },
-  {
-    "band": "Vana",
-    "date": "2026-09-25",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Hopneri maja",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/kontsert-vana-hea-estraad",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -21948,35 +21139,6 @@
     "note": ""
   },
   {
-    "band": "Down",
-    "date": "2026-10-25",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Alexela Kontserdimaja",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/australias-thunder-from-down-under-most-wanted-tour-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": ""
-  },
-  {
     "band": "Ezra Furman",
     "date": "2026-10-25",
     "city": "St Davids",
@@ -23984,35 +23146,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Digital",
-    "date": "2026-11-05",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Kultuurikatel",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/telia-digital-hub-177655",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -28472,35 +27605,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Bristol"
-    },
-    "note": ""
-  },
-  {
-    "band": "Beach House",
-    "date": "2026-11-22",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Beach House Ülemiste",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/trennipidu-23-11-25-at-beach-house-ulemiste-175632",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": ""
   },

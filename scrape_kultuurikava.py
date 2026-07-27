@@ -47,6 +47,16 @@ deduped by date alone per artist (preferring whichever representation
 has a non-empty city) before being turned into show entries. A touring
 artist playing two different Estonian shows on the same calendar day
 is not a real scenario this needs to handle.
+
+Known limitation: the whole-word NAME match still isn't enough to catch
+everything -- movie screenings (an artist name matching part of a film
+title), tribute/cover acts, wrong-person matches (a common surname
+belonging to someone else entirely), and bus-charter listings to a real
+show rather than the show itself have all shown up. A manual pass over
+new Kultuurikava-sourced shows.json entries after each run is expected
+every time, not a one-off cleanup -- all 12 entries from the 2026-07-28
+run were false positives of exactly these kinds. Don't treat a
+clean-looking run as reason to skip the manual check.
 """
 
 import csv

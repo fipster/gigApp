@@ -34,6 +34,13 @@ from the API itself. To filter these out, a result is only kept if the
 artist name appears in the event's own TITLE as a whole word -- but
 residual noise is still possible for very short/common names sharing a
 word with an unrelated event title.
+
+In practice this residual noise is common, not rare: a manual pass over
+new Fienta-sourced shows.json entries after each run is expected every
+time, not just a one-off cleanup -- checked ~22 of 25 were false
+positives (wrong person/venue/event-branding matches, or tribute/cover
+nights) on 2026-07-28. Don't treat a clean-looking run as reason to skip
+the manual check.
 """
 
 import csv
