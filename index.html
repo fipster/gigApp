@@ -56,6 +56,23 @@
         <div class="chip acid" data-filter="origin" data-value="RIX">RIX</div>
       </div>
       <div class="row">
+        <span class="label">SOURCES</span>
+        <details class="city-filter" id="sourceFilterDetails">
+          <summary><span class="filter-count" id="sourceFilterCount"></span> ▾</summary>
+          <div class="city-filter-panel">
+            <input type="text" class="filter-search" id="sourceSearchInput" placeholder="search sources…">
+            <div class="row mode-row">
+              <div class="chip acid active" data-sourcemode="include">SHOW SELECTED</div>
+              <div class="chip acid" data-sourcemode="exclude">HIDE SELECTED</div>
+              <button class="reset-link" id="selectAllSources">select all</button>
+              <button class="reset-link" id="selectNoneSources">select none</button>
+            </div>
+            <div id="sourceCheckboxList"></div>
+          </div>
+        </details>
+        <div class="spacer"></div>
+      </div>
+      <div class="row">
         <span class="label">CITIES</span>
         <details class="city-filter" id="cityFilterDetails">
           <summary><span class="filter-count" id="cityFilterCount"></span> ▾</summary>
@@ -76,11 +93,11 @@
         <span class="label">DATES</span>
         <select id="datePreset">
           <option value="all">All (no filter)</option>
-          <option value="vaheaeg1">I (26.10–01.11.2026)</option>
-          <option value="vaheaeg2">II (23.12.2026–10.01.2027)</option>
-          <option value="vaheaeg3">III (22–28.02.2027)</option>
-          <option value="vaheaeg4">IV (12–18.04.2027)</option>
-          <option value="vaheaeg5">V (14.06-31.08.2027)</option>
+          <option value="vaheaeg1">I (23.10–01.11.2026)</option>
+          <option value="vaheaeg2">II (18.12.2026–10.01.2027)</option>
+          <option value="vaheaeg3">III (19–28.02.2027)</option>
+          <option value="vaheaeg4">IV (09–18.04.2027)</option>
+          <option value="vaheaeg5">V (11.06-31.08.2027)</option>
           <option value="custom">Custom range…</option>
         </select>
         <div class="date-range" id="customDateRange" hidden>

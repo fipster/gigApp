@@ -12,11 +12,15 @@ also matters (earlier = runs first).
 """
 
 import scrape_ticketmaster
+import scrape_fienta
+import scrape_kultuurikava
 import scrape_bandsintown
 import enrich_flights
 
 FREE_SCRAPERS = [
     scrape_ticketmaster,
+    scrape_fienta,
+    scrape_kultuurikava,
 ]
 
 PAID_SCRAPERS = [

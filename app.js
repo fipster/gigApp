@@ -8,14 +8,12 @@
     let WINDOW_TO;
 
     async function loadShows() {
-      const [showsResponse, countriesResponse, flightsResponse] = await Promise.all([
+      const [showsResponse, countriesResponse] = await Promise.all([
         fetch("shows.json"),
         fetch("countries.json"),
-        fetch("direct_flights.json"),
       ]);
       shows = await showsResponse.json();
       countries = await countriesResponse.json();
-      const flightsData = await flightsResponse.json();
 
       WINDOW_TO = shows.reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
 
@@ -28,12 +26,8 @@
       dateFromEl.value = WINDOW_FROM;
       dateToEl.value = WINDOW_TO;
 
-      const sub = document.querySelector('.sub');
-      if (sub && flightsData.gathered_on) {
-        sub.insertAdjacentHTML('beforeend', `<br>Flight info gathered on: ${flightsData.gathered_on}`);
-      }
-
       buildBandPanel();
+      buildSourcePanel();
       buildCityPanel();
       render();
     }
@@ -50,12 +44,18 @@
     const monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
     const dowNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
+    function fridayBefore(dateStr) {
+      const d = new Date(dateStr + "T00:00:00");
+      d.setDate(d.getDate() - (d.getDay() + 2) % 7);
+      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    }
+
     const SCHOOL_HOLIDAYS = {
-      vaheaeg1: { label: "vaheaeg I", from: "2026-10-26", to: "2026-11-01" },
-      vaheaeg2: { label: "vaheaeg II", from: "2026-12-23", to: "2027-01-10" },
-      vaheaeg3: { label: "vaheaeg III", from: "2027-02-22", to: "2027-02-28" },
-      vaheaeg4: { label: "vaheaeg IV", from: "2027-04-12", to: "2027-04-18" },
-      vaheaeg5: { label: "vaheaeg V", from: "2027-06-14", to: "2027-08-31" },
+      vaheaeg1: { label: "vaheaeg I", from: fridayBefore("2026-10-26"), to: "2026-11-01" },
+      vaheaeg2: { label: "vaheaeg II", from: fridayBefore("2026-12-23"), to: "2027-01-10" },
+      vaheaeg3: { label: "vaheaeg III", from: fridayBefore("2027-02-22"), to: "2027-02-28" },
+      vaheaeg4: { label: "vaheaeg IV", from: fridayBefore("2027-04-12"), to: "2027-04-18" },
+      vaheaeg5: { label: "vaheaeg V", from: fridayBefore("2027-06-14"), to: "2027-08-31" },
     };
 
     function countryFlag(code) { return countries[code]?.flag || ""; }
@@ -63,6 +63,8 @@
 
     let bandMode = "include";
     let bandSelection = new Set();
+    let sourceMode = "include";
+    let sourceSelection = new Set();
     let activeOrigins = new Set();
     let excludeFest = false;
     let cityMode = "include";
@@ -125,6 +127,33 @@
 
         cb.addEventListener('change', () => {
           if (cb.checked) bandSelection.add(band); else bandSelection.delete(band);
+          render();
+        });
+      });
+    }
+
+    // ---- SOURCE FILTER (built dynamically) ----
+    function buildSourcePanel() {
+      const uniqueSources = [...new Set(shows.map(s => s.source))].sort();
+      uniqueSources.forEach(source => sourceSelection.add(source));
+
+      const container = document.getElementById('sourceCheckboxList');
+      container.innerHTML = "";
+
+      uniqueSources.forEach(source => {
+        const row = document.createElement('label');
+        row.className = "city-row";
+        row.style.paddingLeft = "0";
+        const cb = document.createElement('input');
+        cb.type = "checkbox";
+        cb.checked = true;
+        cb.dataset.source = source;
+        row.appendChild(cb);
+        row.appendChild(document.createTextNode(source));
+        container.appendChild(row);
+
+        cb.addEventListener('change', () => {
+          if (cb.checked) sourceSelection.add(source); else sourceSelection.delete(source);
           render();
         });
       });
@@ -235,6 +264,7 @@
 
     function render() {
       const uniqueBands = [...new Set(shows.map(s => s.band))].sort();
+      const uniqueSources = [...new Set(shows.map(s => s.source))].sort();
       let list = shows.slice();
 
       if (bandMode === "include") {
@@ -245,6 +275,11 @@
       if (excludeFest) list = list.filter(s => !s.fest);
       if (dateFrom) list = list.filter(s => s.date >= dateFrom);
       if (dateTo) list = list.filter(s => s.date <= dateTo);
+      if (sourceMode === "include") {
+        list = list.filter(s => sourceSelection.has(s.source));
+      } else {
+        list = list.filter(s => !sourceSelection.has(s.source));
+      }
       if (cityMode === "include") {
         list = list.filter(s => citySelection.has(cityKey(s)));
       } else {
@@ -276,8 +311,11 @@
       document.getElementById('totalCount').textContent = shows.length + " confirmed";
       document.getElementById('windowLabel').textContent = formatWindowLabel(WINDOW_FROM, WINDOW_TO);
 
-      const activeBandCount = bandMode === "include" ? bandSelection.size : uniqueBands.length - bandSelection.size;
+      const activeBandCount = new Set(list.map(s => s.band)).size;
       document.getElementById('bandFilterCount').textContent = `${activeBandCount}/${uniqueBands.length} bands`;
+
+      const activeSourceCount = new Set(list.map(s => s.source)).size;
+      document.getElementById('sourceFilterCount').textContent = `${activeSourceCount}/${uniqueSources.length} sources`;
 
       document.getElementById('cityFilterCount').textContent = `${list.length}/${shows.length} shows`;
 
@@ -353,6 +391,18 @@
         row.style.display = matches ? "" : "none";
         cb.checked = matches;
         if (matches) bandSelection.add(cb.dataset.band); else bandSelection.delete(cb.dataset.band);
+      });
+      render();
+    });
+
+    document.getElementById('sourceSearchInput').addEventListener('input', (e) => {
+      const rawInput = e.target.value;
+      document.querySelectorAll('#sourceCheckboxList .city-row').forEach(row => {
+        const cb = row.querySelector('input[type=checkbox]');
+        const matches = matchesSearchTerms(cb.dataset.source, rawInput);
+        row.style.display = matches ? "" : "none";
+        cb.checked = matches;
+        if (matches) sourceSelection.add(cb.dataset.source); else sourceSelection.delete(cb.dataset.source);
       });
       render();
     });
@@ -454,6 +504,27 @@
     document.getElementById('selectNoneBands').addEventListener('click', () => {
       document.querySelectorAll('#bandCheckboxList input[type=checkbox]').forEach(cb => cb.checked = false);
       bandSelection.clear();
+      render();
+    });
+
+    document.querySelectorAll('#sourceFilterDetails .mode-row .chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        document.querySelectorAll('#sourceFilterDetails .mode-row .chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        sourceMode = chip.dataset.sourcemode;
+        render();
+      });
+    });
+
+    document.getElementById('selectAllSources').addEventListener('click', () => {
+      document.querySelectorAll('#sourceCheckboxList input[type=checkbox]').forEach(cb => cb.checked = true);
+      sourceSelection.clear();
+      [...new Set(shows.map(s => s.source))].forEach(src => sourceSelection.add(src));
+      render();
+    });
+    document.getElementById('selectNoneSources').addEventListener('click', () => {
+      document.querySelectorAll('#sourceCheckboxList input[type=checkbox]').forEach(cb => cb.checked = false);
+      sourceSelection.clear();
       render();
     });
 
