@@ -140,8 +140,12 @@ def main():
     merged = dict(existing_by_key)
 
     scrape_state = common.load_scrape_state()
+    artist_status = common.load_artist_status()
 
     for i, artist in enumerate(artists, 1):
+        if common.is_inactive(artist_status, artist):
+            print(f"[{i}/{len(artists)}] {artist} — skipped, marked inactive")
+            continue
         if common.already_checked_recently(scrape_state, artist, SOURCE_NAME):
             print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
             continue

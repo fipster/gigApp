@@ -434,6 +434,30 @@
 
     document.getElementById('excludeFest').addEventListener('change', (e) => { excludeFest = e.target.checked; render(); });
 
+    // last date among shows matching the current non-date filters (band/source/city/origin/fest)
+    function filteredMaxDate() {
+      let list = shows.slice();
+      if (bandMode === "include") {
+        list = list.filter(s => bandSelection.has(s.band));
+      } else {
+        list = list.filter(s => !bandSelection.has(s.band));
+      }
+      if (excludeFest) list = list.filter(s => !s.fest);
+      if (sourceMode === "include") {
+        list = list.filter(s => sourceSelection.has(s.source));
+      } else {
+        list = list.filter(s => !sourceSelection.has(s.source));
+      }
+      if (cityMode === "include") {
+        list = list.filter(s => citySelection.has(cityKey(s)));
+      } else {
+        list = list.filter(s => !citySelection.has(cityKey(s)));
+      }
+      if (activeOrigins.size > 0) list = list.filter(s => hasDirectForSelection(s));
+
+      return list.reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
+    }
+
     function applyDatePreset(preset) {
       datePreset = preset;
       const customDateRange = document.getElementById('customDateRange');
@@ -444,7 +468,9 @@
       } else if (preset === "custom") {
         customDateRange.hidden = false;
         dateFrom = document.getElementById('dateFrom').value || null;
-        dateTo = document.getElementById('dateTo').value || null;
+        const dateToEl = document.getElementById('dateTo');
+        dateToEl.value = filteredMaxDate();
+        dateTo = dateToEl.value || null;
       } else {
         const holiday = SCHOOL_HOLIDAYS[preset];
         dateFrom = holiday.from; dateTo = holiday.to;
@@ -528,6 +554,7 @@
           document.querySelectorAll('details.city-filter').forEach(other => {
             if (other !== details) other.open = false;
           });
+          details.querySelector('.filter-search')?.focus();
         }
       });
     });

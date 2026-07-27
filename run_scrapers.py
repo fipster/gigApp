@@ -14,6 +14,7 @@ also matters (earlier = runs first).
 import scrape_ticketmaster
 import scrape_fienta
 import scrape_kultuurikava
+import scrape_allevents_lt
 import scrape_bandsintown
 import enrich_flights
 
@@ -21,6 +22,7 @@ FREE_SCRAPERS = [
     scrape_ticketmaster,
     scrape_fienta,
     scrape_kultuurikava,
+    scrape_allevents_lt,
 ]
 
 PAID_SCRAPERS = [

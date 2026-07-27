@@ -14,6 +14,7 @@ from datetime import date, timedelta
 SHOWS_JSON = "shows.json"
 COUNTRIES_JSON = "countries.json"
 SCRAPE_STATE_JSON = "scrape_state.json"
+ARTIST_STATUS_JSON = "artist_status.json"
 SKIP_IF_CHECKED_WITHIN_DAYS = 14
 
 with open(COUNTRIES_JSON, encoding="utf-8") as f:
@@ -79,3 +80,16 @@ def mark_not_found(scrape_state, artist, source_name):
     # permanent skip, unlike mark_checked's normal within_days recheck window --
     # an artist confirmed absent from a source won't suddenly appear tomorrow
     scrape_state.setdefault(artist, {})[source_name] = NOT_FOUND
+
+
+def load_artist_status(path=ARTIST_STATUS_JSON):
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def is_inactive(artist_status, artist):
+    # unknown artists default to active (not skipped) -- only an explicit
+    # active: false (from check_artist_status.py or a manual edit) skips them
+    return artist_status.get(artist, {}).get("active", True) is False
