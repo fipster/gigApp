@@ -9,7 +9,6 @@ in any one scraper.
 
 import json
 import os
-import re
 from datetime import date, timedelta
 
 SHOWS_JSON = "shows.json"
@@ -20,21 +19,14 @@ SKIP_IF_CHECKED_WITHIN_DAYS = 14
 with open(COUNTRIES_JSON, encoding="utf-8") as f:
     ALLOWED_COUNTRIES = json.load(f).keys()
 
-SPELLING_VARIANTS = {
-    "theatre": "theater",
-    "centre": "center",
-}
-
-
-def normalize_venue(name):
-    name = name.lower()
-    name = re.sub(r"[^\w\s]", "", name)
-    words = [SPELLING_VARIANTS.get(w, w) for w in name.split()]
-    return " ".join(words)
-
-
 def show_key(show):
-    return (show["band"], show["date"], normalize_venue(show["venue"]))
+    # dedupe on band+date+city+country rather than venue name: different
+    # sources sometimes describe the "venue" differently for the same real
+    # event (e.g. Ticketmaster reports the physical venue, Bandsintown
+    # reports the festival name), so matching on venue text misses
+    # cross-source duplicates. A band playing two different venues in the
+    # same city on the same day is rare enough to accept as a tradeoff.
+    return (show["band"], show["date"], show["city"].strip().lower(), show["country"])
 
 
 def load_shows(path=SHOWS_JSON):
@@ -66,13 +58,24 @@ def save_scrape_state(scrape_state, path=SCRAPE_STATE_JSON):
         f.write("\n")
 
 
+NOT_FOUND = "not_found"
+
+
 def already_checked_recently(scrape_state, artist, source_name, within_days=SKIP_IF_CHECKED_WITHIN_DAYS):
     last_checked = scrape_state.get(artist, {}).get(source_name)
     if not last_checked:
         return False
+    if last_checked == NOT_FOUND:
+        return True
     cutoff = date.today() - timedelta(days=within_days)
     return date.fromisoformat(last_checked) > cutoff
 
 
 def mark_checked(scrape_state, artist, source_name):
     scrape_state.setdefault(artist, {})[source_name] = date.today().isoformat()
+
+
+def mark_not_found(scrape_state, artist, source_name):
+    # permanent skip, unlike mark_checked's normal within_days recheck window --
+    # an artist confirmed absent from a source won't suddenly appear tomorrow
+    scrape_state.setdefault(artist, {})[source_name] = NOT_FOUND
