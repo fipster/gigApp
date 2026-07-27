@@ -44,18 +44,12 @@
     const monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
     const dowNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
-    function fridayBefore(dateStr) {
-      const d = new Date(dateStr + "T00:00:00");
-      d.setDate(d.getDate() - (d.getDay() + 2) % 7);
-      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-    }
-
     const SCHOOL_HOLIDAYS = {
-      vaheaeg1: { label: "vaheaeg I", from: fridayBefore("2026-10-26"), to: "2026-11-01" },
-      vaheaeg2: { label: "vaheaeg II", from: fridayBefore("2026-12-23"), to: "2027-01-10" },
-      vaheaeg3: { label: "vaheaeg III", from: fridayBefore("2027-02-22"), to: "2027-02-28" },
-      vaheaeg4: { label: "vaheaeg IV", from: fridayBefore("2027-04-12"), to: "2027-04-18" },
-      vaheaeg5: { label: "vaheaeg V", from: fridayBefore("2027-06-14"), to: "2027-08-31" },
+      vaheaeg1: { label: "vaheaeg I", from: "2026-10-23", to: "2026-10-31" },
+      vaheaeg2: { label: "vaheaeg II", from: "2026-12-23", to: "2027-01-09" },
+      vaheaeg3: { label: "vaheaeg III", from: "2027-02-19", to: "2027-02-27" },
+      vaheaeg4: { label: "vaheaeg IV", from: "2027-04-09", to: "2027-04-17" },
+      vaheaeg5: { label: "vaheaeg V", from: "2027-06-11", to: "2027-08-30" },
     };
 
     function countryFlag(code) { return countries[code]?.flag || ""; }
@@ -235,15 +229,15 @@
       return h > 0 ? `${h}h ${m}m` : `${m}m`;
     }
 
-    function googleFlightsUrl(originLabel, city, date) {
-      const q = `Flights from ${originLabel} to ${city} on ${date}`;
+    function googleFlightsUrl(city, date) {
+      const q = `Flights from TLL or RIX to ${city} on ${date}`;
       return `https://www.google.com/travel/flights?q=${encodeURIComponent(q)}`;
     }
 
     function flightPillHtml(originLabel, f, date) {
       const carrierNames = (f.carriers || []).map(c => c.name).join(", ");
       const title = f.direct && carrierNames ? ` title="${escapeAttr(carrierNames)}"` : "";
-      const href = googleFlightsUrl(originLabel, f.hub_city, date);
+      const href = googleFlightsUrl(f.hub_city, date);
       return `<a class="flight-pill${f.direct ? "" : " none"}" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer"${title}><span class="airport-badge">${originLabel}</span></a>`;
     }
 
