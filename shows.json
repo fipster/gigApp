@@ -14324,7 +14324,7 @@
   {
     "band": "Unknown Mortal Orchestra",
     "date": "2026-08-29",
-    "city": "Lisboa",
+    "city": "Lisbon",
     "country": "PT",
     "venue": "Meo Kalorama 2026",
     "fest": null,
@@ -14334,13 +14334,19 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Lisboa"
+      "hub_city": "Lisbon"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Lisboa"
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Lisbon"
     },
     "note": ""
   },
@@ -14444,7 +14450,7 @@
   {
     "band": "Deftones",
     "date": "2026-08-30",
-    "city": "Lisboa",
+    "city": "Lisbon",
     "country": "PT",
     "venue": "Meokalorama 2026",
     "fest": null,
@@ -14454,13 +14460,19 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Lisboa"
+      "hub_city": "Lisbon"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Lisboa"
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Lisbon"
     },
     "note": ""
   },
@@ -20942,35 +20954,12 @@
   {
     "band": "Mac DeMarco",
     "date": "2026-09-20",
-    "city": "Lisboa",
+    "city": "Lisbon",
     "country": "PT",
     "venue": "LAV - Lisboa Ao Vivo",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/107521458?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisboa"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisboa"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mac DeMarco",
-    "date": "2026-09-20",
-    "city": "Lisbon",
-    "country": "PT",
-    "venue": "Sala 2, Lisboa Ao Vivo (LAV)",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42859885-mac-demarco-at-sala-2-lisboa-ao-vivo",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -21017,35 +21006,12 @@
   {
     "band": "Mac DeMarco",
     "date": "2026-09-21",
-    "city": "Lisboa",
+    "city": "Lisbon",
     "country": "PT",
     "venue": "LAV - Lisboa Ao Vivo",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108636505?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisboa"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisboa"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mac DeMarco",
-    "date": "2026-09-21",
-    "city": "Lisbon",
-    "country": "PT",
-    "venue": "LAV - Lisboa Ao Vivo",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43314703-mac-demarco-at-lav-lisboa-ao-vivo",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -28663,35 +28629,12 @@
   {
     "band": "Yard Act",
     "date": "2026-10-23",
-    "city": "Lisboa",
+    "city": "Lisbon",
     "country": "PT",
     "venue": "Cineteatro Capitólio",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108228331?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisboa"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisboa"
-    },
-    "note": ""
-  },
-  {
-    "band": "Yard Act",
-    "date": "2026-10-23",
-    "city": "Lisbon",
-    "country": "PT",
-    "venue": "Capitólio",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43155746-yard-act-at-capitolio",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -37107,35 +37050,12 @@
   {
     "band": "Skinshape",
     "date": "2026-11-22",
-    "city": "Lisboa",
+    "city": "Lisbon",
     "country": "PT",
     "venue": "Casa do Capitão",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/1039537795?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisboa"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisboa"
-    },
-    "note": ""
-  },
-  {
-    "band": "Skinshape",
-    "date": "2026-11-22",
-    "city": "Lisbon",
-    "country": "PT",
-    "venue": "Casa Capitão",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43304573-skinshape-at-casa-capitao",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -42320,7 +42240,7 @@
   {
     "band": "Slift",
     "date": "2027-02-04",
-    "city": "Lisboa",
+    "city": "Lisbon",
     "country": "PT",
     "venue": "Republica da Musica",
     "fest": null,
@@ -42330,13 +42250,19 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Lisboa"
+      "hub_city": "Lisbon"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Lisboa"
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Lisbon"
     },
     "note": ""
   },
@@ -45205,7 +45131,7 @@
   {
     "band": "Tramhaus",
     "date": "2027-03-16",
-    "city": "Lisboa",
+    "city": "Lisbon",
     "country": "PT",
     "venue": "Casa do Capitão",
     "fest": null,
@@ -45215,13 +45141,19 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Lisboa"
+      "hub_city": "Lisbon"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Lisboa"
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Lisbon"
     },
     "note": ""
   },
