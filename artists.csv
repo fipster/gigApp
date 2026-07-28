@@ -5,11 +5,11 @@ artist_name,playlist,active,ignore
 ????,Album added to library,,
 A Beacon School,,,
 A Forest Mighty Black,,,
-A Tribe Called Quest,,,true
+A Tribe Called Quest,,false,true
 A. Savage,Album added to library,,
 Acid King,,,
 Adrian Belew,,,
-Agitation Free,Album added to library,,true
+Agitation Free,Album added to library,false,true
 AHAB,metall,,
 Aiden Ayers,Album added to library,,
 Air,Album added to library,,
@@ -17,20 +17,20 @@ Ajukaja,,,
 Alex Cortiz,,,
 Alex G,Pehmemad indiaanlased,,
 Alfa Collective,Album added to library,,
-Algebra Suicide,Liked song,,true
+Algebra Suicide,Liked song,false,true
 Alice Cooper,Album added to library,,
 Alice In Chains,Album added to library,,
 Allah-Las,,,
 Allianss,Album added to library,,
 alt-J,Liked song,,
 Amon Tobin,tasasem teknohõng,,
-Ananda Shankar,Liked song,,true
+Ananda Shankar,Liked song,false,true
 Andy Shauf,Liked song,,
 Angel Olsen,,,
 Anika,Liked song,,
 Animal Collective,Liked song,,
 Ans Andur,,,
-Antipop Consortium,,,true
+Antipop Consortium,,false,true
 ANTS1,,,
 Aphex Twin,tasasem teknohõng,,
 Aphrodite,,,
@@ -44,8 +44,8 @@ Ash Code,punk / new wave,,
 Aspid (Аспид),,,
 Astrid Sonne,Liked song,,
 Audio Armada,Album added to library,,
-Audioslave,,,true
-Aunt Sally,Liked song,,true
+Audioslave,,false,true
+Aunt Sally,Liked song,false,true
 Autechre,tasasem teknohõng,,
 Autolux,Album added to library,,
 Avemaria,,,
@@ -63,7 +63,7 @@ Beach House,,,
 Beak>,post punkish,,
 Beanfield,,,
 Beardfish,,,
-Beastie Boys,Album added to library,,true
+Beastie Boys,Album added to library,false,true
 Beck,Liked song,,
 Bees Made Honey in the Vein Tree,Album added to library,,
 Being Dead,Album added to library,,
@@ -76,22 +76,22 @@ Biosphere,tasasem teknohõng,,
 BJORN TORSKE,tasasem teknohõng,,
 Björk,,,
 "Black Country, New Road",Album added to library,,
-black midi,Liked song,,true
-Black Moon,räps,,true
+black midi,Liked song,false,true
+Black Moon,räps,false,true
 Black Rebel Motorcycle Club,,,
 Bloodslide,post punkish,,
 Blue Note,,,
 Blue Oyster Cult,Album added to library,,
 Blue States,,,
 Boards of Canada,tasasem teknohõng,,
-Bobby Hebb,,,true
+Bobby Hebb,,false,true
 BODEGA,Album added to library,,
 Boko Yout,Album added to library,,
 Bonobo,,,
 Boogie Times Tribe,tasasem teknohõng,,
 Boozoo Bajou,,,
 Borm Bubu,Album added to library,,
-Bowery Electric,Album added to library,,true
+Bowery Electric,Album added to library,false,true
 Boy Azooga,Liked song,,
 Brahja,Liked song,,
 Brand X,Album added to library,,
@@ -103,8 +103,8 @@ Bright Falls,post punkish,,
 Bright Falls feat. Прекрасная Зелёная,,,
 Broncho,,,
 Buke & Gase,Album added to library,,
-Bullitnuts,,,true
-Burning Witch,Album added to library,,true
+Bullitnuts,,false,true
+Burning Witch,Album added to library,false,true
 Burzum,metall,,
 BUSDRIVER,räps,,
 Bush Tetras,,,
@@ -114,7 +114,7 @@ Buzzov*en,,,
 Cage The Elephant,,,
 Calyx,,,
 Camel,Album added to library,,
-CAN,Album added to library,,true
+CAN,Album added to library,false,true
 Candlemass,Album added to library,,
 Candy Claws,Liked song,,
 Cannibal Corpse,prügi,,
@@ -125,7 +125,7 @@ Caribou,Liked song,,
 Caroline Rose,Liked song,,
 Casino Versus Japan,tasasem teknohõng,,
 Cate Le Bon,Album added to library,,
-Celtic Frost,,,true
+Celtic Frost,,false,true
 Chastity Belt,post punkish,,
 Chat Pile,metall,,
 Cherry Glazerr,post punkish,,
@@ -135,20 +135,20 @@ Chris Cohen,Pehmemad indiaanlased,,
 Church Of Misery,metall,,
 Class Of 73 Bells,,,
 clockworkarmy,punk / new wave,,
-cLOUDDEAD,Album added to library,,true
-Cluster,Album added to library,,true
+cLOUDDEAD,Album added to library,false,true
+Cluster,Album added to library,false,true
 Clutch,metall,,
-Coil,tasasem teknohõng,,true
+Coil,tasasem teknohõng,false,true
 Coldcut,tasasem teknohõng,,
 Colin Stetson,,,
 Colleen Green,new rock,,
-Connan and the Mockasins,,,true
+Connan and the Mockasins,,false,true
 Connan Mockasin,nikumuss,,
 Cool Hand Flex,,,
 Corazón Attack,Liked song,,
 Cosmo Pyke,,,
 Courtney Barnett,post punkish,,
-Cream,Album added to library,,true
+Cream,Album added to library,false,true
 Crowbar,,,
 Crumb,Album added to library,,
 Crystal Waters,,,
@@ -160,12 +160,12 @@ Damaged Bug,Album added to library,,
 Dan the Automator,,,
 Danger Mouse,Album added to library,,
 Danger Mouse & Black Thought,räps,,
-DANGERDOOM,,,true
+DANGERDOOM,,false,true
 "DANGERDOOM, MF DOOM & Danger Mouse",räps,,
 Daniele Luppi,Liked collaborator,,
 Danny Brown,räps,,
 DARKSIDE,Liked song,,
-David Bowie,,,true
+David Bowie,,false,true
 David Byrne,Liked song,,
 David Dean Burkhart,Pehmemad indiaanlased,,
 De Ambassade,Liked song,,
@@ -202,7 +202,7 @@ DJ Zinc,,,
 Do Nothing,Album added to library,,
 Doechii,räps,,
 Dom & Roland,,,
-Donna Summer,,,true
+Donna Summer,,false,true
 Down,Album added to library,,
 Drahla,post punkish,,
 Dream Wife,post punkish,,
@@ -210,7 +210,7 @@ Dregs,tasasem teknohõng,,
 Dry Cleaning,Album added to library,,
 Ducktails,Album added to library,,
 Dzihan & Kamien,,,
-Eagulls,post punkish,,true
+Eagulls,post punkish,false,true
 Earl Sweatshirt,räps,,
 Earth,Album added to library,,
 Echo & The Bunnymen,punk / new wave,,
@@ -220,7 +220,7 @@ Ed Rush,,,
 ednbo,tasasem teknohõng,,
 Edo de Waart,,,
 Elbow,Album added to library,,
-Electric Light Orchestra,,,true
+Electric Light Orchestra,,false,true
 Elephant9,Album added to library,,
 Elephants From Neptune,Album added to library,,
 Emapea,,,
@@ -237,12 +237,12 @@ Ezra Furman,,,
 Farmers Market,balkan,,
 Fashion Pimps And The Glamazons,post punkish,,
 Faust,Liked song,,
-FC Kahuna,,,true
-Felt,punk / new wave,,true
+FC Kahuna,,false,true
+Felt,punk / new wave,false,true
 Fever Ray,Liked song,,
-Fila Brazillia,Pehmemad indiaanlased,,true
+Fila Brazillia,Pehmemad indiaanlased,false,true
 Flasher,post punkish,,
-Fleetwood Mac,Album added to library,,true
+Fleetwood Mac,Album added to library,false,true
 Flesh Simulator,,,
 Flipper,post punkish,,
 Flyying Colours,Liked song,,
@@ -251,23 +251,23 @@ Found Atlantis,,,
 Four Tet,Album added to library,,
 Foxwarren,Album added to library,,
 Foxygen,,,
-Frank Zappa,Album added to library,,true
+Frank Zappa,Album added to library,false,true
 Freak Heat Waves,Album added to library,,
-Fugazi,,,true
+Fugazi,,false,true
 Fulci,Album added to library,,
 Funki Porcini,Album added to library,,
 FUSION II,,,
 Future Cut,,,
 Fuzz,Liked song,,
-Gang Starr,räps,,true
+Gang Starr,räps,false,true
 Ganser,Album added to library,,
 Garbanotas,Album added to library,,
 Gary Numan,Album added to library,,
 Gawd Status,,,
 "Gawd Status, King Kashmere, Joker Starr, and Jazz T",räps,,
 Geese,Album added to library,,
-Genesis,,,true
-Genialistid,,,true
+Genesis,,false,true
+Genialistid,,false,true
 Genka,räps,,
 Geordie Greep,Liked song,,
 Getšemane,Album added to library,,
@@ -275,7 +275,7 @@ Gideon Smith & The Dixie Damned,,,
 Gilla Band,Liked song,,
 Gin Lady,,,
 Gina X Performance,punk / new wave,,
-Girlpool,post punkish,,true
+Girlpool,post punkish,false,true
 Goat Girl,Album added to library,,
 GOGDOG x OUMEEN,Album added to library,,
 GoGo Penguin,Album added to library,,
@@ -284,7 +284,7 @@ Goldfrapp,Album added to library,,
 Good Sad Happy Bad,Album added to library,,
 Gorillaz,Album added to library,,
 Graham Coxon,post punkish,,
-Grauzone,punk / new wave,,true
+Grauzone,punk / new wave,false,true
 Gray,,,
 Green and Glass,Album added to library,,
 Green Yeti,Album added to library,,
@@ -296,10 +296,10 @@ GUM,,,
 Gun Outfit,,,
 GZA,räps,,
 Habibi Funk,Liked song,,
-Hagar the Womb,punk / new wave,,true
-Handsome Boy Modeling School,räps,,true
-Harold Budd,Album added to library,,true
-Headache,Liked song,,true
+Hagar the Womb,punk / new wave,false,true
+Handsome Boy Modeling School,räps,false,true
+Harold Budd,Album added to library,false,true
+Headache,Liked song,false,true
 Here We Go Magic,Liked song,,
 Hieroglyphics,räps,,
 Hierophants,post punkish,,
@@ -310,11 +310,11 @@ Hive,Album added to library,,
 Holy Wave,Album added to library,,
 HOMESHAKE,Liked song,,
 Honey Bane,punk / new wave,,
-Honey Ltd.,Liked song,,true
+Honey Ltd.,Liked song,false,true
 Hoodie & James K,tasasem teknohõng,,
 Hooverphonic,,,
 Hot Flash Heat Wave,,,
-House Of Pain,räps,,true
+House Of Pain,räps,false,true
 How to destroy angels,,,
 Howard Devoto,punk / new wave,,
 HU?,,,
@@ -332,7 +332,7 @@ Incubus,,,
 Induction music,post punkish; tasasem teknohõng,,
 infinite bisous,Album added to library,,
 Inga Copeland,tasasem teknohõng,,
-Injury Reserve,räps,,true
+Injury Reserve,räps,false,true
 InOrderOfMoreDepth,tasasem teknohõng,,
 Italia 90,post punkish,,
 itoh138,räps,,
@@ -342,14 +342,14 @@ Jaga Jazzist Horns,,,
 Jagwar Ma,,,
 Jaimeo Brown Transcendence,,,
 Jakob Juhkam,Album added to library,,
-James Chance,Album added to library,,true
+James Chance,Album added to library,false,true
 James White & The Blacks,Liked song,,
 James Wolfgang Rassakas,Album added to library,,
 Jamie Isaac & Rejjie Snow,nikumuss,,
 Jamiroquai,,,
-Jane Birkin,,,true
+Jane Birkin,,false,true
 Jane's Addiction,,,
-Janis Joplin,,,true
+Janis Joplin,,false,true
 Janko Nilovic,,,
 Jay Prince feat. SiR & Joyce Wrice,,,
 Jazzanova,,,
@@ -358,9 +358,9 @@ Jello Biafra & Melvins,metall,,
 Jerry Paper,,,
 Jethro Tull,Album added to library,,
 Jim James,Album added to library,,
-Jim Morrison,,,true
+Jim Morrison,,false,true
 Jim Morrison & The Doors,Album added to library,,
-Jimi Hendrix,,,true
+Jimi Hendrix,,false,true
 Jockstrap,Album added to library,,
 John Adams,,,
 John Cooper Clarke,post punkish,,
@@ -368,7 +368,7 @@ John Maus,Liked song,,
 Johnny Sais Quoi,Liked song,,
 Jonny Greenwood,Liked song,,
 Jonwayne,räps,,
-Joy Division,post punkish; punk / new wave,,true
+Joy Division,post punkish; punk / new wave,false,true
 Juana Molina,Album added to library,,
 Juleah,,,
 julie,post punkish,,
@@ -418,7 +418,7 @@ Lebanon Hanover,punk / new wave,,
 Leegitsev Sidrun,,,
 Leftfield,,,
 Leggo Beast,,,
-Lemon Jelly,,,true
+Lemon Jelly,,false,true
 Liars,post punkish,,
 Lil Yachty,Liked song,,
 Limp Bizkit,räps,,
@@ -427,32 +427,32 @@ Lip Critic,Album added to library,,
 Living Colour,Liked song,,
 Loits,Album added to library,,
 Lolina,Album added to library,,
-Lou Reed,,,true
+Lou Reed,,false,true
 Love-Songs & U. Schütte,tasasem teknohõng,,
-Low,Liked song,,true
+Low,Liked song,false,true
 LSteelo,Album added to library,,
 LTJ Bukem,,,
-Luarvik Luarvik,,,true
+Luarvik Luarvik,,false,true
 Luke Vibert,tasasem teknohõng,,
 Luurel Varas,tasasem teknohõng,,
-LVL UP,,,true
+LVL UP,,false,true
 Lydia Lunch,Liked song,,
 Lynyrd Skynyrd,,,
 Lyyti,Liked song,,
-Léo Ferré,Liked song,,true
+Léo Ferré,Liked song,false,true
 Mac DeMarco,Liked song,,
 Machine Girl,,,
-Mad Season,metall,,true
+Mad Season,metall,false,true
 Madlib,räps,,
 Magazine,punk / new wave,,
 Magic Shoppe,,,
-Mahavishnu Orchestra,,,true
-Main Source,räps,,true
+Mahavishnu Orchestra,,false,true
+Main Source,räps,false,true
 Male Gaze,Album added to library,,
 "Mandy, Indiana",post punkish,,
 Mannequin Pussy,post punkish,,
 Map of Africa,Liked song,,
-Marc And The Mambas,Album added to library,,true
+Marc And The Mambas,Album added to library,false,true
 Marc Laidlaw,Album added to library,,
 Marching Church,,,
 Margo Price,Liked song,,
@@ -481,18 +481,18 @@ Menace Beach,post punkish,,
 Meshuggah,prügi,,
 Metallica,Album added to library,,
 Metric,Liked song,,
-MF DOOM,räps,,true
+MF DOOM,räps,false,true
 MGMT,Album added to library,,
 Michael Christmas,,,
 Mild High Club,Album added to library,,
 Mild Orange,nikumuss,,
-Miles Davis,Album added to library,,true
+Miles Davis,Album added to library,false,true
 Miljardid,,,
 Milo,räps,,
 Mind Vision,Album added to library,,
 Mink Mussel Creek,,,
 Minus 8,,,
-Minutemen,post punkish,,true
+Minutemen,post punkish,false,true
 Misha Panfilov,Liked song,,
 Mizo,,,
 Moa,,,
@@ -502,14 +502,14 @@ Modeselektor & Thom Yorke,tasasem teknohõng,,
 Modest Mouse,Liked song,,
 Moebius,,,
 Mogwai,Liked song,,
-Moloko,,,true
+Moloko,,false,true
 Monade,,,
 Monocluster,Album added to library,,
 Monster Magnet,metall,,
 Moody Blues,,,
 Morcheeba,Liked song,,
-Morphine,Album added to library,,true
-Mort Garson,Album added to library,,true
+Morphine,Album added to library,false,true
+Mort Garson,Album added to library,false,true
 Mos Def,räps,,
 Mothers,,,
 motonormal,Album added to library,,
@@ -539,9 +539,9 @@ Nightmares On Wax,,,
 Nilüfer Yanya,Pehmemad indiaanlased,,
 Nina Harker,Liked song,,
 Nine Inch Nails,metall,,
-Noisia,,,true
-Nucleus,Album added to library,,true
-Nusrat Fateh Ali Khan,Album added to library,,true
+Noisia,,false,true
+Nucleus,Album added to library,false,true
+Nusrat Fateh Ali Khan,Album added to library,false,true
 Nuyorican Soul,Liked song,,
 Nymfo,,,
 Objekt,tasasem teknohõng,,
@@ -555,13 +555,13 @@ Only Real,,,
 Open Mike Eagle,Album added to library,,
 Opeth,,,
 Optical,,,
-Optiv,,,true
+Optiv,,false,true
 Oranssi Pazuzu,Album added to library,,
 Orbital,,,
 Ought,Album added to library,,
 P.K.14,Album added to library,,
 Palehound,post punkish,,
-Palm,,,true
+Palm,,false,true
 Panda Bear,Album added to library,,
 Pantera,Album added to library,,
 PARADE,post punkish,,
@@ -570,7 +570,7 @@ Paul Cherry,nikumuss,,
 Paul Oja,räps,,
 Paul Rock,,,
 Peace Orchestra,,,
-Pekka Pohjola,Album added to library,,true
+Pekka Pohjola,Album added to library,false,true
 Pendulum,,,
 Pentangle,Liked song,,
 Perfume Genius,Liked song,,
@@ -578,14 +578,14 @@ Perry Maysun,räps,,
 Peter Gabriel,Liked song,,
 Philip Glass,,,
 Pinback,Album added to library,,
-Pink Floyd,,,true
+Pink Floyd,,false,true
 Pixies,Liked song,,
 Plaid,tasasem teknohõng,,
 Plixid,,,
 Pond,Pehmemad indiaanlased,,
 Porches,,,
 Porcupine Tree,,,
-Porno for Pyros,,,true
+Porno for Pyros,,false,true
 Portishead,,,
 Post Industrial Boys,Album added to library,,
 Prefuse 73,räps,,
@@ -616,7 +616,7 @@ Radiohead,Liked song,,
 Ramin Djawadi,Album added to library,,
 Ratkiller,Album added to library,,
 raudie,Album added to library,,
-Ravi Shankar,Album added to library,,true
+Ravi Shankar,Album added to library,false,true
 Rayland Baxter,Liked song,,
 Real Estate,,,
 Red One,,,
@@ -658,22 +658,22 @@ Shame,Liked song,,
 Shankar,Album added to library,,
 Sheer Mag,Liked song,,
 Shimon,,,
-Shopping,post punkish,,true
+Shopping,post punkish,false,true
 Show Me The Body,Liked song,,
 Silky Steps,nikumuss,,
 Sine,tasasem teknohõng,,
 Sir Robin & The Longbowmen,,,
 Six Feet Under,,,
 Skinshape,Liked song,,
-Slayer,Album added to library,,true
+Slayer,Album added to library,false,true
 Sleaford Mods,Liked song,,
 Slift,Album added to library,,
-Slint,Album added to library,,true
+Slint,Album added to library,false,true
 Slow Pulp,post punkish,,
 slowthai,räps,,
-Small Faces,Liked song,,true
+Small Faces,Liked song,false,true
 Smashing Pumpkins,,,
-Smith Westerns,,,true
+Smith Westerns,,false,true
 Snailmate,post punkish,,
 Snapped Ankles,Album added to library,,
 Sneaker Pimps,,,
@@ -682,9 +682,9 @@ Soccer Mommy,Album added to library,,
 Soft Hair,Album added to library,,
 SOFT PLAY,post punkish,,
 Somali Yacht Club,metall,,
-Sonic Youth,Liked song,,true
+Sonic Youth,Liked song,false,true
 Soul Intent,,,
-Soundgarden,metall,,true
+Soundgarden,metall,false,true
 Sparks,Album added to library,,
 Special Interest,post punkish,,
 Spectacular Diagnostics,räps,,
@@ -693,15 +693,15 @@ SPIRIT OF THE BEEHIVE,Album added to library,,
 splifferation,räps,,
 Spoon,,,
 Sports Team,Album added to library,,
-Sprain,post punkish,,true
+Sprain,post punkish,false,true
 Squid,Album added to library,,
 Ssktchwn,nikumuss,,
 ssshhhiiittt!,Album added to library,,
 St. Germain,,,
 Stephane Laporte,tasasem teknohõng,,
-Stereo Total,post punkish,,true
+Stereo Total,post punkish,false,true
 Stereolab,Album added to library,,
-Stetsasonic,räps,,true
+Stetsasonic,räps,false,true
 Steve Miller Band,,,
 Steve Reich,,,
 Still House Plants,Album added to library,,
@@ -712,21 +712,21 @@ Stress Eater,,,
 "Stress Eater, Czarface & Kool Keith",räps,,
 Stuck,post punkish,,
 Submerged,,,
-Subtle,räps,,true
+Subtle,räps,false,true
 Suicidal Tendencies,,,
 SULK,post punkish,,
 Sunbeam Sound Machine,,,
 Sunflower Bean,Album added to library,,
 Supastition,räps,,
-Supertramp,Album added to library,,true
+Supertramp,Album added to library,false,true
 Supreme Beings Of Leisure,,,
 Suuns,Album added to library,,
 Sven Wunder,Liked song,,
 Swans,Album added to library,,
 Sweaty Palms,post punkish,,
 Sweeping Promises,post punkish,,
-Sweet Smoke,Album added to library,,true
-Talking Heads,Album added to library,,true
+Sweet Smoke,Album added to library,false,true
+Talking Heads,Album added to library,false,true
 Tame Impala,new rock,,
 Tawk,,,
 Tawk Love,,,
@@ -739,7 +739,7 @@ Tera Melos,Liked song,,
 Tess Parks,,,
 Th Da Freak,post punkish,,
 The Art Of Noise,Album added to library,,
-The Beatles,Album added to library,,true
+The Beatles,Album added to library,false,true
 The Black Angels,,,
 The Black Dog,tasasem teknohõng,,
 The Black Keys,Liked song,,
@@ -747,15 +747,15 @@ The Breeders,Album added to library,,
 The Bug,,,
 The Chemical Brothers,,,
 The Cinematic Orchestra,,,
-The Clash,punk / new wave,,true
-The Comet Is Coming,Album added to library,,true
+The Clash,punk / new wave,false,true
+The Comet Is Coming,Album added to library,false,true
 The Crystal Method,,,
 The Dead Pirates,Album added to library,,
 The Dead Weather,,,
-The Doors,,,true
+The Doors,,false,true
 The Drones,Album added to library,,
 The Exploited,punk / new wave,,
-The Fall,post punkish,,true
+The Fall,post punkish,false,true
 The Funky Lowlives,,,
 The Future Sound Of London,tasasem teknohõng,,
 The Garden,post punkish,,
@@ -763,14 +763,14 @@ The Golden Palominos,Album added to library,,
 The Gorls,Album added to library,,
 The Growl,Album added to library,,
 The Growlers,Album added to library,,
-The Gun Club,Liked song,,true
+The Gun Club,Liked song,false,true
 The Halluci Nation,,,
 The Heliocentrics,Album added to library,,
 The Herbaliser,räps,,
 The Holydrug Couple,Album added to library,,
 the karminsky experience inc.,,,
 The Kundalini Genie,Album added to library,,
-The Mothers Of Invention,Album added to library,,true
+The Mothers Of Invention,Album added to library,false,true
 The Murder Capital,Liked song,,
 The Murlocs,,,
 The Obsessed,,,
@@ -780,17 +780,17 @@ The Pleasure Majenta,Liked song,,
 The Pop Group,Liked song,,
 The Roaring 420s,,,
 The Rolling Stones,,,
-The Slits,post punkish,,true
+The Slits,post punkish,false,true
 The Smile,Liked song,,
-The Smiths,Album added to library,,true
-The Sound,Album added to library,,true
+The Smiths,Album added to library,false,true
+The Sound,Album added to library,false,true
 The Stranglers,Album added to library,,
 The Tangent,,,
 The Tights,Liked song,,
 The Voidz,,,
 The WAEVE,Album added to library,,
 The Walkmen,Liked song,,
-The White Stripes,,,true
+The White Stripes,,false,true
 The Who,,,
 The Wytches,,,
 Thee Oh Sees,Album added to library,,
@@ -822,7 +822,7 @@ Tricky,,,
 Tropical Contact High,post punkish,,
 Tropical Fuck Storm,Album added to library,,
 Truudusetu Juulia,,,
-Tubeway Army,Album added to library,,true
+Tubeway Army,Album added to library,false,true
 Turbo Trans Turisti,post punkish,,
 Tuxedomoon,Album added to library,,
 TV on the Radio,,,
@@ -834,12 +834,12 @@ Two Inch Astronaut,Album added to library,,
 Ty Segall,Album added to library,,
 Ty Segall Band,,,
 "Tyler, The Creator",räps,,
-Type O Negative,metall,,true
+Type O Negative,metall,false,true
 Télépopmusik,,,
 U-Ziq,tasasem teknohõng,,
 U.S. Girls,Liked song,,
 Ulrich Schnauss,,,
-Ultimate Painting,,,true
+Ultimate Painting,,false,true
 Ultraísta,,,
 Underworld,Liked song,,
 UNKLE,,,
@@ -847,7 +847,7 @@ Unknown Mortal Orchestra,Album added to library,,
 "Up, Bustle and Out",,,
 Uranium Club,post punkish; punk / new wave,,
 Vago Sagrado,,,
-Van Halen,,,true
+Van Halen,,false,true
 Vana,,,
 Vanilla Fudge,,,
 Vanishing Twin,Liked song,,
@@ -862,27 +862,27 @@ Viagra Boys,Album added to library,,
 Vicious Circle,,,
 Viet Cong,,,
 Vivien Goldman,,,
-Vulpes,Liked song,,true
+Vulpes,Liked song,false,true
 Vulpess,,,
 Wampire,,,
 Wand,Album added to library,,
 Warpaint,Album added to library,,
 We,,,
 Weed & Dolphins,räps,,
-Ween,,,true
+Ween,,false,true
 Weyes Blood,Liked song,,
 Whereswilder,,,
-White Zombie,Album added to library,,true
+White Zombie,Album added to library,false,true
 Whitney,,,
 Widowspeak,Pehmemad indiaanlased,,
-Wild Beasts,Album added to library,,true
-Wojciech Karolak,Album added to library,,true
+Wild Beasts,Album added to library,false,true
+Wojciech Karolak,Album added to library,false,true
 Wolfmother,Album added to library,,
-Women,Album added to library,,true
+Women,Album added to library,false,true
 Wrupk Urei,Album added to library,,
 Wu-Lu,Liked song,,
 X-Ray Spex,Liked song,,
-XTC,Album added to library,,true
+XTC,Album added to library,false,true
 Yak,Album added to library,,
 Yard Act,post punkish; räps,,
 Yellow Days,Album added to library,,
@@ -897,6 +897,6 @@ Zero T,,,
 Zura,Album added to library,,
 µ-Ziq,tasasem teknohõng,,
 Весна Весна,Pehmemad indiaanlased,,
-Кино,,,true
+Кино,,false,true
 СОЮЗ,,,
 Юность-21,tasasem teknohõng,,
