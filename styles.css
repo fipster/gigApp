@@ -488,15 +488,19 @@
       display: flex;
     }
 
-    .week-show-entry.is-festival {
+    .week-show-entry.is-priority {
       background: var(--pink);
       border-color: var(--pink);
       color: var(--paper);
     }
 
-    .week-show-entry.is-festival .w-city,
-    .week-show-entry.is-festival .w-more {
+    .week-show-entry.is-priority .w-city,
+    .week-show-entry.is-priority .w-more {
       color: var(--paper);
+    }
+
+    .week-show-entry.is-festival {
+      border: 2px solid var(--blue);
     }
 
     /* MAP VIEW */

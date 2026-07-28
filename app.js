@@ -80,6 +80,7 @@
     let sourceMode = "include";
     let sourceSelection = new Set();
     let activeOrigins = new Set();
+    let activePriorities = new Set();
     let excludeFest = false;
     let cityMode = "include";
     let citySelection = new Set();
@@ -345,6 +346,7 @@
         }
       }
       if (activeOrigins.size > 0) list = list.filter(s => hasDirectForSelection(s));
+      if (activePriorities.size > 0) list = list.filter(s => activePriorities.has(s.priority));
       return list;
     }
 
@@ -478,7 +480,9 @@
           ).join('')}</div></span>`
         : '';
       const entry = document.createElement('div');
-      entry.className = "week-show-entry" + (s.fest === "FESTIVAL" ? " is-festival" : "");
+      entry.className = "week-show-entry"
+        + (s.fest === "FESTIVAL" ? " is-festival" : "")
+        + (s.priority === "I" ? " is-priority" : "");
       const bandLink = `<div class="w-band-row"><a class="w-band" href="${escapeAttr(youtubeMusicUrl(s.bands[0]))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.bands[0])}</a>${bandSuffix}</div>`;
       const cityText = (showFlag ? countryFlag(s.country) + " " : "") + s.city;
       const cityHtml = s.url
@@ -660,11 +664,13 @@
         row.querySelector('input[type=checkbox]').checked = true;
       });
 
-      // festivals + origins
+      // festivals + origins + priority
       excludeFest = false;
       document.getElementById('excludeFest').checked = false;
       activeOrigins.clear();
       document.querySelectorAll('.chip[data-filter="origin"]').forEach(c => c.classList.remove('active'));
+      activePriorities.clear();
+      document.querySelectorAll('.chip[data-filter="priority"]').forEach(c => c.classList.remove('active'));
 
       // dates
       document.getElementById('datePreset').value = "all";
@@ -743,9 +749,18 @@
       });
     });
 
+    document.querySelectorAll('.chip[data-filter="priority"]').forEach(chip => {
+      chip.addEventListener('click', () => {
+        chip.classList.toggle('active');
+        const value = chip.dataset.value;
+        if (activePriorities.has(value)) activePriorities.delete(value); else activePriorities.add(value);
+        render();
+      });
+    });
+
     document.getElementById('excludeFest').addEventListener('change', (e) => { excludeFest = e.target.checked; render(); });
 
-    // last date among shows matching the current non-date filters (band/source/city/origin/fest)
+    // last date among shows matching the current non-date filters (band/source/city/origin/fest/priority)
     function filteredMaxDate() {
       let list = shows.slice();
       if (bandMode === "include") {
@@ -765,6 +780,7 @@
         list = list.filter(s => !citySelection.has(cityKey(s)));
       }
       if (activeOrigins.size > 0) list = list.filter(s => hasDirectForSelection(s));
+      if (activePriorities.size > 0) list = list.filter(s => activePriorities.has(s.priority));
 
       return list.reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
     }

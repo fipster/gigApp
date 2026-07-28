@@ -7,6 +7,7 @@ separately by enrich_flights.py — it's source-agnostic and doesn't belong
 in any one scraper.
 """
 
+import csv
 import json
 import os
 import re
@@ -18,6 +19,7 @@ SHOWS_JSON = "shows.json"
 COUNTRIES_JSON = "countries.json"
 SCRAPE_STATE_JSON = "scrape_state.json"
 ARTIST_STATUS_JSON = "artist_status.json"
+ARTISTS_CSV = "artists.csv"
 CITY_NAME_ALIASES_JSON = "city_name_aliases.json"
 BAND_NAME_ALIASES_JSON = "band_name_aliases.json"
 SKIP_IF_CHECKED_WITHIN_DAYS = 14
@@ -32,6 +34,17 @@ CITY_NAME_ALIASES = {k: v for k, v in _city_aliases_raw.items() if not k.startsw
 with open(BAND_NAME_ALIASES_JSON, encoding="utf-8") as f:
     _band_aliases_raw = json.load(f)
 BAND_NAME_ALIASES = {k: v for k, v in _band_aliases_raw.items() if not k.startswith("_")}
+
+
+def load_artist_priorities(path=ARTISTS_CSV):
+    # maps each artist to its priority tier (5th column of artists.csv,
+    # currently just "I" for a handful of playlists -- see that file's
+    # header), so every show can be tagged with how much attention its
+    # artist warrants, both for steering scrapers and for display
+    with open(path, encoding="utf-8") as f:
+        reader = csv.reader(f)
+        next(reader, None)  # header row
+        return {row[0].strip(): row[4].strip() for row in reader if row and row[0].strip() and len(row) > 4}
 
 
 def normalize_city(city):

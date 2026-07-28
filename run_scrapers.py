@@ -48,6 +48,13 @@ def main():
     result = common.save_shows(shows)
     print(f"Done. {len(result)} shows ({len(same_date_dropped)} same-date conflicts, {len(festival_dropped)} festival dupes resolved).")
 
+    print(f"\n==== enrich_priority ====")
+    priorities = common.load_artist_priorities()
+    for s in result:
+        s["priority"] = priorities.get(s["band"], "")
+    result = common.save_shows(result)
+    print(f"Done. {sum(1 for s in result if s['priority'])} of {len(result)} shows tagged with a priority.")
+
     print(f"\n==== enrich_flights ====")
     enrich_flights.main()
 
