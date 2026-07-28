@@ -94,8 +94,16 @@ MICROFORMAT_RE = re.compile(r'<div class="microformat">\s*<script type="applicat
 
 
 def load_artists(path):
+    # "active" (3rd column) marks an artist deliberately excluded (e.g. not
+    # in the current source playlist); "ignore" (4th column) flags a band
+    # confirmed inactive/disbanded (see check_artist_status.py). Either one
+    # skips the row entirely so scrapers never even attempt it.
     with open(path, encoding="utf-8") as f:
-        return [row[0].strip() for row in csv.reader(f) if row and row[0].strip()]
+        reader = csv.reader(f)
+        next(reader, None)  # header row: artist_name,playlist,active,ignore
+        return [row[0].strip() for row in reader if row and row[0].strip()
+                and (len(row) < 3 or row[2].strip().lower() != "false")
+                and (len(row) < 4 or row[3].strip().lower() != "true")]
 
 
 def fetch(url):

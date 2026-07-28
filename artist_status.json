@@ -1,57 +1,87 @@
 {
   "10cc": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "9 Lazy 9": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "????": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "A Beacon School": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "A Forest Mighty Black": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "A Tribe Called Quest": {
+    "active": false,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "A. Savage": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "AHAB": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Acid King": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Adrian Belew": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Agitation Free": {
+    "active": false,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Aiden Ayers": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Air": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Ajukaja": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Alex Cortiz": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Alex G": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Alfa Collective": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Algebra Suicide": {
@@ -59,19 +89,24 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Alice Cooper": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Alice In Chains": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Allah-Las": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Amon Tobin": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Ananda Shankar": {
@@ -81,22 +116,22 @@
   },
   "Andy Shauf": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Angel Olsen": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Anika": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Animal Collective": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Antipop Consortium": {
@@ -106,42 +141,52 @@
   },
   "Aphex Twin": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Aphrodite": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Arabs In Aspic": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Archy Marshall": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Argo Vals": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Ariel Pink": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Arp": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Ash Code": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Astrid Sonne": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Audio Armada": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Audioslave": {
@@ -156,32 +201,42 @@
   },
   "Autechre": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Autolux": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Avemaria": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Avith Ortega": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Azizi Gibson": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "BADBADNOTGOOD": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "BENT": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "BODEGA": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "BUSDRIVER": {
@@ -191,47 +246,52 @@
   },
   "Baby Mammoth": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Bad Company UK": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Bambara": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Bass Drum of Death": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Bastardane": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Beach Fossils": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Beach House": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Beak>": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Beanfield": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Beardfish": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Beastie Boys": {
@@ -239,34 +299,44 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Bees Made Honey in the Vein Tree": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Being Dead": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Belako": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Beth Gibbons": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Billy Woods": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Biosphere": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Björk": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Black Country, New Road": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Black Moon": {
@@ -276,22 +346,27 @@
   },
   "Black Rebel Motorcycle Club": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Bloodslide": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Blue Note": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Blue States": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Boards of Canada": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Bobby Hebb": {
@@ -301,47 +376,62 @@
   },
   "Boko Yout": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Bonobo": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Boogie Times Tribe": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Boozoo Bajou": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Borm Bubu": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Bowery Electric": {
+    "active": false,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Boy Azooga": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Brahja": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Brand X": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Brian Eno": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Bright Falls": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Broncho": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Bullitnuts": {
@@ -349,19 +439,29 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Burning Witch": {
+    "active": false,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Burzum": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Bush Tetras": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Buzhold": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Buzzcocks": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "CAN": {
@@ -371,57 +471,67 @@
   },
   "Cage The Elephant": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Calyx": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Camel": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Candlemass": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Candy Claws": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Cannibal Corpse": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Cannibal Ox": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Car Seat Headrest": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Caravan": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Caribou": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Caroline Rose": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Casino Versus Japan": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Cate Le Bon": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Celtic Frost": {
@@ -431,22 +541,22 @@
   },
   "Chastity Belt": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Chat Pile": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Cherry Glazerr": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Chicago": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Chico Bernardes": {
@@ -456,32 +566,47 @@
   },
   "Chris Cohen": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Church Of Misery": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Cluster": {
+    "active": false,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Clutch": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Coil": {
+    "active": false,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Coldcut": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Colin Stetson": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Colleen Green": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Connan Mockasin": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Connan and the Mockasins": {
@@ -496,12 +621,12 @@
   },
   "Cosmo Pyke": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Courtney Barnett": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Cream": {
@@ -511,22 +636,22 @@
   },
   "Crowbar": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Crystal Waters": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Cypress Hill": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Czarface": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "DANGERDOOM": {
@@ -536,37 +661,37 @@
   },
   "DARKSIDE": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "DIIV": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "DJ Food": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "DJ Me DJ You": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "DJ Trace": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "DJ Zinc": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dado Topić": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Damaged Bug": {
@@ -576,22 +701,22 @@
   },
   "Dan the Automator": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Danger Mouse": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Daniele Luppi": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Danny Brown": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "David Bowie": {
@@ -601,32 +726,32 @@
   },
   "David Byrne": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "De Ambassade": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dead Can Dance": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dead Meadow": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dean Blunt": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Death Grips": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Death in Vegas": {
@@ -636,37 +761,47 @@
   },
   "Decapitated": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Deceptikon": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Deerhoof": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Deerhunter": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Deftones": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Deltron 3030": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Dengue Dengue Dengue": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Destroyer": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Destruction Unit": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dew8": {
@@ -676,37 +811,37 @@
   },
   "Digitalism": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dillinja": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dimlite": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Diverse": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Do Nothing": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Doechii": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dom & Roland": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Donna Summer": {
@@ -716,27 +851,27 @@
   },
   "Drahla": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dream Wife": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dry Cleaning": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Ducktails": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Dzihan & Kamien": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Eagulls": {
@@ -746,32 +881,32 @@
   },
   "Earl Sweatshirt": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Echo & The Bunnymen": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Echolyn": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Ed Rush": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Edo de Waart": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Elbow": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Electric Light Orchestra": {
@@ -779,39 +914,49 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Elephant9": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Elephants From Neptune": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Emapea": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Enforced": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Enfuse": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Eraldo Bernocchi": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Euternase": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Exploded View": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Ezra Furman": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "FC Kahuna": {
@@ -821,12 +966,12 @@
   },
   "Farmers Market": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Faust": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Felt": {
@@ -836,7 +981,7 @@
   },
   "Fever Ray": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Fila Brazillia": {
@@ -846,7 +991,7 @@
   },
   "Flasher": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Fleetwood Mac": {
@@ -856,37 +1001,42 @@
   },
   "Flesh Simulator": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Flipper": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Flyying Colours": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Fontaines D.C.": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Found Atlantis": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Four Tet": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Foxwarren": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Foxygen": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Frank Zappa": {
@@ -896,7 +1046,7 @@
   },
   "Freak Heat Waves": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Fugazi": {
@@ -904,24 +1054,29 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Fulci": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Funki Porcini": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Future Cut": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "GROUPA": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "GUM": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Gang Starr": {
@@ -929,9 +1084,14 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Garbanotas": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Gary Numan": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Gawd Status": {
@@ -941,7 +1101,7 @@
   },
   "Geese": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Genesis": {
@@ -956,17 +1116,17 @@
   },
   "Genka": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Geordie Greep": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Getšemane": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Gilla Band": {
@@ -976,7 +1136,7 @@
   },
   "Gin Lady": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Gina X Performance": {
@@ -989,34 +1149,39 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "GoGo Penguin": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Goat Girl": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Gojira": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Goldfrapp": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Good Sad Happy Bad": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Gorillaz": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Graham Coxon": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Grauzone": {
@@ -1024,19 +1189,24 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Green Yeti": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Groove Armada": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Group Rhoda": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Guaxe": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Gun Outfit": {
@@ -1046,17 +1216,17 @@
   },
   "HOMESHAKE": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "HU?": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Habibi Funk": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Hagar the Womb": {
@@ -1069,6 +1239,11 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Harold Budd": {
+    "active": false,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Headache": {
     "active": false,
     "checked": "2026-07-27",
@@ -1076,42 +1251,47 @@
   },
   "Here We Go Magic": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Hieroglyphics": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Hierophants": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "High Brian": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "High On Fire": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Hiroshi Suzuki": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Hive": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Holy Wave": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Honey Bane": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Honey Ltd.": {
@@ -1121,12 +1301,12 @@
   },
   "Hooverphonic": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Hot Flash Heat Wave": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "House Of Pain": {
@@ -1136,52 +1316,62 @@
   },
   "How to destroy angels": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Howard Devoto": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Hungry Ghosts": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Hype Williams": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Hypnosis Negative": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "I Wear* Experiment": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "IDLES": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Iceage": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Iggy Pop": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Igorrr": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Incubus": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Inga Copeland": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Injury Reserve": {
@@ -1191,12 +1381,27 @@
   },
   "Italia 90": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Jaakko Eino Kalevi": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Jaga Jazzist": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Jagwar Ma": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Jakob Juhkam": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "James Chance": {
@@ -1206,7 +1411,7 @@
   },
   "Jamiroquai": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Jane Birkin": {
@@ -1221,17 +1426,27 @@
   },
   "Jazzanova": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Jello Biafra": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Jerry Paper": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Jethro Tull": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Jim James": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Jim Morrison": {
@@ -1246,37 +1461,37 @@
   },
   "Jockstrap": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "John Adams": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "John Cooper Clarke": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "John Maus": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Johnny Sais Quoi": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Jonny Greenwood": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Jonwayne": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Joy Division": {
@@ -1286,57 +1501,92 @@
   },
   "Juana Molina": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Juleah": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Julio Iglesias": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Justice": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Kae Tempest": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Kaitlyn Aurelia Smith": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kalli Talonpoika": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kamchatka": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Karen O": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Karmakanic": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kate NV": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kenny Segal": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Kerala Dust": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kevin Morby": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Khruangbin": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Khun Narin": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kid Loco": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "King Gizzard & The Lizard Wizard": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "King Kooba": {
@@ -1346,12 +1596,12 @@
   },
   "King Krule": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kitty Florentine": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Klute": {
@@ -1366,52 +1616,62 @@
   },
   "Kool & The Gang": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kraftwerk": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Kreatiivmootor": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Kronos Quartet": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kruder & Dorfmeister": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kuradi Saar": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kurious": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kurt Vile": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "KÕNTS": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Kõrsikud": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "LCD Soundsystem": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "LTJ Bukem": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "LVL UP": {
@@ -1421,27 +1681,32 @@
   },
   "Lamb": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Lamb of God": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Lana Del Rey": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Laurel Halo": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Laurie Anderson": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Lebanon Hanover": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Leegitsev Sidrun": {
@@ -1451,12 +1716,12 @@
   },
   "Leftfield": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Leggo Beast": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Lemon Jelly": {
@@ -1466,42 +1731,42 @@
   },
   "Liars": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Lil Yachty": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Limp Bizkit": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Lingua Ignota": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Lip Critic": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Living Colour": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Loits": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Lolina": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Lou Reed": {
@@ -1521,12 +1786,17 @@
   },
   "Luke Vibert": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Luurel Varas": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Lydia Lunch": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Lynyrd Skynyrd": {
@@ -1536,7 +1806,7 @@
   },
   "Lyyti": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Léo Ferré": {
@@ -1549,14 +1819,19 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "MGMT": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Mac DeMarco": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Machine Girl": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mad Season": {
@@ -1566,17 +1841,17 @@
   },
   "Madlib": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Magazine": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Magic Shoppe": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mahavishnu Orchestra": {
@@ -1591,17 +1866,22 @@
   },
   "Male Gaze": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Mandy, Indiana": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mannequin Pussy": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Map of Africa": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Marc And The Mambas": {
@@ -1609,29 +1889,34 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Marc Laidlaw": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Marching Church": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Margo Price": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Maria Minerva": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Marie-Ange Cousin": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Marilyn Manson": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Marten Kuningas": {
@@ -1641,102 +1926,122 @@
   },
   "Maruja": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Massive Attack": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mastodon": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Matt Maltese": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Matty": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mbongwana Star": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mcbaise": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Meat Beat Manifesto": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Meatbodies": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Melvins": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Men I Trust": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Menace Beach": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Meshuggah": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Metallica": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Metric": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Michael Christmas": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mild High Club": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Mild Orange": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Miles Davis": {
+    "active": false,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Miljardid": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Milo": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mind Vision": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mink Mussel Creek": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Minus 8": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Minutemen": {
@@ -1746,32 +2051,32 @@
   },
   "Misha Panfilov": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mizo": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Moby": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Modeselektor": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Modest Mouse": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mogwai": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Moloko": {
@@ -1784,14 +2089,19 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Monocluster": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Monster Magnet": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Morcheeba": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Morphine": {
@@ -1799,84 +2109,109 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Mort Garson": {
+    "active": false,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Mount Kimbie": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mouse On Mars": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Moving Fusion": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mr. Scruff": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Music For Your Plants": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Muthi": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Mystery Tiime": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Mógil": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Naomie Klaus": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Nazareth": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Neotropic": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Nevesis": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Nick Cave & The Bad Seeds": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Nick Leng": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Nicolas Jaar": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Night Tapes": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Nightmares On Wax": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Nilüfer Yanya": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Nina Harker": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Nine Inch Nails": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Noisia": {
@@ -1884,39 +2219,54 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Nucleus": {
+    "active": false,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Nusrat Fateh Ali Khan": {
+    "active": false,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
   "Nuyorican Soul": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Nymfo": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Objekt": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Odd Future": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Only Real": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Open Mike Eagle": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Opeth": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Optical": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Optiv": {
@@ -1926,27 +2276,27 @@
   },
   "Oranssi Pazuzu": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Orbital": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Ought": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "P.K.14": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Palehound": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Palm": {
@@ -1956,47 +2306,72 @@
   },
   "Panda Bear": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Pantera": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Parquet Courts": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Paul Cherry": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Paul Oja": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Paul Rock": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Peace Orchestra": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Pekka Pohjola": {
+    "active": false,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Pendulum": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Perfume Genius": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Perry Maysun": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Peter Gabriel": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Philip Glass": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Pinback": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Pink Floyd": {
@@ -2006,22 +2381,22 @@
   },
   "Pixies": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Plaid": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Plixid": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Porches": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Porcupine Tree": {
@@ -2041,27 +2416,32 @@
   },
   "Post Industrial Boys": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Prefuse 73": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Preoccupations": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Prewn": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Pridjevi": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Priests": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Prins Obi": {
@@ -2071,7 +2451,7 @@
   },
   "Prolaps": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Prosthetic Bung": {
@@ -2081,192 +2461,267 @@
   },
   "Protomartyr": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Psychedelic Porn Crumpets": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Public Enemy": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Pulsar One": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Puma Blue": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Pure X": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Q Project": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Quasimoto": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Queen Kwong": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Queens of the Stone Age": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "R. Stevie Moore": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "R.A.P. Ferreira": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "RIP Swirl": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "RJD2": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "RUBUR": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Radiohead": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Ramin Djawadi": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Ratkiller": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Ravi Shankar": {
+    "active": false,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Rayland Baxter": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Real Estate": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Red One": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Red Snapper": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Release": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Riste": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Roger Eno": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Roger Waters": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Romare": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Roni Size": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Rory More": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Rosaceae": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Rosalie Cunningham": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Rose Elinor Dougall": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Roxy Music": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Roy Ayers Ubiquity": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Rush": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Rustin Man": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Röyksopp": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Röövel Ööbik": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "S.P.Y": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "SOFT PLAY": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "SPIRIT OF THE BEEHIVE": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "SULK": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sage Francis": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Saint Vitus": {
+    "active": true,
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Sammalhabe": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Satyricon": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Seefeel": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Self Improvement": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Sepultura": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Shame": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sheer Mag": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Shimon": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Shopping": {
@@ -2276,37 +2731,42 @@
   },
   "Show Me The Body": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sine": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sir Robin & The Longbowmen": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Six Feet Under": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Skinshape": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Slayer": {
+    "active": false,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sleaford Mods": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Slift": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Slint": {
@@ -2316,7 +2776,7 @@
   },
   "Slow Pulp": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Small Faces": {
@@ -2331,27 +2791,32 @@
   },
   "Snailmate": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Snapped Ankles": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sneaker Pimps": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Soccer Mommy": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Soft Hair": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Somali Yacht Club": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sonic Youth": {
@@ -2361,7 +2826,7 @@
   },
   "Soul Intent": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Soundgarden": {
@@ -2371,32 +2836,32 @@
   },
   "Sparks": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Special Interest": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Spectacular Diagnostics": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Speedy Ortiz": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Spoon": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sports Team": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sprain": {
@@ -2406,7 +2871,7 @@
   },
   "Squid": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Stereo Total": {
@@ -2426,37 +2891,42 @@
   },
   "Steve Miller Band": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Steve Reich": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Still House Plants": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Stillbirth": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Stoned Jesus": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Straw Man Army": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Stress Eater": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Submerged": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Subtle": {
@@ -2466,22 +2936,22 @@
   },
   "Suicidal Tendencies": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sunbeam Sound Machine": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sunflower Bean": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Supastition": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Supertramp": {
@@ -2491,32 +2961,47 @@
   },
   "Supreme Beings Of Leisure": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Suuns": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sven Wunder": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Swans": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sweaty Palms": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Sweeping Promises": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "Sweet Smoke": {
+    "active": false,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "TV on the Radio": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "TVAM": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Talking Heads": {
@@ -2526,47 +3011,52 @@
   },
   "Tame Impala": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "Tawk": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Teebee": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Teleman": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Temples": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tenacious D": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Tennis": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tera Melos": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tess Parks": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Th Da Freak": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Beatles": {
@@ -2576,7 +3066,7 @@
   },
   "The Black Angels": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Black Dog": {
@@ -2586,22 +3076,22 @@
   },
   "The Black Keys": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Breeders": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Bug": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Chemical Brothers": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Cinematic Orchestra": {
@@ -2621,7 +3111,7 @@
   },
   "The Crystal Method": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Dead Pirates": {
@@ -2631,7 +3121,7 @@
   },
   "The Dead Weather": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Doors": {
@@ -2641,12 +3131,12 @@
   },
   "The Drones": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Exploited": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Fall": {
@@ -2656,17 +3146,27 @@
   },
   "The Funky Lowlives": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "The Future Sound Of London": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Garden": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Golden Palominos": {
     "active": true,
     "checked": "2026-07-27",
+    "source": "musicbrainz"
+  },
+  "The Growl": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Gun Club": {
@@ -2676,22 +3176,27 @@
   },
   "The Halluci Nation": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Heliocentrics": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Herbaliser": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Holydrug Couple": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "The Kundalini Genie": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Mothers Of Invention": {
@@ -2701,47 +3206,47 @@
   },
   "The Murder Capital": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Murlocs": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Obsessed": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Offspring": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Orb": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Pleasure Majenta": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Pop Group": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Roaring 420s": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Rolling Stones": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Slits": {
@@ -2751,7 +3256,7 @@
   },
   "The Smile": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Smiths": {
@@ -2766,32 +3271,32 @@
   },
   "The Stranglers": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Tangent": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Tights": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Voidz": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The WAEVE": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Walkmen": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The White Stripes": {
@@ -2801,107 +3306,127 @@
   },
   "The Who": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "The Wytches": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Thievery Corporation": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Thom Yorke": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Thou": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Tigran Hamasyan": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Timber Timbre": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tintura": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tirzah": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "To The Grave": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tom Waits": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tony Banks": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Topdown Dialectic": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Toro y Moi": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tortoise": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tosca": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Total Science": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Totally Mild": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tramhaus": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Transparent Sound": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Trentemøller": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Trex": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tricky": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Tropical Contact High": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tropical Fuck Storm": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Tubeway Army": {
@@ -2909,29 +3434,44 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Turbo Trans Turisti": {
+    "active": true,
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
   "Tuxedomoon": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Twin Peaks": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Twin Tribes": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Two Inch Astronaut": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Ty Segall": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Ty Segall Band": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Tyler, The Creator": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Type O Negative": {
@@ -2941,22 +3481,22 @@
   },
   "Télépopmusik": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "U.S. Girls": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "UNKLE": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Ulrich Schnauss": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Ultimate Painting": {
@@ -2966,22 +3506,27 @@
   },
   "Ultraísta": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Underworld": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Unknown Mortal Orchestra": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "VHS Head": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Vago Sagrado": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Van Halen": {
@@ -2991,47 +3536,57 @@
   },
   "Vana": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Vanilla Fudge": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Vanishing Twin": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Vansire": {
+    "active": true,
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Various Artists": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Vashti Bunyan": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Vegyn": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Veik": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Viagra Boys": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Vicious Circle": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Vivien Goldman": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Vulpes": {
@@ -3041,22 +3596,22 @@
   },
   "Wampire": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Wand": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Warpaint": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Weed & Dolphins": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Ween": {
@@ -3066,12 +3621,12 @@
   },
   "Weyes Blood": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Whereswilder": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "White Zombie": {
@@ -3079,14 +3634,39 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Widowspeak": {
+    "active": true,
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Wild Beasts": {
+    "active": false,
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Wojciech Karolak": {
+    "active": false,
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Wolfmother": {
+    "active": true,
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
   "Women": {
     "active": false,
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Wrupk Urei": {
+    "active": true,
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
   "Wu-Lu": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "XTC": {
@@ -3094,54 +3674,64 @@
     "checked": "2026-07-27",
     "source": "musicbrainz"
   },
+  "Yak": {
+    "active": true,
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
   "Yard Act": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Yellow Days": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Yes": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "Yo La Tengo": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Young Fathers": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Your Old Droog": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Yves Tumor": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Zammuto": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Zero 7": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Zero T": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Zura": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "black midi": {
@@ -3156,27 +3746,32 @@
   },
   "cumgirl8": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "dead prez": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "exhalants": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "infinite bisous": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "laurel 2": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "mSdoS": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "motonormal": {
@@ -3186,22 +3781,32 @@
   },
   "raudie": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "slowthai": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-28",
+    "source": "musicbrainz"
+  },
+  "ssshhhiiittt!": {
+    "active": true,
+    "checked": "2026-07-28",
     "source": "musicbrainz"
   },
   "the karminsky experience inc.": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
+    "source": "musicbrainz"
+  },
+  "together PANGEA": {
+    "active": true,
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Весна Весна": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Кино": {
@@ -3211,12 +3816,12 @@
   },
   "СОЮЗ": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   },
   "Юность-21": {
     "active": true,
-    "checked": "2026-07-27",
+    "checked": "2026-07-29",
     "source": "musicbrainz"
   }
 }
