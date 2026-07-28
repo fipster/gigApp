@@ -38,6 +38,15 @@ three via the same countries.json name lookup scrape_bandsintown.py
 uses plus an explicit "UK" alias, but a country in some other/localized
 form would still fall through and silently exclude an otherwise-
 legitimate show.
+
+Each event also carries a schema.org eventStatus (EventScheduled,
+EventCancelled, EventPostponed, EventRescheduled, EventMovedOnline);
+only EventScheduled is kept, otherwise a cancelled show (or the stale
+original date of a rescheduled one) would get imported as if it were a
+real, bookable date. This was found and fixed after a cancelled show
+(Crowbar @ L.A., 2026-07-30) made it into shows.json -- this filter is
+only applied going forward, so a re-scrape is what actually removes an
+already-imported cancelled show, not this fix by itself.
 """
 
 import csv
@@ -140,6 +149,14 @@ def resolve_country(raw_country):
 
 
 def to_show(artist, event):
+    # schema.org eventStatus is EventScheduled/EventCancelled/EventPostponed/
+    # EventRescheduled/EventMovedOnline -- only a still-scheduled show is a
+    # real, bookable date; the rest would otherwise show up as a phantom show
+    # (a cancelled one, or the stale original date of one that got rescheduled).
+    event_status = event.get("eventStatus") or ""
+    if not event_status.endswith("EventScheduled"):
+        return None
+
     location = event.get("location") or {}
     address = location.get("address") or {}
     country_code = resolve_country(address.get("addressCountry"))

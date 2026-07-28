@@ -15,10 +15,25 @@ SHOWS_JSON = "shows.json"
 COUNTRIES_JSON = "countries.json"
 SCRAPE_STATE_JSON = "scrape_state.json"
 ARTIST_STATUS_JSON = "artist_status.json"
+CITY_NAME_ALIASES_JSON = "city_name_aliases.json"
 SKIP_IF_CHECKED_WITHIN_DAYS = 14
 
 with open(COUNTRIES_JSON, encoding="utf-8") as f:
     ALLOWED_COUNTRIES = json.load(f).keys()
+
+with open(CITY_NAME_ALIASES_JSON, encoding="utf-8") as f:
+    _city_aliases_raw = json.load(f)
+CITY_NAME_ALIASES = {k: v for k, v in _city_aliases_raw.items() if not k.startswith("_")}
+
+
+def normalize_city(city):
+    # maps a local/native-language city name to the canonical English name
+    # (matching direct_flights.json's destination keys) via city_name_aliases.json,
+    # so the same real show reported in different languages by different
+    # sources doesn't dedupe as two different cities -- see that file's _comment.
+    city = (city or "").strip()
+    return CITY_NAME_ALIASES.get(city, city)
+
 
 def show_key(show):
     # dedupe on band+date+city+country rather than venue name: different
@@ -27,7 +42,7 @@ def show_key(show):
     # reports the festival name), so matching on venue text misses
     # cross-source duplicates. A band playing two different venues in the
     # same city on the same day is rare enough to accept as a tradeoff.
-    return (show["band"], show["date"], show["city"].strip().lower(), show["country"])
+    return (show["band"], show["date"], normalize_city(show["city"]).lower(), show["country"])
 
 
 def load_shows(path=SHOWS_JSON):
@@ -40,6 +55,8 @@ def load_shows(path=SHOWS_JSON):
 def save_shows(shows, path=SHOWS_JSON):
     today = date.today().isoformat()
     result = sorted((s for s in shows if s["date"] >= today), key=lambda s: (s["date"], s["band"]))
+    for s in result:
+        s["city"] = normalize_city(s["city"])
     with open(path, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
         f.write("\n")

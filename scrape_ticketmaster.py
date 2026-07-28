@@ -11,6 +11,14 @@ Requires a Ticketmaster Discovery API key: https://developer.ticketmaster.com
 Put it in a .env file (gitignored) in this directory:
 
     TICKETMASTER_API_KEY=your-key-here
+
+Each event carries a dates.status.code ("onsale", "offsale", "cancelled",
+"postponed", "rescheduled", ...); cancelled/postponed events are skipped,
+otherwise a cancelled show would get imported as if it were a real,
+bookable date (found via a *CANCELLED* Crowbar @ Wrocław listing that
+had made it into shows.json). This filter only applies going forward --
+a re-scrape is what actually removes an already-imported cancelled show,
+not this fix by itself.
 """
 
 import csv
@@ -99,6 +107,13 @@ def fetch_events(attraction_id):
 
 
 def to_show(artist, event):
+    # dates.status.code is "onsale"/"offsale"/"cancelled"/"postponed"/"rescheduled";
+    # only a still-on-sale-or-not-yet-onsale date is a real, bookable show --
+    # a cancelled/postponed one would otherwise show up as a phantom show.
+    status_code = ((event.get("dates") or {}).get("status") or {}).get("code") or ""
+    if status_code in ("cancelled", "postponed"):
+        return None
+
     venues = (event.get("_embedded") or {}).get("venues") or [{}]
     venue = venues[0]
     country_code = ((venue.get("country") or {}).get("countryCode")) or ""
