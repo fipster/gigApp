@@ -1245,9 +1245,9 @@
     "source": "musicbrainz"
   },
   "Headache": {
-    "active": false,
-    "checked": "2026-07-27",
-    "source": "musicbrainz"
+    "active": true,
+    "checked": "2026-07-29",
+    "source": "manual"
   },
   "Here We Go Magic": {
     "active": true,

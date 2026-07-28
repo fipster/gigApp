@@ -292,30 +292,6 @@
     "priority": "I"
   },
   {
-    "band": "Groove Armada",
-    "date": "2026-07-30",
-    "city": "Tisno",
-    "country": "HR",
-    "venue": "Defected Croatia 2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108580764?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tisno"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tisno"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Headache",
     "date": "2026-07-30",
     "city": "Amsterdam",
@@ -804,30 +780,6 @@
     "priority": "I"
   },
   {
-    "band": "Groove Armada",
-    "date": "2026-07-31",
-    "city": "Chipping Norton",
-    "country": "GB",
-    "venue": "Wilderness Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108580774?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Chipping Norton"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Chipping Norton"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Kokoroko",
     "date": "2026-07-31",
     "city": "Buckinghamshire",
@@ -1238,30 +1190,6 @@
     "priority": "I"
   },
   {
-    "band": "Groove Armada",
-    "date": "2026-08-01",
-    "city": "Poole",
-    "country": "GB",
-    "venue": "Poole Harbour Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/107881180?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Poole"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Poole"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Kokoroko",
     "date": "2026-08-01",
     "city": "Leeds",
@@ -1661,30 +1589,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Essen"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-08-02",
-    "city": "Lowther",
-    "country": "GB",
-    "venue": "Kendall Calling 2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108580782?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lowther"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lowther"
     },
     "note": "",
     "priority": ""
@@ -3108,30 +3012,6 @@
     "priority": ""
   },
   {
-    "band": "Groove Armada",
-    "date": "2026-08-07",
-    "city": "Ibiza",
-    "country": "ES",
-    "venue": "Amnesia Ibiza",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038815308?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Hooverphonic",
     "date": "2026-08-07",
     "city": "Ronquières",
@@ -3781,58 +3661,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-08-09",
-    "city": "London",
-    "country": "GB",
-    "venue": "Eastern Electrics 2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1037829333?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "High On Fire",
@@ -5272,30 +5100,6 @@
     "priority": "I"
   },
   {
-    "band": "Groove Armada",
-    "date": "2026-08-14",
-    "city": "Winchester",
-    "country": "GB",
-    "venue": "Boomtown Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108580793?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Winchester"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Winchester"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "High On Fire",
     "date": "2026-08-14",
     "city": "Malmö",
@@ -5510,30 +5314,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "10cc",
-    "date": "2026-08-15",
-    "city": "Perth",
-    "country": "GB",
-    "venue": "South Inch",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/395908-replay/id/42912777-replay-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Perth"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Perth"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Bonobo",
@@ -5853,30 +5633,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Winchester"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-08-15",
-    "city": "Campo Pequeno",
-    "country": "PT",
-    "venue": "Forte de Santo António da Barra",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039583722?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Campo Pequeno"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Campo Pequeno"
     },
     "note": "",
     "priority": ""
@@ -7774,30 +7530,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-08-21",
-    "city": "Ibiza",
-    "country": "ES",
-    "venue": "Amnesia Ibiza",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038820042?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Kurt Vile",
@@ -10348,30 +10080,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Bournemouth"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-08-28",
-    "city": "Ibiza",
-    "country": "ES",
-    "venue": "Amnesia Ibiza",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038820163?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
     },
     "note": "",
     "priority": ""
@@ -13435,30 +13143,6 @@
     "priority": ""
   },
   {
-    "band": "Groove Armada",
-    "date": "2026-09-05",
-    "city": "Chester-le-street",
-    "country": "GB",
-    "venue": "Lumley Castle",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038213742?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Chester-le-street"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Chester-le-street"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Holy Wave",
     "date": "2026-09-05",
     "city": "Manchester",
@@ -14402,30 +14086,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Tilburg"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-09-08",
-    "city": "Sant Antoni De Portmany",
-    "country": "ES",
-    "venue": "528 Ibiza",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038996847?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Sant Antoni De Portmany"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Sant Antoni De Portmany"
     },
     "note": "",
     "priority": ""
@@ -17357,58 +17017,6 @@
     "priority": ""
   },
   {
-    "band": "Groove Armada",
-    "date": "2026-09-19",
-    "city": "London",
-    "country": "GB",
-    "venue": "Defected London ",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108580799?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "LTJ Bukem",
     "date": "2026-09-19",
     "city": "Nottingham",
@@ -17946,30 +17554,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2026-09-23",
-    "city": "Aachen",
-    "country": "DE",
-    "venue": "Eurogress Aachen",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038693214?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Aachen"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Aachen"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Destroyer",
     "date": "2026-09-23",
     "city": "Milan",
@@ -18128,30 +17712,6 @@
     "priority": ""
   },
   {
-    "band": "10cc",
-    "date": "2026-09-24",
-    "city": "Worms",
-    "country": "DE",
-    "venue": "Das Wormser Theater, Kultur- und Tagungszentrum",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038697956?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Worms"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Worms"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Autechre",
     "date": "2026-09-24",
     "city": "Liège",
@@ -18195,30 +17755,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Lahti"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "10cc",
-    "date": "2026-09-25",
-    "city": "Bonn",
-    "country": "DE",
-    "venue": "Brückenforum Bonn / Beuel",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038693856?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bonn"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bonn"
     },
     "note": "",
     "priority": ""
@@ -18474,30 +18010,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Zagreb"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "10cc",
-    "date": "2026-09-26",
-    "city": "Aschaffenburg",
-    "country": "DE",
-    "venue": "Colos-Saal",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038312428?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Aschaffenburg"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Aschaffenburg"
     },
     "note": "",
     "priority": ""
@@ -18767,30 +18279,6 @@
         }
       ],
       "hub_city": "Belgrade"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "10cc",
-    "date": "2026-09-27",
-    "city": "Oos",
-    "country": "DE",
-    "venue": "Rantastic GmbH Livebühnen & Eventlocations",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038003127?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Oos"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Oos"
     },
     "note": "",
     "priority": ""
@@ -20242,30 +19730,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-10-05",
-    "city": "Eivissa",
-    "country": "ES",
-    "venue": "Chinois Ibiza",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039566122?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Eivissa"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Eivissa"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Yard Act",
@@ -21968,30 +21432,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "10cc",
-    "date": "2026-10-11",
-    "city": "Sheffield",
-    "country": "GB",
-    "venue": "Memorial Hall, Sheffield City Hall",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42919556-10cc-at-memorial-hall-sheffield-city-hall",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Sheffield"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Sheffield"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Autechre",
@@ -25447,30 +24887,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2026-10-26",
-    "city": "Shrewsbury",
-    "country": "GB",
-    "venue": "Theatre Severn",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42922065-graham-gouldman-at-theatre-severn",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Shrewsbury"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Shrewsbury"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Clutch",
     "date": "2026-10-26",
     "city": "Paris",
@@ -26127,58 +25543,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Münster"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "10cc",
-    "date": "2026-10-29",
-    "city": "London",
-    "country": "GB",
-    "venue": "Cadogan Hall",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1037248818?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
     },
     "note": "",
     "priority": ""
@@ -28323,30 +27687,6 @@
     "priority": "I"
   },
   {
-    "band": "XTC",
-    "date": "2026-11-06",
-    "city": "Blackpool",
-    "country": "GB",
-    "venue": "Bootleg Social",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039360006?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Blackpool"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Blackpool"
-    },
-    "note": "",
-    "priority": "I"
-  },
-  {
     "band": "Yard Act",
     "date": "2026-11-06",
     "city": "Leeds",
@@ -28536,43 +27876,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-11-07",
-    "city": "Manchester",
-    "country": "GB",
-    "venue": "Depot Mayfield",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3416862-la-discotheque/id/43340479-la-discothque-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": true,
-      "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr",
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        }
-      ],
-      "hub_city": "Manchester"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Manchester"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Hooverphonic",
@@ -31935,30 +31238,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2026-11-20",
-    "city": "Herning",
-    "country": "DK",
-    "venue": "MCH Herning Congress Centre",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1037313735?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Herning"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Herning"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Boko Yout",
     "date": "2026-11-20",
     "city": "Dublin",
@@ -33353,40 +32632,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "10cc",
-    "date": "2026-11-25",
-    "city": "Bergen",
-    "country": "NO",
-    "venue": "Forum Scene",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1037492246?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bergen"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Bergen"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "BODEGA",
@@ -38329,30 +37574,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-02-09",
-    "city": "Luleå",
-    "country": "SE",
-    "venue": "10cc - And Another Bloody Greatest Hits Tour",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108025361?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Luleå"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Luleå"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Tramhaus",
     "date": "2027-02-09",
     "city": "Berlin",
@@ -38541,30 +37762,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-02-12",
-    "city": "Malmö",
-    "country": "SE",
-    "venue": "10 cc - And Another Bloody Greatest Hits Tour",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108025402?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Malmö"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Malmö"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Gilla Band",
     "date": "2027-02-12",
     "city": "Manchester",
@@ -38650,40 +37847,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-02-13",
-    "city": "Gothenburg",
-    "country": "SE",
-    "venue": "10cc - And Another Bloody Greatest Hits Tour",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108025650?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Gothenburg"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": true,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Gothenburg"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Gilla Band",
     "date": "2027-02-13",
     "city": "Glasgow",
@@ -38767,78 +37930,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "10cc",
-    "date": "2027-02-14",
-    "city": "Stockholm",
-    "country": "SE",
-    "venue": "10cc - And Another Bloody Greatest Hits Tour",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108025422?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 65,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Scandinavian Airlines",
-          "iata": "SK"
-        }
-      ],
-      "hub_city": "Stockholm"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 65,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Stockholm"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "10cc",
-    "date": "2027-02-15",
-    "city": "Linköping",
-    "country": "SE",
-    "venue": "Linköping Konsert & Kongress",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038117005?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Linköping"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Linköping"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Protomartyr",
@@ -39510,30 +38601,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-02-25",
-    "city": "Llandudno",
-    "country": "GB",
-    "venue": "Venue Cymru Theatre",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-llandudno-25-02-2027/event/1F0064EFF1F48D96",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Llandudno"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Llandudno"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Iceage",
     "date": "2027-02-25",
     "city": "Brighton",
@@ -39589,30 +38656,6 @@
         }
       ],
       "hub_city": "Munich"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "10cc",
-    "date": "2027-02-26",
-    "city": "Stoke-On-Trent",
-    "country": "GB",
-    "venue": "Victoria Hall",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stokeontrent-26-02-2027/event/370064EFF2E4344E",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Stoke-On-Trent"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Stoke-On-Trent"
     },
     "note": "",
     "priority": ""
@@ -39682,30 +38725,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-02-27",
-    "city": "Harrogate",
-    "country": "GB",
-    "venue": "Harrogate Convention Centre",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-harrogate-27-02-2027/event/350064EFEB89D5F9",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Harrogate"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Harrogate"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Protomartyr",
     "date": "2027-02-27",
     "city": "Leipzig",
@@ -39768,30 +38787,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "10cc",
-    "date": "2027-02-28",
-    "city": "Scarborough",
-    "country": "GB",
-    "venue": "Scarborough Spa Grand Hall",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-in-concert-scarborough-28-02-2027/event/350064F0F27FB932",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Scarborough"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Scarborough"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Rush",
@@ -39961,30 +38956,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-03-04",
-    "city": "Leicester",
-    "country": "GB",
-    "venue": "De Montfort Hall",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-leicester-04-03-2027/event/1F0064EF06EEA471",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Leicester"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Leicester"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Rush",
     "date": "2027-03-04",
     "city": "Stuttgart",
@@ -40117,30 +39088,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-03-06",
-    "city": "Torquay",
-    "country": "GB",
-    "venue": "Princess Theatre - Torquay",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-torquay-06-03-2027/event/360064F08F8C2BCF",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Torquay"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Torquay"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Lebanon Hanover",
     "date": "2027-03-06",
     "city": "Jena",
@@ -40201,30 +39148,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-03-07",
-    "city": "Truro",
-    "country": "GB",
-    "venue": "Hall for Cornwall",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43341437-10cc-at-hall-for-cornwall",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Truro"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Truro"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Trentemøller",
     "date": "2027-03-07",
     "city": "Luxembourg",
@@ -40249,30 +39172,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-03-08",
-    "city": "Salisbury",
-    "country": "GB",
-    "venue": "Salisbury City Hall",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-salisbury-08-03-2027/event/1F0064EFE6697D1F",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Salisbury"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Salisbury"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Rush",
     "date": "2027-03-08",
     "city": "Glasgow",
@@ -40292,30 +39191,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Glasgow"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "10cc",
-    "date": "2027-03-09",
-    "city": "Basingstoke",
-    "country": "GB",
-    "venue": "The Anvil",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-basingstoke-09-03-2027/event/1F0064EFF392901E",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Basingstoke"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Basingstoke"
     },
     "note": "",
     "priority": ""
@@ -40381,30 +39256,6 @@
     "priority": ""
   },
   {
-    "band": "10cc",
-    "date": "2027-03-11",
-    "city": "Watford",
-    "country": "GB",
-    "venue": "Watford Colosseum",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-watford-11-03-2027/event/370064EFE3C521B7",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Watford"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Watford"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Trentemøller",
     "date": "2027-03-11",
     "city": "London",
@@ -40457,30 +39308,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-03-12",
-    "city": "Bath",
-    "country": "GB",
-    "venue": "Bath Forum",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-bath-12-03-2027/event/370064F0B49C1FD7",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bath"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bath"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Rush",
     "date": "2027-03-12",
     "city": "Manchester",
@@ -40518,30 +39345,6 @@
     "priority": ""
   },
   {
-    "band": "10cc",
-    "date": "2027-03-13",
-    "city": "Croydon",
-    "country": "GB",
-    "venue": "Fairfield Halls",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-croydon-13-03-2027/event/1F0064EFFBA998EE",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Croydon"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Croydon"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Trentemøller",
     "date": "2027-03-13",
     "city": "Cologne",
@@ -40571,30 +39374,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "10cc",
-    "date": "2027-03-14",
-    "city": "Eastbourne",
-    "country": "GB",
-    "venue": "Congress Theatre",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-eastbourne-14-03-2027/event/1F0064F096EB3451",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Eastbourne"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Eastbourne"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Rush",
@@ -40629,30 +39408,6 @@
         }
       ],
       "hub_city": "Manchester"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "10cc",
-    "date": "2027-03-15",
-    "city": "Aylesbury",
-    "country": "GB",
-    "venue": "The Waterside Theatre, Aylesbury",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-aylesbury-15-03-2027/event/350064EFED93DD8B",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Aylesbury"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Aylesbury"
     },
     "note": "",
     "priority": ""
@@ -40764,30 +39519,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-03-17",
-    "city": "Coventry",
-    "country": "GB",
-    "venue": "Warwick Arts Centre, Coventry",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-coventry-17-03-2027/event/1F0064EFEE6B856E",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Coventry"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Coventry"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Lebanon Hanover",
     "date": "2027-03-17",
     "city": "Leeds",
@@ -40854,30 +39585,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "10cc",
-    "date": "2027-03-18",
-    "city": "Northampton",
-    "country": "GB",
-    "venue": "Royal and Derngate",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-northampton-18-03-2027/event/1F0064EFFD3C9A71",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Northampton"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Northampton"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Hooverphonic",
@@ -41038,30 +39745,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-03-19",
-    "city": "Scunthorpe",
-    "country": "GB",
-    "venue": "Baths Hall",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-scunthorpe-19-03-2027/event/360064F097033430",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Scunthorpe"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Scunthorpe"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Hooverphonic",
     "date": "2027-03-19",
     "city": "Ris-orangis",
@@ -41172,30 +39855,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "10cc",
-    "date": "2027-03-20",
-    "city": "Derby",
-    "country": "GB",
-    "venue": "Vaillant Live, Derby",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-in-concert-live-lounge-premium-derby-20-03-2027/event/230064EFAA26139B",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Derby"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Derby"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Hooverphonic",
@@ -41438,30 +40097,6 @@
     "priority": "I"
   },
   {
-    "band": "10cc",
-    "date": "2027-03-22",
-    "city": "Halifax",
-    "country": "GB",
-    "venue": "Victoria Theatre",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-halifax-22-03-2027/event/1F0064F0BEA264E4",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Halifax"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Halifax"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Hooverphonic",
     "date": "2027-03-22",
     "city": "Ghent",
@@ -41481,30 +40116,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Ghent"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "10cc",
-    "date": "2027-03-23",
-    "city": "Perth",
-    "country": "GB",
-    "venue": "Perth Concert Hall",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-perth-23-03-2027/event/360064EFF9709AAA",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Perth"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Perth"
     },
     "note": "",
     "priority": ""
@@ -41532,43 +40143,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "10cc",
-    "date": "2027-03-24",
-    "city": "Edinburgh",
-    "country": "GB",
-    "venue": "Usher Hall",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": true,
-      "duration_minutes": 175,
-      "seasonal_months": "Mar–Apr",
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        }
-      ],
-      "hub_city": "Edinburgh"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 175,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Edinburgh"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Hooverphonic",
@@ -41617,30 +40191,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "10cc",
-    "date": "2027-03-25",
-    "city": "Stockton-on-Tees",
-    "country": "GB",
-    "venue": "Stockton Globe",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stocktonontees-25-03-2027/event/1F0064F00883BB1D",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Stockton-on-Tees"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Stockton-on-Tees"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Hooverphonic",
@@ -42997,58 +41547,6 @@
         }
       ],
       "hub_city": "Madrid"
-    },
-    "note": "",
-    "priority": "I"
-  },
-  {
-    "band": "XTC",
-    "date": "2027-05-22",
-    "city": "London",
-    "country": "GB",
-    "venue": "229",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039279451?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
