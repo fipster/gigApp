@@ -447,6 +447,22 @@
       text-decoration: underline;
     }
 
+    .week-show-entry .w-more {
+      font-weight: 400;
+      color: #6b6258;
+      cursor: default;
+      text-decoration: underline dotted;
+    }
+
+    .week-show-entry .w-more-bands {
+      display: none;
+      flex-direction: column;
+    }
+
+    .week-show-entry .w-more-wrap:hover .w-more-bands {
+      display: flex;
+    }
+
     .week-empty {
       font-family: 'JetBrains Mono', monospace;
       font-size: 10px;

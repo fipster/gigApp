@@ -169,6 +169,12 @@ def to_show(artist, event):
         return None
 
     name = event.get("name") or ""
+    url = (event.get("url") or "").split("?")[0]
+    # the event name often doesn't contain the word "festival" even when the
+    # event clearly is one (e.g. "Groove Armada at The Garden Resort") -- the
+    # URL's /festivals/ path segment is Songkick's own classification and a
+    # much more reliable signal
+    is_festival = "festival" in name.lower() or "/festivals/" in url
 
     return {
         "band": artist,
@@ -176,9 +182,9 @@ def to_show(artist, event):
         "city": address.get("addressLocality") or "",
         "country": country_code,
         "venue": location.get("name") or "",
-        "fest": "FESTIVAL" if "festival" in name.lower() else None,
+        "fest": "FESTIVAL" if is_festival else None,
         "source": SOURCE_NAME,
-        "url": (event.get("url") or "").split("?")[0],
+        "url": url,
         "flightTLL": dict(NO_FLIGHT_INFO),
         "flightRIX": dict(NO_FLIGHT_INFO),
         "note": "",

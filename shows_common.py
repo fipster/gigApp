@@ -11,6 +11,7 @@ import json
 import os
 import re
 import unicodedata
+from collections import defaultdict
 from datetime import date, timedelta
 
 SHOWS_JSON = "shows.json"
@@ -49,6 +50,94 @@ def normalize_band(band):
     # file's _comment.
     band = (band or "").strip()
     return BAND_NAME_ALIASES.get(band, band)
+
+
+SOURCE_PRIORITY = {"Bandsintown": 0, "Ticketmaster": 1, "Songkick": 2}
+
+
+def resolve_same_date_conflicts(shows):
+    # a band can't play two real shows on the same date, so if sources
+    # disagree (different city/venue for the same band+date), keep only
+    # the highest-priority source's entry and drop the rest
+    groups = defaultdict(list)
+    for s in shows:
+        groups[(normalize_band(s["band"]), s["date"])].append(s)
+
+    resolved, dropped = [], []
+    for group in groups.values():
+        if len(group) == 1:
+            resolved.append(group[0])
+            continue
+        group.sort(key=lambda s: SOURCE_PRIORITY.get(s.get("source"), 99))
+        resolved.append(group[0])
+        dropped.append((group[0], group[1:]))
+
+    return resolved, dropped
+
+
+FESTIVAL_MERGE_WINDOW_DAYS = 5
+
+
+def resolve_festival_duplicates(shows):
+    # a festival appearance sometimes gets scraped twice: once as a
+    # generic festival-name listing, once as the artist's specific day/
+    # venue, with each source's date guess drifting by a few days. If a
+    # band has two entries in the same city within a few days of each
+    # other and at least one is flagged as a festival, they're almost
+    # certainly the same real appearance -- merge them via union-find
+    # (a cluster can have 3+ mutually-overlapping entries) and keep the
+    # highest-priority source's entry. Note: when a cluster's entries
+    # share the same source, SOURCE_PRIORITY doesn't differentiate and
+    # the survivor is effectively "whichever sorted first" -- not a
+    # deliberate choice, just the tiebreak's fallback behavior.
+    #
+    # Recall gap: `fest` is set inconsistently per-source (see
+    # scrape_bandsintown.py/scrape_songkick.py/scrape_ticketmaster.py's
+    # own festival-detection heuristics; AllEvents.lt/Fienta never set
+    # it), so a genuine festival dupe with fest=None on both sides will
+    # slip through this filter undetected -- same "manual review still
+    # expected" caveat as the rest of this pipeline.
+    by_group = defaultdict(list)
+    for i, s in enumerate(shows):
+        key = (normalize_band(s["band"]), _fold_city_for_matching(normalize_city(s["city"])), s["country"])
+        by_group[key].append(i)
+
+    parent = list(range(len(shows)))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    def union(i, j):
+        ri, rj = find(i), find(j)
+        if ri != rj:
+            parent[ri] = rj
+
+    for idxs in by_group.values():
+        for a in range(len(idxs)):
+            for b in range(a + 1, len(idxs)):
+                i, j = idxs[a], idxs[b]
+                s1, s2 = shows[i], shows[j]
+                gap = abs((date.fromisoformat(s1["date"]) - date.fromisoformat(s2["date"])).days)
+                if gap <= FESTIVAL_MERGE_WINDOW_DAYS and (s1.get("fest") == "FESTIVAL" or s2.get("fest") == "FESTIVAL"):
+                    union(i, j)
+
+    clusters = defaultdict(list)
+    for i in range(len(shows)):
+        clusters[find(i)].append(shows[i])
+
+    resolved, dropped = [], []
+    for cluster in clusters.values():
+        if len(cluster) == 1:
+            resolved.append(cluster[0])
+            continue
+        cluster.sort(key=lambda s: SOURCE_PRIORITY.get(s.get("source"), 99))
+        resolved.append(cluster[0])
+        dropped.append((cluster[0], cluster[1:]))
+
+    return resolved, dropped
 
 
 # letters NFKD doesn't decompose into a base + combining mark (each is its

@@ -98,29 +98,6 @@
     "note": ""
   },
   {
-    "band": "Groove Armada",
-    "date": "2026-07-28",
-    "city": "Ibiza",
-    "country": "ES",
-    "venue": "Chinois",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43310943-groove-armada-at-chinois",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
-    },
-    "note": ""
-  },
-  {
     "band": "Kraftwerk",
     "date": "2026-07-28",
     "city": "Pula",
@@ -287,29 +264,6 @@
     "note": ""
   },
   {
-    "band": "Groove Armada",
-    "date": "2026-07-29",
-    "city": "Tisno",
-    "country": "HR",
-    "venue": "The Garden Resort",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1526864-defected-croatia/id/43136203-defected-croatia-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tisno"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tisno"
-    },
-    "note": ""
-  },
-  {
     "band": "Thievery Corporation",
     "date": "2026-07-29",
     "city": "Amsterdam",
@@ -350,7 +304,7 @@
     "city": "Roitzschjora",
     "country": "DE",
     "venue": "Flugplatz Roitzschjora",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3554615-full-rewind/id/42940744-full-rewind-festival-2026",
     "flightTLL": {
@@ -461,45 +415,6 @@
     "note": ""
   },
   {
-    "band": "Dry Cleaning",
-    "date": "2026-07-30",
-    "city": "Portlaw",
-    "country": "IE",
-    "venue": "Curraghmore House & Gardens",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2236829-all-together-now/id/42731341-all-together-now-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "note": ""
-  },
-  {
     "band": "Gary Numan",
     "date": "2026-07-30",
     "city": "Buckley",
@@ -519,68 +434,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Buckley"
-    },
-    "note": ""
-  },
-  {
-    "band": "Gilla Band",
-    "date": "2026-07-30",
-    "city": "Portlaw",
-    "country": "IE",
-    "venue": "Curraghmore House & Gardens",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2236829-all-together-now/id/42731341-all-together-now-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "note": ""
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-07-30",
-    "city": "Oxfordshire",
-    "country": "GB",
-    "venue": "Cornbury Park",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/audi-presents-wilderness-2026-sustainable-weekend-oxfordshire-30-07-2026/event/1F0062E7A7280FAA",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Oxfordshire"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Oxfordshire"
     },
     "note": ""
   },
@@ -662,29 +515,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Most"
-    },
-    "note": ""
-  },
-  {
-    "band": "Leftfield",
-    "date": "2026-07-30",
-    "city": "Dorset",
-    "country": "GB",
-    "venue": "Lulworth Castle",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/camp-bestival-2026-hospitality-camping-dorset-30-07-2026/event/35006313B0F51612",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Dorset"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Dorset"
     },
     "note": ""
   },
@@ -779,7 +609,7 @@
     "city": "Portlaw",
     "country": "IE",
     "venue": "Curraghmore House & Gardens",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/2236829-all-together-now/id/42731341-all-together-now-2026",
     "flightTLL": {
@@ -910,45 +740,6 @@
     "note": ""
   },
   {
-    "band": "Underworld",
-    "date": "2026-07-30",
-    "city": "Portlaw",
-    "country": "IE",
-    "venue": "Curraghmore House & Gardens",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2236829-all-together-now/id/42731341-all-together-now-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "note": ""
-  },
-  {
     "band": "Cate Le Bon",
     "date": "2026-07-31",
     "city": "Brighton",
@@ -995,29 +786,6 @@
     "note": ""
   },
   {
-    "band": "DARKSIDE",
-    "date": "2026-07-31",
-    "city": "Locorotondo",
-    "country": "IT",
-    "venue": "Arena Valle d'Itria",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43021934-polo-and-pan-at-arena-valle-ditria",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Locorotondo"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Locorotondo"
-    },
-    "note": ""
-  },
-  {
     "band": "DJ Zinc",
     "date": "2026-07-31",
     "city": "Buckingham",
@@ -1037,29 +805,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Buckingham"
-    },
-    "note": ""
-  },
-  {
-    "band": "Dead Meadow",
-    "date": "2026-07-31",
-    "city": "Cottbus",
-    "country": "DE",
-    "venue": "Strombad",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/281878-blue-moon/id/42970008-blue-moon-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cottbus"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cottbus"
     },
     "note": ""
   },
@@ -1257,84 +1002,6 @@
     "note": ""
   },
   {
-    "band": "Maruja",
-    "date": "2026-07-31",
-    "city": "Portlaw",
-    "country": "IE",
-    "venue": "Curraghmore House",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mogwai",
-    "date": "2026-07-31",
-    "city": "Portlaw",
-    "country": "IE",
-    "venue": "Curraghmore House",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "note": ""
-  },
-  {
     "band": "Mogwai",
     "date": "2026-07-31",
     "city": "Spezzano Della Sila",
@@ -1363,7 +1030,7 @@
     "city": "Tallinn",
     "country": "EE",
     "venue": "Unibet Arena",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3700463-tallinn-rock/id/42951311-tallinn-rock-festival-2026",
     "flightTLL": {
@@ -1461,7 +1128,7 @@
     "city": "Espoo",
     "country": "FI",
     "venue": "Vermon Tapahtumapuisto",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/297218-weekend/id/42729716-weekend-festival-2026",
     "flightTLL": {
@@ -1749,29 +1416,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Orange"
-    },
-    "note": ""
-  },
-  {
-    "band": "Leftfield",
-    "date": "2026-08-01",
-    "city": "Dorset",
-    "country": "GB",
-    "venue": "Lulworth Castle",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/camp-bestival-2026-saturday-day-dorset-01-08-2026/event/3500644BAD755789",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Dorset"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Dorset"
     },
     "note": ""
   },
@@ -2237,29 +1881,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Nightmares On Wax",
-    "date": "2026-08-02",
-    "city": "Buckingham",
-    "country": "GB",
-    "venue": "Stowaway Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108182094?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Buckingham"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Buckingham"
     },
     "note": ""
   },
@@ -2904,7 +2525,7 @@
     "city": "Winterthur",
     "country": "CH",
     "venue": "Winterthurer Musikfestwochen",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/111316-winterthurer-musikfestwochen/id/43120904-winterthurer-musikfestwochen-2026",
     "flightTLL": {
@@ -2996,7 +2617,7 @@
     "city": "Aveiro",
     "country": "PT",
     "venue": "Vagos Metal Fest 2026",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1638914-vagos-metal-fest/id/42951204-vagos-metal-fest-2026",
     "flightTLL": {
@@ -3014,35 +2635,12 @@
     "note": ""
   },
   {
-    "band": "Cate Le Bon",
-    "date": "2026-08-06",
-    "city": "Castelbuono",
-    "country": "IT",
-    "venue": "Piazza Castello",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/63-ypsigrock/id/42979006-ypsigrock-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Castelbuono"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Castelbuono"
-    },
-    "note": ""
-  },
-  {
     "band": "Chat Pile",
     "date": "2026-08-06",
     "city": "Viana Do Castelo",
     "country": "PT",
     "venue": "Praia da Duna do Caldeirão",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/2927859-sonic-blast/id/42917675-sonic-blast-2026",
     "flightTLL": {
@@ -3118,52 +2716,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Utrecht"
-    },
-    "note": ""
-  },
-  {
-    "band": "Dead Meadow",
-    "date": "2026-08-06",
-    "city": "Viana Do Castelo",
-    "country": "PT",
-    "venue": "Praia da Duna do Caldeirão",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2927859-sonic-blast/id/42917675-sonic-blast-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Viana Do Castelo"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Viana Do Castelo"
-    },
-    "note": ""
-  },
-  {
-    "band": "Decapitated",
-    "date": "2026-08-06",
-    "city": "Malmö",
-    "country": "SE",
-    "venue": "Plan B",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3340227-malmo-massacre/id/43109073-malm-massacre-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Malmö"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Malmö"
     },
     "note": ""
   },
@@ -3294,29 +2846,6 @@
     "note": ""
   },
   {
-    "band": "High On Fire",
-    "date": "2026-08-06",
-    "city": "Viana Do Castelo",
-    "country": "PT",
-    "venue": "Praia da Duna do Caldeirão",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2927859-sonic-blast/id/42917675-sonic-blast-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Viana Do Castelo"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Viana Do Castelo"
-    },
-    "note": ""
-  },
-  {
     "band": "Igorrr",
     "date": "2026-08-06",
     "city": "Tilburg",
@@ -3403,7 +2932,7 @@
     "city": "Almería",
     "country": "ES",
     "venue": "Playa de Adra",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1265873-juergas-rock/id/42958729-the-juergas-rock-festival-2026",
     "flightTLL": {
@@ -3426,7 +2955,7 @@
     "city": "Kortrijk",
     "country": "BE",
     "venue": "Sportcampus Lange Munte",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/41521-alcatraz/id/42738717-alcatraz-festival-2026",
     "flightTLL": {
@@ -3467,35 +2996,12 @@
     "note": ""
   },
   {
-    "band": "Snapped Ankles",
-    "date": "2026-08-06",
-    "city": "Viana Do Castelo",
-    "country": "PT",
-    "venue": "Praia da Duna do Caldeirão",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2927859-sonic-blast/id/42917675-sonic-blast-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Viana Do Castelo"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Viana Do Castelo"
-    },
-    "note": ""
-  },
-  {
     "band": "The Stranglers",
     "date": "2026-08-06",
     "city": "Blackpool",
     "country": "GB",
     "venue": "Winter Gardens Blackpool",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/2486-rebellion/id/42763291-rebellin-2026",
     "flightTLL": {
@@ -3564,7 +3070,7 @@
     "city": "Katowice",
     "country": "PL",
     "venue": "Dolina Trzech Stawów",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1075-off/id/43028859-off-festival-2026",
     "flightTLL": {
@@ -3628,58 +3134,12 @@
     "note": ""
   },
   {
-    "band": "Dry Cleaning",
-    "date": "2026-08-07",
-    "city": "Castelbuono",
-    "country": "IT",
-    "venue": "Piazza Castello",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038209952?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Castelbuono"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Castelbuono"
-    },
-    "note": ""
-  },
-  {
-    "band": "Dry Cleaning",
-    "date": "2026-08-07",
-    "city": "Grottaglie",
-    "country": "IT",
-    "venue": "Crx Festival",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108638292?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Grottaglie"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Grottaglie"
-    },
-    "note": ""
-  },
-  {
     "band": "Earl Sweatshirt",
     "date": "2026-08-07",
     "city": "Katowice",
     "country": "PL",
     "venue": "Dolina Trzech Stawów",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1075-off/id/43028859-off-festival-2026",
     "flightTLL": {
@@ -3834,35 +3294,12 @@
     "note": ""
   },
   {
-    "band": "Opeth",
-    "date": "2026-08-07",
-    "city": "Gelsenkirchen",
-    "country": "DE",
-    "venue": "Amphitheater Gelsenkirchen",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/107621074?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Gelsenkirchen"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Gelsenkirchen"
-    },
-    "note": ""
-  },
-  {
     "band": "The Exploited",
     "date": "2026-08-07",
     "city": "Duffel",
     "country": "BE",
     "venue": "Park Terelst",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/687439-brakrock/id/42941071-brakrock-2026",
     "flightTLL": {
@@ -4867,29 +4304,6 @@
     "note": ""
   },
   {
-    "band": "Maruja",
-    "date": "2026-08-11",
-    "city": "Sestri Levante",
-    "country": "IT",
-    "venue": "Teatro Arena Conchiglia",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.it/biglietti/maruja-support-mojotic-festival-2026-sestri-levante-11-08-2026/event/qa4ewt7b78ux",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Sestri Levante"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Sestri Levante"
-    },
-    "note": ""
-  },
-  {
     "band": "Moby",
     "date": "2026-08-11",
     "city": "Dresden",
@@ -4932,29 +4346,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Reykjavík"
-    },
-    "note": ""
-  },
-  {
-    "band": "RJD2",
-    "date": "2026-08-11",
-    "city": "Hellissandur",
-    "country": "IS",
-    "venue": "Iceland Eclipse 2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/107602686?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Hellissandur"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Hellissandur"
     },
     "note": ""
   },
@@ -5013,29 +4404,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Hafnarfjörður"
-    },
-    "note": ""
-  },
-  {
-    "band": "Björk",
-    "date": "2026-08-12",
-    "city": "Reykjavík",
-    "country": "IS",
-    "venue": "Echolalia 2026",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3797620-echolalia/id/43337787-echolalia-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Reykjavík"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Reykjavík"
     },
     "note": ""
   },
@@ -5103,7 +4471,7 @@
     "city": "Saint-Malo",
     "country": "FR",
     "venue": "La Route du Rock",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/68-la-route-du-rock/id/43145217-la-route-du-rock-2026",
     "flightTLL": {
@@ -5126,7 +4494,7 @@
     "city": "Winchester",
     "country": "GB",
     "venue": "Matterley Estate",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/184646-boomtown-fair/id/43013797-boomtown-fair-2026",
     "flightTLL": {
@@ -5213,52 +4581,6 @@
     "note": ""
   },
   {
-    "band": "Kurt Vile",
-    "date": "2026-08-12",
-    "city": "Saint-Malo",
-    "country": "FR",
-    "venue": "La Route du Rock",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/68-la-route-du-rock/id/43145217-la-route-du-rock-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint-Malo"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint-Malo"
-    },
-    "note": ""
-  },
-  {
-    "band": "Maruja",
-    "date": "2026-08-12",
-    "city": "Paredes de Coura",
-    "country": "PT",
-    "venue": "Praia fluvial do Taboão",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1247-paredes-de-coura/id/42905365-paredes-de-coura-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Paredes de Coura"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Paredes de Coura"
-    },
-    "note": ""
-  },
-  {
     "band": "Mogwai",
     "date": "2026-08-12",
     "city": "Oslo",
@@ -5298,29 +4620,6 @@
         }
       ],
       "hub_city": "Oslo"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mogwai",
-    "date": "2026-08-12",
-    "city": "Saint-Malo",
-    "country": "FR",
-    "venue": "La Route du Rock",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/68-la-route-du-rock/id/43145217-la-route-du-rock-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint-Malo"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint-Malo"
     },
     "note": ""
   },
@@ -5371,29 +4670,6 @@
     "note": ""
   },
   {
-    "band": "Show Me The Body",
-    "date": "2026-08-12",
-    "city": "Paredes de Coura",
-    "country": "PT",
-    "venue": "Praia fluvial do Taboão",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1247-paredes-de-coura/id/42905365-paredes-de-coura-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Paredes de Coura"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Paredes de Coura"
-    },
-    "note": ""
-  },
-  {
     "band": "Underworld",
     "date": "2026-08-12",
     "city": "Paredes De Coura",
@@ -5413,49 +4689,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Paredes De Coura"
-    },
-    "note": ""
-  },
-  {
-    "band": "Underworld",
-    "date": "2026-08-12",
-    "city": "Oslo",
-    "country": "NO",
-    "venue": "Øyafestivalen",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1450-oyafestivalen/id/42817289-yafestivalen-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 90,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Oslo"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 90,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Oslo"
     },
     "note": ""
   },
@@ -5621,62 +4854,6 @@
     "note": ""
   },
   {
-    "band": "Fontaines D.C.",
-    "date": "2026-08-13",
-    "city": "Saint-Malo",
-    "country": "FR",
-    "venue": "Fort de Saint Père",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42930886-fontaines-dc-at-fort-de-saint-pere",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint-Malo"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint-Malo"
-    },
-    "note": ""
-  },
-  {
-    "band": "Four Tet",
-    "date": "2026-08-13",
-    "city": "Gothenburg",
-    "country": "SE",
-    "venue": "Slottsskogen",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/44-way-out-west/id/42737805-way-out-west-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Gothenburg"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": true,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Gothenburg"
-    },
-    "note": ""
-  },
-  {
     "band": "Geordie Greep",
     "date": "2026-08-13",
     "city": "Klaipėda",
@@ -5719,39 +4896,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Poznań"
-    },
-    "note": ""
-  },
-  {
-    "band": "Gorillaz",
-    "date": "2026-08-13",
-    "city": "Gothenburg",
-    "country": "SE",
-    "venue": "Slottsskogen",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/44-way-out-west/id/42737805-way-out-west-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Gothenburg"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": true,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Gothenburg"
     },
     "note": ""
   },
@@ -6040,52 +5184,6 @@
     "note": ""
   },
   {
-    "band": "Decapitated",
-    "date": "2026-08-14",
-    "city": "Cudrefin",
-    "country": "CH",
-    "venue": "Rock The Lakes 2026",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1067518-rock-the-lakes/id/42819177-rock-the-lakes-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cudrefin"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cudrefin"
-    },
-    "note": ""
-  },
-  {
-    "band": "Dry Cleaning",
-    "date": "2026-08-14",
-    "city": "Saint-père-marc-en-poulet",
-    "country": "FR",
-    "venue": "La Route du Rock 2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108219547?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint-père-marc-en-poulet"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint-père-marc-en-poulet"
-    },
-    "note": ""
-  },
-  {
     "band": "Fontaines D.C.",
     "date": "2026-08-14",
     "city": "Saint-père-marc-en-poulet",
@@ -6190,75 +5288,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Malmö"
-    },
-    "note": ""
-  },
-  {
-    "band": "Igorrr",
-    "date": "2026-08-14",
-    "city": "Francavilla Al Mare",
-    "country": "IT",
-    "venue": "Tikitaka Village",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038067470?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Francavilla Al Mare"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Francavilla Al Mare"
-    },
-    "note": ""
-  },
-  {
-    "band": "Igorrr",
-    "date": "2026-08-14",
-    "city": "Cudrefin",
-    "country": "CH",
-    "venue": "Rock The Lakes 2026",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1067518-rock-the-lakes/id/42819177-rock-the-lakes-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cudrefin"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cudrefin"
-    },
-    "note": ""
-  },
-  {
-    "band": "Jazzanova",
-    "date": "2026-08-14",
-    "city": "Rostock",
-    "country": "DE",
-    "venue": "Zoo Rostock",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1371379-see-more-jazz/id/43328036-see-more-jazz-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Rostock"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Rostock"
     },
     "note": ""
   },
@@ -6393,29 +5422,6 @@
     "note": ""
   },
   {
-    "band": "Odyssey",
-    "date": "2026-08-14",
-    "city": "Newcastle Upon Tyne",
-    "country": "GB",
-    "venue": "The Grove",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43013654-idle-hands-at-grove",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Newcastle Upon Tyne"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Newcastle Upon Tyne"
-    },
-    "note": ""
-  },
-  {
     "band": "Sven Wunder",
     "date": "2026-08-14",
     "city": "Gothenburg",
@@ -6472,55 +5478,12 @@
     "note": ""
   },
   {
-    "band": "СОЮЗ",
-    "date": "2026-08-14",
-    "city": "Oslo",
-    "country": "NO",
-    "venue": "Oslo Jazzfestival",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43241728-soiuz-at-oslo-jazzfestival",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 90,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Oslo"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 90,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Oslo"
-    },
-    "note": ""
-  },
-  {
     "band": "10cc",
     "date": "2026-08-15",
     "city": "Perth",
     "country": "GB",
     "venue": "South Inch",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/395908-replay/id/42912777-replay-festival-2026",
     "flightTLL": {
@@ -7008,29 +5971,6 @@
     "note": ""
   },
   {
-    "band": "Kurt Vile",
-    "date": "2026-08-15",
-    "city": "Saint-père-marc-en-poulet",
-    "country": "FR",
-    "venue": "La Route du Rock 2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108201686?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint-père-marc-en-poulet"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint-père-marc-en-poulet"
-    },
-    "note": ""
-  },
-  {
     "band": "Melody's Echo Chamber",
     "date": "2026-08-15",
     "city": "Gothenburg",
@@ -7039,39 +5979,6 @@
     "fest": "FESTIVAL",
     "source": "Ticketmaster",
     "url": "https://www.ticketmaster.se/event/way-out-west-august-13-15-2026-tickets/1854460538?language=en-us",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Gothenburg"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": true,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Gothenburg"
-    },
-    "note": ""
-  },
-  {
-    "band": "Moby",
-    "date": "2026-08-15",
-    "city": "Gothenburg",
-    "country": "SE",
-    "venue": "Slottsskogen",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.se/event/way-out-west-august-13-15-2026-accessible-tickets-only-tickets/1164493802?language=en-us",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -7116,39 +6023,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Greenwich"
-    },
-    "note": ""
-  },
-  {
-    "band": "Nick Cave & The Bad Seeds",
-    "date": "2026-08-15",
-    "city": "Gothenburg",
-    "country": "SE",
-    "venue": "Slottsskogen",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.se/event/way-out-west-august-13-15-2026-accessible-tickets-only-tickets/1164493802?language=en-us",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Gothenburg"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": true,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Gothenburg"
     },
     "note": ""
   },
@@ -7317,45 +6191,6 @@
         }
       ],
       "hub_city": "Vienna"
-    },
-    "note": ""
-  },
-  {
-    "band": "Geese",
-    "date": "2026-08-16",
-    "city": "Helsinki",
-    "country": "FI",
-    "venue": "SUVILAHTI",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.fi/event/flow-festival-2026-tickets/1504032343?language=en-us",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 30,
-      "carriers": [
-        {
-          "name": "Finnair",
-          "iata": "AY"
-        }
-      ],
-      "hub_city": "Helsinki"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 30,
-      "carriers": [
-        {
-          "name": "Finnair",
-          "iata": "AY"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Helsinki"
     },
     "note": ""
   },
@@ -7835,41 +6670,6 @@
     "note": ""
   },
   {
-    "band": "Kurt Vile",
-    "date": "2026-08-18",
-    "city": "Hamburg",
-    "country": "DE",
-    "venue": "Mojo Club",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43145220-kurt-vile-at-mojo-club",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 115,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Hamburg"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 115,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Hamburg"
-    },
-    "note": ""
-  },
-  {
     "band": "Moby",
     "date": "2026-08-18",
     "city": "Bonn",
@@ -7898,7 +6698,7 @@
     "city": "Sant'Antioco",
     "country": "IT",
     "venue": "Arena Fenicia",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3742453-sulky-rock/id/43227118-sulky-rock-2026",
     "flightTLL": {
@@ -8029,29 +6829,6 @@
     "note": ""
   },
   {
-    "band": "Chat Pile",
-    "date": "2026-08-19",
-    "city": "Compton Martin",
-    "country": "GB",
-    "venue": "Fernhill Farm",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/544239-arctangent/id/42921577-arctangent-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Compton Martin"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Compton Martin"
-    },
-    "note": ""
-  },
-  {
     "band": "Colin Stetson",
     "date": "2026-08-19",
     "city": "Berlin",
@@ -8133,75 +6910,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Stavanger"
-    },
-    "note": ""
-  },
-  {
-    "band": "High On Fire",
-    "date": "2026-08-19",
-    "city": "Compton Martin",
-    "country": "GB",
-    "venue": "Fernhill Farm",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/544239-arctangent/id/42921577-arctangent-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Compton Martin"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Compton Martin"
-    },
-    "note": ""
-  },
-  {
-    "band": "Igorrr",
-    "date": "2026-08-19",
-    "city": "Compton Martin",
-    "country": "GB",
-    "venue": "Fernhill Farm",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/544239-arctangent/id/42921577-arctangent-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Compton Martin"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Compton Martin"
-    },
-    "note": ""
-  },
-  {
-    "band": "Maruja",
-    "date": "2026-08-19",
-    "city": "Compton Martin",
-    "country": "GB",
-    "venue": "Fernhill Farm",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/544239-arctangent/id/42921577-arctangent-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Compton Martin"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Compton Martin"
     },
     "note": ""
   },
@@ -8640,29 +7348,6 @@
     "note": ""
   },
   {
-    "band": "Maruja",
-    "date": "2026-08-20",
-    "city": "Kiewit-Hasselt",
-    "country": "BE",
-    "venue": "Domein Kiewit",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1241-pukkelpop/id/43030830-pukkelpop-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kiewit-Hasselt"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kiewit-Hasselt"
-    },
-    "note": ""
-  },
-  {
     "band": "Moby",
     "date": "2026-08-20",
     "city": "Blagnac",
@@ -8682,29 +7367,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Blagnac"
-    },
-    "note": ""
-  },
-  {
-    "band": "Moby",
-    "date": "2026-08-20",
-    "city": "Château Gontier",
-    "country": "FR",
-    "venue": "Chateau de la Maroutiere",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3083954-v-and-b-fest/id/42951354-v-and-b-fest-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Château Gontier"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Château Gontier"
     },
     "note": ""
   },
@@ -8751,29 +7413,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Wimborne"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mr. Scruff",
-    "date": "2026-08-20",
-    "city": "Tisno",
-    "country": "HR",
-    "venue": "The Garden Resort",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1577084-dekmantel-selectors/id/42862332-dekmantel-selectors-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tisno"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tisno"
     },
     "note": ""
   },
@@ -8847,52 +7486,6 @@
     "note": ""
   },
   {
-    "band": "Sparks",
-    "date": "2026-08-20",
-    "city": "Crickhowell",
-    "country": "GB",
-    "venue": "Green Man Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108273356?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Crickhowell"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Crickhowell"
-    },
-    "note": ""
-  },
-  {
-    "band": "Sparks",
-    "date": "2026-08-20",
-    "city": "Charleville-Mézières",
-    "country": "FR",
-    "venue": "Square Bayard",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/109851-cabaret-vert/id/42911335-festival-cabaret-vert-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Charleville-Mézières"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Charleville-Mézières"
-    },
-    "note": ""
-  },
-  {
     "band": "Stereolab",
     "date": "2026-08-20",
     "city": "Wimborne Saint Giles",
@@ -8916,29 +7509,6 @@
     "note": ""
   },
   {
-    "band": "Stereolab",
-    "date": "2026-08-20",
-    "city": "Wimborne",
-    "country": "GB",
-    "venue": "Wimborne St Giles",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42909955-arthur-verocai-at-wimborne-st-giles",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Wimborne"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Wimborne"
-    },
-    "note": ""
-  },
-  {
     "band": "The Heliocentrics",
     "date": "2026-08-20",
     "city": "Wimborne Saint Giles",
@@ -8958,29 +7528,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Wimborne Saint Giles"
-    },
-    "note": ""
-  },
-  {
-    "band": "The Heliocentrics",
-    "date": "2026-08-20",
-    "city": "Wimborne",
-    "country": "GB",
-    "venue": "Wimborne St Giles",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42909955-arthur-verocai-at-wimborne-st-giles",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Wimborne"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Wimborne"
     },
     "note": ""
   },
@@ -9065,41 +7612,6 @@
   },
   {
     "band": "Geese",
-    "date": "2026-08-21",
-    "city": "Biddinghuizen",
-    "country": "NL",
-    "venue": "Evenemententerrein Walibi",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.nl/event/lowlands-2026-festivalticket-tickets/1050736969?language=en-us",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Amsterdam"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Amsterdam"
-    },
-    "note": ""
-  },
-  {
-    "band": "Geordie Greep",
     "date": "2026-08-21",
     "city": "Biddinghuizen",
     "country": "NL",
@@ -9905,7 +8417,7 @@
     "city": "London",
     "country": "GB",
     "venue": "The Cause",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/2050739-signal/id/43302885-signal-festival-2026",
     "flightTLL": {
@@ -10383,29 +8895,6 @@
     "note": ""
   },
   {
-    "band": "СОЮЗ",
-    "date": "2026-08-23",
-    "city": "Wimborne",
-    "country": "GB",
-    "venue": "We Out Here Festival",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43241729-soiuz-at-we-out-here-festival",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Wimborne"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Wimborne"
-    },
-    "note": ""
-  },
-  {
     "band": "High On Fire",
     "date": "2026-08-24",
     "city": "Reykjavík",
@@ -10847,52 +9336,6 @@
     "note": ""
   },
   {
-    "band": "Deftones",
-    "date": "2026-08-26",
-    "city": "Saint Cloud",
-    "country": "FR",
-    "venue": "Domaine National de Saint-Cloud",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/7031-rock-en-seine/id/42795559-rock-en-seine-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "note": ""
-  },
-  {
-    "band": "Dry Cleaning",
-    "date": "2026-08-26",
-    "city": "Saint Cloud",
-    "country": "FR",
-    "venue": "Domaine National de Saint-Cloud",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/7031-rock-en-seine/id/42795559-rock-en-seine-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "note": ""
-  },
-  {
     "band": "Earl Sweatshirt",
     "date": "2026-08-26",
     "city": "Dublin",
@@ -10978,29 +9421,6 @@
     "note": ""
   },
   {
-    "band": "Kurt Vile",
-    "date": "2026-08-26",
-    "city": "Saint Cloud",
-    "country": "FR",
-    "venue": "Domaine National de Saint-Cloud",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/7031-rock-en-seine/id/42795559-rock-en-seine-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "note": ""
-  },
-  {
     "band": "Mannequin Pussy",
     "date": "2026-08-26",
     "city": "Dublin",
@@ -11036,29 +9456,6 @@
         }
       ],
       "hub_city": "Dublin"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mannequin Pussy",
-    "date": "2026-08-26",
-    "city": "Saint Cloud",
-    "country": "FR",
-    "venue": "Domaine National de Saint-Cloud",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/7031-rock-en-seine/id/42795559-rock-en-seine-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
     },
     "note": ""
   },
@@ -11119,29 +9516,6 @@
         }
       ],
       "hub_city": "Split"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mogwai",
-    "date": "2026-08-26",
-    "city": "Saint Cloud",
-    "country": "FR",
-    "venue": "Domaine National de Saint-Cloud",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/7031-rock-en-seine/id/42795559-rock-en-seine-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
     },
     "note": ""
   },
@@ -11212,52 +9586,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Southend-On-Sea"
-    },
-    "note": ""
-  },
-  {
-    "band": "Sparks",
-    "date": "2026-08-26",
-    "city": "Saint Cloud",
-    "country": "FR",
-    "venue": "Domaine National de Saint-Cloud",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/7031-rock-en-seine/id/42795559-rock-en-seine-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "note": ""
-  },
-  {
-    "band": "The Black Keys",
-    "date": "2026-08-26",
-    "city": "Saint Cloud",
-    "country": "FR",
-    "venue": "Domaine National de Saint-Cloud",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/7031-rock-en-seine/id/42795559-rock-en-seine-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Cloud"
     },
     "note": ""
   },
@@ -11344,154 +9672,6 @@
     "note": ""
   },
   {
-    "band": "Fontaines D.C.",
-    "date": "2026-08-27",
-    "city": "Leeds",
-    "country": "GB",
-    "venue": "Bramham Park",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/58-leeds/id/42919878-leeds-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Leeds"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Leeds"
-    },
-    "note": ""
-  },
-  {
-    "band": "Fontaines D.C.",
-    "date": "2026-08-27",
-    "city": "Reading",
-    "country": "GB",
-    "venue": "Richfield Avenue",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/57-reading/id/42760698-reading-festival-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Geese",
-    "date": "2026-08-27",
-    "city": "Leeds",
-    "country": "GB",
-    "venue": "Bramham Park",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/58-leeds/id/42919878-leeds-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Leeds"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Leeds"
-    },
-    "note": ""
-  },
-  {
-    "band": "Geese",
-    "date": "2026-08-27",
-    "city": "Reading",
-    "country": "GB",
-    "venue": "Richfield Avenue",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/57-reading/id/42760698-reading-festival-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
     "band": "Habibi Funk",
     "date": "2026-08-27",
     "city": "Cella Monte",
@@ -11570,29 +9750,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "La Tour-de-peilz"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mannequin Pussy",
-    "date": "2026-08-27",
-    "city": "Torremolinos",
-    "country": "ES",
-    "venue": "Explanada Recinto Ferial de Torremolinos",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/463209-canela-party/id/42874499-canela-party-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Torremolinos"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Torremolinos"
     },
     "note": ""
   },
@@ -11767,29 +9924,6 @@
     "note": ""
   },
   {
-    "band": "Underworld",
-    "date": "2026-08-27",
-    "city": "Halton",
-    "country": "GB",
-    "venue": "Daresbury Estate",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/275-creamfields/id/43073387-creamfields-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Halton"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Halton"
-    },
-    "note": ""
-  },
-  {
     "band": "Unknown Mortal Orchestra",
     "date": "2026-08-27",
     "city": "Torremolinos",
@@ -11848,86 +9982,6 @@
         }
       ],
       "hub_city": "Berlin"
-    },
-    "note": ""
-  },
-  {
-    "band": "Danny Brown",
-    "date": "2026-08-28",
-    "city": "London",
-    "country": "GB",
-    "venue": "Victoria Park",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2072544-all-points-east/id/42902259-all-points-east-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Deftones",
-    "date": "2026-08-28",
-    "city": "Lisbon",
-    "country": "PT",
-    "venue": "Parque da Bela Vista",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3405085-kalorama/id/42945716-kalorama-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisbon"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Lisbon"
     },
     "note": ""
   },
@@ -12013,29 +10067,6 @@
     "note": ""
   },
   {
-    "band": "Fontaines D.C.",
-    "date": "2026-08-28",
-    "city": "Laois",
-    "country": "IE",
-    "venue": "Stradbally Hall",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/215-electric-picnic/id/42756467-electric-picnic-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Laois"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Laois"
-    },
-    "note": ""
-  },
-  {
     "band": "Geese",
     "date": "2026-08-28",
     "city": "Reading",
@@ -12087,35 +10118,12 @@
     "note": ""
   },
   {
-    "band": "Geese",
-    "date": "2026-08-28",
-    "city": "Laois",
-    "country": "IE",
-    "venue": "Stradbally Hall",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/215-electric-picnic/id/42756467-electric-picnic-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Laois"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Laois"
-    },
-    "note": ""
-  },
-  {
     "band": "Gorillaz",
     "date": "2026-08-28",
     "city": "Laois",
     "country": "IE",
     "venue": "Stradbally Hall",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/215-electric-picnic/id/42756467-electric-picnic-2026",
     "flightTLL": {
@@ -12435,7 +10443,7 @@
     "city": "Maastricht",
     "country": "NL",
     "venue": "Muziekgieterij",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/2316724-pelagic-fest/id/43038956-pelagic-fest-2026",
     "flightTLL": {
@@ -12499,29 +10507,6 @@
     "note": ""
   },
   {
-    "band": "Stereolab",
-    "date": "2026-08-28",
-    "city": "Barrow-in-Furness",
-    "country": "GB",
-    "venue": "Muncaster Caslte",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3090054-krankenhaus/id/43168411-krankenhaus-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Barrow-in-Furness"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Barrow-in-Furness"
-    },
-    "note": ""
-  },
-  {
     "band": "The Black Keys",
     "date": "2026-08-28",
     "city": "Saint-cloud",
@@ -12541,29 +10526,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Saint-cloud"
-    },
-    "note": ""
-  },
-  {
-    "band": "The Black Keys",
-    "date": "2026-08-28",
-    "city": "Southsea",
-    "country": "GB",
-    "venue": "Castle Field",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/676299-victorious/id/42920434-victorious-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Southsea"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Southsea"
     },
     "note": ""
   },
@@ -12661,35 +10623,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Cheshire"
-    },
-    "note": ""
-  },
-  {
-    "band": "Unknown Mortal Orchestra",
-    "date": "2026-08-28",
-    "city": "Lisbon",
-    "country": "PT",
-    "venue": "Parque da Bela Vista",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3405085-kalorama/id/42945716-kalorama-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisbon"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Lisbon"
     },
     "note": ""
   },
@@ -12861,57 +10794,6 @@
     "note": ""
   },
   {
-    "band": "Fontaines D.C.",
-    "date": "2026-08-29",
-    "city": "Reading",
-    "country": "GB",
-    "venue": "Richfield Avenue",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/57-reading/id/42919881-reading-festival-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
     "band": "Geese",
     "date": "2026-08-29",
     "city": "Leeds",
@@ -12931,57 +10813,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Leeds"
-    },
-    "note": ""
-  },
-  {
-    "band": "Geese",
-    "date": "2026-08-29",
-    "city": "Reading",
-    "country": "GB",
-    "venue": "Richfield Avenue",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/57-reading/id/42919881-reading-festival-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
     },
     "note": ""
   },
@@ -13065,7 +10896,7 @@
     "city": "Bree",
     "country": "BE",
     "venue": "Breekout! 2026",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3585440-breekout/id/43114572-breekout-2026",
     "flightTLL": {
@@ -13260,29 +11091,6 @@
     "note": ""
   },
   {
-    "band": "Maruja",
-    "date": "2026-08-29",
-    "city": "Glasgow",
-    "country": "GB",
-    "venue": "Queen Margaret Union (QMU)",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43323649-working-mens-club-at-queen-margaret-union",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Glasgow"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Glasgow"
-    },
-    "note": ""
-  },
-  {
     "band": "Mount Kimbie",
     "date": "2026-08-29",
     "city": "Paris",
@@ -13318,29 +11126,6 @@
         }
       ],
       "hub_city": "Paris"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mr. Scruff",
-    "date": "2026-08-29",
-    "city": "Cella Monte",
-    "country": "IT",
-    "venue": "Cella Monte",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038786060?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cella Monte"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cella Monte"
     },
     "note": ""
   },
@@ -13588,57 +11373,6 @@
   {
     "band": "Viagra Boys",
     "date": "2026-08-29",
-    "city": "Reading",
-    "country": "GB",
-    "venue": "Richfield Avenue",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/reading-festival-2026-saturday-reading-29-08-2026/event/370063493D42C886",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Viagra Boys",
-    "date": "2026-08-29",
     "city": "Bristol",
     "country": "GB",
     "venue": "Clifton Downs",
@@ -13717,7 +11451,7 @@
     "city": "Clacton-on-sea",
     "country": "GB",
     "venue": "Proper Fest 2026",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3737124-proper-fest/id/43341141-proper-fest-2026",
     "flightTLL": {
@@ -14531,7 +12265,7 @@
     "city": "Lodz",
     "country": "PL",
     "venue": "Summer Dying Loud",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1797539-summer-dying-loud/id/43102413-summer-dying-loud-2026",
     "flightTLL": {
@@ -14568,35 +12302,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Cardiff"
-    },
-    "note": ""
-  },
-  {
-    "band": "BODEGA",
-    "date": "2026-09-03",
-    "city": "Miranda de Ebro",
-    "country": "ES",
-    "venue": "Ebrovisión Festival",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/358-ebrovision/id/42965311-ebrovision-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Madrid"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Madrid"
     },
     "note": ""
   },
@@ -14694,45 +12399,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Tollard Royal"
-    },
-    "note": ""
-  },
-  {
-    "band": "Kurt Vile",
-    "date": "2026-09-03",
-    "city": "Berlin",
-    "country": "DE",
-    "venue": "Huxleys Neue Welt",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108201774?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 110,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Berlin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 110,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Berlin"
     },
     "note": ""
   },
@@ -14839,7 +12505,7 @@
     "city": "Lodz",
     "country": "PL",
     "venue": "Summer Dying Loud",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1797539-summer-dying-loud/id/43102413-summer-dying-loud-2026",
     "flightTLL": {
@@ -14885,7 +12551,7 @@
     "city": "Paredes",
     "country": "PT",
     "venue": "Indie Music Fest 2026",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/226021-indie-music-fest/id/43321623-indie-music-fest-2026",
     "flightTLL": {
@@ -14931,7 +12597,7 @@
     "city": "Brighton",
     "country": "GB",
     "venue": "Brighton Psych Fest 2026",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3641883-brighton-psych-fest/id/43005603-brighton-psych-fest-2026",
     "flightTLL": {
@@ -15000,7 +12666,7 @@
     "city": "Ħ'Attard",
     "country": "MT",
     "venue": "Uno",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3718610-wah-malta/id/43306681-wah-malta-2026",
     "flightTLL": {
@@ -15069,7 +12735,7 @@
     "city": "Brighton",
     "country": "GB",
     "venue": "Brighton Psych Fest 2026",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3641883-brighton-psych-fest/id/43005603-brighton-psych-fest-2026",
     "flightTLL": {
@@ -15138,7 +12804,7 @@
     "city": "Brighton",
     "country": "GB",
     "venue": "Brighton Psych Fest 2026",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3641883-brighton-psych-fest/id/43005603-brighton-psych-fest-2026",
     "flightTLL": {
@@ -15277,29 +12943,6 @@
     "note": ""
   },
   {
-    "band": "Stereolab",
-    "date": "2026-09-04",
-    "city": "Brighton",
-    "country": "GB",
-    "venue": "Brighton Psych Fest 2026",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3641883-brighton-psych-fest/id/43005603-brighton-psych-fest-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brighton"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brighton"
-    },
-    "note": ""
-  },
-  {
     "band": "The Black Keys",
     "date": "2026-09-04",
     "city": "Amsterdam",
@@ -15340,7 +12983,7 @@
     "city": "Manchester",
     "country": "GB",
     "venue": "Manchester Psych Fest 2026",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1019263-manchester-psych-fest/id/42772058-manchester-psych-fest-2026",
     "flightTLL": {
@@ -15530,7 +13173,7 @@
     "city": "Manchester",
     "country": "GB",
     "venue": "Manchester Psych Fest 2026",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1019263-manchester-psych-fest/id/42772058-manchester-psych-fest-2026",
     "flightTLL": {
@@ -15566,7 +13209,7 @@
     "city": "Sint-Niklaas",
     "country": "BE",
     "venue": "Vredefeesten Sint-Niklaas 2026",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3782686-vredefeesten-sintniklaas/id/43180593-vredefeesten-sintniklaas-2026",
     "flightTLL": {
@@ -15752,7 +13395,7 @@
     "city": "Beckenham",
     "country": "GB",
     "venue": "Croydon Road Recreation Ground",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/2949854-soultown/id/42904242-soultown-festival-2026",
     "flightTLL": {
@@ -15775,7 +13418,7 @@
     "city": "Liverpool",
     "country": "GB",
     "venue": "Various Liverpool Venues",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3532566-no-play/id/43152962-no-play-festival-2026",
     "flightTLL": {
@@ -17234,29 +14877,6 @@
     "note": ""
   },
   {
-    "band": "BODEGA",
-    "date": "2026-09-11",
-    "city": "Asten",
-    "country": "NL",
-    "venue": "Misty Fields",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/477999-misty-fields/id/42997441-misty-fields-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Asten"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Asten"
-    },
-    "note": ""
-  },
-  {
     "band": "Bonobo",
     "date": "2026-09-11",
     "city": "Brighton",
@@ -17358,29 +14978,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Mérignac"
-    },
-    "note": ""
-  },
-  {
-    "band": "Maruja",
-    "date": "2026-09-11",
-    "city": "Trento",
-    "country": "IT",
-    "venue": "Doss Trento",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2035119-poplar/id/43056899-poplar-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Trento"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Trento"
     },
     "note": ""
   },
@@ -17494,7 +15091,7 @@
     "city": "Leffinge",
     "country": "BE",
     "venue": "De Zwerver",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/46966-leffingeleuren/id/43022633-leffingeleuren-2026",
     "flightTLL": {
@@ -17633,45 +15230,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Bristol"
-    },
-    "note": ""
-  },
-  {
-    "band": "Jazzanova",
-    "date": "2026-09-12",
-    "city": "Rome",
-    "country": "IT",
-    "venue": "Auditorium Parco Della Musica - Spazio Risonanze",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/92456-dissonanze/id/43328063-festival-dissonanze-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 210,
-      "carriers": [
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        }
-      ],
-      "hub_city": "Rome"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 210,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Rome"
     },
     "note": ""
   },
@@ -17849,35 +15407,12 @@
     "note": ""
   },
   {
-    "band": "Skinshape",
-    "date": "2026-09-12",
-    "city": "Swiss Alps",
-    "country": "CH",
-    "venue": "Swiss Alps",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43085355-skinshape-at-unknown-venue",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Swiss Alps"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Swiss Alps"
-    },
-    "note": ""
-  },
-  {
     "band": "Squid",
     "date": "2026-09-12",
     "city": "Leffinge",
     "country": "BE",
     "venue": "De Zwerver",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/46966-leffingeleuren/id/43022633-leffingeleuren-2026",
     "flightTLL": {
@@ -18110,29 +15645,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Marseille"
-    },
-    "note": ""
-  },
-  {
-    "band": "Maruja",
-    "date": "2026-09-13",
-    "city": "Trento",
-    "country": "IT",
-    "venue": "Parco Naturale del Doss Trento",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039503119?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Trento"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Trento"
     },
     "note": ""
   },
@@ -19290,7 +16802,7 @@
     "city": "Weimar",
     "country": "DE",
     "venue": "Uhrenwerk",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3776886-party-san-herbstoffensive/id/43116061-party-san-herbstoffensive-2026",
     "flightTLL": {
@@ -19429,29 +16941,6 @@
     "note": ""
   },
   {
-    "band": "Dillinja",
-    "date": "2026-09-19",
-    "city": "Coventry",
-    "country": "GB",
-    "venue": "HMV Empire",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43210641-dj-sleepless-at-hmv-empire",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Coventry"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Coventry"
-    },
-    "note": ""
-  },
-  {
     "band": "Groove Armada",
     "date": "2026-09-19",
     "city": "London",
@@ -19577,7 +17066,7 @@
     "city": "Istanbul",
     "country": "TR",
     "venue": "Maximum Uniq Açıkhava",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3637675-bosphorus-open-air-metal-fest/id/42934813-bosphorus-open-air-metal-fest-2026",
     "flightTLL": {
@@ -20352,29 +17841,6 @@
     "note": ""
   },
   {
-    "band": "Jazzanova",
-    "date": "2026-09-25",
-    "city": "Gelsenkirchen",
-    "country": "DE",
-    "venue": "New Colors Jazz Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3796636-new-colors-jazz/id/43328047-new-colors-jazz-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Gelsenkirchen"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Gelsenkirchen"
-    },
-    "note": ""
-  },
-  {
     "band": "Luke Vibert",
     "date": "2026-09-25",
     "city": "Birmingham",
@@ -20401,29 +17867,6 @@
       "seasonal": false,
       "duration_minutes": 190,
       "hub_city": "Birmingham"
-    },
-    "note": ""
-  },
-  {
-    "band": "Luke Vibert",
-    "date": "2026-09-25",
-    "city": "Kings Heath",
-    "country": "GB",
-    "venue": "Hare & Hounds",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43323921-luke-vibert-at-hare-and-hounds",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kings Heath"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kings Heath"
     },
     "note": ""
   },
@@ -20893,29 +18336,6 @@
     "note": ""
   },
   {
-    "band": "10cc",
-    "date": "2026-09-27",
-    "city": "Baden-Baden",
-    "country": "DE",
-    "venue": "Rantastic Livebühnen & Eventlocations",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43042604-10cc-at-rantastic-livebuhnen-and-eventlocations",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Baden-Baden"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Baden-Baden"
-    },
-    "note": ""
-  },
-  {
     "band": "Aphrodite",
     "date": "2026-09-27",
     "city": "London",
@@ -21077,29 +18497,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Roger Eno",
-    "date": "2026-09-27",
-    "city": "Bielsko-Biała",
-    "country": "PL",
-    "venue": "Bielskie Centrum Kultury",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.pl/event/soundesign-roger-eno-daniel-bloom-i-gaba-kulka-tickets/1358390849?language=en-us",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bielsko-Biała"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bielsko-Biała"
     },
     "note": ""
   },
@@ -21985,7 +19382,7 @@
     "city": "Vienna",
     "country": "AT",
     "venue": "Arena",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1753549-vienna-metal-meeting/id/43118221-vienna-metal-meeting-2026",
     "flightTLL": {
@@ -22767,42 +20164,6 @@
         }
       ],
       "hub_city": "Zurich"
-    },
-    "note": ""
-  },
-  {
-    "band": "Skinshape",
-    "date": "2026-10-07",
-    "city": "Düsseldorf",
-    "country": "DE",
-    "venue": "New Fall Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/279213-new-fall/id/43073994-new-fall-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": true,
-      "duration_minutes": 150,
-      "seasonal_months": "May–Aug",
-      "carriers": [
-        {
-          "name": "Eurowings",
-          "iata": "EW"
-        }
-      ],
-      "hub_city": "Düsseldorf"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Düsseldorf"
     },
     "note": ""
   },
@@ -23707,7 +21068,7 @@
     "city": "Berlin",
     "country": "DE",
     "venue": "Funkhaus Berlin",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1287263-people/id/43295607-people-festival-2026",
     "flightTLL": {
@@ -23931,29 +21292,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Linz"
-    },
-    "note": ""
-  },
-  {
-    "band": "Morcheeba",
-    "date": "2026-10-10",
-    "city": "Bègles",
-    "country": "FR",
-    "venue": "Green Paradize Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108200939?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bègles"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bègles"
     },
     "note": ""
   },
@@ -25095,7 +22433,7 @@
     "city": "Seraing",
     "country": "BE",
     "venue": "OM",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/627439-desertfest/id/43281195-desertfest-2026",
     "flightTLL": {
@@ -26771,29 +24109,6 @@
     "note": ""
   },
   {
-    "band": "Ezra Furman",
-    "date": "2026-10-23",
-    "city": "St David's",
-    "country": "GB",
-    "venue": "Boia Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3544225-boia/id/43186387-boia-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "St David's"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "St David's"
-    },
-    "note": ""
-  },
-  {
     "band": "John Cooper Clarke",
     "date": "2026-10-23",
     "city": "Stoke-On-Trent",
@@ -27183,7 +24498,7 @@
     "city": "Maastricht",
     "country": "NL",
     "venue": "Muziekgieterij",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3759292-samhain-maastricht/id/42905218-samhain-maastricht-2026",
     "flightTLL": {
@@ -28187,7 +25502,7 @@
     "city": "Turin",
     "country": "IT",
     "venue": "Lingotto",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1117783-c2c/id/43072752-c2c-2026",
     "flightTLL": {
@@ -28511,7 +25826,7 @@
     "city": "Villepinte",
     "country": "FR",
     "venue": "Parc des Expositions Paris Nord",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/1129468-dream-nation/id/43097437-dream-nation-2026",
     "flightTLL": {
@@ -29647,7 +26962,7 @@
     "city": "Quéven",
     "country": "FR",
     "venue": "Centre Culturel Les Arcs",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3788395-girls-in-hawaii-les-indisciplinees-21/id/43242568-girls-in-hawaii--les-indisciplines-21-2026",
     "flightTLL": {
@@ -29931,7 +27246,7 @@
     "city": "Lorient",
     "country": "FR",
     "venue": "Hydrophone",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3788396-tramhaus-lol-tolhust-eatgirls-les-indisciplinees-21/id/43242569-tramhaus--lol-tolhust--eatgirls--les-indisciplines-21-2026",
     "flightTLL": {
@@ -30127,49 +27442,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Saint-étienne"
-    },
-    "note": ""
-  },
-  {
-    "band": "Machine Girl",
-    "date": "2026-11-06",
-    "city": "Barcelona",
-    "country": "ES",
-    "venue": "Mira Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108666292?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 240,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Barcelona"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 240,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Barcelona"
     },
     "note": ""
   },
@@ -30506,35 +27778,12 @@
     "note": ""
   },
   {
-    "band": "Dry Cleaning",
-    "date": "2026-11-07",
-    "city": "The Hague",
-    "country": "NL",
-    "venue": "Crossing Border Festival",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43265820-dry-cleaning-at-crossing-border-festival",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "The Hague"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "The Hague"
-    },
-    "note": ""
-  },
-  {
     "band": "Groove Armada",
     "date": "2026-11-07",
     "city": "Manchester",
     "country": "GB",
     "venue": "Depot Mayfield",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3416862-la-discotheque/id/43340479-la-discothque-2026",
     "flightTLL": {
@@ -30676,57 +27925,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "North London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Psychedelic Porn Crumpets",
-    "date": "2026-11-07",
-    "city": "London",
-    "country": "GB",
-    "venue": "Pitchfork Festival: Dalston Takeover 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3790456-pitchfork-dalston-takeover/id/43260984-pitchfork-festival-dalston-takeover-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
     },
     "note": ""
   },
@@ -30881,29 +28079,6 @@
     "note": ""
   },
   {
-    "band": "Tramhaus",
-    "date": "2026-11-07",
-    "city": "Lorient",
-    "country": "FR",
-    "venue": "Hydrophone",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3788397-syd-matters-les-indisciplinees-21/id/43242570-syd-matters--les-indisciplines-21-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lorient"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lorient"
-    },
-    "note": ""
-  },
-  {
     "band": "Yard Act",
     "date": "2026-11-07",
     "city": "Leeds",
@@ -30923,29 +28098,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Leeds"
-    },
-    "note": ""
-  },
-  {
-    "band": "Dry Cleaning",
-    "date": "2026-11-08",
-    "city": "Kortrijk",
-    "country": "BE",
-    "venue": "Sonic City Festival",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43265821-dry-cleaning-at-sonic-city-festival",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kortrijk"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kortrijk"
     },
     "note": ""
   },
@@ -32375,7 +29527,7 @@
     "city": "Gdansk",
     "country": "PL",
     "venue": "Amber Expo",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3591974-inside-seaside/id/43160334-inside-seaside-2026",
     "flightTLL": {
@@ -32613,35 +29765,12 @@
     "note": ""
   },
   {
-    "band": "Tortoise",
-    "date": "2026-11-13",
-    "city": "Weissenhäuser Strand",
-    "country": "DE",
-    "venue": "Ferienpark",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2970429-rolling-stone-beach/id/42904554-rolling-stone-beach-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Weissenhäuser Strand"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Weissenhäuser Strand"
-    },
-    "note": ""
-  },
-  {
     "band": "Tramhaus",
     "date": "2026-11-13",
     "city": "Lanester",
     "country": "FR",
     "venue": "Quai 9",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3788398-sebastien-tellier-les-indisciplinees-21/id/43242571-sbastien-tellier--les-indisciplines-21-2026",
     "flightTLL": {
@@ -32924,29 +30053,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Glasgow"
-    },
-    "note": ""
-  },
-  {
-    "band": "Tramhaus",
-    "date": "2026-11-14",
-    "city": "Lanester",
-    "country": "FR",
-    "venue": "Quai 9",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3788399-marguerite-les-indisciplinees-21/id/43242572-marguerite--les-indisciplines-21-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lanester"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lanester"
     },
     "note": ""
   },
@@ -34499,41 +31605,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Glasgow"
-    },
-    "note": ""
-  },
-  {
-    "band": "Dillinja",
-    "date": "2026-11-21",
-    "city": "Amsterdam",
-    "country": "NL",
-    "venue": "Warehouse Elementenstraat",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039526223?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Amsterdam"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -37124,29 +34195,6 @@
     "note": ""
   },
   {
-    "band": "The Stranglers",
-    "date": "2026-12-04",
-    "city": "Nord",
-    "country": "FR",
-    "venue": "Le Zéphyr - HEM",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42870341-stranglers-at-le-zephyr-hem",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Nord"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Nord"
-    },
-    "note": ""
-  },
-  {
     "band": "Buzzcocks",
     "date": "2026-12-05",
     "city": "London",
@@ -38257,7 +35305,7 @@
     "city": "Breda",
     "country": "NL",
     "venue": "Mezz",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3375540-popmonument-breda/id/43252553-popmonument-breda-2026",
     "flightTLL": {
@@ -38654,7 +35702,7 @@
     "city": "Oberhausen",
     "country": "DE",
     "venue": "Turbinenhalle",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/139696-punk-im-pott/id/43147347-punk-im-pott-2026",
     "flightTLL": {
@@ -42960,53 +40008,6 @@
     "note": ""
   },
   {
-    "band": "Trentemøller",
-    "date": "2027-03-19",
-    "city": "Stockholm",
-    "country": "SE",
-    "venue": "Slakt kyrkan",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43172738-trentemoller-at-slakt-kyrkan",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 65,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Scandinavian Airlines",
-          "iata": "SK"
-        }
-      ],
-      "hub_city": "Stockholm"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 65,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Stockholm"
-    },
-    "note": ""
-  },
-  {
     "band": "10cc",
     "date": "2027-03-20",
     "city": "Derby",
@@ -45003,7 +42004,7 @@
     "city": "Benidorm",
     "country": "ES",
     "venue": "Dark City Fest 2027",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/3610034-dark-city-fest/id/43339972-dark-city-fest-2027",
     "flightTLL": {
@@ -45026,7 +42027,7 @@
     "city": "Neuhausen Ob Eck",
     "country": "DE",
     "venue": "Take-off Gewerbepark",
-    "fest": null,
+    "fest": "FESTIVAL",
     "source": "Songkick",
     "url": "https://www.songkick.com/festivals/730-southside/id/43287567-southside-festival-2027",
     "flightTLL": {

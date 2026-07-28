@@ -17,6 +17,7 @@ import scrape_kultuurikava
 import scrape_allevents_lt
 import scrape_songkick
 import scrape_bandsintown
+import shows_common as common
 import enrich_flights
 
 FREE_SCRAPERS = [
@@ -36,6 +37,16 @@ def main():
     for scraper in FREE_SCRAPERS + PAID_SCRAPERS:
         print(f"\n==== {scraper.__name__} ====")
         scraper.main()
+
+    print(f"\n==== resolve_date_conflicts ====")
+    shows = common.load_shows()
+    shows, same_date_dropped = common.resolve_same_date_conflicts(shows)
+    shows, festival_dropped = common.resolve_festival_duplicates(shows)
+    for kept, removed in same_date_dropped + festival_dropped:
+        removed_desc = ", ".join(f"{r['source']}/{r['city']}/{r['venue']}" for r in removed)
+        print(f"  {kept['band']} | {kept['date']}: kept {kept['source']}/{kept['city']}/{kept['venue']}, dropped {removed_desc}")
+    result = common.save_shows(shows)
+    print(f"Done. {len(result)} shows ({len(same_date_dropped)} same-date conflicts, {len(festival_dropped)} festival dupes resolved).")
 
     print(f"\n==== enrich_flights ====")
     enrich_flights.main()

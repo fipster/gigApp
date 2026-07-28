@@ -465,10 +465,15 @@
           body.innerHTML = '<div class="week-empty">—</div>';
         } else {
           dayShows.forEach(s => {
-            const bandSuffix = s.bands.length > 1 ? ` +${s.bands.length - 1}` : '';
+            const otherBands = s.bands.slice(1);
+            const bandSuffix = otherBands.length > 0
+              ? ` <span class="w-more-wrap"><span class="w-more">+${otherBands.length}</span><div class="w-more-bands">${otherBands.map(band =>
+                  `<a class="w-band" href="${escapeAttr(youtubeMusicUrl(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
+                ).join('')}</div></span>`
+              : '';
             const entry = document.createElement('div');
             entry.className = "week-show-entry";
-            const bandLink = `<div class="w-band-row"><a class="w-band" href="${escapeAttr(youtubeMusicUrl(s.bands[0]))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.bands[0])}</a>${escapeHtml(bandSuffix)}</div>`;
+            const bandLink = `<div class="w-band-row"><a class="w-band" href="${escapeAttr(youtubeMusicUrl(s.bands[0]))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.bands[0])}</a>${bandSuffix}</div>`;
             const cityHtml = s.url
               ? `<a class="w-city" href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${countryFlag(s.country)} ${escapeHtml(s.city)}</a>`
               : `<span class="w-city">${countryFlag(s.country)} ${escapeHtml(s.city)}</span>`;
