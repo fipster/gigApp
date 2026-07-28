@@ -499,6 +499,17 @@
       color: var(--paper);
     }
 
+    .week-show-entry.is-priority-2 {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: var(--paper);
+    }
+
+    .week-show-entry.is-priority-2 .w-city,
+    .week-show-entry.is-priority-2 .w-more {
+      color: var(--paper);
+    }
+
     .week-show-entry.is-festival {
       border: 2px solid var(--blue);
     }

@@ -145,6 +145,10 @@ def main():
     artist_status = common.load_artist_status()
 
     for i, artist in enumerate(artists, 1):
+        # unlike the free scrapers, Bandsintown is paid per call (see
+        # run_scrapers.py) -- an inactive artist reuniting there specifically
+        # is a narrow enough case that it's not worth paying to search for,
+        # so this one keeps skipping inactive artists outright
         if common.is_inactive(artist_status, artist):
             print(f"[{i}/{len(artists)}] {artist} — skipped, marked inactive")
             continue

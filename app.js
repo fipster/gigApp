@@ -482,7 +482,8 @@
       const entry = document.createElement('div');
       entry.className = "week-show-entry"
         + (s.fest === "FESTIVAL" ? " is-festival" : "")
-        + (s.priority === "I" ? " is-priority" : "");
+        + (s.priority === "I" ? " is-priority" : "")
+        + (s.priority === "II" ? " is-priority-2" : "");
       const bandLink = `<div class="w-band-row"><a class="w-band" href="${escapeAttr(youtubeMusicUrl(s.bands[0]))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.bands[0])}</a>${bandSuffix}</div>`;
       const cityText = (showFlag ? countryFlag(s.country) + " " : "") + s.city;
       const cityHtml = s.url

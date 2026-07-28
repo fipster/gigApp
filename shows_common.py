@@ -263,3 +263,19 @@ def is_inactive(artist_status, artist):
     # unknown artists default to active (not skipped) -- only an explicit
     # active: false (from check_artist_status.py or a manual edit) skips them
     return artist_status.get(artist, {}).get("active", True) is False
+
+
+def confirm_inactive_artist_show(show, artist_status):
+    # a show turning up for an artist already confirmed inactive is unusual
+    # enough to need a human's yes -- could be a real reunion, but is often
+    # a mismatched or tribute-act listing (e.g. a deceased artist's "show"
+    # that's actually a cover act or memorial concert); artists are no
+    # longer skipped from searching just for being marked inactive (a
+    # reunion would otherwise never be found), so this is the safety net
+    # instead. Only runs for attended/manual scrape runs -- input() would
+    # hang a scheduled/background one.
+    if not is_inactive(artist_status, show["band"]):
+        return True
+    prompt = (f"    inactive artist {show['band']!r} has a listed show: "
+              f"{show['date']} {show['city']} — {show['venue']} ({show['source']}). Keep it? [y/N] ")
+    return input(prompt).strip().lower() == "y"

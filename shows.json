@@ -45,7 +45,7 @@
       "hub_city": "Reykjavík"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Dead Meadow",
@@ -205,7 +205,7 @@
       "hub_city": "Amsterdam"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Dead Meadow",
@@ -325,7 +325,7 @@
       "hub_city": "Amsterdam"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "LTJ Bukem",
@@ -413,7 +413,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Moby",
@@ -477,7 +477,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Opeth",
@@ -777,31 +777,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
-  },
-  {
-    "band": "Kokoroko",
-    "date": "2026-07-31",
-    "city": "Buckinghamshire",
-    "country": "GB",
-    "venue": "Stowaway Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3422838-stowaway/id/43047363-stowaway-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Buckinghamshire"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Buckinghamshire"
-    },
-    "note": "",
-    "priority": ""
+    "priority": "II"
   },
   {
     "band": "Markus Lehtsalu",
@@ -849,7 +825,7 @@
       "hub_city": "Spezzano Della Sila"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nevesis",
@@ -1039,7 +1015,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Bonobo",
@@ -1139,7 +1115,7 @@
       "hub_city": "Locorotondo"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Dead Meadow",
@@ -1188,30 +1164,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "Kokoroko",
-    "date": "2026-08-01",
-    "city": "Leeds",
-    "country": "GB",
-    "venue": "Kirkstall Abbey",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1037828182?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Leeds"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Leeds"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Kool & The Gang",
@@ -1319,7 +1271,7 @@
       "hub_city": "Malestroit"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mr. Scruff",
@@ -1567,7 +1519,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Crowbar",
@@ -1589,30 +1541,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Essen"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Kokoroko",
-    "date": "2026-08-02",
-    "city": "Buckingham",
-    "country": "GB",
-    "venue": "Stowaway Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108182098?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Buckingham"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Buckingham"
     },
     "note": "",
     "priority": ""
@@ -2255,7 +2183,7 @@
       "hub_city": "Rees"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "High On Fire",
@@ -2302,30 +2230,6 @@
     "priority": ""
   },
   {
-    "band": "Kokoroko",
-    "date": "2026-08-05",
-    "city": "Heidelberg",
-    "country": "DE",
-    "venue": "Metropolink's Commissary",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.universe.com/events/metropolink-festival-kokoroko-arp-frique-the-perpetual-singers-uvm-tickets-NM56LD?ref=ticketmaster",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Heidelberg"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Heidelberg"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Kraftwerk",
     "date": "2026-08-05",
     "city": "Calvia",
@@ -2347,7 +2251,7 @@
       "hub_city": "Calvia"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Matt Maltese",
@@ -2371,7 +2275,7 @@
       "hub_city": "Winterthur"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -3057,7 +2961,7 @@
       "hub_city": "Solothurn"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -3247,7 +3151,7 @@
       "hub_city": "Cádiz"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Four Tet",
@@ -3466,6 +3370,27 @@
     "priority": ""
   },
   {
+    "band": "Ryuichi Sakamoto",
+    "date": "2026-08-08",
+    "city": "Palanga",
+    "country": "LT",
+    "venue": "Palangos Kurhauzo koncertų salė",
+    "fest": null,
+    "source": "AllEvents.lt",
+    "url": "https://allevents.lt/koncertai/palanga/palangos-kurhauzo-koncertu-sale/113486-koncertas-ryuichi-sakamoto-garsu-poetas-pianistas-darius-mazintas-palanga-2026-bilietai",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Sleaford Mods",
     "date": "2026-08-08",
     "city": "Oslo",
@@ -3507,7 +3432,7 @@
       "hub_city": "Oslo"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Stoned Jesus",
@@ -3660,7 +3585,7 @@
       "hub_city": "Cádiz"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "High On Fire",
@@ -3708,7 +3633,7 @@
       "hub_city": "Sestri Levante"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Morcheeba",
@@ -3749,7 +3674,7 @@
       "hub_city": "Prague"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -3973,7 +3898,7 @@
       "hub_city": "Poznan"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "High On Fire",
@@ -4119,7 +4044,7 @@
       "hub_city": "Alicante"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Moby",
@@ -4203,7 +4128,7 @@
       "hub_city": "Budapest"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Björk",
@@ -4451,7 +4376,7 @@
       "hub_city": "Oslo"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nightmares On Wax",
@@ -4499,7 +4424,7 @@
       "hub_city": "Dresden"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Underworld",
@@ -4523,7 +4448,7 @@
       "hub_city": "Paredes De Coura"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Zero 7",
@@ -4619,7 +4544,7 @@
       "hub_city": "Saint-père-marc-en-poulet"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Dead Meadow",
@@ -4691,7 +4616,7 @@
       "hub_city": "Pamplona"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Geordie Greep",
@@ -4715,7 +4640,7 @@
       "hub_city": "Klaipėda"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gorillaz",
@@ -4811,7 +4736,7 @@
       "hub_city": "Copenhagen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Kurt Vile",
@@ -4893,7 +4818,7 @@
       "hub_city": "Saint-père-marc-en-poulet"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -4961,7 +4886,7 @@
       "hub_city": "Paredes De Coura"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slift",
@@ -5057,7 +4982,28 @@
       "hub_city": "Saint-père-marc-en-poulet"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
+  },
+  {
+    "band": "Garbanotas",
+    "date": "2026-08-14",
+    "city": "Palanga",
+    "country": "LT",
+    "venue": "Vytauto g. 84",
+    "fest": null,
+    "source": "AllEvents.lt",
+    "url": "https://allevents.lt/koncertai/palanga/vytauto-g-84/142273-koncertas-the-weekender-2026-danny-daze-roe-deers-garbanotas-une-hades-daniel-ocean-jogaila-greta-margo-oyster-saudargas-leq-ambroza-thee-less-feeling-roads-palanga-2026-bilietai",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Geese",
@@ -5145,7 +5091,7 @@
       "hub_city": "Paredes De Coura"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Matt Maltese",
@@ -5169,7 +5115,7 @@
       "hub_city": "Winterthur"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -5289,7 +5235,7 @@
       "hub_city": "Gothenburg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Orb",
@@ -5313,7 +5259,7 @@
       "hub_city": "Locorotondo"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Bonobo",
@@ -5577,7 +5523,7 @@
       "hub_city": "Riga"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gorillaz",
@@ -5703,7 +5649,7 @@
       "hub_city": "Oslo"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Igorrr",
@@ -5749,30 +5695,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Rostock"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Kokoroko",
-    "date": "2026-08-15",
-    "city": "Berchidda",
-    "country": "IT",
-    "venue": "Time In Jazz 2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108509147?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Berchidda"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Berchidda"
     },
     "note": "",
     "priority": ""
@@ -5874,7 +5796,7 @@
       "hub_city": "Prague"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Sven Wunder",
@@ -5918,7 +5840,7 @@
       "hub_city": "Oslo"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Colin Stetson",
@@ -6036,7 +5958,7 @@
       "hub_city": "Tallinn"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Habibi Funk",
@@ -6076,7 +5998,7 @@
       "hub_city": "Helsinki"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -6156,7 +6078,7 @@
       "hub_city": "Vienna"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Cinematic Orchestra",
@@ -6216,7 +6138,7 @@
       "hub_city": "Lausanne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "High On Fire",
@@ -6328,7 +6250,7 @@
       "hub_city": "Budapest"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Colin Stetson",
@@ -6542,7 +6464,7 @@
       "hub_city": "Sant'Antioco"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -6794,7 +6716,7 @@
       "hub_city": "Wiesbaden"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Buzzcocks",
@@ -6967,7 +6889,7 @@
       "hub_city": "Sankt Pölten"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Four Tet",
@@ -7039,7 +6961,7 @@
       "hub_city": "Stockholm"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "High On Fire",
@@ -7195,7 +7117,7 @@
       "hub_city": "Compton Martin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Moby",
@@ -7243,7 +7165,7 @@
       "hub_city": "Powys"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mr. Scruff",
@@ -7315,7 +7237,7 @@
       "hub_city": "Münster"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Sparks",
@@ -7529,7 +7451,7 @@
       "hub_city": "Lund"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Kurt Vile",
@@ -7619,7 +7541,7 @@
       "hub_city": "Amsterdam"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Moby",
@@ -7683,7 +7605,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nazareth",
@@ -7755,7 +7677,7 @@
       "hub_city": "Nijmegen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Sparks",
@@ -7806,7 +7728,7 @@
     "priority": "I"
   },
   {
-    "band": "Tyler",
+    "band": "Tyler, The Creator",
     "date": "2026-08-21",
     "city": "Biddinghuizen",
     "country": "NL",
@@ -8107,7 +8029,7 @@
       "hub_city": "Munich"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "High On Fire",
@@ -8203,7 +8125,7 @@
       "hub_city": "Hasselt"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mogwai",
@@ -8227,7 +8149,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Odyssey",
@@ -8439,7 +8361,7 @@
       "hub_city": "Hamburg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Geese",
@@ -8522,7 +8444,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Kurt Vile",
@@ -8598,7 +8520,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Moby",
@@ -8659,7 +8581,7 @@
       "hub_city": "Edinburgh"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -8747,10 +8669,10 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
-    "band": "Tyler",
+    "band": "Tyler, The Creator",
     "date": "2026-08-23",
     "city": "Hasselt",
     "country": "BE",
@@ -8959,7 +8881,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Kurt Vile",
@@ -9023,7 +8945,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mr. Scruff",
@@ -9143,7 +9065,7 @@
       "hub_city": "Copenhagen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Sparks",
@@ -9194,7 +9116,7 @@
     "priority": "I"
   },
   {
-    "band": "Tyler",
+    "band": "Tyler, The Creator",
     "date": "2026-08-25",
     "city": "Milan",
     "country": "IT",
@@ -9315,7 +9237,7 @@
       "hub_city": "Belfast"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mannequin Pussy",
@@ -9355,7 +9277,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Maruja",
@@ -9379,7 +9301,7 @@
       "hub_city": "València"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mogwai",
@@ -9417,7 +9339,7 @@
       "hub_city": "Split"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Show Me The Body",
@@ -9465,7 +9387,7 @@
       "hub_city": "Stockholm"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Sparks",
@@ -9492,7 +9414,7 @@
     "priority": "I"
   },
   {
-    "band": "Tyler",
+    "band": "Tyler, The Creator",
     "date": "2026-08-26",
     "city": "Saint-cloud",
     "country": "FR",
@@ -9574,7 +9496,7 @@
       "hub_city": "Co. Laois"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Habibi Funk",
@@ -9598,7 +9520,7 @@
       "hub_city": "Cella Monte"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "IDLES",
@@ -9635,7 +9557,7 @@
       "hub_city": "Edinburgh"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Kurt Vile",
@@ -9683,7 +9605,7 @@
       "hub_city": "Torremolinos"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mr. Scruff",
@@ -9775,7 +9697,7 @@
       "hub_city": "Oslo"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Stranglers",
@@ -9835,7 +9757,7 @@
       "hub_city": "Cheshire West And Chester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Unknown Mortal Orchestra",
@@ -9982,7 +9904,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Geese",
@@ -10130,7 +10052,7 @@
       "hub_city": "Dessau-roßlau"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Kurt Vile",
@@ -10230,7 +10152,7 @@
       "hub_city": "Torremolinos"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Maruja",
@@ -10254,7 +10176,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -10438,7 +10360,7 @@
       "hub_city": "Saint-cloud"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Orb",
@@ -10462,10 +10384,10 @@
       "hub_city": "Folkestone"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
-    "band": "Tyler",
+    "band": "Tyler, The Creator",
     "date": "2026-08-28",
     "city": "London",
     "country": "GB",
@@ -10538,7 +10460,7 @@
       "hub_city": "Cheshire"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Viagra Boys",
@@ -10710,7 +10632,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Geese",
@@ -10810,7 +10732,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -10882,7 +10804,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Kurt Vile",
@@ -10994,7 +10916,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mannequin Pussy",
@@ -11018,7 +10940,7 @@
       "hub_city": "Saint-cloud"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mount Kimbie",
@@ -11154,7 +11076,7 @@
       "hub_city": "Old Portsmouth"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Stranglers",
@@ -11205,7 +11127,7 @@
     "priority": ""
   },
   {
-    "band": "Tyler",
+    "band": "Tyler, The Creator",
     "date": "2026-08-29",
     "city": "London",
     "country": "GB",
@@ -11278,7 +11200,7 @@
       "hub_city": "Cheshire"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Unknown Mortal Orchestra",
@@ -11657,7 +11579,7 @@
       "hub_city": "Belfast"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Black Keys",
@@ -11709,7 +11631,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Geese",
@@ -11821,7 +11743,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Black Keys",
@@ -11873,7 +11795,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Earl Sweatshirt",
@@ -12014,7 +11936,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Misha Panfilov",
@@ -12066,7 +11988,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "S.P.Y",
@@ -12130,7 +12052,7 @@
       "hub_city": "Huddersfield"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Black Keys",
@@ -12182,7 +12104,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tricky",
@@ -12394,7 +12316,7 @@
       "hub_city": "Tollard Royal"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Odyssey",
@@ -12518,7 +12440,7 @@
       "hub_city": "Sheffield"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Sports Team",
@@ -12806,7 +12728,7 @@
       "hub_city": "Brighton"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Optical",
@@ -12907,7 +12829,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Stereolab",
@@ -12967,7 +12889,7 @@
       "hub_city": "Amsterdam"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Allah-Las",
@@ -13249,7 +13171,7 @@
       "hub_city": "Bexhill On Sea"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Milo",
@@ -13309,7 +13231,7 @@
       "hub_city": "Amsterdam"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Moving Fusion",
@@ -13370,7 +13292,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Odyssey",
@@ -13539,7 +13461,7 @@
       "hub_city": "Amsterdam"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ty Segall",
@@ -13680,46 +13602,6 @@
     "priority": "I"
   },
   {
-    "band": "Kokoroko",
-    "date": "2026-09-06",
-    "city": "Paris",
-    "country": "FR",
-    "venue": "Jazz à la Villette  2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108509154?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Transavia",
-          "iata": "HV"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Paris"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Paris"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Shame",
     "date": "2026-09-06",
     "city": "Edinburgh",
@@ -13754,7 +13636,7 @@
       "hub_city": "Edinburgh"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Stereolab",
@@ -13822,7 +13704,7 @@
       "hub_city": "Cologne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ty Segall",
@@ -13985,7 +13867,7 @@
       "hub_city": "Antwerp"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Black Keys",
@@ -14009,7 +13891,7 @@
       "hub_city": "Bern"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Allah-Las",
@@ -14188,7 +14070,7 @@
       "hub_city": "Antwerp"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "S.P.Y",
@@ -14316,7 +14198,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Allah-Las",
@@ -14476,7 +14358,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Roger Eno",
@@ -14588,7 +14470,7 @@
       "hub_city": "Munich"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Aphrodite",
@@ -14660,7 +14542,7 @@
       "hub_city": "St Herblain"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Maruja",
@@ -14684,7 +14566,7 @@
       "hub_city": "Trento"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mr. Scruff",
@@ -14784,7 +14666,7 @@
       "hub_city": "Basel"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Black Keys",
@@ -14820,7 +14702,7 @@
       "hub_city": "Milan"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ty Segall",
@@ -14989,7 +14871,7 @@
       "hub_city": "Mérignac"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Metric",
@@ -15013,7 +14895,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "S.P.Y",
@@ -15073,7 +14955,7 @@
       "hub_city": "Milan"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ty Segall",
@@ -15356,7 +15238,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Roger Eno",
@@ -15428,7 +15310,7 @@
       "hub_city": "Mayens-de-chamoson"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Squid",
@@ -15679,7 +15561,7 @@
       "hub_city": "Marseille"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Metric",
@@ -15716,7 +15598,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Black Keys",
@@ -15746,7 +15628,7 @@
       "hub_city": "Madrid"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Bonobo",
@@ -15882,7 +15764,7 @@
       "hub_city": "Marseille"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ty Segall",
@@ -16083,7 +15965,7 @@
       "hub_city": "Bregenz"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Kurt Vile",
@@ -16147,7 +16029,7 @@
       "hub_city": "Paris"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Black Keys",
@@ -16171,7 +16053,7 @@
       "hub_city": "İstanbul"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ty Segall",
@@ -16307,7 +16189,7 @@
       "hub_city": "Hamburg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Kruder & Dorfmeister",
@@ -16375,7 +16257,7 @@
       "hub_city": "Barcelona"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Metric",
@@ -16399,7 +16281,7 @@
       "hub_city": "Antwerp"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Omertà",
@@ -16459,7 +16341,7 @@
       "hub_city": "Hamburg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ty Segall",
@@ -16632,7 +16514,7 @@
       "hub_city": "Utrecht"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Orb",
@@ -16656,7 +16538,7 @@
       "hub_city": "Lincoln"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ty Segall",
@@ -16834,7 +16716,7 @@
       "hub_city": "Madrid"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nazareth",
@@ -16960,7 +16842,7 @@
       "hub_city": "Kalbe"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Destroyer",
@@ -17085,7 +16967,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Satyricon",
@@ -17213,7 +17095,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Destroyer",
@@ -17287,7 +17169,7 @@
       "hub_city": "Lisbon"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Destroyer",
@@ -17341,7 +17223,7 @@
       "hub_city": "Lisbon"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ty Segall",
@@ -18450,7 +18332,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Roger Eno",
@@ -18814,7 +18696,7 @@
       "hub_city": "Düsseldorf"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Courtney Barnett",
@@ -18850,7 +18732,7 @@
       "hub_city": "Milan"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -18914,7 +18796,7 @@
       "hub_city": "Paris"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Autechre",
@@ -18962,7 +18844,7 @@
       "hub_city": "Nijmegen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Courtney Barnett",
@@ -18986,7 +18868,7 @@
       "hub_city": "Lausanne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Dillinja",
@@ -19170,7 +19052,7 @@
       "hub_city": "Brussels"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "СОЮЗ",
@@ -19496,7 +19378,7 @@
       "hub_city": "Shrewsbury"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "UNKLE",
@@ -19568,7 +19450,7 @@
       "hub_city": "Utrecht"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Autechre",
@@ -19616,7 +19498,7 @@
       "hub_city": "Rotterdam"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Vashti Bunyan",
@@ -19729,7 +19611,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Yard Act",
@@ -19760,7 +19642,7 @@
       "hub_city": "Cologne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "СОЮЗ",
@@ -19858,7 +19740,7 @@
       "hub_city": "Oslo"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Courtney Barnett",
@@ -19889,7 +19771,7 @@
       "hub_city": "Cologne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "СОЮЗ",
@@ -20003,7 +19885,7 @@
       "hub_city": "Stockholm"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Courtney Barnett",
@@ -20027,7 +19909,7 @@
       "hub_city": "Utrecht"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -20064,7 +19946,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -20112,7 +19994,7 @@
       "hub_city": "Southend-On-Sea"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Modeselektor",
@@ -20224,7 +20106,7 @@
       "hub_city": "Hamburg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "СОЮЗ",
@@ -20332,7 +20214,7 @@
       "hub_city": "Copenhagen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Courtney Barnett",
@@ -20368,7 +20250,7 @@
       "hub_city": "Brussels"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -20420,7 +20302,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -20498,7 +20380,7 @@
       "hub_city": "Aarhus"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Cinematic Orchestra",
@@ -20579,7 +20461,7 @@
       "hub_city": "Oslo"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "СОЮЗ",
@@ -20768,7 +20650,7 @@
       "hub_city": "Gothenburg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Modeselektor",
@@ -20816,7 +20698,7 @@
       "hub_city": "Bègles"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "S.P.Y",
@@ -20887,7 +20769,7 @@
       "hub_city": "Gothenburg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Black Dog",
@@ -20975,7 +20857,7 @@
       "hub_city": "Preston"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "UNKLE",
@@ -21047,7 +20929,7 @@
       "hub_city": "Stockholm"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Autechre",
@@ -21135,7 +21017,7 @@
       "hub_city": "Esch Sur Alzette"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Digitalism",
@@ -21211,7 +21093,7 @@
       "hub_city": "Poole"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Leftfield",
@@ -21287,7 +21169,7 @@
       "hub_city": "Stavanger"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Modeselektor",
@@ -21335,7 +21217,7 @@
       "hub_city": "Bremen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Squid",
@@ -21383,7 +21265,7 @@
       "hub_city": "Huddersfield"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Yard Act",
@@ -21431,7 +21313,7 @@
       "hub_city": "Copenhagen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Autechre",
@@ -21507,7 +21389,7 @@
       "hub_city": "Paris"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "John Cooper Clarke",
@@ -21531,7 +21413,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Modeselektor",
@@ -21608,7 +21490,7 @@
       "hub_city": "Düsseldorf"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -21632,7 +21514,7 @@
       "hub_city": "Strasbourg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Cinematic Orchestra",
@@ -21832,7 +21714,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Yard Act",
@@ -21876,7 +21758,7 @@
       "hub_city": "Warsaw"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "СОЮЗ",
@@ -21961,7 +21843,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Modeselektor",
@@ -22021,7 +21903,7 @@
       "hub_city": "Nancy"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Autechre",
@@ -22085,7 +21967,7 @@
       "hub_city": "Gateshead"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -22133,7 +22015,7 @@
       "hub_city": "Brighton"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -22157,7 +22039,7 @@
       "hub_city": "Reims"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -22221,7 +22103,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "СОЮЗ",
@@ -22327,7 +22209,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Sleaford Mods",
@@ -22363,7 +22245,7 @@
       "hub_city": "Brussels"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -22387,7 +22269,7 @@
       "hub_city": "Lille"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -22534,7 +22416,7 @@
       "hub_city": "Nottingham"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Death in Vegas",
@@ -22661,7 +22543,7 @@
       "hub_city": "Esch Sur Alzette"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -22685,7 +22567,7 @@
       "hub_city": "Le Havre"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Orb",
@@ -22709,7 +22591,7 @@
       "hub_city": "Chipstead"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -22770,7 +22652,7 @@
       "hub_city": "Lausanne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Autechre",
@@ -22831,7 +22713,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Crystal Waters",
@@ -22935,7 +22817,7 @@
       "hub_city": "Paris"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -22995,7 +22877,7 @@
       "hub_city": "Milan"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -23067,7 +22949,7 @@
       "hub_city": "Lausanne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Yard Act",
@@ -23091,7 +22973,7 @@
       "hub_city": "Toulouse"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Yellow Days",
@@ -23159,7 +23041,7 @@
       "hub_city": "Barcelona"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Courtney Barnett",
@@ -23183,7 +23065,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nightmares On Wax",
@@ -23279,7 +23161,7 @@
       "hub_city": "Lyon"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -23397,7 +23279,7 @@
       "hub_city": "Madrid"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Courtney Barnett",
@@ -23449,7 +23331,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ezra Furman",
@@ -23565,7 +23447,7 @@
       "hub_city": "Barcelona"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "СОЮЗ",
@@ -23641,7 +23523,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ezra Furman",
@@ -23740,6 +23622,27 @@
     "priority": "I"
   },
   {
+    "band": "Ryuichi Sakamoto",
+    "date": "2026-10-21",
+    "city": "Kaunas",
+    "country": "LT",
+    "venue": "Kauno valstybinė filharmonija",
+    "fest": null,
+    "source": "AllEvents.lt",
+    "url": "https://allevents.lt/koncertai/kaunas/kauno-valstybine-filharmonija/106594-koncertas-ryuichi-sakamoto-garsu-poetas-pianistas-darius-mazintas-kaunas-2026-bilietai",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Temples",
     "date": "2026-10-21",
     "city": "Segrate",
@@ -23761,7 +23664,7 @@
       "hub_city": "Segrate"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Yard Act",
@@ -23791,7 +23694,7 @@
       "hub_city": "Madrid"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Autechre",
@@ -24068,7 +23971,7 @@
       "hub_city": "Bologna"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -24216,7 +24119,7 @@
       "hub_city": "Stoke-On-Trent"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mr. Scruff",
@@ -24340,7 +24243,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -24401,7 +24304,7 @@
       "hub_city": "Lisbon"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "СОЮЗ",
@@ -24588,7 +24491,7 @@
       "hub_city": "Birmingham"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Oranssi Pazuzu",
@@ -24636,7 +24539,7 @@
       "hub_city": "Reykjavík"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Squid",
@@ -24696,7 +24599,7 @@
       "hub_city": "Munich"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Exploited",
@@ -24820,7 +24723,7 @@
       "hub_city": "Lausanne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -24860,7 +24763,7 @@
       "hub_city": "Vienna"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -25121,7 +25024,7 @@
       "hub_city": "Prague"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ezra Furman",
@@ -25225,7 +25128,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -25269,7 +25172,7 @@
       "hub_city": "Warsaw"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Ezra Furman",
@@ -25365,7 +25268,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Lip Critic",
@@ -25481,7 +25384,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Sleaford Mods",
@@ -25521,7 +25424,7 @@
       "hub_city": "Helsinki"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Obsessed",
@@ -25607,7 +25510,7 @@
       "hub_city": "Turin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Lip Critic",
@@ -25726,7 +25629,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Obsessed",
@@ -25802,7 +25705,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Digitalism",
@@ -25856,7 +25759,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Oranssi Pazuzu",
@@ -25944,7 +25847,7 @@
       "hub_city": "Vilnius"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -25975,7 +25878,7 @@
       "hub_city": "Cologne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tosca",
@@ -26119,7 +26022,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Leftfield",
@@ -26414,7 +26317,7 @@
       "hub_city": "Nijmegen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Headache",
@@ -26445,7 +26348,7 @@
       "hub_city": "Turin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Oranssi Pazuzu",
@@ -26525,7 +26428,7 @@
       "hub_city": "Warsaw"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -26549,7 +26452,7 @@
       "hub_city": "Eindhoven"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Obsessed",
@@ -26653,7 +26556,7 @@
       "hub_city": "Paris"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Iceage",
@@ -26693,7 +26596,7 @@
       "hub_city": "Paris"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Dry Cleaning",
@@ -26757,7 +26660,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Sleaford Mods",
@@ -26797,7 +26700,7 @@
       "hub_city": "Vienna"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -26833,7 +26736,7 @@
       "hub_city": "Amsterdam"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tortoise",
@@ -26897,7 +26800,7 @@
       "hub_city": "Whitley Bay"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mogwai",
@@ -26921,7 +26824,7 @@
       "hub_city": "Liège"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -26975,7 +26878,7 @@
       "hub_city": "Ljubljana"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -26999,7 +26902,7 @@
       "hub_city": "Nijmegen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tortoise",
@@ -27135,7 +27038,7 @@
       "hub_city": "Liège"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -27232,7 +27135,7 @@
       "hub_city": "Brussels"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Obsessed",
@@ -27532,7 +27435,7 @@
       "hub_city": "York"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Machine Girl",
@@ -27592,7 +27495,7 @@
       "hub_city": "Hamburg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -27616,7 +27519,7 @@
       "hub_city": "Groningen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Obsessed",
@@ -27708,7 +27611,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Caravan",
@@ -28174,7 +28077,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Mogwai",
@@ -28222,7 +28125,7 @@
       "hub_city": "Copenhagen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Morcheeba",
@@ -28246,7 +28149,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tortoise",
@@ -28384,7 +28287,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Morcheeba",
@@ -28408,7 +28311,7 @@
       "hub_city": "Gateshead"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -28456,7 +28359,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Obsessed",
@@ -28647,7 +28550,7 @@
       "hub_city": "Utrecht"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Morcheeba",
@@ -28671,7 +28574,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -28849,7 +28752,7 @@
       "hub_city": "Newcastle Upon Tyne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "СОЮЗ",
@@ -28949,7 +28852,7 @@
       "hub_city": "Bordeaux"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Igorrr",
@@ -29061,7 +28964,7 @@
       "hub_city": "Strasbourg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Morcheeba",
@@ -29085,7 +28988,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Obsessed",
@@ -29139,7 +29042,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Dry Cleaning",
@@ -29187,7 +29090,7 @@
       "hub_city": "San Sebastián"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Igorrr",
@@ -29371,7 +29274,7 @@
       "hub_city": "Barcelona"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -29423,7 +29326,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Orb",
@@ -29447,7 +29350,7 @@
       "hub_city": "Newcastle upon Tyne"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tortoise",
@@ -29553,7 +29456,7 @@
       "hub_city": "Sheffield"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Digitalism",
@@ -29617,7 +29520,7 @@
       "hub_city": "Oviedo"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Machine Girl",
@@ -29665,7 +29568,7 @@
       "hub_city": "Gdansk"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Milo",
@@ -29731,7 +29634,7 @@
       "hub_city": "Brussels"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Morcheeba",
@@ -29783,7 +29686,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -29844,7 +29747,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Orb",
@@ -29868,7 +29771,7 @@
       "hub_city": "Dundee"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tortoise",
@@ -29953,7 +29856,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Digitalism",
@@ -30044,7 +29947,7 @@
       "hub_city": "Porto"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gray",
@@ -30147,7 +30050,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Obsessed",
@@ -30195,7 +30098,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tropical Fuck Storm",
@@ -30396,7 +30299,7 @@
       "hub_city": "Wolverhampton"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Boko Yout",
@@ -30536,7 +30439,7 @@
       "hub_city": "Santiago de Compostela"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Yard Act",
@@ -30560,7 +30463,7 @@
       "hub_city": "Leicester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Boko Yout",
@@ -30609,30 +30512,6 @@
     },
     "note": "",
     "priority": "I"
-  },
-  {
-    "band": "Kokoroko",
-    "date": "2026-11-17",
-    "city": "Groningen",
-    "country": "NL",
-    "venue": "SPOT Groningen",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039508115?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Groningen"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Groningen"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Nazareth",
@@ -30746,7 +30625,7 @@
       "hub_city": "Madrid"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tropical Fuck Storm",
@@ -30814,7 +30693,7 @@
       "hub_city": "Nottingham"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Boko Yout",
@@ -30862,7 +30741,7 @@
       "hub_city": "Blackpool"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nazareth",
@@ -30934,7 +30813,7 @@
       "hub_city": "Zaragoza"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tropical Fuck Storm",
@@ -30982,7 +30861,7 @@
       "hub_city": "Cambridge"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -31071,7 +30950,7 @@
       "hub_city": "Granada"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Orb",
@@ -31095,7 +30974,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Pleasure Majenta",
@@ -31135,7 +31014,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Wytches",
@@ -31335,7 +31214,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nazareth",
@@ -31468,7 +31347,7 @@
       "hub_city": "Seville"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Obsessed",
@@ -31552,7 +31431,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Stranglers",
@@ -31713,7 +31592,7 @@
       "hub_city": "Oxford"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Avemaria",
@@ -31825,7 +31704,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nazareth",
@@ -31937,7 +31816,7 @@
       "hub_city": "Murcia"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Obsessed",
@@ -32085,7 +31964,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Boko Yout",
@@ -32139,7 +32018,7 @@
       "hub_city": "Madrid"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Graham Coxon",
@@ -32176,7 +32055,7 @@
       "hub_city": "Edinburgh"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nazareth",
@@ -32230,7 +32109,7 @@
       "hub_city": "Lisbon"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Temples",
@@ -32274,7 +32153,7 @@
       "hub_city": "Barcelona"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Orb",
@@ -32298,7 +32177,7 @@
       "hub_city": "Falmouth"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Wytches",
@@ -32366,7 +32245,7 @@
       "hub_city": "Barcelona"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Graham Coxon",
@@ -32403,7 +32282,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slift",
@@ -32487,7 +32366,7 @@
       "hub_city": "Plymouth"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "BODEGA",
@@ -32535,7 +32414,7 @@
       "hub_city": "İstanbul"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slift",
@@ -32631,7 +32510,7 @@
       "hub_city": "Southampton"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "BODEGA",
@@ -32707,7 +32586,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "John Adams",
@@ -32755,7 +32634,7 @@
       "hub_city": "Leicester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "S.P.Y",
@@ -32903,7 +32782,7 @@
       "hub_city": "Marseille"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Graham Coxon",
@@ -32927,7 +32806,7 @@
       "hub_city": "Brighton"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slift",
@@ -32991,7 +32870,7 @@
       "hub_city": "Bournemouth"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Stranglers",
@@ -33067,7 +32946,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Belako",
@@ -33091,7 +32970,7 @@
       "hub_city": "Salamanca"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gray",
@@ -33152,7 +33031,7 @@
       "hub_city": "Edinburgh"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Nazareth",
@@ -33271,7 +33150,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Stranglers",
@@ -33447,7 +33326,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -33537,7 +33416,7 @@
       "hub_city": "Amsterdam"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slift",
@@ -33656,7 +33535,7 @@
       "hub_city": "Turin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -33823,7 +33702,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slift",
@@ -33935,7 +33814,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slift",
@@ -34392,7 +34271,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "The Stranglers",
@@ -34704,7 +34583,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tosca",
@@ -35299,7 +35178,7 @@
       "hub_city": "Exeter"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tosca",
@@ -35509,6 +35388,27 @@
     "priority": ""
   },
   {
+    "band": "Ryuichi Sakamoto",
+    "date": "2026-12-12",
+    "city": "Kėdainiai",
+    "country": "LT",
+    "venue": "Kėdainių krašto muziejaus daugiakultūris centras",
+    "fest": null,
+    "source": "AllEvents.lt",
+    "url": "https://allevents.lt/koncertai/kedainiai/kedainiu-krasto-muziejaus-daugiakulturis-centras/130717-koncertas-ryuichi-sakamoto-garsu-poetas-pianistas-darius-mazintas-kedainiai-2026-bilietai",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Slift",
     "date": "2026-12-12",
     "city": "Bristol",
@@ -35554,7 +35454,7 @@
       "hub_city": "Frome"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -36103,6 +36003,27 @@
     "priority": ""
   },
   {
+    "band": "Ryuichi Sakamoto",
+    "date": "2026-12-31",
+    "city": "Vilnius",
+    "country": "LT",
+    "venue": "Naujosios operos studija",
+    "fest": null,
+    "source": "AllEvents.lt",
+    "url": "https://allevents.lt/koncertai/vilnius/naujosios-operos-studija/142503-koncertas-naujieji-metai-su-ryuichi-sakamoto-pianistas-darius-mazintas-vilnius-2026-bilietai",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Underworld",
     "date": "2026-12-31",
     "city": "Edinburgh",
@@ -36137,7 +36058,7 @@
       "hub_city": "Edinburgh"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Iceage",
@@ -36167,7 +36088,7 @@
       "hub_city": "Aarhus"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Iceage",
@@ -36215,7 +36136,7 @@
       "hub_city": "Copenhagen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -36303,7 +36224,7 @@
       "hub_city": "Paris"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -36339,7 +36260,7 @@
       "hub_city": "Brussels"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slow Pulp",
@@ -36379,7 +36300,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -36403,7 +36324,7 @@
       "hub_city": "Tourcoing"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -36439,7 +36360,7 @@
       "hub_city": "Amsterdam"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slow Pulp",
@@ -36475,7 +36396,7 @@
       "hub_city": "Brussels"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -36499,7 +36420,7 @@
       "hub_city": "Utrecht"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -36535,7 +36456,7 @@
       "hub_city": "Hamburg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -36583,7 +36504,7 @@
       "hub_city": "Copenhagen"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slow Pulp",
@@ -36623,7 +36544,7 @@
       "hub_city": "Paris"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -36687,7 +36608,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -36735,7 +36656,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -36779,7 +36700,7 @@
       "hub_city": "Warsaw"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slow Pulp",
@@ -36819,7 +36740,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -36860,7 +36781,7 @@
       "hub_city": "Prague"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -36896,7 +36817,7 @@
       "hub_city": "Budapest"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -36957,7 +36878,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Gilla Band",
@@ -36997,7 +36918,7 @@
       "hub_city": "Vienna"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -37114,7 +37035,7 @@
       "hub_city": "Geneva"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slift",
@@ -37168,7 +37089,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -37244,7 +37165,7 @@
       "hub_city": "Zurich"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Iceage",
@@ -37280,7 +37201,7 @@
       "hub_city": "Milan"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slift",
@@ -37334,7 +37255,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -37394,7 +37315,7 @@
       "hub_city": "Milan"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Slift",
@@ -37490,7 +37411,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Iceage",
@@ -37531,7 +37452,7 @@
       "hub_city": "Prague"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Iceage",
@@ -37571,7 +37492,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -37635,7 +37556,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Iceage",
@@ -37659,7 +37580,7 @@
       "hub_city": "Ghent"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -37735,7 +37656,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Protomartyr",
@@ -37796,7 +37717,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Iceage",
@@ -37820,7 +37741,7 @@
       "hub_city": "The Hague"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Protomartyr",
@@ -37868,7 +37789,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Protomartyr",
@@ -38117,7 +38038,7 @@
       "hub_city": "Dublin"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Protomartyr",
@@ -38229,7 +38150,7 @@
       "hub_city": "Belfast"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Protomartyr",
@@ -38289,7 +38210,7 @@
       "hub_city": "Glasgow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Rush",
@@ -38366,7 +38287,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Protomartyr",
@@ -38426,7 +38347,7 @@
       "hub_city": "Leeds"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Protomartyr",
@@ -38550,7 +38471,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Protomartyr",
@@ -38622,7 +38543,7 @@
       "hub_city": "Brighton"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Rush",
@@ -38682,7 +38603,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Protomartyr",
@@ -39049,7 +38970,7 @@
       "hub_city": "Portmeirion"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Trentemøller",
@@ -40190,7 +40111,7 @@
       "hub_city": "Utrecht"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -40896,7 +40817,7 @@
       "hub_city": "Krakow"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Morcheeba",
@@ -40940,7 +40861,7 @@
       "hub_city": "Warsaw"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Morcheeba",
@@ -40964,7 +40885,7 @@
       "hub_city": "Gdansk"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Hooverphonic",
@@ -41042,7 +40963,7 @@
       "hub_city": "Offenburg"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Tramhaus",
@@ -41115,7 +41036,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Yes",
@@ -41307,7 +41228,7 @@
       "hub_city": "Sanary Sur Mer"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Yes",
@@ -41549,7 +41470,7 @@
       "hub_city": "Madrid"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Belako",
@@ -41573,7 +41494,7 @@
       "hub_city": "San Sebastián"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Maruja",
@@ -41610,7 +41531,7 @@
       "hub_city": "Manchester"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Belako",
@@ -41634,7 +41555,7 @@
       "hub_city": "San Sebastián"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Oh Sees",
@@ -41887,7 +41808,7 @@
       "hub_city": "Barcelona"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   },
   {
     "band": "Belako",
@@ -41911,6 +41832,6 @@
       "hub_city": "Badalona"
     },
     "note": "",
-    "priority": "I"
+    "priority": "II"
   }
 ]
