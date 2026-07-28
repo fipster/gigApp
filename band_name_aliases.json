@@ -1,0 +1,4 @@
+{
+  "_comment": "Maps a band's old/alternate name to the canonical name used in artists.csv, for cases where the band itself has changed names over time (e.g. Thee Oh Sees -> Oh Sees) and a source still reports a show under the old name. Applied to every show's band field (via shows_common.normalize_band) before it's used for cross-source deduplication, same mechanism as city_name_aliases.json.",
+  "Thee Oh Sees": "Oh Sees"
+}

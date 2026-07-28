@@ -44,6 +44,21 @@ otherwise look like a second show in the departure city instead of the
 actual venue's city. These are excluded by checking for the Lithuanian
 word "Autobusas" in the title.
 
+Known limitation: the search spans every category AllEvents.lt has, not
+just concerts -- a short/common artist name matches circus shows
+(href /kiti/...), theatre plays (/teatras/...), stand-up comedy nights,
+etc. that happen to share a word with the artist's name (e.g. "Odyssey"
+matched a circus show, "Up" matched a stand-up comedy night, "Down"
+matched a strip revue titled "...Thunder from Down Under"). Results are
+now restricted to hrefs starting with /koncertai/ (the concerts
+category), which rules out most of these -- but not all, since some
+non-concert events (that strip revue) are still filed under /koncertai/
+on AllEvents.lt's own side. Titles containing "the best of" or
+"tribute" are also excluded to catch tribute-act nights (e.g. a "Ruta
+Sciogolevaite: The Best of Whitney Houston" listing matching "Whitney").
+Manual review after each run is still expected, same as Fienta and
+Kultuurikava -- these filters catch the common cases, not all of them.
+
 No rate limit is documented for this endpoint; REQUEST_DELAY is a
 conservative self-imposed pause between requests regardless.
 
@@ -146,6 +161,9 @@ def parse_month_day(month_day, today):
 
 
 def to_show(artist, href, block, today):
+    if not href.startswith("/koncertai/"):
+        return None  # not in the concerts category -- see module docstring
+
     title_match = TITLE_RE.search(block)
     title = html.unescape(title_match.group(1).strip()) if title_match else ""
     if not re.search(rf"\b{re.escape(artist)}\b", title, re.IGNORECASE):
@@ -153,6 +171,9 @@ def to_show(artist, href, block, today):
 
     if re.search(r"\bautobusas\b", title, re.IGNORECASE):
         return None  # bus-trip package to the show, not the show itself -- see module docstring
+
+    if re.search(r"\bthe best of\b|\btribute\b", title, re.IGNORECASE):
+        return None  # a tribute/cover act, not the real artist -- see module docstring
 
     date_match = DATE_RE.search(block)
     if not date_match:

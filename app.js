@@ -255,6 +255,10 @@
       return h > 0 ? `${h}h ${m}m` : `${m}m`;
     }
 
+    function youtubeMusicUrl(band) {
+      return "https://music.youtube.com/search?q=" + encodeURIComponent(band);
+    }
+
     function googleFlightsUrl(city, date) {
       const q = `Flights from TLL or RIX to ${city} on ${date}`;
       return `https://www.google.com/travel/flights?q=${encodeURIComponent(q)}`;
@@ -393,7 +397,7 @@
         flightsHtml += flightSummaryHtml(s);
 
         const bandTagsHtml = s.bands.map(band =>
-          `<a class="band-tag ${bandColorClass(band, uniqueBands)}" href="${escapeAttr("https://music.youtube.com/search?q=" + encodeURIComponent(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
+          `<a class="band-tag ${bandColorClass(band, uniqueBands)}" href="${escapeAttr(youtubeMusicUrl(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
         ).join('');
 
         stub.innerHTML = `
@@ -421,10 +425,12 @@
     function formatWeekLabel(start) {
       const from = new Date(start + "T00:00:00");
       const to = new Date(addDays(start, 6) + "T00:00:00");
-      const sameMonth = from.getMonth() === to.getMonth() && from.getFullYear() === to.getFullYear();
-      const fromStr = `${from.getDate()} ${monthNames[from.getMonth()]}`;
-      const toStr = sameMonth ? `${to.getDate()} ${monthNames[to.getMonth()]}` : `${to.getDate()} ${monthNames[to.getMonth()]} ${to.getFullYear()}`;
-      return `${fromStr} – ${toStr} ${to.getFullYear()}`;
+      const sameYear = from.getFullYear() === to.getFullYear();
+      const fromStr = sameYear
+        ? `${from.getDate()} ${monthNames[from.getMonth()]}`
+        : `${from.getDate()} ${monthNames[from.getMonth()]} ${from.getFullYear()}`;
+      const toStr = `${to.getDate()} ${monthNames[to.getMonth()]} ${to.getFullYear()}`;
+      return `${fromStr} – ${toStr}`;
     }
 
     function renderWeeklyView(list, uniqueBands) {
@@ -459,15 +465,14 @@
           body.innerHTML = '<div class="week-empty">—</div>';
         } else {
           dayShows.forEach(s => {
-            const bandLabel = s.bands.length > 1 ? `${s.bands[0]} +${s.bands.length - 1}` : s.bands[0];
-            const entry = document.createElement(s.url ? 'a' : 'div');
+            const bandSuffix = s.bands.length > 1 ? ` +${s.bands.length - 1}` : '';
+            const entry = document.createElement('div');
             entry.className = "week-show-entry";
-            if (s.url) {
-              entry.href = s.url;
-              entry.target = "_blank";
-              entry.rel = "noopener noreferrer";
-            }
-            entry.innerHTML = `<span class="w-band">${escapeHtml(bandLabel)}</span><span class="w-city">${countryFlag(s.country)} ${escapeHtml(s.city)}</span>`;
+            const bandLink = `<div class="w-band-row"><a class="w-band" href="${escapeAttr(youtubeMusicUrl(s.bands[0]))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.bands[0])}</a>${escapeHtml(bandSuffix)}</div>`;
+            const cityHtml = s.url
+              ? `<a class="w-city" href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${countryFlag(s.country)} ${escapeHtml(s.city)}</a>`
+              : `<span class="w-city">${countryFlag(s.country)} ${escapeHtml(s.city)}</span>`;
+            entry.innerHTML = bandLink + cityHtml;
             body.appendChild(entry);
           });
         }
@@ -510,7 +515,7 @@
 
         const sortedShows = entry.shows.slice().sort((a, b) => a.date.localeCompare(b.date));
         const popupHtml = `<div class="map-popup"><strong>${countryFlag(entry.country)} ${escapeHtml(entry.city)}</strong>` +
-          sortedShows.map(s => `<span class="mp-band">${escapeHtml(s.band)}</span>${s.date} — ${s.url ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.venue || 'link')}</a>` : escapeHtml(s.venue)}`).join('') +
+          sortedShows.map(s => `<a class="mp-band" href="${escapeAttr(youtubeMusicUrl(s.band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.band)}</a>${s.date} — ${s.url ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.venue || 'link')}</a>` : escapeHtml(s.venue)}`).join('') +
           `</div>`;
         marker.bindPopup(popupHtml);
         leafletMarkers.push(marker);

@@ -426,13 +426,25 @@
       display: block;
     }
 
-    .week-show-entry .w-band {
+    .week-show-entry .w-band-row {
       font-weight: 700;
       display: block;
     }
 
+    .week-show-entry .w-band {
+      text-decoration: none;
+      color: inherit;
+    }
+
     .week-show-entry .w-city {
       color: #6b6258;
+      text-decoration: none;
+      display: block;
+    }
+
+    .week-show-entry .w-band:hover,
+    .week-show-entry .w-city:hover {
+      text-decoration: underline;
     }
 
     .week-empty {
@@ -453,6 +465,8 @@
       height: 560px;
       border: 2px solid var(--ink);
       margin-top: 26px;
+      position: relative;
+      z-index: 1;
     }
 
     .map-popup {
