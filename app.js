@@ -46,15 +46,16 @@
       return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     }
 
-    function mondayOf(dateStr) {
-      const d = new Date(dateStr + "T00:00:00");
-      d.setDate(d.getDate() - (d.getDay() + 6) % 7);
-      return toISO(d);
-    }
-
     function addDays(dateStr, days) {
       const d = new Date(dateStr + "T00:00:00");
       d.setDate(d.getDate() + days);
+      return toISO(d);
+    }
+
+    function mondayStrictlyAfter(dateStr) {
+      const d = new Date(dateStr + "T00:00:00");
+      const diff = (8 - d.getDay()) % 7 || 7;
+      d.setDate(d.getDate() + diff);
       return toISO(d);
     }
 
@@ -87,7 +88,8 @@
     let dateTo = null;
     let sortBy = "date";
     let viewMode = "list";
-    let weekStart = mondayOf(todayISO());
+    let weekStart = todayISO();
+    let weekAnchor = weekStart; // earliest week start reachable via "prev week" -- there's no show data before it
     let leafletMap = null;
     let leafletMarkers = [];
 
@@ -242,6 +244,31 @@
       });
     }
 
+    // hides band/city rows that have no shows under the OTHER active filters
+    // (dates, source, etc.) -- run when the panel is opened, so it reflects
+    // whatever's currently filtered elsewhere without touching selection state
+    function refreshBandAvailability() {
+      const available = new Set(getFilteredList("band").map(s => s.band));
+      document.querySelectorAll('#bandCheckboxList .city-row').forEach(row => {
+        const cb = row.querySelector('input[type=checkbox]');
+        row.style.display = available.has(cb.dataset.band) ? "" : "none";
+      });
+    }
+
+    function refreshCityAvailability() {
+      const available = new Set(getFilteredList("city").map(cityKey));
+      document.querySelectorAll('#cityCheckboxList .country-group').forEach(group => {
+        let anyVisible = false;
+        group.querySelectorAll('.city-row').forEach(row => {
+          const cb = row.querySelector('input[type=checkbox]');
+          const visible = available.has(cb.dataset.key);
+          row.style.display = visible ? "" : "none";
+          if (visible) anyVisible = true;
+        });
+        group.style.display = anyVisible ? "" : "none";
+      });
+    }
+
     function hasDirectForSelection(show) {
       if (activeOrigins.size === 0) return true;
       return (activeOrigins.has("TLL") && show.flightTLL.direct) ||
@@ -286,26 +313,36 @@
       return `<span class="flight-duration">${duration}${seasonal}</span>`;
     }
 
-    function getFilteredList() {
+    // exclude lets a filter panel see what it WOULD show if its own facet
+    // weren't applied yet -- e.g. the city panel wants "cities reachable
+    // under the current date/band/source filters", not "cities reachable
+    // under the current city filter", which would just echo its own selection
+    function getFilteredList(exclude) {
       let list = shows.slice();
 
-      if (bandMode === "include") {
-        list = list.filter(s => bandSelection.has(s.band));
-      } else {
-        list = list.filter(s => !bandSelection.has(s.band));
+      if (exclude !== "band") {
+        if (bandMode === "include") {
+          list = list.filter(s => bandSelection.has(s.band));
+        } else {
+          list = list.filter(s => !bandSelection.has(s.band));
+        }
       }
       if (excludeFest) list = list.filter(s => !s.fest);
       if (dateFrom) list = list.filter(s => s.date >= dateFrom);
       if (dateTo) list = list.filter(s => s.date <= dateTo);
-      if (sourceMode === "include") {
-        list = list.filter(s => sourceSelection.has(s.source));
-      } else {
-        list = list.filter(s => !sourceSelection.has(s.source));
+      if (exclude !== "source") {
+        if (sourceMode === "include") {
+          list = list.filter(s => sourceSelection.has(s.source));
+        } else {
+          list = list.filter(s => !sourceSelection.has(s.source));
+        }
       }
-      if (cityMode === "include") {
-        list = list.filter(s => citySelection.has(cityKey(s)));
-      } else {
-        list = list.filter(s => !citySelection.has(cityKey(s)));
+      if (exclude !== "city") {
+        if (cityMode === "include") {
+          list = list.filter(s => citySelection.has(cityKey(s)));
+        } else {
+          list = list.filter(s => !citySelection.has(cityKey(s)));
+        }
       }
       if (activeOrigins.size > 0) list = list.filter(s => hasDirectForSelection(s));
       return list;
@@ -433,57 +470,113 @@
       return `${fromStr} – ${toStr}`;
     }
 
+    function buildWeekShowEntry(s, showFlag) {
+      const otherBands = s.bands.slice(1);
+      const bandSuffix = otherBands.length > 0
+        ? ` <span class="w-more-wrap"><span class="w-more">+${otherBands.length}</span><div class="w-more-bands">${otherBands.map(band =>
+            `<a class="w-band" href="${escapeAttr(youtubeMusicUrl(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
+          ).join('')}</div></span>`
+        : '';
+      const entry = document.createElement('div');
+      entry.className = "week-show-entry" + (s.fest === "FESTIVAL" ? " is-festival" : "");
+      const bandLink = `<div class="w-band-row"><a class="w-band" href="${escapeAttr(youtubeMusicUrl(s.bands[0]))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.bands[0])}</a>${bandSuffix}</div>`;
+      const cityText = (showFlag ? countryFlag(s.country) + " " : "") + s.city;
+      const cityHtml = s.url
+        ? `<a class="w-city" href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(cityText)}</a>`
+        : `<span class="w-city">${escapeHtml(cityText)}</span>`;
+      entry.innerHTML = bandLink + cityHtml;
+      return entry;
+    }
+
+    function renderWeekCellRow(grid, weekDates, today, groupsByDate, showFlag) {
+      weekDates.forEach(dateStr => {
+        const cell = document.createElement('div');
+        cell.className = "week-cell" + (dateStr === today ? " is-today" : "");
+        (groupsByDate.get(dateStr) || []).forEach(s => cell.appendChild(buildWeekShowEntry(s, showFlag)));
+        grid.appendChild(cell);
+      });
+    }
+
+    function groupByDate(groups) {
+      const byDate = new Map();
+      groups.forEach(g => {
+        if (!byDate.has(g.date)) byDate.set(g.date, []);
+        byDate.get(g.date).push(g);
+      });
+      return byDate;
+    }
+
     function renderWeeklyView(list, uniqueBands) {
       document.getElementById('weekLabel').textContent = formatWeekLabel(weekStart);
+      document.getElementById('weekPrev').disabled = weekStart === weekAnchor;
 
-      const groups = groupShows(list);
-      const byDay = {};
-      for (let i = 0; i < 7; i++) byDay[addDays(weekStart, i)] = [];
-      groups.forEach(g => { if (byDay[g.date]) byDay[g.date].push(g); });
+      const weekDates = [];
+      for (let i = 0; i < 7; i++) weekDates.push(addDays(weekStart, i));
+      const weekDateSet = new Set(weekDates);
+
+      const groups = groupShows(list).filter(g => weekDateSet.has(g.date));
+
+      // each country gets its own header row (spanning all 7 day columns)
+      // followed by a row of day-cells -- most shows this week on top;
+      // a country only earns its own section if it has 2+ DIFFERENT artists
+      // playing there AND those shows land on 2+ DIFFERENT days this week (a
+      // dedicated trip is only worth it if there's a choice of shows spread
+      // out over the week) -- one artist playing multiple nights/cities, or
+      // several artists all on the same single day, are pooled into the
+      // shared "Others" row instead
+      const byCountry = new Map();
+      groups.forEach(g => {
+        if (!byCountry.has(g.country)) byCountry.set(g.country, []);
+        byCountry.get(g.country).push(g);
+      });
+      const worthDedicatedRow = c => {
+        const countryGroups = byCountry.get(c);
+        const distinctBands = new Set(countryGroups.flatMap(g => g.bands)).size;
+        const distinctDates = new Set(countryGroups.map(g => g.date)).size;
+        return distinctBands > 1 && distinctDates > 1;
+      };
+      const multiCountries = [...byCountry.keys()]
+        .filter(worthDedicatedRow)
+        .sort((a, b) => byCountry.get(b).length - byCountry.get(a).length || countryName(a).localeCompare(countryName(b)));
+      const singleGroups = [...byCountry.keys()]
+        .filter(c => !worthDedicatedRow(c))
+        .flatMap(c => byCountry.get(c));
 
       const grid = document.getElementById('weekGrid');
       grid.innerHTML = "";
       const today = todayISO();
 
-      for (let i = 0; i < 7; i++) {
-        const dateStr = addDays(weekStart, i);
+      weekDates.forEach(dateStr => {
         const d = new Date(dateStr + "T00:00:00");
-        const dayShows = byDay[dateStr];
-
-        const dayEl = document.createElement('div');
-        dayEl.className = "week-day" + (dateStr === today ? " is-today" : "");
-
         const header = document.createElement('div');
-        header.className = "week-day-header";
+        header.className = "week-col-header" + (dateStr === today ? " is-today" : "");
         header.innerHTML = `<span>${dowNames[d.getDay()]}</span><span>${d.getDate()} ${monthNames[d.getMonth()]}</span>`;
-        dayEl.appendChild(header);
+        grid.appendChild(header);
+      });
 
-        const body = document.createElement('div');
-        body.className = "week-day-body";
+      if (multiCountries.length === 0 && singleGroups.length === 0) {
+        const empty = document.createElement('div');
+        empty.className = "week-empty-row";
+        empty.textContent = "No shows this week";
+        grid.appendChild(empty);
+        return;
+      }
 
-        if (dayShows.length === 0) {
-          body.innerHTML = '<div class="week-empty">—</div>';
-        } else {
-          dayShows.forEach(s => {
-            const otherBands = s.bands.slice(1);
-            const bandSuffix = otherBands.length > 0
-              ? ` <span class="w-more-wrap"><span class="w-more">+${otherBands.length}</span><div class="w-more-bands">${otherBands.map(band =>
-                  `<a class="w-band" href="${escapeAttr(youtubeMusicUrl(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
-                ).join('')}</div></span>`
-              : '';
-            const entry = document.createElement('div');
-            entry.className = "week-show-entry";
-            const bandLink = `<div class="w-band-row"><a class="w-band" href="${escapeAttr(youtubeMusicUrl(s.bands[0]))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.bands[0])}</a>${bandSuffix}</div>`;
-            const cityHtml = s.url
-              ? `<a class="w-city" href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${countryFlag(s.country)} ${escapeHtml(s.city)}</a>`
-              : `<span class="w-city">${countryFlag(s.country)} ${escapeHtml(s.city)}</span>`;
-            entry.innerHTML = bandLink + cityHtml;
-            body.appendChild(entry);
-          });
-        }
+      multiCountries.forEach(country => {
+        const countryGroups = byCountry.get(country);
+        const header = document.createElement('div');
+        header.className = "week-country-header";
+        header.innerHTML = `<span>${countryFlag(country)} ${escapeHtml(countryName(country))}</span><span class="week-country-count">${countryGroups.length}</span>`;
+        grid.appendChild(header);
+        renderWeekCellRow(grid, weekDates, today, groupByDate(countryGroups), false);
+      });
 
-        dayEl.appendChild(body);
-        grid.appendChild(dayEl);
+      if (singleGroups.length > 0) {
+        const header = document.createElement('div');
+        header.className = "week-country-header";
+        header.innerHTML = `<span>Others</span><span class="week-country-count">${singleGroups.length}</span>`;
+        grid.appendChild(header);
+        renderWeekCellRow(grid, weekDates, today, groupByDate(singleGroups), true);
       }
     }
 
@@ -697,14 +790,14 @@
       // the weekly view's own week pointer is independent of the date filter --
       // jump it to match, otherwise switching to a preset far from the current
       // week leaves the weekly grid showing an empty, unrelated week
-      weekStart = mondayOf(dateFrom || todayISO());
+      weekStart = weekAnchor = dateFrom || todayISO();
       render();
     }
 
     document.getElementById('datePreset').addEventListener('change', (e) => applyDatePreset(e.target.value));
     document.getElementById('dateFrom').addEventListener('change', (e) => {
       dateFrom = e.target.value || null;
-      weekStart = mondayOf(dateFrom || todayISO());
+      weekStart = weekAnchor = dateFrom || todayISO();
       render();
     });
     document.getElementById('dateTo').addEventListener('change', (e) => { dateTo = e.target.value || null; render(); });
@@ -781,6 +874,8 @@
             if (other !== details) other.open = false;
           });
           details.querySelector('.filter-search')?.focus();
+          if (details.id === "bandFilterDetails") refreshBandAvailability();
+          else if (details.id === "cityFilterDetails") refreshCityAvailability();
         }
       });
     });
@@ -804,11 +899,13 @@
     });
 
     document.getElementById('weekPrev').addEventListener('click', () => {
-      weekStart = addDays(weekStart, -7);
+      if (weekStart === weekAnchor) return; // no show data before the anchor day
+      const firstMonday = mondayStrictlyAfter(addDays(weekAnchor, 6));
+      weekStart = (weekStart === firstMonday) ? weekAnchor : addDays(weekStart, -7);
       render();
     });
     document.getElementById('weekNext').addEventListener('click', () => {
-      weekStart = addDays(weekStart, 7);
+      weekStart = mondayStrictlyAfter(weekStart);
       render();
     });
 

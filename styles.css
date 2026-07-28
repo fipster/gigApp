@@ -223,6 +223,12 @@
       padding: 0;
     }
 
+    .reset-link:disabled {
+      color: var(--grey);
+      cursor: default;
+      text-decoration: none;
+    }
+
     label.toggle {
       font-family: 'JetBrains Mono', monospace;
       font-size: 11px;
@@ -381,19 +387,7 @@
       gap: 8px;
     }
 
-    .week-day {
-      border: 2px solid var(--ink);
-      background: var(--card);
-      min-height: 140px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .week-day.is-today {
-      border-color: var(--pink);
-    }
-
-    .week-day-header {
+    .week-col-header {
       font-family: 'JetBrains Mono', monospace;
       font-size: 11px;
       padding: 6px 8px;
@@ -403,16 +397,47 @@
       justify-content: space-between;
     }
 
-    .week-day.is-today .week-day-header {
+    .week-col-header.is-today {
       background: var(--pink);
     }
 
-    .week-day-body {
+    .week-country-header {
+      grid-column: 1 / -1;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      padding: 5px 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--ink);
+      color: var(--paper);
+      margin-top: 4px;
+    }
+
+    .week-country-count {
+      color: var(--grey);
+    }
+
+    .week-cell {
+      border: 2px solid var(--ink);
+      background: var(--card);
+      min-height: 44px;
       padding: 6px;
       display: flex;
       flex-direction: column;
       gap: 5px;
-      overflow-y: auto;
+    }
+
+    .week-cell.is-today {
+      border-color: var(--pink);
+    }
+
+    .week-empty-row {
+      grid-column: 1 / -1;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--grey);
+      padding: 6px 8px;
     }
 
     .week-show-entry {
@@ -463,17 +488,15 @@
       display: flex;
     }
 
-    .week-empty {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10px;
-      color: var(--grey);
-      padding: 6px 8px;
+    .week-show-entry.is-festival {
+      background: var(--pink);
+      border-color: var(--pink);
+      color: var(--paper);
     }
 
-    @media (max-width:640px) {
-      .week-grid {
-        grid-template-columns: repeat(1, 1fr);
-      }
+    .week-show-entry.is-festival .w-city,
+    .week-show-entry.is-festival .w-more {
+      color: var(--paper);
     }
 
     /* MAP VIEW */
