@@ -94,6 +94,7 @@
       line-height: .92;
       margin: 0 0 10px;
       text-transform: uppercase;
+      cursor: pointer;
     }
 
     h1 span {
@@ -326,6 +327,153 @@
     .country-row input,
     .city-row input {
       cursor: pointer;
+    }
+
+    /* VIEW SWITCH */
+    .view-switch {
+      display: flex;
+      gap: 8px;
+      margin-top: 20px;
+    }
+
+    .view-btn {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .06em;
+      padding: 8px 16px;
+      border: 2px solid var(--ink);
+      background: var(--paper);
+      color: var(--ink);
+      cursor: pointer;
+    }
+
+    .view-btn.active {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    /* WEEKLY VIEW */
+    .weekly-view[hidden],
+    .map-view[hidden] {
+      display: none;
+    }
+
+    .week-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 26px 0 12px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .week-label {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--blue);
+    }
+
+    .week-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 8px;
+    }
+
+    .week-day {
+      border: 2px solid var(--ink);
+      background: var(--card);
+      min-height: 140px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .week-day.is-today {
+      border-color: var(--pink);
+    }
+
+    .week-day-header {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      padding: 6px 8px;
+      background: var(--ink);
+      color: var(--paper);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .week-day.is-today .week-day-header {
+      background: var(--pink);
+    }
+
+    .week-day-body {
+      padding: 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      overflow-y: auto;
+    }
+
+    .week-show-entry {
+      font-size: 11px;
+      line-height: 1.35;
+      padding: 4px 6px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .week-show-entry .w-band {
+      font-weight: 700;
+      display: block;
+    }
+
+    .week-show-entry .w-city {
+      color: #6b6258;
+    }
+
+    .week-empty {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--grey);
+      padding: 6px 8px;
+    }
+
+    @media (max-width:640px) {
+      .week-grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    /* MAP VIEW */
+    #mapView {
+      height: 560px;
+      border: 2px solid var(--ink);
+      margin-top: 26px;
+    }
+
+    .map-popup {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .map-popup .mp-band {
+      font-weight: 700;
+      display: block;
+      margin-top: 6px;
+    }
+
+    .map-popup .mp-band:first-child {
+      margin-top: 0;
+    }
+
+    .map-popup a {
+      color: var(--blue);
     }
 
     /* ROUTE LIST */

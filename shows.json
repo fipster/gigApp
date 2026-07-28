@@ -867,7 +867,7 @@
   {
     "band": "Opeth",
     "date": "2026-07-30",
-    "city": "Antwerpen",
+    "city": "Antwerp",
     "country": "BE",
     "venue": "OLT Rivierenhof",
     "fest": null,
@@ -877,13 +877,13 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Antwerpen"
+      "hub_city": "Antwerp"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Antwerpen"
+      "hub_city": "Antwerp"
     },
     "note": ""
   },
@@ -958,29 +958,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Thievery Corporation",
-    "date": "2026-07-30",
-    "city": "Camden",
-    "country": "GB",
-    "venue": "Roundhouse",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43069213-thievery-corporation-at-roundhouse",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
     },
     "note": ""
   },
@@ -1433,29 +1410,6 @@
     "note": ""
   },
   {
-    "band": "Mogwai",
-    "date": "2026-07-31",
-    "city": "CAMIGLIATELLO CS",
-    "country": "IT",
-    "venue": "San Lorenzo",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3647440-be-alternative/id/43095013-be-alternative-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "CAMIGLIATELLO CS"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "CAMIGLIATELLO CS"
-    },
-    "note": ""
-  },
-  {
     "band": "Nevesis",
     "date": "2026-07-31",
     "city": "Tallinn",
@@ -1685,48 +1639,53 @@
     "note": ""
   },
   {
-    "band": "Bonobo",
-    "date": "2026-08-01",
-    "city": "Mykonos",
-    "country": "GR",
-    "venue": "SantAnna",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43301564-bonobo-at-santanna",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Mykonos"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Mykonos"
-    },
-    "note": ""
-  },
-  {
     "band": "Calyx",
     "date": "2026-08-01",
-    "city": "East London",
+    "city": "London",
     "country": "GB",
     "venue": "Hackney Wick   Multiple Venues",
     "fest": "FESTIVAL",
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/1038423996?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "East London"
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "East London"
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -6300,29 +6259,6 @@
     "note": ""
   },
   {
-    "band": "Chat Pile",
-    "date": "2026-08-14",
-    "city": "Martigny",
-    "country": "CH",
-    "venue": "Palp Festival",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3703925-palp-rocklette/id/43046081-palp-festival-rocklette-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Martigny"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Martigny"
-    },
-    "note": ""
-  },
-  {
     "band": "Dead Meadow",
     "date": "2026-08-14",
     "city": "Val De Bagnes",
@@ -7175,35 +7111,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Campo Pequeno"
-    },
-    "note": ""
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-08-15",
-    "city": "Lisbon",
-    "country": "PT",
-    "venue": "Forte De Santo António Da Barra",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43226247-armand-van-helden-at-forte-de-santo-antonio-da-barra",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lisbon"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Lisbon"
     },
     "note": ""
   },
@@ -8760,29 +8667,6 @@
     "note": ""
   },
   {
-    "band": "Dry Cleaning",
-    "date": "2026-08-20",
-    "city": "Powys",
-    "country": "GB",
-    "venue": "Green Man Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1246-green-man/id/43078969-green-man-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Powys"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Powys"
-    },
-    "note": ""
-  },
-  {
     "band": "Fontaines D.C.",
     "date": "2026-08-20",
     "city": "Sankt Pölten",
@@ -9276,29 +9160,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Charleville-Mézières"
-    },
-    "note": ""
-  },
-  {
-    "band": "Sparks",
-    "date": "2026-08-20",
-    "city": "Powys",
-    "country": "GB",
-    "venue": "Green Man Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1246-green-man/id/43078969-green-man-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Powys"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Powys"
     },
     "note": ""
   },
@@ -10065,35 +9926,12 @@
   {
     "band": "Dillinja",
     "date": "2026-08-22",
-    "city": "East London",
+    "city": "London",
     "country": "GB",
     "venue": "The Cause at 60 Dock Road (Outside)",
     "fest": "FESTIVAL",
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/1038123275?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "East London"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "East London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Dillinja",
-    "date": "2026-08-22",
-    "city": "London",
-    "country": "GB",
-    "venue": "The Cause",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2050739-signal/id/43302885-signal-festival-2026",
     "flightTLL": {
       "direct": true,
       "seasonal": false,
@@ -10703,29 +10541,6 @@
         }
       ],
       "hub_city": "Edinburgh"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mogwai",
-    "date": "2026-08-23",
-    "city": "Newbridge",
-    "country": "GB",
-    "venue": "Royal Highland Showgrounds",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42815213-cure-at-royal-highland-showgrounds",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Newbridge"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Newbridge"
     },
     "note": ""
   },
@@ -11777,29 +11592,6 @@
     "note": ""
   },
   {
-    "band": "Deftones",
-    "date": "2026-08-27",
-    "city": "Newbridge",
-    "country": "GB",
-    "venue": "Royal Highland Showgrounds",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42906509-deftones-at-royal-highland-showgrounds",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Newbridge"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Newbridge"
-    },
-    "note": ""
-  },
-  {
     "band": "Fontaines D.C.",
     "date": "2026-08-27",
     "city": "Co. Laois",
@@ -12026,29 +11818,6 @@
         }
       ],
       "hub_city": "Edinburgh"
-    },
-    "note": ""
-  },
-  {
-    "band": "IDLES",
-    "date": "2026-08-27",
-    "city": "Newbridge",
-    "country": "GB",
-    "venue": "Royal Highland Showgrounds",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42906509-deftones-at-royal-highland-showgrounds",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Newbridge"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Newbridge"
     },
     "note": ""
   },
@@ -13167,29 +12936,6 @@
     "note": ""
   },
   {
-    "band": "Underworld",
-    "date": "2026-08-28",
-    "city": "Cheshire West And Chester",
-    "country": "GB",
-    "venue": "Daresbury",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1036684889?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cheshire West And Chester"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cheshire West And Chester"
-    },
-    "note": ""
-  },
-  {
     "band": "Unknown Mortal Orchestra",
     "date": "2026-08-28",
     "city": "Lisbon",
@@ -13895,7 +13641,7 @@
   {
     "band": "Sparks",
     "date": "2026-08-29",
-    "city": "Antwerpen",
+    "city": "Antwerp",
     "country": "BE",
     "venue": "De Roma",
     "fest": null,
@@ -13905,36 +13651,13 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Antwerpen"
+      "hub_city": "Antwerp"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Antwerpen"
-    },
-    "note": ""
-  },
-  {
-    "band": "Sparks",
-    "date": "2026-08-29",
-    "city": "Borgerhout",
-    "country": "BE",
-    "venue": "De Roma",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43152375-sparks-at-de-roma",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Borgerhout"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Borgerhout"
+      "hub_city": "Antwerp"
     },
     "note": ""
   },
@@ -14033,23 +13756,51 @@
   {
     "band": "Tyler",
     "date": "2026-08-29",
-    "city": "East London",
+    "city": "London",
     "country": "GB",
     "venue": "Tyler, The Creator Day 2 at All Points East 2026",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108051569?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "East London"
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "East London"
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -14421,29 +14172,6 @@
     "note": ""
   },
   {
-    "band": "Earl Sweatshirt",
-    "date": "2026-08-31",
-    "city": "Kentish Town",
-    "country": "GB",
-    "venue": "O2 Forum Kentish Town",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43304339-earl-sweatshirt-at-o2-forum-kentish-town",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "note": ""
-  },
-  {
     "band": "LTJ Bukem",
     "date": "2026-08-31",
     "city": "London",
@@ -14725,29 +14453,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "The Black Keys",
-    "date": "2026-09-01",
-    "city": "Brixton",
-    "country": "GB",
-    "venue": "O2 Academy Brixton",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43031666-black-keys-at-o2-academy-brixton",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brixton"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brixton"
     },
     "note": ""
   },
@@ -15049,29 +14754,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "The Black Keys",
-    "date": "2026-09-02",
-    "city": "South West London",
-    "country": "GB",
-    "venue": "British Airways ARC",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038876063?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "South West London"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "South West London"
     },
     "note": ""
   },
@@ -15678,7 +15360,7 @@
   {
     "band": "Kruder & Dorfmeister",
     "date": "2026-09-04",
-    "city": "Berne",
+    "city": "Bern",
     "country": "CH",
     "venue": "DJ SET",
     "fest": null,
@@ -15688,13 +15370,13 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Berne"
+      "hub_city": "Bern"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Berne"
+      "hub_city": "Bern"
     },
     "note": ""
   },
@@ -16911,7 +16593,7 @@
   {
     "band": "Mac DeMarco",
     "date": "2026-09-07",
-    "city": "Antwerpen",
+    "city": "Antwerp",
     "country": "BE",
     "venue": "OLT Rivierenhof",
     "fest": null,
@@ -16921,36 +16603,13 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Antwerpen"
+      "hub_city": "Antwerp"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Antwerpen"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mac DeMarco",
-    "date": "2026-09-07",
-    "city": "Deurne",
-    "country": "BE",
-    "venue": "OLT Rivierenhof",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42859873-mac-demarco-at-olt-rivierenhof",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Deurne"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Deurne"
+      "hub_city": "Antwerp"
     },
     "note": ""
   },
@@ -17153,7 +16812,7 @@
   {
     "band": "Mac DeMarco",
     "date": "2026-09-08",
-    "city": "Antwerpen",
+    "city": "Antwerp",
     "country": "BE",
     "venue": "OLT Rivierenhof",
     "fest": null,
@@ -17163,36 +16822,13 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Antwerpen"
+      "hub_city": "Antwerp"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Antwerpen"
-    },
-    "note": ""
-  },
-  {
-    "band": "Mac DeMarco",
-    "date": "2026-09-08",
-    "city": "Deurne",
-    "country": "BE",
-    "venue": "OLT Rivierenhof",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42859875-mac-demarco-at-olt-rivierenhof",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Deurne"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Deurne"
+      "hub_city": "Antwerp"
     },
     "note": ""
   },
@@ -17267,29 +16903,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Ty Segall",
-    "date": "2026-09-08",
-    "city": "Kentish Town",
-    "country": "GB",
-    "venue": "O2 Forum Kentish Town",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43077773-ty-segall-at-o2-forum-kentish-town",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
     },
     "note": ""
   },
@@ -17679,29 +17292,6 @@
     "note": ""
   },
   {
-    "band": "Mac DeMarco",
-    "date": "2026-09-10",
-    "city": "Nantes",
-    "country": "FR",
-    "venue": "La Carrière",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42859877-mac-demarco-at-la-carriere",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Nantes"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Nantes"
-    },
-    "note": ""
-  },
-  {
     "band": "Maruja",
     "date": "2026-09-10",
     "city": "Trento",
@@ -17750,23 +17340,51 @@
   {
     "band": "S.P.Y",
     "date": "2026-09-10",
-    "city": "Camden",
+    "city": "London",
     "country": "GB",
     "venue": "The Underworld",
     "fest": null,
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43046841-spy-at-underworld",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -17952,29 +17570,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Wolverton"
-    },
-    "note": ""
-  },
-  {
-    "band": "Gray",
-    "date": "2026-09-11",
-    "city": "Milton Keynes",
-    "country": "GB",
-    "venue": "Unit Nine",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43306457-gray-at-unit-nine",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Milton Keynes"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Milton Keynes"
     },
     "note": ""
   },
@@ -18165,29 +17760,6 @@
     "note": ""
   },
   {
-    "band": "Ty Segall",
-    "date": "2026-09-11",
-    "city": "Asten",
-    "country": "NL",
-    "venue": "Misty Fields",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/477999-misty-fields/id/42997441-misty-fields-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Asten"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Asten"
-    },
-    "note": ""
-  },
-  {
     "band": "Allah-Las",
     "date": "2026-09-12",
     "city": "Leffinge",
@@ -18309,29 +17881,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Candlemass",
-    "date": "2026-09-12",
-    "city": "Camden",
-    "country": "GB",
-    "venue": "The Underworld",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43019075-candlemass-at-underworld",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
     },
     "note": ""
   },
@@ -18498,29 +18047,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Metric",
-    "date": "2026-09-12",
-    "city": "Brixton",
-    "country": "GB",
-    "venue": "O2 Academy Brixton",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43105317-metric-at-o2-academy-brixton",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brixton"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brixton"
     },
     "note": ""
   },
@@ -19559,7 +19085,7 @@
   {
     "band": "Metric",
     "date": "2026-09-16",
-    "city": "Borgerhout",
+    "city": "Antwerp",
     "country": "BE",
     "venue": "De Roma",
     "fest": null,
@@ -19569,36 +19095,13 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Borgerhout"
+      "hub_city": "Antwerp"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Borgerhout"
-    },
-    "note": ""
-  },
-  {
-    "band": "Metric",
-    "date": "2026-09-16",
-    "city": "Antwerpen",
-    "country": "BE",
-    "venue": "All The Feelings Tour",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108095314?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Antwerpen"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Antwerpen"
+      "hub_city": "Antwerp"
     },
     "note": ""
   },
@@ -21012,29 +20515,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Liège"
-    },
-    "note": ""
-  },
-  {
-    "band": "Autechre",
-    "date": "2026-09-24",
-    "city": "Seraing",
-    "country": "BE",
-    "venue": "OM",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42917386-autechre-at-om",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Seraing"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Seraing"
     },
     "note": ""
   },
@@ -22461,35 +21941,12 @@
   {
     "band": "Only Real",
     "date": "2026-10-02",
-    "city": "Shoreditch",
+    "city": "London",
     "country": "GB",
     "venue": "The Old Blue Last",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/1039337405?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Shoreditch"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Shoreditch"
-    },
-    "note": ""
-  },
-  {
-    "band": "Only Real",
-    "date": "2026-10-02",
-    "city": "London",
-    "country": "GB",
-    "venue": "The Old Blue Last",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43269424-only-real-at-old-blue-last",
     "flightTLL": {
       "direct": true,
       "seasonal": false,
@@ -22977,29 +22434,6 @@
     "note": ""
   },
   {
-    "band": "UNKLE",
-    "date": "2026-10-03",
-    "city": "Birkenhead",
-    "country": "GB",
-    "venue": "Future Yard",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43293496-james-lavelle-at-future-yard",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Birkenhead"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Birkenhead"
-    },
-    "note": ""
-  },
-  {
     "band": "Yard Act",
     "date": "2026-10-03",
     "city": "Utrecht",
@@ -23198,29 +22632,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Eivissa"
-    },
-    "note": ""
-  },
-  {
-    "band": "Groove Armada",
-    "date": "2026-10-05",
-    "city": "Ibiza",
-    "country": "ES",
-    "venue": "Chinois",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43310964-felix-da-funk-at-chinois",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
     },
     "note": ""
   },
@@ -23550,29 +22961,6 @@
     "note": ""
   },
   {
-    "band": "Gilla Band",
-    "date": "2026-10-07",
-    "city": "Salford",
-    "country": "GB",
-    "venue": "The White Hotel",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43309923-gilla-band-at-white-hotel",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Salford"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Salford"
-    },
-    "note": ""
-  },
-  {
     "band": "Hooverphonic",
     "date": "2026-10-07",
     "city": "Grimbergen",
@@ -23615,29 +23003,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Southend-On-Sea"
-    },
-    "note": ""
-  },
-  {
-    "band": "John Cooper Clarke",
-    "date": "2026-10-07",
-    "city": "Westcliff-on-sea",
-    "country": "GB",
-    "venue": "Palace Theatre",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42915282-john-cooper-clarke-at-palace-theatre",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Westcliff-on-sea"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Westcliff-on-sea"
     },
     "note": ""
   },
@@ -26995,29 +26360,6 @@
     "note": ""
   },
   {
-    "band": "Courtney Barnett",
-    "date": "2026-10-20",
-    "city": "Kentish Town",
-    "country": "GB",
-    "venue": "O2 Forum Kentish Town",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43143626-courtney-barnett-at-o2-forum-kentish-town",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "note": ""
-  },
-  {
     "band": "Ezra Furman",
     "date": "2026-10-20",
     "city": "Glasgow",
@@ -27204,29 +26546,6 @@
     "note": ""
   },
   {
-    "band": "Courtney Barnett",
-    "date": "2026-10-21",
-    "city": "Kentish Town",
-    "country": "GB",
-    "venue": "O2 Forum Kentish Town",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43177519-courtney-barnett-at-o2-forum-kentish-town",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "note": ""
-  },
-  {
     "band": "Ezra Furman",
     "date": "2026-10-21",
     "city": "Liverpool",
@@ -27340,41 +26659,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Segrate"
-    },
-    "note": ""
-  },
-  {
-    "band": "Temples",
-    "date": "2026-10-21",
-    "city": "Milan",
-    "country": "IT",
-    "venue": "Magnolia",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108215812?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 185,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Milan"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 185,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Milan"
     },
     "note": ""
   },
@@ -27564,29 +26848,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Lip Critic",
-    "date": "2026-10-22",
-    "city": "Camden",
-    "country": "GB",
-    "venue": "The Underworld",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43253124-lip-critic-at-underworld",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
     },
     "note": ""
   },
@@ -28051,29 +27312,6 @@
       "seasonal": false,
       "duration_minutes": 190,
       "hub_city": "Birmingham"
-    },
-    "note": ""
-  },
-  {
-    "band": "Tramhaus",
-    "date": "2026-10-23",
-    "city": "Digbeth",
-    "country": "GB",
-    "venue": "O2 Institute2 Birmingham",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43221793-gurriers-at-o2-institute2-birmingham",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Digbeth"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Digbeth"
     },
     "note": ""
   },
@@ -28750,29 +27988,6 @@
     "note": ""
   },
   {
-    "band": "Lip Critic",
-    "date": "2026-10-26",
-    "city": "Saint Ouen",
-    "country": "FR",
-    "venue": "Mains d'Oeuvres",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43253127-lip-critic-at-mains-doeuvres",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Ouen"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Saint Ouen"
-    },
-    "note": ""
-  },
-  {
     "band": "Oranssi Pazuzu",
     "date": "2026-10-26",
     "city": "Paris",
@@ -29022,35 +28237,12 @@
   {
     "band": "Ezra Furman",
     "date": "2026-10-28",
-    "city": "Brighton And Hove",
+    "city": "Brighton",
     "country": "GB",
     "venue": "Corn Exchange",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108338485?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brighton And Hove"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brighton And Hove"
-    },
-    "note": ""
-  },
-  {
-    "band": "Ezra Furman",
-    "date": "2026-10-28",
-    "city": "Brighton",
-    "country": "GB",
-    "venue": "Brighton Dome",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43213466-ezra-furman-at-brighton-dome",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -30181,29 +29373,6 @@
     "note": ""
   },
   {
-    "band": "Tortoise",
-    "date": "2026-10-31",
-    "city": "Digbeth",
-    "country": "GB",
-    "venue": "The Crossing Digbeth",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43225384-tortoise-at-crossing-digbeth",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Digbeth"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Digbeth"
-    },
-    "note": ""
-  },
-  {
     "band": "Geordie Greep",
     "date": "2026-11-01",
     "city": "Nijmegen",
@@ -30949,29 +30118,6 @@
     "note": ""
   },
   {
-    "band": "Psychedelic Porn Crumpets",
-    "date": "2026-11-05",
-    "city": "Cardiff",
-    "country": "GB",
-    "venue": "The Lemon Grove",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43302883-psychedelic-porn-crumpets-at-lemon-grove",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cardiff"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Cardiff"
-    },
-    "note": ""
-  },
-  {
     "band": "Romare",
     "date": "2026-11-05",
     "city": "Manchester",
@@ -31572,35 +30718,12 @@
   {
     "band": "Caravan",
     "date": "2026-11-07",
-    "city": "Haggerston",
+    "city": "London",
     "country": "GB",
     "venue": "Signature Brew Haggerston",
     "fest": "FESTIVAL",
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/1039625639?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Haggerston"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Haggerston"
-    },
-    "note": ""
-  },
-  {
-    "band": "Caravan",
-    "date": "2026-11-07",
-    "city": "London",
-    "country": "GB",
-    "venue": "Signature Brew - Haggerston",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3791243-hackney-prog-fest-london/id/43268964-hackney-prog-fest--london-2026",
     "flightTLL": {
       "direct": true,
       "seasonal": false,
@@ -31879,29 +31002,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Thornton Hough"
-    },
-    "note": ""
-  },
-  {
-    "band": "John Adams",
-    "date": "2026-11-07",
-    "city": "South wirral",
-    "country": "GB",
-    "venue": "Thornton Hough Village Club",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43063090-john-adams-at-thornton-hough-village-club",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "South wirral"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "South wirral"
     },
     "note": ""
   },
@@ -32387,29 +31487,6 @@
     "note": ""
   },
   {
-    "band": "Machine Girl",
-    "date": "2026-11-09",
-    "city": "Bukowno Warszawa",
-    "country": "PL",
-    "venue": "Klub Proxima",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039488135?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bukowno Warszawa"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bukowno Warszawa"
-    },
-    "note": ""
-  },
-  {
     "band": "Mogwai",
     "date": "2026-11-09",
     "city": "Berlin",
@@ -32657,29 +31734,6 @@
     "note": ""
   },
   {
-    "band": "Igorrr",
-    "date": "2026-11-10",
-    "city": "Digbeth",
-    "country": "GB",
-    "venue": "O2 Institute2 Birmingham",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43235425-igorrr-at-o2-institute2-birmingham",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Digbeth"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Digbeth"
-    },
-    "note": ""
-  },
-  {
     "band": "Modeselektor",
     "date": "2026-11-10",
     "city": "Linz",
@@ -32751,35 +31805,12 @@
   {
     "band": "Psychedelic Porn Crumpets",
     "date": "2026-11-10",
-    "city": "Antwerpen",
+    "city": "Antwerp",
     "country": "BE",
     "venue": "Trix",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108674633?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Antwerpen"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Antwerpen"
-    },
-    "note": ""
-  },
-  {
-    "band": "Psychedelic Porn Crumpets",
-    "date": "2026-11-10",
-    "city": "Antwerp",
-    "country": "BE",
-    "venue": "TRIX",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43302157-psychedelic-porn-crumpets-at-trix",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -33908,29 +32939,6 @@
     "note": ""
   },
   {
-    "band": "Temples",
-    "date": "2026-11-13",
-    "city": "Salford",
-    "country": "GB",
-    "venue": "The White Hotel",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43153052-temples-at-white-hotel",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Salford"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Salford"
-    },
-    "note": ""
-  },
-  {
     "band": "The Orb",
     "date": "2026-11-13",
     "city": "Dundee",
@@ -34442,7 +33450,7 @@
   {
     "band": "Tortoise",
     "date": "2026-11-15",
-    "city": "Antwerpen",
+    "city": "Antwerp",
     "country": "BE",
     "venue": "Arenberg",
     "fest": null,
@@ -34452,13 +33460,13 @@
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Antwerpen"
+      "hub_city": "Antwerp"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Antwerpen"
+      "hub_city": "Antwerp"
     },
     "note": ""
   },
@@ -34579,29 +33587,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Feyzin"
-    },
-    "note": ""
-  },
-  {
-    "band": "Dry Cleaning",
-    "date": "2026-11-16",
-    "city": "Lyon",
-    "country": "FR",
-    "venue": "L'Épicerie Moderne",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43265830-dry-cleaning-at-lepicerie-moderne",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lyon"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lyon"
     },
     "note": ""
   },
@@ -35540,45 +34525,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Frankfurt Am Main"
-    },
-    "note": ""
-  },
-  {
-    "band": "Psychedelic Porn Crumpets",
-    "date": "2026-11-20",
-    "city": "Frankfurt",
-    "country": "DE",
-    "venue": "Batschkapp",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43304029-psychedelic-porn-crumpets-at-batschkapp",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "Lufthansa",
-          "iata": "LH"
-        }
-      ],
-      "hub_city": "Frankfurt"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "Lufthansa",
-          "iata": "LH"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Frankfurt"
     },
     "note": ""
   },
@@ -36627,29 +35573,6 @@
     "note": ""
   },
   {
-    "band": "The Stranglers",
-    "date": "2026-11-23",
-    "city": "Nantes",
-    "country": "FR",
-    "venue": "La Carrière",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42870312-stranglers-at-la-carriere",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Nantes"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Nantes"
-    },
-    "note": ""
-  },
-  {
     "band": "Yard Act",
     "date": "2026-11-23",
     "city": "Plymouth",
@@ -37254,29 +36177,6 @@
     "note": ""
   },
   {
-    "band": "The Stranglers",
-    "date": "2026-11-26",
-    "city": "Toulouse",
-    "country": "FR",
-    "venue": "Le Bikini",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42870315-stranglers-at-le-bikini",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Toulouse"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Toulouse"
-    },
-    "note": ""
-  },
-  {
     "band": "Yard Act",
     "date": "2026-11-26",
     "city": "London",
@@ -37324,29 +36224,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Yard Act",
-    "date": "2026-11-26",
-    "city": "Brixton",
-    "country": "GB",
-    "venue": "O2 Academy Brixton",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43117870-yard-act-at-o2-academy-brixton",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brixton"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brixton"
     },
     "note": ""
   },
@@ -37715,29 +36592,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "Graham Coxon",
-    "date": "2026-11-28",
-    "city": "Kentish Town",
-    "country": "GB",
-    "venue": "O2 Forum Kentish Town",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43168543-graham-coxon-at-o2-forum-kentish-town",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
     },
     "note": ""
   },
@@ -38984,29 +37838,6 @@
     "note": ""
   },
   {
-    "band": "The Orb",
-    "date": "2026-12-05",
-    "city": "Kentish Town",
-    "country": "GB",
-    "venue": "O2 Forum Kentish Town",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43011609-ozric-tentacles-at-o2-forum-kentish-town",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "note": ""
-  },
-  {
     "band": "Tosca",
     "date": "2026-12-05",
     "city": "London",
@@ -39815,29 +38646,6 @@
     "note": ""
   },
   {
-    "band": "Odyssey",
-    "date": "2026-12-12",
-    "city": "East London",
-    "country": "GB",
-    "venue": "Soul Mama",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1037790758?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "East London"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "East London"
-    },
-    "note": ""
-  },
-  {
     "band": "Slift",
     "date": "2026-12-12",
     "city": "Bristol",
@@ -39976,29 +38784,6 @@
     "note": ""
   },
   {
-    "band": "Limp Bizkit",
-    "date": "2026-12-13",
-    "city": "Soweto",
-    "country": "ZA",
-    "venue": "FNB Stadium",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43261967-limp-bizkit-at-fnb-stadium",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Soweto"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Soweto"
-    },
-    "note": ""
-  },
-  {
     "band": "Slift",
     "date": "2026-12-13",
     "city": "London",
@@ -40133,29 +38918,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": ""
-  },
-  {
-    "band": "High On Fire",
-    "date": "2026-12-16",
-    "city": "Camden",
-    "country": "GB",
-    "venue": "Roundhouse",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43222075-green-lung-at-roundhouse",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
     },
     "note": ""
   },
@@ -41807,29 +40569,6 @@
     "note": ""
   },
   {
-    "band": "Slow Pulp",
-    "date": "2027-02-06",
-    "city": "Kentish Town",
-    "country": "GB",
-    "venue": "O2 Forum Kentish Town",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43310138-slow-pulp-at-o2-forum-kentish-town",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kentish Town"
-    },
-    "note": ""
-  },
-  {
     "band": "Iceage",
     "date": "2027-02-07",
     "city": "Prague",
@@ -43078,35 +41817,12 @@
   {
     "band": "Iceage",
     "date": "2027-02-25",
-    "city": "Brighton And Hove",
+    "city": "Brighton",
     "country": "GB",
     "venue": "Chalk",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108527574?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brighton And Hove"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Brighton And Hove"
-    },
-    "note": ""
-  },
-  {
-    "band": "Iceage",
-    "date": "2027-02-25",
-    "city": "Brighton",
-    "country": "GB",
-    "venue": "CHALK",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43260672-iceage-at-chalk",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -43452,35 +42168,12 @@
   {
     "band": "Trentemøller",
     "date": "2027-03-02",
-    "city": "Berne",
+    "city": "Bern",
     "country": "CH",
     "venue": "Bierhübeli",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/1038839337?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Berne"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Berne"
-    },
-    "note": ""
-  },
-  {
-    "band": "Trentemøller",
-    "date": "2027-03-02",
-    "city": "Bern",
-    "country": "CH",
-    "venue": "Bierhübeli",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43172646-trentemoller-at-bierhubeli",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -43964,35 +42657,12 @@
   {
     "band": "Trentemøller",
     "date": "2027-03-11",
-    "city": "Camden",
+    "city": "London",
     "country": "GB",
     "venue": "Electric Ballroom",
     "fest": null,
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/1038773520?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Camden"
-    },
-    "note": ""
-  },
-  {
-    "band": "Trentemøller",
-    "date": "2027-03-11",
-    "city": "London",
-    "country": "GB",
-    "venue": "Electric Ballroom",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43172648-trentemoller-at-electric-ballroom",
     "flightTLL": {
       "direct": true,
       "seasonal": false,
@@ -44707,35 +43377,6 @@
     "note": ""
   },
   {
-    "band": "Tramhaus",
-    "date": "2027-03-19",
-    "city": "Madrid",
-    "country": "ES",
-    "venue": "El Sótano - La Latina",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43257216-tramhaus-at-el-sotano-la-latina",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Madrid"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Madrid"
-    },
-    "note": ""
-  },
-  {
     "band": "Trentemøller",
     "date": "2027-03-19",
     "city": "Johanneshov",
@@ -45429,29 +44070,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Ramonville-saint-agne"
-    },
-    "note": ""
-  },
-  {
-    "band": "Hooverphonic",
-    "date": "2027-03-29",
-    "city": "Ramonville St Agne",
-    "country": "FR",
-    "venue": "LE BIKINI",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43241500-hooverphonic-at-le-bikini",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ramonville St Agne"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ramonville St Agne"
     },
     "note": ""
   },

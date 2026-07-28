@@ -10,6 +10,7 @@
     href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&family=Work+Sans:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <header class="bill">
       <div class="bill-text">
         <p class="eyebrow">One App to Rule Them All</p>
-        <h1>MY Bands<br><span>Are Out There</span></h1>
+        <h1 id="resetTitle">MY Bands<br><span>Are Out There</span></h1>
         <p class="sub">
 
         </p>
@@ -114,13 +115,33 @@
       </div>
     </div>
 
+    <div class="view-switch">
+      <button class="view-btn active" data-view="list">LIST</button>
+      <button class="view-btn" data-view="weekly">WEEKLY</button>
+      <button class="view-btn" data-view="map">MAP</button>
+    </div>
+
     <div class="route" id="route"></div>
+
+    <div class="weekly-view" id="weeklyView" hidden>
+      <div class="week-nav">
+        <button class="reset-link" id="weekPrev">← prev week</button>
+        <span class="week-label" id="weekLabel"></span>
+        <button class="reset-link" id="weekNext">next week →</button>
+      </div>
+      <div class="week-grid" id="weekGrid"></div>
+    </div>
+
+    <div class="map-view" id="mapViewContainer" hidden>
+      <div id="mapView"></div>
+    </div>
 
     <footer>
       copyright © 2015. hand-vibed by me
     </footer>
   </div>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="app.js"></script>
 
 </body>
