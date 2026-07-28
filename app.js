@@ -165,6 +165,9 @@
         citySelection.add(cityKey(s));
       });
 
+      order.sort((a, b) => countryName(a).localeCompare(countryName(b)));
+      Object.values(byCountry).forEach(cities => cities.sort((a, b) => a.city.localeCompare(b.city)));
+
       const container = document.getElementById('cityCheckboxList');
       container.innerHTML = "";
 

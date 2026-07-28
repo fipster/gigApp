@@ -9,6 +9,8 @@ in any one scraper.
 
 import json
 import os
+import re
+import unicodedata
 from datetime import date, timedelta
 
 SHOWS_JSON = "shows.json"
@@ -35,6 +37,39 @@ def normalize_city(city):
     return CITY_NAME_ALIASES.get(city, city)
 
 
+# letters NFKD doesn't decompose into a base + combining mark (each is its
+# own distinct codepoint), so they'd otherwise survive diacritic-stripping
+# untouched and keep two spellings of the same city apart (e.g. Polish
+# "Bielsko-Biała" vs "Bielsko-biala")
+_NON_DECOMPOSING_LETTERS = str.maketrans({
+    "ł": "l", "Ł": "L",
+    "ø": "o", "Ø": "O",
+    "đ": "d", "Đ": "D",
+    "ß": "ss",
+    "ı": "i",
+})
+
+
+def _fold_city_for_matching(city):
+    # beyond the alias table (genuinely different words, e.g. "Wien" vs
+    # "Vienna"), sources also disagree on formatting for the *same* word --
+    # case ("Gdansk" vs "gdansk"), diacritics ("Gdańsk"), hyphen-vs-space
+    # ("Stoke-On-Trent" vs "Stoke On Trent"), apostrophes ("St David's" vs
+    # "St Davids"), and trailing parentheticals ("Alicante (Alacant)").
+    # This folds all of that away for dedup-key comparison only -- the
+    # stored/displayed city text (via normalize_city) is untouched, so
+    # whichever source's spelling happens to win the merge is still shown
+    # as-is, just no longer creates a duplicate entry.
+    city = re.sub(r"\s*\([^)]*\)\s*$", "", city)
+    city = city.translate(_NON_DECOMPOSING_LETTERS)
+    city = unicodedata.normalize("NFKD", city)
+    city = "".join(c for c in city if not unicodedata.combining(c))
+    city = city.replace("'", "")
+    city = re.sub(r"[-/]", " ", city)
+    city = re.sub(r"\s+", " ", city).strip()
+    return city.lower()
+
+
 def show_key(show):
     # dedupe on band+date+city+country rather than venue name: different
     # sources sometimes describe the "venue" differently for the same real
@@ -42,7 +77,8 @@ def show_key(show):
     # reports the festival name), so matching on venue text misses
     # cross-source duplicates. A band playing two different venues in the
     # same city on the same day is rare enough to accept as a tradeoff.
-    return (show["band"], show["date"], normalize_city(show["city"]).lower(), show["country"])
+    folded_city = _fold_city_for_matching(normalize_city(show["city"]))
+    return (show["band"], show["date"], folded_city, show["country"])
 
 
 def load_shows(path=SHOWS_JSON):
