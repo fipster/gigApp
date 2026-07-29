@@ -132,7 +132,8 @@
       "duration_minutes": null,
       "hub_city": "Braşov"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Sepultura",
@@ -273,7 +274,8 @@
       ],
       "hub_city": "Tallinn"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Crowbar",
@@ -957,7 +959,8 @@
       ],
       "hub_city": "Dublin"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Markus Lehtsalu",
@@ -1160,7 +1163,8 @@
       ],
       "hub_city": "Tallinn"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Stillbirth",
@@ -1391,7 +1395,8 @@
       "duration_minutes": null,
       "hub_city": "Wacken"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Leftfield",
@@ -1438,7 +1443,8 @@
       "duration_minutes": null,
       "hub_city": "Beelen"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Moby",
@@ -1613,7 +1619,8 @@
       ],
       "hub_city": "Helsinki"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "The Stranglers",
@@ -1772,7 +1779,8 @@
       "duration_minutes": null,
       "hub_city": "Breitenbach Am Herzberg"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Crowbar",
@@ -1907,7 +1915,8 @@
       ],
       "hub_city": "Amsterdam"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Opeth",
@@ -2494,7 +2503,8 @@
       "duration_minutes": null,
       "hub_city": "Metropolitan City Of Bologna"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Wolfmother",
@@ -2735,7 +2745,8 @@
       "duration_minutes": null,
       "hub_city": "Vagos"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Matt Maltese",
@@ -2782,7 +2793,8 @@
       "duration_minutes": null,
       "hub_city": "Leeds"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -2877,7 +2889,8 @@
       "duration_minutes": null,
       "hub_city": "Jaroměř"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Sepultura",
@@ -3627,7 +3640,8 @@
       "duration_minutes": null,
       "hub_city": "Catton"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Morcheeba",
@@ -3744,7 +3758,8 @@
       "duration_minutes": null,
       "hub_city": "Chipstead"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "The Exploited",
@@ -4233,7 +4248,8 @@
       "duration_minutes": null,
       "hub_city": "Walton-on-trent"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Sleaford Mods",
@@ -4501,7 +4517,8 @@
       "duration_minutes": null,
       "hub_city": "Kortrijk"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Maruja",
@@ -5223,7 +5240,8 @@
       ],
       "hub_city": "London"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Björk",
@@ -5450,7 +5468,8 @@
       "duration_minutes": null,
       "hub_city": "Hafnarfjörður"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Kurt Vile",
@@ -5829,7 +5848,8 @@
       "duration_minutes": null,
       "hub_city": "Dinkelsbühl"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Geordie Greep",
@@ -6225,7 +6245,8 @@
       "duration_minutes": null,
       "hub_city": "Cardiff"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Chat Pile",
@@ -6458,7 +6479,8 @@
       "duration_minutes": null,
       "hub_city": "Wittelshofen"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Maruja",
@@ -6529,7 +6551,8 @@
       "duration_minutes": null,
       "hub_city": "Seelbach Bei Hamm"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -6696,7 +6719,8 @@
       "duration_minutes": null,
       "hub_city": "Ennetmoos"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Alice Cooper",
@@ -6719,7 +6743,8 @@
       "duration_minutes": null,
       "hub_city": "Scarborough"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Bonobo",
@@ -7156,7 +7181,8 @@
       "duration_minutes": null,
       "hub_city": "Eindhoven"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Meatbodies",
@@ -7179,7 +7205,8 @@
       "duration_minutes": null,
       "hub_city": "Kemmental"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Melody's Echo Chamber",
@@ -7539,7 +7566,8 @@
       "duration_minutes": null,
       "hub_city": "Vaduz"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -7702,7 +7730,8 @@
       "duration_minutes": null,
       "hub_city": "Glasgow"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Fontaines D.C.",
@@ -7874,7 +7903,8 @@
       ],
       "hub_city": "Manchester"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Colin Stetson",
@@ -8063,7 +8093,8 @@
       "duration_minutes": null,
       "hub_city": "Poznań"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Moby",
@@ -8221,7 +8252,8 @@
       "duration_minutes": 190,
       "hub_city": "Birmingham"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Cate Le Bon",
@@ -8408,7 +8440,8 @@
       "duration_minutes": null,
       "hub_city": "Nürnberg"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Pendulum",
@@ -8904,7 +8937,8 @@
       "duration_minutes": null,
       "hub_city": "Bratislava"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Moby",
@@ -9167,7 +9201,8 @@
       "duration_minutes": null,
       "hub_city": "Colchester"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Buzzcocks",
@@ -9398,7 +9433,8 @@
       "duration_minutes": null,
       "hub_city": "Ulm"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Moby",
@@ -9701,7 +9737,8 @@
       "duration_minutes": null,
       "hub_city": "Halifax"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Cate Le Bon",
@@ -10000,7 +10037,8 @@
       "duration_minutes": null,
       "hub_city": "Lottum"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Mogwai",
@@ -10071,7 +10109,8 @@
       "duration_minutes": null,
       "hub_city": "Crickhowell"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Röyksopp",
@@ -10118,7 +10157,8 @@
       "duration_minutes": null,
       "hub_city": "Maastricht"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Zero T",
@@ -10537,7 +10577,8 @@
       "duration_minutes": null,
       "hub_city": "Lutterworth"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Show Me The Body",
@@ -10720,7 +10761,8 @@
       "duration_minutes": null,
       "hub_city": "Nuremberg"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Deftones",
@@ -11179,7 +11221,8 @@
       ],
       "hub_city": "Paris"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Earl Sweatshirt",
@@ -11959,7 +12002,8 @@
       ],
       "hub_city": "Cologne"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Boko Yout",
@@ -12733,7 +12777,8 @@
       "duration_minutes": null,
       "hub_city": "Cervia"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Danny Brown",
@@ -12862,7 +12907,8 @@
       ],
       "hub_city": "Tallinn"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Fontaines D.C.",
@@ -13615,7 +13661,8 @@
       ],
       "hub_city": "Hamburg"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Deftones",
@@ -13732,7 +13779,8 @@
       ],
       "hub_city": "Paris"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Kurt Vile",
@@ -13814,7 +13862,8 @@
       ],
       "hub_city": "London"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Roni Size",
@@ -13889,7 +13938,8 @@
       "duration_minutes": null,
       "hub_city": "Bottesford"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Allah-Las",
@@ -14132,7 +14182,8 @@
       "duration_minutes": null,
       "hub_city": "Novegro-tregarezzo"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Geese",
@@ -14274,7 +14325,8 @@
       ],
       "hub_city": "Cologne"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "The Black Keys",
@@ -14349,7 +14401,8 @@
       "duration_minutes": null,
       "hub_city": "Este"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Earl Sweatshirt",
@@ -14741,7 +14794,8 @@
       "duration_minutes": null,
       "hub_city": "Pula"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Allah-Las",
@@ -15300,7 +15354,8 @@
       "duration_minutes": null,
       "hub_city": "Tollard Royal"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "RIP Swirl",
@@ -15444,7 +15499,8 @@
       "duration_minutes": null,
       "hub_city": "St. Pölten"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Allah-Las",
@@ -15677,7 +15733,8 @@
       "duration_minutes": null,
       "hub_city": "Toruń"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "LTJ Bukem",
@@ -15761,7 +15818,8 @@
       ],
       "hub_city": "Manchester"
     },
-    "note": ""
+    "note": "",
+    "priority": "II"
   },
   {
     "band": "Milo",
@@ -16093,7 +16151,8 @@
       ],
       "hub_city": "Prague"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Earl Sweatshirt",
@@ -17065,7 +17124,8 @@
       "duration_minutes": null,
       "hub_city": "Portsmouth"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Roger Eno",
@@ -17272,7 +17332,8 @@
       "duration_minutes": null,
       "hub_city": "Woodmancote"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Skinshape",
@@ -17578,7 +17639,8 @@
       "duration_minutes": null,
       "hub_city": "Orléans"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "The Black Keys",
@@ -17896,7 +17958,8 @@
       "duration_minutes": null,
       "hub_city": "Heusden Gem Asten"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Roger Eno",
@@ -17943,7 +18006,8 @@
       "duration_minutes": null,
       "hub_city": "Bristol"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Skinshape",
@@ -18247,7 +18311,8 @@
       "duration_minutes": null,
       "hub_city": "Nieuwpoort"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "TVAM",
@@ -18737,7 +18802,8 @@
       "duration_minutes": null,
       "hub_city": "St. Gallen"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "The Black Keys",
@@ -19036,7 +19102,8 @@
       "duration_minutes": null,
       "hub_city": "Freiburg"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Rosalie Cunningham",
@@ -19239,7 +19306,8 @@
       "duration_minutes": null,
       "hub_city": "San Carlos"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Kruder & Dorfmeister",
@@ -20834,7 +20902,8 @@
       "duration_minutes": null,
       "hub_city": "Cervia"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "LTJ Bukem",
@@ -21000,7 +21069,8 @@
       "duration_minutes": null,
       "hub_city": "Trezzo Sull'adda Mi"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Jazzanova",
@@ -21413,7 +21483,8 @@
       ],
       "hub_city": "Prague"
     },
-    "note": ""
+    "note": "",
+    "priority": "II"
   },
   {
     "band": "Autechre",
@@ -21563,7 +21634,8 @@
       "duration_minutes": null,
       "hub_city": "Utrecht"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Rosalie Cunningham",
@@ -21746,7 +21818,8 @@
       "duration_minutes": null,
       "hub_city": "Ciampino"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Only Real",
@@ -22636,7 +22709,8 @@
       ],
       "hub_city": "Milan"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "СОЮЗ",
@@ -23383,7 +23457,8 @@
       "duration_minutes": null,
       "hub_city": "Bristol"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Candlemass",
@@ -23923,7 +23998,8 @@
       ],
       "hub_city": "Berlin"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "John Cooper Clarke",
@@ -24531,7 +24607,8 @@
       ],
       "hub_city": "Hamburg"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Hooverphonic",
@@ -25568,7 +25645,8 @@
       ],
       "hub_city": "London"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Elephant9",
@@ -25687,7 +25765,8 @@
       ],
       "hub_city": "Copenhagen"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Nightmares On Wax",
@@ -26320,7 +26399,8 @@
       "duration_minutes": null,
       "hub_city": "Stockton-on-tees"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Bass Drum of Death",
@@ -29394,7 +29474,8 @@
       "duration_minutes": null,
       "hub_city": "Saint-avé"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Digitalism",
@@ -31469,7 +31550,8 @@
       "duration_minutes": null,
       "hub_city": "North London"
     },
-    "note": ""
+    "note": "",
+    "priority": "II"
   },
   {
     "band": "Panda Bear",
@@ -32698,7 +32780,8 @@
       "duration_minutes": null,
       "hub_city": "Southend-on-sea"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "The Obsessed",
@@ -33939,7 +34022,8 @@
       "duration_minutes": null,
       "hub_city": "İstanbul"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -34134,7 +34218,8 @@
       "duration_minutes": null,
       "hub_city": "Groningen"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Tropical Fuck Storm",
@@ -35209,7 +35294,8 @@
       "duration_minutes": null,
       "hub_city": "Metz"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Tropical Fuck Storm",
@@ -35328,7 +35414,8 @@
       "duration_minutes": null,
       "hub_city": "Nijmegen"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "GoGo Penguin",
@@ -35791,7 +35878,8 @@
       ],
       "hub_city": "Cologne"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Jethro Tull",
@@ -35945,7 +36033,8 @@
       ],
       "hub_city": "Porto"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Only Real",
@@ -36029,7 +36118,8 @@
       "duration_minutes": null,
       "hub_city": "Milton Keynes"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slift",
@@ -36445,7 +36535,8 @@
       ],
       "hub_city": "Hamburg"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Hooverphonic",
@@ -36564,7 +36655,8 @@
       "duration_minutes": null,
       "hub_city": "Brighton"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slift",
@@ -36723,7 +36815,8 @@
       "duration_minutes": null,
       "hub_city": "Bordeaux"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Tosca",
@@ -36870,7 +36963,8 @@
       ],
       "hub_city": "Copenhagen"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Geordie Greep",
@@ -37513,7 +37607,8 @@
       ],
       "hub_city": "Gothenburg"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "GoGo Penguin",
@@ -37944,7 +38039,8 @@
       "duration_minutes": null,
       "hub_city": "Brno-město"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Widowspeak",
@@ -38052,7 +38148,8 @@
       ],
       "hub_city": "Stockholm"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Geordie Greep",
@@ -38099,7 +38196,8 @@
       "duration_minutes": null,
       "hub_city": "Monaco"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Graham Coxon",
@@ -38334,7 +38432,8 @@
       "duration_minutes": null,
       "hub_city": "Poznan"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "John Cooper Clarke",
@@ -38643,7 +38742,8 @@
       ],
       "hub_city": "Tampere"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Graham Coxon",
@@ -38956,7 +39056,8 @@
       ],
       "hub_city": "Helsinki"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Geordie Greep",
@@ -39199,7 +39300,8 @@
       ],
       "hub_city": "Tallinn"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Headache",
@@ -39640,7 +39742,8 @@
       ],
       "hub_city": "Warsaw"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Hooverphonic",
@@ -39887,7 +39990,8 @@
       ],
       "hub_city": "Berlin"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "High On Fire",
@@ -40158,7 +40262,8 @@
       ],
       "hub_city": "Prague"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "High On Fire",
@@ -40493,7 +40598,8 @@
       ],
       "hub_city": "Stockholm"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Fulci",
@@ -40528,7 +40634,8 @@
       ],
       "hub_city": "Munich"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Jazzanova",
@@ -40883,7 +40990,8 @@
       "duration_minutes": null,
       "hub_city": "Bratislava I"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Hooverphonic",
@@ -41012,7 +41120,8 @@
       ],
       "hub_city": "Ljubljana"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "High On Fire",
@@ -42979,7 +43088,8 @@
       ],
       "hub_city": "Düsseldorf"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Gilla Band",
@@ -43187,7 +43297,8 @@
       "duration_minutes": null,
       "hub_city": "Glasgow"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Gilla Band",
@@ -43502,7 +43613,8 @@
       "duration_minutes": 190,
       "hub_city": "Birmingham"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Gilla Band",
@@ -44344,7 +44456,8 @@
       ],
       "hub_city": "Brussels"
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Tramhaus",
@@ -44935,7 +45048,8 @@
       ],
       "hub_city": "Madrid"
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Lamb of God",

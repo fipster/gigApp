@@ -540,6 +540,18 @@
       margin-top: 0;
     }
 
+    .map-popup .mp-band.is-priority {
+      background: var(--pink);
+      color: var(--paper);
+      padding: 1px 4px;
+    }
+
+    .map-popup .mp-band.is-priority-2 {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 1px 4px;
+    }
+
     .map-popup a {
       color: var(--blue);
     }
@@ -681,23 +693,14 @@
       color: inherit;
     }
 
-    .band-tag.b0 {
-      background: var(--acid);
-    }
-
-    .band-tag.b1 {
+    .band-tag.is-priority {
       background: var(--pink);
       color: var(--paper);
     }
 
-    .band-tag.b2 {
-      background: var(--blue);
-      color: #fff;
-    }
-
-    .band-tag.b3 {
-      background: #fff;
-      color: var(--ink);
+    .band-tag.is-priority-2 {
+      background: var(--ink);
+      color: var(--paper);
     }
 
     .fest-tag {

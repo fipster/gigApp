@@ -7,6 +7,7 @@
     let countries = {};
     let cityCoordinates = {};
     let countryCoordinates = {};
+    let bandPriorities = new Map();
     let WINDOW_TO;
 
     async function loadShows() {
@@ -20,6 +21,8 @@
       countries = await countriesResponse.json();
       cityCoordinates = await coordsResponse.json();
       countryCoordinates = await countryCoordsResponse.json();
+
+      shows.forEach(s => bandPriorities.set(s.band, s.priority));
 
       WINDOW_TO = shows.reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
 
@@ -60,6 +63,24 @@
       const diff = (8 - d.getDay()) % 7 || 7;
       d.setDate(d.getDate() + diff);
       return toISO(d);
+    }
+
+    function saturdayOnOrAfter(dateStr) {
+      const d = new Date(dateStr + "T00:00:00");
+      const diff = (6 - d.getDay() + 7) % 7;
+      d.setDate(d.getDate() + diff);
+      return toISO(d);
+    }
+
+    // mirrors weekNext's mondayStrictlyAfter jump in reverse, so the same
+    // sequence of weeks is retraced going backward
+    function candidatePrevWeekStart() {
+      const firstMonday = mondayStrictlyAfter(addDays(weekAnchor, 6));
+      return (weekStart === firstMonday) ? weekAnchor : addDays(weekStart, -7);
+    }
+
+    function isWeekEntirelyPast(candidateStart) {
+      return addDays(candidateStart, 6) < todayISO();
     }
 
     const WINDOW_FROM = todayISO();
@@ -122,8 +143,11 @@
       return `${monthNames[f.getMonth()]} ${f.getFullYear()} – ${monthNames[t.getMonth()]} ${t.getFullYear()}`;
     }
 
-    function bandColorClass(bandName, uniqueBands) {
-      return "b" + (uniqueBands.indexOf(bandName) % 4);
+    function bandPriorityClass(bandName) {
+      const priority = bandPriorities.get(bandName);
+      if (priority === "I") return "is-priority";
+      if (priority === "II") return "is-priority-2";
+      return "";
     }
 
     function cityKey(s) { return s.country + "|" + s.city; }
@@ -332,8 +356,10 @@
         }
       }
       if (excludeFest) list = list.filter(s => !s.fest);
-      if (dateFrom) list = list.filter(s => s.date >= dateFrom);
-      if (dateTo) list = list.filter(s => s.date <= dateTo);
+      if (exclude !== "date") {
+        if (dateFrom) list = list.filter(s => s.date >= dateFrom);
+        if (dateTo) list = list.filter(s => s.date <= dateTo);
+      }
       if (exclude !== "source") {
         if (sourceMode === "include") {
           list = list.filter(s => sourceSelection.has(s.source));
@@ -388,7 +414,11 @@
       document.getElementById('cityFilterCount').textContent = `${list.length}/${shows.length} shows`;
 
       if (viewMode === "list") renderListView(list, uniqueBands);
-      else if (viewMode === "weekly") renderWeeklyView(list, uniqueBands);
+      // the weekly view isn't bound to the date-range filter -- it just
+      // starts positioned at that range, but navigating (prev/next week)
+      // should keep showing whatever's really scheduled that week rather
+      // than going blank once you scroll outside the selected range
+      else if (viewMode === "weekly") renderWeeklyView(getFilteredList("date"), uniqueBands);
       else if (viewMode === "map") renderMapView(list);
     }
 
@@ -439,7 +469,7 @@
         flightsHtml += flightSummaryHtml(s);
 
         const bandTagsHtml = s.bands.map(band =>
-          `<a class="band-tag ${bandColorClass(band, uniqueBands)}" href="${escapeAttr(youtubeMusicUrl(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
+          `<a class="band-tag ${bandPriorityClass(band)}" href="${escapeAttr(youtubeMusicUrl(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
         ).join('');
 
         stub.innerHTML = `
@@ -516,7 +546,7 @@
 
     function renderWeeklyView(list, uniqueBands) {
       document.getElementById('weekLabel').textContent = formatWeekLabel(weekStart);
-      document.getElementById('weekPrev').disabled = weekStart === weekAnchor;
+      document.getElementById('weekPrev').disabled = isWeekEntirelyPast(candidatePrevWeekStart());
 
       const weekDates = [];
       for (let i = 0; i < 7; i++) weekDates.push(addDays(weekStart, i));
@@ -624,7 +654,7 @@
 
         const sortedShows = entry.shows.slice().sort((a, b) => a.date.localeCompare(b.date));
         const popupHtml = `<div class="map-popup"><strong>${countryFlag(entry.country)} ${escapeHtml(entry.city)}</strong>` +
-          sortedShows.map(s => `<a class="mp-band" href="${escapeAttr(youtubeMusicUrl(s.band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.band)}</a>${s.date} — ${s.url ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.venue || 'link')}</a>` : escapeHtml(s.venue)}`).join('') +
+          sortedShows.map(s => `<a class="mp-band ${bandPriorityClass(s.band)}" href="${escapeAttr(youtubeMusicUrl(s.band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.band)}</a>${s.date} — ${s.url ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.venue || 'link')}</a>` : escapeHtml(s.venue)}`).join('') +
           `</div>`;
         marker.bindPopup(popupHtml);
         leafletMarkers.push(marker);
@@ -795,6 +825,7 @@
     function applyDatePreset(preset) {
       datePreset = preset;
       const customDateRange = document.getElementById('customDateRange');
+      let weekAnchorDate = null;
 
       if (preset === "all") {
         dateFrom = null; dateTo = null;
@@ -805,15 +836,20 @@
         const dateToEl = document.getElementById('dateTo');
         dateToEl.value = filteredMaxDate();
         dateTo = dateToEl.value || null;
+        weekAnchorDate = dateFrom;
       } else {
         const holiday = SCHOOL_HOLIDAYS[preset];
         dateFrom = holiday.from; dateTo = holiday.to;
         customDateRange.hidden = true;
+        // predefined ranges (school holidays) always show a Saturday-to-
+        // Saturday week in the weekly view, regardless of which weekday
+        // the holiday itself starts on
+        weekAnchorDate = saturdayOnOrAfter(dateFrom);
       }
       // the weekly view's own week pointer is independent of the date filter --
       // jump it to match, otherwise switching to a preset far from the current
       // week leaves the weekly grid showing an empty, unrelated week
-      weekStart = weekAnchor = dateFrom || todayISO();
+      weekStart = weekAnchor = weekAnchorDate || todayISO();
       render();
     }
 
@@ -922,9 +958,9 @@
     });
 
     document.getElementById('weekPrev').addEventListener('click', () => {
-      if (weekStart === weekAnchor) return; // no show data before the anchor day
-      const firstMonday = mondayStrictlyAfter(addDays(weekAnchor, 6));
-      weekStart = (weekStart === firstMonday) ? weekAnchor : addDays(weekStart, -7);
+      const candidate = candidatePrevWeekStart();
+      if (isWeekEntirelyPast(candidate)) return; // previous week would be entirely before today
+      weekStart = candidate;
       render();
     });
     document.getElementById('weekNext').addEventListener('click', () => {
