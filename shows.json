@@ -130,7 +130,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Sepultura",
@@ -151,7 +152,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Thievery Corporation",
@@ -208,7 +210,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Crowbar",
@@ -389,27 +392,6 @@
     },
     "note": "",
     "priority": "II"
-  },
-  {
-    "band": "Kae Tempest",
-    "date": "2026-07-30",
-    "city": "Portlaw",
-    "country": "IE",
-    "venue": "Curraghmore House & Gardens",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2236829-all-together-now/id/42731341-all-together-now-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
   },
   {
     "band": "LTJ Bukem",
@@ -682,28 +664,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
-  },
-  {
-    "band": "Wolfmother",
-    "date": "2026-07-30",
-    "city": "Kassel",
-    "country": "DE",
-    "venue": "Hof Huhnstadt, Breitenbach am Herzberg",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1945619-herzberg/id/43227474-herzberg-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Cate Le Bon",
@@ -882,6 +844,27 @@
     "priority": "II"
   },
   {
+    "band": "Kae Tempest",
+    "date": "2026-07-31",
+    "city": "Portlaw",
+    "country": "IE",
+    "venue": "Curraghmore House",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Markus Lehtsalu",
     "date": "2026-07-31",
     "city": "Tõrva",
@@ -903,7 +886,7 @@
       "hub_city": "Tõrva"
     },
     "note": "",
-    "priority": ""
+    "priority": "est"
   },
   {
     "band": "Mogwai",
@@ -957,7 +940,7 @@
       "hub_city": "Tallinn"
     },
     "note": "",
-    "priority": "I"
+    "priority": "est"
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -1056,27 +1039,6 @@
     "priority": ""
   },
   {
-    "band": "Sepultura",
-    "date": "2026-07-31",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Unibet Arena",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3700463-tallinn-rock/id/42951311-tallinn-rock-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
-  },
-  {
     "band": "Stillbirth",
     "date": "2026-07-31",
     "city": "Dortmund",
@@ -1159,7 +1121,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Bonobo",
@@ -1718,6 +1681,27 @@
     "priority": ""
   },
   {
+    "band": "Sepultura",
+    "date": "2026-08-02",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "Unibet Arena",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.fi/event/tallinn-rock-festival-2026-3-days-fri-317-sun-28-tickets/1864489810?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "The Black Dog",
     "date": "2026-08-02",
     "city": "Amsterdam",
@@ -1836,7 +1820,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Cate Le Bon",
@@ -1933,7 +1918,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Bonobo",
@@ -2114,7 +2100,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Kool & The Gang",
@@ -2159,7 +2146,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Moby",
@@ -2248,7 +2236,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Boko Yout",
@@ -2409,7 +2398,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Kraftwerk",
@@ -2454,7 +2444,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Matt Maltese",
@@ -2595,7 +2586,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Wolfmother",
@@ -2616,7 +2608,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Chat Pile",
@@ -2879,28 +2872,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
-  },
-  {
-    "band": "Lamb of God",
-    "date": "2026-08-06",
-    "city": "Kortrijk",
-    "country": "BE",
-    "venue": "Sportcampus Lange Munte",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/41521-alcatraz/id/42738717-alcatraz-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Meatbodies",
@@ -2921,7 +2894,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Moby",
@@ -3050,7 +3024,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Snapped Ankles",
@@ -3119,7 +3094,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Buzzcocks",
@@ -3402,7 +3378,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "The Exploited",
@@ -3619,7 +3596,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Kool & The Gang",
@@ -3664,7 +3642,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Moby",
@@ -3801,7 +3780,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Ryuichi Sakamoto",
@@ -3822,7 +3802,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Sleaford Mods",
@@ -3927,7 +3908,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Zero T",
@@ -4109,7 +4091,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Morcheeba",
@@ -4243,7 +4226,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Tricky",
@@ -4562,7 +4546,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Meatbodies",
@@ -4583,7 +4568,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Moby",
@@ -4688,7 +4674,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Björk",
@@ -4889,7 +4876,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Kaitlyn Aurelia Smith",
@@ -4910,7 +4898,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Kurt Vile",
@@ -4955,7 +4944,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Meatbodies",
@@ -4976,7 +4966,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Mogwai",
@@ -5401,7 +5392,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Kurt Vile",
@@ -5446,7 +5438,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Moby",
@@ -5617,7 +5610,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Chat Pile",
@@ -5710,7 +5704,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Geese",
@@ -5795,7 +5790,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Lamb of God",
@@ -5816,7 +5812,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Maruja",
@@ -6586,7 +6583,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Colin Stetson",
@@ -6881,7 +6879,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Fontaines D.C.",
@@ -7292,7 +7291,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Cate Le Bon",
@@ -7525,7 +7525,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Buzzcocks",
@@ -8139,7 +8140,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "СОЮЗ",
@@ -8648,7 +8650,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Cate Le Bon",
@@ -9549,7 +9552,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Deftones",
@@ -9948,27 +9952,6 @@
     "priority": ""
   },
   {
-    "band": "Tyler, The Creator",
-    "date": "2026-08-25",
-    "city": "Rho",
-    "country": "IT",
-    "venue": "Fiera Milano Live (FML)",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42841272-tyler-the-creator-at-fiera-milano-live",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
-  },
-  {
     "band": "Wolfmother",
     "date": "2026-08-25",
     "city": "Solothurn",
@@ -9987,7 +9970,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Earl Sweatshirt",
@@ -10198,7 +10182,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Show Me The Body",
@@ -10291,7 +10276,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Tyler, The Creator",
@@ -10336,7 +10322,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Deftones",
@@ -10507,27 +10494,6 @@
     },
     "note": "",
     "priority": "II"
-  },
-  {
-    "band": "Men I Trust",
-    "date": "2026-08-27",
-    "city": "Reading",
-    "country": "GB",
-    "venue": "Richfield Avenue",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/57-reading/id/42760698-reading-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
   },
   {
     "band": "Mr. Scruff",
@@ -10724,7 +10690,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Boko Yout",
@@ -10992,7 +10959,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Kraftwerk",
@@ -11205,27 +11173,6 @@
     },
     "note": "",
     "priority": ""
-  },
-  {
-    "band": "Rosalie Cunningham",
-    "date": "2026-08-28",
-    "city": "Lutterworth",
-    "country": "GB",
-    "venue": "Stanford Hall",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42920362-bailey-zimmerman-at-stanford-hall",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
   },
   {
     "band": "Röyksopp",
@@ -11514,7 +11461,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Danny Brown",
@@ -11611,7 +11559,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Fontaines D.C.",
@@ -11804,7 +11753,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Kraftwerk",
@@ -12299,7 +12249,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Zero T",
@@ -12435,6 +12386,27 @@
     "priority": "I"
   },
   {
+    "band": "Men I Trust",
+    "date": "2026-08-30",
+    "city": "Reading",
+    "country": "GB",
+    "venue": "Richfield Avenue",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/reading-festival-2026-sunday-reading-30-08-2026/event/3700634933FDC51D",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Roni Size",
     "date": "2026-08-30",
     "city": "London",
@@ -12443,6 +12415,28 @@
     "fest": null,
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43197329-roni-size-at-jazz-cafe",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2026-08-30",
+    "city": "Lutterworth",
+    "country": "GB",
+    "venue": "Stanford Hall",
+    "fest": "FESTIVAL",
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/the-long-road-sunday-2026-tickets-1YLXVK?ref=ticketmaster",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -13051,7 +13045,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Shame",
@@ -13412,7 +13407,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Satyricon",
@@ -13625,28 +13621,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
-  },
-  {
-    "band": "Kerala Dust",
-    "date": "2026-09-04",
-    "city": "Torun",
-    "country": "PL",
-    "venue": "NADA Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3731037-nada/id/43195700-nada-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Kruder & Dorfmeister",
@@ -13715,7 +13691,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "II"
   },
   {
     "band": "Night Tapes",
@@ -13760,7 +13737,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Shame",
@@ -14257,7 +14235,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Shimon",
@@ -14513,7 +14492,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "II"
   },
   {
     "band": "Prewn",
@@ -14534,7 +14514,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Shame",
@@ -15026,7 +15007,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Ty Segall",
@@ -15311,7 +15293,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Roger Eno",
@@ -15684,7 +15667,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Kurt Vile",
@@ -16390,7 +16374,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "The Black Keys",
@@ -17118,7 +17103,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Shame",
@@ -17682,7 +17668,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "LTJ Bukem",
@@ -17814,7 +17801,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "The Tangent",
@@ -18467,7 +18455,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Autechre",
@@ -18548,7 +18537,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Luke Vibert",
@@ -18624,7 +18614,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Röyksopp",
@@ -19488,7 +19479,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Yard Act",
@@ -19821,7 +19813,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Gin Lady",
@@ -20200,7 +20193,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Vashti Bunyan",
@@ -20474,6 +20468,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Ed O'Brien",
+    "date": "2026-10-06",
+    "city": "Milan",
+    "country": "IT",
+    "venue": "Teatro Lirico Giorgio Gaber",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.it/biglietti/ed-obrien-milano-06-10-2026/event/y2s96nmkbgk7",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "СОЮЗ",
@@ -21395,7 +21410,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "The Black Dog",
@@ -21698,6 +21714,27 @@
     "priority": ""
   },
   {
+    "band": "Ed O'Brien",
+    "date": "2026-10-10",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/ed-obrien-an-evening-with-blue-morpho-tour-tickets/1655522225?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "John Cooper Clarke",
     "date": "2026-10-10",
     "city": "Poole",
@@ -21936,7 +21973,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Autechre",
@@ -22033,7 +22071,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "John Cooper Clarke",
@@ -22221,7 +22260,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Autechre",
@@ -22260,6 +22300,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Ed O'Brien",
+    "date": "2026-10-12",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.de/event/ed-obrien-an-evening-with-blue-morpho-tour-tickets/1307611199?language=en-us",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Hooverphonic",
@@ -22441,7 +22502,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Autechre",
@@ -22534,7 +22596,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Autechre",
@@ -22809,7 +22872,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "John Cooper Clarke",
@@ -22882,7 +22946,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Sleaford Mods",
@@ -22939,7 +23004,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Temples",
@@ -23076,7 +23142,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Autechre",
@@ -23189,6 +23256,27 @@
     "priority": ""
   },
   {
+    "band": "Ed O'Brien",
+    "date": "2026-10-16",
+    "city": "London",
+    "country": "GB",
+    "venue": "Barbican Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/an-evening-with-ed-obrien-london-16-10-2026/event/3500646BADC54513",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Elephant9",
     "date": "2026-10-16",
     "city": "Dresden",
@@ -23207,28 +23295,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
-  },
-  {
-    "band": "Elephant9",
-    "date": "2026-10-16",
-    "city": "Seraing",
-    "country": "BE",
-    "venue": "OM",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/627439-desertfest/id/43281195-desertfest-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "GoGo Penguin",
@@ -23249,7 +23317,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Hooverphonic",
@@ -23318,7 +23387,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Sleaford Mods",
@@ -23363,7 +23433,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Temples",
@@ -23493,7 +23564,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Autechre",
@@ -23615,7 +23687,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Temples",
@@ -23784,7 +23857,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Temples",
@@ -23877,7 +23951,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Bass Drum of Death",
@@ -24110,7 +24185,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Autechre",
@@ -24541,7 +24617,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Temples",
@@ -25089,7 +25166,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "The Exploited",
@@ -26163,7 +26241,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "John Cooper Clarke",
@@ -26505,7 +26584,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "II"
   },
   {
     "band": "Oranssi Pazuzu",
@@ -26983,7 +27063,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "John Cooper Clarke",
@@ -28020,7 +28101,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Jethro Tull",
@@ -28041,7 +28123,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Mogwai",
@@ -28435,7 +28518,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Hooverphonic",
@@ -28480,7 +28564,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "John Cooper Clarke",
@@ -28820,7 +28905,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Hooverphonic",
@@ -28913,7 +28999,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "II"
   },
   {
     "band": "Panda Bear",
@@ -28982,7 +29069,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Satyricon",
@@ -29182,7 +29270,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Jethro Tull",
@@ -29203,7 +29292,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Mogwai",
@@ -29296,7 +29386,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Tortoise",
@@ -29595,7 +29686,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Igorrr",
@@ -29949,7 +30041,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Geordie Greep",
@@ -30066,7 +30159,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "The Obsessed",
@@ -30165,7 +30259,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Geordie Greep",
@@ -30350,7 +30445,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Sheer Mag",
@@ -30573,7 +30669,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Yard Act",
@@ -30658,7 +30755,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Geordie Greep",
@@ -30869,7 +30967,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Temples",
@@ -30999,7 +31098,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Yard Act",
@@ -31117,7 +31217,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Geordie Greep",
@@ -31248,7 +31349,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Rosalie Cunningham",
@@ -31269,7 +31371,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Temples",
@@ -31447,7 +31550,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Nazareth",
@@ -31560,7 +31664,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Yard Act",
@@ -31681,7 +31786,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -31766,7 +31872,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Yard Act",
@@ -31859,7 +31966,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "GoGo Penguin",
@@ -31880,7 +31988,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Nazareth",
@@ -32052,7 +32161,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Yard Act",
@@ -32128,7 +32238,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "GoGo Penguin",
@@ -32149,7 +32260,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "John Cooper Clarke",
@@ -32290,7 +32402,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Yard Act",
@@ -32335,7 +32448,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "GoGo Penguin",
@@ -32356,7 +32470,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -32418,7 +32533,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slift",
@@ -32651,7 +32767,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Bees Made Honey in the Vein Tree",
@@ -32672,7 +32789,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Boko Yout",
@@ -32733,7 +32851,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Kronos Quartet",
@@ -32754,7 +32873,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Mogwai",
@@ -32884,7 +33004,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slift",
@@ -33098,7 +33219,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Tramhaus",
@@ -33195,7 +33317,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Yard Act",
@@ -33259,7 +33382,7 @@
       "hub_city": "Berlin"
     },
     "note": "",
-    "priority": ""
+    "priority": "est"
   },
   {
     "band": "Boko Yout",
@@ -33618,27 +33741,6 @@
     "priority": "I"
   },
   {
-    "band": "Fulci",
-    "date": "2026-11-22",
-    "city": "Copenhagen",
-    "country": "DK",
-    "venue": "Lille Sal, Pumpehuset",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43110312-master-boot-record-at-lille-sal-pumpehuset",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
-  },
-  {
     "band": "Geordie Greep",
     "date": "2026-11-22",
     "city": "Madrid",
@@ -33687,7 +33789,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Graham Coxon",
@@ -33745,7 +33848,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Nazareth",
@@ -33912,7 +34016,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Geordie Greep",
@@ -34014,7 +34119,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slift",
@@ -34095,7 +34201,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Widowspeak",
@@ -34116,7 +34223,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Yard Act",
@@ -34209,7 +34317,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slift",
@@ -34302,7 +34411,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Yard Act",
@@ -34399,7 +34509,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "GoGo Penguin",
@@ -34420,7 +34531,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Graham Coxon",
@@ -34573,7 +34685,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "BODEGA",
@@ -34838,12 +34951,12 @@
   {
     "band": "Jethro Tull",
     "date": "2026-11-27",
-    "city": "Aarschot",
-    "country": "BE",
-    "venue": "Rillaar Schransstraat",
+    "city": "Poznan",
+    "country": "PL",
+    "venue": "Sala Ziemi Poznań CongressCenter",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43003320-jethro-tull-at-rillaar-schransstraat",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.pl/event/jethro-tull-the-curiosity-tour-tickets/462517483?language=en-us",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -35231,7 +35344,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Nazareth",
@@ -35492,7 +35606,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Jethro Tull",
@@ -35513,7 +35628,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slift",
@@ -35706,7 +35822,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Fulci",
@@ -35727,7 +35844,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Headache",
@@ -35876,7 +35994,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Buzzcocks",
@@ -36081,7 +36200,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Buzzcocks",
@@ -36299,7 +36419,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Buzzcocks",
@@ -36660,7 +36781,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Jazzanova",
@@ -36717,7 +36839,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Fulci",
@@ -36738,7 +36861,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "High On Fire",
@@ -36799,7 +36923,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Fulci",
@@ -36820,7 +36945,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "High On Fire",
@@ -37005,7 +37131,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "High On Fire",
@@ -37129,7 +37256,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "СОЮЗ",
@@ -37187,7 +37315,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "High On Fire",
@@ -37447,7 +37576,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Fulci",
@@ -37468,7 +37598,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "High On Fire",
@@ -37620,7 +37751,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slift",
@@ -37837,7 +37969,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Lebanon Hanover",
@@ -38008,7 +38141,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Leftfield",
@@ -38277,7 +38411,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Underworld",
@@ -38461,7 +38596,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Lamb of God",
@@ -38482,7 +38618,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Lamb of God",
@@ -38503,7 +38640,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Gilla Band",
@@ -38664,7 +38802,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Gilla Band",
@@ -38721,7 +38860,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Slow Pulp",
@@ -38838,7 +38978,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Gilla Band",
@@ -38907,7 +39048,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Rosalie Cunningham",
@@ -38928,7 +39070,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slow Pulp",
@@ -39077,7 +39220,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Rosalie Cunningham",
@@ -39098,7 +39242,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slow Pulp",
@@ -39187,7 +39332,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Slow Pulp",
@@ -39349,7 +39495,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Slow Pulp",
@@ -39564,7 +39711,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Slift",
@@ -40002,7 +40150,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Iceage",
@@ -40063,7 +40212,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Tramhaus",
@@ -40172,7 +40322,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Tramhaus",
@@ -40354,7 +40505,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Protomartyr",
@@ -40484,7 +40636,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Lamb of God",
@@ -40505,7 +40658,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Protomartyr",
@@ -40550,7 +40704,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Lamb of God",
@@ -40571,7 +40726,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Protomartyr",
@@ -40756,7 +40912,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Protomartyr",
@@ -40817,7 +40974,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Rush",
@@ -40910,7 +41068,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Protomartyr",
@@ -41068,7 +41227,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Protomartyr",
@@ -41808,7 +41968,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Lebanon Hanover",
@@ -41889,7 +42050,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Trentemøller",
@@ -44314,7 +44476,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Belako",
@@ -44396,7 +44559,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Belako",
@@ -44626,7 +44790,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Jethro Tull",
@@ -44647,7 +44812,8 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": ""
+    "note": "",
+    "priority": "I"
   },
   {
     "band": "Lynyrd Skynyrd",
