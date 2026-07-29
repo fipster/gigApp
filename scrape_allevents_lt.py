@@ -227,8 +227,8 @@ def main():
             print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
             continue
 
-        print(f"[{i}/{len(artists)}] {artist}")
         html_fragment = search_events(artist)
+        new_count = 0
         for match in CARD_RE.finditer(html_fragment):
             href, block = match.groups()
             show = to_show(artist, href, block, today)
@@ -240,6 +240,8 @@ def main():
             if not common.confirm_inactive_artist_show(show, artist_status):
                 continue
             merged[key] = show
+            new_count += 1
+        print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s)")
 
         common.mark_checked(scrape_state, artist, SOURCE_NAME)
         time.sleep(REQUEST_DELAY)

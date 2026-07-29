@@ -170,9 +170,9 @@ def main():
             print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
             continue
 
-        print(f"[{i}/{len(artists)}] {artist}")
         attraction_id = find_attraction_id(artist)
         time.sleep(REQUEST_DELAY)
+        new_count = 0
         if attraction_id:
             for event in fetch_events(attraction_id):
                 show = to_show(artist, event)
@@ -184,7 +184,11 @@ def main():
                 if not common.confirm_inactive_artist_show(show, artist_status):
                     continue
                 merged[key] = show
+                new_count += 1
             time.sleep(REQUEST_DELAY)
+            print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s)")
+        else:
+            print(f"[{i}/{len(artists)}] {artist} — not found")
 
         common.mark_checked(scrape_state, artist, SOURCE_NAME)
 

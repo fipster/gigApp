@@ -13,7 +13,7 @@ Agitation Free,Album added to library,false,true,I
 AHAB,metall,,,
 Aiden Ayers,Album added to library,,,I
 Air,Album added to library,,,I
-Ajukaja,,,,
+Ajukaja,bestEST,,,est
 Alex Cortiz,,,,
 Alex G,Pehmemad indiaanlased,,,
 Alfa Collective,Album added to library,,,I
@@ -29,14 +29,14 @@ Andy Shauf,Liked song,,,II
 Angel Olsen,,,,
 Anika,Liked song,,,II
 Animal Collective,Liked song,,,II
-Ans Andur,,,,
+Ans Andur,bestEST,,,est
 Antipop Consortium,,false,true,
-ANTS1,,,,
+ANTS1,bestEST,,,est
 Aphex Twin,tasasem teknohõng,,,
 Aphrodite,electro,,true,
 Arabs In Aspic,,,,
 Archy Marshall,Album added to library,,,I
-Argo Vals,Album added to library,,,I
+Argo Vals,Album added to library; bestEST,,,est
 Ariel Pink,Liked song,,,II
 Ariel Pink's Haunted Graffiti,,,true,
 Arp,tasasem teknohõng,,,
@@ -48,7 +48,7 @@ Audioslave,,false,true,
 Aunt Sally,Liked song,false,true,II
 Autechre,tasasem teknohõng,,,
 Autolux,Album added to library,,,I
-Avemaria,,,,
+Avemaria,bestEST,,,est
 Avith Ortega,tasasem teknohõng,,,
 Azizi Gibson,räps,,,
 Baby Mammoth,,,,
@@ -188,7 +188,7 @@ Dengue Dengue Dengue,Album added to library,,,I
 Destroyer,,,,
 Destruction Unit,Liked song,,,II
 Dew8,Album added to library,,,I
-Digital,,,,
+Digital,,,true,
 Digitalism,electro,,,
 DIIV,,,,
 Dillinja,electro,,true,
@@ -267,7 +267,7 @@ Gawd Status,,,,
 "Gawd Status, King Kashmere, Joker Starr, and Jazz T",räps,,true,
 Geese,Album added to library,,,I
 Genesis,,false,true,
-Genialistid,,false,true,
+Genialistid,bestEST,false,true,est
 Genka,räps,,,
 Geordie Greep,Liked song,,,II
 Getšemane,Album added to library,,,I
@@ -277,7 +277,7 @@ Gin Lady,,,,
 Gina X Performance,punk / new wave,,,
 Girlpool,post punkish,false,true,II
 Goat Girl,Album added to library,,,I
-GOGDOG x OUMEEN,Album added to library,,,I
+GOGDOG x OUMEEN,Album added to library; bestEST,,,est
 GoGo Penguin,Album added to library,,,I
 Gojira,metall,,,
 Goldfrapp,Album added to library,,,I
@@ -306,7 +306,7 @@ Hierophants,post punkish,,,II
 High Brian,Album added to library,,,I
 High On Fire,metall,,,
 Hiroshi Suzuki,Album added to library,,,I
-Hive,Album added to library; electro,,true,I
+Hive,Album added to library; electro,,,I
 Holy Wave,Album added to library,,,I
 HOMESHAKE,Liked song,,,II
 Honey Bane,punk / new wave,,,
@@ -317,7 +317,7 @@ Hot Flash Heat Wave,,,,
 House Of Pain,räps,false,true,
 How to destroy angels,,,,
 Howard Devoto,punk / new wave,,,
-HU?,,,,
+HU?,bestEST,,,est
 Hungry Ghosts,Album added to library,,,I
 Hype Williams,tasasem teknohõng,,,
 Hypnosis Negative,Album added to library,,,I
@@ -361,7 +361,7 @@ Jim James,Album added to library,,,I
 Jim Morrison,,false,true,
 Jim Morrison & The Doors,Album added to library,,true,I
 Jimi Hendrix,,false,true,
-Jockstrap,Album added to library; electro,,true,I
+Jockstrap,Album added to library; electro,,,I
 John Adams,,,,
 John Cooper Clarke,post punkish,,,II
 John Maus,Liked song,,,II
@@ -373,7 +373,7 @@ Juana Molina,Album added to library,,,I
 Juleah,,,,
 julie,post punkish,,,II
 Julio Iglesias,Liked song,,,II
-Justice,electro,,true,
+Justice,electro,,,
 Kae Tempest,Album added to library,,,I
 Kaitlyn Aurelia Smith,tasasem teknohõng,,,
 Kalli Talonpoika,post punkish,,,II
@@ -392,7 +392,7 @@ King Britt & Gray,post punkish,,,II
 King Gizzard & The Lizard Wizard,Album added to library,,,I
 King Kooba,,,,
 King Krule,Album added to library,,,I
-Kitty Florentine,,,,
+Kitty Florentine,bestEST,,,est
 Kleenex/LiLiPUT,,,,
 Klute,electro,,true,
 knekelhuis,tasasem teknohõng,,,
@@ -402,11 +402,11 @@ Kraftwerk,Liked song,,,II
 Kreatiivmootor,Album added to library,,,I
 Kronos Quartet,Album added to library,,,I
 Kruder & Dorfmeister,,,,
-Kuradi Saar,,,,
+Kuradi Saar,bestEST,,,est
 Kurious,räps,,,
 Kurt Vile,Album added to library,,,I
-KÕNTS,Album added to library,,,I
-Kõrsikud,,,,
+KÕNTS,Album added to library; bestEST,,,est
+Kõrsikud,bestEST,,,est
 Lamb,,,,
 Lamb of God,prügi,,,
 Lana Del Rey,Album added to library,,,I
@@ -441,7 +441,7 @@ Lynyrd Skynyrd,,,,
 Lyyti,Liked song,,,II
 Léo Ferré,Liked song,false,true,II
 Mac DeMarco,Liked song,,,II
-Machine Girl,electro,,true,
+Machine Girl,electro,,,
 Mad Season,metall,false,true,
 Madlib,räps,,,
 Magazine,punk / new wave,,,
@@ -456,11 +456,11 @@ Marc And The Mambas,Album added to library,false,true,I
 Marc Laidlaw,Album added to library,,,I
 Marching Church,,,,
 Margo Price,Liked song,,,II
-Maria Minerva,,,,
+Maria Minerva,bestEST,,,est
 Marie-Ange Cousin,Liked song,,,II
 Marilyn Manson,metall,,,
-Markus Lehtsalu,,,,
-Marten Kuningas,Album added to library,,,I
+Markus Lehtsalu,bestEST,,,est
+Marten Kuningas,Album added to library; bestEST,,,est
 Martina Topley-Bird,,,,
 Maruja,post punkish,,,II
 Massive Attack,,,,
@@ -487,7 +487,7 @@ Michael Christmas,,,,
 Mild High Club,Album added to library,,,I
 Mild Orange,nikumuss,,,
 Miles Davis,Album added to library,false,true,I
-Miljardid,,,,
+Miljardid,bestEST,,,est
 Milo,räps,,,
 Mind Vision,Album added to library,,,I
 Mink Mussel Creek,,,,
@@ -497,7 +497,7 @@ Misha Panfilov,Liked song,,,II
 Mizo,,,,
 Moa,electro,,true,
 Moby,,,,
-Modeselektor,electro,,true,
+Modeselektor,electro,,,
 Modeselektor & Thom Yorke,tasasem teknohõng,,true,
 Modest Mouse,Liked song,,,II
 Moebius,,,,
@@ -512,14 +512,14 @@ Morphine,Album added to library,false,true,I
 Mort Garson,Album added to library,false,true,I
 Mos Def,räps,,,
 Mothers,,,,
-motonormal,Album added to library,,,I
+motonormal,Album added to library; bestEST,,,est
 Mount Kimbie,Album added to library,,,I
 Mouse On Mars,tasasem teknohõng,,,
 Moving Fusion,electro,,true,
 Mr. Scruff,,,,
 mSdoS,electro,,true,
 Mulatu Astatke / The Heliocentrics,Album added to library,,,I
-Music For Your Plants,Album added to library,,,I
+Music For Your Plants,Album added to library; bestEST,,,est
 Muthi,nikumuss,,,
 Muthi & Mcbaise,nikumuss,,true,
 Mystery Tiime,Album added to library,,,I
@@ -530,7 +530,7 @@ Naomie Klaus,tasasem teknohõng,,,
 Nazareth,,,,
 NC-17,,,,
 Neotropic,,,,
-Nevesis,Album added to library,,,I
+Nevesis,Album added to library; bestEST,,,est
 Nick Cave & The Bad Seeds,,,,
 Nick Leng,nikumuss,,,
 Nicolas Jaar,,,,
@@ -581,7 +581,7 @@ Pinback,Album added to library,,,I
 Pink Floyd,,false,true,
 Pixies,Liked song,,,II
 Plaid,tasasem teknohõng,,,
-Plixid,,,,
+Plixid,bestEST,,,est
 Pond,Pehmemad indiaanlased,,,
 Porches,,,,
 Porcupine Tree,,,,
@@ -625,7 +625,7 @@ Release,metall,,,
 Rene Lavice,electro,,true,
 Renée,Liked song,,,II
 RIP Swirl,tasasem teknohõng,,,
-Riste,,,,
+Riste,bestEST,,,est
 RJD2,,,,
 Roger Eno,tasasem teknohõng,,,
 Roger Waters,Album added to library,,,I
@@ -643,7 +643,7 @@ Rush,metall,,,
 Rustin Man,,,,
 Ryuichi Sakamoto,Album added to library,,,I
 Röyksopp,tasasem teknohõng; electro,,,
-Röövel Ööbik,,,,
+Röövel Ööbik,bestEST,,,est
 S.O.D.,prügi,,,
 S.O.D. Stormtroopers of Death,prügi,,,
 S.P.Y,electro,,true,
@@ -801,7 +801,7 @@ Thom Yorke,Liked song,,,II
 Thou,metall,,,
 Tigran Hamasyan,Album added to library,,,I
 Timber Timbre,Liked song,,,II
-Tintura,,,,
+Tintura,bestEST,,,est
 Tirzah,Liked song,,,II
 Titoks,Album added to library,,,I
 To The Grave,Album added to library,,,I
@@ -841,7 +841,7 @@ U-Ziq,tasasem teknohõng; electro,,,
 U.S. Girls,Liked song,,,II
 Ulrich Schnauss,,,,
 Ultimate Painting,,false,true,
-Ultraísta,electro,,true,
+Ultraísta,electro,,,
 Underworld,Liked song,,,II
 UNKLE,,,,
 Unknown Mortal Orchestra,Album added to library,,,I
@@ -849,7 +849,7 @@ Unknown Mortal Orchestra,Album added to library,,,I
 Uranium Club,post punkish; punk / new wave,,,II
 Vago Sagrado,,,,
 Van Halen,,false,true,
-Vana,,,,
+Vana,bestEST,,,est
 Vanilla Fudge,,,,
 Vanishing Twin,Liked song,,,II
 Vansire,nikumuss,,,
@@ -857,7 +857,7 @@ Various Artists,Album added to library,,true,I
 Vashti Bunyan,,,,
 Vegyn,Liked song,,,II
 Veik,post punkish,,,II
-Venno Loosaar lastelaulud,,,true,
+Venno Loosaar lastelaulud,bestEST,,true,est
 VHS Head,tasasem teknohõng,,,
 Viagra Boys,Album added to library,,,I
 Vicious Circle,electro,,true,
@@ -900,3 +900,4 @@ Zura,Album added to library,,,I
 Кино,,false,true,
 СОЮЗ,,,,
 Юность-21,tasasem teknohõng,,,
+Mart Avi,bestEST,,,est

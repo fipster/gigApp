@@ -156,14 +156,14 @@ def main():
             print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
             continue
 
-        print(f"[{i}/{len(artists)}] {artist}")
         events, not_found = call_actor(artist)
         if not_found:
-            print(f"  not found on Bandsintown, won't retry")
+            print(f"[{i}/{len(artists)}] {artist} — not found, won't retry")
             common.mark_not_found(scrape_state, artist, SOURCE_NAME)
             time.sleep(REQUEST_DELAY)
             continue
 
+        new_count = 0
         for event in events:
             if event.get("type") != "event":
                 continue
@@ -174,6 +174,8 @@ def main():
             if key in existing_by_key:
                 continue
             merged[key] = show
+            new_count += 1
+        print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s)")
 
         common.mark_checked(scrape_state, artist, SOURCE_NAME)
         time.sleep(REQUEST_DELAY)

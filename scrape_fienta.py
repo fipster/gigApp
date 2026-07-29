@@ -163,7 +163,7 @@ def main():
             print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
             continue
 
-        print(f"[{i}/{len(artists)}] {artist}")
+        new_count = 0
         for event in search_events(artist):
             show = to_show(artist, event)
             if show is None:
@@ -174,6 +174,8 @@ def main():
             if not common.confirm_inactive_artist_show(show, artist_status):
                 continue
             merged[key] = show
+            new_count += 1
+        print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s)")
 
         common.mark_checked(scrape_state, artist, SOURCE_NAME)
         time.sleep(REQUEST_DELAY)

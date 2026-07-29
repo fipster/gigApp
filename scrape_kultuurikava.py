@@ -217,8 +217,8 @@ def main():
             print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
             continue
 
-        print(f"[{i}/{len(artists)}] {artist}")
         events = search_events(artist)
+        new_count = 0
         for occurrence in collect_occurrences(artist, events):
             show = to_show(artist, occurrence)
             key = common.show_key(show)
@@ -227,6 +227,8 @@ def main():
             if not common.confirm_inactive_artist_show(show, artist_status):
                 continue
             merged[key] = show
+            new_count += 1
+        print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s)")
 
         common.mark_checked(scrape_state, artist, SOURCE_NAME)
         time.sleep(REQUEST_DELAY)
