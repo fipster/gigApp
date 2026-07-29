@@ -30,6 +30,7 @@ Angel Olsen,,,,
 Anika,Liked song,,,II
 Animal Collective,Liked song,,,II
 Ans Andur,bestEST,,,est
+Ans. Andur,bestEST,,,est
 Antipop Consortium,,false,true,
 ANTS1,bestEST,,,est
 Aphex Twin,tasasem teknohõng,,,
@@ -278,6 +279,8 @@ Gina X Performance,punk / new wave,,,
 Girlpool,post punkish,false,true,II
 Goat Girl,Album added to library,,,I
 GOGDOG x OUMEEN,Album added to library; bestEST,,,est
+GOGDOG,bestEST,,,est
+OUMEEN,bestEST,,,est
 GoGo Penguin,Album added to library,,,I
 Gojira,metall,,,
 Goldfrapp,Album added to library,,,I
@@ -341,7 +344,7 @@ Jaga Jazzist,tasasem teknohõng,,,
 Jaga Jazzist Horns,,,,
 Jagwar Ma,,,,
 Jaimeo Brown Transcendence,,,,
-Jakob Juhkam,Album added to library,,,I
+Jakob Juhkam,Album added to library; bestEST,,,est
 James Chance,Album added to library,false,true,I
 James White & The Blacks,Liked song,,,II
 James Wolfgang Rassakas,Album added to library,,,I
@@ -351,7 +354,7 @@ Jane Birkin,,false,true,
 Jane's Addiction,,,,
 Janis Joplin,,false,true,
 Janko Nilovic,,,,
-Jay Prince feat. SiR & Joyce Wrice,,,,
+Jay Prince feat. SiR & Joyce Wrice,,,true,
 Jazzanova,,,,
 Jello Biafra,Album added to library,,,I
 Jello Biafra & Melvins,metall,,,

@@ -112,6 +112,48 @@
     "priority": "I"
   },
   {
+    "band": "Lamb of God",
+    "date": "2026-07-29",
+    "city": "Wacken",
+    "country": "DE",
+    "venue": "Wacken Open Air",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/774039-wacken/id/42729889-wacken-festival-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Sepultura",
+    "date": "2026-07-29",
+    "city": "Wacken",
+    "country": "DE",
+    "venue": "Wacken Open Air",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/774039-wacken/id/42729889-wacken-festival-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Thievery Corporation",
     "date": "2026-07-29",
     "city": "Amsterdam",
@@ -146,6 +188,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-07-29",
+    "city": "London",
+    "country": "GB",
+    "venue": "O2 Shepherd's Bush Empire",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43127245-wolfmother-at-o2-shepherds-bush-empire",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Crowbar",
@@ -326,6 +389,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Kae Tempest",
+    "date": "2026-07-30",
+    "city": "Portlaw",
+    "country": "IE",
+    "venue": "Curraghmore House & Gardens",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/2236829-all-together-now/id/42731341-all-together-now-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "LTJ Bukem",
@@ -578,6 +662,48 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-07-30",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "O2 Ritz Manchester",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43127171-wolfmother-at-o2-ritz-manchester",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-07-30",
+    "city": "Kassel",
+    "country": "DE",
+    "venue": "Hof Huhnstadt, Breitenbach am Herzberg",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/1945619-herzberg/id/43227474-herzberg-festival-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Cate Le Bon",
@@ -930,6 +1056,27 @@
     "priority": ""
   },
   {
+    "band": "Sepultura",
+    "date": "2026-07-31",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "Unibet Arena",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/3700463-tallinn-rock/id/42951311-tallinn-rock-festival-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Stillbirth",
     "date": "2026-07-31",
     "city": "Dortmund",
@@ -992,6 +1139,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "together PANGEA",
+    "date": "2026-07-31",
+    "city": "Wölfersheim",
+    "country": "DE",
+    "venue": "Die Arena Am See",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43201726-together-pangea-at-die-arena-am-see",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Bonobo",
@@ -1650,6 +1818,27 @@
     "priority": ""
   },
   {
+    "band": "Wolfmother",
+    "date": "2026-08-02",
+    "city": "Heidelberg",
+    "country": "DE",
+    "venue": "halle02",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43131929-wolfmother-at-halle02",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Cate Le Bon",
     "date": "2026-08-03",
     "city": "London",
@@ -1724,6 +1913,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2026-08-03",
+    "city": "Leipzig",
+    "country": "DE",
+    "venue": "Haus Auensee",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42906022-lamb-of-god-at-haus-auensee",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Bonobo",
@@ -1886,6 +2096,27 @@
     "priority": "I"
   },
   {
+    "band": "Jethro Tull",
+    "date": "2026-08-04",
+    "city": "Cambrils",
+    "country": "ES",
+    "venue": "Parc del Pinaret",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43053889-jethro-tull-at-parc-del-pinaret",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Kool & The Gang",
     "date": "2026-08-04",
     "city": "Marciac",
@@ -1908,6 +2139,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-04",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Glad Café",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43328798-meatbodies-at-glad-cafe",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Moby",
@@ -1976,6 +2228,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-04",
+    "city": "Erlangen",
+    "country": "DE",
+    "venue": "E-Werk Erlangen",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43131930-wolfmother-at-ewerk-erlangen",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Boko Yout",
@@ -2163,6 +2436,27 @@
     "priority": "II"
   },
   {
+    "band": "Lamb of God",
+    "date": "2026-08-05",
+    "city": "Aveiro",
+    "country": "PT",
+    "venue": "Vagos Metal Fest 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/1638914-vagos-metal-fest/id/42951204-vagos-metal-fest-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Matt Maltese",
     "date": "2026-08-05",
     "city": "Winterthur",
@@ -2281,6 +2575,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Sepultura",
+    "date": "2026-08-05",
+    "city": "Villena",
+    "country": "ES",
+    "venue": "Polideportivo Municipal",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/75256-leyendas-del-rock/id/42735002-leyendas-del-rock-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-05",
+    "city": "Düsseldorf",
+    "country": "DE",
+    "venue": "zakk Halle",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43131931-wolfmother-at-zakk-halle",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Chat Pile",
@@ -2525,6 +2861,69 @@
     "priority": "I"
   },
   {
+    "band": "Lamb of God",
+    "date": "2026-08-06",
+    "city": "Walton-on-trent",
+    "country": "GB",
+    "venue": "Catton Park",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/19616-bloodstock-open-air/id/42738715-bloodstock-open-air-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2026-08-06",
+    "city": "Kortrijk",
+    "country": "BE",
+    "venue": "Sportcampus Lange Munte",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/41521-alcatraz/id/42738717-alcatraz-festival-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-06",
+    "city": "London",
+    "country": "GB",
+    "venue": "MOTH Club",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43227212-meatbodies-at-moth-club",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Moby",
     "date": "2026-08-06",
     "city": "Tartu",
@@ -2633,6 +3032,27 @@
     "priority": "I"
   },
   {
+    "band": "Sepultura",
+    "date": "2026-08-06",
+    "city": "Walton-on-trent",
+    "country": "GB",
+    "venue": "Catton Park",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/19616-bloodstock-open-air/id/42738715-bloodstock-open-air-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Snapped Ankles",
     "date": "2026-08-06",
     "city": "Caminha",
@@ -2679,6 +3099,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-06",
+    "city": "Bremen",
+    "country": "DE",
+    "venue": "Kulturzentrum Schlachthof",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43131932-wolfmother-at-kulturzentrum-schlachthof",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Buzzcocks",
@@ -2943,6 +3384,27 @@
     "priority": ""
   },
   {
+    "band": "Roni Size",
+    "date": "2026-08-07",
+    "city": "Tunbridge Wells",
+    "country": "GB",
+    "venue": "The Forum",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42860976-roni-size-at-forum",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "The Exploited",
     "date": "2026-08-07",
     "city": "Duffel",
@@ -3139,6 +3601,27 @@
     "priority": ""
   },
   {
+    "band": "Kaitlyn Aurelia Smith",
+    "date": "2026-08-08",
+    "city": "London",
+    "country": "GB",
+    "venue": "Finsbury Park",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42932598-four-tet-at-finsbury-park",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Kool & The Gang",
     "date": "2026-08-08",
     "city": "Milton Keynes",
@@ -3161,6 +3644,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-08",
+    "city": "Rouen",
+    "country": "FR",
+    "venue": "Fury Défendu",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43132821-meatbodies-at-fury-defendu",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Moby",
@@ -3279,6 +3783,27 @@
     "priority": ""
   },
   {
+    "band": "Roni Size",
+    "date": "2026-08-08",
+    "city": "Tunbridge Wells",
+    "country": "GB",
+    "venue": "The Forum",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42861646-roni-size-at-forum",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Ryuichi Sakamoto",
     "date": "2026-08-08",
     "city": "Palanga",
@@ -3382,6 +3907,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-08",
+    "city": "Utrecht",
+    "country": "NL",
+    "venue": "TivoliVredenburg",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43008344-wolfmother-at-tivolivredenburg",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Zero T",
@@ -3545,6 +4091,27 @@
     "priority": "II"
   },
   {
+    "band": "Meatbodies",
+    "date": "2026-08-09",
+    "city": "Nantes",
+    "country": "FR",
+    "venue": "Le Ferrailleur",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43155698-meatbodies-at-le-ferrailleur",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Morcheeba",
     "date": "2026-08-09",
     "city": "Prague",
@@ -3656,6 +4223,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Sepultura",
+    "date": "2026-08-09",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "3Arena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42907730-sepultura-at-3arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Tricky",
@@ -3956,6 +4544,48 @@
     "priority": "II"
   },
   {
+    "band": "Lamb of God",
+    "date": "2026-08-11",
+    "city": "Frederiksberg",
+    "country": "DK",
+    "venue": "K.B. Hallen",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42906024-lamb-of-god-at-kb-hallen",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-11",
+    "city": "Paris",
+    "country": "FR",
+    "venue": "Point Ephémère",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43156244-meatbodies-at-point-ephemere",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Moby",
     "date": "2026-08-11",
     "city": "Dresden",
@@ -4038,6 +4668,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-11",
+    "city": "Graz",
+    "country": "AT",
+    "venue": "Kasemattenbühne",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43019581-wolfmother-at-kasemattenbuhne",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Björk",
@@ -4220,6 +4871,48 @@
     "priority": "I"
   },
   {
+    "band": "Kae Tempest",
+    "date": "2026-08-12",
+    "city": "Winchester",
+    "country": "GB",
+    "venue": "Matterley Estate",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/184646-boomtown-fair/id/43013797-boomtown-fair-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Kaitlyn Aurelia Smith",
+    "date": "2026-08-12",
+    "city": "Reykjavík",
+    "country": "IS",
+    "venue": "Echolalia 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/3797620-echolalia/id/43337787-echolalia-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Kurt Vile",
     "date": "2026-08-12",
     "city": "Paredes De Coura",
@@ -4242,6 +4935,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2026-08-12",
+    "city": "Dinkelsbuhl",
+    "country": "DE",
+    "venue": "Summer Breeze Open Air",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/1014553-summer-breeze/id/42763896-summer-breeze-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-12",
+    "city": "Breda",
+    "country": "NL",
+    "venue": "Mezz",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43111337-meatbodies-at-mezz",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Mogwai",
@@ -4648,6 +5383,27 @@
     "priority": "II"
   },
   {
+    "band": "Jaga Jazzist",
+    "date": "2026-08-13",
+    "city": "Kristiansand",
+    "country": "NO",
+    "venue": "Kilden Teater & Konserthus",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43027434-jaga-jazzist-at-kilden-teater-and-konserthus",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Kurt Vile",
     "date": "2026-08-13",
     "city": "Saint-père-marc-en-poulet",
@@ -4670,6 +5426,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2026-08-13",
+    "city": "Sulingen",
+    "country": "DE",
+    "venue": "Festivalgelände Im Langen Lande",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/74056-reload/id/42811803-reloadfestival-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Moby",
@@ -4820,6 +5597,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-13",
+    "city": "Innsbruck",
+    "country": "AT",
+    "venue": "Music Hall",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43019582-wolfmother-at-music-hall",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Chat Pile",
@@ -4977,6 +5775,48 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Jaga Jazzist",
+    "date": "2026-08-14",
+    "city": "Oslo",
+    "country": "NO",
+    "venue": "Sentrum Scene",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42945545-jaga-jazzist-at-sentrum-scene",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2026-08-14",
+    "city": "Eindhoven",
+    "country": "NL",
+    "venue": "IJssportcentrum Eindhoven",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/1197623-dynamo-metalfest/id/42884365-dynamo-metalfest-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Maruja",
@@ -5728,6 +6568,27 @@
     "priority": "II"
   },
   {
+    "band": "Wolfmother",
+    "date": "2026-08-15",
+    "city": "Munich",
+    "country": "DE",
+    "venue": "Werk, Backstage",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43131933-wolfmother-at-werk-backstage",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Colin Stetson",
     "date": "2026-08-16",
     "city": "Aalborg",
@@ -6000,6 +6861,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-16",
+    "city": "Chemnitz",
+    "country": "DE",
+    "venue": "Kulturbahnhof Chemnitz",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43131934-wolfmother-at-kulturbahnhof-chemnitz",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Fontaines D.C.",
@@ -6390,6 +7272,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-18",
+    "city": "Helsinki",
+    "country": "FI",
+    "venue": "Allas",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43231871-wolfmother-at-allas",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Cate Le Bon",
@@ -7218,6 +8121,27 @@
     "priority": "I"
   },
   {
+    "band": "Wolfmother",
+    "date": "2026-08-20",
+    "city": "Zwolle",
+    "country": "NL",
+    "venue": "Hedon",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43225253-wolfmother-at-hedon",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "СОЮЗ",
     "date": "2026-08-20",
     "city": "Wimborne",
@@ -7704,6 +8628,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-21",
+    "city": "The Hague",
+    "country": "NL",
+    "venue": "Zuiderparktheater",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43008349-wolfmother-at-zuiderparktheater",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Cate Le Bon",
@@ -8586,6 +9531,27 @@
     "priority": "I"
   },
   {
+    "band": "Wolfmother",
+    "date": "2026-08-24",
+    "city": "Rubigen",
+    "country": "CH",
+    "venue": "Mühle Hunziken",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43046693-wolfmother-at-muhle-hunziken",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Deftones",
     "date": "2026-08-25",
     "city": "Dublin",
@@ -8982,6 +9948,48 @@
     "priority": ""
   },
   {
+    "band": "Tyler, The Creator",
+    "date": "2026-08-25",
+    "city": "Rho",
+    "country": "IT",
+    "venue": "Fiera Milano Live (FML)",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42841272-tyler-the-creator-at-fiera-milano-live",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-25",
+    "city": "Solothurn",
+    "country": "CH",
+    "venue": "Kulturfabrik Kofmehl",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43133403-wolfmother-at-kulturfabrik-kofmehl",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Earl Sweatshirt",
     "date": "2026-08-26",
     "city": "Dublin",
@@ -9172,6 +10180,27 @@
     "priority": "II"
   },
   {
+    "band": "Prewn",
+    "date": "2026-08-26",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Grand Social",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43183147-prewn-at-grand-social",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Show Me The Body",
     "date": "2026-08-26",
     "city": "Stockholm",
@@ -9287,6 +10316,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-26",
+    "city": "Lausanne",
+    "country": "CH",
+    "venue": "Les Docks",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43047764-wolfmother-at-les-docks",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Deftones",
@@ -9457,6 +10507,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Men I Trust",
+    "date": "2026-08-27",
+    "city": "Reading",
+    "country": "GB",
+    "venue": "Richfield Avenue",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/57-reading/id/42760698-reading-festival-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Mr. Scruff",
@@ -9633,6 +10704,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-27",
+    "city": "Empoli",
+    "country": "IT",
+    "venue": "Parco di Serravalle",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/377168-beat/id/43063184-beat-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Boko Yout",
@@ -9882,6 +10974,27 @@
     "priority": ""
   },
   {
+    "band": "Kerala Dust",
+    "date": "2026-08-28",
+    "city": "Aarau",
+    "country": "CH",
+    "venue": "Musig i de Altstadt 2026",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43111186-kerala-dust-at-musig-i-de-altstadt-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Kraftwerk",
     "date": "2026-08-28",
     "city": "Dessau-roßlau",
@@ -10092,6 +11205,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2026-08-28",
+    "city": "Lutterworth",
+    "country": "GB",
+    "venue": "Stanford Hall",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42920362-bailey-zimmerman-at-stanford-hall",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Röyksopp",
@@ -10362,6 +11496,27 @@
     "priority": "I"
   },
   {
+    "band": "Wolfmother",
+    "date": "2026-08-28",
+    "city": "Pinarella di Cervia",
+    "country": "IT",
+    "venue": "Rock Planet",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43064471-wolfmother-at-rock-planet",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Danny Brown",
     "date": "2026-08-29",
     "city": "London",
@@ -10436,6 +11591,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Dengue Dengue Dengue",
+    "date": "2026-08-29",
+    "city": "Villelaure",
+    "country": "FR",
+    "venue": "Domaine la Ferme Hi Bride",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43300121-dengue-dengue-dengue-at-domaine-la-ferme-hi-bride",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Fontaines D.C.",
@@ -10608,6 +11784,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Kerala Dust",
+    "date": "2026-08-29",
+    "city": "Rubigen",
+    "country": "CH",
+    "venue": "Mühle Hunziken",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43111188-kerala-dust-at-muhle-hunziken",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Kraftwerk",
@@ -11084,6 +12281,27 @@
     "priority": "I"
   },
   {
+    "band": "Wolfmother",
+    "date": "2026-08-29",
+    "city": "Teramo",
+    "country": "IT",
+    "venue": "Suburbiae Festival 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/3781503-suburbiae/id/43167125-suburbiae-festival-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Zero T",
     "date": "2026-08-29",
     "city": "Brighton",
@@ -11215,6 +12433,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Roni Size",
+    "date": "2026-08-30",
+    "city": "London",
+    "country": "GB",
+    "venue": "The Jazz Cafe",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43197329-roni-size-at-jazz-cafe",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Allah-Las",
@@ -11794,6 +13033,27 @@
     "priority": "II"
   },
   {
+    "band": "Prewn",
+    "date": "2026-09-02",
+    "city": "Brussels",
+    "country": "BE",
+    "venue": "Le Botanique",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43293581-prewn-at-le-botanique",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Shame",
     "date": "2026-09-02",
     "city": "Huddersfield",
@@ -12134,6 +13394,27 @@
     "priority": ""
   },
   {
+    "band": "Prewn",
+    "date": "2026-09-03",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Exchange",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43138328-prewn-at-exchange",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Satyricon",
     "date": "2026-09-03",
     "city": "Lodz",
@@ -12326,6 +13607,48 @@
     "priority": "I"
   },
   {
+    "band": "Kerala Dust",
+    "date": "2026-09-04",
+    "city": "Segrate",
+    "country": "IT",
+    "venue": "Circolo Magnolia (Indoor)",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43155700-kerala-dust-at-circolo-magnolia",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Kerala Dust",
+    "date": "2026-09-04",
+    "city": "Torun",
+    "country": "PL",
+    "venue": "NADA Festival 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/3731037-nada/id/43195700-nada-festival-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Kruder & Dorfmeister",
     "date": "2026-09-04",
     "city": "Bern",
@@ -12374,6 +13697,27 @@
     "priority": "I"
   },
   {
+    "band": "Mandy, Indiana",
+    "date": "2026-09-04",
+    "city": "Brighton",
+    "country": "GB",
+    "venue": "Brighton Psych Fest 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/3641883-brighton-psych-fest/id/43005603-brighton-psych-fest-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Night Tapes",
     "date": "2026-09-04",
     "city": "Brighton",
@@ -12396,6 +13740,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "RIP Swirl",
+    "date": "2026-09-04",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Strange Brew",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43291169-snuggle-at-strange-brew",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Shame",
@@ -12874,6 +14239,27 @@
     "priority": ""
   },
   {
+    "band": "Prewn",
+    "date": "2026-09-05",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Manchester Psych Fest 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/1019263-manchester-psych-fest/id/42772058-manchester-psych-fest-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Shimon",
     "date": "2026-09-05",
     "city": "Barking",
@@ -13107,6 +14493,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Mandy, Indiana",
+    "date": "2026-09-06",
+    "city": "Edinburgh",
+    "country": "GB",
+    "venue": "Summerhall",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/3639224-edinburgh-psych-fest/id/42845804-edinburgh-psych-fest-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Prewn",
+    "date": "2026-09-06",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Stereo",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43138330-prewn-at-stereo",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Shame",
@@ -13580,6 +15008,27 @@
     "priority": "II"
   },
   {
+    "band": "Prewn",
+    "date": "2026-09-08",
+    "city": "London",
+    "country": "GB",
+    "venue": "The Garage",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43011089-prewn-at-garage",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Ty Segall",
     "date": "2026-09-08",
     "city": "London",
@@ -13842,6 +15291,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Prewn",
+    "date": "2026-09-09",
+    "city": "Southsea",
+    "country": "GB",
+    "venue": "Kola",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43159872-prewn-at-kola",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Roger Eno",
@@ -14194,6 +15664,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-09-11",
+    "city": "Belgrade",
+    "country": "RS",
+    "venue": "Sava Centar",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43257703-jethro-tull-at-sava-centar",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Kurt Vile",
@@ -14879,6 +16370,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "TVAM",
+    "date": "2026-09-13",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Paradiso",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43159587-tvam-at-paradiso",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "The Black Keys",
@@ -15588,6 +17100,27 @@
     "priority": ""
   },
   {
+    "band": "Rosalie Cunningham",
+    "date": "2026-09-16",
+    "city": "Birmingham",
+    "country": "GB",
+    "venue": "Castle & Falcon",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42978970-rosalie-cunningham-at-castle-and-falcon",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Shame",
     "date": "2026-09-16",
     "city": "Hamburg",
@@ -16131,6 +17664,27 @@
     "priority": ""
   },
   {
+    "band": "Jaga Jazzist",
+    "date": "2026-09-19",
+    "city": "Sortland",
+    "country": "NO",
+    "venue": "Sortland Jazzfestival",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43027449-jaga-jazzist-at-sortland-jazzfestival",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "LTJ Bukem",
     "date": "2026-09-19",
     "city": "Nottingham",
@@ -16240,6 +17794,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "TVAM",
+    "date": "2026-09-19",
+    "city": "Derby",
+    "country": "GB",
+    "venue": "Invention 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/3794638-invention/id/43308150-invention-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "The Tangent",
@@ -16874,6 +18449,27 @@
     "priority": ""
   },
   {
+    "band": "Rosalie Cunningham",
+    "date": "2026-09-24",
+    "city": "Saint Agathon",
+    "country": "FR",
+    "venue": "La Grande Ourse",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43337244-rosalie-cunningham-at-la-grande-ourse",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Autechre",
     "date": "2026-09-25",
     "city": "Zurich",
@@ -16934,6 +18530,27 @@
     "priority": ""
   },
   {
+    "band": "Fulci",
+    "date": "2026-09-25",
+    "city": "Vicenza",
+    "country": "IT",
+    "venue": "Teatro Astra",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43300739-fulci-at-teatro-astra",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Luke Vibert",
     "date": "2026-09-25",
     "city": "Birmingham",
@@ -16987,6 +18604,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2026-09-25",
+    "city": "Auzits",
+    "country": "FR",
+    "venue": "L'homme Sauvage 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/1956644-lhomme-sauvage/id/42892469-lhomme-sauvage-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Röyksopp",
@@ -17832,6 +19470,27 @@
     "priority": ""
   },
   {
+    "band": "Rosalie Cunningham",
+    "date": "2026-10-01",
+    "city": "Huercal De Almería",
+    "country": "ES",
+    "venue": "Desierto de Tabernas",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/2813014-tabernas-desert-rock-fest/id/43281158-tabernas-desert-rock-fest-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Yard Act",
     "date": "2026-10-01",
     "city": "Paris",
@@ -18142,6 +19801,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-10-03",
+    "city": "Lecce",
+    "country": "IT",
+    "venue": "Officine Cantelmo",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43324775-fulci-at-officine-cantelmo",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Gin Lady",
@@ -18500,6 +20180,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-10-04",
+    "city": "Pozzuoli",
+    "country": "IT",
+    "venue": "Duel Club",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43323976-fulci-at-duel-club",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Vashti Bunyan",
@@ -19676,6 +21377,27 @@
     "priority": "II"
   },
   {
+    "band": "TVAM",
+    "date": "2026-10-09",
+    "city": "Northampton",
+    "country": "GB",
+    "venue": "The Black Prince",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43186841-tvam-at-black-prince",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "The Black Dog",
     "date": "2026-10-09",
     "city": "Sheffield",
@@ -20196,6 +21918,27 @@
     "priority": "II"
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-10-11",
+    "city": "Cardiff",
+    "country": "GB",
+    "venue": "New Theatre Cardiff",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43091675-alice-cooper-at-new-theatre-cardiff",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Autechre",
     "date": "2026-10-11",
     "city": "Milan",
@@ -20270,6 +22013,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-10-11",
+    "city": "Zagreb",
+    "country": "HR",
+    "venue": "Koncertna dvorana Vatroslava Lisinskog",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43257716-jethro-tull-at-koncertna-dvorana-vatroslava-lisinskog",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "John Cooper Clarke",
@@ -20437,6 +22201,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-10-12",
+    "city": "Cambridge",
+    "country": "GB",
+    "venue": "Corn Exchange",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43091707-alice-cooper-at-corn-exchange",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Autechre",
@@ -20638,6 +22423,27 @@
     "priority": ""
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-10-13",
+    "city": "London",
+    "country": "GB",
+    "venue": "London Palladium",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43091762-alice-cooper-at-london-palladium",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Autechre",
     "date": "2026-10-13",
     "city": "Marseille",
@@ -20708,6 +22514,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-10-14",
+    "city": "Brighton",
+    "country": "GB",
+    "venue": "Brighton Dome",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43091732-alice-cooper-at-brighton-dome",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Autechre",
@@ -20964,6 +22791,27 @@
     "priority": ""
   },
   {
+    "band": "Jethro Tull",
+    "date": "2026-10-15",
+    "city": "Herning",
+    "country": "DK",
+    "venue": "MCH Herning Kongrescenter",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42863870-jethro-tull-at-mch-herning-kongrescenter",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "John Cooper Clarke",
     "date": "2026-10-15",
     "city": "London",
@@ -21016,6 +22864,27 @@
     "priority": "II"
   },
   {
+    "band": "Rosalie Cunningham",
+    "date": "2026-10-15",
+    "city": "Pratteln",
+    "country": "CH",
+    "venue": "Z7 Konzertfabrik",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43206426-rosalie-cunningham-at-z7-konzertfabrik",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Sleaford Mods",
     "date": "2026-10-15",
     "city": "Brussels",
@@ -21050,6 +22919,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "TVAM",
+    "date": "2026-10-15",
+    "city": "Sheffield",
+    "country": "GB",
+    "venue": "Yellow Arch Studios",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43187797-tvam-at-yellow-arch-studios",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Temples",
@@ -21168,6 +23058,27 @@
     "priority": ""
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-10-16",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Opera House",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43091730-alice-cooper-at-opera-house",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Autechre",
     "date": "2026-10-16",
     "city": "Lille",
@@ -21278,6 +23189,69 @@
     "priority": ""
   },
   {
+    "band": "Elephant9",
+    "date": "2026-10-16",
+    "city": "Dresden",
+    "country": "DE",
+    "venue": "Jazzclub Tonne",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43264349-elephant9-at-jazzclub-tonne",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Elephant9",
+    "date": "2026-10-16",
+    "city": "Seraing",
+    "country": "BE",
+    "venue": "OM",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/627439-desertfest/id/43281195-desertfest-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "GoGo Penguin",
+    "date": "2026-10-16",
+    "city": "Luxembourg",
+    "country": "LU",
+    "venue": "Den Atelier",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43252239-gogo-penguin-at-den-atelier",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Hooverphonic",
     "date": "2026-10-16",
     "city": "Maasmechelen",
@@ -21326,6 +23300,27 @@
     "priority": ""
   },
   {
+    "band": "Rosalie Cunningham",
+    "date": "2026-10-16",
+    "city": "Stuttgart",
+    "country": "DE",
+    "venue": "Club Zentral",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43210515-rosalie-cunningham-at-club-zentral",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Sleaford Mods",
     "date": "2026-10-16",
     "city": "Esch Sur Alzette",
@@ -21348,6 +23343,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "TVAM",
+    "date": "2026-10-16",
+    "city": "Hebden Bridge",
+    "country": "GB",
+    "venue": "The Trades Club",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43187805-tvam-at-trades-club",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Temples",
@@ -21459,6 +23475,27 @@
     "priority": "II"
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-10-17",
+    "city": "Stockton-on-tees",
+    "country": "GB",
+    "venue": "Stockton Globe",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43091726-alice-cooper-at-stockton-globe",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Autechre",
     "date": "2026-10-17",
     "city": "Nijmegen",
@@ -21558,6 +23595,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "TVAM",
+    "date": "2026-10-17",
+    "city": "Coventry",
+    "country": "GB",
+    "venue": "Just Dropped In",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43187812-tvam-at-just-dropped-in",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Temples",
@@ -21708,6 +23766,27 @@
     "priority": "I"
   },
   {
+    "band": "Rosalie Cunningham",
+    "date": "2026-10-18",
+    "city": "Brussels",
+    "country": "BE",
+    "venue": "Le Botanique",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43293995-rosalie-cunningham-at-le-botanique",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Temples",
     "date": "2026-10-18",
     "city": "Lausanne",
@@ -21778,6 +23857,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-10-19",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Pavilion Theatre",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43091729-alice-cooper-at-pavilion-theatre",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Bass Drum of Death",
@@ -21990,6 +24090,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-10-20",
+    "city": "Wolverhampton",
+    "country": "GB",
+    "venue": "University of Wolverhampton at the Civic Hall",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43091745-alice-cooper-at-university-of-wolverhampton-at-the-civic-hall",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Autechre",
@@ -22948,6 +25069,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "TVAM",
+    "date": "2026-10-23",
+    "city": "Edinburgh",
+    "country": "GB",
+    "venue": "Sneaky Pete's",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43187815-tvam-at-sneaky-petes",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "The Exploited",
@@ -24003,6 +26145,27 @@
     "priority": ""
   },
   {
+    "band": "Jethro Tull",
+    "date": "2026-10-28",
+    "city": "Nijmegen",
+    "country": "NL",
+    "venue": "Concertgebouw De Vereeniging",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43076477-jethro-tull-at-concertgebouw-de-vereeniging",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "John Cooper Clarke",
     "date": "2026-10-28",
     "city": "Liverpool",
@@ -24322,6 +26485,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Mandy, Indiana",
+    "date": "2026-10-29",
+    "city": "Guimaraes",
+    "country": "PT",
+    "venue": "Guimaraes",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43234594-bloodsports-at-unknown-venue",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Oranssi Pazuzu",
@@ -24779,6 +26963,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-10-31",
+    "city": "Rotterdam",
+    "country": "NL",
+    "venue": "de Doelen",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43090682-jethro-tull-at-de-doelen",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "John Cooper Clarke",
@@ -25797,6 +28002,48 @@
     "priority": ""
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-05",
+    "city": "Rillieux-la-Pape",
+    "country": "FR",
+    "venue": "MJC Ô Totem",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43110994-master-boot-record-at-mjc-o-totem",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-11-05",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "Tempodrom",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42876139-jethro-tull-at-tempodrom",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Mogwai",
     "date": "2026-11-05",
     "city": "Liège",
@@ -26170,6 +28417,27 @@
     "priority": "I"
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-06",
+    "city": "Marseille",
+    "country": "FR",
+    "venue": "Le Dodu",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43108635-master-boot-record-at-le-dodu",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Hooverphonic",
     "date": "2026-11-06",
     "city": "Scherpenheuvel",
@@ -26192,6 +28460,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-11-06",
+    "city": "Magdeburg",
+    "country": "DE",
+    "venue": "GETEC Arena Magdeburg",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42876140-jethro-tull-at-getec-arena-magdeburg",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "John Cooper Clarke",
@@ -26513,6 +28802,27 @@
     "priority": "I"
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-07",
+    "city": "Barcelona",
+    "country": "ES",
+    "venue": "Razzmatazz 3",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43110884-master-boot-record-at-razzmatazz-3",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Hooverphonic",
     "date": "2026-11-07",
     "city": "Aalst",
@@ -26585,6 +28895,27 @@
     "priority": ""
   },
   {
+    "band": "Mandy, Indiana",
+    "date": "2026-11-07",
+    "city": "London",
+    "country": "GB",
+    "venue": "Pitchfork Festival: Dalston Takeover 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/3790456-pitchfork-dalston-takeover/id/43260984-pitchfork-festival-dalston-takeover-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Panda Bear",
     "date": "2026-11-07",
     "city": "Bristol",
@@ -26631,6 +28962,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2026-11-07",
+    "city": "Northampton",
+    "country": "GB",
+    "venue": "The Black Prince",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42987230-rosalie-cunningham-at-black-prince",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Satyricon",
@@ -26812,6 +29164,48 @@
     "priority": "II"
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-08",
+    "city": "Toulouse",
+    "country": "FR",
+    "venue": "Le Rex Toulouse",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43129906-master-boot-record-at-le-rex-toulouse",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-11-08",
+    "city": "Zurich",
+    "country": "CH",
+    "venue": "Kongresshaus Zürich",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42807280-jethro-tull-at-kongresshaus-zurich",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Mogwai",
     "date": "2026-11-08",
     "city": "Copenhagen",
@@ -26882,6 +29276,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2026-11-08",
+    "city": "Norwich",
+    "country": "GB",
+    "venue": "Adrian Flux Waterfront",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43002381-rosalie-cunningham-at-adrian-flux-waterfront",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Tortoise",
@@ -27160,6 +29575,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-11-10",
+    "city": "Paris",
+    "country": "FR",
+    "venue": "La Machine du Moulin Rouge",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43110394-master-boot-record-at-la-machine-du-moulin-rouge",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Igorrr",
@@ -27495,6 +29931,27 @@
     "priority": "I"
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-11",
+    "city": "London",
+    "country": "GB",
+    "venue": "The Underworld",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43109809-master-boot-record-at-underworld",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Geordie Greep",
     "date": "2026-11-11",
     "city": "Bordeaux",
@@ -27591,6 +30048,27 @@
     "priority": "II"
   },
   {
+    "band": "Rosalie Cunningham",
+    "date": "2026-11-11",
+    "city": "Southend",
+    "country": "GB",
+    "venue": "Chinnerys",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43200429-rosalie-cunningham-at-chinnerys",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "The Obsessed",
     "date": "2026-11-11",
     "city": "Tallinn",
@@ -27667,6 +30145,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-11-12",
+    "city": "Sheffield",
+    "country": "GB",
+    "venue": "The Corporation",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43109810-master-boot-record-at-corporation",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Geordie Greep",
@@ -27831,6 +30330,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2026-11-12",
+    "city": "London",
+    "country": "GB",
+    "venue": "The Underworld",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42989747-rosalie-cunningham-at-underworld",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Sheer Mag",
@@ -28035,6 +30555,27 @@
     "priority": ""
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-11-12",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Brudenell Social Club",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43150278-widowspeak-at-brudenell-social-club",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Yard Act",
     "date": "2026-11-12",
     "city": "Sheffield",
@@ -28097,6 +30638,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-11-13",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Academy",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43110298-master-boot-record-at-academy",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Geordie Greep",
@@ -28289,6 +30851,27 @@
     "priority": "I"
   },
   {
+    "band": "Rosalie Cunningham",
+    "date": "2026-11-13",
+    "city": "Southampton",
+    "country": "GB",
+    "venue": "The Joiners",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42978307-rosalie-cunningham-at-joiners",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Temples",
     "date": "2026-11-13",
     "city": "Manchester",
@@ -28398,6 +30981,27 @@
     "priority": "I"
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-11-13",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "Workman's Club",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160184-widowspeak-at-workmans-club",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Yard Act",
     "date": "2026-11-13",
     "city": "Manchester",
@@ -28493,6 +31097,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-11-14",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Slay",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43109812-master-boot-record-at-slay",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Geordie Greep",
@@ -28603,6 +31228,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Roni Size",
+    "date": "2026-11-14",
+    "city": "London",
+    "country": "GB",
+    "venue": "HERE at Outernet",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43133184-ragga-twins-at-here-at-outernet",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2026-11-14",
+    "city": "Faversham",
+    "country": "GB",
+    "venue": "The Old Brewery Store",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42979123-rosalie-cunningham-at-old-brewery-store",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Temples",
@@ -28762,6 +31429,27 @@
     "priority": "I"
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-15",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Brudenell Social Club",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43109813-master-boot-record-at-brudenell-social-club",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Nazareth",
     "date": "2026-11-15",
     "city": "Warsaw",
@@ -28852,6 +31540,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-11-15",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "The Rum Shack",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43159863-widowspeak-at-rum-shack",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Yard Act",
@@ -28954,6 +31663,27 @@
     "priority": "I"
   },
   {
+    "band": "GoGo Penguin",
+    "date": "2026-11-16",
+    "city": "London",
+    "country": "GB",
+    "venue": "KOKO",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43122473-gogo-penguin-at-koko",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Psychedelic Porn Crumpets",
     "date": "2026-11-16",
     "city": "Vienna",
@@ -29016,6 +31746,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-11-16",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Pink Room, YES",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43157911-widowspeak-at-pink-room-yes",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Yard Act",
@@ -29088,6 +31839,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-11-17",
+    "city": "Brussels",
+    "country": "BE",
+    "venue": "Le Botanique",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43300858-master-boot-record-at-le-botanique",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "GoGo Penguin",
+    "date": "2026-11-17",
+    "city": "London",
+    "country": "GB",
+    "venue": "KOKO",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43122475-gogo-penguin-at-koko",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Nazareth",
@@ -29241,6 +32034,27 @@
     "priority": "I"
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-11-17",
+    "city": "London",
+    "country": "GB",
+    "venue": "Scala",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43157912-widowspeak-at-scala",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Yard Act",
     "date": "2026-11-17",
     "city": "Nottingham",
@@ -29294,6 +32108,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-11-18",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Melkweg OZ",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43120110-master-boot-record-at-melkweg-oz",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "GoGo Penguin",
+    "date": "2026-11-18",
+    "city": "Saint-Germain-en-Laye",
+    "country": "FR",
+    "venue": "La Clef",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43182714-gogo-penguin-at-la-clef",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "John Cooper Clarke",
@@ -29416,6 +32272,27 @@
     "priority": "I"
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-11-18",
+    "city": "Lille",
+    "country": "FR",
+    "venue": "La Bulle Café",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160189-widowspeak-at-la-bulle-cafe",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Yard Act",
     "date": "2026-11-18",
     "city": "Cambridge",
@@ -29438,6 +32315,48 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Bees Made Honey in the Vein Tree",
+    "date": "2026-11-19",
+    "city": "Osnabrück",
+    "country": "DE",
+    "venue": "Bastard Club",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43227133-bees-made-honey-in-the-vein-tree-at-bastard-club",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "GoGo Penguin",
+    "date": "2026-11-19",
+    "city": "Villeurbanne",
+    "country": "FR",
+    "venue": "TRANSBORDEUR",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43182717-gogo-penguin-at-transbordeur",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -29479,6 +32398,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2026-11-19",
+    "city": "Reading",
+    "country": "GB",
+    "venue": "The Face Bar",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43032674-rosalie-cunningham-at-face-bar",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Slift",
@@ -29693,6 +32633,48 @@
     "priority": "I"
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-11-19",
+    "city": "Paris",
+    "country": "FR",
+    "venue": "POPUP!",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43157982-widowspeak-at-popup",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Bees Made Honey in the Vein Tree",
+    "date": "2026-11-20",
+    "city": "Nijmegen",
+    "country": "NL",
+    "venue": "De Onderbroek",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43151220-bees-made-honey-in-the-vein-tree-at-de-onderbroek",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Boko Yout",
     "date": "2026-11-20",
     "city": "Dublin",
@@ -29731,6 +32713,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-11-20",
+    "city": "Bregenz",
+    "country": "AT",
+    "venue": "Festspielhaus Bregenz",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42922043-jethro-tull-at-festspielhaus-bregenz",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Kronos Quartet",
+    "date": "2026-11-20",
+    "city": "London",
+    "country": "GB",
+    "venue": "Queen Elizabeth Hall - Southbank Centre",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43301120-kronos-quartet-at-queen-elizabeth-hall-southbank-centre",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Mogwai",
@@ -29840,6 +32864,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2026-11-20",
+    "city": "Wolverton",
+    "country": "GB",
+    "venue": "Craufurd Arms",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43032450-rosalie-cunningham-at-craufurd-arms",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Slift",
@@ -30035,6 +33080,27 @@
     "priority": ""
   },
   {
+    "band": "Tigran Hamasyan",
+    "date": "2026-11-20",
+    "city": "Vauréal",
+    "country": "FR",
+    "venue": "Grande Salle, Le Forum",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43240458-tigran-hamasyan-at-grande-salle-le-forum",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Tramhaus",
     "date": "2026-11-20",
     "city": "Schorndorf",
@@ -30109,6 +33175,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-11-20",
+    "city": "Paris",
+    "country": "FR",
+    "venue": "POPUP!",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43263492-widowspeak-at-popup",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Yard Act",
@@ -30531,6 +33618,27 @@
     "priority": "I"
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-22",
+    "city": "Copenhagen",
+    "country": "DK",
+    "venue": "Lille Sal, Pumpehuset",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43110312-master-boot-record-at-lille-sal-pumpehuset",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Geordie Greep",
     "date": "2026-11-22",
     "city": "Madrid",
@@ -30559,6 +33667,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "GoGo Penguin",
+    "date": "2026-11-22",
+    "city": "Limoges",
+    "country": "FR",
+    "venue": "Festival Eclats d'Emil Jazz 2026 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/3782910-eclats-demil-jazz-2026/id/43182721-festival-eclats-demil-jazz-2026-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Graham Coxon",
@@ -30596,6 +33725,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-11-22",
+    "city": "Linz",
+    "country": "AT",
+    "venue": "Brucknerhaus",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42932233-jethro-tull-at-brucknerhaus",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Nazareth",
@@ -30744,6 +33894,27 @@
     "priority": ""
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-11-22",
+    "city": "Milan",
+    "country": "IT",
+    "venue": "Arci Bellezza",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43157986-widowspeak-at-arci-bellezza",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Geordie Greep",
     "date": "2026-11-23",
     "city": "Barcelona",
@@ -30825,6 +33996,27 @@
     "priority": "II"
   },
   {
+    "band": "Jethro Tull",
+    "date": "2026-11-23",
+    "city": "Vienna",
+    "country": "AT",
+    "venue": "Großer Saal, Wiener Konzerthaus",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42922044-jethro-tull-at-grosser-saal-wiener-konzerthaus",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Slift",
     "date": "2026-11-23",
     "city": "Amsterdam",
@@ -30883,6 +34075,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Tigran Hamasyan",
+    "date": "2026-11-23",
+    "city": "Lyon",
+    "country": "FR",
+    "venue": "Auditorium-Orchestre National de Lyon",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43319765-orchestre-national-de-lyon-at-auditoriumorchestre-national-de-lyon",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-11-23",
+    "city": "Zurich",
+    "country": "CH",
+    "venue": "Bogen F",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160194-widowspeak-at-bogen-f",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Yard Act",
@@ -30957,6 +34191,27 @@
     "priority": "II"
   },
   {
+    "band": "GoGo Penguin",
+    "date": "2026-11-24",
+    "city": "Volvic",
+    "country": "FR",
+    "venue": "Salle \"La Source\" Volvic",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43182726-gogo-penguin-at-salle-la-source-volvic",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Slift",
     "date": "2026-11-24",
     "city": "Groningen",
@@ -31027,6 +34282,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-11-24",
+    "city": "Munich",
+    "country": "DE",
+    "venue": "Milla Club",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160199-widowspeak-at-milla-club",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Yard Act",
@@ -31103,6 +34379,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-11-25",
+    "city": "Oslo",
+    "country": "NO",
+    "venue": "John Dee",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43110279-master-boot-record-at-john-dee",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "GoGo Penguin",
+    "date": "2026-11-25",
+    "city": "Montpellier",
+    "country": "FR",
+    "venue": "Rockstore",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43182729-gogo-penguin-at-rockstore",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Graham Coxon",
@@ -31235,6 +34553,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-11-25",
+    "city": "Salzburg",
+    "country": "AT",
+    "venue": "Salzburg Rockhouse",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43159700-widowspeak-at-salzburg-rockhouse",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "BODEGA",
@@ -31495,6 +34834,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-11-27",
+    "city": "Aarschot",
+    "country": "BE",
+    "venue": "Rillaar Schransstraat",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43003320-jethro-tull-at-rillaar-schransstraat",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "John Cooper Clarke",
@@ -31853,6 +35213,27 @@
     "priority": ""
   },
   {
+    "band": "Jethro Tull",
+    "date": "2026-11-28",
+    "city": "Warsaw",
+    "country": "PL",
+    "venue": "Arena Ursynów",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43003316-jethro-tull-at-arena-ursynow",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Nazareth",
     "date": "2026-11-28",
     "city": "Memmingen",
@@ -32093,6 +35474,48 @@
     "priority": ""
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-11-29",
+    "city": "Warsaw",
+    "country": "PL",
+    "venue": "Chmury",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160208-widowspeak-at-chmury",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-11-30",
+    "city": "Zabrze",
+    "country": "PL",
+    "venue": "Dom Muzyki i Tańca",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43003313-jethro-tull-at-dom-muzyki-i-tanca",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Slift",
     "date": "2026-11-30",
     "city": "Zurich",
@@ -32265,6 +35688,48 @@
     "priority": "I"
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-12-01",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "FRANNZ Club",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160209-widowspeak-at-frannz-club",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-12-02",
+    "city": "Riga",
+    "country": "LV",
+    "venue": "Melnā Piektdiena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43203478-master-boot-record-at-melna-piektdiena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Headache",
     "date": "2026-12-02",
     "city": "London",
@@ -32391,6 +35856,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-12-02",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "Hebebühne",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43159105-widowspeak-at-hebebuhne",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Buzzcocks",
@@ -32575,6 +36061,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-12-03",
+    "city": "Malmö",
+    "country": "SE",
+    "venue": "Plan B",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160221-widowspeak-at-plan-b",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Buzzcocks",
@@ -32772,6 +36279,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-12-04",
+    "city": "Gothenburg",
+    "country": "SE",
+    "venue": "Pustervik",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160222-widowspeak-at-pustervik",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Buzzcocks",
@@ -33114,6 +36642,27 @@
     "priority": ""
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-12-05",
+    "city": "Johanneshov",
+    "country": "SE",
+    "venue": "Hus 7",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160227-widowspeak-at-hus-7",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Jazzanova",
     "date": "2026-12-06",
     "city": "Munich",
@@ -33148,6 +36697,48 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-12-06",
+    "city": "Oslo",
+    "country": "NO",
+    "venue": "John Dee",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43158136-widowspeak-at-john-dee",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-12-07",
+    "city": "Vienna",
+    "country": "AT",
+    "venue": "Szene Wien",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43110775-master-boot-record-at-szene-wien",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "High On Fire",
@@ -33188,6 +36779,48 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-12-07",
+    "city": "Copenhagen",
+    "country": "DK",
+    "venue": "Rust",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43158186-widowspeak-at-rust",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-12-08",
+    "city": "Budapest",
+    "country": "HU",
+    "venue": "A38 Ship / A38 Hajó",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43288444-master-boot-record-at-a38-ship-a38-hajo",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "High On Fire",
@@ -33354,6 +36987,27 @@
     "priority": ""
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-12-09",
+    "city": "Utrecht",
+    "country": "NL",
+    "venue": "dB's",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160250-widowspeak-at-dbs",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "High On Fire",
     "date": "2026-12-10",
     "city": "Hamburg",
@@ -33457,6 +37111,27 @@
     "priority": "I"
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-12-10",
+    "city": "Kortrijk",
+    "country": "BE",
+    "venue": "Wilde Westen",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160252-widowspeak-at-wilde-westen",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "СОЮЗ",
     "date": "2026-12-10",
     "city": "Manchester",
@@ -33492,6 +37167,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-12-11",
+    "city": "Lindau",
+    "country": "DE",
+    "venue": "Club Vaudeville",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43110485-master-boot-record-at-club-vaudeville",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "High On Fire",
@@ -33731,6 +37427,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Widowspeak",
+    "date": "2026-12-11",
+    "city": "Hasselt",
+    "country": "BE",
+    "venue": "Club AFF",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160254-widowspeak-at-club-aff",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-12-12",
+    "city": "Aarau",
+    "country": "CH",
+    "venue": "Kiff, Saal",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43110645-master-boot-record-at-kiff-saal",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "High On Fire",
@@ -34081,6 +37819,27 @@
     "priority": "I"
   },
   {
+    "band": "Widowspeak",
+    "date": "2026-12-13",
+    "city": "Tilburg",
+    "country": "NL",
+    "venue": "Hall of Fame",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43160259-widowspeak-at-hall-of-fame",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Lebanon Hanover",
     "date": "2026-12-14",
     "city": "Krakow",
@@ -34229,6 +37988,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2026-12-18",
+    "city": "Bonn",
+    "country": "DE",
+    "venue": "Beethovenhalle Bonn",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43114267-jethro-tull-at-beethovenhalle-bonn",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Leftfield",
@@ -34663,6 +38443,69 @@
     "priority": ""
   },
   {
+    "band": "Lamb of God",
+    "date": "2027-01-16",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "AO Arena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191241-lamb-of-god-at-ao-arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-01-17",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "OVO Hydro",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191260-five-finger-death-punch-at-ovo-hydro",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-01-19",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "3Arena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191242-lamb-of-god-at-3arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Gilla Band",
     "date": "2027-01-20",
     "city": "Paris",
@@ -34803,6 +38646,27 @@
     "priority": "II"
   },
   {
+    "band": "Lamb of God",
+    "date": "2027-01-22",
+    "city": "Birmingham",
+    "country": "GB",
+    "venue": "BP Pulse Live",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191261-five-finger-death-punch-at-bp-pulse-live",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Gilla Band",
     "date": "2027-01-23",
     "city": "Amsterdam",
@@ -34837,6 +38701,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-01-23",
+    "city": "London",
+    "country": "GB",
+    "venue": "The O2",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43202549-five-finger-death-punch-at-o2",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Slow Pulp",
@@ -34935,6 +38820,27 @@
     "priority": "II"
   },
   {
+    "band": "Lamb of God",
+    "date": "2027-01-26",
+    "city": "Nuremberg",
+    "country": "DE",
+    "venue": "PSD Bank Nürnberg Arena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191244-lamb-of-god-at-psd-bank-nurnberg-arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Gilla Band",
     "date": "2027-01-27",
     "city": "Copenhagen",
@@ -34981,6 +38887,48 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-01-27",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "Barclays Arena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191245-lamb-of-god-at-barclays-arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2027-01-27",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Rebellion",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43146500-rosalie-cunningham-at-rebellion",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Slow Pulp",
@@ -35111,6 +39059,48 @@
     "priority": ""
   },
   {
+    "band": "Lamb of God",
+    "date": "2027-01-29",
+    "city": "Lodz",
+    "country": "PL",
+    "venue": "Atlas Arena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191246-lamb-of-god-at-atlas-arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2027-01-29",
+    "city": "Newcastle Upon Tyne",
+    "country": "GB",
+    "venue": "The Grove",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/42978049-rosalie-cunningham-at-grove",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Slow Pulp",
     "date": "2027-01-29",
     "city": "Glasgow",
@@ -35177,6 +39167,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2027-01-30",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Lending Room",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43146499-rosalie-cunningham-at-lending-room",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Slow Pulp",
@@ -35318,6 +39329,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-02-02",
+    "city": "Munich",
+    "country": "DE",
+    "venue": "Olympiahalle München",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191247-lamb-of-god-at-olympiahalle-munchen",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Slow Pulp",
@@ -35512,6 +39544,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-02-04",
+    "city": "Stuttgart",
+    "country": "DE",
+    "venue": "Hanns-Martin-Schleyer-Halle",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191248-lamb-of-god-at-hannsmartinschleyerhalle",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Slift",
@@ -35931,6 +39984,27 @@
     "priority": "II"
   },
   {
+    "band": "Lamb of God",
+    "date": "2027-02-07",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "AFAS Live",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191264-lamb-of-god-at-afas-live",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Iceage",
     "date": "2027-02-08",
     "city": "Berlin",
@@ -35969,6 +40043,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-02-08",
+    "city": "Vorst",
+    "country": "BE",
+    "venue": "Vorst Nationaal/Forest National",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191249-lamb-of-god-at-vorst-nationaalforest-national",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Tramhaus",
@@ -36057,6 +40152,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-02-10",
+    "city": "Paris",
+    "country": "FR",
+    "venue": "ACCOR ARENA",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191250-lamb-of-god-at-accor-arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Tramhaus",
@@ -36220,6 +40336,27 @@
     "priority": "II"
   },
   {
+    "band": "Lamb of God",
+    "date": "2027-02-12",
+    "city": "Zurich",
+    "country": "CH",
+    "venue": "Hallenstadion",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191251-lamb-of-god-at-hallenstadion",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Protomartyr",
     "date": "2027-02-12",
     "city": "Glasgow",
@@ -36329,6 +40466,48 @@
     "priority": "I"
   },
   {
+    "band": "together PANGEA",
+    "date": "2027-02-13",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "Hotel & Restaurant Neu-Helgoland",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43040285-together-pangea-at-hotel-and-restaurant-neuhelgoland",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-02-14",
+    "city": "Vienna",
+    "country": "AT",
+    "venue": "Wiener Stadthalle",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191252-lamb-of-god-at-wiener-stadthalle",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Protomartyr",
     "date": "2027-02-15",
     "city": "Bristol",
@@ -36351,6 +40530,48 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2027-02-15",
+    "city": "Verviers",
+    "country": "BE",
+    "venue": "Spirit of 66",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43276654-rosalie-cunningham-at-spirit-of-66",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-02-16",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "Uber Arena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191253-lamb-of-god-at-uber-arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Protomartyr",
@@ -36517,6 +40738,27 @@
     "priority": "II"
   },
   {
+    "band": "Lamb of God",
+    "date": "2027-02-19",
+    "city": "Fornebu",
+    "country": "NO",
+    "venue": "Unity Arena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191254-lamb-of-god-at-unity-arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Protomartyr",
     "date": "2027-02-19",
     "city": "Paris",
@@ -36555,6 +40797,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2027-02-19",
+    "city": "Plauen",
+    "country": "DE",
+    "venue": "Malzhaus",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43187502-rosalie-cunningham-at-malzhaus",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Rush",
@@ -36627,6 +40890,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-02-20",
+    "city": "Stockholm",
+    "country": "SE",
+    "venue": "Avicii Arena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191255-lamb-of-god-at-avicii-arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Protomartyr",
@@ -36764,6 +41048,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2027-02-22",
+    "city": "Helsinki",
+    "country": "FI",
+    "venue": "Veikkaus Arena",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Protomartyr",
@@ -37485,6 +41790,27 @@
     "priority": "I"
   },
   {
+    "band": "Jethro Tull",
+    "date": "2027-03-06",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "Saal 1, Congress Center Hamburg (CCH)",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43204234-jethro-tull-at-saal-1-congress-center-hamburg",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Lebanon Hanover",
     "date": "2027-03-06",
     "city": "Jena",
@@ -37543,6 +41869,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2027-03-07",
+    "city": "Bielefeld",
+    "country": "DE",
+    "venue": "Stadthalle",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43204235-jethro-tull-at-stadthalle",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Trentemøller",
@@ -39949,6 +44296,27 @@
     "priority": "II"
   },
   {
+    "band": "Rosalie Cunningham",
+    "date": "2027-05-28",
+    "city": "London",
+    "country": "GB",
+    "venue": "The Underworld",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43296086-asomvel-at-underworld",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Belako",
     "date": "2027-05-29",
     "city": "San Sebastián",
@@ -40008,6 +44376,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2027-05-29",
+    "city": "London",
+    "country": "GB",
+    "venue": "The Underworld",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43296087-asomvel-at-underworld",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Belako",
@@ -40217,6 +44606,48 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2027-07-06",
+    "city": "Stuttgart",
+    "country": "DE",
+    "venue": "Beethoven-Saal, Liederhalle",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43204236-jethro-tull-at-beethovensaal-liederhalle",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2027-07-07",
+    "city": "Munich",
+    "country": "DE",
+    "venue": "Isarphilharmonie im Gasteig HP8",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43105654-jethro-tull-at-isarphilharmonie-im-gasteig-hp8",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Lynyrd Skynyrd",
