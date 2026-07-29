@@ -65,7 +65,7 @@ def normalize_band(band):
     return BAND_NAME_ALIASES.get(band, band)
 
 
-SOURCE_PRIORITY = {"Bandsintown": 0, "Ticketmaster": 1, "Songkick": 2}
+SOURCE_PRIORITY = {"Skene": 0, "Bandsintown": 1, "Ticketmaster": 2, "Songkick": 3}
 
 
 def resolve_same_date_conflicts(shows):

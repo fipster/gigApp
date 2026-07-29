@@ -16,6 +16,7 @@ import scrape_fienta
 import scrape_kultuurikava
 import scrape_allevents_lt
 import scrape_songkick
+import scrape_skene
 import scrape_bandsintown
 import shows_common as common
 import enrich_flights
@@ -26,6 +27,7 @@ FREE_SCRAPERS = [
     scrape_kultuurikava,
     scrape_allevents_lt,
     scrape_songkick,
+    scrape_skene,
 ]
 
 PAID_SCRAPERS = [

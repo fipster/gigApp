@@ -123,12 +123,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Braşov"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Braşov"
     },
     "note": ""
   },
@@ -144,12 +146,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wacken"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wacken"
     },
     "note": "",
     "priority": ""
@@ -200,17 +204,76 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43127245-wolfmother-at-o2-shepherds-bush-empire",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Buzhold",
+    "date": "2026-07-30",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "Kotka Kultuurimaja",
+    "fest": null,
+    "source": "Skene",
+    "url": "https://www.facebook.com/events/954597880962342",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Tallinn"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tallinn"
+    },
+    "note": ""
   },
   {
     "band": "Crowbar",
@@ -655,13 +718,28 @@
     "url": "https://www.songkick.com/concerts/43127171-wolfmother-at-o2-ritz-manchester",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "note": "",
     "priority": "I"
@@ -852,14 +930,32 @@
     "source": "Ticketmaster",
     "url": "https://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "note": ""
   },
@@ -1040,21 +1136,29 @@
   {
     "band": "Sepultura",
     "date": "2026-07-31",
-    "city": "Põhja-tallinn",
+    "city": "Tallinn",
     "country": "EE",
-    "venue": "Tallinn Rock Festival 2026",
+    "venue": "Unibet Arena kvartal",
     "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/107703204?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "source": "Skene",
+    "url": "https://www.facebook.com/events/1197838468342376/",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tallinn"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -1134,12 +1238,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wölfersheim"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wölfersheim"
     },
     "note": "",
     "priority": "I"
@@ -1276,12 +1382,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wacken"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wacken"
     },
     "note": ""
   },
@@ -1321,12 +1429,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Beelen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Beelen"
     },
     "note": ""
   },
@@ -1476,14 +1586,32 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/107703198?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 30,
+      "carriers": [
+        {
+          "name": "Finnair",
+          "iata": "AY"
+        }
+      ],
+      "hub_city": "Helsinki"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 30,
+      "carriers": [
+        {
+          "name": "Finnair",
+          "iata": "AY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Helsinki"
     },
     "note": ""
   },
@@ -1635,12 +1763,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Breitenbach Am Herzberg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Breitenbach Am Herzberg"
     },
     "note": ""
   },
@@ -1754,14 +1884,28 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108107734?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Amsterdam"
     },
     "note": ""
   },
@@ -1804,27 +1948,6 @@
     },
     "note": "",
     "priority": ""
-  },
-  {
-    "band": "Sepultura",
-    "date": "2026-08-02",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Unibet Arena",
-    "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.fi/event/tallinn-rock-festival-2026-3-days-fri-317-sun-28-tickets/1864489810?language=en-us",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": ""
   },
   {
     "band": "The Black Dog",
@@ -1938,12 +2061,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Heidelberg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Heidelberg"
     },
     "note": "",
     "priority": "I"
@@ -2036,12 +2161,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leipzig"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leipzig"
     },
     "note": "",
     "priority": ""
@@ -2218,12 +2345,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cambrils"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cambrils"
     },
     "note": "",
     "priority": "I"
@@ -2264,12 +2393,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": "",
     "priority": ""
@@ -2354,12 +2485,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Metropolitan City Of Bologna"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Metropolitan City Of Bologna"
     },
     "note": ""
   },
@@ -2375,12 +2508,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Erlangen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Erlangen"
     },
     "note": "",
     "priority": "I"
@@ -2537,12 +2672,20 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tallinn"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tallinn"
     },
     "note": "",
     "priority": "I"
@@ -2583,12 +2726,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Vagos"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Vagos"
     },
     "note": ""
   },
@@ -2628,12 +2773,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": ""
   },
@@ -2712,26 +2859,25 @@
   {
     "band": "Satyricon",
     "date": "2026-08-05",
-    "city": "Aveiro",
-    "country": "PT",
-    "venue": "Vagos Metal Fest 2026",
+    "city": "Jaroměř",
+    "country": "CZ",
+    "venue": "Pevnost Josefov",
     "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1638914-vagos-metal-fest/id/42951204-vagos-metal-fest-2026",
+    "source": "Skene",
+    "url": "https://brutalassault.cz/en",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Aveiro"
+      "hub_city": "Jaroměř"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Aveiro"
+      "hub_city": "Jaroměř"
     },
-    "note": "",
-    "priority": "I"
+    "note": ""
   },
   {
     "band": "Sepultura",
@@ -2745,12 +2891,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Villena"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Villena"
     },
     "note": "",
     "priority": ""
@@ -2765,14 +2913,29 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43131931-wolfmother-at-zakk-halle",
     "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 150,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Eurowings",
+          "iata": "EW"
+        }
+      ],
+      "hub_city": "Düsseldorf"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Düsseldorf"
     },
     "note": "",
     "priority": "I"
@@ -3031,12 +3194,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Walton-on-trent"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Walton-on-trent"
     },
     "note": "",
     "priority": ""
@@ -3051,14 +3216,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43227212-meatbodies-at-moth-club",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": ""
@@ -3231,12 +3426,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bremen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bremen"
     },
     "note": "",
     "priority": "I"
@@ -3421,12 +3618,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Catton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Catton"
     },
     "note": ""
   },
@@ -3536,12 +3735,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Chipstead"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Chipstead"
     },
     "note": ""
   },
@@ -3751,14 +3952,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/42932598-four-tet-at-finsbury-park",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": ""
@@ -3799,12 +4030,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Rouen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Rouen"
     },
     "note": "",
     "priority": ""
@@ -3937,12 +4170,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tunbridge Wells"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tunbridge Wells"
     },
     "note": "",
     "priority": ""
@@ -3959,12 +4194,20 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Palanga"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Palanga"
     },
     "note": "",
     "priority": "I"
@@ -3981,12 +4224,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Walton-on-trent"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Walton-on-trent"
     },
     "note": ""
   },
@@ -4086,12 +4331,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Utrecht"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Utrecht"
     },
     "note": "",
     "priority": "I"
@@ -4245,12 +4492,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kortrijk"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kortrijk"
     },
     "note": ""
   },
@@ -4290,12 +4539,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nantes"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nantes"
     },
     "note": "",
     "priority": ""
@@ -4423,14 +4674,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/42907730-sepultura-at-3arena",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "note": "",
     "priority": ""
@@ -4745,12 +5014,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Frederiksberg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Frederiksberg"
     },
     "note": "",
     "priority": ""
@@ -4765,14 +5036,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43156244-meatbodies-at-point-ephemere",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Transavia",
+          "iata": "HV"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "note": "",
     "priority": ""
@@ -4873,12 +5162,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Graz"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Graz"
     },
     "note": "",
     "priority": "I"
@@ -4893,14 +5184,44 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/107860174?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -5096,12 +5417,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Winchester"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Winchester"
     },
     "note": "",
     "priority": "I"
@@ -5118,12 +5441,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Hafnarfjörður"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Hafnarfjörður"
     },
     "note": ""
   },
@@ -5163,12 +5488,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dinkelsbuhl"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dinkelsbuhl"
     },
     "note": "",
     "priority": ""
@@ -5185,12 +5512,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Breda"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Breda"
     },
     "note": "",
     "priority": ""
@@ -5491,12 +5820,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dinkelsbühl"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dinkelsbühl"
     },
     "note": ""
   },
@@ -5632,12 +5963,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kristiansand"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kristiansand"
     },
     "note": "",
     "priority": ""
@@ -5678,12 +6011,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sulingen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sulingen"
     },
     "note": "",
     "priority": ""
@@ -5850,12 +6185,21 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Innsbruck"
     },
     "flightRIX": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": null,
+      "seasonal_months": "Dec–Mar",
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Innsbruck"
     },
     "note": "",
     "priority": "I"
@@ -5872,12 +6216,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
     },
     "note": ""
   },
@@ -5965,12 +6311,20 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Palanga"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Palanga"
     },
     "note": "",
     "priority": "I"
@@ -6049,14 +6403,36 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/42945545-jaga-jazzist-at-sentrum-scene",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 90,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Oslo"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 90,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Oslo"
     },
     "note": "",
     "priority": ""
@@ -6073,12 +6449,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wittelshofen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wittelshofen"
     },
     "note": ""
   },
@@ -6142,12 +6520,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Seelbach Bei Hamm"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Seelbach Bei Hamm"
     },
     "note": ""
   },
@@ -6307,12 +6687,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Ennetmoos"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Ennetmoos"
     },
     "note": ""
   },
@@ -6328,12 +6710,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Scarborough"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Scarborough"
     },
     "note": ""
   },
@@ -6763,12 +7147,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Eindhoven"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Eindhoven"
     },
     "note": ""
   },
@@ -6784,12 +7170,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kemmental"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kemmental"
     },
     "note": ""
   },
@@ -6946,14 +7334,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43131933-wolfmother-at-werk-backstage",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Munich"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Munich"
     },
     "note": "",
     "priority": "I"
@@ -7128,12 +7530,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Vaduz"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Vaduz"
     },
     "note": ""
   },
@@ -7265,12 +7669,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Chemnitz"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Chemnitz"
     },
     "note": "",
     "priority": "I"
@@ -7287,12 +7693,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -7443,13 +7851,28 @@
     "url": "https://www.bandsintown.com/e/107860211?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -7631,12 +8054,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Poznań"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Poznań"
     },
     "note": ""
   },
@@ -7738,14 +8163,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43231871-wolfmother-at-allas",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 30,
+      "carriers": [
+        {
+          "name": "Finnair",
+          "iata": "AY"
+        }
+      ],
+      "hub_city": "Helsinki"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 30,
+      "carriers": [
+        {
+          "name": "Finnair",
+          "iata": "AY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Helsinki"
     },
     "note": "",
     "priority": "I"
@@ -7761,13 +8204,22 @@
     "url": "https://www.bandsintown.com/e/107860223?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 190,
+      "seasonal_months": "Mar–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Birmingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 190,
+      "hub_city": "Birmingham"
     },
     "note": ""
   },
@@ -7947,12 +8399,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nürnberg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nürnberg"
     },
     "note": ""
   },
@@ -8016,12 +8470,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Are"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Are"
     },
     "note": "",
     "priority": "I"
@@ -8439,12 +8895,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bratislava"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bratislava"
     },
     "note": ""
   },
@@ -8652,12 +9110,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Zwolle"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Zwolle"
     },
     "note": "",
     "priority": "I"
@@ -8698,12 +9158,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Colchester"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Colchester"
     },
     "note": ""
   },
@@ -8927,12 +9389,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Ulm"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Ulm"
     },
     "note": ""
   },
@@ -9204,12 +9668,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "The Hague"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "The Hague"
     },
     "note": "",
     "priority": "I"
@@ -9226,12 +9692,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Halifax"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Halifax"
     },
     "note": ""
   },
@@ -9523,12 +9991,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lottum"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lottum"
     },
     "note": ""
   },
@@ -9592,12 +10062,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Crickhowell"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Crickhowell"
     },
     "note": ""
   },
@@ -9637,12 +10109,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Maastricht"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Maastricht"
     },
     "note": ""
   },
@@ -10054,12 +10528,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lutterworth"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lutterworth"
     },
     "note": ""
   },
@@ -10211,12 +10687,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Rubigen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Rubigen"
     },
     "note": "",
     "priority": "I"
@@ -10233,12 +10711,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nuremberg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nuremberg"
     },
     "note": ""
   },
@@ -10650,12 +11130,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Solothurn"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Solothurn"
     },
     "note": "",
     "priority": "I"
@@ -10670,14 +11152,32 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/107860255?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Transavia",
+          "iata": "HV"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "note": ""
   },
@@ -10881,14 +11381,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43183147-prewn-at-grand-social",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "note": "",
     "priority": "I"
@@ -10977,12 +11495,20 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tallinn"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tallinn"
     },
     "note": "",
     "priority": "I"
@@ -11023,12 +11549,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lausanne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lausanne"
     },
     "note": "",
     "priority": "I"
@@ -11391,12 +11919,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Empoli"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Empoli"
     },
     "note": "",
     "priority": "I"
@@ -11413,12 +11943,21 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cologne"
     },
     "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": null,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Cologne"
     },
     "note": ""
   },
@@ -11681,12 +12220,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Aarau"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Aarau"
     },
     "note": "",
     "priority": "I"
@@ -12183,12 +12724,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cervia"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cervia"
     },
     "note": ""
   },
@@ -12280,15 +12823,46 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Villelaure"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Villelaure"
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Elephants From Neptune",
+    "date": "2026-08-29",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "Helitehas",
+    "fest": null,
+    "source": "Skene",
+    "url": "https://www.facebook.com/events/883197287964317",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Tallinn"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tallinn"
+    },
+    "note": ""
   },
   {
     "band": "Fontaines D.C.",
@@ -12474,12 +13048,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Rubigen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Rubigen"
     },
     "note": "",
     "priority": "I"
@@ -12970,12 +13546,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Teramo"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Teramo"
     },
     "note": "",
     "priority": "I"
@@ -13014,14 +13592,28 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/107860272?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "note": ""
   },
@@ -13113,14 +13705,32 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108335872?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Transavia",
+          "iata": "HV"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "note": ""
   },
@@ -13165,14 +13775,44 @@
     "source": "Ticketmaster",
     "url": "https://www.ticketmaster.co.uk/reading-festival-2026-sunday-reading-30-08-2026/event/3700634933FDC51D",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -13186,14 +13826,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43197329-roni-size-at-jazz-cafe",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": ""
@@ -13210,12 +13880,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bottesford"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bottesford"
     },
     "note": ""
   },
@@ -13451,12 +14123,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Novegro-tregarezzo"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Novegro-tregarezzo"
     },
     "note": ""
   },
@@ -13584,12 +14258,21 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": null,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Cologne"
     },
     "note": ""
   },
@@ -13657,12 +14340,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Este"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Este"
     },
     "note": ""
   },
@@ -13869,14 +14554,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43293581-prewn-at-le-botanique",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 160,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Brussels"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 160,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Brussels"
     },
     "note": "",
     "priority": "I"
@@ -14033,12 +14732,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Pula"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Pula"
     },
     "note": ""
   },
@@ -14254,12 +14955,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": "",
     "priority": "I"
@@ -14468,12 +15171,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Segrate"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Segrate"
     },
     "note": "",
     "priority": "I"
@@ -14538,12 +15243,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "note": "",
     "priority": "II"
@@ -14584,12 +15291,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tollard Royal"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tollard Royal"
     },
     "note": ""
   },
@@ -14605,12 +15314,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": "",
     "priority": ""
@@ -14724,12 +15435,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "St. Pölten"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "St. Pölten"
     },
     "note": ""
   },
@@ -14955,12 +15668,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Toruń"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Toruń"
     },
     "note": ""
   },
@@ -15023,13 +15738,28 @@
     "url": "https://www.bandsintown.com/e/1039395537?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "note": ""
   },
@@ -15165,13 +15895,28 @@
     "url": "https://www.songkick.com/festivals/1019263-manchester-psych-fest/id/42772058-manchester-psych-fest-2026",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "note": "",
     "priority": "I"
@@ -15321,13 +16066,32 @@
     "url": "https://www.bandsintown.com/e/108177062?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 130,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Eurowings",
+          "iata": "EW"
+        }
+      ],
+      "hub_city": "Prague"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 130,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Prague"
     },
     "note": ""
   },
@@ -15443,13 +16207,28 @@
     "url": "https://www.songkick.com/festivals/3639224-edinburgh-psych-fest/id/42845804-edinburgh-psych-fest-2026",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 175,
+      "seasonal_months": "Mar–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Edinburgh"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 175,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Edinburgh"
     },
     "note": "",
     "priority": "II"
@@ -15466,12 +16245,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": "",
     "priority": "I"
@@ -15957,14 +16738,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43011089-prewn-at-garage",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
@@ -16245,12 +17056,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Portsmouth"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Portsmouth"
     },
     "note": ""
   },
@@ -16450,12 +17263,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Woodmancote"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Woodmancote"
     },
     "note": ""
   },
@@ -16639,12 +17454,20 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Belgrade"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Belgrade"
     },
     "note": "",
     "priority": "I"
@@ -16746,12 +17569,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Orléans"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Orléans"
     },
     "note": ""
   },
@@ -17062,12 +17887,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Heusden Gem Asten"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Heusden Gem Asten"
     },
     "note": ""
   },
@@ -17107,12 +17934,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -17409,12 +18238,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nieuwpoort"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nieuwpoort"
     },
     "note": ""
   },
@@ -17428,14 +18259,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43159587-tvam-at-paradiso",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Amsterdam"
     },
     "note": "",
     "priority": "I"
@@ -17883,12 +18728,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "St. Gallen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "St. Gallen"
     },
     "note": ""
   },
@@ -18180,12 +19027,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Freiburg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Freiburg"
     },
     "note": ""
   },
@@ -18200,13 +19049,22 @@
     "url": "https://www.songkick.com/concerts/42978970-rosalie-cunningham-at-castle-and-falcon",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 190,
+      "seasonal_months": "Mar–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Birmingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 190,
+      "hub_city": "Birmingham"
     },
     "note": "",
     "priority": "I"
@@ -18372,12 +19230,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "San Carlos"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "San Carlos"
     },
     "note": ""
   },
@@ -18787,12 +19647,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sortland"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sortland"
     },
     "note": "",
     "priority": ""
@@ -18920,12 +19782,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Derby"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Derby"
     },
     "note": "",
     "priority": "I"
@@ -19574,12 +20438,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Saint Agathon"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Saint Agathon"
     },
     "note": "",
     "priority": "I"
@@ -19656,12 +20522,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Vicenza"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Vicenza"
     },
     "note": "",
     "priority": "I"
@@ -19733,12 +20601,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Auzits"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Auzits"
     },
     "note": "",
     "priority": "I"
@@ -19955,12 +20825,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cervia"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cervia"
     },
     "note": ""
   },
@@ -20119,12 +20991,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Trezzo Sull'adda Mi"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Trezzo Sull'adda Mi"
     },
     "note": ""
   },
@@ -20512,13 +21386,32 @@
     "url": "https://www.bandsintown.com/e/1039056269?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 130,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Eurowings",
+          "iata": "EW"
+        }
+      ],
+      "hub_city": "Prague"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 130,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Prague"
     },
     "note": ""
   },
@@ -20661,12 +21554,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Utrecht"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Utrecht"
     },
     "note": ""
   },
@@ -20682,12 +21577,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Huercal De Almería"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Huercal De Almería"
     },
     "note": "",
     "priority": "I"
@@ -20840,12 +21737,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Ciampino"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Ciampino"
     },
     "note": ""
   },
@@ -21037,12 +21936,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lecce"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lecce"
     },
     "note": "",
     "priority": "I"
@@ -21417,12 +22318,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Pozzuoli"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Pozzuoli"
     },
     "note": "",
     "priority": "I"
@@ -21710,14 +22613,28 @@
     "source": "Ticketmaster",
     "url": "https://www.ticketmaster.it/biglietti/ed-obrien-milano-06-10-2026/event/y2s96nmkbgk7",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 185,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Milan"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 185,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Milan"
     },
     "note": ""
   },
@@ -22457,12 +23374,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bristol"
     },
     "note": ""
   },
@@ -22655,12 +23574,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "note": "",
     "priority": "I"
@@ -22975,14 +23896,32 @@
     "source": "Ticketmaster",
     "url": "https://www.ticketmaster.de/event/ed-obrien-an-evening-with-blue-morpho-tour-tickets/1655522225?language=en-us",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "note": ""
   },
@@ -23218,12 +24157,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
     },
     "note": "",
     "priority": "I"
@@ -23316,12 +24257,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Zagreb"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Zagreb"
     },
     "note": "",
     "priority": "I"
@@ -23505,12 +24448,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cambridge"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cambridge"
     },
     "note": "",
     "priority": "I"
@@ -23563,14 +24508,28 @@
     "source": "Ticketmaster",
     "url": "https://www.ticketmaster.de/event/ed-obrien-an-evening-with-blue-morpho-tour-tickets/1307611199?language=en-us",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "note": ""
   },
@@ -23745,14 +24704,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43091762-alice-cooper-at-london-palladium",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
@@ -23841,12 +24830,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "note": "",
     "priority": "I"
@@ -24117,12 +25108,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Herning"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Herning"
     },
     "note": "",
     "priority": "I"
@@ -24191,12 +25184,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Pratteln"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Pratteln"
     },
     "note": "",
     "priority": "I"
@@ -24249,12 +25244,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sheffield"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sheffield"
     },
     "note": "",
     "priority": "I"
@@ -24386,13 +25383,28 @@
     "url": "https://www.songkick.com/concerts/43091730-alice-cooper-at-opera-house",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "note": "",
     "priority": "I"
@@ -24517,14 +25529,44 @@
     "source": "Ticketmaster",
     "url": "https://www.ticketmaster.co.uk/an-evening-with-ed-obrien-london-16-10-2026/event/3500646BADC54513",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": ""
   },
@@ -24540,12 +25582,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dresden"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Dresden"
     },
     "note": "",
     "priority": "I"
@@ -24562,12 +25606,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Luxembourg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Luxembourg"
     },
     "note": "",
     "priority": "I"
@@ -24606,14 +25652,40 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/1036999006?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "Scandinavian Airlines",
+          "iata": "SK"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Copenhagen"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "Scandinavian Airlines",
+          "iata": "SK"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Copenhagen"
     },
     "note": ""
   },
@@ -24653,12 +25725,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stuttgart"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stuttgart"
     },
     "note": "",
     "priority": "I"
@@ -24699,12 +25773,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Hebden Bridge"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Hebden Bridge"
     },
     "note": "",
     "priority": "I"
@@ -24830,12 +25906,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stockton-on-tees"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stockton-on-tees"
     },
     "note": "",
     "priority": "I"
@@ -24953,12 +26031,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Coventry"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Coventry"
     },
     "note": "",
     "priority": "I"
@@ -25121,14 +26201,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43293995-rosalie-cunningham-at-le-botanique",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 160,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Brussels"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 160,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Brussels"
     },
     "note": "",
     "priority": "I"
@@ -25217,12 +26311,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stockton-on-tees"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stockton-on-tees"
     },
     "note": ""
   },
@@ -25450,12 +26546,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wolverhampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Wolverhampton"
     },
     "note": "",
     "priority": "I"
@@ -25882,12 +26980,20 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kaunas"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Kaunas"
     },
     "note": "",
     "priority": "I"
@@ -26430,13 +27536,28 @@
     "url": "https://www.songkick.com/concerts/43187815-tvam-at-sneaky-petes",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 175,
+      "seasonal_months": "Mar–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Edinburgh"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 175,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Edinburgh"
     },
     "note": "",
     "priority": "I"
@@ -27506,12 +28627,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nijmegen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nijmegen"
     },
     "note": "",
     "priority": "I"
@@ -27849,12 +28972,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Guimaraes"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Guimaraes"
     },
     "note": "",
     "priority": "II"
@@ -28260,12 +29385,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Saint-avé"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Saint-avé"
     },
     "note": ""
   },
@@ -28349,12 +29476,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Rotterdam"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Rotterdam"
     },
     "note": "",
     "priority": "I"
@@ -29387,12 +30516,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Rillieux-la-Pape"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Rillieux-la-Pape"
     },
     "note": "",
     "priority": "I"
@@ -29407,14 +30538,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/42876139-jethro-tull-at-tempodrom",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "note": "",
     "priority": "I"
@@ -29804,12 +30953,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Marseille"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Marseille"
     },
     "note": "",
     "priority": "I"
@@ -29850,12 +31001,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Magdeburg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Magdeburg"
     },
     "note": "",
     "priority": "I"
@@ -30189,14 +31342,36 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43110884-master-boot-record-at-razzmatazz-3",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 240,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Barcelona"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 240,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Barcelona"
     },
     "note": "",
     "priority": "I"
@@ -30285,12 +31460,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "North London"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "North London"
     },
     "note": ""
   },
@@ -30354,12 +31531,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Northampton"
     },
     "note": "",
     "priority": "I"
@@ -30555,12 +31734,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Toulouse"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Toulouse"
     },
     "note": "",
     "priority": "I"
@@ -30575,14 +31756,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/42807280-jethro-tull-at-kongresshaus-zurich",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 170,
+      "carriers": [
+        {
+          "name": "Swiss International Air Lines",
+          "iata": "LX"
+        }
+      ],
+      "hub_city": "Zurich"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 170,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Zurich"
     },
     "note": "",
     "priority": "I"
@@ -30671,12 +31866,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Norwich"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Norwich"
     },
     "note": "",
     "priority": "I"
@@ -30969,14 +32166,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43110394-master-boot-record-at-la-machine-du-moulin-rouge",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Transavia",
+          "iata": "HV"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "note": "",
     "priority": "I"
@@ -31324,14 +32539,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43109809-master-boot-record-at-underworld",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
@@ -31444,12 +32689,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southend-on-sea"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southend-on-sea"
     },
     "note": ""
   },
@@ -31543,12 +32790,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sheffield"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Sheffield"
     },
     "note": "",
     "priority": "I"
@@ -31727,14 +32976,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/42989747-rosalie-cunningham-at-underworld",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
@@ -31953,12 +33232,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": "",
     "priority": ""
@@ -32037,14 +33318,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43110298-master-boot-record-at-academy",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "note": "",
     "priority": "I"
@@ -32251,12 +33550,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southampton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Southampton"
     },
     "note": "",
     "priority": "I"
@@ -32380,14 +33681,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43160184-widowspeak-at-workmans-club",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "note": "",
     "priority": ""
@@ -32501,12 +33820,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": "",
     "priority": "I"
@@ -32609,12 +33930,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "İstanbul"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "İstanbul"
     },
     "note": ""
   },
@@ -32652,14 +33975,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43133184-ragga-twins-at-here-at-outernet",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": ""
@@ -32676,12 +34029,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Faversham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Faversham"
     },
     "note": "",
     "priority": "I"
@@ -32770,12 +34125,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Groningen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Groningen"
     },
     "note": ""
   },
@@ -32876,12 +34233,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": "",
     "priority": "I"
@@ -32990,12 +34349,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": "",
     "priority": ""
@@ -33110,14 +34471,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43122473-gogo-penguin-at-koko",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
@@ -33197,13 +34588,28 @@
     "url": "https://www.songkick.com/concerts/43157911-widowspeak-at-pink-room-yes",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "note": "",
     "priority": ""
@@ -33290,14 +34696,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43300858-master-boot-record-at-le-botanique",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 160,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Brussels"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 160,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Brussels"
     },
     "note": "",
     "priority": "I"
@@ -33312,14 +34732,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43122475-gogo-penguin-at-koko",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
@@ -33485,14 +34935,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43157912-widowspeak-at-scala",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": ""
@@ -33562,14 +35042,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43120110-master-boot-record-at-melkweg-oz",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Amsterdam"
     },
     "note": "",
     "priority": "I"
@@ -33586,12 +35080,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Saint-Germain-en-Laye"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Saint-Germain-en-Laye"
     },
     "note": "",
     "priority": "I"
@@ -33704,12 +35200,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Metz"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Metz"
     },
     "note": ""
   },
@@ -33749,12 +35247,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lille"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lille"
     },
     "note": "",
     "priority": ""
@@ -33795,12 +35295,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Osnabrück"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Osnabrück"
     },
     "note": "",
     "priority": "I"
@@ -33817,12 +35319,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nijmegen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nijmegen"
     },
     "note": ""
   },
@@ -33838,12 +35342,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Villeurbanne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Villeurbanne"
     },
     "note": "",
     "priority": "I"
@@ -33899,14 +35405,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43032674-rosalie-cunningham-at-face-bar",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
@@ -34133,14 +35669,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43157982-widowspeak-at-popup",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Transavia",
+          "iata": "HV"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "note": "",
     "priority": ""
@@ -34157,12 +35711,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nijmegen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Nijmegen"
     },
     "note": "",
     "priority": "I"
@@ -34219,12 +35775,21 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": null,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Cologne"
     },
     "note": ""
   },
@@ -34240,12 +35805,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bregenz"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bregenz"
     },
     "note": "",
     "priority": "I"
@@ -34260,14 +35827,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43301120-kronos-quartet-at-queen-elizabeth-hall-southbank-centre",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
@@ -34332,12 +35929,21 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Porto"
     },
     "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": null,
+      "seasonal_months": "May–Dec",
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Porto"
     },
     "note": ""
   },
@@ -34414,12 +36020,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milton Keynes"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Milton Keynes"
     },
     "note": ""
   },
@@ -34628,12 +36236,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Vauréal"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Vauréal"
     },
     "note": "",
     "priority": "I"
@@ -34724,14 +36334,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43263492-widowspeak-at-popup",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Transavia",
+          "iata": "HV"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "note": "",
     "priority": ""
@@ -34794,14 +36422,28 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108443190?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "note": ""
   },
@@ -34913,12 +36555,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brighton"
     },
     "note": ""
   },
@@ -35070,12 +36714,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bordeaux"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bordeaux"
     },
     "note": ""
   },
@@ -35189,14 +36835,40 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/1038411242?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "Scandinavian Airlines",
+          "iata": "SK"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Copenhagen"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "Scandinavian Airlines",
+          "iata": "SK"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Copenhagen"
     },
     "note": ""
   },
@@ -35242,12 +36914,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Limoges"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Limoges"
     },
     "note": "",
     "priority": "I"
@@ -35301,12 +36975,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Linz"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Linz"
     },
     "note": "",
     "priority": "I"
@@ -35467,14 +37143,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43157986-widowspeak-at-arci-bellezza",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 185,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Milan"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 185,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Milan"
     },
     "note": "",
     "priority": ""
@@ -35570,14 +37260,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/42922044-jethro-tull-at-grosser-saal-wiener-konzerthaus",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Vienna"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Vienna"
     },
     "note": "",
     "priority": "I"
@@ -35654,12 +37362,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lyon"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lyon"
     },
     "note": "",
     "priority": "I"
@@ -35674,14 +37384,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43160194-widowspeak-at-bogen-f",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 170,
+      "carriers": [
+        {
+          "name": "Swiss International Air Lines",
+          "iata": "LX"
+        }
+      ],
+      "hub_city": "Zurich"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 170,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Zurich"
     },
     "note": "",
     "priority": ""
@@ -35770,12 +37494,24 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Gothenburg"
     },
     "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Gothenburg"
     },
     "note": ""
   },
@@ -35791,12 +37527,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Volvic"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Volvic"
     },
     "note": "",
     "priority": "I"
@@ -35883,14 +37621,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43160199-widowspeak-at-milla-club",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Munich"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Munich"
     },
     "note": "",
     "priority": ""
@@ -35981,14 +37733,36 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43110279-master-boot-record-at-john-dee",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 90,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Oslo"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 90,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Oslo"
     },
     "note": "",
     "priority": "I"
@@ -36005,12 +37779,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Montpellier"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Montpellier"
     },
     "note": "",
     "priority": "I"
@@ -36159,12 +37935,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brno-město"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Brno-město"
     },
     "note": ""
   },
@@ -36179,13 +37957,28 @@
     "url": "https://www.songkick.com/concerts/43159700-widowspeak-at-salzburg-rockhouse",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 150,
+      "seasonal_months": "Dec–Mar",
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Salzburg"
     },
     "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Salzburg"
     },
     "note": "",
     "priority": ""
@@ -36224,14 +38017,40 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108443203?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 65,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Scandinavian Airlines",
+          "iata": "SK"
+        }
+      ],
+      "hub_city": "Stockholm"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 65,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Stockholm"
     },
     "note": ""
   },
@@ -36271,12 +38090,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Monaco"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Monaco"
     },
     "note": ""
   },
@@ -36504,12 +38325,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Poznan"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Poznan"
     },
     "note": ""
   },
@@ -36805,12 +38628,20 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tampere"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tampere"
     },
     "note": ""
   },
@@ -36900,14 +38731,36 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43003316-jethro-tull-at-arena-ursynow",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "LOT Polish Airlines",
+          "iata": "LO"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        }
+      ],
+      "hub_city": "Warsaw"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "LOT Polish Airlines",
+          "iata": "LO"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Warsaw"
     },
     "note": "",
     "priority": "I"
@@ -37076,14 +38929,32 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108443217?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 30,
+      "carriers": [
+        {
+          "name": "Finnair",
+          "iata": "AY"
+        }
+      ],
+      "hub_city": "Helsinki"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 30,
+      "carriers": [
+        {
+          "name": "Finnair",
+          "iata": "AY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Helsinki"
     },
     "note": ""
   },
@@ -37183,14 +39054,36 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43160208-widowspeak-at-chmury",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "LOT Polish Airlines",
+          "iata": "LO"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        }
+      ],
+      "hub_city": "Warsaw"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "LOT Polish Airlines",
+          "iata": "LO"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Warsaw"
     },
     "note": "",
     "priority": ""
@@ -37207,12 +39100,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Zabrze"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Zabrze"
     },
     "note": "",
     "priority": "I"
@@ -37289,12 +39184,20 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tallinn"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tallinn"
     },
     "note": ""
   },
@@ -37420,14 +39323,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43160209-widowspeak-at-frannz-club",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "note": "",
     "priority": ""
@@ -37442,14 +39363,22 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43203478-master-boot-record-at-melna-piektdiena",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 50,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Riga"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 50,
+      "hub_city": "Riga"
     },
     "note": "",
     "priority": "I"
@@ -37592,14 +39521,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43159105-widowspeak-at-hebebuhne",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "note": "",
     "priority": ""
@@ -37666,14 +39609,36 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108443278?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "LOT Polish Airlines",
+          "iata": "LO"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        }
+      ],
+      "hub_city": "Warsaw"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "LOT Polish Airlines",
+          "iata": "LO"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Warsaw"
     },
     "note": ""
   },
@@ -37821,12 +39786,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Malmö"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Malmö"
     },
     "note": "",
     "priority": ""
@@ -37893,14 +39860,32 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108443286?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "note": ""
   },
@@ -38061,12 +40046,24 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Gothenburg"
     },
     "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Gothenburg"
     },
     "note": "",
     "priority": ""
@@ -38134,13 +40131,32 @@
     "url": "https://www.bandsintown.com/e/1038437974?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 130,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Eurowings",
+          "iata": "EW"
+        }
+      ],
+      "hub_city": "Prague"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 130,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Prague"
     },
     "note": ""
   },
@@ -38442,14 +40458,40 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108229763?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 65,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Scandinavian Airlines",
+          "iata": "SK"
+        }
+      ],
+      "hub_city": "Stockholm"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 65,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Stockholm"
     },
     "note": ""
   },
@@ -38463,14 +40505,28 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108443294?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Munich"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Munich"
     },
     "note": ""
   },
@@ -38520,14 +40576,36 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43158136-widowspeak-at-john-dee",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 90,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Oslo"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 90,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Oslo"
     },
     "note": "",
     "priority": ""
@@ -38542,14 +40620,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43110775-master-boot-record-at-szene-wien",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Vienna"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Vienna"
     },
     "note": "",
     "priority": "I"
@@ -38604,14 +40700,40 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43158186-widowspeak-at-rust",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "Scandinavian Airlines",
+          "iata": "SK"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Copenhagen"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 100,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "Scandinavian Airlines",
+          "iata": "SK"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Copenhagen"
     },
     "note": "",
     "priority": ""
@@ -38626,14 +40748,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43288444-master-boot-record-at-a38-ship-a38-hajo",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 140,
+      "carriers": [
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        }
+      ],
+      "hub_city": "Budapest"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 140,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Budapest"
     },
     "note": "",
     "priority": "I"
@@ -38738,12 +40874,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bratislava I"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bratislava I"
     },
     "note": ""
   },
@@ -38835,12 +40973,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Utrecht"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Utrecht"
     },
     "note": "",
     "priority": ""
@@ -38857,12 +40997,20 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Ljubljana"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Ljubljana"
     },
     "note": ""
   },
@@ -38981,12 +41129,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kortrijk"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kortrijk"
     },
     "note": "",
     "priority": ""
@@ -39040,12 +41190,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lindau"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lindau"
     },
     "note": "",
     "priority": "I"
@@ -39301,12 +41453,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Hasselt"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Hasselt"
     },
     "note": "",
     "priority": ""
@@ -39323,12 +41477,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Aarau"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Aarau"
     },
     "note": "",
     "priority": "I"
@@ -39476,12 +41632,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kėdainiai"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Kėdainiai"
     },
     "note": "",
     "priority": "I"
@@ -39694,12 +41852,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tilburg"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Tilburg"
     },
     "note": "",
     "priority": ""
@@ -39866,12 +42026,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bonn"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bonn"
     },
     "note": "",
     "priority": "I"
@@ -40134,14 +42296,32 @@
     "source": "AllEvents.lt",
     "url": "https://allevents.lt/koncertai/vilnius/naujosios-operos-studija/142503-koncertas-naujieji-metai-su-ryuichi-sakamoto-pianistas-darius-mazintas-vilnius-2026-bilietai",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 70,
+      "carriers": [
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Vilnius"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 70,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Vilnius"
     },
     "note": "",
     "priority": "I"
@@ -40320,13 +42500,28 @@
     "url": "https://www.songkick.com/concerts/43191241-lamb-of-god-at-ao-arena",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "note": "",
     "priority": ""
@@ -40343,12 +42538,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": "",
     "priority": ""
@@ -40363,14 +42560,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43191242-lamb-of-god-at-3arena",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Dublin"
     },
     "note": "",
     "priority": ""
@@ -40526,13 +42741,22 @@
     "url": "https://www.songkick.com/concerts/43191261-five-finger-death-punch-at-bp-pulse-live",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 190,
+      "seasonal_months": "Mar–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Birmingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 190,
+      "hub_city": "Birmingham"
     },
     "note": "",
     "priority": ""
@@ -40583,14 +42807,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43202549-five-finger-death-punch-at-o2",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": ""
@@ -40702,13 +42956,28 @@
     "url": "https://www.bandsintown.com/e/108322468?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 150,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Eurowings",
+          "iata": "EW"
+        }
+      ],
+      "hub_city": "Düsseldorf"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Düsseldorf"
     },
     "note": ""
   },
@@ -40770,14 +43039,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43191245-lamb-of-god-at-barclays-arena",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "note": "",
     "priority": ""
@@ -40793,13 +43076,28 @@
     "url": "https://www.songkick.com/concerts/43146500-rosalie-cunningham-at-rebellion",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
     },
     "note": "",
     "priority": "I"
@@ -40880,12 +43178,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Glasgow"
     },
     "note": ""
   },
@@ -40965,12 +43265,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lodz"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Lodz"
     },
     "note": "",
     "priority": ""
@@ -40987,12 +43289,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Newcastle Upon Tyne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Newcastle Upon Tyne"
     },
     "note": "",
     "priority": "I"
@@ -41077,12 +43381,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Leeds"
     },
     "note": "",
     "priority": "I"
@@ -41179,13 +43485,22 @@
     "url": "https://www.bandsintown.com/e/1038934566?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
+      "seasonal": true,
+      "duration_minutes": 190,
+      "seasonal_months": "Mar–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Birmingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 190,
+      "hub_city": "Birmingham"
     },
     "note": ""
   },
@@ -41259,14 +43574,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43191247-lamb-of-god-at-olympiahalle-munchen",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Munich"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Munich"
     },
     "note": "",
     "priority": ""
@@ -41477,12 +43806,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stuttgart"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stuttgart"
     },
     "note": "",
     "priority": ""
@@ -41914,14 +44245,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43191264-lamb-of-god-at-afas-live",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Amsterdam"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Amsterdam"
     },
     "note": "",
     "priority": ""
@@ -41976,14 +44321,28 @@
     "source": "Bandsintown",
     "url": "https://www.bandsintown.com/e/108322469?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 160,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Brussels"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 160,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Brussels"
     },
     "note": ""
   },
@@ -42085,14 +44444,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43191250-lamb-of-god-at-accor-arena",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Transavia",
+          "iata": "HV"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "note": "",
     "priority": ""
@@ -42268,14 +44645,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43191251-lamb-of-god-at-hallenstadion",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 170,
+      "carriers": [
+        {
+          "name": "Swiss International Air Lines",
+          "iata": "LX"
+        }
+      ],
+      "hub_city": "Zurich"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 170,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Zurich"
     },
     "note": "",
     "priority": ""
@@ -42399,14 +44790,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43040285-together-pangea-at-hotel-and-restaurant-neuhelgoland",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "note": "",
     "priority": "I"
@@ -42421,14 +44830,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43191252-lamb-of-god-at-wiener-stadthalle",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Vienna"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Vienna"
     },
     "note": "",
     "priority": ""
@@ -42469,12 +44896,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Verviers"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Verviers"
     },
     "note": "",
     "priority": "I"
@@ -42491,12 +44920,20 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Madrid"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Madrid"
     },
     "note": ""
   },
@@ -42510,14 +44947,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43191253-lamb-of-god-at-uber-arena",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 110,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Berlin"
     },
     "note": "",
     "priority": ""
@@ -42698,12 +45153,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Fornebu"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Fornebu"
     },
     "note": "",
     "priority": ""
@@ -42760,12 +45217,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Plauen"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Plauen"
     },
     "note": "",
     "priority": "I"
@@ -42852,14 +45311,40 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43191255-lamb-of-god-at-avicii-arena",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 65,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Scandinavian Airlines",
+          "iata": "SK"
+        }
+      ],
+      "hub_city": "Stockholm"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 65,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Stockholm"
     },
     "note": "",
     "priority": ""
@@ -43011,14 +45496,32 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 30,
+      "carriers": [
+        {
+          "name": "Finnair",
+          "iata": "AY"
+        }
+      ],
+      "hub_city": "Helsinki"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 30,
+      "carriers": [
+        {
+          "name": "Finnair",
+          "iata": "AY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Helsinki"
     },
     "note": "",
     "priority": ""
@@ -43752,14 +46255,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43204234-jethro-tull-at-saal-1-congress-center-hamburg",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "note": "",
     "priority": "I"
@@ -43836,12 +46353,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bielefeld"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Bielefeld"
     },
     "note": "",
     "priority": "I"
@@ -46260,14 +48779,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43296086-asomvel-at-underworld",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
@@ -46343,14 +48892,44 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43296087-asomvel-at-underworld",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
     },
     "note": "",
     "priority": "I"
@@ -46576,12 +49155,14 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stuttgart"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": null,
+      "hub_city": "Stuttgart"
     },
     "note": "",
     "priority": "I"
@@ -46596,14 +49177,28 @@
     "source": "Songkick",
     "url": "https://www.songkick.com/concerts/43105654-jethro-tull-at-isarphilharmonie-im-gasteig-hp8",
     "flightTLL": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Munich"
     },
     "flightRIX": {
-      "direct": false,
+      "direct": true,
       "seasonal": false,
-      "duration_minutes": null
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Munich"
     },
     "note": "",
     "priority": "I"
