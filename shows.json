@@ -2118,6 +2118,27 @@
     "priority": ""
   },
   {
+    "band": "Jaakko Eino Kalevi",
+    "date": "2026-08-05",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "Paavli Kultuurivabrik",
+    "fest": null,
+    "source": "Fienta",
+    "url": "https://fienta.com/jaakko-eino-kalevi-paavli",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Kraftwerk",
     "date": "2026-08-05",
     "city": "Calvia",
@@ -6583,6 +6604,27 @@
     "priority": "II"
   },
   {
+    "band": "Titoks",
+    "date": "2026-08-19",
+    "city": "Are",
+    "country": "EE",
+    "venue": "Are Huvikeskus",
+    "fest": null,
+    "source": "Fienta",
+    "url": "https://fienta.com/marko-matvere-ja-eesti-mustlasdzassi-kvartett-titoks-oos-leian-unelmaid",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Buzzcocks",
     "date": "2026-08-20",
     "city": "Edinburgh",
@@ -9200,6 +9242,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Titoks",
+    "date": "2026-08-26",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "Dominiiklaste kloostri hoov",
+    "fest": null,
+    "source": "Fienta",
+    "url": "https://fienta.com/vaikesed-hoovikontserdid-vanalinnas-nagu-napolis",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Tyler, The Creator",
