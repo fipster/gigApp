@@ -6,17 +6,20 @@
     let shows = [];
     let countries = {};
     let cityCoordinates = {};
+    let countryCoordinates = {};
     let WINDOW_TO;
 
     async function loadShows() {
-      const [showsResponse, countriesResponse, coordsResponse] = await Promise.all([
+      const [showsResponse, countriesResponse, coordsResponse, countryCoordsResponse] = await Promise.all([
         fetch("shows.json"),
         fetch("countries.json"),
         fetch("city_coordinates.json"),
+        fetch("country_coordinates.json"),
       ]);
       shows = await showsResponse.json();
       countries = await countriesResponse.json();
       cityCoordinates = await coordsResponse.json();
+      countryCoordinates = await countryCoordsResponse.json();
 
       WINDOW_TO = shows.reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
 
@@ -601,7 +604,10 @@
       const byCity = new Map();
       list.forEach(s => {
         const coordKey = `${s.city}|${s.country}`;
-        const coord = cityCoordinates[coordKey];
+        // fall back to a country-level point when the specific city has no
+        // geocoded entry (e.g. a small village) -- better to plot it
+        // somewhere in the right country than drop it from the map entirely
+        const coord = cityCoordinates[coordKey] || countryCoordinates[s.country];
         if (!coord) return;
         if (!byCity.has(coordKey)) byCity.set(coordKey, { coord, city: s.city, country: s.country, shows: [] });
         byCity.get(coordKey).shows.push(s);

@@ -114,12 +114,12 @@
   {
     "band": "Lamb of God",
     "date": "2026-07-29",
-    "city": "Wacken",
-    "country": "DE",
-    "venue": "Wacken Open Air",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/774039-wacken/id/42729889-wacken-festival-2026",
+    "city": "Braşov",
+    "country": "RO",
+    "venue": "Rockstadt Extreme Fest 2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107220723?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -130,8 +130,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": ""
+    "note": ""
   },
   {
     "band": "Sepultura",
@@ -1039,6 +1038,27 @@
     "priority": ""
   },
   {
+    "band": "Sepultura",
+    "date": "2026-07-31",
+    "city": "Põhja-tallinn",
+    "country": "EE",
+    "venue": "Tallinn Rock Festival 2026",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107703204?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Stillbirth",
     "date": "2026-07-31",
     "city": "Dortmund",
@@ -1245,6 +1265,27 @@
     "priority": ""
   },
   {
+    "band": "Lamb of God",
+    "date": "2026-08-01",
+    "city": "Wacken",
+    "country": "DE",
+    "venue": "Wacken Open Air 2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107202747?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Leftfield",
     "date": "2026-08-01",
     "city": "East Lulworth",
@@ -1267,6 +1308,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-01",
+    "city": "Beelen",
+    "country": "DE",
+    "venue": " Krach Am Bach festival  2026",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108397712?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Moby",
@@ -1405,6 +1467,27 @@
     "priority": ""
   },
   {
+    "band": "Sepultura",
+    "date": "2026-08-01",
+    "city": "Helsinki",
+    "country": "FI",
+    "venue": "Tavastia Club",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107703198?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "The Stranglers",
     "date": "2026-08-01",
     "city": "Cardiff",
@@ -1541,6 +1624,27 @@
     "priority": "II"
   },
   {
+    "band": "Wolfmother",
+    "date": "2026-08-01",
+    "city": "Breitenbach Am Herzberg",
+    "country": "DE",
+    "venue": "Burg Herzberg Festival 2026",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107546052?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Crowbar",
     "date": "2026-08-02",
     "city": "Essen",
@@ -1639,6 +1743,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Objekt",
+    "date": "2026-08-02",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Dekmantel Festival 2026",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108107734?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Opeth",
@@ -2218,6 +2343,27 @@
     "priority": ""
   },
   {
+    "band": "Tigran Hamasyan",
+    "date": "2026-08-04",
+    "city": "Metropolitan City Of Bologna",
+    "country": "IT",
+    "venue": "CUBO",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108436758?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Wolfmother",
     "date": "2026-08-04",
     "city": "Erlangen",
@@ -2428,12 +2574,12 @@
   {
     "band": "Lamb of God",
     "date": "2026-08-05",
-    "city": "Aveiro",
+    "city": "Vagos",
     "country": "PT",
     "venue": "Vagos Metal Fest 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1638914-vagos-metal-fest/id/42951204-vagos-metal-fest-2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107448785?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -2444,8 +2590,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": ""
+    "note": ""
   },
   {
     "band": "Matt Maltese",
@@ -2470,6 +2615,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-05",
+    "city": "Leeds",
+    "country": "GB",
+    "venue": "Hyde Park Book Club ",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108397724?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -3006,28 +3172,6 @@
     "priority": "I"
   },
   {
-    "band": "Sepultura",
-    "date": "2026-08-06",
-    "city": "Walton-on-trent",
-    "country": "GB",
-    "venue": "Catton Park",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/19616-bloodstock-open-air/id/42738715-bloodstock-open-air-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Snapped Ankles",
     "date": "2026-08-06",
     "city": "Caminha",
@@ -3266,6 +3410,27 @@
     "priority": ""
   },
   {
+    "band": "Lamb of God",
+    "date": "2026-08-07",
+    "city": "Catton",
+    "country": "GB",
+    "venue": "Bloodstock 25th Anniversary",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107202789?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Morcheeba",
     "date": "2026-08-07",
     "city": "Solothurn",
@@ -3362,12 +3527,12 @@
   {
     "band": "Roni Size",
     "date": "2026-08-07",
-    "city": "Tunbridge Wells",
+    "city": "Chipstead",
     "country": "GB",
-    "venue": "The Forum",
+    "venue": "The Forum - Tunbridge Wells",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/42860976-roni-size-at-forum",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1037953574?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -3378,8 +3543,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": ""
+    "note": ""
   },
   {
     "band": "The Exploited",
@@ -3806,6 +3970,27 @@
     "priority": "I"
   },
   {
+    "band": "Sepultura",
+    "date": "2026-08-08",
+    "city": "Walton-on-trent",
+    "country": "GB",
+    "venue": "Bloodstock Open Air 2026",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107229017?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Sleaford Mods",
     "date": "2026-08-08",
     "city": "Oslo",
@@ -4047,6 +4232,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Lamb of God",
+    "date": "2026-08-09",
+    "city": "Kortrijk",
+    "country": "BE",
+    "venue": "Alcatraz Festival 2026",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107446272?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Maruja",
@@ -4678,6 +4884,27 @@
     "priority": "I"
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-08-12",
+    "city": "London",
+    "country": "GB",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860174?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Björk",
     "date": "2026-08-12",
     "city": "Hafnarfjörður",
@@ -4882,12 +5109,12 @@
   {
     "band": "Kaitlyn Aurelia Smith",
     "date": "2026-08-12",
-    "city": "Reykjavík",
+    "city": "Hafnarfjörður",
     "country": "IS",
     "venue": "Echolalia 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3797620-echolalia/id/43337787-echolalia-2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108699021?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -4898,8 +5125,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": ""
+    "note": ""
   },
   {
     "band": "Kurt Vile",
@@ -5252,6 +5478,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-08-13",
+    "city": "Dinkelsbühl",
+    "country": "DE",
+    "venue": "Summer Breeze Open Air 2021 2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108437298?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Geordie Greep",
@@ -5614,6 +5861,27 @@
     "priority": "I"
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-08-14",
+    "city": "Cardiff",
+    "country": "GB",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860198?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Chat Pile",
     "date": "2026-08-14",
     "city": "Val De Bagnes",
@@ -5796,12 +6064,12 @@
   {
     "band": "Lamb of God",
     "date": "2026-08-14",
-    "city": "Eindhoven",
-    "country": "NL",
-    "venue": "IJssportcentrum Eindhoven",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1197623-dynamo-metalfest/id/42884365-dynamo-metalfest-2026",
+    "city": "Wittelshofen",
+    "country": "DE",
+    "venue": "Summer Breeze Open Air 2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107220706?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -5812,8 +6080,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": ""
+    "note": ""
   },
   {
     "band": "Maruja",
@@ -5862,6 +6129,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-14",
+    "city": "Seelbach Bei Hamm",
+    "country": "DE",
+    "venue": "Hoflärm 2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108397745?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Nick Cave & The Bad Seeds",
@@ -6006,6 +6294,48 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-14",
+    "city": "Ennetmoos",
+    "country": "CH",
+    "venue": "Teffli Rally 2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108003818?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-08-15",
+    "city": "Scarborough",
+    "country": "GB",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860204?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Bonobo",
@@ -6422,6 +6752,48 @@
     "priority": ""
   },
   {
+    "band": "Lamb of God",
+    "date": "2026-08-15",
+    "city": "Eindhoven",
+    "country": "NL",
+    "venue": "Dynamo Metalfest 2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107264616?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-15",
+    "city": "Kemmental",
+    "country": "CH",
+    "venue": "Rock The Frog Open Air",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108397759?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Melody's Echo Chamber",
     "date": "2026-08-15",
     "city": "Gothenburg",
@@ -6745,6 +7117,27 @@
     "priority": "II"
   },
   {
+    "band": "Meatbodies",
+    "date": "2026-08-16",
+    "city": "Vaduz",
+    "country": "LI",
+    "venue": "Jugendcafé Camäleon",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108397778?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Nick Cave & The Bad Seeds",
     "date": "2026-08-16",
     "city": "Helsinki",
@@ -6883,6 +7276,27 @@
     "priority": "I"
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-08-17",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860208?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Fontaines D.C.",
     "date": "2026-08-17",
     "city": "Lausanne",
@@ -7017,6 +7431,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-08-18",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860211?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Colin Stetson",
@@ -7185,6 +7620,27 @@
     "priority": "I"
   },
   {
+    "band": "Meatbodies",
+    "date": "2026-08-18",
+    "city": "Poznań",
+    "country": "PL",
+    "venue": "Pod Minogą",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108397802?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Moby",
     "date": "2026-08-18",
     "city": "Bonn",
@@ -7293,6 +7749,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-08-19",
+    "city": "Birmingham",
+    "country": "GB",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860223?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Cate Le Bon",
@@ -7457,6 +7934,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-19",
+    "city": "Nürnberg",
+    "country": "DE",
+    "venue": "Z-Bau",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108397822?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Pendulum",
@@ -7930,6 +8428,27 @@
     "priority": "II"
   },
   {
+    "band": "Meatbodies",
+    "date": "2026-08-20",
+    "city": "Bratislava",
+    "country": "SK",
+    "venue": "Pink Whale ",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108397834?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Moby",
     "date": "2026-08-20",
     "city": "Blagnac",
@@ -8168,6 +8687,27 @@
     "priority": ""
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-08-21",
+    "city": "Colchester",
+    "country": "GB",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860234?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Buzzcocks",
     "date": "2026-08-21",
     "city": "Wakefield",
@@ -8374,6 +8914,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Meatbodies",
+    "date": "2026-08-21",
+    "city": "Ulm",
+    "country": "DE",
+    "venue": "Obstwiesenfestival ",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108397897?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Moby",
@@ -8654,6 +9215,27 @@
     "priority": "I"
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-08-22",
+    "city": "Halifax",
+    "country": "GB",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860242?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Cate Le Bon",
     "date": "2026-08-22",
     "city": "Crickhowell",
@@ -8930,6 +9512,27 @@
     "priority": "II"
   },
   {
+    "band": "Meatbodies",
+    "date": "2026-08-22",
+    "city": "Lottum",
+    "country": "NL",
+    "venue": "Badlands Festival",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108397911?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Mogwai",
     "date": "2026-08-22",
     "city": "Leeds",
@@ -8978,6 +9581,27 @@
     "priority": ""
   },
   {
+    "band": "Prewn",
+    "date": "2026-08-22",
+    "city": "Crickhowell",
+    "country": "GB",
+    "venue": "Glanusk Estate",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108657598?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Röyksopp",
     "date": "2026-08-22",
     "city": "Province Of Agrigento",
@@ -9000,6 +9624,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Wolfmother",
+    "date": "2026-08-22",
+    "city": "Maastricht",
+    "country": "NL",
+    "venue": "Muziekgieterij",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107546083?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Zero T",
@@ -9398,6 +10043,27 @@
     "priority": ""
   },
   {
+    "band": "Rosalie Cunningham",
+    "date": "2026-08-23",
+    "city": "Lutterworth",
+    "country": "GB",
+    "venue": "Stanford Hall",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038175241?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Show Me The Body",
     "date": "2026-08-23",
     "city": "London",
@@ -9554,6 +10220,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-08-25",
+    "city": "Nuremberg",
+    "country": "DE",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860249?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Deftones",
@@ -9972,6 +10659,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-08-26",
+    "city": "Paris",
+    "country": "FR",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860255?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Earl Sweatshirt",
@@ -10692,6 +11400,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-08-28",
+    "city": "Cologne",
+    "country": "DE",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860266?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Boko Yout",
@@ -11445,12 +12174,12 @@
   {
     "band": "Wolfmother",
     "date": "2026-08-28",
-    "city": "Pinarella di Cervia",
+    "city": "Cervia",
     "country": "IT",
     "venue": "Rock Planet",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43064471-wolfmother-at-rock-planet",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107546103?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -11461,8 +12190,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": "I"
+    "note": ""
   },
   {
     "band": "Danny Brown",
@@ -12277,6 +13005,27 @@
     "priority": ""
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-08-30",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860272?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Deftones",
     "date": "2026-08-30",
     "city": "Lisbon",
@@ -12355,6 +13104,27 @@
     "priority": ""
   },
   {
+    "band": "GoGo Penguin",
+    "date": "2026-08-30",
+    "city": "Paris",
+    "country": "FR",
+    "venue": "Jazz à La Villette 2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108335872?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Kurt Vile",
     "date": "2026-08-30",
     "city": "Cologne",
@@ -12431,12 +13201,12 @@
   {
     "band": "Rosalie Cunningham",
     "date": "2026-08-30",
-    "city": "Lutterworth",
+    "city": "Bottesford",
     "country": "GB",
     "venue": "Stanford Hall",
     "fest": "FESTIVAL",
-    "source": "Ticketmaster",
-    "url": "https://www.universe.com/events/the-long-road-sunday-2026-tickets-1YLXVK?ref=ticketmaster",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038169241?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -12670,6 +13440,27 @@
     "priority": "II"
   },
   {
+    "band": "Alice Cooper",
+    "date": "2026-09-01",
+    "city": "Novegro-tregarezzo",
+    "country": "IT",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860280?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Geese",
     "date": "2026-09-01",
     "city": "London",
@@ -12782,6 +13573,27 @@
     "priority": "II"
   },
   {
+    "band": "Prewn",
+    "date": "2026-09-01",
+    "city": "Cologne",
+    "country": "DE",
+    "venue": "Bumann & SOHN",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108648794?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "The Black Keys",
     "date": "2026-09-01",
     "city": "London",
@@ -12832,6 +13644,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-09-02",
+    "city": "Este",
+    "country": "IT",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107860289?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Earl Sweatshirt",
@@ -13187,6 +14020,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-09-03",
+    "city": "Pula",
+    "country": "HR",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108177042?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Allah-Las",
@@ -13719,6 +14573,27 @@
     "priority": "II"
   },
   {
+    "band": "Prewn",
+    "date": "2026-09-04",
+    "city": "Tollard Royal",
+    "country": "GB",
+    "venue": "Larmer Tree Gardens",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108657617?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "RIP Swirl",
     "date": "2026-09-04",
     "city": "Bristol",
@@ -13836,6 +14711,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-09-05",
+    "city": "St. Pölten",
+    "country": "AT",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108177052?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Allah-Las",
@@ -14048,6 +14944,27 @@
     "priority": ""
   },
   {
+    "band": "Kerala Dust",
+    "date": "2026-09-05",
+    "city": "Toruń",
+    "country": "PL",
+    "venue": "Festiwal NADA  2026",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108552899?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "LTJ Bukem",
     "date": "2026-09-05",
     "city": "Perranporth",
@@ -14094,6 +15011,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Mandy, Indiana",
+    "date": "2026-09-05",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Various Venues Around Manchester",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1039395537?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Milo",
@@ -14371,6 +15309,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Alice Cooper",
+    "date": "2026-09-06",
+    "city": "Prague",
+    "country": "CZ",
+    "venue": "The Hollywood Vampires",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108177062?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Earl Sweatshirt",
@@ -15277,12 +16236,12 @@
   {
     "band": "Prewn",
     "date": "2026-09-09",
-    "city": "Southsea",
+    "city": "Portsmouth",
     "country": "GB",
     "venue": "Kola",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43159872-prewn-at-kola",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038688024?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -15293,8 +16252,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": "I"
+    "note": ""
   },
   {
     "band": "Roger Eno",
@@ -15479,6 +16437,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Roni Size",
+    "date": "2026-09-10",
+    "city": "Woodmancote",
+    "country": "GB",
+    "venue": "Vicarage Farm",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038736909?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Skinshape",
@@ -15754,6 +16733,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Prewn",
+    "date": "2026-09-11",
+    "city": "Orléans",
+    "country": "FR",
+    "venue": "Choreographic Centre National",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108657628?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "The Black Keys",
@@ -16051,6 +17051,27 @@
     "priority": "II"
   },
   {
+    "band": "Prewn",
+    "date": "2026-09-12",
+    "city": "Heusden Gem Asten",
+    "country": "NL",
+    "venue": "Misty Fields",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108657635?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Roger Eno",
     "date": "2026-09-12",
     "city": "Genoa",
@@ -16073,6 +17094,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Roni Size",
+    "date": "2026-09-12",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Sawmills",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1039269118?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Skinshape",
@@ -16354,6 +17396,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Prewn",
+    "date": "2026-09-13",
+    "city": "Nieuwpoort",
+    "country": "BE",
+    "venue": "De Zwerver Nieuwpoort",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108657643?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "TVAM",
@@ -16809,6 +17872,27 @@
     "priority": "II"
   },
   {
+    "band": "Prewn",
+    "date": "2026-09-15",
+    "city": "St. Gallen",
+    "country": "CH",
+    "venue": "Palace St.Gallen",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1039182317?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "The Black Keys",
     "date": "2026-09-15",
     "city": "İstanbul",
@@ -17085,6 +18169,27 @@
     "priority": ""
   },
   {
+    "band": "Prewn",
+    "date": "2026-09-16",
+    "city": "Freiburg",
+    "country": "CH",
+    "venue": "Fri-Son",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108641663?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Rosalie Cunningham",
     "date": "2026-09-16",
     "city": "Birmingham",
@@ -17254,6 +18359,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Kerala Dust",
+    "date": "2026-09-17",
+    "city": "San Carlos",
+    "country": "ES",
+    "venue": "DJ Set @ Las Dalias",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108650672?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Kruder & Dorfmeister",
@@ -18818,6 +19944,27 @@
     "priority": ""
   },
   {
+    "band": "Fulci",
+    "date": "2026-09-26",
+    "city": "Cervia",
+    "country": "IT",
+    "venue": "Rock Planet",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108664914?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "LTJ Bukem",
     "date": "2026-09-26",
     "city": "Breda",
@@ -18959,6 +20106,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-09-27",
+    "city": "Trezzo Sull'adda Mi",
+    "country": "IT",
+    "venue": "MetalItalia Festival  2026",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108648282?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Jazzanova",
@@ -19334,6 +20502,27 @@
     "priority": "I"
   },
   {
+    "band": "Turbo Trans Turisti",
+    "date": "2026-09-30",
+    "city": "Prague",
+    "country": "CZ",
+    "venue": "Cargo Gallery",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1039056269?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Autechre",
     "date": "2026-10-01",
     "city": "Belgrade",
@@ -19459,6 +20648,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Kae Tempest",
+    "date": "2026-10-01",
+    "city": "Utrecht",
+    "country": "NL",
+    "venue": "Book Talk: Having Spent Life Seeking",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108685660?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Rosalie Cunningham",
@@ -19617,6 +20827,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-10-02",
+    "city": "Ciampino",
+    "country": "IT",
+    "venue": "Orion Live Club",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108664923?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Only Real",
@@ -21213,6 +22444,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Camel",
+    "date": "2026-10-09",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Exchange",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038188079?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Candlemass",
@@ -23345,6 +24597,27 @@
     "priority": ""
   },
   {
+    "band": "Jethro Tull",
+    "date": "2026-10-16",
+    "city": "Copenhagen",
+    "country": "DK",
+    "venue": "Det Kgl. Teater - Gamle Scene",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1036999006?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Nightmares On Wax",
     "date": "2026-10-16",
     "city": "Bristol",
@@ -23935,12 +25208,12 @@
   {
     "band": "Alice Cooper",
     "date": "2026-10-19",
-    "city": "Glasgow",
+    "city": "Stockton-on-tees",
     "country": "GB",
-    "venue": "Pavilion Theatre",
+    "venue": "Devil On My Shoudler Book Tour",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43091729-alice-cooper-at-pavilion-theatre",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108183163?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -23951,8 +25224,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": "I"
+    "note": ""
   },
   {
     "band": "Bass Drum of Death",
@@ -26977,6 +28249,27 @@
     "priority": ""
   },
   {
+    "band": "Dengue Dengue Dengue",
+    "date": "2026-10-31",
+    "city": "Saint-avé",
+    "country": "FR",
+    "venue": "L'ECHONOVA",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1039709125?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Digitalism",
     "date": "2026-10-31",
     "city": "Barcelona",
@@ -28983,12 +30276,12 @@
   {
     "band": "Mandy, Indiana",
     "date": "2026-11-07",
-    "city": "London",
+    "city": "North London",
     "country": "GB",
-    "venue": "Pitchfork Festival: Dalston Takeover 2026",
+    "venue": "Various Venues: EartH, Shacklewell Arms, The Victoria, Cafe OTO, St Matthias Church",
     "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3790456-pitchfork-dalston-takeover/id/43260984-pitchfork-festival-dalston-takeover-2026",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1039286686?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -28999,8 +30292,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": "II"
+    "note": ""
   },
   {
     "band": "Panda Bear",
@@ -30143,12 +31435,12 @@
   {
     "band": "Rosalie Cunningham",
     "date": "2026-11-11",
-    "city": "Southend",
+    "city": "Southend-on-sea",
     "country": "GB",
     "venue": "Chinnerys",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43200429-rosalie-cunningham-at-chinnerys",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1037953252?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -30159,8 +31451,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": "I"
+    "note": ""
   },
   {
     "band": "The Obsessed",
@@ -31307,6 +32598,27 @@
     "priority": ""
   },
   {
+    "band": "Jethro Tull",
+    "date": "2026-11-14",
+    "city": "İstanbul",
+    "country": "TR",
+    "venue": "Jethro Tull",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/107678591?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Psychedelic Porn Crumpets",
     "date": "2026-11-14",
     "city": "Segrate",
@@ -31445,6 +32757,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Tigran Hamasyan",
+    "date": "2026-11-14",
+    "city": "Groningen",
+    "country": "NL",
+    "venue": "Rockit Festival",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108142491?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Tropical Fuck Storm",
@@ -32360,6 +33693,27 @@
     "priority": "II"
   },
   {
+    "band": "Tigran Hamasyan",
+    "date": "2026-11-18",
+    "city": "Metz",
+    "country": "FR",
+    "venue": "l'Arsenal",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108557714?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Tropical Fuck Storm",
     "date": "2026-11-18",
     "city": "Glasgow",
@@ -32450,6 +33804,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-11-19",
+    "city": "Nijmegen",
+    "country": "NL",
+    "venue": "Doornroosje",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038411421?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "GoGo Penguin",
@@ -32833,6 +34208,27 @@
     "priority": "I"
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-20",
+    "city": "Cologne",
+    "country": "DE",
+    "venue": "Cologne, Germany",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443178?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Jethro Tull",
     "date": "2026-11-20",
     "city": "Bregenz",
@@ -32925,6 +34321,27 @@
     "priority": ""
   },
   {
+    "band": "Objekt",
+    "date": "2026-11-20",
+    "city": "Porto",
+    "country": "PT",
+    "venue": "Plano B",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1039716071?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Only Real",
     "date": "2026-11-20",
     "city": "Manchester",
@@ -32988,12 +34405,12 @@
   {
     "band": "Rosalie Cunningham",
     "date": "2026-11-20",
-    "city": "Wolverton",
+    "city": "Milton Keynes",
     "country": "GB",
-    "venue": "Craufurd Arms",
+    "venue": "The Craufurd Arms",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43032450-rosalie-cunningham-at-craufurd-arms",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1037938500?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -33004,8 +34421,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": "I"
+    "note": ""
   },
   {
     "band": "Slift",
@@ -33345,46 +34761,6 @@
     "priority": "II"
   },
   {
-    "band": "Avemaria",
-    "date": "2026-11-21",
-    "city": "Berlin",
-    "country": "DE",
-    "venue": "Franz. Friedrichstadtkirche",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039157477?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 110,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Berlin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 110,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Berlin"
-    },
-    "note": "",
-    "priority": "est"
-  },
-  {
     "band": "Boko Yout",
     "date": "2026-11-21",
     "city": "Glasgow",
@@ -33407,6 +34783,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-11-21",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "Hamburg, Germany",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443190?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Hooverphonic",
@@ -33503,6 +34900,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2026-11-21",
+    "city": "Brighton",
+    "country": "GB",
+    "venue": "Rosalie Cunningham",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108509023?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Slift",
@@ -33641,6 +35059,27 @@
     "priority": ""
   },
   {
+    "band": "Tigran Hamasyan",
+    "date": "2026-11-21",
+    "city": "Bordeaux",
+    "country": "FR",
+    "venue": "Opéra National de Bordeaux",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108557738?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Tosca",
     "date": "2026-11-21",
     "city": "London",
@@ -33739,6 +35178,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-11-22",
+    "city": "Copenhagen",
+    "country": "DK",
+    "venue": "Pumpehuset",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038411242?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Geordie Greep",
@@ -34299,6 +35759,27 @@
     "priority": "II"
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-24",
+    "city": "Gothenburg",
+    "country": "SE",
+    "venue": "MASTER BOOT RECORD + Fulci + Suppport: Arottenbit",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108113275?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "GoGo Penguin",
     "date": "2026-11-24",
     "city": "Volvic",
@@ -34667,6 +36148,27 @@
     "priority": ""
   },
   {
+    "band": "Tigran Hamasyan",
+    "date": "2026-11-25",
+    "city": "Brno-město",
+    "country": "CZ",
+    "venue": "Sono",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038897268?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Widowspeak",
     "date": "2026-11-25",
     "city": "Salzburg",
@@ -34713,6 +36215,27 @@
     "priority": "I"
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-26",
+    "city": "Stockholm",
+    "country": "SE",
+    "venue": "Stockholm, Sweden",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443203?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Geordie Greep",
     "date": "2026-11-26",
     "city": "Marseille",
@@ -34735,6 +36258,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "GoGo Penguin",
+    "date": "2026-11-26",
+    "city": "Monaco",
+    "country": "MC",
+    "venue": "Monte Carlo Jazz Festival 2026",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108286575?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Graham Coxon",
@@ -35250,6 +36794,27 @@
     "priority": "I"
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-28",
+    "city": "Tampere",
+    "country": "FI",
+    "venue": "Tampere, Finland",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443209?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Graham Coxon",
     "date": "2026-11-28",
     "city": "London",
@@ -35502,6 +37067,27 @@
     "priority": ""
   },
   {
+    "band": "Fulci",
+    "date": "2026-11-29",
+    "city": "Helsinki",
+    "country": "FI",
+    "venue": "Helsinki, Finland",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443217?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Geordie Greep",
     "date": "2026-11-29",
     "city": "Turin",
@@ -35690,6 +37276,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-12-01",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "Tallin, Estonia",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443259?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Headache",
@@ -36050,6 +37657,27 @@
     "priority": ""
   },
   {
+    "band": "Fulci",
+    "date": "2026-12-03",
+    "city": "Warsaw",
+    "country": "PL",
+    "venue": "Warsaw, Poland",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443278?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Hooverphonic",
     "date": "2026-12-03",
     "city": "Turnhout",
@@ -36254,6 +37882,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-12-04",
+    "city": "Berlin",
+    "country": "DE",
+    "venue": "Berlin, Germany",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443286?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "High On Fire",
@@ -36473,6 +38122,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-12-05",
+    "city": "Prague",
+    "country": "CZ",
+    "venue": "Futurum Music Bar",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038437974?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "High On Fire",
@@ -36765,12 +38435,12 @@
   {
     "band": "Widowspeak",
     "date": "2026-12-05",
-    "city": "Johanneshov",
+    "city": "Stockholm",
     "country": "SE",
-    "venue": "Hus 7",
+    "venue": "Hus 7 i Åre AB",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43160227-widowspeak-at-hus-7",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108229763?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -36781,8 +38451,28 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": ""
+    "note": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-12-06",
+    "city": "Munich",
+    "country": "DE",
+    "venue": "Munchen, Germany",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443294?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Jazzanova",
@@ -37037,6 +38727,27 @@
     "priority": ""
   },
   {
+    "band": "Fulci",
+    "date": "2026-12-09",
+    "city": "Bratislava I",
+    "country": "SK",
+    "venue": "Bratislava, Slovakia",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443321?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
+  },
+  {
     "band": "Hooverphonic",
     "date": "2026-12-09",
     "city": "Hasselt",
@@ -37133,6 +38844,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2026-12-10",
+    "city": "Ljubljana",
+    "country": "SI",
+    "venue": "Ljubljana, Slovenia",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108443329?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "High On Fire",
@@ -38962,12 +40694,12 @@
   {
     "band": "Lamb of God",
     "date": "2027-01-26",
-    "city": "Nuremberg",
+    "city": "Düsseldorf",
     "country": "DE",
-    "venue": "PSD Bank Nürnberg Arena",
+    "venue": "PSD Arena",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43191244-lamb-of-god-at-psd-bank-nurnberg-arena",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108322468?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -38978,8 +40710,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": ""
+    "note": ""
   },
   {
     "band": "Gilla Band",
@@ -39136,6 +40867,27 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2027-01-28",
+    "city": "Glasgow",
+    "country": "GB",
+    "venue": "Ivory Blacks",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038904244?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Gilla Band",
@@ -39415,6 +41167,27 @@
     },
     "note": "",
     "priority": "II"
+  },
+  {
+    "band": "Rosalie Cunningham",
+    "date": "2027-01-31",
+    "city": "Birmingham",
+    "country": "GB",
+    "venue": "The Castle & Falcon",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1038934566?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Gilla Band",
@@ -40196,12 +41969,12 @@
   {
     "band": "Lamb of God",
     "date": "2027-02-08",
-    "city": "Vorst",
+    "city": "Brussels",
     "country": "BE",
-    "venue": "Vorst Nationaal/Forest National",
+    "venue": "Vorst National",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43191249-lamb-of-god-at-vorst-nationaalforest-national",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108322469?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
@@ -40212,8 +41985,7 @@
       "seasonal": false,
       "duration_minutes": null
     },
-    "note": "",
-    "priority": ""
+    "note": ""
   },
   {
     "band": "Tramhaus",
@@ -40706,6 +42478,27 @@
     },
     "note": "",
     "priority": "I"
+  },
+  {
+    "band": "Jethro Tull",
+    "date": "2027-02-16",
+    "city": "Madrid",
+    "country": "ES",
+    "venue": "Teatro Lope de Vega",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1039069861?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null
+    },
+    "note": ""
   },
   {
     "band": "Lamb of God",
