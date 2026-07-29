@@ -540,18 +540,6 @@
       margin-top: 0;
     }
 
-    .map-popup .mp-band.is-priority {
-      background: var(--pink);
-      color: var(--paper);
-      padding: 1px 4px;
-    }
-
-    .map-popup .mp-band.is-priority-2 {
-      background: var(--ink);
-      color: var(--paper);
-      padding: 1px 4px;
-    }
-
     .map-popup a {
       color: var(--blue);
     }

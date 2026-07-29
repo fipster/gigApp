@@ -654,7 +654,7 @@
 
         const sortedShows = entry.shows.slice().sort((a, b) => a.date.localeCompare(b.date));
         const popupHtml = `<div class="map-popup"><strong>${countryFlag(entry.country)} ${escapeHtml(entry.city)}</strong>` +
-          sortedShows.map(s => `<a class="mp-band ${bandPriorityClass(s.band)}" href="${escapeAttr(youtubeMusicUrl(s.band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.band)}</a>${s.date} — ${s.url ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.venue || 'link')}</a>` : escapeHtml(s.venue)}`).join('') +
+          sortedShows.map(s => `<a class="mp-band" href="${escapeAttr(youtubeMusicUrl(s.band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.band)}</a>${s.date} — ${s.url ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.venue || 'link')}</a>` : escapeHtml(s.venue)}`).join('') +
           `</div>`;
         marker.bindPopup(popupHtml);
         leafletMarkers.push(marker);
