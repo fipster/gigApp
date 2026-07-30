@@ -35,6 +35,45 @@ with open(BAND_NAME_ALIASES_JSON, encoding="utf-8") as f:
     _band_aliases_raw = json.load(f)
 BAND_NAME_ALIASES = {k: v for k, v in _band_aliases_raw.items() if not k.startswith("_")}
 
+# placeholder flight info for scrapers that don't compute it themselves --
+# enrich_flights.py fills in the real values afterward
+NO_FLIGHT_INFO = {"direct": False, "seasonal": False, "duration_minutes": None}
+
+# several source sites (Fienta, Kultuurikava, AllEvents.lt, Songkick) block
+# or degrade for the default "Python-urllib/x.y" User-Agent but work fine
+# with any normal browser-style one -- shared so a future Chrome-version
+# bump or fingerprinting change only needs editing here. Not used by every
+# scraper: skene.info's own User-Agent is deliberately different (a
+# self-identifying one, appropriate for that site, see scrape_skene.py),
+# and Ticketmaster/MusicBrainz/Spotify each have their own auth-bearing or
+# API-specific headers instead of this generic one.
+REQUEST_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
+
+
+def load_artists(path=ARTISTS_CSV):
+    # "active" (3rd column) marks an artist deliberately excluded (e.g. not
+    # in the current source playlist); "ignore" (4th column) flags a band
+    # confirmed inactive/disbanded (see check_artist_status.py). Either one
+    # skips the row entirely so scrapers never even attempt it.
+    with open(path, encoding="utf-8") as f:
+        reader = csv.reader(f)
+        next(reader, None)  # header row: artist_name,playlist,active,ignore
+        return [row[0].strip() for row in reader if row and row[0].strip()
+                and (len(row) < 3 or row[2].strip().lower() != "false")
+                and (len(row) < 4 or row[3].strip().lower() != "true")]
+
+
+def country_name_to_code_map():
+    # reverse lookup (English country name, lowercased -> ISO code) built
+    # from the same countries.json the region allowlist comes from -- used
+    # by sources whose own API/HTML gives a country name instead of a code
+    # (scrape_bandsintown.py, scrape_songkick.py, the latter also adding
+    # its own "uk" alias on top since Songkick uses that instead of the
+    # ISO code "GB" or the full name)
+    with open(COUNTRIES_JSON, encoding="utf-8") as f:
+        countries_data = json.load(f)
+    return {info["name"].lower(): code for code, info in countries_data.items()}
+
 
 def load_artist_priorities(path=ARTISTS_CSV):
     # maps each artist to its priority tier (6th column of artists.csv --

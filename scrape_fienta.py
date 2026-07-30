@@ -43,7 +43,6 @@ nights) on 2026-07-28. Don't treat a clean-looking run as reason to skip
 the manual check.
 """
 
-import csv
 import json
 import re
 import sys
@@ -64,29 +63,10 @@ ARTISTS_CSV = "artists.csv"
 SOURCE_NAME = "Fienta"
 REQUEST_DELAY = 0.8  # 80 req/min limit -> stay comfortably under it
 
-# Fienta's Cloudflare WAF returns 403 (error 1010) for the default
-# "Python-urllib/x.y" User-Agent; any normal browser-style UA passes.
-REQUEST_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
-
-NO_FLIGHT_INFO = {"direct": False, "seasonal": False, "duration_minutes": None}
-
 # Estonia's addresses reliably end in "<region> maakond" (county); this is the
 # only country we can confidently recognize from Fienta's free-text address,
 # so it's the only one we resolve to an ISO code -- see module docstring.
 ESTONIA_ADDRESS_PATTERN = re.compile(r"\bmaakond\b", re.IGNORECASE)
-
-
-def load_artists(path):
-    # "active" (3rd column) marks an artist deliberately excluded (e.g. not
-    # in the current source playlist); "ignore" (4th column) flags a band
-    # confirmed inactive/disbanded (see check_artist_status.py). Either one
-    # skips the row entirely so scrapers never even attempt it.
-    with open(path, encoding="utf-8") as f:
-        reader = csv.reader(f)
-        next(reader, None)  # header row: artist_name,playlist,active,ignore
-        return [row[0].strip() for row in reader if row and row[0].strip()
-                and (len(row) < 3 or row[2].strip().lower() != "false")
-                and (len(row) < 4 or row[3].strip().lower() != "true")]
 
 
 def search_events(artist):
@@ -100,7 +80,9 @@ def search_events(artist):
         "starts_from": date.today().isoformat(),
     }
     url = f"{BASE_URL}?{urllib.parse.urlencode(params)}"
-    request = urllib.request.Request(url, headers=REQUEST_HEADERS)
+    # Fienta's Cloudflare WAF returns 403 (error 1010) for the default
+    # "Python-urllib/x.y" User-Agent; any normal browser-style UA passes.
+    request = urllib.request.Request(url, headers=common.REQUEST_HEADERS)
     try:
         with urllib.request.urlopen(request, timeout=30) as resp:
             data = json.loads(resp.read().decode("utf-8"))
@@ -146,14 +128,14 @@ def to_show(artist, event):
         "fest": "FESTIVAL" if "festival" in title.lower() else None,
         "source": SOURCE_NAME,
         "url": event.get("url") or "",
-        "flightTLL": dict(NO_FLIGHT_INFO),
-        "flightRIX": dict(NO_FLIGHT_INFO),
+        "flightTLL": dict(common.NO_FLIGHT_INFO),
+        "flightRIX": dict(common.NO_FLIGHT_INFO),
         "note": "",
     }
 
 
 def main():
-    artists = load_artists(ARTISTS_CSV)
+    artists = common.load_artists(ARTISTS_CSV)
     existing = common.load_shows()
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)

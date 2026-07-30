@@ -21,7 +21,6 @@ a re-scrape is what actually removes an already-imported cancelled show,
 not this fix by itself.
 """
 
-import csv
 import json
 import os
 import sys
@@ -47,21 +46,6 @@ ARTISTS_CSV = "artists.csv"
 SOURCE_NAME = "Ticketmaster"
 REQUEST_DELAY = 0.25  # ~4 req/sec, under the 5 req/sec limit
 MAX_RATE_LIMIT_RETRIES = 3
-
-NO_FLIGHT_INFO = {"direct": False, "seasonal": False, "duration_minutes": None}
-
-
-def load_artists(path):
-    # "active" (3rd column) marks an artist deliberately excluded (e.g. not
-    # in the current source playlist); "ignore" (4th column) flags a band
-    # confirmed inactive/disbanded (see check_artist_status.py). Either one
-    # skips the row entirely so scrapers never even attempt it.
-    with open(path, encoding="utf-8") as f:
-        reader = csv.reader(f)
-        next(reader, None)  # header row: artist_name,playlist,active,ignore
-        return [row[0].strip() for row in reader if row and row[0].strip()
-                and (len(row) < 3 or row[2].strip().lower() != "false")
-                and (len(row) < 4 or row[3].strip().lower() != "true")]
 
 
 def api_get(path, params, retries=MAX_RATE_LIMIT_RETRIES):
@@ -167,8 +151,8 @@ def to_show(artist, event):
         "source": SOURCE_NAME,
         "url": event.get("url") or "",
         # placeholders — run enrich_flights.py to fill these in properly
-        "flightTLL": dict(NO_FLIGHT_INFO),
-        "flightRIX": dict(NO_FLIGHT_INFO),
+        "flightTLL": dict(common.NO_FLIGHT_INFO),
+        "flightRIX": dict(common.NO_FLIGHT_INFO),
         "note": "",
     }
 
@@ -177,7 +161,7 @@ def main():
     if not API_KEY:
         sys.exit("Set the TICKETMASTER_API_KEY environment variable first.")
 
-    artists = load_artists(ARTISTS_CSV)
+    artists = common.load_artists(ARTISTS_CSV)
     existing = common.load_shows()
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)

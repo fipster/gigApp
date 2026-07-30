@@ -70,7 +70,6 @@ geocoding caveats (see geocode_cities.py's docstring).
 Run enrich_flights.py afterward to fill in flightTLL/flightRIX/note.
 """
 
-import csv
 import json
 import os
 import sys
@@ -112,16 +111,6 @@ TOKEN_URL = "https://open.spotify.com/api/token"
 SEARCH_HASH = "0dff51c99e552b992377a2a6f40d213dc42b62db86ca0bcf16cf3934aec1aae6"
 ARTIST_OVERVIEW_HASH = "433e28d1e949372d3ca3aa6c47975cff428b5dc37b12f5325d9213accadf770a"
 
-NO_FLIGHT_INFO = {"direct": False, "seasonal": False, "duration_minutes": None}
-
-
-def load_artists(path):
-    with open(path, encoding="utf-8") as f:
-        reader = csv.reader(f)
-        next(reader, None)  # header row: artist_name,playlist,active,ignore
-        return [row[0].strip() for row in reader if row and row[0].strip()
-                and (len(row) < 3 or row[2].strip().lower() != "false")
-                and (len(row) < 4 or row[3].strip().lower() != "true")]
 
 
 def totp_secret():
@@ -262,8 +251,8 @@ def build_show(artist, show_date, city, venue, country_code, url, fest=None):
         "fest": fest,
         "source": SOURCE_NAME,
         "url": url,
-        "flightTLL": dict(NO_FLIGHT_INFO),
-        "flightRIX": dict(NO_FLIGHT_INFO),
+        "flightTLL": dict(common.NO_FLIGHT_INFO),
+        "flightRIX": dict(common.NO_FLIGHT_INFO),
         "note": "",
     }
 
@@ -429,7 +418,7 @@ def fetch_full_concert_list(page, artist_uri):
     return page.eval_on_selector_all('a[href^="/concert/"]', STAGE2_EXTRACT_JS)
 
 
-def run_stage2(queue, merged, existing_by_key, city_country_cache):
+def run_stage2(queue, merged, existing_by_key, city_country_cache, artist_status):
     if not queue:
         return 0
     from playwright.sync_api import sync_playwright
@@ -465,6 +454,8 @@ def run_stage2(queue, merged, existing_by_key, city_country_cache):
                 key = common.show_key(show)
                 if key in existing_by_key:
                     continue
+                if not common.confirm_inactive_artist_show(show, artist_status):
+                    continue
                 merged[key] = show
                 artist_new += 1
                 new_count += 1
@@ -476,7 +467,7 @@ def run_stage2(queue, merged, existing_by_key, city_country_cache):
 
 
 def main():
-    artists = load_artists(common.ARTISTS_CSV)
+    artists = common.load_artists(common.ARTISTS_CSV)
     existing = common.load_shows()
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)
@@ -493,9 +484,11 @@ def main():
     queue = []  # artists whose totalCount exceeds stage 1's 4-item preview
 
     for i, artist in enumerate(artists, 1):
-        if common.is_inactive(artist_status, artist):
-            print(f"[{i}/{len(artists)}] {artist} — skipped, marked inactive")
-            continue
+        # unlike scrape_bandsintown.py, this is a free source, so an
+        # inactive artist reuniting isn't a cost concern -- searched like
+        # every other free scraper, with confirm_inactive_artist_show()
+        # gating any show it actually finds (below) instead of skipping
+        # the search outright
         if common.already_checked_recently(scrape_state, artist, SOURCE_NAME):
             print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
             continue
@@ -536,6 +529,8 @@ def main():
             key = common.show_key(show)
             if key in existing_by_key:
                 continue
+            if not common.confirm_inactive_artist_show(show, artist_status):
+                continue
             merged[key] = show
             new_count += 1
 
@@ -551,7 +546,7 @@ def main():
     save_json_cache(geo_cache, GEO_CACHE_JSON)
     save_json_cache({"queued": queue}, QUEUE_JSON)
 
-    stage2_new = run_stage2(queue, merged, existing_by_key, city_country_cache)
+    stage2_new = run_stage2(queue, merged, existing_by_key, city_country_cache, artist_status)
     save_json_cache(city_country_cache, CITY_COUNTRY_CACHE_JSON)
 
     result = common.save_shows(list(merged.values()))

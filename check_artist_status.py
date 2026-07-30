@@ -1,10 +1,20 @@
 """
 Checks each artist in artists.csv against MusicBrainz's public API to
 find out whether they're disbanded/deceased ("ended", in MusicBrainz's
-terms), and writes the result to artist_status.json. Every scrape_*.py
-script skips artists marked inactive there, via
-shows_common.is_inactive() -- there's no point repeatedly checking
-ticket sites for a band that no longer exists.
+terms), and writes the result to artist_status.json.
+
+Two-tier system, both of which start from this file's output:
+  - artists.csv's own "ignore" column (a permanent, manually-set hard
+    skip -- see load_artists()) means a scrape_*.py never even attempts
+    that artist.
+  - artist_status.json's "active" flag (this script's output) is softer:
+    scrape_bandsintown.py skips searching for an inactive artist outright
+    (see shows_common.is_inactive()) since it's a paid-per-call source,
+    but every other scrape_*.py still searches and only gates a *found*
+    show through shows_common.confirm_inactive_artist_show() -- an
+    inactive artist reuniting is rare enough that a free source doesn't
+    need to skip the search entirely, just double-check before trusting
+    a hit.
 
 MusicBrainz is a free, open, contributor-maintained artist database
 with no bot-detection at all -- unlike the ticket sites, this is a
@@ -29,9 +39,18 @@ artist_status.json entries look like:
 Entries with "source": "manual" are never overwritten by this script --
 edit the file by hand (set "active" and change "source" to "manual")
 to correct a case MusicBrainz got wrong, and reruns will leave it alone.
+
+Like the scrapers, a per-artist recheck is throttled via scrape_state.json
+(shared file, own "MusicBrainz" key) so a rerun only re-queries artists
+not already confirmed within the window -- this used to re-query
+essentially all ~900 artists every single run (~20+ minutes, almost all
+of it reconfirming already-known, rarely-changing facts). This only
+applies to a *resolved* check (active is not None) -- an artist MusicBrainz
+couldn't confidently match stays unthrottled, so it's retried every run
+rather than waiting out the window for a result that was never cached in
+the first place.
 """
 
-import csv
 import json
 import sys
 import time
@@ -39,6 +58,8 @@ import urllib.parse
 import urllib.request
 import urllib.error
 from datetime import date
+
+import shows_common as common
 
 # some artist names contain characters the default Windows console codepage can't print
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -48,24 +69,12 @@ ARTISTS_CSV = "artists.csv"
 STATUS_JSON = "artist_status.json"
 BASE_URL = "https://musicbrainz.org/ws/2/artist/"
 REQUEST_DELAY = 1.5  # MusicBrainz asks unauthenticated clients to stay at/under 1 req/sec -- a bit of margin since shared-IP traffic can trip their limiter sooner than that
+SOURCE_NAME = "MusicBrainz"
 
 # MusicBrainz requires a descriptive User-Agent identifying the application for unauthenticated use
 USER_AGENT = "gigApp/1.0 (+https://github.com/fipster/gigApp)"
 
 MIN_SCORE = 90  # only trust a match this confident -- see module docstring
-
-
-def load_artists(path):
-    # "active" (3rd column) marks an artist deliberately excluded (e.g. not
-    # in the current source playlist); "ignore" (4th column) flags a band
-    # confirmed inactive/disbanded (see check_artist_status.py). Either one
-    # skips the row entirely so scrapers never even attempt it.
-    with open(path, encoding="utf-8") as f:
-        reader = csv.reader(f)
-        next(reader, None)  # header row: artist_name,playlist,active,ignore
-        return [row[0].strip() for row in reader if row and row[0].strip()
-                and (len(row) < 3 or row[2].strip().lower() != "false")
-                and (len(row) < 4 or row[3].strip().lower() != "true")]
 
 
 def load_status(path=STATUS_JSON):
@@ -132,16 +141,21 @@ def resolve_active(name, data):
 
 
 def main():
-    artists = load_artists(ARTISTS_CSV)
+    artists = common.load_artists(ARTISTS_CSV)
     status = load_status()
+    scrape_state = common.load_scrape_state()
 
     checked_count = 0
     inactive_count = 0
+    skipped_count = 0
 
     for i, artist in enumerate(artists, 1):
         existing = status.get(artist)
         if existing and existing.get("source") == "manual":
             print(f"[{i}/{len(artists)}] {artist} — skipped, manual override in place")
+            continue
+        if common.already_checked_recently(scrape_state, artist, SOURCE_NAME):
+            skipped_count += 1
             continue
 
         print(f"[{i}/{len(artists)}] {artist}")
@@ -154,6 +168,7 @@ def main():
                 "source": "musicbrainz",
                 "checked": date.today().isoformat(),
             }
+            common.mark_checked(scrape_state, artist, SOURCE_NAME)
             checked_count += 1
             if not active:
                 inactive_count += 1
@@ -162,7 +177,9 @@ def main():
         time.sleep(REQUEST_DELAY)
 
     save_status(status)
-    print(f"\nDone. {checked_count} artists resolved, {inactive_count} newly marked inactive.")
+    common.save_scrape_state(scrape_state)
+    print(f"\nDone. {checked_count} artists resolved, {inactive_count} newly marked inactive, "
+          f"{skipped_count} skipped (checked recently).")
 
 
 if __name__ == "__main__":

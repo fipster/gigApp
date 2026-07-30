@@ -49,7 +49,6 @@ only applied going forward, so a re-scrape is what actually removes an
 already-imported cancelled show, not this fix by itself.
 """
 
-import csv
 import json
 import re
 import sys
@@ -64,10 +63,8 @@ import shows_common as common
 # Songkick's JSON-LD addressCountry is inconsistent -- sometimes a 2-letter
 # ISO code (e.g. "US"), sometimes a full English country name (e.g.
 # "Latvia", "Lithuania"). Build a name -> code lookup from countries.json
-# (same approach as scrape_bandsintown.py) to handle both.
-with open(common.COUNTRIES_JSON, encoding="utf-8") as f:
-    _countries_data = json.load(f)
-COUNTRY_NAME_TO_CODE = {info["name"].lower(): code for code, info in _countries_data.items()}
+# (same approach as scrape_bandsintown.py).
+COUNTRY_NAME_TO_CODE = common.country_name_to_code_map()
 # Songkick uses "UK" for the United Kingdom, not the ISO code "GB" and not
 # the full name either -- add it as an explicit alias rather than guessing
 # at other possible abbreviations.
@@ -82,10 +79,6 @@ ARTISTS_CSV = "artists.csv"
 SOURCE_NAME = "Songkick"
 REQUEST_DELAY = 0.8
 
-REQUEST_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
-
-NO_FLIGHT_INFO = {"direct": False, "seasonal": False, "duration_minutes": None}
-
 SEARCH_RESULT_RE = re.compile(
     r'<a href="(/artists/(\d+)-[^"]*)"[^>]*class="search-link"><strong>([^<]*)</strong></a>\s*</p>\s*([\d,]+) upcoming',
     re.DOTALL,
@@ -93,21 +86,8 @@ SEARCH_RESULT_RE = re.compile(
 MICROFORMAT_RE = re.compile(r'<div class="microformat">\s*<script type="application/ld\+json">(.*?)</script>', re.DOTALL)
 
 
-def load_artists(path):
-    # "active" (3rd column) marks an artist deliberately excluded (e.g. not
-    # in the current source playlist); "ignore" (4th column) flags a band
-    # confirmed inactive/disbanded (see check_artist_status.py). Either one
-    # skips the row entirely so scrapers never even attempt it.
-    with open(path, encoding="utf-8") as f:
-        reader = csv.reader(f)
-        next(reader, None)  # header row: artist_name,playlist,active,ignore
-        return [row[0].strip() for row in reader if row and row[0].strip()
-                and (len(row) < 3 or row[2].strip().lower() != "false")
-                and (len(row) < 4 or row[3].strip().lower() != "true")]
-
-
 def fetch(url):
-    request = urllib.request.Request(url, headers=REQUEST_HEADERS)
+    request = urllib.request.Request(url, headers=common.REQUEST_HEADERS)
     with urllib.request.urlopen(request, timeout=20) as resp:
         return resp.read().decode("utf-8")
 
@@ -199,14 +179,14 @@ def to_show(artist, event):
         "fest": "FESTIVAL" if is_festival else None,
         "source": SOURCE_NAME,
         "url": url,
-        "flightTLL": dict(NO_FLIGHT_INFO),
-        "flightRIX": dict(NO_FLIGHT_INFO),
+        "flightTLL": dict(common.NO_FLIGHT_INFO),
+        "flightRIX": dict(common.NO_FLIGHT_INFO),
         "note": "",
     }
 
 
 def main():
-    artists = load_artists(ARTISTS_CSV)
+    artists = common.load_artists(ARTISTS_CSV)
     existing = common.load_shows()
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)

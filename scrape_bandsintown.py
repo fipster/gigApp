@@ -22,7 +22,6 @@ silently drop a legitimate in-region show if Bandsintown localizes its
 name. Spot-check results after a run if a show you expect is missing.
 """
 
-import csv
 import json
 import os
 import re
@@ -48,26 +47,9 @@ ARTISTS_CSV = "artists.csv"
 SOURCE_NAME = "Bandsintown"
 REQUEST_DELAY = 0.5
 
-NO_FLIGHT_INFO = {"direct": False, "seasonal": False, "duration_minutes": None}
-
 # reverse lookup (English country name -> ISO code), built from the same
 # countries.json the region allowlist itself comes from
-with open(common.COUNTRIES_JSON, encoding="utf-8") as f:
-    _countries_data = json.load(f)
-COUNTRY_NAME_TO_CODE = {info["name"].lower(): code for code, info in _countries_data.items()}
-
-
-def load_artists(path):
-    # "active" (3rd column) marks an artist deliberately excluded (e.g. not
-    # in the current source playlist); "ignore" (4th column) flags a band
-    # confirmed inactive/disbanded (see check_artist_status.py). Either one
-    # skips the row entirely so scrapers never even attempt it.
-    with open(path, encoding="utf-8") as f:
-        reader = csv.reader(f)
-        next(reader, None)  # header row: artist_name,playlist,active,ignore
-        return [row[0].strip() for row in reader if row and row[0].strip()
-                and (len(row) < 3 or row[2].strip().lower() != "false")
-                and (len(row) < 4 or row[3].strip().lower() != "true")]
+COUNTRY_NAME_TO_CODE = common.country_name_to_code_map()
 
 
 def run_status_message(run_id):
@@ -131,8 +113,8 @@ def to_show(artist, event):
         "fest": "FESTIVAL" if is_festival else None,
         "source": SOURCE_NAME,
         "url": event.get("url") or "",
-        "flightTLL": dict(NO_FLIGHT_INFO),
-        "flightRIX": dict(NO_FLIGHT_INFO),
+        "flightTLL": dict(common.NO_FLIGHT_INFO),
+        "flightRIX": dict(common.NO_FLIGHT_INFO),
         "note": "",
     }
 
@@ -141,7 +123,7 @@ def main():
     if not API_TOKEN:
         sys.exit("Set the APIFY_API_TOKEN environment variable first.")
 
-    artists = load_artists(ARTISTS_CSV)
+    artists = common.load_artists(ARTISTS_CSV)
     existing = common.load_shows()
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)

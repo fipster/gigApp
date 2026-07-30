@@ -71,7 +71,6 @@ there's no explicit year, it's inferred: this year, unless that date
 has already passed, in which case next year.
 """
 
-import csv
 import html
 import http.cookiejar
 import re
@@ -93,9 +92,6 @@ SOURCE_NAME = "AllEvents.lt"
 REQUEST_DELAY = 0.5
 ITEMS_PER_PAGE = 50
 
-REQUEST_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
-
-NO_FLIGHT_INFO = {"direct": False, "seasonal": False, "duration_minutes": None}
 COUNTRY_CODE = "LT"  # site is Lithuania-only, see module docstring
 
 CARD_RE = re.compile(r"<a href='([^']*)' class='col eventCard'>(.*?)</a>", re.DOTALL)
@@ -107,22 +103,9 @@ _cookie_jar = http.cookiejar.CookieJar()
 _opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(_cookie_jar))
 
 
-def load_artists(path):
-    # "active" (3rd column) marks an artist deliberately excluded (e.g. not
-    # in the current source playlist); "ignore" (4th column) flags a band
-    # confirmed inactive/disbanded (see check_artist_status.py). Either one
-    # skips the row entirely so scrapers never even attempt it.
-    with open(path, encoding="utf-8") as f:
-        reader = csv.reader(f)
-        next(reader, None)  # header row: artist_name,playlist,active,ignore
-        return [row[0].strip() for row in reader if row and row[0].strip()
-                and (len(row) < 3 or row[2].strip().lower() != "false")
-                and (len(row) < 4 or row[3].strip().lower() != "true")]
-
-
 def init_session():
     # establishes the AEltLang=en cookie so search results come back with English month names
-    request = urllib.request.Request(f"{BASE_URL}/?lang=en", headers=REQUEST_HEADERS)
+    request = urllib.request.Request(f"{BASE_URL}/?lang=en", headers=common.REQUEST_HEADERS)
     _opener.open(request, timeout=15).read()
 
 
@@ -145,7 +128,7 @@ def search_events(artist):
         "hideCinema": "false",
     }
     data = urllib.parse.urlencode(params).encode("utf-8")
-    headers = dict(REQUEST_HEADERS, **{"Content-Type": "application/x-www-form-urlencoded"})
+    headers = dict(common.REQUEST_HEADERS, **{"Content-Type": "application/x-www-form-urlencoded"})
     request = urllib.request.Request(f"{BASE_URL}/action", data=data, headers=headers)
     try:
         with _opener.open(request, timeout=15) as resp:
@@ -207,8 +190,8 @@ def to_show(artist, href, block, today):
         "fest": "FESTIVAL" if "festival" in title.lower() else None,
         "source": SOURCE_NAME,
         "url": f"{BASE_URL}{href}",
-        "flightTLL": dict(NO_FLIGHT_INFO),
-        "flightRIX": dict(NO_FLIGHT_INFO),
+        "flightTLL": dict(common.NO_FLIGHT_INFO),
+        "flightRIX": dict(common.NO_FLIGHT_INFO),
         "note": "",
     }
 
@@ -216,7 +199,7 @@ def to_show(artist, href, block, today):
 def main():
     init_session()
 
-    artists = load_artists(ARTISTS_CSV)
+    artists = common.load_artists(ARTISTS_CSV)
     existing = common.load_shows()
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)

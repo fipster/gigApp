@@ -31,7 +31,6 @@ than guessed at, same principle as the other scrapers' country
 fallbacks (e.g. scrape_fienta.py's address parsing).
 """
 
-import csv
 import json
 import sys
 import urllib.request
@@ -46,9 +45,9 @@ sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 BASE_URL = "https://www.skene.info/api/events.json"
 ARTISTS_CSV = "artists.csv"
 SOURCE_NAME = "Skene"
+# deliberately not shows_common.REQUEST_HEADERS -- self-identifying rather
+# than browser-spoofing, appropriate for this site (see module docstring)
 REQUEST_HEADERS = {"User-Agent": "gigApp/1.0 (personal project, contact: vipp@crimson.ee)"}
-
-NO_FLIGHT_INFO = {"direct": False, "seasonal": False, "duration_minutes": None}
 
 EVENT_TYPES = {"kontsert", "festival"}
 
@@ -65,18 +64,6 @@ ESTONIAN_COUNTRY_NAMES = {
     "iirimaa": "IE", "portugal": "PT", "kreeka": "GR", "island": "IS",
     "sloveenia": "SI", "horvaatia": "HR",
 }
-
-
-def load_artists(path):
-    # 3rd column marks an artist deliberately excluded (e.g. not in the
-    # current source playlist); 4th flags a band confirmed inactive/
-    # disbanded -- either one skips the row entirely
-    with open(path, encoding="utf-8") as f:
-        reader = csv.reader(f)
-        next(reader, None)  # header row: artist_name,playlist,active,ignore
-        return [row[0].strip() for row in reader if row and row[0].strip()
-                and (len(row) < 3 or row[2].strip().lower() != "false")
-                and (len(row) < 4 or row[3].strip().lower() != "true")]
 
 
 def fetch_events():
@@ -124,14 +111,14 @@ def to_show(artist, entry):
         "fest": "FESTIVAL" if entry.get("t") == "festival" else None,
         "source": SOURCE_NAME,
         "url": url,
-        "flightTLL": dict(NO_FLIGHT_INFO),
-        "flightRIX": dict(NO_FLIGHT_INFO),
+        "flightTLL": dict(common.NO_FLIGHT_INFO),
+        "flightRIX": dict(common.NO_FLIGHT_INFO),
         "note": "",
     }
 
 
 def main():
-    artists = load_artists(ARTISTS_CSV)
+    artists = common.load_artists(ARTISTS_CSV)
     existing = common.load_shows()
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)
