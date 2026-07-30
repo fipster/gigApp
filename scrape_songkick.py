@@ -113,29 +113,35 @@ def fetch(url):
 
 
 def find_artist(artist):
-    """Returns the matched artist's href (e.g. /artists/331163-metallica), or None."""
+    """Returns (href_or_None, error_occurred). href is e.g.
+    /artists/331163-metallica. error_occurred distinguishes a real request
+    failure from a genuine "no matching artist" result, so the caller can
+    skip mark_checked and retry next run instead of silently caching the
+    error as a clean check."""
     params = {"query": artist, "type": "artists"}
     url = f"{BASE_URL}/search?{urllib.parse.urlencode(params)}"
     try:
         html = fetch(url)
     except Exception as e:
         print(f"  error searching for {artist}: {e}", file=sys.stderr)
-        return None
+        return None, True
 
     for m in SEARCH_RESULT_RE.finditer(html):
         href, artist_id, name, count = m.groups()
         if name.strip().lower() == artist.strip().lower():
-            return href
-    return None
+            return href, False
+    return None, False
 
 
 def fetch_calendar_events(artist_href):
+    """Returns (events, error_occurred) -- see find_artist()'s docstring
+    for why error_occurred is tracked separately from an empty result."""
     url = f"{BASE_URL}{artist_href}/calendar"
     try:
         html = fetch(url)
     except Exception as e:
         print(f"  error fetching calendar {artist_href}: {e}", file=sys.stderr)
-        return []
+        return [], True
 
     events = []
     for m in MICROFORMAT_RE.finditer(html):
@@ -144,7 +150,7 @@ def fetch_calendar_events(artist_href):
         except json.JSONDecodeError:
             continue
         events.extend(data if isinstance(data, list) else [data])
-    return events
+    return events, False
 
 
 def resolve_country(raw_country):
@@ -213,11 +219,16 @@ def main():
             print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
             continue
 
-        artist_href = find_artist(artist)
+        artist_href, search_error = find_artist(artist)
         time.sleep(REQUEST_DELAY)
+        if search_error:
+            print(f"[{i}/{len(artists)}] {artist} — error, will retry next run", file=sys.stderr)
+            continue
+
         new_count = 0
         if artist_href:
-            for event in fetch_calendar_events(artist_href):
+            events, calendar_error = fetch_calendar_events(artist_href)
+            for event in events:
                 show = to_show(artist, event)
                 if show is None:
                     continue
@@ -229,6 +240,9 @@ def main():
                 merged[key] = show
                 new_count += 1
             time.sleep(REQUEST_DELAY)
+            if calendar_error:
+                print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s) (error mid-fetch, will retry next run)", file=sys.stderr)
+                continue
             print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s)")
         else:
             print(f"[{i}/{len(artists)}] {artist} — not found")

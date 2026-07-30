@@ -84,26 +84,38 @@ def api_get(path, params, retries=MAX_RATE_LIMIT_RETRIES):
             time.sleep(5)
             return api_get(path, params, retries=retries - 1)
         print(f"  HTTP {e.code} on {path}: {e.read().decode('utf-8', 'ignore')[:200]}", file=sys.stderr)
-        return {}
+        return None
     except Exception as e:
         print(f"  error on {path}: {e}", file=sys.stderr)
-        return {}
+        return None
 
 
 def find_attraction_id(artist):
+    """Returns (attraction_id_or_None, error_occurred). error_occurred
+    distinguishes a real request failure from a genuine "no such attraction"
+    result, so the caller can skip mark_checked and retry next run instead
+    of silently caching the error as a clean check."""
     data = api_get("attractions.json", {"keyword": artist, "size": 10})
+    if data is None:
+        return None, True
     attractions = (data.get("_embedded") or {}).get("attractions") or []
     for a in attractions:
         if a.get("name", "").strip().lower() == artist.strip().lower():
-            return a["id"]
-    return None
+            return a["id"], False
+    return None, False
 
 
 def fetch_events(attraction_id):
+    """Returns (events, error_occurred) -- events collected before an error
+    (if any) are still returned, since a partial page is better than none,
+    but error_occurred tells the caller not to treat this as a complete,
+    cleanly-checked result."""
     events = []
     page = 0
     while True:
         data = api_get("events.json", {"attractionId": attraction_id, "size": 200, "page": page})
+        if data is None:
+            return events, True
         page_events = (data.get("_embedded") or {}).get("events") or []
         events.extend(page_events)
         total_pages = (data.get("page") or {}).get("totalPages", 1)
@@ -111,7 +123,7 @@ def fetch_events(attraction_id):
         if page >= total_pages:
             break
         time.sleep(REQUEST_DELAY)
-    return events
+    return events, False
 
 
 def to_show(artist, event):
@@ -178,11 +190,16 @@ def main():
             print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
             continue
 
-        attraction_id = find_attraction_id(artist)
+        attraction_id, id_error = find_attraction_id(artist)
         time.sleep(REQUEST_DELAY)
+        if id_error:
+            print(f"[{i}/{len(artists)}] {artist} — error, will retry next run", file=sys.stderr)
+            continue
+
         new_count = 0
         if attraction_id:
-            for event in fetch_events(attraction_id):
+            events, events_error = fetch_events(attraction_id)
+            for event in events:
                 show = to_show(artist, event)
                 if show is None:
                     continue
@@ -194,6 +211,9 @@ def main():
                 merged[key] = show
                 new_count += 1
             time.sleep(REQUEST_DELAY)
+            if events_error:
+                print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s) (error mid-fetch, will retry next run)", file=sys.stderr)
+                continue
             print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s)")
         else:
             print(f"[{i}/{len(artists)}] {artist} — not found")

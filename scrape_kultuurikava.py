@@ -127,6 +127,9 @@ def unix_to_estonian_date(ts):
 
 
 def search_events(artist):
+    """Returns a list of events, or None if the request failed -- the
+    caller must treat None as "retry next run", not "confirmed zero
+    results", so a transient error doesn't get cached as a clean check."""
     params = {
         "do": "events",
         "token": API_TOKEN,
@@ -148,10 +151,10 @@ def search_events(artist):
         return data.get("events", {}).get("results") or []
     except urllib.error.HTTPError as e:
         print(f"  HTTP {e.code} for {artist}: {e.read().decode('utf-8', 'ignore')[:200]}", file=sys.stderr)
-        return []
+        return None
     except Exception as e:
         print(f"  error for {artist}: {e}", file=sys.stderr)
-        return []
+        return None
 
 
 def collect_occurrences(artist, events):
@@ -218,6 +221,11 @@ def main():
             continue
 
         events = search_events(artist)
+        if events is None:
+            print(f"[{i}/{len(artists)}] {artist} — error, will retry next run", file=sys.stderr)
+            time.sleep(REQUEST_DELAY)
+            continue
+
         new_count = 0
         for occurrence in collect_occurrences(artist, events):
             show = to_show(artist, occurrence)

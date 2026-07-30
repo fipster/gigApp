@@ -11,6 +11,8 @@ FREE_SCRAPERS or PAID_SCRAPERS as appropriate. Order within each list
 also matters (earlier = runs first).
 """
 
+import sys
+
 import scrape_ticketmaster
 import scrape_fienta
 import scrape_kultuurikava
@@ -40,7 +42,16 @@ PAID_SCRAPERS = [
 def main():
     for scraper in FREE_SCRAPERS + PAID_SCRAPERS:
         print(f"\n==== {scraper.__name__} ====")
-        scraper.main()
+        try:
+            scraper.main()
+        except SystemExit as e:
+            # a scraper's own deliberate sys.exit() (e.g. Ticketmaster's
+            # quota-exhaustion abort) -- worth knowing about, but shouldn't
+            # take down the rest of the pipeline (dedup/enrich_flights
+            # still need to run on whatever every other scraper found)
+            print(f"{scraper.__name__} exited early: {e}", file=sys.stderr)
+        except Exception as e:
+            print(f"{scraper.__name__} failed: {e}", file=sys.stderr)
 
     print(f"\n==== resolve_date_conflicts ====")
     shows = common.load_shows()

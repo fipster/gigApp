@@ -81,9 +81,14 @@ def run_status_message(run_id):
 
 
 def call_actor(artist):
-    """Returns (events, not_found). not_found is True only when the actor
-    confirms the artist doesn't exist on Bandsintown at all -- distinct from
-    the artist existing but simply having no upcoming shows right now."""
+    """Returns (events, not_found). events is None if a real error occurred
+    (network/HTTP/etc) -- distinct from events=[] (a successful call that
+    confirmed zero upcoming shows) -- so the caller can skip mark_checked
+    and let this artist be retried next run instead of silently caching the
+    error as "checked, nothing found" for SKIP_IF_CHECKED_WITHIN_DAYS. not_found
+    is True only when the actor confirms the artist doesn't exist on
+    Bandsintown at all -- distinct from the artist existing but simply
+    having no upcoming shows right now."""
     url = f"https://api.apify.com/v2/acts/{ACTOR_ID}/run-sync-get-dataset-items?token={API_TOKEN}"
     body = json.dumps({"artist": artist, "queryType": "events", "date": "upcoming"}).encode("utf-8")
     req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"}, method="POST")
@@ -96,10 +101,10 @@ def call_actor(artist):
         if run_match and run_status_message(run_match.group(1)).startswith("Artist not found"):
             return [], True
         print(f"  HTTP {e.code} for {artist}: {body_text[:200]}", file=sys.stderr)
-        return [], False
+        return None, False
     except Exception as e:
         print(f"  error for {artist}: {e}", file=sys.stderr)
-        return [], False
+        return None, False
 
 
 def to_show(artist, event):
@@ -160,6 +165,10 @@ def main():
         if not_found:
             print(f"[{i}/{len(artists)}] {artist} — not found, won't retry")
             common.mark_not_found(scrape_state, artist, SOURCE_NAME)
+            time.sleep(REQUEST_DELAY)
+            continue
+        if events is None:
+            print(f"[{i}/{len(artists)}] {artist} — error, will retry next run")
             time.sleep(REQUEST_DELAY)
             continue
 

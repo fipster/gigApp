@@ -140,7 +140,12 @@ def main():
     try:
         entries = fetch_events()
     except Exception as e:
-        sys.exit(f"error fetching skene.info events: {e}")
+        # log and bail out of *this* scraper only -- run_scrapers.py runs
+        # several sources plus a paid one (scrape_bandsintown.py) after
+        # this one in FREE_SCRAPERS, and a transient skene.info hiccup
+        # shouldn't take those down with it (sys.exit() previously did)
+        print(f"error fetching skene.info events: {e}", file=sys.stderr)
+        return
 
     events = [e for e in entries if e.get("t") in EVENT_TYPES]
     print(f"fetched {len(entries)} entries ({len(events)} concerts/festivals)")

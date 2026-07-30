@@ -90,6 +90,9 @@ def load_artists(path):
 
 
 def search_events(artist):
+    """Returns a list of events, or None if the request failed -- the
+    caller must treat None as "retry next run", not "confirmed zero
+    results", so a transient error doesn't get cached as a clean check."""
     params = {
         "search": artist,
         "locale": "en",
@@ -104,10 +107,10 @@ def search_events(artist):
         return data.get("events") or []
     except urllib.error.HTTPError as e:
         print(f"  HTTP {e.code} for {artist}: {e.read().decode('utf-8', 'ignore')[:200]}", file=sys.stderr)
-        return []
+        return None
     except Exception as e:
         print(f"  error for {artist}: {e}", file=sys.stderr)
-        return []
+        return None
 
 
 def extract_city(address):
@@ -163,8 +166,14 @@ def main():
             print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
             continue
 
+        events = search_events(artist)
+        if events is None:
+            print(f"[{i}/{len(artists)}] {artist} — error, will retry next run", file=sys.stderr)
+            time.sleep(REQUEST_DELAY)
+            continue
+
         new_count = 0
-        for event in search_events(artist):
+        for event in events:
             show = to_show(artist, event)
             if show is None:
                 continue

@@ -127,6 +127,9 @@ def init_session():
 
 
 def search_events(artist):
+    """Returns the raw HTML fragment, or None if the request failed -- the
+    caller must treat None as "retry next run", not "confirmed zero
+    results", so a transient error doesn't get cached as a clean check."""
     params = {
         "ext": "events",
         "action": "getEventsList",
@@ -149,7 +152,7 @@ def search_events(artist):
             return resp.read().decode("utf-8")
     except Exception as e:
         print(f"  error for {artist}: {e}", file=sys.stderr)
-        return ""
+        return None
 
 
 def parse_month_day(month_day, today):
@@ -228,6 +231,11 @@ def main():
             continue
 
         html_fragment = search_events(artist)
+        if html_fragment is None:
+            print(f"[{i}/{len(artists)}] {artist} — error, will retry next run", file=sys.stderr)
+            time.sleep(REQUEST_DELAY)
+            continue
+
         new_count = 0
         for match in CARD_RE.finditer(html_fragment):
             href, block = match.groups()
