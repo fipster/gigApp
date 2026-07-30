@@ -2,7 +2,7 @@ artist_name,playlist,active,ignore,category,priority
 ...And You Will Know Us By The Trail Of Dead,Album added to library,,,,1
 10cc,,,TRUE,,
 9 Lazy 9,,,,,
-????,Album added to library,,true,,I
+????,Album added to library,,true,,
 A Beacon School,,,,,
 A Forest Mighty Black,,,,,
 A Tribe Called Quest,,FALSE,TRUE,,
@@ -281,7 +281,7 @@ Gina X Performance,punk / new wave,,,,
 Girlpool,post punkish,FALSE,TRUE,,2
 Goat Girl,Album added to library,,,,2
 GOGDOG,bestEST,,,,est
-GOGDOG x OUMEEN,Album added to library; bestEST,,,,DJ; est
+GOGDOG x OUMEEN,Album added to library; bestEST,,,DJ,est
 GoGo Penguin,Album added to library,,,,2
 Gojira,metall,,,,
 Goldfrapp,Album added to library,,,,2
@@ -414,13 +414,13 @@ Kõrsikud,bestEST,,,,est
 Lamb,,,,,
 Lamb of God,prügi,,,,
 Lana Del Rey,Album added to library,,,,2
-laurel 2,tasasem teknohõng,,,DJ; est,
+laurel 2,tasasem teknohõng,,,DJ,est
 Laurel Halo,tasasem teknohõng,,,DJ,
 Laurie Anderson,,,,,2
 LCD Soundsystem,post punkish,,,,2
 Lebanon Hanover,punk / new wave,,,,
 Leegitsev Sidrun,,,,,est
-Leftfield,,,,,DJ
+Leftfield,,,,DJ,
 Leggo Beast,,,,,
 Lemon Jelly,,FALSE,TRUE,,
 Liars,post punkish,,,,2
@@ -438,7 +438,7 @@ LSteelo,Album added to library,,,,2
 LTJ Bukem,,,,,
 Luarvik Luarvik,,FALSE,TRUE,,
 Luke Vibert,tasasem teknohõng,,,DJ,
-Luurel Varas,tasasem teknohõng,,,DJ; est,
+Luurel Varas,tasasem teknohõng,,,DJ,est
 LVL UP,,FALSE,TRUE,,
 Lydia Lunch,Liked song,,,,2
 Lynyrd Skynyrd,,,,,
@@ -577,7 +577,7 @@ Paul Oja,räps,,,,
 Paul Rock,,,,,
 Peace Orchestra,,,,,
 Pekka Pohjola,Album added to library,FALSE,TRUE,,2
-Pendulum,,,,,DJ
+Pendulum,,,,DJ,
 Pentangle,Liked song,,,,2
 Perfume Genius,Liked song,,,,2
 Perry Maysun,räps,,,,
@@ -696,7 +696,7 @@ Sparks,Album added to library,,,,2
 Special Interest,post punkish,,,,2
 Spectacular Diagnostics,räps,,,,
 Speedy Ortiz,Album added to library,,,,2
-Spice Mouse,,,,est,2
+Spice Mouse,,,,,2
 SPIRIT OF THE BEEHIVE,Album added to library,,,,1
 splifferation,räps,,,,
 Spoon,,,,,

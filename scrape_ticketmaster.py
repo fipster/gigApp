@@ -117,9 +117,12 @@ def fetch_events(attraction_id):
 def to_show(artist, event):
     # dates.status.code is "onsale"/"offsale"/"cancelled"/"postponed"/"rescheduled";
     # only a still-on-sale-or-not-yet-onsale date is a real, bookable show --
-    # a cancelled/postponed one would otherwise show up as a phantom show.
+    # a cancelled/postponed/rescheduled one would otherwise show up as a
+    # phantom show at its stale original date (found via a *CANCELLED*
+    # Crowbar @ Wrocław listing, and confirmed rescheduled shows carry their
+    # old date in this same field via scrape_songkick.py's equivalent fix).
     status_code = ((event.get("dates") or {}).get("status") or {}).get("code") or ""
-    if status_code in ("cancelled", "postponed"):
+    if status_code in ("cancelled", "postponed", "rescheduled"):
         return None
 
     venues = (event.get("_embedded") or {}).get("venues") or [{}]
@@ -136,13 +139,18 @@ def to_show(artist, event):
     is_festival = len(attractions) > 3 or "festival" in event.get("name", "").lower()
 
     city = venue.get("city", {}).get("name") or ""
+    # a small number of Ticketmaster venues have no "name" in the API
+    # response at all (confirmed live, e.g. Stockholm's Debaser Strand) --
+    # fall back to the street address, then the city, rather than leaving
+    # this blank
+    venue_name = venue.get("name") or (venue.get("address") or {}).get("line1") or city
 
     return {
         "band": artist,
         "date": event_date,
         "city": city,
         "country": country_code,
-        "venue": venue.get("name") or "",
+        "venue": venue_name,
         "fest": "FESTIVAL" if is_festival else None,
         "source": SOURCE_NAME,
         "url": event.get("url") or "",

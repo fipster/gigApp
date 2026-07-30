@@ -62,10 +62,15 @@ def flight_info(city, origin, event_date):
     elif info["seasonal"] and info.get("seasonal_months") and not in_season(event_date, info["seasonal_months"]):
         info["direct"] = False
 
-    # RIX and TLL durations are close enough that we only track one number;
-    # always report TLL's duration regardless of which origin this is for.
+    # RIX and TLL durations are close enough that we only track one number
+    # (reported for both origins regardless of which one this call is for):
+    # prefer TLL's duration, falling back to RIX's when TLL has no direct
+    # route at all (e.g. Aarhus -- RIX flies there directly, TLL doesn't).
     tll_hub = override.get("TLL_hub", city)
-    info["duration_minutes"] = DIRECT_FLIGHTS.get(tll_hub, {}).get("TLL", NO_DIRECT)["duration_minutes"]
+    rix_hub = override.get("RIX_hub", city)
+    tll_duration = DIRECT_FLIGHTS.get(tll_hub, {}).get("TLL", NO_DIRECT)["duration_minutes"]
+    rix_duration = DIRECT_FLIGHTS.get(rix_hub, {}).get("RIX", NO_DIRECT)["duration_minutes"]
+    info["duration_minutes"] = tll_duration if tll_duration is not None else rix_duration
 
     # the resolved city to actually search flights to/from (may differ from
     # the venue's own city when a hub override applies, e.g. Liverpool -> London/Manchester)

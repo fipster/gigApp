@@ -1,504 +1,5 @@
 [
   {
-    "band": "Buzhold",
-    "date": "2026-07-30",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Kotka Kultuurimaja",
-    "fest": null,
-    "source": "Skene",
-    "url": "https://www.facebook.com/events/954597880962342",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": null,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "est"
-  },
-  {
-    "band": "Crowbar",
-    "date": "2026-07-30",
-    "city": "Roitzschjora",
-    "country": "DE",
-    "venue": "Flugplatz Roitzschjora",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3554615-full-rewind/id/42940744-full-rewind-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Roitzschjora"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Roitzschjora"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "DARKSIDE",
-    "date": "2026-07-30",
-    "city": "Amsterdam",
-    "country": "NL",
-    "venue": "Dekmantel Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108108164?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Amsterdam"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Amsterdam"
-    },
-    "note": "",
-    "priority": "1"
-  },
-  {
-    "band": "Dead Meadow",
-    "date": "2026-07-30",
-    "city": "Wasquehal",
-    "country": "FR",
-    "venue": "THE BLACK LAB",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039354252?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Wasquehal"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Wasquehal"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Death in Vegas",
-    "date": "2026-07-30",
-    "city": "Amsterdam",
-    "country": "NL",
-    "venue": "Dekmantel Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108108172?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Amsterdam"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Amsterdam"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Gary Numan",
-    "date": "2026-07-30",
-    "city": "Buckley",
-    "country": "GB",
-    "venue": "The Tivoli",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1037509442?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Buckley"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Buckley"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Headache",
-    "date": "2026-07-30",
-    "city": "Amsterdam",
-    "country": "NL",
-    "venue": "Dekmantel Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108108180?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Amsterdam"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Amsterdam"
-    },
-    "note": "",
-    "priority": "1"
-  },
-  {
-    "band": "LTJ Bukem",
-    "date": "2026-07-30",
-    "city": "Most",
-    "country": "CZ",
-    "venue": "Let It Roll 2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108046130?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Most"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Most"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Leftfield",
-    "date": "2026-07-30",
-    "city": "Ibiza",
-    "country": "ES",
-    "venue": "Leftfield [DJ SET] @ Pikes, Ibiza",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108437955?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Ibiza"
-    },
-    "note": "",
-    "priority": "DJ"
-  },
-  {
-    "band": "Maruja",
-    "date": "2026-07-30",
-    "city": "Portlaw",
-    "country": "IE",
-    "venue": "All Together Now 2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038057714?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Moby",
-    "date": "2026-07-30",
-    "city": "Rustavi",
-    "country": "GE",
-    "venue": "moby live 26 - Tbilisi",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/107949900?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Rustavi"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Rustavi"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Mogwai",
-    "date": "2026-07-30",
-    "city": "Portlaw",
-    "country": "IE",
-    "venue": "Curraghmore House & Gardens",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2236829-all-together-now/id/42731341-all-together-now-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Dublin"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Opeth",
-    "date": "2026-07-30",
-    "city": "Antwerp",
-    "country": "BE",
-    "venue": "OLT Rivierenhof",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/107642718?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Antwerp"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Antwerp"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Pendulum",
-    "date": "2026-07-30",
-    "city": "Most",
-    "country": "CZ",
-    "venue": "Let It Roll 2026",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108354177?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Most"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Most"
-    },
-    "note": "",
-    "priority": "DJ"
-  },
-  {
-    "band": "Thievery Corporation",
-    "date": "2026-07-30",
-    "city": "London",
-    "country": "GB",
-    "venue": "Roundhouse",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.co.uk/thievery-corporation-london-30-07-2026/event/1F006459E8737ED5",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Wolfmother",
-    "date": "2026-07-30",
-    "city": "Manchester",
-    "country": "GB",
-    "venue": "O2 Ritz Manchester",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43127171-wolfmother-at-o2-ritz-manchester",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": true,
-      "duration_minutes": 195,
-      "seasonal_months": "Feb–Apr",
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        }
-      ],
-      "hub_city": "Manchester"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 195,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Manchester"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Cate Le Bon",
     "date": "2026-07-31",
     "city": "Brighton",
@@ -774,13 +275,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "hub_city": "Tallinn"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "carriers": [
         {
           "name": "airBaltic",
@@ -886,7 +387,7 @@
       "hub_city": "Espoo"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "Sepultura",
@@ -900,13 +401,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "hub_city": "Tallinn"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "carriers": [
         {
           "name": "airBaltic",
@@ -1172,7 +673,7 @@
       "hub_city": "East Lulworth"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "Meatbodies",
@@ -2458,13 +1959,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "hub_city": "Tallinn"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "carriers": [
         {
           "name": "airBaltic",
@@ -2642,7 +2143,7 @@
       "hub_city": "Newquay"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "Satyricon",
@@ -2953,13 +2454,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -3153,7 +2654,7 @@
       "hub_city": "Almería"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "Satyricon",
@@ -3503,13 +3004,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 130,
       "hub_city": "Belgrade"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 130,
       "carriers": [
         {
           "name": "airBaltic",
@@ -4057,13 +3558,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 40,
       "hub_city": "Palanga"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 40,
       "carriers": [
         {
           "name": "airBaltic",
@@ -4869,13 +4370,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 255,
       "hub_city": "Alicante"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 255,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -5927,13 +5428,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -6077,13 +5578,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 145,
       "hub_city": "Innsbruck"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 145,
       "seasonal_months": "Dec–Mar",
       "carriers": [
         {
@@ -6204,13 +5705,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 40,
       "hub_city": "Palanga"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 40,
       "carriers": [
         {
           "name": "airBaltic",
@@ -6438,13 +5939,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -6524,13 +6025,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -6738,13 +6239,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -6772,13 +6273,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -6806,13 +6307,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -6870,13 +6371,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -7092,13 +6593,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -7359,13 +6860,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "hub_city": "Tallinn"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "carriers": [
         {
           "name": "airBaltic",
@@ -7915,13 +7416,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 120,
       "hub_city": "Bergen"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 120,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -8378,7 +7879,7 @@
       "hub_city": "Zamárdi"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "Show Me The Body",
@@ -9177,13 +8678,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -9271,13 +8772,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 105,
       "hub_city": "Trondheim"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 105,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -10273,13 +9774,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -11499,13 +11000,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "hub_city": "Tallinn"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "carriers": [
         {
           "name": "airBaltic",
@@ -11947,13 +11448,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -12018,13 +11519,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "hub_city": "Lisbon"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "carriers": [
         {
           "name": "airBaltic",
@@ -12048,13 +11549,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "seasonal_months": "Dec–Aug",
       "carriers": [
         {
@@ -12477,7 +11978,7 @@
       "hub_city": "Blagnac"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "Röyksopp",
@@ -12883,13 +12384,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "hub_city": "Tallinn"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "carriers": [
         {
           "name": "airBaltic",
@@ -13529,13 +13030,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "hub_city": "Lisbon"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "carriers": [
         {
           "name": "airBaltic",
@@ -13667,13 +13168,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "hub_city": "Lisbon"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "carriers": [
         {
           "name": "airBaltic",
@@ -13785,13 +13286,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -14300,13 +13801,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -16393,13 +15894,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -16485,13 +15986,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -16635,13 +16136,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 240,
       "hub_city": "Valencia"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 240,
       "seasonal_months": "May–Nov",
       "carriers": [
         {
@@ -17506,13 +17007,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 130,
       "hub_city": "Belgrade"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 130,
       "carriers": [
         {
           "name": "airBaltic",
@@ -18393,13 +17894,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -19215,13 +18716,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -19298,13 +18799,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -19584,13 +19085,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -19614,13 +19115,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 105,
       "hub_city": "Trondheim"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 105,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -19716,13 +19217,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -19770,13 +19271,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "seasonal_months": "Dec–Aug",
       "carriers": [
         {
@@ -20037,13 +19538,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "hub_city": "Lisbon"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "carriers": [
         {
           "name": "airBaltic",
@@ -20091,13 +19592,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "hub_city": "Lisbon"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "carriers": [
         {
           "name": "airBaltic",
@@ -20301,13 +19802,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -20419,13 +19920,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "hub_city": "Lisbon"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "carriers": [
         {
           "name": "airBaltic",
@@ -21092,13 +20593,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 130,
       "hub_city": "Belgrade"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 130,
       "carriers": [
         {
           "name": "airBaltic",
@@ -21287,13 +20788,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 155,
       "hub_city": "Sofia"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 155,
       "carriers": [
         {
           "name": "airBaltic",
@@ -21429,13 +20930,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -21494,7 +20995,7 @@
       "hub_city": "Sant Antoni De Portmany"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "СОЮЗ",
@@ -21649,13 +21150,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 130,
       "hub_city": "Belgrade"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 130,
       "carriers": [
         {
           "name": "airBaltic",
@@ -22225,13 +21726,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -22720,13 +22221,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -22775,13 +22276,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 155,
       "hub_city": "Sofia"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 155,
       "carriers": [
         {
           "name": "airBaltic",
@@ -22849,13 +22350,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -22952,13 +22453,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 145,
       "hub_city": "Bucharest"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 145,
       "carriers": [
         {
           "name": "airBaltic",
@@ -23499,13 +23000,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 95,
       "hub_city": "Aarhus"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 95,
       "carriers": [
         {
           "name": "Ryanair",
@@ -23650,13 +23151,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Ljubljana"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "carriers": [
         {
           "name": "airBaltic",
@@ -23813,13 +23314,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -23871,13 +23372,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -24355,7 +23856,7 @@
       "hub_city": "London"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "Maruja",
@@ -24722,13 +24223,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 155,
       "hub_city": "Sofia"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 155,
       "carriers": [
         {
           "name": "airBaltic",
@@ -25435,13 +24936,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -25826,13 +25327,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "seasonal_months": "Dec–Aug",
       "carriers": [
         {
@@ -25881,13 +25382,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 175,
       "hub_city": "Turin"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 175,
       "seasonal_months": "Dec–Feb",
       "carriers": [
         {
@@ -26786,13 +26287,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "seasonal_months": "Dec–Aug",
       "carriers": [
         {
@@ -26994,13 +26495,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -27418,13 +26919,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -28065,13 +27566,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "hub_city": "Lisbon"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "carriers": [
         {
           "name": "airBaltic",
@@ -29263,13 +28764,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 175,
       "hub_city": "Turin"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 175,
       "seasonal_months": "Dec–Feb",
       "carriers": [
         {
@@ -29294,13 +28795,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 175,
       "hub_city": "Turin"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 175,
       "seasonal_months": "Dec–Feb",
       "carriers": [
         {
@@ -29325,13 +28826,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -29544,13 +29045,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -29632,7 +29133,7 @@
       "hub_city": "Villepinte"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "Sleaford Mods",
@@ -29686,13 +29187,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -29956,7 +29457,7 @@
       "hub_city": "Edinburgh"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "Mr. Scruff",
@@ -30228,13 +29729,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 175,
       "hub_city": "Turin"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 175,
       "seasonal_months": "Dec–Feb",
       "carriers": [
         {
@@ -30759,13 +30260,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Ljubljana"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "carriers": [
         {
           "name": "airBaltic",
@@ -31722,13 +31223,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "seasonal_months": "Dec–Aug",
       "carriers": [
         {
@@ -32037,13 +31538,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 240,
       "hub_city": "Valencia"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 240,
       "seasonal_months": "May–Nov",
       "carriers": [
         {
@@ -32300,13 +31801,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -33123,13 +32624,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "hub_city": "Tallinn"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "carriers": [
         {
           "name": "airBaltic",
@@ -33561,13 +33062,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 95,
       "hub_city": "Aarhus"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 95,
       "carriers": [
         {
           "name": "Ryanair",
@@ -33819,13 +33320,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 95,
       "hub_city": "Aarhus"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 95,
       "carriers": [
         {
           "name": "Ryanair",
@@ -34255,13 +33756,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 265,
       "hub_city": "Porto"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 265,
       "seasonal_months": "May–Dec",
       "carriers": [
         {
@@ -34286,13 +33787,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "seasonal_months": "Dec–Aug",
       "carriers": [
         {
@@ -35307,13 +34808,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -35426,13 +34927,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "seasonal_months": "Dec–Aug",
       "carriers": [
         {
@@ -36214,13 +35715,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -36369,13 +35870,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 265,
       "hub_city": "Porto"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 265,
       "seasonal_months": "May–Dec",
       "carriers": [
         {
@@ -37367,13 +36868,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -37506,13 +37007,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "hub_city": "Lisbon"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "carriers": [
         {
           "name": "airBaltic",
@@ -37977,13 +37478,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -38897,13 +38398,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -39116,13 +38617,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 65,
       "hub_city": "Tampere"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 65,
       "carriers": [
         {
           "name": "airBaltic",
@@ -39266,13 +38767,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 145,
       "hub_city": "Memmingen"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 145,
       "carriers": [
         {
           "name": "Ryanair",
@@ -39460,13 +38961,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 175,
       "hub_city": "Turin"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 175,
       "seasonal_months": "Dec–Feb",
       "carriers": [
         {
@@ -39515,13 +39016,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "seasonal_months": "Dec–Aug",
       "carriers": [
         {
@@ -39674,13 +39175,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "hub_city": "Tallinn"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "carriers": [
         {
           "name": "airBaltic",
@@ -40539,13 +40040,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -41494,13 +40995,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Ljubljana"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "carriers": [
         {
           "name": "airBaltic",
@@ -41820,13 +41321,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "hub_city": "Nottingham"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 170,
       "seasonal_months": "Dec–Aug",
       "carriers": [
         {
@@ -41999,13 +41500,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -42558,7 +42059,7 @@
       "hub_city": "Bristol"
     },
     "note": "",
-    "priority": "DJ"
+    "priority": ""
   },
   {
     "band": "Orbital",
@@ -42873,13 +42374,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 95,
       "hub_city": "Aarhus"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 95,
       "carriers": [
         {
           "name": "Ryanair",
@@ -44214,13 +43715,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 265,
       "hub_city": "Porto"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 265,
       "seasonal_months": "May–Dec",
       "carriers": [
         {
@@ -44331,13 +43832,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "hub_city": "Lisbon"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "carriers": [
         {
           "name": "airBaltic",
@@ -44497,13 +43998,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -45422,13 +44923,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
@@ -46461,13 +45962,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -47077,13 +46578,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "hub_city": "Cologne"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 135,
       "seasonal_months": "May–Aug",
       "carriers": [
         {
@@ -47221,13 +46722,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "hub_city": "Lisbon"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 280,
       "carriers": [
         {
           "name": "airBaltic",
@@ -47443,13 +46944,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "hub_city": "Gothenburg"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": true,
-      "duration_minutes": null,
+      "duration_minutes": 85,
       "carriers": [
         {
           "name": "Norwegian Air Shuttle",
@@ -48747,13 +48248,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "hub_city": "Tallinn"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 50,
       "carriers": [
         {
           "name": "airBaltic",
@@ -49278,13 +48779,13 @@
     "flightTLL": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "hub_city": "Madrid"
     },
     "flightRIX": {
       "direct": true,
       "seasonal": false,
-      "duration_minutes": null,
+      "duration_minutes": 250,
       "carriers": [
         {
           "name": "airBaltic",
