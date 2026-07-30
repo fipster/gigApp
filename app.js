@@ -145,8 +145,8 @@
 
     function bandPriorityClass(bandName) {
       const priority = bandPriorities.get(bandName);
-      if (priority === "I") return "is-priority";
-      if (priority === "II") return "is-priority-2";
+      if (priority === "1") return "is-priority";
+      if (priority === "2") return "is-priority-2";
       return "";
     }
 
@@ -515,8 +515,8 @@
       const entry = document.createElement('div');
       entry.className = "week-show-entry"
         + (s.fest === "FESTIVAL" ? " is-festival" : "")
-        + (s.priority === "I" ? " is-priority" : "")
-        + (s.priority === "II" ? " is-priority-2" : "");
+        + (s.priority === "1" ? " is-priority" : "")
+        + (s.priority === "2" ? " is-priority-2" : "");
       const bandLink = `<div class="w-band-row"><a class="w-band" href="${escapeAttr(youtubeMusicUrl(s.bands[0]))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.bands[0])}</a>${bandSuffix}</div>`;
       const cityText = (showFlag ? countryFlag(s.country) + " " : "") + s.city;
       const cityHtml = s.url

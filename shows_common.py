@@ -37,14 +37,13 @@ BAND_NAME_ALIASES = {k: v for k, v in _band_aliases_raw.items() if not k.startsw
 
 
 def load_artist_priorities(path=ARTISTS_CSV):
-    # maps each artist to its priority tier (5th column of artists.csv,
-    # currently just "I" for a handful of playlists -- see that file's
-    # header), so every show can be tagged with how much attention its
-    # artist warrants, both for steering scrapers and for display
+    # maps each artist to its priority tier (6th column of artists.csv --
+    # see that file's header), so every show can be tagged with how much
+    # attention its artist warrants, both for steering scrapers and for display
     with open(path, encoding="utf-8") as f:
         reader = csv.reader(f)
         next(reader, None)  # header row
-        return {row[0].strip(): row[4].strip() for row in reader if row and row[0].strip() and len(row) > 4}
+        return {row[0].strip(): row[5].strip() for row in reader if row and row[0].strip() and len(row) > 5}
 
 
 def normalize_city(city):
