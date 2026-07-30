@@ -56,6 +56,13 @@ rerunning when a scrape adds a city/country not already cached in
 -- e.g. `python -m http.server 8000` (matches the `gigapp-static` launch
 config in `.claude/launch.json`).
 
+**Validation**: `python check_data.py` checks `shows.json`/`artists.csv`
+against the schema/vocabulary the rest of the project assumes (run it
+after hand-editing `artists.csv` -- it catches exactly the kind of
+cross-column mistake that's happened before). `python -m unittest
+test_shows_common.py` runs unit tests for the dedup/matching logic in
+`shows_common.py`. Neither makes network calls.
+
 ## Data model
 
 **`artists.csv`** columns: `artist_name, playlist, active, ignore, category,
