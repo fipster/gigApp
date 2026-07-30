@@ -19,7 +19,7 @@
     <header class="bill">
       <div class="bill-text">
         <p class="eyebrow">One App to Rule Them All</p>
-        <h1 id="resetTitle">MY Bands<br><span>Are Out There</span></h1>
+        <h1 id="resetTitle" tabindex="0" role="button" aria-label="Reset all filters">MY Bands<br><span>Are Out There</span></h1>
         <p class="sub">
 
         </p>
@@ -40,24 +40,24 @@
           <div class="city-filter-panel">
             <input type="text" class="filter-search" id="bandSearchInput" placeholder="search bands…">
             <div class="row mode-row">
-              <div class="chip acid active" data-bandmode="include">SHOW SELECTED</div>
-              <div class="chip acid" data-bandmode="exclude">HIDE SELECTED</div>
+              <button type="button" class="chip acid active" data-bandmode="include">SHOW SELECTED</button>
+              <button type="button" class="chip acid" data-bandmode="exclude">HIDE SELECTED</button>
               <button class="reset-link" id="selectAllBands">select all</button>
               <button class="reset-link" id="selectNoneBands">select none</button>
             </div>
             <div id="bandCheckboxList"></div>
           </div>
         </details>
-        <div class="chip acid" data-filter="priority" data-value="1" title="only priority 1 bands">1</div>
-        <div class="chip acid" data-filter="priority" data-value="2" title="only priority 2 bands">2</div>
-        <div class="chip acid" data-filter="priority" data-value="est" title="only priority est bands">est</div>
+        <button type="button" class="chip acid" data-filter="priority" data-value="1" title="only priority 1 bands">1</button>
+        <button type="button" class="chip acid" data-filter="priority" data-value="2" title="only priority 2 bands">2</button>
+        <button type="button" class="chip acid" data-filter="priority" data-value="est" title="only priority est bands">est</button>
         <div class="spacer"></div>
         <label class="toggle">exclude festivals <input type="checkbox" id="excludeFest"></label>
       </div>
       <div class="row">
         <span class="label">FLY FROM</span>
-        <div class="chip acid" data-filter="origin" data-value="TLL">TLL</div>
-        <div class="chip acid" data-filter="origin" data-value="RIX">RIX</div>
+        <button type="button" class="chip acid" data-filter="origin" data-value="TLL">TLL</button>
+        <button type="button" class="chip acid" data-filter="origin" data-value="RIX">RIX</button>
       </div>
       <div class="row">
         <span class="label">SOURCES</span>
@@ -66,8 +66,8 @@
           <div class="city-filter-panel">
             <input type="text" class="filter-search" id="sourceSearchInput" placeholder="search sources…">
             <div class="row mode-row">
-              <div class="chip acid active" data-sourcemode="include">SHOW SELECTED</div>
-              <div class="chip acid" data-sourcemode="exclude">HIDE SELECTED</div>
+              <button type="button" class="chip acid active" data-sourcemode="include">SHOW SELECTED</button>
+              <button type="button" class="chip acid" data-sourcemode="exclude">HIDE SELECTED</button>
               <button class="reset-link" id="selectAllSources">select all</button>
               <button class="reset-link" id="selectNoneSources">select none</button>
             </div>
@@ -83,8 +83,8 @@
           <div class="city-filter-panel">
             <input type="text" class="filter-search" id="citySearchInput" placeholder="search cities…">
             <div class="row mode-row">
-              <div class="chip acid active" data-mode="include">SHOW SELECTED</div>
-              <div class="chip acid" data-mode="exclude">HIDE SELECTED</div>
+              <button type="button" class="chip acid active" data-mode="include">SHOW SELECTED</button>
+              <button type="button" class="chip acid" data-mode="exclude">HIDE SELECTED</button>
               <button class="reset-link" id="selectAllCities">select all</button>
               <button class="reset-link" id="selectNoneCities">select none</button>
             </div>

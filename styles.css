@@ -9,6 +9,12 @@
       --line: #C9C2B4;
       --card: #F6F3EA;
       --grey: #B7AF9F;
+      /* two muted-text tones that had drifted into five near-duplicate
+         hardcoded greys/browns (#6b6258, #8a8175, #4a433d, #5c554d,
+         #a39a8c) -- text-muted for the darker/more-legible uses, text-faint
+         for the lighter/de-emphasized ones */
+      --text-muted: #5c554d;
+      --text-faint: #8a8175;
     }
 
     * {
@@ -103,7 +109,7 @@
 
     .sub {
       font-size: 14px;
-      color: #4a433d;
+      color: var(--text-muted);
       max-width: 64ch;
       line-height: 1.5;
       margin: 0;
@@ -147,17 +153,24 @@
       font-size: 11px;
       text-transform: uppercase;
       letter-spacing: .08em;
-      color: #6b6258;
+      color: var(--text-muted);
       margin-right: 2px;
       min-width: 76px;
     }
 
     .chip {
+      /* chips are <button> elements (for native keyboard focus/activation)
+         styled to look like the plain toggle divs they used to be --
+         reset the default button chrome first */
+      appearance: none;
+      -webkit-appearance: none;
+      margin: 0;
       font-family: 'JetBrains Mono', monospace;
       font-size: 12px;
       padding: 7px 12px;
       border: 2px solid var(--ink);
       background: var(--paper);
+      color: var(--ink);
       cursor: pointer;
       user-select: none;
       transition: transform .12s ease;
@@ -192,10 +205,6 @@
       color: var(--ink);
     }
 
-    #bandSelect {
-      min-width: 200px;
-    }
-
     .date-range {
       display: flex;
       align-items: center;
@@ -209,7 +218,7 @@
     .date-range span {
       font-family: 'JetBrains Mono', monospace;
       font-size: 11px;
-      color: #8a8175;
+      color: var(--text-faint);
     }
 
     .reset-link {
@@ -236,7 +245,7 @@
       align-items: center;
       gap: 6px;
       cursor: pointer;
-      color: #4a433d;
+      color: var(--text-muted);
     }
 
     /* CITY/COUNTRY FILTER */
@@ -327,7 +336,7 @@
     .city-row {
       padding-left: 18px;
       font-weight: 400;
-      color: #4a433d;
+      color: var(--text-muted);
     }
 
     .country-row input,
@@ -462,7 +471,7 @@
     }
 
     .week-show-entry .w-city {
-      color: #6b6258;
+      color: var(--text-muted);
       text-decoration: none;
       display: block;
     }
@@ -474,7 +483,7 @@
 
     .week-show-entry .w-more {
       font-weight: 400;
-      color: #6b6258;
+      color: var(--text-muted);
       cursor: default;
       text-decoration: underline dotted;
     }
@@ -484,7 +493,8 @@
       flex-direction: column;
     }
 
-    .week-show-entry .w-more-wrap:hover .w-more-bands {
+    .week-show-entry .w-more-wrap:hover .w-more-bands,
+    .week-show-entry .w-more-wrap.is-open .w-more-bands {
       display: flex;
     }
 
@@ -694,7 +704,7 @@
     .fest-tag {
       font-family: 'JetBrains Mono', monospace;
       font-size: 10px;
-      color: #6b6258;
+      color: var(--text-muted);
       border: 1px dashed var(--line);
       padding: 3px 7px;
     }
@@ -709,7 +719,7 @@
 
     .venue {
       font-size: 12.5px;
-      color: #5c554d;
+      color: var(--text-muted);
     }
 
     .city a, .venue a,
@@ -775,7 +785,7 @@
 
     .estimate-note {
       font-size: 9.5px;
-      color: #a39a8c;
+      color: var(--text-faint);
       font-style: italic;
       margin-top: 6px;
     }
@@ -786,7 +796,7 @@
       border-top: 2px dashed var(--line);
       font-family: 'JetBrains Mono', monospace;
       font-size: 11px;
-      color: #8a8175;
+      color: var(--text-faint);
       line-height: 1.6;
     }
 
@@ -794,7 +804,7 @@
       padding: 40px 20px;
       text-align: center;
       font-family: 'JetBrains Mono', monospace;
-      color: #8a8175;
+      color: var(--text-faint);
       border: 2px dashed var(--line);
     }
 
@@ -813,9 +823,5 @@
 
       .label {
         min-width: auto;
-      }
-
-      #bandSelect {
-        min-width: 150px;
       }
     }

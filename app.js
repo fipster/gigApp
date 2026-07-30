@@ -8,6 +8,8 @@
     let cityCoordinates = {};
     let countryCoordinates = {};
     let bandPriorities = new Map();
+    let uniqueBands = [];
+    let uniqueSources = [];
     let WINDOW_TO;
 
     async function loadShows() {
@@ -23,6 +25,11 @@
       countryCoordinates = await countryCoordsResponse.json();
 
       shows.forEach(s => bandPriorities.set(s.band, s.priority));
+      // computed once here rather than re-derived from `shows` on every
+      // render()/panel-rebuild/reset -- `shows` itself never changes after
+      // this point, so these never go stale
+      uniqueBands = [...new Set(shows.map(s => s.band))].sort();
+      uniqueSources = [...new Set(shows.map(s => s.source))].sort();
 
       WINDOW_TO = shows.reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
 
@@ -35,9 +42,9 @@
       dateFromEl.value = WINDOW_FROM;
       dateToEl.value = WINDOW_TO;
 
-      buildBandPanel();
-      buildSourcePanel();
-      buildCityPanel();
+      bandFacet.rebuild();
+      sourceFacet.rebuild();
+      cityFacet.rebuild();
       render();
     }
 
@@ -152,62 +159,155 @@
 
     function cityKey(s) { return s.country + "|" + s.city; }
 
-    // ---- BAND DROPDOWN (built dynamically) ----
-    function buildBandPanel() {
-      const uniqueBands = [...new Set(shows.map(s => s.band))].sort();
-      uniqueBands.forEach(band => bandSelection.add(band));
+    // ---- SHARED FILTER FACET (band / source / city panels) ----
+    // A "facet" is a checkbox-list filter panel: search box, include/exclude
+    // mode toggle, select-all/none, and (when its <details> is opened) hiding
+    // rows with no matches under the OTHER currently-active filters. Band and
+    // Source are flat lists; City groups cities under a country row whose own
+    // checkbox reflects its children's state -- buildRows() is the only piece
+    // that differs between them. Everything else here is structure-agnostic:
+    // it only cares about elements carrying a `data-key` attribute (each
+    // leaf checkbox) and, optionally, an ancestor `.country-group`.
+    //
+    // Search only narrows which rows are *visible* in the dropdown -- it
+    // never touches `selection` or a checkbox's `checked` state. (An earlier
+    // version did mutate them on every keystroke, so clearing the search box
+    // silently re-selected everything and discarded any manual deselection --
+    // this is the fix for that.) Because of that, typing in the search box
+    // no longer needs to re-render the main shows list at all: nothing the
+    // list depends on (`selection`) has changed, only what's visible inside
+    // the not-yet-committed dropdown.
+    function createFilterFacet({ panelId, searchInputId, modeRowSelector, modeDataAttr, selectAllId, selectNoneId, selection, setMode, buildRows, allKeys }) {
+      const panel = document.getElementById(panelId);
+      const searchInput = document.getElementById(searchInputId);
 
-      const container = document.getElementById('bandCheckboxList');
-      container.innerHTML = "";
+      // the checkbox itself carries data-key (set in wireRow below) -- use
+      // .closest('.city-row') on any of these when the row/label wrapper
+      // (for visibility/text) is what's actually needed
+      function leafCheckboxes() {
+        return [...panel.querySelectorAll('[data-key]')];
+      }
 
-      uniqueBands.forEach(band => {
-        const row = document.createElement('label');
-        row.className = "city-row";
-        row.style.paddingLeft = "0";
-        const cb = document.createElement('input');
-        cb.type = "checkbox";
+      // keeps a city-group's own checkbox in sync with its children -- a
+      // no-op for band/source, which have no `.country-group` ancestor
+      function syncGroupCheckbox(row) {
+        const group = row.closest('.country-group');
+        if (!group) return;
+        const groupCb = group.querySelector('.country-row input[type=checkbox]');
+        const children = [...group.querySelectorAll('[data-key]')];
+        groupCb.checked = children.length > 0 && children.every(cb => cb.checked);
+      }
+
+      function wireRow(row, key) {
+        const cb = row.querySelector('input[type=checkbox]');
         cb.checked = true;
-        cb.dataset.band = band;
-        row.appendChild(cb);
-        row.appendChild(document.createTextNode(band));
-        container.appendChild(row);
-
+        cb.dataset.key = key;
         cb.addEventListener('change', () => {
-          if (cb.checked) bandSelection.add(band); else bandSelection.delete(band);
+          if (cb.checked) selection.add(key); else selection.delete(key);
+          syncGroupCheckbox(row);
+          render();
+        });
+      }
+
+      function rebuild() {
+        selection.clear();
+        allKeys().forEach(k => selection.add(k));
+        panel.innerHTML = "";
+        buildRows(panel, wireRow, selection);
+      }
+
+      searchInput.addEventListener('input', (e) => {
+        const rawInput = e.target.value;
+        leafCheckboxes().forEach(cb => {
+          const row = cb.closest('.city-row');
+          row.style.display = matchesSearchTerms(row.textContent, rawInput) ? "" : "none";
+        });
+        panel.querySelectorAll('.country-group').forEach(group => {
+          const anyVisible = [...group.querySelectorAll('[data-key]')].some(cb => cb.closest('.city-row').style.display !== "none");
+          group.style.display = anyVisible ? "" : "none";
+        });
+      });
+
+      document.querySelectorAll(modeRowSelector).forEach(chip => {
+        chip.addEventListener('click', () => {
+          document.querySelectorAll(modeRowSelector).forEach(c => c.classList.remove('active'));
+          chip.classList.add('active');
+          setMode(chip.dataset[modeDataAttr]);
           render();
         });
       });
-    }
 
-    // ---- SOURCE FILTER (built dynamically) ----
-    function buildSourcePanel() {
-      const uniqueSources = [...new Set(shows.map(s => s.source))].sort();
-      uniqueSources.forEach(source => sourceSelection.add(source));
-
-      const container = document.getElementById('sourceCheckboxList');
-      container.innerHTML = "";
-
-      uniqueSources.forEach(source => {
-        const row = document.createElement('label');
-        row.className = "city-row";
-        row.style.paddingLeft = "0";
-        const cb = document.createElement('input');
-        cb.type = "checkbox";
-        cb.checked = true;
-        cb.dataset.source = source;
-        row.appendChild(cb);
-        row.appendChild(document.createTextNode(source));
-        container.appendChild(row);
-
-        cb.addEventListener('change', () => {
-          if (cb.checked) sourceSelection.add(source); else sourceSelection.delete(source);
-          render();
-        });
+      document.getElementById(selectAllId).addEventListener('click', () => {
+        leafCheckboxes().forEach(cb => { cb.checked = true; });
+        panel.querySelectorAll('.country-group input[type=checkbox]').forEach(cb => cb.checked = true);
+        selection.clear();
+        allKeys().forEach(k => selection.add(k));
+        render();
       });
+      document.getElementById(selectNoneId).addEventListener('click', () => {
+        leafCheckboxes().forEach(cb => { cb.checked = false; });
+        panel.querySelectorAll('.country-group input[type=checkbox]').forEach(cb => cb.checked = false);
+        selection.clear();
+        render();
+      });
+
+      // hides rows that have no shows under the OTHER active filters (dates,
+      // other facets, etc.) -- run when the panel is opened, so it reflects
+      // whatever's currently filtered elsewhere without touching selection
+      function refreshAvailability(available) {
+        panel.querySelectorAll('.country-group').forEach(group => {
+          let anyVisible = false;
+          group.querySelectorAll('[data-key]').forEach(cb => {
+            const row = cb.closest('.city-row');
+            const visible = available.has(cb.dataset.key);
+            row.style.display = visible ? "" : "none";
+            if (visible) anyVisible = true;
+          });
+          group.style.display = anyVisible ? "" : "none";
+        });
+        if (!panel.querySelector('.country-group')) {
+          leafCheckboxes().forEach(cb => {
+            cb.closest('.city-row').style.display = available.has(cb.dataset.key) ? "" : "none";
+          });
+        }
+      }
+
+      function reset() {
+        setMode("include");
+        document.querySelectorAll(modeRowSelector).forEach(c => c.classList.remove('active'));
+        // modeDataAttr (e.g. "bandmode") is a single lowercase word for all
+        // three facets, so it maps directly to its data-* attribute name
+        // with no camelCase conversion needed
+        document.querySelector(`${modeRowSelector}[data-${modeDataAttr}="include"]`)?.classList.add('active');
+        searchInput.value = "";
+        panel.querySelectorAll('.country-group').forEach(g => g.style.display = "");
+        leafCheckboxes().forEach(cb => { cb.closest('.city-row').style.display = ""; cb.checked = true; });
+        panel.querySelectorAll('.country-group input[type=checkbox]').forEach(cb => cb.checked = true);
+        selection.clear();
+        allKeys().forEach(k => selection.add(k));
+      }
+
+      return { rebuild, refreshAvailability, reset };
     }
 
-    // ---- CITY / COUNTRY FILTER PANEL ----
-    function buildCityPanel() {
+    function buildFlatRows(getLabel) {
+      return (panel, wireRow, selection) => {
+        const keys = [...selection]; // rebuild() already seeded selection with allKeys()
+        keys.sort().forEach(key => {
+          const row = document.createElement('label');
+          row.className = "city-row";
+          row.style.paddingLeft = "0";
+          const cb = document.createElement('input');
+          cb.type = "checkbox";
+          row.appendChild(cb);
+          row.appendChild(document.createTextNode(getLabel ? getLabel(key) : key));
+          panel.appendChild(row);
+          wireRow(row, key);
+        });
+      };
+    }
+
+    function buildCityRows(panel, wireRow) {
       const byCountry = {};
       const order = [];
       shows.forEach(s => {
@@ -215,14 +315,10 @@
         if (!byCountry[s.country].some(c => c.city === s.city)) {
           byCountry[s.country].push({ city: s.city });
         }
-        citySelection.add(cityKey(s));
       });
 
       order.sort((a, b) => countryName(a).localeCompare(countryName(b)));
       Object.values(byCountry).forEach(cities => cities.sort((a, b) => a.city.localeCompare(b.city)));
-
-      const container = document.getElementById('cityCheckboxList');
-      container.innerHTML = "";
 
       order.forEach(country => {
         const cities = byCountry[country];
@@ -238,64 +334,71 @@
         countryRow.appendChild(document.createTextNode(countryFlag(country) + " " + countryName(country)));
         group.appendChild(countryRow);
 
-        const cityRows = [];
+        const cityCbs = [];
         cities.forEach(c => {
           const key = country + "|" + c.city;
           const cityRow = document.createElement('label');
           cityRow.className = "city-row";
           const cityCb = document.createElement('input');
           cityCb.type = "checkbox";
-          cityCb.checked = true;
-          cityCb.dataset.key = key;
           cityRow.appendChild(cityCb);
           cityRow.appendChild(document.createTextNode(c.city));
           group.appendChild(cityRow);
-          cityRows.push(cityCb);
-
-          cityCb.addEventListener('change', () => {
-            if (cityCb.checked) citySelection.add(key); else citySelection.delete(key);
-            countryCb.checked = cityRows.every(cb => cb.checked);
-            render();
-          });
+          cityCbs.push(cityCb);
+          wireRow(cityRow, key);
         });
 
         countryCb.addEventListener('change', () => {
-          cityRows.forEach(cb => {
+          cityCbs.forEach(cb => {
             cb.checked = countryCb.checked;
-            const key = country + "|" + cities[cityRows.indexOf(cb)].city;
+            const key = cb.dataset.key;
             if (cb.checked) citySelection.add(key); else citySelection.delete(key);
           });
           render();
         });
 
-        container.appendChild(group);
+        panel.appendChild(group);
       });
     }
 
-    // hides band/city rows that have no shows under the OTHER active filters
-    // (dates, source, etc.) -- run when the panel is opened, so it reflects
-    // whatever's currently filtered elsewhere without touching selection state
-    function refreshBandAvailability() {
-      const available = new Set(getFilteredList("band").map(s => s.band));
-      document.querySelectorAll('#bandCheckboxList .city-row').forEach(row => {
-        const cb = row.querySelector('input[type=checkbox]');
-        row.style.display = available.has(cb.dataset.band) ? "" : "none";
-      });
-    }
+    const bandFacet = createFilterFacet({
+      panelId: 'bandCheckboxList',
+      searchInputId: 'bandSearchInput',
+      modeRowSelector: '#bandFilterDetails .mode-row .chip',
+      modeDataAttr: 'bandmode',
+      selectAllId: 'selectAllBands',
+      selectNoneId: 'selectNoneBands',
+      selection: bandSelection,
+      setMode: (v) => { bandMode = v; },
+      buildRows: buildFlatRows(),
+      allKeys: () => uniqueBands,
+    });
 
-    function refreshCityAvailability() {
-      const available = new Set(getFilteredList("city").map(cityKey));
-      document.querySelectorAll('#cityCheckboxList .country-group').forEach(group => {
-        let anyVisible = false;
-        group.querySelectorAll('.city-row').forEach(row => {
-          const cb = row.querySelector('input[type=checkbox]');
-          const visible = available.has(cb.dataset.key);
-          row.style.display = visible ? "" : "none";
-          if (visible) anyVisible = true;
-        });
-        group.style.display = anyVisible ? "" : "none";
-      });
-    }
+    const sourceFacet = createFilterFacet({
+      panelId: 'sourceCheckboxList',
+      searchInputId: 'sourceSearchInput',
+      modeRowSelector: '#sourceFilterDetails .mode-row .chip',
+      modeDataAttr: 'sourcemode',
+      selectAllId: 'selectAllSources',
+      selectNoneId: 'selectNoneSources',
+      selection: sourceSelection,
+      setMode: (v) => { sourceMode = v; },
+      buildRows: buildFlatRows(),
+      allKeys: () => uniqueSources,
+    });
+
+    const cityFacet = createFilterFacet({
+      panelId: 'cityCheckboxList',
+      searchInputId: 'citySearchInput',
+      modeRowSelector: '#cityFilterDetails .mode-row .chip',
+      modeDataAttr: 'mode',
+      selectAllId: 'selectAllCities',
+      selectNoneId: 'selectNoneCities',
+      selection: citySelection,
+      setMode: (v) => { cityMode = v; },
+      buildRows: buildCityRows,
+      allKeys: () => [...new Set(shows.map(cityKey))],
+    });
 
     function hasDirectForSelection(show) {
       if (activeOrigins.size === 0) return true;
@@ -398,8 +501,6 @@
     }
 
     function render() {
-      const uniqueBands = [...new Set(shows.map(s => s.band))].sort();
-      const uniqueSources = [...new Set(shows.map(s => s.source))].sort();
       const list = getFilteredList();
 
       document.getElementById('totalCount').textContent = shows.length + " confirmed";
@@ -413,16 +514,16 @@
 
       document.getElementById('cityFilterCount').textContent = `${list.length}/${shows.length} shows`;
 
-      if (viewMode === "list") renderListView(list, uniqueBands);
+      if (viewMode === "list") renderListView(list);
       // the weekly view isn't bound to the date-range filter -- it just
       // starts positioned at that range, but navigating (prev/next week)
       // should keep showing whatever's really scheduled that week rather
       // than going blank once you scroll outside the selected range
-      else if (viewMode === "weekly") renderWeeklyView(getFilteredList("date"), uniqueBands);
+      else if (viewMode === "weekly") renderWeeklyView(getFilteredList("date"));
       else if (viewMode === "map") renderMapView(list);
     }
 
-    function renderListView(list, uniqueBands) {
+    function renderListView(list) {
       const groups = groupShows(list);
 
       if (sortBy === "bandCount") {
@@ -505,13 +606,24 @@
       return `${fromStr} – ${toStr}`;
     }
 
+    // toggles a "+N more" popover open/closed via click or Enter/Space, in
+    // addition to the plain CSS :hover reveal -- so it's reachable on
+    // touch devices and via keyboard, not just a mouse hover
+    function toggleMoreBands(wrap, forceClose) {
+      const isOpen = wrap.classList.contains('is-open');
+      document.querySelectorAll('.w-more-wrap.is-open').forEach(w => { if (w !== wrap) w.classList.remove('is-open'); });
+      wrap.classList.toggle('is-open', forceClose ? false : !isOpen);
+    }
+
     function buildWeekShowEntry(s, showFlag) {
       const otherBands = s.bands.slice(1);
-      const bandSuffix = otherBands.length > 0
-        ? ` <span class="w-more-wrap"><span class="w-more">+${otherBands.length}</span><div class="w-more-bands">${otherBands.map(band =>
-            `<a class="w-band" href="${escapeAttr(youtubeMusicUrl(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
-          ).join('')}</div></span>`
-        : '';
+      let bandSuffix = '';
+      if (otherBands.length > 0) {
+        const bandsHtml = otherBands.map(band =>
+          `<a class="w-band" href="${escapeAttr(youtubeMusicUrl(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
+        ).join('');
+        bandSuffix = ` <span class="w-more-wrap"><span class="w-more" tabindex="0" role="button" aria-label="${otherBands.length} more band(s)">+${otherBands.length}</span><div class="w-more-bands">${bandsHtml}</div></span>`;
+      }
       const entry = document.createElement('div');
       entry.className = "week-show-entry"
         + (s.fest === "FESTIVAL" ? " is-festival" : "")
@@ -523,6 +635,21 @@
         ? `<a class="w-city" href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(cityText)}</a>`
         : `<span class="w-city">${escapeHtml(cityText)}</span>`;
       entry.innerHTML = bandLink + cityHtml;
+
+      const moreTrigger = entry.querySelector('.w-more');
+      if (moreTrigger) {
+        moreTrigger.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleMoreBands(moreTrigger.closest('.w-more-wrap'));
+        });
+        moreTrigger.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            toggleMoreBands(moreTrigger.closest('.w-more-wrap'));
+          }
+        });
+      }
       return entry;
     }
 
@@ -544,7 +671,7 @@
       return byDate;
     }
 
-    function renderWeeklyView(list, uniqueBands) {
+    function renderWeeklyView(list) {
       document.getElementById('weekLabel').textContent = formatWeekLabel(weekStart);
       document.getElementById('weekPrev').disabled = isWeekEntirelyPast(candidatePrevWeekStart());
 
@@ -664,42 +791,9 @@
     }
 
     function resetAllFilters() {
-      // bands
-      bandMode = "include";
-      bandSelection.clear();
-      [...new Set(shows.map(s => s.band))].forEach(b => bandSelection.add(b));
-      document.querySelectorAll('#bandFilterDetails .mode-row .chip').forEach(c => c.classList.remove('active'));
-      document.querySelector('#bandFilterDetails .mode-row .chip[data-bandmode="include"]').classList.add('active');
-      document.getElementById('bandSearchInput').value = "";
-      document.querySelectorAll('#bandCheckboxList .city-row').forEach(row => {
-        row.style.display = "";
-        row.querySelector('input[type=checkbox]').checked = true;
-      });
-
-      // sources
-      sourceMode = "include";
-      sourceSelection.clear();
-      [...new Set(shows.map(s => s.source))].forEach(src => sourceSelection.add(src));
-      document.querySelectorAll('#sourceFilterDetails .mode-row .chip').forEach(c => c.classList.remove('active'));
-      document.querySelector('#sourceFilterDetails .mode-row .chip[data-sourcemode="include"]').classList.add('active');
-      document.getElementById('sourceSearchInput').value = "";
-      document.querySelectorAll('#sourceCheckboxList .city-row').forEach(row => {
-        row.style.display = "";
-        row.querySelector('input[type=checkbox]').checked = true;
-      });
-
-      // cities
-      cityMode = "include";
-      citySelection.clear();
-      shows.forEach(s => citySelection.add(cityKey(s)));
-      document.querySelectorAll('#cityFilterDetails .mode-row .chip').forEach(c => c.classList.remove('active'));
-      document.querySelector('#cityFilterDetails .mode-row .chip[data-mode="include"]').classList.add('active');
-      document.getElementById('citySearchInput').value = "";
-      document.querySelectorAll('#cityCheckboxList .country-group').forEach(group => group.style.display = "");
-      document.querySelectorAll('#cityCheckboxList .city-row, #cityCheckboxList .country-row').forEach(row => {
-        row.style.display = "";
-        row.querySelector('input[type=checkbox]').checked = true;
-      });
+      bandFacet.reset();
+      sourceFacet.reset();
+      cityFacet.reset();
 
       // festivals + origins + priority
       excludeFest = false;
@@ -728,55 +822,17 @@
       render();
     }
 
-    document.getElementById('resetTitle').addEventListener('click', resetAllFilters);
+    function activateResetTitle() { resetAllFilters(); }
+    const resetTitleEl = document.getElementById('resetTitle');
+    resetTitleEl.addEventListener('click', activateResetTitle);
+    resetTitleEl.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        activateResetTitle();
+      }
+    });
 
     // ---- EVENT WIRING ----
-    document.getElementById('bandSearchInput').addEventListener('input', (e) => {
-      const rawInput = e.target.value;
-      document.querySelectorAll('#bandCheckboxList .city-row').forEach(row => {
-        const cb = row.querySelector('input[type=checkbox]');
-        const matches = matchesSearchTerms(cb.dataset.band, rawInput);
-        row.style.display = matches ? "" : "none";
-        cb.checked = matches;
-        if (matches) bandSelection.add(cb.dataset.band); else bandSelection.delete(cb.dataset.band);
-      });
-      render();
-    });
-
-    document.getElementById('sourceSearchInput').addEventListener('input', (e) => {
-      const rawInput = e.target.value;
-      document.querySelectorAll('#sourceCheckboxList .city-row').forEach(row => {
-        const cb = row.querySelector('input[type=checkbox]');
-        const matches = matchesSearchTerms(cb.dataset.source, rawInput);
-        row.style.display = matches ? "" : "none";
-        cb.checked = matches;
-        if (matches) sourceSelection.add(cb.dataset.source); else sourceSelection.delete(cb.dataset.source);
-      });
-      render();
-    });
-
-    document.getElementById('citySearchInput').addEventListener('input', (e) => {
-      const rawInput = e.target.value;
-      document.querySelectorAll('#cityCheckboxList .country-group').forEach(group => {
-        const countryRow = group.querySelector('.country-row');
-        const countryCb = countryRow.querySelector('input[type=checkbox]');
-        const cityRows = [...group.querySelectorAll('.city-row')];
-        const countryMatches = matchesSearchTerms(countryRow.textContent, rawInput);
-        let anyCityMatches = false;
-        cityRows.forEach(row => {
-          const cb = row.querySelector('input[type=checkbox]');
-          const matches = countryMatches || matchesSearchTerms(row.textContent, rawInput);
-          row.style.display = matches ? "" : "none";
-          cb.checked = matches;
-          if (matches) { citySelection.add(cb.dataset.key); anyCityMatches = true; }
-          else citySelection.delete(cb.dataset.key);
-        });
-        group.style.display = (countryMatches || anyCityMatches) ? "" : "none";
-        countryCb.checked = cityRows.every(row => row.querySelector('input[type=checkbox]').checked);
-      });
-      render();
-    });
-
     document.querySelectorAll('.chip[data-filter="origin"]').forEach(chip => {
       chip.addEventListener('click', () => {
         chip.classList.toggle('active');
@@ -799,27 +855,7 @@
 
     // last date among shows matching the current non-date filters (band/source/city/origin/fest/priority)
     function filteredMaxDate() {
-      let list = shows.slice();
-      if (bandMode === "include") {
-        list = list.filter(s => bandSelection.has(s.band));
-      } else {
-        list = list.filter(s => !bandSelection.has(s.band));
-      }
-      if (excludeFest) list = list.filter(s => !s.fest);
-      if (sourceMode === "include") {
-        list = list.filter(s => sourceSelection.has(s.source));
-      } else {
-        list = list.filter(s => !sourceSelection.has(s.source));
-      }
-      if (cityMode === "include") {
-        list = list.filter(s => citySelection.has(cityKey(s)));
-      } else {
-        list = list.filter(s => !citySelection.has(cityKey(s)));
-      }
-      if (activeOrigins.size > 0) list = list.filter(s => hasDirectForSelection(s));
-      if (activePriorities.size > 0) list = list.filter(s => activePriorities.has(s.priority));
-
-      return list.reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
+      return getFilteredList("date").reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
     }
 
     function applyDatePreset(preset) {
@@ -863,69 +899,6 @@
 
     document.getElementById('sortBy').addEventListener('change', (e) => { sortBy = e.target.value; render(); });
 
-    document.querySelectorAll('#cityFilterDetails .mode-row .chip').forEach(chip => {
-      chip.addEventListener('click', () => {
-        document.querySelectorAll('#cityFilterDetails .mode-row .chip').forEach(c => c.classList.remove('active'));
-        chip.classList.add('active');
-        cityMode = chip.dataset.mode;
-        render();
-      });
-    });
-
-    document.getElementById('selectAllCities').addEventListener('click', () => {
-      document.querySelectorAll('#cityCheckboxList input[type=checkbox]').forEach(cb => cb.checked = true);
-      citySelection.clear();
-      shows.forEach(s => citySelection.add(cityKey(s)));
-      render();
-    });
-    document.getElementById('selectNoneCities').addEventListener('click', () => {
-      document.querySelectorAll('#cityCheckboxList input[type=checkbox]').forEach(cb => cb.checked = false);
-      citySelection.clear();
-      render();
-    });
-
-    document.querySelectorAll('#bandFilterDetails .mode-row .chip').forEach(chip => {
-      chip.addEventListener('click', () => {
-        document.querySelectorAll('#bandFilterDetails .mode-row .chip').forEach(c => c.classList.remove('active'));
-        chip.classList.add('active');
-        bandMode = chip.dataset.bandmode;
-        render();
-      });
-    });
-
-    document.getElementById('selectAllBands').addEventListener('click', () => {
-      document.querySelectorAll('#bandCheckboxList input[type=checkbox]').forEach(cb => cb.checked = true);
-      bandSelection.clear();
-      [...new Set(shows.map(s => s.band))].forEach(b => bandSelection.add(b));
-      render();
-    });
-    document.getElementById('selectNoneBands').addEventListener('click', () => {
-      document.querySelectorAll('#bandCheckboxList input[type=checkbox]').forEach(cb => cb.checked = false);
-      bandSelection.clear();
-      render();
-    });
-
-    document.querySelectorAll('#sourceFilterDetails .mode-row .chip').forEach(chip => {
-      chip.addEventListener('click', () => {
-        document.querySelectorAll('#sourceFilterDetails .mode-row .chip').forEach(c => c.classList.remove('active'));
-        chip.classList.add('active');
-        sourceMode = chip.dataset.sourcemode;
-        render();
-      });
-    });
-
-    document.getElementById('selectAllSources').addEventListener('click', () => {
-      document.querySelectorAll('#sourceCheckboxList input[type=checkbox]').forEach(cb => cb.checked = true);
-      sourceSelection.clear();
-      [...new Set(shows.map(s => s.source))].forEach(src => sourceSelection.add(src));
-      render();
-    });
-    document.getElementById('selectNoneSources').addEventListener('click', () => {
-      document.querySelectorAll('#sourceCheckboxList input[type=checkbox]').forEach(cb => cb.checked = false);
-      sourceSelection.clear();
-      render();
-    });
-
     document.querySelectorAll('details.city-filter').forEach(details => {
       details.addEventListener('toggle', () => {
         if (details.open) {
@@ -933,8 +906,9 @@
             if (other !== details) other.open = false;
           });
           details.querySelector('.filter-search')?.focus();
-          if (details.id === "bandFilterDetails") refreshBandAvailability();
-          else if (details.id === "cityFilterDetails") refreshCityAvailability();
+          if (details.id === "bandFilterDetails") bandFacet.refreshAvailability(new Set(getFilteredList("band").map(s => s.band)));
+          else if (details.id === "sourceFilterDetails") sourceFacet.refreshAvailability(new Set(getFilteredList("source").map(s => s.source)));
+          else if (details.id === "cityFilterDetails") cityFacet.refreshAvailability(new Set(getFilteredList("city").map(cityKey)));
         }
       });
     });
@@ -942,6 +916,11 @@
     document.addEventListener('click', (e) => {
       document.querySelectorAll('details.city-filter[open]').forEach(details => {
         if (!details.contains(e.target)) details.open = false;
+      });
+      // clicking anywhere outside an open "+N more" popover closes it, same
+      // pattern as the filter-panel <details> above
+      document.querySelectorAll('.w-more-wrap.is-open').forEach(wrap => {
+        if (!wrap.contains(e.target)) wrap.classList.remove('is-open');
       });
     });
 
@@ -967,7 +946,3 @@
       weekStart = mondayStrictlyAfter(weekStart);
       render();
     });
-
-    //buildBandPanel();
-    //buildCityPanel();
-    //render();
