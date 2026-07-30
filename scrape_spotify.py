@@ -23,30 +23,49 @@ Two GraphQL calls per artist:
      data.artist.goods.events.concerts, the same list the "Concerts" card
      on the artist page shows.
 
-Known limitation: queryArtistOverview's concerts list is hard-capped at 4
-items (confirmed -- extra limit/offset-style variables are silently
-ignored, since a persisted query's server-side query text is fixed). The
-artist's full tour list (up to dozens of dates) IS available, but only via
-open.spotify.com/artist/<id>/concerts, a separate page that's server-side
-rendered -- and that SSR content only comes back for requests that pass
-Spotify's edge bot/IP-reputation check, which a plain script request from
-this environment does not (confirmed: identical headers to a real browser
-still get a stripped, event-less shell). So this scraper only sees each
-artist's *next 4* upcoming concerts. For an artist on a long overseas tour
-that front-loads non-EU dates, this can miss real, later EU dates entirely
-until they roll into that top-4 window on a future run -- for an EU-based
-artist (or one about to play EU dates soon), it reliably catches them, as
-confirmed live against Dry Cleaning's Italy dates.
+Two stages:
 
-Unlike Bandsintown/Ticketmaster, Spotify's concert entries give a venue
-name + city + lat/lon but NOT a country. Country is derived by reverse-
-geocoding the lat/lon via Nominatim (same free API geocode_cities.py /
-geocode_countries.py already use, 1 req/sec). A cheap lat/lon bounding-box
-pre-filter (covers Europe/Middle East/Africa -- the same region
-countries.json's allowlist spans) skips the Nominatim call entirely for
-obviously-out-of-region shows (most touring bands play far more North
-American/Asian dates than European ones), so most artists cost 0 geocode
-calls.
+  Stage 1 -- queryArtistOverview (GraphQL, plain HTTP+TOTP token). Fast,
+  cheap, works for every artist. Its concerts list is hard-capped at 4
+  items (confirmed -- extra limit/offset-style variables are silently
+  ignored, since a persisted query's server-side query text is fixed) but
+  its `totalCount` field is accurate, so we always know when more exist.
+  If totalCount <= the items we got, that's the complete list already. If
+  not, the artist is queued for stage 2.
+
+  Stage 2 -- for artists stage 1 couldn't fully cover, fetches the real
+  open.spotify.com/artist/<id>/concerts page (server-rendered, confirmed
+  via `data-ssr="1"` in the raw response) via Playwright, a real headless
+  Chromium doing a genuine top-level navigation. This is necessary because
+  that page's SSR content is gated behind something that distinguishes a
+  true top-level navigation from *any* scripted request -- confirmed this
+  gate is not headers or cookies: a plain Python request with
+  browser-identical headers (including Sec-Fetch-Mode/Dest) gets a
+  stripped, event-less shell, and so does a fetch() issued from *inside*
+  the real Spotify page with a live session cookie and credentials
+  included. Only genuine navigation gets through. Playwright's headless
+  Chromium (a real browser engine doing real navigations, not a scripted
+  fetch) does pass this gate -- confirmed live against Protomartyr (36/36
+  concerts) and Dry Cleaning (22/22, vs. only 4 visible in stage 1).
+
+  Gotcha specific to this environment: Playwright must use a mobile user
+  agent (see STAGE2_USER_AGENT) -- without it, Spotify serves its desktop
+  web-player build, which has a different DOM structure than the one this
+  script's extraction targets, silently producing empty venue/city text
+  for every concert.
+
+Unlike Bandsintown/Ticketmaster, Spotify doesn't give a country directly.
+Stage 1's concerts have venue lat/lon, reverse-geocoded to a country via
+Nominatim (same free API geocode_cities.py/geocode_countries.py use, 1
+req/sec) behind a cheap lat/lon bounding-box pre-filter (covers
+Europe/Middle East/Africa -- the region countries.json's allowlist spans)
+that skips the Nominatim call entirely for obviously-out-of-region shows.
+Stage 2's concerts only have a city name (no coordinates), so country
+comes from forward-geocoding the city name instead (Nominatim free-text
+search, no country hint) -- inherently ambiguous for city names that exist
+in multiple countries (e.g. "Cambridge", "Santiago"); accepted as a known,
+undocumented-further limitation, same spirit as this project's other
+geocoding caveats (see geocode_cities.py's docstring).
 
 Run enrich_flights.py afterward to fill in flightTLL/flightRIX/note.
 """
@@ -180,14 +199,17 @@ def resolve_artist_uri(token, artist_name):
 
 
 def fetch_concerts(token, artist_uri):
+    """Returns (items, total_count). items is capped at 4 by the persisted
+    query itself; total_count is accurate, so total_count > len(items)
+    means this artist needs stage 2 to get the rest."""
     variables = {"uri": artist_uri, "locale": "", "includePrerelease": True, "enableAssociatedVideos": False}
     data = graphql(token, "queryArtistOverview", variables, ARTIST_OVERVIEW_HASH)
     artist = (data.get("data") or {}).get("artist") or {}
     events = ((artist.get("goods") or {}).get("events") or {}).get("concerts") or {}
-    return events.get("items") or []
+    return events.get("items") or [], events.get("totalCount") or 0
 
 
-def load_geo_cache(path=GEO_CACHE_JSON):
+def load_json_cache(path):
     try:
         with open(path, encoding="utf-8") as f:
             return json.load(f)
@@ -195,7 +217,7 @@ def load_geo_cache(path=GEO_CACHE_JSON):
         return {}
 
 
-def save_geo_cache(cache, path=GEO_CACHE_JSON):
+def save_json_cache(cache, path):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(cache, f, indent=2, ensure_ascii=False, sort_keys=True)
         f.write("\n")
@@ -228,30 +250,229 @@ def reverse_geocode_country(lat, lon, cache):
     return code
 
 
-def to_show(artist, concert, country_code):
-    d = concert.get("date") or {}
-    if not d.get("year"):
+def build_show(artist, show_date, city, venue, country_code, url, fest=None):
+    if not show_date or show_date < date.today().isoformat():
         return None
-    show_date = f"{d['year']:04d}-{d.get('month', 1):02d}-{d.get('day', 1):02d}"
-    if show_date < date.today().isoformat():
-        return None
-
-    venue = concert.get("venue") or {}
-    city = ((venue.get("location") or {}).get("name") or "").strip()
-
     return {
         "band": artist,
         "date": show_date,
         "city": city,
         "country": country_code,
-        "venue": venue.get("name") or "",
-        "fest": "FESTIVAL" if concert.get("festival") else None,
+        "venue": venue,
+        "fest": fest,
         "source": SOURCE_NAME,
-        "url": f"https://open.spotify.com/concert/{concert.get('id', '')}",
+        "url": url,
         "flightTLL": dict(NO_FLIGHT_INFO),
         "flightRIX": dict(NO_FLIGHT_INFO),
         "note": "",
     }
+
+
+def show_from_overview_concert(artist, concert, country_code):
+    d = concert.get("date") or {}
+    if not d.get("year"):
+        return None
+    show_date = f"{d['year']:04d}-{d.get('month', 1):02d}-{d.get('day', 1):02d}"
+    venue = concert.get("venue") or {}
+    city = ((venue.get("location") or {}).get("name") or "").strip()
+    return build_show(
+        artist, show_date, city, venue.get("name") or "", country_code,
+        f"https://open.spotify.com/concert/{concert.get('id', '')}",
+        fest="FESTIVAL" if concert.get("festival") else None,
+    )
+
+
+# --- stage 2: full concert list via Playwright (see module docstring) ---
+
+CITY_COUNTRY_CACHE_JSON = "spotify_city_country_cache.json"
+QUEUE_JSON = "spotify_needs_full_list.json"
+
+# without a mobile UA, Spotify serves its desktop web-player build, which
+# has a different DOM structure than STAGE2_EXTRACT_JS targets -- confirmed
+# live: id/date still come through, but venue/city silently comes back
+# empty for every concert
+STAGE2_USER_AGENT = ("Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 "
+                      "(KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36")
+
+# each concert is <a href="/concert/<id>"><time datetime="ISO">...</time>
+# ...<p><time>display text, no datetime attr</time>Venue, City</p></a> --
+# confirmed via live DOM inspection, not guessed
+STAGE2_EXTRACT_JS = """
+els => els.map(a => {
+  const id = (a.getAttribute('href') || '').replace('/concert/', '');
+  const timeEl = a.querySelector('time[datetime]');
+  const iso = timeEl ? timeEl.getAttribute('datetime') : null;
+  const p = a.querySelector('p');
+  let venueCity = '';
+  if (p) {
+    const clone = p.cloneNode(true);
+    const innerTime = clone.querySelector('time');
+    if (innerTime) innerTime.remove();
+    venueCity = clone.textContent.trim();
+  }
+  return {id, iso, venueCity};
+})
+"""
+
+
+def parse_venue_city(text):
+    if ", " not in text:
+        return "", text.strip()
+    venue, city = text.rsplit(", ", 1)
+    return venue.strip(), city.strip()
+
+
+def _nominatim_search(params):
+    url = f"https://nominatim.openstreetmap.org/search?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(url, headers={"User-Agent": GEO_USER_AGENT})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+# Nominatim's structured city= and free-text q= search will happily return
+# a "top match" for anything, including venue-page city text that isn't a
+# real place at all -- confirmed live: "C A B A" (as Spotify literally
+# displays "Ciudad Autónoma de Buenos Aires") top-matched a Ukrainian
+# archaeological site, and "Luxembourg-city" top-matched the Luxembourg
+# embassy in London -- both would have silently mistagged a real show with
+# a wrong country. A result is only trusted if EITHER (a) its place name
+# reasonably matches the query after accent/case/punctuation folding (via
+# shows_common._fold_city_for_matching, already used for this exact kind
+# of comparison elsewhere in the project), which catches the vast majority
+# of real places including small towns, OR (b) it's a high-"importance"
+# match (>=0.7, roughly "the internationally well-known name of a country
+# capital or similarly major city") -- a fallback for legitimate
+# English-vs-local-name mismatches folding alone can't bridge (e.g.
+# "Prague" vs Nominatim's "Praha", "Vienna" vs "Wien"). Anything that
+# clears neither bar is treated as unresolvable (returns "") rather than
+# risking a wrong country -- a missed show is a far better failure mode
+# here than a real show silently mistagged into (or out of) the region.
+GEO_VALID_CLASSES = {"place", "boundary"}
+GEO_HIGH_IMPORTANCE = 0.7
+
+# Confirmed false positives from this scraper's first full run -- each of
+# these has a same-named place outside our target region that's at least
+# as prominent (by touring-venue traffic) as its EU/ME/Africa namesake,
+# and the class+importance validation above wasn't enough to avoid it:
+#   - "Bellingen" -> resolved DE; the real show was Bellingen, NSW, Australia
+#   - "London" (bare) -> resolved GB; real show was London, Ontario, Canada
+#     (note: this only blocks the bare string "london" -- "Stoke Newington,
+#     London" etc. are unaffected, since cache/denylist keys are exact city
+#     text, not substrings)
+#   - "Salamanca" -> resolved ES; real show was Salamanca, NY, USA
+#   - "Santa Cruz" -> resolved ES; real show was Santa Cruz, CA, USA (hit
+#     3 separate times across different artists)
+#   - "Sale" -> resolved IT; real show was Sale, Greater Manchester, UK
+#     (BEC Arena -- Spotify separately also listed the same show under
+#     "Manchester", which resolved correctly, so no coverage lost)
+#   - "Reading" -> resolved GB; real show was Reading, PA, USA
+#   - "Thornbury" -> resolved GB; real show was Thornbury, VIC, Australia
+#   - "Cambridge" -> resolved GB; both real shows hit were Cambridge, MA, USA
+# Each was individually verified (web search against the actual venue name)
+# before being added here -- this is a deny-by-evidence list, not a guess.
+# Treated as permanently unresolvable rather than retried, since nothing
+# about the query itself signals which "Cambridge" etc. is meant.
+GEO_AMBIGUOUS_CITY_DENYLIST = {
+    "bellingen", "london", "salamanca", "santa cruz", "sale", "reading",
+    "thornbury", "cambridge",
+}
+
+
+def resolve_country_from_city(city, cache):
+    """Forward-geocodes a bare city name (no country hint, unlike stage 1's
+    lat/lon) to a country code via Nominatim. See GEO_VALID_CLASSES et al
+    above for the validation this applies before trusting a match, and
+    GEO_AMBIGUOUS_CITY_DENYLIST for names known to defeat that validation.
+    Still ambiguous for other real city names that exist in multiple
+    countries -- picks Nominatim's top-ranked valid match. Accepted as a
+    known limitation, same spirit as geocode_cities.py's own caveats."""
+    key = city.strip().lower()
+    if not key or key in GEO_AMBIGUOUS_CITY_DENYLIST:
+        return ""
+    if key in cache:
+        return cache[key]
+
+    folded_query = common._fold_city_for_matching(city)
+    code = ""
+    try:
+        for params in (
+            {"city": city, "format": "json", "limit": 5, "addressdetails": 1},
+            {"q": city, "format": "json", "limit": 5, "addressdetails": 1},
+        ):
+            results = _nominatim_search(params)
+            time.sleep(GEO_REQUEST_DELAY)
+            for r in results:
+                if r.get("class") not in GEO_VALID_CLASSES:
+                    continue
+                addr = r.get("address") or {}
+                place_name = (addr.get("city") or addr.get("town") or addr.get("village")
+                              or addr.get("municipality") or (r.get("display_name") or "").split(",")[0])
+                folded_place = common._fold_city_for_matching(place_name)
+                name_matches = folded_query in folded_place or folded_place in folded_query
+                high_confidence = (r.get("importance") or 0) >= GEO_HIGH_IMPORTANCE
+                if name_matches or high_confidence:
+                    code = (addr.get("country_code") or "").upper()
+                    break
+            if code:
+                break
+    except Exception as e:
+        print(f"    city-geocode error for {city!r}: {e}", file=sys.stderr)
+
+    cache[key] = code
+    return code
+
+
+def fetch_full_concert_list(page, artist_uri):
+    artist_id = artist_uri.split(":")[-1]
+    url = f"https://open.spotify.com/artist/{artist_id}/concerts"
+    page.goto(url, wait_until="networkidle", timeout=30000)
+    return page.eval_on_selector_all('a[href^="/concert/"]', STAGE2_EXTRACT_JS)
+
+
+def run_stage2(queue, merged, existing_by_key, city_country_cache):
+    if not queue:
+        return 0
+    from playwright.sync_api import sync_playwright
+
+    new_count = 0
+    print(f"\nstage 2: fetching full list for {len(queue)} artist(s) via Playwright...")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page(user_agent=STAGE2_USER_AGENT)
+        for i, entry in enumerate(queue, 1):
+            artist, artist_uri = entry["artist"], entry["uri"]
+            try:
+                items = fetch_full_concert_list(page, artist_uri)
+            except Exception as e:
+                print(f"  [{i}/{len(queue)}] {artist} — full-list fetch error: {e}", file=sys.stderr)
+                continue
+
+            artist_new = 0
+            for item in items:
+                venue, city = parse_venue_city(item.get("venueCity") or "")
+                if not city:
+                    continue
+                country_code = resolve_country_from_city(city, city_country_cache)
+                if not country_code or country_code not in common.ALLOWED_COUNTRIES:
+                    continue
+                iso = item.get("iso") or ""
+                show_date = iso[:10] if len(iso) >= 10 else ""
+                concert_id = item.get("id") or ""
+                show = build_show(artist, show_date, city, venue, country_code,
+                                   f"https://open.spotify.com/concert/{concert_id}")
+                if show is None:
+                    continue
+                key = common.show_key(show)
+                if key in existing_by_key:
+                    continue
+                merged[key] = show
+                artist_new += 1
+                new_count += 1
+
+            print(f"  [{i}/{len(queue)}] {artist} — {len(items)} concert(s) total, {artist_new} new show(s)")
+        browser.close()
+
+    return new_count
 
 
 def main():
@@ -262,11 +483,14 @@ def main():
 
     scrape_state = common.load_scrape_state()
     artist_status = common.load_artist_status()
-    geo_cache = load_geo_cache()
+    geo_cache = load_json_cache(GEO_CACHE_JSON)
+    city_country_cache = load_json_cache(CITY_COUNTRY_CACHE_JSON)
 
     print("fetching access token...")
     token = fetch_access_token()
     print("token ok\n")
+
+    queue = []  # artists whose totalCount exceeds stage 1's 4-item preview
 
     for i, artist in enumerate(artists, 1):
         if common.is_inactive(artist_status, artist):
@@ -291,7 +515,7 @@ def main():
 
         time.sleep(REQUEST_DELAY)
         try:
-            concerts = fetch_concerts(token, artist_uri)
+            concerts, total_count = fetch_concerts(token, artist_uri)
         except Exception as e:
             print(f"[{i}/{len(artists)}] {artist} — concerts error: {e}", file=sys.stderr)
             time.sleep(REQUEST_DELAY)
@@ -306,7 +530,7 @@ def main():
             country_code = reverse_geocode_country(lat, lon, geo_cache)
             if not country_code or country_code not in common.ALLOWED_COUNTRIES:
                 continue
-            show = to_show(artist, concert, country_code)
+            show = show_from_overview_concert(artist, concert, country_code)
             if show is None:
                 continue
             key = common.show_key(show)
@@ -315,15 +539,25 @@ def main():
             merged[key] = show
             new_count += 1
 
-        print(f"[{i}/{len(artists)}] {artist} — {len(concerts)} concert(s), {new_count} new show(s)")
+        needs_full_list = total_count > len(concerts)
+        if needs_full_list:
+            queue.append({"artist": artist, "uri": artist_uri})
+
+        suffix = " (queued for full list)" if needs_full_list else ""
+        print(f"[{i}/{len(artists)}] {artist} — {len(concerts)}/{total_count} concert(s), {new_count} new show(s){suffix}")
         common.mark_checked(scrape_state, artist, SOURCE_NAME)
         time.sleep(REQUEST_DELAY)
 
-    save_geo_cache(geo_cache)
+    save_json_cache(geo_cache, GEO_CACHE_JSON)
+    save_json_cache({"queued": queue}, QUEUE_JSON)
+
+    stage2_new = run_stage2(queue, merged, existing_by_key, city_country_cache)
+    save_json_cache(city_country_cache, CITY_COUNTRY_CACHE_JSON)
+
     result = common.save_shows(list(merged.values()))
     common.save_scrape_state(scrape_state)
 
-    print(f"\nDone. {len(result)} total shows ({len(result) - len(existing)} new).")
+    print(f"\nDone. {len(result)} total shows ({len(result) - len(existing)} new, {stage2_new} via stage 2).")
 
 
 if __name__ == "__main__":

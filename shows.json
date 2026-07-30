@@ -2307,6 +2307,30 @@
     "priority": "2"
   },
   {
+    "band": "Buzzcocks",
+    "date": "2026-08-05",
+    "city": "Guildford",
+    "country": "GB",
+    "venue": "The Boileroom",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/0gTmL9MDwCKJ5LjGWI57qr",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Guildford"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Guildford"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Dead Meadow",
     "date": "2026-08-05",
     "city": "Dusseldorf",
@@ -2701,6 +2725,30 @@
         }
       ],
       "hub_city": "Düsseldorf"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
+    "band": "Body Count",
+    "date": "2026-08-06",
+    "city": "Jaroměř",
+    "country": "CZ",
+    "venue": "Fortress Josefov - Underground Passages",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/3uX1qy7b8xm51vDp2X1vfk",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Jaroměř"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Jaroměř"
     },
     "note": "",
     "priority": "2"
@@ -3204,6 +3252,30 @@
     "priority": "2"
   },
   {
+    "band": "Body Count",
+    "date": "2026-08-07",
+    "city": "Kortrijk",
+    "country": "BE",
+    "venue": "Alcatraz Metal Festival",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/1R0TNwce4AJCBJwHF5BFWA",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Kortrijk"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Kortrijk"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
     "band": "Buzzcocks",
     "date": "2026-08-07",
     "city": "Bedford",
@@ -3560,6 +3632,30 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Body Count",
+    "date": "2026-08-08",
+    "city": "Tilburg",
+    "country": "NL",
+    "venue": "Poppodium 013",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/6kYMwU2TiNVWLhx9DyfsZx",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Tilburg"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Tilburg"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Bonobo",
@@ -4134,6 +4230,30 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Body Count",
+    "date": "2026-08-09",
+    "city": "Walton-on-trent",
+    "country": "GB",
+    "venue": "Catton Hall & Park",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/1b28DpimOaHPD3pKzhCwjf",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Walton-on-trent"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Walton-on-trent"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Cate Le Bon",
@@ -7486,6 +7606,47 @@
     "priority": "2"
   },
   {
+    "band": "Cate Le Bon",
+    "date": "2026-08-17",
+    "city": "Prague",
+    "country": "CZ",
+    "venue": "MeetFactory",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/69kcCE3MrfrqEokSsG794d",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": true,
+      "duration_minutes": 130,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Eurowings",
+          "iata": "EW"
+        }
+      ],
+      "hub_city": "Prague"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 130,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Prague"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
     "band": "Fontaines D.C.",
     "date": "2026-08-17",
     "city": "Lausanne",
@@ -8263,6 +8424,30 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Are"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
+    "band": "Body Count",
+    "date": "2026-08-20",
+    "city": "CHARLEVILLE MEZIERES",
+    "country": "FR",
+    "venue": "Cabaret Vert",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/5nQ4otlWFCkwiksQcyCX4Q",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "CHARLEVILLE MEZIERES"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "CHARLEVILLE MEZIERES"
     },
     "note": "",
     "priority": "2"
@@ -9488,6 +9673,30 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Halifax"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
+    "band": "Body Count",
+    "date": "2026-08-22",
+    "city": "Caminha",
+    "country": "PT",
+    "venue": "Vilar de Mouros",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/39d781ls0CTnHf167g3cO9",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Caminha"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Caminha"
     },
     "note": "",
     "priority": "2"
@@ -11796,6 +12005,36 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "Deftones",
+    "date": "2026-08-28",
+    "city": "Lisbon",
+    "country": "PT",
+    "venue": "Parque da Bela Vista",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/4RCKk0QP2iDbowRMZ8P01l",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Lisbon"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": null,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Lisbon"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Earl Sweatshirt",
@@ -17479,6 +17718,46 @@
     "priority": ""
   },
   {
+    "band": "Björk",
+    "date": "2026-09-12",
+    "city": "Rome",
+    "country": "IT",
+    "venue": "Auditorium Parco della Musica",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/3G96WVDmwhQvDv7SXnZHmi",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 210,
+      "carriers": [
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        }
+      ],
+      "hub_city": "Rome"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 210,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Rome"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Bonobo",
     "date": "2026-09-12",
     "city": "London",
@@ -20574,6 +20853,54 @@
     "priority": ""
   },
   {
+    "band": "A. Savage",
+    "date": "2026-09-26",
+    "city": "Marseille",
+    "country": "FR",
+    "venue": "Citadelle de Marseille (Fort Saint-Nicolas)",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/5UnRmPiEC1Nzvka6GXr7j4",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Marseille"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Marseille"
+    },
+    "note": "",
+    "priority": "1"
+  },
+  {
+    "band": "Anika",
+    "date": "2026-09-26",
+    "city": "Portsmouth",
+    "country": "GB",
+    "venue": "3S Artspace",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/3fYL5zFzcmdvPQFeUidwuR",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Portsmouth"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Portsmouth"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
     "band": "Autechre",
     "date": "2026-09-26",
     "city": "Munich",
@@ -20656,6 +20983,30 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "Holy Wave",
+    "date": "2026-09-26",
+    "city": "Marseille",
+    "country": "FR",
+    "venue": "Citadelle de Marseille (Fort Saint-Nicolas)",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/5UnRmPiEC1Nzvka6GXr7j4",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Marseille"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Marseille"
+    },
+    "note": "",
+    "priority": "1"
   },
   {
     "band": "LTJ Bukem",
@@ -20979,6 +21330,30 @@
     "priority": ""
   },
   {
+    "band": "HOMESHAKE",
+    "date": "2026-09-28",
+    "city": "Cambridge",
+    "country": "GB",
+    "venue": "The Sinclair",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/3sBZOLAofW79B22BjKVSkB",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Cambridge"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Cambridge"
+    },
+    "note": "",
+    "priority": "1"
+  },
+  {
     "band": "Holy Wave",
     "date": "2026-09-28",
     "city": "Aarau",
@@ -21072,6 +21447,30 @@
     },
     "note": "",
     "priority": "1"
+  },
+  {
+    "band": "Hot Flash Heat Wave",
+    "date": "2026-09-29",
+    "city": "Cambridge",
+    "country": "GB",
+    "venue": "Middle East - Upstairs",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/1PUtGpg0vxvdavJmB4CqV4",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Cambridge"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Cambridge"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Leftfield",
@@ -21748,6 +22147,47 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Courtney Barnett",
+    "date": "2026-10-03",
+    "city": "Prague",
+    "country": "CZ",
+    "venue": "MeetFactory",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/2OrYbnrPu5dGTOtoWQ610u",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": true,
+      "duration_minutes": 130,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Eurowings",
+          "iata": "EW"
+        }
+      ],
+      "hub_city": "Prague"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 130,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Prague"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Fulci",
@@ -22908,6 +23348,46 @@
     "priority": "2"
   },
   {
+    "band": "Ed O'Brien",
+    "date": "2026-10-08",
+    "city": "Paris",
+    "country": "FR",
+    "venue": "SALLE PLEYEL",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/3lrQLW60iLBJU4Sjh8NcVS",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Transavia",
+          "iata": "HV"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
     "band": "Gilla Band",
     "date": "2026-10-08",
     "city": "London",
@@ -23184,6 +23664,30 @@
         }
       ],
       "hub_city": "Ljubljana"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Buzzcocks",
+    "date": "2026-10-09",
+    "city": "Αθήνα",
+    "country": "GR",
+    "venue": "Κύτταρο Live",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/1ieViyjhx5mhZItm72mknU",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Αθήνα"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Αθήνα"
     },
     "note": "",
     "priority": ""
@@ -23593,6 +24097,30 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Bologna"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Buzzcocks",
+    "date": "2026-10-10",
+    "city": "Θεσσαλονίκη",
+    "country": "GR",
+    "venue": "Eightball Club",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/2BHjscDwoLEtSjD70uBHMk",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Θεσσαλονίκη"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Θεσσαλονίκη"
     },
     "note": "",
     "priority": ""
@@ -24731,6 +25259,30 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Gateshead"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
+    "band": "Ed O'Brien",
+    "date": "2026-10-14",
+    "city": "Groningen",
+    "country": "NL",
+    "venue": "SPOT  De Oosterpoort",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/2WVYvvmALojdXRFSZr5oBl",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Groningen"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Groningen"
     },
     "note": "",
     "priority": "2"
@@ -29204,6 +29756,30 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Bass Drum of Death",
+    "date": "2026-10-31",
+    "city": "AUDINCOURT",
+    "country": "FR",
+    "venue": "Le Moloco",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/04FYDl2V69Jrc9mUBh5dZx",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "AUDINCOURT"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "AUDINCOURT"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Dengue Dengue Dengue",
@@ -34083,6 +34659,30 @@
     "priority": "2"
   },
   {
+    "band": "Jethro Tull",
+    "date": "2026-11-15",
+    "city": "İstanbul",
+    "country": "TR",
+    "venue": "Zorlu PSM",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/0Wohjf5aelhLo3WVZkmH5j",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "İstanbul"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "İstanbul"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
     "band": "Nazareth",
     "date": "2026-11-15",
     "city": "Warsaw",
@@ -36313,6 +36913,43 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "John Cooper Clarke",
+    "date": "2026-11-21",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "O2 Apollo Manchester",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/2MDAuYnoTPPj94tGMXhOTG",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Mogwai",
@@ -47605,6 +48242,30 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Basel"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Hooverphonic",
+    "date": "2027-04-02",
+    "city": "SAINT-MALO",
+    "country": "FR",
+    "venue": "La Nouvelle Vague",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/1DZwndOqvxRw4w2uTQZ6x2",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "SAINT-MALO"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "SAINT-MALO"
     },
     "note": "",
     "priority": ""
