@@ -135,6 +135,16 @@
       return escapeHtml(str).replace(/"/g, '&quot;');
     }
 
+    // used to avoid a full filter+DOM-rebuild of the ~1600-show main list on
+    // every single keystroke while a facet search box narrows it live
+    function debounce(fn, waitMs) {
+      let timer;
+      return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn(...args), waitMs);
+      };
+    }
+
     // supports comma-separated search terms: "radiohead, metallica" matches
     // either, so adding a new term accumulates results instead of replacing them
     function matchesSearchTerms(text, rawInput) {
@@ -169,17 +179,27 @@
     // it only cares about elements carrying a `data-key` attribute (each
     // leaf checkbox) and, optionally, an ancestor `.country-group`.
     //
-    // Search only narrows which rows are *visible* in the dropdown -- it
-    // never touches `selection` or a checkbox's `checked` state. (An earlier
-    // version did mutate them on every keystroke, so clearing the search box
-    // silently re-selected everything and discarded any manual deselection --
-    // this is the fix for that.) Because of that, typing in the search box
-    // no longer needs to re-render the main shows list at all: nothing the
-    // list depends on (`selection`) has changed, only what's visible inside
-    // the not-yet-committed dropdown.
+    // Typing in a facet's search box narrows the main shows list live, same
+    // as before -- but via a separate, purely temporary `searchOverride`
+    // (see below), never by mutating `selection`/a checkbox's `checked`
+    // state directly. An earlier version of this fix mutated them on every
+    // keystroke, so clearing the search box silently re-selected everything
+    // and permanently discarded any manual deselection; the one before that
+    // (the original) had the same mutation bug. Because `selection` itself
+    // is never touched while searching, clearing the box always restores
+    // exactly whatever was checked before typing started, no matter how the
+    // search was used in between.
     function createFilterFacet({ panelId, searchInputId, modeRowSelector, modeDataAttr, selectAllId, selectNoneId, selection, setMode, buildRows, allKeys }) {
       const panel = document.getElementById(panelId);
       const searchInput = document.getElementById(searchInputId);
+
+      // while the user is actively typing, the main shows list narrows
+      // live to whatever currently matches -- but as a purely temporary
+      // overlay (this Set), never by mutating `selection`/checkbox state.
+      // Clearing the search box sets this back to null and the real
+      // persisted selection (whatever it was, untouched this whole time)
+      // reasserts itself exactly as it was before typing started.
+      let searchOverride = null;
 
       // the checkbox itself carries data-key (set in wireRow below) -- use
       // .closest('.city-row') on any of these when the row/label wrapper
@@ -212,20 +232,29 @@
       function rebuild() {
         selection.clear();
         allKeys().forEach(k => selection.add(k));
+        searchOverride = null;
         panel.innerHTML = "";
         buildRows(panel, wireRow, selection);
       }
 
+      const debouncedRender = debounce(render, 150);
       searchInput.addEventListener('input', (e) => {
         const rawInput = e.target.value;
+        const matchedKeys = [];
         leafCheckboxes().forEach(cb => {
           const row = cb.closest('.city-row');
-          row.style.display = matchesSearchTerms(row.textContent, rawInput) ? "" : "none";
+          const matches = matchesSearchTerms(row.textContent, rawInput);
+          row.style.display = matches ? "" : "none";
+          if (matches) matchedKeys.push(cb.dataset.key);
         });
         panel.querySelectorAll('.country-group').forEach(group => {
           const anyVisible = [...group.querySelectorAll('[data-key]')].some(cb => cb.closest('.city-row').style.display !== "none");
           group.style.display = anyVisible ? "" : "none";
         });
+        // dropdown row visibility above updates instantly (cheap); only the
+        // expensive main-list render is debounced
+        searchOverride = rawInput.trim() ? new Set(matchedKeys) : null;
+        debouncedRender();
       });
 
       document.querySelectorAll(modeRowSelector).forEach(chip => {
@@ -280,6 +309,7 @@
         // with no camelCase conversion needed
         document.querySelector(`${modeRowSelector}[data-${modeDataAttr}="include"]`)?.classList.add('active');
         searchInput.value = "";
+        searchOverride = null;
         panel.querySelectorAll('.country-group').forEach(g => g.style.display = "");
         leafCheckboxes().forEach(cb => { cb.closest('.city-row').style.display = ""; cb.checked = true; });
         panel.querySelectorAll('.country-group input[type=checkbox]').forEach(cb => cb.checked = true);
@@ -287,7 +317,7 @@
         allKeys().forEach(k => selection.add(k));
       }
 
-      return { rebuild, refreshAvailability, reset };
+      return { rebuild, refreshAvailability, reset, getSearchOverride: () => searchOverride };
     }
 
     function buildFlatRows(getLabel) {
@@ -451,8 +481,15 @@
     function getFilteredList(exclude) {
       let list = shows.slice();
 
+      // while a facet's search box has text in it, that temporarily
+      // overrides its checkbox selection entirely (matches only) rather
+      // than combining with it -- same as the old behavior's net effect,
+      // just without permanently mutating `selection` to get there
       if (exclude !== "band") {
-        if (bandMode === "include") {
+        const override = bandFacet.getSearchOverride();
+        if (override) {
+          list = list.filter(s => override.has(s.band));
+        } else if (bandMode === "include") {
           list = list.filter(s => bandSelection.has(s.band));
         } else {
           list = list.filter(s => !bandSelection.has(s.band));
@@ -464,14 +501,20 @@
         if (dateTo) list = list.filter(s => s.date <= dateTo);
       }
       if (exclude !== "source") {
-        if (sourceMode === "include") {
+        const override = sourceFacet.getSearchOverride();
+        if (override) {
+          list = list.filter(s => override.has(s.source));
+        } else if (sourceMode === "include") {
           list = list.filter(s => sourceSelection.has(s.source));
         } else {
           list = list.filter(s => !sourceSelection.has(s.source));
         }
       }
       if (exclude !== "city") {
-        if (cityMode === "include") {
+        const override = cityFacet.getSearchOverride();
+        if (override) {
+          list = list.filter(s => override.has(cityKey(s)));
+        } else if (cityMode === "include") {
           list = list.filter(s => citySelection.has(cityKey(s)));
         } else {
           list = list.filter(s => !citySelection.has(cityKey(s)));
