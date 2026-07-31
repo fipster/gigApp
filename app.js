@@ -447,15 +447,26 @@
       return "https://music.youtube.com/search?q=" + encodeURIComponent(band);
     }
 
-    function googleFlightsUrl(city, date) {
-      const q = `Flights from TLL or RIX to ${city} on ${date}`;
-      return `https://www.google.com/travel/flights?q=${encodeURIComponent(q)}`;
+    const ORIGIN_CITY_NAMES = { TLL: "Tallinn", RIX: "Riga" };
+
+    function googleFlightsUrl(origin, city, date) {
+      // /travel/flights has no documented/reliable free-text deep-link
+      // parameter (its real URLs encode a route as an opaque base64
+      // protobuf); a plain Google Search query is the actual supported
+      // natural-language entry point and reliably surfaces a flights
+      // card. Also: this used to hardcode "TLL or RIX" as the origin
+      // regardless of which pill (TLL or RIX) was clicked, so both
+      // always searched the same ambiguous two-origin query -- each pill
+      // now searches its own specific origin city.
+      const originCity = ORIGIN_CITY_NAMES[origin] || origin;
+      const q = `flights from ${originCity} to ${city} on ${date}`;
+      return `https://www.google.com/search?q=${encodeURIComponent(q)}`;
     }
 
     function flightPillHtml(originLabel, f, date) {
       const carrierNames = (f.carriers || []).map(c => c.name).join(", ");
       const title = f.direct && carrierNames ? ` title="${escapeAttr(carrierNames)}"` : "";
-      const href = googleFlightsUrl(f.hub_city, date);
+      const href = googleFlightsUrl(originLabel, f.hub_city, date);
       return `<a class="flight-pill${f.direct ? "" : " none"}" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer"${title}><span class="airport-badge">${originLabel}</span></a>`;
     }
 
