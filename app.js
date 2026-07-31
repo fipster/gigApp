@@ -450,17 +450,20 @@
     const ORIGIN_CITY_NAMES = { TLL: "Tallinn", RIX: "Riga" };
 
     function googleFlightsUrl(origin, city, date) {
-      // /travel/flights has no documented/reliable free-text deep-link
-      // parameter (its real URLs encode a route as an opaque base64
-      // protobuf); a plain Google Search query is the actual supported
-      // natural-language entry point and reliably surfaces a flights
-      // card. Also: this used to hardcode "TLL or RIX" as the origin
-      // regardless of which pill (TLL or RIX) was clicked, so both
-      // always searched the same ambiguous two-origin query -- each pill
-      // now searches its own specific origin city.
+      // switching this to a plain google.com/search?q=... query (tried
+      // briefly) lands on generic search results, not the Flights product
+      // at all -- worse than this, even though /travel/flights's q=
+      // parameter isn't a documented deep-link format either (real
+      // shareable Flights URLs encode a route as an opaque base64
+      // protobuf in a `tfs` parameter instead). Keeping /travel/flights
+      // since it at least opens the right product. This used to hardcode
+      // "TLL or RIX" as the origin regardless of which pill (TLL or RIX)
+      // was clicked, so both always searched the same ambiguous
+      // two-origin query -- each pill now searches its own specific
+      // origin city instead.
       const originCity = ORIGIN_CITY_NAMES[origin] || origin;
       const q = `flights from ${originCity} to ${city} on ${date}`;
-      return `https://www.google.com/search?q=${encodeURIComponent(q)}`;
+      return `https://www.google.com/travel/flights?q=${encodeURIComponent(q)}`;
     }
 
     function flightPillHtml(originLabel, f, date) {
