@@ -1,0 +1,6 @@
+# Scripts on Windows write JSON/CSV in text mode (CRLF), while
+# editor-authored files (city_name_aliases.json, band_name_aliases.json,
+# app.js, styles.css, index.html, *.py) are LF -- this had already split
+# the repo into two conventions with no enforcement. Normalize everything
+# to LF in the repo, converting to the platform default on checkout.
+* text=auto eol=lf
