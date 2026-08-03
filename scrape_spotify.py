@@ -357,13 +357,26 @@ GEO_HIGH_IMPORTANCE = 0.7
 #   - "Reading" -> resolved GB; real show was Reading, PA, USA
 #   - "Thornbury" -> resolved GB; real show was Thornbury, VIC, Australia
 #   - "Cambridge" -> resolved GB; both real shows hit were Cambridge, MA, USA
+# Second full run turned up 3 more of the same pattern:
+#   - "Laval" -> resolved FR; real show was Laval, QC, Canada (Metric --
+#     a Canadian band -- at Place Bell, a well-known Laval, QC arena)
+#   - "Portsmouth" -> resolved GB; both real shows hit were Portsmouth,
+#     NH, USA (3S Artspace and Prescott Park are both real NH venues)
+#   - "Birmingham" -> resolved GB; both real shows hit were Birmingham,
+#     AL, USA (WorkPlay and Iron City are both real Alabama venues) --
+#     note this only blocks Spotify's own forward-geocoding; other
+#     sources (Bandsintown/Songkick/Ticketmaster) report real Birmingham,
+#     UK shows correctly via their own APIs, unaffected by this denylist
 # Each was individually verified (web search against the actual venue name)
 # before being added here -- this is a deny-by-evidence list, not a guess.
 # Treated as permanently unresolvable rather than retried, since nothing
-# about the query itself signals which "Cambridge" etc. is meant.
+# about the query itself signals which "Cambridge" etc. is meant. Given
+# this list has grown on both the first AND second full run, expect it to
+# keep growing -- this is an inherent limit of forward-geocoding a bare
+# city name with no country hint, not a bug to eventually fully fix.
 GEO_AMBIGUOUS_CITY_DENYLIST = {
     "bellingen", "london", "salamanca", "santa cruz", "sale", "reading",
-    "thornbury", "cambridge",
+    "thornbury", "cambridge", "laval", "portsmouth", "birmingham",
 }
 
 

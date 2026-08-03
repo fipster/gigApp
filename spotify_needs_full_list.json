@@ -137,6 +137,10 @@
       "uri": "spotify:artist:4OrizGCKhOrW6iDDJHN9xd"
     },
     {
+      "artist": "Do Nothing",
+      "uri": "spotify:artist:73N7cGNNww6Uod1d3IiBKP"
+    },
+    {
       "artist": "Down",
       "uri": "spotify:artist:1m0B9ak05G0jqDY4ACLhQu"
     },
@@ -261,6 +265,10 @@
       "uri": "spotify:artist:1MhtYlJvUqfd2EgHSQTGK4"
     },
     {
+      "artist": "John Adams",
+      "uri": "spotify:artist:4LaimQU44rsz2kMWQmY6Bi"
+    },
+    {
       "artist": "John Cooper Clarke",
       "uri": "spotify:artist:0EOkMBYWbDnVqwfHA4zq32"
     },
@@ -311,6 +319,82 @@
     {
       "artist": "Lebanon Hanover",
       "uri": "spotify:artist:6w8h2uD28BEdg7bX4k3Lh7"
+    },
+    {
+      "artist": "Leftfield",
+      "uri": "spotify:artist:72hqBMsw7x5jnfxxwkii8L"
+    },
+    {
+      "artist": "Limp Bizkit",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+    },
+    {
+      "artist": "Lip Critic",
+      "uri": "spotify:artist:4ABuKdLlVyzLztIFR8ETX9"
+    },
+    {
+      "artist": "Living Colour",
+      "uri": "spotify:artist:6Uhp7WA6sjm5ZL6Xz561de"
+    },
+    {
+      "artist": "LTJ Bukem",
+      "uri": "spotify:artist:5Wfn5sc1w3DhMTpU7oPJZL"
+    },
+    {
+      "artist": "Lynyrd Skynyrd",
+      "uri": "spotify:artist:4MVyzYMgTwdP7Z49wAZHx0"
+    },
+    {
+      "artist": "Mac DeMarco",
+      "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM"
+    },
+    {
+      "artist": "Machine Girl",
+      "uri": "spotify:artist:17Vw9uuOYB7XYjPt0LNFN0"
+    },
+    {
+      "artist": "Mannequin Pussy",
+      "uri": "spotify:artist:33yje3hgpNfdXpqdJQcrt9"
+    },
+    {
+      "artist": "Margo Price",
+      "uri": "spotify:artist:09yvLritEUxHrzx5TlFvbl"
+    },
+    {
+      "artist": "Marilyn Manson",
+      "uri": "spotify:artist:2VYQTNDsvvKN9wmU5W7xpj"
+    },
+    {
+      "artist": "Maruja",
+      "uri": "spotify:artist:71ISXR7gtIq5E2AdI3jGf0"
+    },
+    {
+      "artist": "Mastodon",
+      "uri": "spotify:artist:1Dvfqq39HxvCJ3GvfeIFuT"
+    },
+    {
+      "artist": "Matt Maltese",
+      "uri": "spotify:artist:12j6dJrPXanCBwY599pZxf"
+    },
+    {
+      "artist": "Meatbodies",
+      "uri": "spotify:artist:21ltygJ3rGHmnqaUzqnsku"
+    },
+    {
+      "artist": "Melvins",
+      "uri": "spotify:artist:6aVjo0xHSiuW5hkasoYSR3"
+    },
+    {
+      "artist": "Men I Trust",
+      "uri": "spotify:artist:3zmfs9cQwzJl575W1ZYXeT"
+    },
+    {
+      "artist": "Metallica",
+      "uri": "spotify:artist:2ye2Wgw4gimLv2eAKyk1NB"
+    },
+    {
+      "artist": "Metric",
+      "uri": "spotify:artist:1rCIEwPp5OnXW0ornlSsRl"
     }
   ]
 }
