@@ -520,36 +520,6 @@
     "priority": ""
   },
   {
-    "band": "Chicago",
-    "date": "2026-08-05",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/drag-bingo-august",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Dead Meadow",
     "date": "2026-08-05",
     "city": "Dusseldorf",
@@ -4388,36 +4358,6 @@
     "priority": "2"
   },
   {
-    "band": "Air",
-    "date": "2026-08-14",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Veetorni Aed",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/psydja-open-air",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Alice Cooper",
     "date": "2026-08-14",
     "city": "Cardiff",
@@ -5696,30 +5636,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Aalborg"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Death",
-    "date": "2026-08-16",
-    "city": "Narva",
-    "country": "EE",
-    "venue": "Joaorg Beach House",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/open-narva-days-bicycle-tour-of-death-and-the-dead",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Narva"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Narva"
     },
     "note": "",
     "priority": ""
@@ -7587,36 +7503,6 @@
     "priority": "2"
   },
   {
-    "band": "We",
-    "date": "2026-08-20",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Joelle Marcelle Antson | Transformation Embodied OÜ",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/we-are-nature-2nd-outdoor-workshop",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
     "band": "Wolfmother",
     "date": "2026-08-20",
     "city": "Zwolle",
@@ -7663,30 +7549,6 @@
     },
     "note": "",
     "priority": ""
-  },
-  {
-    "band": "Air",
-    "date": "2026-08-21",
-    "city": "Laiksaare",
-    "country": "EE",
-    "venue": "Vango Imedemaa / Vango Holiday Village",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/dnd-plein-air-camp-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Laiksaare"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Laiksaare"
-    },
-    "note": "",
-    "priority": "2"
   },
   {
     "band": "Alice Cooper",
@@ -14428,36 +14290,6 @@
     },
     "note": "",
     "priority": "2"
-  },
-  {
-    "band": "Death",
-    "date": "2026-09-05",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Eesti rahvusraamatukogu",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/white-death-immersive-physical-roleplay-experience",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Decapitated",
@@ -37239,36 +37071,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Bristol"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Beach House",
-    "date": "2026-11-22",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Beach House Ülemiste",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/trennipidu-23-11-25-at-beach-house-ulemiste-175632",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": "",
     "priority": "2"

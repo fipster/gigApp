@@ -27,13 +27,20 @@ Rate limited to 80 requests/minute per IP -- REQUEST_DELAY keeps us
 comfortably under that.
 
 Known limitation: the `search` parameter matches against event title,
-description, AND venue name -- not a dedicated artist/performer field.
-A short or common-word artist name (e.g. an Estonian word that also
-appears in unrelated titles/descriptions) can produce false positives
-from the API itself. To filter these out, a result is only kept if the
-artist name appears in the event's own TITLE as a whole word -- but
-residual noise is still possible for very short/common names sharing a
-word with an unrelated event title.
+description, AND venue name -- not a dedicated artist/performer field
+(the event schema has no such field at all -- confirmed by inspecting a
+live response). A short or common-word artist name (e.g. an Estonian
+word that also appears in unrelated titles/descriptions) can produce
+false positives from the API itself. Two filters narrow this down:
+a result is only kept if the artist name appears in the event's own
+TITLE as a whole word, AND if the event's own `categories` list includes
+"music" -- confirmed live that this second filter alone would have
+eliminated every non-music false positive in a spot-check (a "Chicago"
+search matching a drag bingo night, a comedy show, an art tour, etc.,
+none tagged "music"). It does NOT catch a themed/tribute night that's
+legitimately music-tagged but isn't the real artist (e.g. a "Metallica &
+AC/DC night" party event genuinely has "music" in its categories) --
+residual noise is still possible, just a narrower kind.
 
 In practice this residual noise is common, not rare: a manual pass over
 new Fienta-sourced shows.json entries after each run is expected every
@@ -110,6 +117,9 @@ def to_show(artist, event):
     title = event.get("title") or ""
     if not re.search(rf"\b{re.escape(artist)}\b", title, re.IGNORECASE):
         return None  # search matched venue/description text, not the artist itself
+
+    if "music" not in (event.get("categories") or []):
+        return None  # not a music event at all -- see module docstring
 
     country_code = resolve_country(event.get("address"))
     if not country_code or country_code not in common.ALLOWED_COUNTRIES:
