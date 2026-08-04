@@ -38,7 +38,10 @@ see each script's own docstring) or derives its own credential internally
 source, then the paid one (`scrape_bandsintown.py`, costs real money per
 run via Apify), then resolves cross-source duplicates, tags priority, and
 fills in flight info. This is the normal way to refresh `shows.json`; see
-`run_scrapers.py`'s own docstring for the exact ordering rationale.
+`run_scrapers.py`'s own docstring for the exact ordering rationale. Every
+run's full console output is also saved to `logs/run_scrapers_<timestamp>.log`
+(gitignored) via `shows_common.tee_stdout_to_log()`, so it's still
+reviewable after the terminal closes.
 
 **A single source**: run any `scrape_<source>.py` directly. Useful for
 testing one source or re-running just the paid one on its own.

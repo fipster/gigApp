@@ -40,6 +40,8 @@ PAID_SCRAPERS = [
 
 
 def main():
+    common.tee_stdout_to_log("run_scrapers")
+
     for scraper in FREE_SCRAPERS + PAID_SCRAPERS:
         print(f"\n==== {scraper.__name__} ====")
         try:

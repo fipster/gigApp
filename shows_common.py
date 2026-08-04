@@ -11,9 +11,10 @@ import csv
 import json
 import os
 import re
+import sys
 import unicodedata
 from collections import defaultdict
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 
 SHOWS_JSON = "shows.json"
 COUNTRIES_JSON = "countries.json"
@@ -317,3 +318,38 @@ def confirm_inactive_artist_show(show, artist_status):
     prompt = (f"    inactive artist {show['band']!r} has a listed show: "
               f"{show['date']} {show['city']} — {show['venue']} ({show['source']}). Keep it? [y/N] ")
     return input(prompt).strip().lower() == "y"
+
+
+LOGS_DIR = "logs"
+
+
+class _Tee:
+    # duplicates every write to two streams at once -- used below to send
+    # a run's output to both the console (so it's still visible live) and
+    # a log file (so it survives after the terminal closes)
+    def __init__(self, *streams):
+        self._streams = streams
+
+    def write(self, data):
+        for s in self._streams:
+            s.write(data)
+
+    def flush(self):
+        for s in self._streams:
+            s.flush()
+
+
+def tee_stdout_to_log(name, logs_dir=LOGS_DIR):
+    """Call once near the top of a script's main() -- mirrors everything
+    subsequently printed to stdout/stderr (by this script AND anything it
+    imports/calls, since they all go through the same process-wide
+    sys.stdout) into logs/<name>_<timestamp>.log as well as the console.
+    Returns the opened log file's path. Gitignored -- these are run
+    artifacts, not something to commit."""
+    os.makedirs(logs_dir, exist_ok=True)
+    log_path = os.path.join(logs_dir, f"{name}_{datetime.now():%Y%m%d_%H%M%S}.log")
+    log_file = open(log_path, "a", encoding="utf-8")
+    sys.stdout = _Tee(sys.stdout, log_file)
+    sys.stderr = _Tee(sys.stderr, log_file)
+    print(f"logging this run to {log_path}")
+    return log_path
