@@ -367,6 +367,12 @@ GEO_HIGH_IMPORTANCE = 0.7
 #     note this only blocks Spotify's own forward-geocoding; other
 #     sources (Bandsintown/Songkick/Ticketmaster) report real Birmingham,
 #     UK shows correctly via their own APIs, unaffected by this denylist
+# Third full run, 2 more:
+#   - "Verona" -> resolved IT; real show was Verona, NY, USA (The Black
+#     Keys at Turning Stone Resort Casino, a specific Oneida Nation venue)
+#   - "St. Petersburg" -> resolved RU; real show was St. Petersburg, FL,
+#     USA (Whitney at the Duke Energy Center for the Arts -- Mahaffey
+#     Theater, a specific St. Petersburg, FL venue)
 # Each was individually verified (web search against the actual venue name)
 # before being added here -- this is a deny-by-evidence list, not a guess.
 # Treated as permanently unresolvable rather than retried, since nothing
@@ -377,6 +383,7 @@ GEO_HIGH_IMPORTANCE = 0.7
 GEO_AMBIGUOUS_CITY_DENYLIST = {
     "bellingen", "london", "salamanca", "santa cruz", "sale", "reading",
     "thornbury", "cambridge", "laval", "portsmouth", "birmingham",
+    "verona", "st. petersburg",
 }
 
 
