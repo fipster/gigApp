@@ -1683,36 +1683,6 @@
     "priority": "2"
   },
   {
-    "band": "Chicago",
-    "date": "2026-09-23",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Destroyer",
     "date": "2026-09-23",
     "city": "Milan",
@@ -3795,36 +3765,6 @@
         }
       ],
       "hub_city": "Düsseldorf"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Chicago",
-    "date": "2026-10-01",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": "",
     "priority": "2"
@@ -7646,36 +7586,6 @@
     "priority": ""
   },
   {
-    "band": "Chicago",
-    "date": "2026-10-11",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Courtney Barnett",
     "date": "2026-10-11",
     "city": "Paris",
@@ -8581,36 +8491,6 @@
     },
     "note": "",
     "priority": ""
-  },
-  {
-    "band": "Chicago",
-    "date": "2026-10-14",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
   },
   {
     "band": "Courtney Barnett",
@@ -11391,36 +11271,6 @@
     "priority": ""
   },
   {
-    "band": "Chicago",
-    "date": "2026-10-21",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Courtney Barnett",
     "date": "2026-10-21",
     "city": "London",
@@ -12103,36 +11953,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "La Rochelle"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Chicago",
-    "date": "2026-10-23",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": "",
     "priority": "2"
@@ -13215,36 +13035,6 @@
     "priority": ""
   },
   {
-    "band": "Down",
-    "date": "2026-10-25",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Alexela Kontserdimaja",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/australias-thunder-from-down-under-most-wanted-tour-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Ezra Furman",
     "date": "2026-10-25",
     "city": "St Davids",
@@ -13890,36 +13680,6 @@
     "priority": "2"
   },
   {
-    "band": "Chicago",
-    "date": "2026-10-28",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Ezra Furman",
     "date": "2026-10-28",
     "city": "Brighton",
@@ -14310,30 +14070,6 @@
     },
     "note": "",
     "priority": "1"
-  },
-  {
-    "band": "Hypnosis Negative",
-    "date": "2026-10-29",
-    "city": "Viljandi",
-    "country": "EE",
-    "venue": "Viljandi Pärimusmuusika Ait",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/tantsumajahypnosis-negative",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Viljandi"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Viljandi"
-    },
-    "note": "",
-    "priority": "est"
   },
   {
     "band": "Lip Critic",
@@ -16530,36 +16266,6 @@
     "priority": "2"
   },
   {
-    "band": "Chicago",
-    "date": "2026-11-05",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Digitalism",
     "date": "2026-11-05",
     "city": "Amsterdam",
@@ -18234,36 +17940,6 @@
     "priority": "2"
   },
   {
-    "band": "Chicago",
-    "date": "2026-11-08",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Do Nothing",
     "date": "2026-11-08",
     "city": "Glasgow",
@@ -18778,36 +18454,6 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Reutlingen"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Chicago",
-    "date": "2026-11-10",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": "",
     "priority": "2"
@@ -22837,36 +22483,6 @@
     "priority": "2"
   },
   {
-    "band": "Chicago",
-    "date": "2026-11-19",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "Fulci",
     "date": "2026-11-19",
     "city": "Nijmegen",
@@ -26110,36 +25726,6 @@
         }
       ],
       "hub_city": "London"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Chicago",
-    "date": "2026-11-25",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": "",
     "priority": "2"
@@ -30775,36 +30361,6 @@
     "priority": "2"
   },
   {
-    "band": "Chicago",
-    "date": "2026-12-13",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
     "band": "High On Fire",
     "date": "2026-12-13",
     "city": "Tilburg",
@@ -31049,36 +30605,6 @@
     },
     "note": "",
     "priority": ""
-  },
-  {
-    "band": "Chicago",
-    "date": "2026-12-15",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Chicago 1933",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/chicago-1933-elamusohtud-elavast-muusikast-teatrietendusteni",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": "2"
   },
   {
     "band": "High On Fire",
@@ -39847,36 +39373,6 @@
       "seasonal": false,
       "duration_minutes": 50,
       "hub_city": "Riga"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Morcheeba",
-    "date": "2027-04-20",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Alexela Kontserdimaja",
-    "fest": null,
-    "source": "Kultuurikava",
-    "url": "https://www.kultuurikava.ee/event/morcheeba",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
     },
     "note": "",
     "priority": "2"

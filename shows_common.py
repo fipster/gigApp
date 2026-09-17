@@ -38,7 +38,7 @@ BAND_NAME_ALIASES = {k: v for k, v in _band_aliases_raw.items() if not k.startsw
 # enrich_flights.py fills in the real values afterward
 NO_FLIGHT_INFO = {"direct": False, "seasonal": False, "duration_minutes": None}
 
-# several source sites (Fienta, Kultuurikava, Songkick) block
+# several source sites (Fienta, Songkick) block
 # or degrade for the default "Python-urllib/x.y" User-Agent but work fine
 # with any normal browser-style one -- shared so a future Chrome-version
 # bump or fingerprinting change only needs editing here. Not used by every
