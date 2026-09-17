@@ -27,7 +27,7 @@ TICKETMASTER_API_KEY=...   # https://developer.ticketmaster.com
 APIFY_API_TOKEN=...        # https://apify.com -- runs the Bandsintown actor
 ```
 
-Everything else either needs no key (Fienta, Kultuurikava, AllEvents.lt,
+Everything else either needs no key (Fienta, Kultuurikava,
 Songkick, Skene, MusicBrainz -- all public/reverse-engineered endpoints,
 see each script's own docstring) or derives its own credential internally
 (Spotify's TOTP-based anonymous token, see `scrape_spotify.py`).

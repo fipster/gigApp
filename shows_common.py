@@ -40,7 +40,7 @@ BAND_NAME_ALIASES = {k: v for k, v in _band_aliases_raw.items() if not k.startsw
 # enrich_flights.py fills in the real values afterward
 NO_FLIGHT_INFO = {"direct": False, "seasonal": False, "duration_minutes": None}
 
-# several source sites (Fienta, Kultuurikava, AllEvents.lt, Songkick) block
+# several source sites (Fienta, Kultuurikava, Songkick) block
 # or degrade for the default "Python-urllib/x.y" User-Agent but work fine
 # with any normal browser-style one -- shared so a future Chrome-version
 # bump or fingerprinting change only needs editing here. Not used by every
@@ -145,7 +145,7 @@ def resolve_festival_duplicates(shows):
     #
     # Recall gap: `fest` is set inconsistently per-source (see
     # scrape_bandsintown.py/scrape_songkick.py/scrape_ticketmaster.py's
-    # own festival-detection heuristics; AllEvents.lt/Fienta never set
+    # own festival-detection heuristics; Fienta never sets
     # it), so a genuine festival dupe with fest=None on both sides will
     # slip through this filter undetected -- same "manual review still
     # expected" caveat as the rest of this pipeline.

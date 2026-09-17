@@ -16,7 +16,6 @@ import sys
 import scrape_ticketmaster
 import scrape_fienta
 import scrape_kultuurikava
-import scrape_allevents_lt
 import scrape_songkick
 import scrape_skene
 import scrape_spotify
@@ -28,7 +27,6 @@ FREE_SCRAPERS = [
     scrape_ticketmaster,
     scrape_fienta,
     scrape_kultuurikava,
-    scrape_allevents_lt,
     scrape_songkick,
     scrape_skene,
     scrape_spotify,  # slowest free source (stage 2 drives a real Playwright browser) -- runs last among free sources
