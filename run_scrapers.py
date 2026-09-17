@@ -11,6 +11,7 @@ FREE_SCRAPERS or PAID_SCRAPERS as appropriate. Order within each list
 also matters (earlier = runs first).
 """
 
+import os
 import sys
 
 import scrape_ticketmaster
@@ -40,7 +41,12 @@ PAID_SCRAPERS = [
 def main():
     common.tee_stdout_to_log("run_scrapers")
 
-    for scraper in FREE_SCRAPERS + PAID_SCRAPERS:
+    # set to skip the paid scraper(s) -- e.g. for a manual test run where
+    # you don't want to spend Apify credits
+    skip_paid = os.environ.get("SKIP_PAID_SCRAPERS") == "1"
+    scrapers = FREE_SCRAPERS + ([] if skip_paid else PAID_SCRAPERS)
+
+    for scraper in scrapers:
         print(f"\n==== {scraper.__name__} ====")
         try:
             scraper.main()

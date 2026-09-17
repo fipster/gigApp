@@ -11,7 +11,12 @@ name: Biweekly scrape
 on:
   schedule:
     - cron: '0 10 * * 3'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      skip_paid:
+        description: 'Skip the paid Bandsintown/Apify scraper (for test runs)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -59,6 +64,7 @@ jobs:
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+          SKIP_PAID_SCRAPERS: ${{ (github.event_name == 'workflow_dispatch' && inputs.skip_paid) && '1' || '' }}
         run: python run_scrapers.py
 
       - name: Build list of newly added shows
