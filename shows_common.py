@@ -293,8 +293,16 @@ class _Tee:
         self._streams = streams
 
     def write(self, data):
+        # flush immediately after every write, not just on an explicit
+        # flush() call -- stdout is block-buffered (not line-buffered)
+        # whenever it isn't attached to a terminal, e.g. piped into
+        # GitHub Actions' log collector, which otherwise holds ordinary
+        # print() output for a long time while unbuffered stderr writes
+        # (errors) show up instantly, making a run look stuck/silent when
+        # it's actually progressing normally
         for s in self._streams:
             s.write(data)
+            s.flush()
 
     def flush(self):
         for s in self._streams:
