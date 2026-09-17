@@ -1,9 +1,10 @@
 name: Biweekly scrape
 
 # Runs every Wednesday, but the "parity" step below only lets the rest of
-# the job proceed on every OTHER Wednesday (even ISO week numbers) --
-# GitHub Actions cron has no native "every 2 weeks" schedule. To shift
-# which Wednesdays actually run, flip the `% 2 == 0` check in that step.
+# the job proceed on every OTHER Wednesday (odd ISO week numbers, starting
+# 2026-09-23/week 39) -- GitHub Actions cron has no native "every 2 weeks"
+# schedule. To shift which Wednesdays actually run, flip the `% 2 == 1`
+# check in that step.
 #
 # 10:00 UTC = noon in Estonia during winter (EET, UTC+2) / 13:00 during
 # summer DST (EEST, UTC+3). Cron doesn't follow local time, so this drifts
@@ -32,7 +33,7 @@ jobs:
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             week=$(date -u +%V)
-            if [ $((10#$week % 2)) -eq 0 ]; then
+            if [ $((10#$week % 2)) -eq 1 ]; then
               echo "run=true" >> "$GITHUB_OUTPUT"
             else
               echo "run=false" >> "$GITHUB_OUTPUT"
