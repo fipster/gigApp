@@ -73,7 +73,7 @@ jobs:
           python .github/scripts/diff_shows.py shows.before.json shows.json > new_shows.txt
           echo "count=$(wc -l < new_shows.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
           if [ ! -s new_shows.txt ]; then
-            echo "No new shows this run." > new_shows.txt
+            echo "<p>No new shows this run.</p>" > new_shows.txt
           fi
         id: diff
 
@@ -88,7 +88,7 @@ jobs:
           subject: "gigApp: ${{ steps.diff.outputs.count }} new show(s) added"
           to: vipp@crimson.ee
           from: gigApp bot <${{ secrets.SMTP_USERNAME }}>
-          body: file://new_shows.txt
+          html_body: file://new_shows.txt
 
       - name: Commit and push updated shows.json
         if: steps.parity.outputs.run == 'true'
