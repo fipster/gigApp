@@ -1,0 +1,94 @@
+name: Biweekly scrape
+
+# Runs every Wednesday, but the "parity" step below only lets the rest of
+# the job proceed on every OTHER Wednesday (even ISO week numbers) --
+# GitHub Actions cron has no native "every 2 weeks" schedule. To shift
+# which Wednesdays actually run, flip the `% 2 == 0` check in that step.
+#
+# 10:00 UTC = noon in Estonia during winter (EET, UTC+2) / 13:00 during
+# summer DST (EEST, UTC+3). Cron doesn't follow local time, so this drifts
+# an hour for about half the year -- adjust here if that matters later.
+on:
+  schedule:
+    - cron: '0 10 * * 3'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Decide whether this week is a scrape week
+        id: parity
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            week=$(date -u +%V)
+            if [ $((10#$week % 2)) -eq 0 ]; then
+              echo "run=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "run=false" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Checkout
+        if: steps.parity.outputs.run == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.parity.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        if: steps.parity.outputs.run == 'true'
+        run: |
+          pip install python-dotenv playwright
+          playwright install --with-deps chromium
+
+      - name: Snapshot shows.json before scraping
+        if: steps.parity.outputs.run == 'true'
+        run: cp shows.json shows.before.json
+
+      - name: Run scrapers
+        if: steps.parity.outputs.run == 'true'
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+        run: python run_scrapers.py
+
+      - name: Build list of newly added shows
+        if: steps.parity.outputs.run == 'true'
+        run: |
+          python .github/scripts/diff_shows.py shows.before.json shows.json > new_shows.txt
+          echo "count=$(wc -l < new_shows.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+          if [ ! -s new_shows.txt ]; then
+            echo "No new shows this run." > new_shows.txt
+          fi
+        id: diff
+
+      - name: Email summary of new shows
+        if: steps.parity.outputs.run == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_HOST }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "gigApp: ${{ steps.diff.outputs.count }} new show(s) added"
+          to: vipp@crimson.ee
+          from: gigApp bot <${{ secrets.SMTP_USERNAME }}>
+          body: file://new_shows.txt
+
+      - name: Commit and push updated shows.json
+        if: steps.parity.outputs.run == 'true'
+        run: |
+          git config user.name "gigapp-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add shows.json
+          git diff --cached --quiet || git commit -m "Automated biweekly scrape run"
+          git push
