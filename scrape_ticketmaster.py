@@ -77,8 +77,8 @@ def api_get(path, params, retries=MAX_RATE_LIMIT_RETRIES):
 def find_attraction_id(artist):
     """Returns (attraction_id_or_None, error_occurred). error_occurred
     distinguishes a real request failure from a genuine "no such attraction"
-    result, so the caller can skip mark_checked and retry next run instead
-    of silently caching the error as a clean check."""
+    result, so the caller can print a retry warning instead of treating the
+    error as a clean "not found"."""
     data = api_get("attractions.json", {"keyword": artist, "size": 10})
     if data is None:
         return None, True
@@ -166,14 +166,9 @@ def main():
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)
 
-    scrape_state = common.load_scrape_state()
     artist_status = common.load_artist_status()
 
     for i, artist in enumerate(artists, 1):
-        if common.already_checked_recently(scrape_state, artist, SOURCE_NAME):
-            print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
-            continue
-
         attraction_id, id_error = find_attraction_id(artist)
         time.sleep(REQUEST_DELAY)
         if id_error:
@@ -202,10 +197,7 @@ def main():
         else:
             print(f"[{i}/{len(artists)}] {artist} — not found")
 
-        common.mark_checked(scrape_state, artist, SOURCE_NAME)
-
     result = common.save_shows(list(merged.values()))
-    common.save_scrape_state(scrape_state)
 
     print(f"\nDone. {len(result)} total shows ({len(result) - len(existing)} new).")
 

@@ -194,14 +194,9 @@ def main():
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)
 
-    scrape_state = common.load_scrape_state()
     artist_status = common.load_artist_status()
 
     for i, artist in enumerate(artists, 1):
-        if common.already_checked_recently(scrape_state, artist, SOURCE_NAME):
-            print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
-            continue
-
         events = search_events(artist)
         if events is None:
             print(f"[{i}/{len(artists)}] {artist} — error, will retry next run", file=sys.stderr)
@@ -220,11 +215,9 @@ def main():
             new_count += 1
         print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s)")
 
-        common.mark_checked(scrape_state, artist, SOURCE_NAME)
         time.sleep(REQUEST_DELAY)
 
     result = common.save_shows(list(merged.values()))
-    common.save_scrape_state(scrape_state)
 
     print(f"\nDone. {len(result)} total shows ({len(result) - len(existing)} new).")
 

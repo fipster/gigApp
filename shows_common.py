@@ -14,16 +14,14 @@ import re
 import sys
 import unicodedata
 from collections import defaultdict
-from datetime import date, datetime, timedelta
+from datetime import date, datetime
 
 SHOWS_JSON = "shows.json"
 COUNTRIES_JSON = "countries.json"
-SCRAPE_STATE_JSON = "scrape_state.json"
 ARTIST_STATUS_JSON = "artist_status.json"
 ARTISTS_CSV = "artists.csv"
 CITY_NAME_ALIASES_JSON = "city_name_aliases.json"
 BAND_NAME_ALIASES_JSON = "band_name_aliases.json"
-SKIP_IF_CHECKED_WITHIN_DAYS = 14
 
 with open(COUNTRIES_JSON, encoding="utf-8") as f:
     ALLOWED_COUNTRIES = json.load(f).keys()
@@ -253,42 +251,6 @@ def save_shows(shows, path=SHOWS_JSON):
         json.dump(result, f, indent=2, ensure_ascii=False)
         f.write("\n")
     return result
-
-
-def load_scrape_state(path=SCRAPE_STATE_JSON):
-    if os.path.exists(path):
-        with open(path, encoding="utf-8") as f:
-            return json.load(f)
-    return {}
-
-
-def save_scrape_state(scrape_state, path=SCRAPE_STATE_JSON):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(scrape_state, f, indent=2, ensure_ascii=False, sort_keys=True)
-        f.write("\n")
-
-
-NOT_FOUND = "not_found"
-
-
-def already_checked_recently(scrape_state, artist, source_name, within_days=SKIP_IF_CHECKED_WITHIN_DAYS):
-    last_checked = scrape_state.get(artist, {}).get(source_name)
-    if not last_checked:
-        return False
-    if last_checked == NOT_FOUND:
-        return True
-    cutoff = date.today() - timedelta(days=within_days)
-    return date.fromisoformat(last_checked) > cutoff
-
-
-def mark_checked(scrape_state, artist, source_name):
-    scrape_state.setdefault(artist, {})[source_name] = date.today().isoformat()
-
-
-def mark_not_found(scrape_state, artist, source_name):
-    # permanent skip, unlike mark_checked's normal within_days recheck window --
-    # an artist confirmed absent from a source won't suddenly appear tomorrow
-    scrape_state.setdefault(artist, {})[source_name] = NOT_FOUND
 
 
 def load_artist_status(path=ARTIST_STATUS_JSON):

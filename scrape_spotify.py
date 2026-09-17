@@ -17,8 +17,7 @@ ever stop working (Spotify rotates them periodically), that's expected and
 not worth chasing.
 
 Two GraphQL calls per artist:
-  1. searchDesktop -- resolves an artist name to a spotify:artist:<id> URI
-     (skipped once found; cached in scrape_state.json like other sources).
+  1. searchDesktop -- resolves an artist name to a spotify:artist:<id> URI.
   2. queryArtistOverview -- returns (among other things)
      data.artist.goods.events.concerts, the same list the "Concerts" card
      on the artist page shows.
@@ -492,7 +491,6 @@ def main():
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)
 
-    scrape_state = common.load_scrape_state()
     artist_status = common.load_artist_status()
     geo_cache = load_json_cache(GEO_CACHE_JSON)
     city_country_cache = load_json_cache(CITY_COUNTRY_CACHE_JSON)
@@ -509,10 +507,6 @@ def main():
         # every other free scraper, with confirm_inactive_artist_show()
         # gating any show it actually finds (below) instead of skipping
         # the search outright
-        if common.already_checked_recently(scrape_state, artist, SOURCE_NAME):
-            print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
-            continue
-
         try:
             artist_uri = resolve_artist_uri(token, artist)
         except Exception as e:
@@ -521,8 +515,7 @@ def main():
             continue
 
         if not artist_uri:
-            print(f"[{i}/{len(artists)}] {artist} — not found, won't retry")
-            common.mark_not_found(scrape_state, artist, SOURCE_NAME)
+            print(f"[{i}/{len(artists)}] {artist} — not found")
             time.sleep(REQUEST_DELAY)
             continue
 
@@ -560,7 +553,6 @@ def main():
 
         suffix = " (queued for full list)" if needs_full_list else ""
         print(f"[{i}/{len(artists)}] {artist} — {len(concerts)}/{total_count} concert(s), {new_count} new show(s){suffix}")
-        common.mark_checked(scrape_state, artist, SOURCE_NAME)
         time.sleep(REQUEST_DELAY)
 
     save_json_cache(geo_cache, GEO_CACHE_JSON)
@@ -570,7 +562,6 @@ def main():
     save_json_cache(city_country_cache, CITY_COUNTRY_CACHE_JSON)
 
     result = common.save_shows(list(merged.values()))
-    common.save_scrape_state(scrape_state)
 
     print(f"\nDone. {len(result)} total shows ({len(result) - len(existing)} new, {stage2_new} via stage 2).")
 

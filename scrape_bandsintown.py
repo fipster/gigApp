@@ -65,12 +65,9 @@ def run_status_message(run_id):
 def call_actor(artist):
     """Returns (events, not_found). events is None if a real error occurred
     (network/HTTP/etc) -- distinct from events=[] (a successful call that
-    confirmed zero upcoming shows) -- so the caller can skip mark_checked
-    and let this artist be retried next run instead of silently caching the
-    error as "checked, nothing found" for SKIP_IF_CHECKED_WITHIN_DAYS. not_found
-    is True only when the actor confirms the artist doesn't exist on
-    Bandsintown at all -- distinct from the artist existing but simply
-    having no upcoming shows right now."""
+    confirmed zero upcoming shows). not_found is True only when the actor
+    confirms the artist doesn't exist on Bandsintown at all -- distinct from
+    the artist existing but simply having no upcoming shows right now."""
     url = f"https://api.apify.com/v2/acts/{ACTOR_ID}/run-sync-get-dataset-items?token={API_TOKEN}"
     body = json.dumps({"artist": artist, "queryType": "events", "date": "upcoming"}).encode("utf-8")
     req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"}, method="POST")
@@ -128,7 +125,6 @@ def main():
     existing_by_key = {common.show_key(s): s for s in existing}
     merged = dict(existing_by_key)
 
-    scrape_state = common.load_scrape_state()
     artist_status = common.load_artist_status()
 
     for i, artist in enumerate(artists, 1):
@@ -139,14 +135,10 @@ def main():
         if common.is_inactive(artist_status, artist):
             print(f"[{i}/{len(artists)}] {artist} — skipped, marked inactive")
             continue
-        if common.already_checked_recently(scrape_state, artist, SOURCE_NAME):
-            print(f"[{i}/{len(artists)}] {artist} — skipped, checked recently")
-            continue
 
         events, not_found = call_actor(artist)
         if not_found:
-            print(f"[{i}/{len(artists)}] {artist} — not found, won't retry")
-            common.mark_not_found(scrape_state, artist, SOURCE_NAME)
+            print(f"[{i}/{len(artists)}] {artist} — not found")
             time.sleep(REQUEST_DELAY)
             continue
         if events is None:
@@ -168,11 +160,9 @@ def main():
             new_count += 1
         print(f"[{i}/{len(artists)}] {artist} — {new_count} new show(s)")
 
-        common.mark_checked(scrape_state, artist, SOURCE_NAME)
         time.sleep(REQUEST_DELAY)
 
     result = common.save_shows(list(merged.values()))
-    common.save_scrape_state(scrape_state)
 
     print(f"\nDone. {len(result)} total shows ({len(result) - len(existing)} new).")
 

@@ -48,8 +48,8 @@ testing one source or re-running just the paid one on its own.
 
 **`check_artist_status.py`**: checks artists.csv against MusicBrainz for
 disbanded/deceased status, independent of the scrape pipeline -- run it
-occasionally, not on every scrape (it's throttled like the scrapers, so a
-rerun within the recheck window mostly no-ops anyway).
+occasionally, not on every scrape (it re-queries every artist each run, so
+it's a ~15-20 minute pass, not a cheap one).
 
 **`geocode_cities.py` / `geocode_countries.py`**: standalone, only need
 rerunning when a scrape adds a city/country not already cached in
