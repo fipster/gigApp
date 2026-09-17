@@ -20,6 +20,7 @@
         fetch("country_coordinates.json"),
       ]);
       shows = await showsResponse.json();
+      shows = shows.filter(s => s.date >= todayISO());
       countries = await countriesResponse.json();
       cityCoordinates = await coordsResponse.json();
       countryCoordinates = await countryCoordsResponse.json();
