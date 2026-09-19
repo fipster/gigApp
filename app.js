@@ -10,7 +10,10 @@
     let bandPriorities = new Map();
     let uniqueBands = [];
     let uniqueSources = [];
+    let lineupBands = new Map(); // lineupKey -> Set of every band playing that date+venue+city+country
     let WINDOW_TO;
+
+    function lineupKey(s) { return `${s.date}|${s.venue}|${s.city}|${s.country}`; }
 
     async function loadShows() {
       const [showsResponse, countriesResponse, coordsResponse, countryCoordsResponse] = await Promise.all([
@@ -31,6 +34,12 @@
       // this point, so these never go stale
       uniqueBands = [...new Set(shows.map(s => s.band))].sort();
       uniqueSources = [...new Set(shows.map(s => s.source))].sort();
+
+      shows.forEach(s => {
+        const key = lineupKey(s);
+        if (!lineupBands.has(key)) lineupBands.set(key, new Set());
+        lineupBands.get(key).add(s.band);
+      });
 
       WINDOW_TO = shows.reduce((max, s) => s.date > max ? s.date : max, WINDOW_FROM);
 
@@ -503,7 +512,14 @@
       if (exclude !== "band") {
         const override = bandFacet.getSearchOverride();
         if (override) {
-          list = list.filter(s => override.has(s.band));
+          // match if the searched band is playing that date/venue at all --
+          // not just when it's the only entry there -- so a co-headliner or
+          // support slot still surfaces the whole lineup instead of getting
+          // dropped for not being the "sole" match
+          list = list.filter(s => {
+            const bands = lineupBands.get(lineupKey(s));
+            return bands ? [...bands].some(b => override.has(b)) : override.has(s.band);
+          });
         } else if (bandMode === "include") {
           list = list.filter(s => bandSelection.has(s.band));
         } else {
