@@ -1,1713 +1,6 @@
 [
   {
     "band": "Destroyer",
-    "date": "2026-09-17",
-    "city": "London",
-    "country": "GB",
-    "venue": "ICA",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038770991?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Holy Wave",
-    "date": "2026-09-17",
-    "city": "Madrid",
-    "country": "ES",
-    "venue": "Wurlitzer Ballroom",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038842061?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 250,
-      "hub_city": "Madrid"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 250,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Madrid"
-    },
-    "note": "",
-    "priority": "1"
-  },
-  {
-    "band": "Kerala Dust",
-    "date": "2026-09-17",
-    "city": "San Carlos",
-    "country": "ES",
-    "venue": "DJ Set @ Las Dalias",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108650672?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "San Carlos"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "San Carlos"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Kruder & Dorfmeister",
-    "date": "2026-09-17",
-    "city": "Munich",
-    "country": "DE",
-    "venue": "KRUDER & DORFMEISTER – K+D KiCKS 30",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1037950933?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Munich"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Munich"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Mac DeMarco",
-    "date": "2026-09-17",
-    "city": "Barcelona",
-    "country": "ES",
-    "venue": "Razzmatazz",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43381149-mac-demarco-at-razzmatazz",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 240,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Barcelona"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 240,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Barcelona"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Metric",
-    "date": "2026-09-17",
-    "city": "Utrecht",
-    "country": "NL",
-    "venue": "TivoliVredenburg",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.nl/event/all-the-feelings-tour-with-metric-broken-social-scene-and-stars-tickets/198856824?language=en-us",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Utrecht"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Utrecht"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Release",
-    "date": "2026-09-17",
-    "city": "Tallinn",
-    "country": "EE",
-    "venue": "Philly Joe's Jazz Club",
-    "fest": "FESTIVAL",
-    "source": "Fienta",
-    "url": "https://fienta.com/future3-despite-the-rumbling-album-release-tallinn-fringe-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "hub_city": "Tallinn"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 50,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Tallinn"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Shame",
-    "date": "2026-09-17",
-    "city": "Mahon",
-    "country": "ES",
-    "venue": "Cranc Illa de Menorca",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3324517-cranc-illa-de-menorca/id/43278865-cranc-illa-de-menorca-festival-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Mahon"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Mahon"
-    },
-    "note": "",
-    "priority": "1"
-  },
-  {
-    "band": "The Orb",
-    "date": "2026-09-17",
-    "city": "Lincoln",
-    "country": "GB",
-    "venue": "Equinox Festival 2026",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038679034?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lincoln"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Lincoln"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Ty Segall",
-    "date": "2026-09-17",
-    "city": "Paris",
-    "country": "FR",
-    "venue": "Bataclan",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108031256?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Transavia",
-          "iata": "HV"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Paris"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Paris"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Bees Made Honey in the Vein Tree",
-    "date": "2026-09-18",
-    "city": "Esslingen",
-    "country": "DE",
-    "venue": "KOMMA esslingen",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43366476-bees-made-honey-in-the-vein-tree-at-komma-esslingen",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Esslingen"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Esslingen"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Destroyer",
-    "date": "2026-09-18",
-    "city": "Utrecht",
-    "country": "NL",
-    "venue": "EKKO",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108286877?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Utrecht"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Utrecht"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Diverse",
-    "date": "2026-09-18",
-    "city": "Magdeburg",
-    "country": "DE",
-    "venue": "Saal 1",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1039559872?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Magdeburg"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Magdeburg"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Holy Wave",
-    "date": "2026-09-18",
-    "city": "San Sebastián",
-    "country": "ES",
-    "venue": "Dabadaba",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038842092?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "San Sebastián"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "San Sebastián"
-    },
-    "note": "",
-    "priority": "1"
-  },
-  {
-    "band": "Kruder & Dorfmeister",
-    "date": "2026-09-18",
-    "city": "Munich",
-    "country": "DE",
-    "venue": "KRUDER & DORFMEISTER – K+D KiCKS 30",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1037474309?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Munich"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 150,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Munich"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Mac DeMarco",
-    "date": "2026-09-18",
-    "city": "Madrid",
-    "country": "ES",
-    "venue": "La Riviera",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108266721?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 250,
-      "hub_city": "Madrid"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 250,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Madrid"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Nazareth",
-    "date": "2026-09-18",
-    "city": "Trondheim",
-    "country": "NO",
-    "venue": "HAVET",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038476574?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 105,
-      "hub_city": "Trondheim"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 105,
-      "carriers": [
-        {
-          "name": "Norwegian Air Shuttle",
-          "iata": "DY"
-        }
-      ],
-      "hub_city": "Trondheim"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Satyricon",
-    "date": "2026-09-18",
-    "city": "Athens",
-    "country": "GR",
-    "venue": "Floyd - Live Music Venue",
-    "fest": null,
-    "source": "Spotify",
-    "url": "https://open.spotify.com/concert/6Q6Wi6YMGf5QIu02mZyIWy",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 215,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Athens"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 215,
-      "carriers": [
-        {
-          "name": "Aegean Airlines",
-          "iata": "A3"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Athens"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Stillbirth",
-    "date": "2026-09-18",
-    "city": "Weimar",
-    "country": "DE",
-    "venue": "Uhrenwerk",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3776886-party-san-herbstoffensive/id/43116061-party-san-herbstoffensive-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Weimar"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Weimar"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "The Tangent",
-    "date": "2026-09-18",
-    "city": "Zoetermeer",
-    "country": "NL",
-    "venue": "Poppodium Boerderij",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43150685-tangent-at-poppodium-boerderij",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Zoetermeer"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Zoetermeer"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Beck",
-    "date": "2026-09-19",
-    "city": "Paris",
-    "country": "FR",
-    "venue": "Sandwich de Batard",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43398793-beck-at-sandwich-de-batard",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Transavia",
-          "iata": "HV"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Paris"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Paris"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Bees Made Honey in the Vein Tree",
-    "date": "2026-09-19",
-    "city": "Kruchten",
-    "country": "DE",
-    "venue": "La Tête du Coq 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/2120329-la-tete-du-coq/id/43348300-la-tte-du-coq-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kruchten"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kruchten"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Belako",
-    "date": "2026-09-19",
-    "city": "Kalbe",
-    "country": "DE",
-    "venue": "Unordnungsamt",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43273537-matrone-at-unordnungsamt",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kalbe"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kalbe"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Destroyer",
-    "date": "2026-09-19",
-    "city": "Madrid",
-    "country": "ES",
-    "venue": "Copérnico",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108286897?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 250,
-      "hub_city": "Madrid"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 250,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Madrid"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Diverse",
-    "date": "2026-09-19",
-    "city": "Otepää",
-    "country": "EE",
-    "venue": "Otepää Kultuurimaja",
-    "fest": null,
-    "source": "Fienta",
-    "url": "https://fienta.com/duo-viiv-diverse-bizzarrie-varabaroki-massajad-ja-unistajad",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Otepää"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Otepää"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Jaga Jazzist",
-    "date": "2026-09-19",
-    "city": "Sortland",
-    "country": "NO",
-    "venue": "Sortland Jazzfestival",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43027449-jaga-jazzist-at-sortland-jazzfestival",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Sortland"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Sortland"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "LTJ Bukem",
-    "date": "2026-09-19",
-    "city": "Nottingham",
-    "country": "GB",
-    "venue": "The Brickworks",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108616145?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 170,
-      "hub_city": "Nottingham"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": true,
-      "duration_minutes": 170,
-      "seasonal_months": "Dec–Aug",
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Nottingham"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Metric",
-    "date": "2026-09-19",
-    "city": "Berlin",
-    "country": "DE",
-    "venue": "Columbiadamm 13 - 21",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.de/event/all-the-feelings-tour-with-metric-broken-social-scene-and-stars-tickets/359751164?language=en-us",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 110,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Berlin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 110,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Berlin"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Objekt",
-    "date": "2026-09-19",
-    "city": "Newcastle upon Tyne",
-    "country": "GB",
-    "venue": "Top Floor",
-    "fest": null,
-    "source": "Spotify",
-    "url": "https://open.spotify.com/concert/5jWUlvGHr8mKl5RglBn58g",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Newcastle upon Tyne"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Newcastle upon Tyne"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Omni",
-    "date": "2026-09-19",
-    "city": "Rochecorbon",
-    "country": "FR",
-    "venue": "RED Club - club boîte de nuit Tours",
-    "fest": "FESTIVAL",
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1040092953?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Rochecorbon"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Rochecorbon"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Prewn",
-    "date": "2026-09-19",
-    "city": "Rome",
-    "country": "IT",
-    "venue": "Largo Venue",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43391061-prewn-at-largo-venue",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 210,
-      "carriers": [
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        }
-      ],
-      "hub_city": "Rome"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 210,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Rome"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Satyricon",
-    "date": "2026-09-19",
-    "city": "Istanbul",
-    "country": "TR",
-    "venue": "Maximum Uniq Açıkhava",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3637675-bosphorus-open-air-metal-fest/id/42934813-bosphorus-open-air-metal-fest-2026",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 215,
-      "carriers": [
-        {
-          "name": "Turkish Airlines",
-          "iata": "TK"
-        }
-      ],
-      "hub_city": "Istanbul"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 215,
-      "carriers": [
-        {
-          "name": "Turkish Airlines",
-          "iata": "TK"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Istanbul"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Sepultura",
-    "date": "2026-09-19",
-    "city": "Casablanca",
-    "country": "MA",
-    "venue": "Racing Universitaire de Casablanca (RUC)",
-    "fest": null,
-    "source": "Spotify",
-    "url": "https://open.spotify.com/concert/1DI5LOkAOUGoUKB8fBpRBR",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Casablanca"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Casablanca"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Sine",
-    "date": "2026-09-19",
-    "city": "Segrate",
-    "country": "IT",
-    "venue": "Circolo Magnolia (Indoor)",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43410764-stone-cold-at-circolo-magnolia",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Segrate"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Segrate"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "TVAM",
-    "date": "2026-09-19",
-    "city": "Derby",
-    "country": "GB",
-    "venue": "Invention 2026",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3794638-invention/id/43308150-invention-2026",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Derby"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Derby"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "The Tangent",
-    "date": "2026-09-19",
-    "city": "Helmond",
-    "country": "NL",
-    "venue": "Cacaofabriek",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43217799-thistle-sifter-at-cacaofabriek",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Helmond"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Helmond"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Ty Segall",
-    "date": "2026-09-19",
-    "city": "Nimes",
-    "country": "FR",
-    "venue": "Paloma",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108031269?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Nimes"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Nimes"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Belako",
-    "date": "2026-09-20",
-    "city": "Berlin",
-    "country": "DE",
-    "venue": "Schockoladen",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43273538-matrone-at-schockoladen",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 110,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Berlin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 110,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Berlin"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Destroyer",
-    "date": "2026-09-20",
-    "city": "Barcelona",
-    "country": "ES",
-    "venue": "Sala Upload",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038771323?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 240,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Barcelona"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 240,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Barcelona"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Echo & The Bunnymen",
-    "date": "2026-09-20",
-    "city": "Liverpool",
-    "country": "GB",
-    "venue": "Camp & Furnace - Furnace",
-    "fest": null,
-    "source": "Spotify",
-    "url": "https://open.spotify.com/concert/3mclORgiqEX8n3bq8njdL8",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        }
-      ],
-      "hub_city": "Manchester"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Mac DeMarco",
-    "date": "2026-09-20",
-    "city": "Lisbon",
-    "country": "PT",
-    "venue": "LAV - Lisboa Ao Vivo",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/107521458?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 280,
-      "hub_city": "Lisbon"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 280,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Lisbon"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Destroyer",
-    "date": "2026-09-21",
-    "city": "Bologna",
-    "country": "IT",
-    "venue": "Locomotiv Club",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.it/biglietti/destroyer-bologna-21-09-2026/event/wg93lo7jxgf5",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bologna"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Bologna"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Mac DeMarco",
-    "date": "2026-09-21",
-    "city": "Lisbon",
-    "country": "PT",
-    "venue": "LAV - Lisboa Ao Vivo",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108636505?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 280,
-      "hub_city": "Lisbon"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 280,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Lisbon"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Maruja",
-    "date": "2026-09-21",
-    "city": "London",
-    "country": "GB",
-    "venue": "The 100 Club",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43392964-maruja-at-100-club",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Ty Segall",
-    "date": "2026-09-21",
-    "city": "Barcelona",
-    "country": "ES",
-    "venue": "Sala Paral·lel 62",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108031271?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 240,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Barcelona"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 240,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Barcelona"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Whitney",
-    "date": "2026-09-21",
-    "city": "Northampton",
-    "country": "GB",
-    "venue": "The Iron Horse",
-    "fest": null,
-    "source": "Spotify",
-    "url": "https://open.spotify.com/concert/0xGKquIrtPm86GZgsACWwX",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Northampton"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Northampton"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Destroyer",
-    "date": "2026-09-22",
-    "city": "Rome",
-    "country": "IT",
-    "venue": "Monk Club",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108286915?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 210,
-      "carriers": [
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        }
-      ],
-      "hub_city": "Rome"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 210,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Rome"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Diverse",
-    "date": "2026-09-22",
-    "city": "Tartu",
-    "country": "EE",
-    "venue": "Tartu Ülikooli muuseum",
-    "fest": "FESTIVAL",
-    "source": "Fienta",
-    "url": "https://fienta.com/duo-viiv-diverse-bizzarrie-varabaroki-massajad-ja-unistajad-tartu-klassikalise-kitarri-festival",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tartu"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Tartu"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Echo & The Bunnymen",
-    "date": "2026-09-22",
-    "city": "London",
-    "country": "GB",
-    "venue": "Open Air Theatre",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108259718?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
-    },
-    "note": "",
-    "priority": ""
-  },
-  {
-    "band": "Holy Wave",
-    "date": "2026-09-22",
-    "city": "Barcelona",
-    "country": "ES",
-    "venue": "Sala Upload",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/1038842267?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 240,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Barcelona"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 240,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Barcelona"
-    },
-    "note": "",
-    "priority": "1"
-  },
-  {
-    "band": "Prewn",
-    "date": "2026-09-22",
-    "city": "Berlin",
-    "country": "DE",
-    "venue": "Neue Zukunft",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43384636-prewn-at-neue-zukunft",
-    "flightTLL": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 110,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Berlin"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 110,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Berlin"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Slow Pulp",
-    "date": "2026-09-22",
-    "city": "Peckham",
-    "country": "GB",
-    "venue": "Vespers Club",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43397758-slow-pulp-at-vespers-club",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Peckham"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Peckham"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Sports Team",
-    "date": "2026-09-22",
-    "city": "Southampton",
-    "country": "GB",
-    "venue": "The Brook",
-    "fest": null,
-    "source": "Ticketmaster",
-    "url": "https://www.ticketweb.uk/event/sports-team-the-brook-tickets/15008523?REFERRAL_ID=tmfeed",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Southampton"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Southampton"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Ty Segall",
-    "date": "2026-09-22",
-    "city": "Madrid",
-    "country": "ES",
-    "venue": "Sala But",
-    "fest": null,
-    "source": "Bandsintown",
-    "url": "https://www.bandsintown.com/e/108031274?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": 250,
-      "hub_city": "Madrid"
-    },
-    "flightRIX": {
-      "direct": true,
-      "seasonal": false,
-      "duration_minutes": 250,
-      "carriers": [
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Madrid"
-    },
-    "note": "",
-    "priority": "2"
-  },
-  {
-    "band": "Destroyer",
     "date": "2026-09-23",
     "city": "Milan",
     "country": "IT",
@@ -1793,6 +86,46 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Gilla Band",
+    "date": "2026-09-23",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "The Big Romance",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/4wBT6mn46hEXTsfLT0xkm2",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Dublin"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Dublin"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Slow Pulp",
@@ -2744,6 +1077,36 @@
     },
     "note": "",
     "priority": "1"
+  },
+  {
+    "band": "Air",
+    "date": "2026-09-26",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "MOD",
+    "fest": null,
+    "source": "Fienta",
+    "url": "https://fienta.com/ida-off-air-paabel-afterparty-w-josey-rebelle-xterea-sansibar-nikolajev-ats",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 50,
+      "hub_city": "Tallinn"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 50,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tallinn"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Autechre",
@@ -5829,6 +4192,36 @@
     "priority": ""
   },
   {
+    "band": "Still House Plants",
+    "date": "2026-10-07",
+    "city": "Belgrade",
+    "country": "RS",
+    "venue": "Changeover 2026",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/3485080-changeover/id/43288347-changeover-2026",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 130,
+      "hub_city": "Belgrade"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 130,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Belgrade"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
     "band": "The Cinematic Orchestra",
     "date": "2026-10-07",
     "city": "Istanbul",
@@ -7067,6 +5460,36 @@
     "priority": ""
   },
   {
+    "band": "Buzhold",
+    "date": "2026-10-10",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "Ülase12",
+    "fest": null,
+    "source": "Skene",
+    "url": "https://www.facebook.com/events/2276807216194209/",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 50,
+      "hub_city": "Tallinn"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 50,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tallinn"
+    },
+    "note": "",
+    "priority": "est"
+  },
+  {
     "band": "Buzzcocks",
     "date": "2026-10-10",
     "city": "Θεσσαλονίκη",
@@ -8259,40 +6682,23 @@
   {
     "band": "Liars",
     "date": "2026-10-12",
-    "city": "Prague",
+    "city": "Hlavní město Praha",
     "country": "CZ",
     "venue": "Punctum",
     "fest": null,
-    "source": "Spotify",
-    "url": "https://open.spotify.com/concert/78Ii10YU8CB4TKJVeqk2Ka",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108884123?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
-      "seasonal": true,
-      "duration_minutes": 130,
-      "seasonal_months": "May–Aug",
-      "carriers": [
-        {
-          "name": "Eurowings",
-          "iata": "EW"
-        }
-      ],
-      "hub_city": "Prague"
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Hlavní město Praha"
     },
     "flightRIX": {
-      "direct": true,
+      "direct": false,
       "seasonal": false,
-      "duration_minutes": 130,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "Prague"
+      "duration_minutes": null,
+      "hub_city": "Hlavní město Praha"
     },
     "note": "",
     "priority": "2"
@@ -8843,6 +7249,36 @@
     "priority": "2"
   },
   {
+    "band": "Genka",
+    "date": "2026-10-14",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "Legendaarne Raadiobaar",
+    "fest": null,
+    "source": "Fienta",
+    "url": "https://fienta.com/vestlusohtu-ja-akustiline-konsert-genka-paul-oja-xxx",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 50,
+      "hub_city": "Tallinn"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 50,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tallinn"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Hooverphonic",
     "date": "2026-10-14",
     "city": "Thessaloníki",
@@ -8889,6 +7325,36 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "Paul Oja",
+    "date": "2026-10-14",
+    "city": "Tallinn",
+    "country": "EE",
+    "venue": "Legendaarne Raadiobaar",
+    "fest": null,
+    "source": "Fienta",
+    "url": "https://fienta.com/vestlusohtu-ja-akustiline-konsert-genka-paul-oja-xxx",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 50,
+      "hub_city": "Tallinn"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 50,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Tallinn"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Rosalie Cunningham",
@@ -10480,6 +8946,30 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Ciutat Vella"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
+    "band": "Omni",
+    "date": "2026-10-17",
+    "city": "Le Mans",
+    "country": "FR",
+    "venue": "Portland Pub",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43429499-omni-at-portland-pub",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Le Mans"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Le Mans"
     },
     "note": "",
     "priority": "2"
@@ -12558,6 +11048,42 @@
     "priority": ""
   },
   {
+    "band": "Röyksopp",
+    "date": "2026-10-23",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "Edelfettwerk Entertainment GmbH & Co. KG",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/71mbmXqwiJOaU8RzNZcPdC",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Squid",
     "date": "2026-10-23",
     "city": "Brighton",
@@ -12866,6 +11392,30 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Dengue Dengue Dengue",
+    "date": "2026-10-24",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Bristol Strange Brew",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/4Xu1NkwZ3Rr7wal4YKQUbm",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Bristol"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Bristol"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Digitalism",
@@ -14753,6 +13303,50 @@
     },
     "note": "",
     "priority": "1"
+  },
+  {
+    "band": "BJORN TORSKE",
+    "date": "2026-10-30",
+    "city": "Oslo",
+    "country": "NO",
+    "venue": "BLÅ",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1040289955?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 90,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Oslo"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 90,
+      "carriers": [
+        {
+          "name": "Norwegian Air Shuttle",
+          "iata": "DY"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Oslo"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Caroline Rose",
@@ -18361,6 +16955,46 @@
     "priority": "2"
   },
   {
+    "band": "Sleaford Mods",
+    "date": "2026-11-07",
+    "city": "Athens",
+    "country": "GR",
+    "venue": "Floyd - Live Music Venue",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108890362?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 215,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Athens"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 215,
+      "carriers": [
+        {
+          "name": "Aegean Airlines",
+          "iata": "A3"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Athens"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
     "band": "Squid",
     "date": "2026-11-07",
     "city": "Bristol",
@@ -18814,6 +17448,30 @@
     "priority": "2"
   },
   {
+    "band": "DIIV",
+    "date": "2026-11-09",
+    "city": "Kingston Upon Thames",
+    "country": "GB",
+    "venue": "CIRCUIT Kingston",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108933070?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Kingston Upon Thames"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Kingston Upon Thames"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Do Nothing",
     "date": "2026-11-09",
     "city": "Edinburgh",
@@ -18873,6 +17531,30 @@
     },
     "note": "",
     "priority": "1"
+  },
+  {
+    "band": "Echo & The Bunnymen",
+    "date": "2026-11-09",
+    "city": "Cardiff",
+    "country": "GB",
+    "venue": "Tramshed",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/echo-and-the-bunnymen-cardiff-09-11-2026/event/1F006532032791ED",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Machine Girl",
@@ -19081,6 +17763,30 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "Echo & The Bunnymen",
+    "date": "2026-11-10",
+    "city": "Eastbourne",
+    "country": "GB",
+    "venue": "Winter Garden, Eastbourne",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/echo-and-the-bunnymen-eastbourne-10-11-2026/event/1F0065324C589087",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Eastbourne"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Eastbourne"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Fontaines D.C.",
@@ -19978,6 +18684,30 @@
     "priority": "1"
   },
   {
+    "band": "Echo & The Bunnymen",
+    "date": "2026-11-12",
+    "city": "Southampton",
+    "country": "GB",
+    "venue": "Engine Rooms Southampton",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/echo-the-bunnymen-southampton-12-11-2026/event/36006535A2063B87",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Southampton"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Southampton"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Fontaines D.C.",
     "date": "2026-11-12",
     "city": "Antwerp",
@@ -20140,6 +18870,30 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "PARADE",
+    "date": "2026-11-12",
+    "city": "Southampton",
+    "country": "GB",
+    "venue": "The Brook",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43425113-chris-payn-at-brook",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Southampton"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Southampton"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Psychedelic Porn Crumpets",
@@ -20551,6 +19305,30 @@
         }
       ],
       "hub_city": "Berlin"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Echo & The Bunnymen",
+    "date": "2026-11-13",
+    "city": "Wolverhampton",
+    "country": "GB",
+    "venue": "University of Wolverhampton at The Wulfrun Hall",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/echo-and-the-bunnymen-wolverhampton-13-11-2026/event/1F00653303345352",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Wolverhampton"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Wolverhampton"
     },
     "note": "",
     "priority": ""
@@ -22319,6 +21097,30 @@
     "priority": "1"
   },
   {
+    "band": "Echo & The Bunnymen",
+    "date": "2026-11-17",
+    "city": "Middlesbrough",
+    "country": "GB",
+    "venue": "The Middlesbrough Empire",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/echo-and-the-bunnymen-middlesbrough-17-11-2026/event/1F006534DEE93483",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Middlesbrough"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Middlesbrough"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Fulci",
     "date": "2026-11-17",
     "city": "Brussels",
@@ -23095,6 +21897,30 @@
     "priority": "2"
   },
   {
+    "band": "Echo & The Bunnymen",
+    "date": "2026-11-19",
+    "city": "Holmfirth",
+    "country": "GB",
+    "venue": "Echo & The Bunnymen Apples For Isaac UK Tour",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108938183?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Holmfirth"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Holmfirth"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Fulci",
     "date": "2026-11-19",
     "city": "Nijmegen",
@@ -23642,6 +22468,30 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "Echo & The Bunnymen",
+    "date": "2026-11-20",
+    "city": "Coventry",
+    "country": "GB",
+    "venue": "The Empire, Coventry",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.co.uk/echo-and-the-bunnymen-coventry-20-11-2026/event/1F0065320B1E925E",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Coventry"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Coventry"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Elbow",
@@ -25872,6 +24722,46 @@
     "priority": "2"
   },
   {
+    "band": "Kronos Quartet",
+    "date": "2026-11-23",
+    "city": "Rome",
+    "country": "IT",
+    "venue": "Sala Santa Cecila, Auditorium Parco della Musica",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43421939-kronos-quartet-at-sala-santa-cecila-auditorium-parco-della-musica",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 210,
+      "carriers": [
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        }
+      ],
+      "hub_city": "Rome"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 210,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Rome"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
     "band": "Slift",
     "date": "2026-11-23",
     "city": "Amsterdam",
@@ -27248,6 +26138,43 @@
     "priority": "2"
   },
   {
+    "band": "Mr. Scruff",
+    "date": "2026-11-27",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "The Loft MCR",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43429928-mr-scruff-at-loft-mcr",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Nazareth",
     "date": "2026-11-27",
     "city": "Wörgl",
@@ -28111,6 +27038,58 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "Omertà",
+    "date": "2026-11-30",
+    "city": "London",
+    "country": "GB",
+    "venue": "Moth Club",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1040356681?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Slift",
@@ -35266,23 +34245,30 @@
   {
     "band": "Do Nothing",
     "date": "2027-02-13",
-    "city": "Kings Heath",
+    "city": "Birmingham",
     "country": "GB",
     "venue": "Hare & Hounds",
     "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43413686-do-nothing-at-hare-and-hounds",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1040264899?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kings Heath"
+      "seasonal": true,
+      "duration_minutes": 190,
+      "seasonal_months": "Mar–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Birmingham"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Kings Heath"
+      "duration_minutes": 190,
+      "hub_city": "Birmingham"
     },
     "note": "",
     "priority": "2"
@@ -35488,6 +34474,42 @@
         }
       ],
       "hub_city": "Vienna"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "СОЮЗ",
+    "date": "2027-02-14",
+    "city": "Hamburg",
+    "country": "DE",
+    "venue": "Knust",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43046477-soiuz-at-knust",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 115,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Hamburg"
     },
     "note": "",
     "priority": ""
@@ -37040,6 +36062,47 @@
     "priority": ""
   },
   {
+    "band": "СОЮЗ",
+    "date": "2027-02-23",
+    "city": "Prague",
+    "country": "CZ",
+    "venue": "Palac Akropolis",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/47gP694uNyHr2gmHPGVkpx",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": true,
+      "duration_minutes": 130,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Eurowings",
+          "iata": "EW"
+        }
+      ],
+      "hub_city": "Prague"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 130,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Prague"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Chat Pile",
     "date": "2027-02-24",
     "city": "Berlin",
@@ -37435,6 +36498,36 @@
     "priority": "1"
   },
   {
+    "band": "СОЮЗ",
+    "date": "2027-02-26",
+    "city": "Sofia",
+    "country": "BG",
+    "venue": "Club Pave",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43180696-soiuz-at-club-pave",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 155,
+      "hub_city": "Sofia"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 155,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Sofia"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Bonobo",
     "date": "2027-02-27",
     "city": "London",
@@ -37485,6 +36578,46 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Gilla Band",
+    "date": "2027-02-27",
+    "city": "Dublin",
+    "country": "IE",
+    "venue": "Vicar Street",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.ie/gilla-band-dublin-27-02-2027/event/180065359D2684E2",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Dublin"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Dublin"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Protomartyr",
@@ -37549,6 +36682,36 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "СОЮЗ",
+    "date": "2027-02-27",
+    "city": "Belgrade",
+    "country": "RS",
+    "venue": "Karmakoma",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/2zDcMiwyK3kBYlmi9be8LO",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 130,
+      "hub_city": "Belgrade"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 130,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Belgrade"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Cage The Elephant",
@@ -37655,6 +36818,30 @@
         }
       ],
       "hub_city": "Cologne"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "СОЮЗ",
+    "date": "2027-02-28",
+    "city": "Zagreb",
+    "country": "HR",
+    "venue": "Klub Močvara",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/7FezFXlFKuZz8X8DDBjzH0",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Zagreb"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Zagreb"
     },
     "note": "",
     "priority": ""
@@ -37854,6 +37041,42 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "СОЮЗ",
+    "date": "2027-03-03",
+    "city": "Amsterdam",
+    "country": "NL",
+    "venue": "Tolhuistuin",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/0k8eD5k5vc6g1Dj8FjQPVk",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Amsterdam"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 150,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Amsterdam"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Bonobo",
@@ -38156,6 +37379,30 @@
     "priority": "2"
   },
   {
+    "band": "СОЮЗ",
+    "date": "2027-03-06",
+    "city": "Rotterdam",
+    "country": "NL",
+    "venue": "Bird",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/7xFiVlLSrFB4nFir3BIDs7",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Rotterdam"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Rotterdam"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Jethro Tull",
     "date": "2027-03-07",
     "city": "Bielefeld",
@@ -38228,6 +37475,30 @@
     "priority": ""
   },
   {
+    "band": "СОЮЗ",
+    "date": "2027-03-08",
+    "city": "Brugge",
+    "country": "BE",
+    "venue": "Cactus Café",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/6D0c5uHbo6YFFnAMHgVCNM",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Brugge"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Brugge"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Bonobo",
     "date": "2027-03-09",
     "city": "Hamburg",
@@ -38259,6 +37530,37 @@
         }
       ],
       "hub_city": "Hamburg"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Kool & The Gang",
+    "date": "2027-03-09",
+    "city": "Cologne",
+    "country": "DE",
+    "venue": "LANXESS arena",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/4Bp8SevXlo5ewbWqpe2xLc",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 135,
+      "hub_city": "Cologne"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": true,
+      "duration_minutes": 135,
+      "seasonal_months": "May–Aug",
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Cologne"
     },
     "note": "",
     "priority": ""
@@ -38427,6 +37729,54 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Glasgow"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Trentemøller",
+    "date": "2027-03-10",
+    "city": "Maastricht",
+    "country": "NL",
+    "venue": "Muziekgieterij",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43427691-trentemoller-at-muziekgieterij",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Maastricht"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Maastricht"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
+    "band": "СОЮЗ",
+    "date": "2027-03-10",
+    "city": "Basel",
+    "country": "CH",
+    "venue": "Kuppel Basel",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/1fko42C5wLOI1Erv8eKoLw",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Basel"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Basel"
     },
     "note": "",
     "priority": ""
@@ -39326,25 +38676,55 @@
     "priority": "2"
   },
   {
+    "band": "СОЮЗ",
+    "date": "2027-03-18",
+    "city": "Madrid",
+    "country": "ES",
+    "venue": "Café La Palma",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/6R97Ters6telk8InrJrY7q",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": 250,
+      "hub_city": "Madrid"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 250,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Madrid"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Buzzcocks",
     "date": "2027-03-19",
-    "city": "Skegness",
+    "city": "Ingoldmells",
     "country": "GB",
-    "venue": "Butlin's - Skegness",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/1206703-shiiine-on-weekender/id/43417361-shiiine-on-weekender-2027",
+    "venue": "Shiiine On 2027",
+    "fest": null,
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/108894569?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Skegness"
+      "hub_city": "Ingoldmells"
     },
     "flightRIX": {
       "direct": false,
       "seasonal": false,
       "duration_minutes": null,
-      "hub_city": "Skegness"
+      "hub_city": "Ingoldmells"
     },
     "note": "",
     "priority": ""
@@ -39563,6 +38943,50 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "СОЮЗ",
+    "date": "2027-03-19",
+    "city": "Barcelona",
+    "country": "ES",
+    "venue": "Laut",
+    "fest": null,
+    "source": "Spotify",
+    "url": "https://open.spotify.com/concert/0Z1Zawl6GF77LD4vTvQsLP",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 240,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Barcelona"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 240,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Barcelona"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Hooverphonic",
@@ -40116,6 +39540,46 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "Blackpool"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Bonobo",
+    "date": "2027-03-27",
+    "city": "Paris",
+    "country": "FR",
+    "venue": "Salle Pleyel",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43422945-bonobo-at-salle-pleyel",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Transavia",
+          "iata": "HV"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "Paris"
     },
     "note": "",
     "priority": ""
@@ -41667,6 +41131,58 @@
     "priority": "2"
   },
   {
+    "band": "Red Snapper",
+    "date": "2027-05-06",
+    "city": "London",
+    "country": "GB",
+    "venue": "Jazz Cafe",
+    "fest": null,
+    "source": "Ticketmaster",
+    "url": "https://www.universe.com/events/red-snapper-tickets-TQ8J3Z?ref=ticketmaster",
+    "flightTLL": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        },
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "Wizz Air",
+          "iata": "W6"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 180,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        },
+        {
+          "name": "airBaltic",
+          "iata": "BT"
+        }
+      ],
+      "hub_city": "London"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Yes",
     "date": "2027-05-06",
     "city": "Birmingham",
@@ -41735,6 +41251,30 @@
     "priority": "2"
   },
   {
+    "band": "Red Snapper",
+    "date": "2027-05-07",
+    "city": "Bristol",
+    "country": "GB",
+    "venue": "Thekla",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43429951-red-snapper-at-thekla",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Bristol"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Bristol"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Yes",
     "date": "2027-05-07",
     "city": "Bristol",
@@ -41788,6 +41328,30 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "Red Snapper",
+    "date": "2027-05-08",
+    "city": "Cardiff",
+    "country": "GB",
+    "venue": "The Globe",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43429950-red-snapper-at-globe",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Cardiff"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Gary Numan",
@@ -41995,6 +41559,30 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "Red Snapper",
+    "date": "2027-05-13",
+    "city": "Cambridge",
+    "country": "GB",
+    "venue": "Portland Arms",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43429706-red-snapper-at-portland-arms",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Cambridge"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Cambridge"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Yes",
@@ -42245,6 +41833,30 @@
     "priority": "2"
   },
   {
+    "band": "Red Snapper",
+    "date": "2027-05-20",
+    "city": "Kings Heath",
+    "country": "GB",
+    "venue": "Hare & Hounds",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43429991-red-snapper-at-hare-and-hounds",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Kings Heath"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Kings Heath"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Yes",
     "date": "2027-05-20",
     "city": "Paris",
@@ -42317,51 +41929,23 @@
   {
     "band": "Melvins",
     "date": "2027-05-21",
-    "city": "London",
+    "city": "North London",
     "country": "GB",
-    "venue": "Various Venues",
-    "fest": null,
-    "source": "Songkick",
-    "url": "https://www.songkick.com/concerts/43414217-melvins-at-various-venues",
+    "venue": "Various Venues, Camden",
+    "fest": "FESTIVAL",
+    "source": "Bandsintown",
+    "url": "https://www.bandsintown.com/e/1040270338?app_id=12345&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "flightTLL": {
-      "direct": true,
+      "direct": false,
       "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Jet2.com",
-          "iata": "LS"
-        },
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "Wizz Air",
-          "iata": "W6"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
+      "duration_minutes": null,
+      "hub_city": "North London"
     },
     "flightRIX": {
-      "direct": true,
+      "direct": false,
       "seasonal": false,
-      "duration_minutes": 180,
-      "carriers": [
-        {
-          "name": "Ryanair",
-          "iata": "FR"
-        },
-        {
-          "name": "airBaltic",
-          "iata": "BT"
-        }
-      ],
-      "hub_city": "London"
+      "duration_minutes": null,
+      "hub_city": "North London"
     },
     "note": "",
     "priority": "2"
@@ -42486,6 +42070,30 @@
       "seasonal": false,
       "duration_minutes": null,
       "hub_city": "North London"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Red Snapper",
+    "date": "2027-05-28",
+    "city": "Blackpool",
+    "country": "GB",
+    "venue": "Bootleg Social",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43429993-red-snapper-at-bootleg-social",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Blackpool"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Blackpool"
     },
     "note": "",
     "priority": ""
@@ -42639,6 +42247,43 @@
     },
     "note": "",
     "priority": "2"
+  },
+  {
+    "band": "Red Snapper",
+    "date": "2027-05-29",
+    "city": "Manchester",
+    "country": "GB",
+    "venue": "Pink Room, YES",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43429995-red-snapper-at-pink-room-yes",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": true,
+      "duration_minutes": 195,
+      "seasonal_months": "Feb–Apr",
+      "carriers": [
+        {
+          "name": "Jet2.com",
+          "iata": "LS"
+        }
+      ],
+      "hub_city": "Manchester"
+    },
+    "flightRIX": {
+      "direct": true,
+      "seasonal": false,
+      "duration_minutes": 195,
+      "carriers": [
+        {
+          "name": "Ryanair",
+          "iata": "FR"
+        }
+      ],
+      "hub_city": "Manchester"
+    },
+    "note": "",
+    "priority": ""
   },
   {
     "band": "Rosalie Cunningham",
@@ -43521,6 +43166,30 @@
     "priority": ""
   },
   {
+    "band": "Tame Impala",
+    "date": "2027-06-30",
+    "city": "Gdynia",
+    "country": "PL",
+    "venue": "Lotnisko Gdynia-Kosakowo / Gdynia-Kosakowo Airfield",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/156151-opener/id/43427921-opener-festival-2027",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Gdynia"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Gdynia"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Fontaines D.C.",
     "date": "2027-07-01",
     "city": "Newcastle Upon Tyne",
@@ -43973,6 +43642,30 @@
     "priority": "2"
   },
   {
+    "band": "Tame Impala",
+    "date": "2027-07-08",
+    "city": "Algés",
+    "country": "PT",
+    "venue": "Passeio Marítimo de Algés",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/1192678-nos-alive/id/43379184-nos-alive-2027",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Algés"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Algés"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
     "band": "Fontaines D.C.",
     "date": "2027-07-09",
     "city": "London",
@@ -44075,30 +43768,6 @@
     },
     "note": "",
     "priority": "1"
-  },
-  {
-    "band": "Tame Impala",
-    "date": "2027-07-10",
-    "city": "Algés",
-    "country": "PT",
-    "venue": "Passeio Marítimo de Algés",
-    "fest": "FESTIVAL",
-    "source": "Songkick",
-    "url": "https://www.songkick.com/festivals/3801938-nos-alive27/id/43379184-nos-alive27-2027",
-    "flightTLL": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Algés"
-    },
-    "flightRIX": {
-      "direct": false,
-      "seasonal": false,
-      "duration_minutes": null,
-      "hub_city": "Algés"
-    },
-    "note": "",
-    "priority": ""
   },
   {
     "band": "Lynyrd Skynyrd",
@@ -44211,6 +43880,78 @@
     },
     "note": "",
     "priority": ""
+  },
+  {
+    "band": "Lynyrd Skynyrd",
+    "date": "2027-07-18",
+    "city": "Rosenheim",
+    "country": "DE",
+    "venue": "Mangfallpark",
+    "fest": null,
+    "source": "Songkick",
+    "url": "https://www.songkick.com/concerts/43422194-lynyrd-skynyrd-at-mangfallpark",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Rosenheim"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Rosenheim"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Decapitated",
+    "date": "2027-08-05",
+    "city": "Walton-on-trent",
+    "country": "GB",
+    "venue": "Catton Park",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/19616-bloodstock-open-air/id/43410943-bloodstock-open-air-2027",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Walton-on-trent"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Walton-on-trent"
+    },
+    "note": "",
+    "priority": ""
+  },
+  {
+    "band": "Fulci",
+    "date": "2027-08-05",
+    "city": "Walton-on-trent",
+    "country": "GB",
+    "venue": "Catton Park",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/19616-bloodstock-open-air/id/43410943-bloodstock-open-air-2027",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Walton-on-trent"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Walton-on-trent"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "LCD Soundsystem",
@@ -44329,6 +44070,54 @@
     "priority": "1"
   },
   {
+    "band": "Fulci",
+    "date": "2027-08-12",
+    "city": "Sulingen",
+    "country": "DE",
+    "venue": "Festivalgelände Im Langen Lande",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/74056-reload/id/43422933-reloadfestival-2027",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Sulingen"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Sulingen"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
+    "band": "Igorrr",
+    "date": "2027-08-12",
+    "city": "Sulingen",
+    "country": "DE",
+    "venue": "Festivalgelände Im Langen Lande",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/74056-reload/id/43422933-reloadfestival-2027",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Sulingen"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Sulingen"
+    },
+    "note": "",
+    "priority": "2"
+  },
+  {
     "band": "Fontaines D.C.",
     "date": "2027-08-17",
     "city": "Munich",
@@ -44363,6 +44152,30 @@
     },
     "note": "",
     "priority": "1"
+  },
+  {
+    "band": "AHAB",
+    "date": "2027-08-18",
+    "city": "Dinkelsbuhl",
+    "country": "DE",
+    "venue": "Summer Breeze Open Air",
+    "fest": "FESTIVAL",
+    "source": "Songkick",
+    "url": "https://www.songkick.com/festivals/1014553-summer-breeze/id/43368896-summer-breeze-2027",
+    "flightTLL": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Dinkelsbuhl"
+    },
+    "flightRIX": {
+      "direct": false,
+      "seasonal": false,
+      "duration_minutes": null,
+      "hub_city": "Dinkelsbuhl"
+    },
+    "note": "",
+    "priority": "2"
   },
   {
     "band": "Fontaines D.C.",
