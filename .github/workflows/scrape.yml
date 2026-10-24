@@ -68,6 +68,14 @@ jobs:
           SKIP_PAID_SCRAPERS: ${{ (github.event_name == 'workflow_dispatch' && inputs.skip_paid) && '1' || '' }}
         run: python run_scrapers.py
 
+      - name: Upload run log
+        if: steps.parity.outputs.run == 'true' && always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-log
+          path: logs/*.log
+          retention-days: 90
+
       - name: Build list of newly added shows
         if: steps.parity.outputs.run == 'true'
         run: |
