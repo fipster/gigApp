@@ -499,6 +499,18 @@
       color: var(--paper);
     }
 
+    .week-show-entry.is-attended {
+      background-image: repeating-linear-gradient(45deg, rgba(30, 26, 23, 0.16) 0 5px, transparent 5px 10px);
+    }
+
+    .week-show-entry.is-priority.is-attended {
+      background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.4) 0 5px, transparent 5px 10px);
+    }
+
+    .week-show-entry.is-priority-2.is-attended {
+      background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.22) 0 5px, transparent 5px 10px);
+    }
+
     .week-show-entry.is-festival {
       border: 2px solid var(--blue);
     }
@@ -678,6 +690,18 @@
     .band-tag.is-priority-2 {
       background: var(--ink);
       color: var(--paper);
+    }
+
+    .band-tag.is-attended {
+      background-image: repeating-linear-gradient(45deg, rgba(30, 26, 23, 0.16) 0 5px, transparent 5px 10px);
+    }
+
+    .band-tag.is-priority.is-attended {
+      background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.4) 0 5px, transparent 5px 10px);
+    }
+
+    .band-tag.is-priority-2.is-attended {
+      background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.22) 0 5px, transparent 5px 10px);
     }
 
     .fest-tag {

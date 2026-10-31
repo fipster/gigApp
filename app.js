@@ -11,22 +11,65 @@
     let uniqueBands = [];
     let uniqueSources = [];
     let lineupBands = new Map(); // lineupKey -> Set of every band playing that date+venue+city+country
+    let attendedBands = new Set();
     let WINDOW_TO;
 
     function lineupKey(s) { return `${s.date}|${s.venue}|${s.city}|${s.country}`; }
 
+    // minimal RFC4180-ish CSV parser (quoted fields, embedded commas, "" escapes) --
+    // just enough to read artists.csv's attended flag, no need for a library
+    function parseCsv(text) {
+      const rows = [];
+      let row = [], field = "", inQuotes = false;
+      for (let i = 0; i < text.length; i++) {
+        const c = text[i];
+        if (inQuotes) {
+          if (c === '"') {
+            if (text[i + 1] === '"') { field += '"'; i++; }
+            else inQuotes = false;
+          } else field += c;
+        } else if (c === '"') {
+          inQuotes = true;
+        } else if (c === ',') {
+          row.push(field); field = "";
+        } else if (c === '\r') {
+          // ignore -- \n (below) is what ends the row
+        } else if (c === '\n') {
+          row.push(field); field = "";
+          rows.push(row); row = [];
+        } else {
+          field += c;
+        }
+      }
+      if (field !== "" || row.length) { row.push(field); rows.push(row); }
+      return rows;
+    }
+
     async function loadShows() {
-      const [showsResponse, countriesResponse, coordsResponse, countryCoordsResponse] = await Promise.all([
+      const [showsResponse, countriesResponse, coordsResponse, countryCoordsResponse, artistsResponse] = await Promise.all([
         fetch("shows.json"),
         fetch("countries.json"),
         fetch("city_coordinates.json"),
         fetch("country_coordinates.json"),
+        fetch("artists.csv"),
       ]);
       shows = await showsResponse.json();
       shows = shows.filter(s => s.date >= todayISO());
       countries = await countriesResponse.json();
       cityCoordinates = await coordsResponse.json();
       countryCoordinates = await countryCoordsResponse.json();
+
+      const artistRows = parseCsv(await artistsResponse.text());
+      const artistHeader = artistRows[0] || [];
+      const nameIdx = artistHeader.indexOf("artist_name");
+      const attendedIdx = artistHeader.indexOf("attended");
+      if (nameIdx !== -1 && attendedIdx !== -1) {
+        artistRows.slice(1).forEach(row => {
+          if ((row[attendedIdx] || "").trim().toUpperCase() === "TRUE") {
+            attendedBands.add((row[nameIdx] || "").trim());
+          }
+        });
+      }
 
       shows.forEach(s => bandPriorities.set(s.band, s.priority));
       // computed once here rather than re-derived from `shows` on every
@@ -175,6 +218,10 @@
       if (priority === "1") return "is-priority";
       if (priority === "2") return "is-priority-2";
       return "";
+    }
+
+    function bandAttendedClass(bandName) {
+      return attendedBands.has(bandName) ? " is-attended" : "";
     }
 
     function cityKey(s) { return s.country + "|" + s.city; }
@@ -644,7 +691,7 @@
         flightsHtml += flightSummaryHtml(s);
 
         const bandTagsHtml = s.bands.map(band =>
-          `<a class="band-tag ${bandPriorityClass(band)}" href="${escapeAttr(youtubeMusicUrl(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
+          `<a class="band-tag ${bandPriorityClass(band)}${bandAttendedClass(band)}" href="${escapeAttr(youtubeMusicUrl(band))}" target="_blank" rel="noopener noreferrer">${escapeHtml(band)}</a>`
         ).join('');
 
         stub.innerHTML = `
@@ -702,7 +749,8 @@
       entry.className = "week-show-entry"
         + (s.fest === "FESTIVAL" ? " is-festival" : "")
         + (s.priority === "1" ? " is-priority" : "")
-        + (s.priority === "2" ? " is-priority-2" : "");
+        + (s.priority === "2" ? " is-priority-2" : "")
+        + (s.bands.some(b => attendedBands.has(b)) ? " is-attended" : "");
       const bandLink = `<div class="w-band-row"><a class="w-band" href="${escapeAttr(youtubeMusicUrl(s.bands[0]))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.bands[0])}</a>${bandSuffix}</div>`;
       const cityText = (showFlag ? countryFlag(s.country) + " " : "") + s.city;
       const cityHtml = s.url
