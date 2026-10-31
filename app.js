@@ -189,6 +189,14 @@
       return escapeHtml(str).replace(/"/g, '&quot;');
     }
 
+    function debounce(fn, waitMs) {
+      let timer;
+      return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn(...args), waitMs);
+      };
+    }
+
     // supports comma-separated search terms: "radiohead, metallica" matches
     // either, so adding a new term accumulates results instead of replacing them
     function matchesSearchTerms(text, rawInput) {
@@ -227,11 +235,12 @@
     // it only cares about elements carrying a `data-key` attribute (each
     // leaf checkbox) and, optionally, an ancestor `.country-group`.
     //
-    // The search box only narrows which rows the panel DISPLAYS; it never
-    // touches `selection` or the main list. The main list is driven by the
-    // ticks alone. Select all/none and a country's checkbox act on the
-    // currently visible rows only, so "search austria, then select all" ticks
-    // just the Austrian cities.
+    // The search box narrows BOTH the panel's displayed rows and the main
+    // list, but as an extra filter combined with the ticks (a show must be
+    // ticked AND match the search text) -- it never touches `selection`, so
+    // clearing the box restores exactly what was ticked. Select all/none and
+    // a country's checkbox act on the currently visible rows only, so
+    // "search austria, then select none" unticks just the Austrian cities.
     function createFilterFacet({ panelId, searchInputId, modeRowSelector, modeDataAttr, selectAllId, selectNoneId, selection, setMode, buildRows, allKeys, extraSearchText }) {
       const panel = document.getElementById(panelId);
       const searchInput = document.getElementById(searchInputId);
@@ -260,10 +269,15 @@
         groupCb.checked = children.length > 0 && children.every(cb => cb.checked);
       }
 
+      // key -> text the search box matches against (row label, plus e.g. the
+      // country name for a city), so matching works from the key alone
+      const searchText = new Map();
+
       function wireRow(row, key) {
         const cb = row.querySelector('input[type=checkbox]');
         cb.checked = true;
         cb.dataset.key = key;
+        searchText.set(key, extraSearchText ? row.textContent + " " + extraSearchText(key) : row.textContent);
         cb.addEventListener('change', () => {
           if (cb.checked) selection.add(key); else selection.delete(key);
           syncGroupCheckbox(row.closest('.country-group'));
@@ -275,22 +289,21 @@
         selection.clear();
         allKeys().forEach(k => selection.add(k));
         available = null;
+        searchText.clear();
         panel.innerHTML = "";
         buildRows(panel, wireRow, selection);
       }
 
-      function rowMatchesSearch(cb, rawInput) {
-        const row = cb.closest('.city-row');
-        const text = extraSearchText ? row.textContent + " " + extraSearchText(cb.dataset.key) : row.textContent;
-        return matchesSearchTerms(text, rawInput);
+      // true when the search box is empty or the key's text matches it
+      function keyMatchesSearch(key) {
+        return matchesSearchTerms(searchText.get(key) ?? "", searchInput.value);
       }
 
       // a row shows if it's available under the other filters AND matches the
       // search text; country headers show if any of their cities do
       function applyVisibility() {
-        const rawInput = searchInput.value;
         leafCheckboxes().forEach(cb => {
-          const visible = (!available || available.has(cb.dataset.key)) && rowMatchesSearch(cb, rawInput);
+          const visible = (!available || available.has(cb.dataset.key)) && keyMatchesSearch(cb.dataset.key);
           cb.closest('.city-row').style.display = visible ? "" : "none";
         });
         panel.querySelectorAll('.country-group').forEach(group => {
@@ -300,7 +313,10 @@
         });
       }
 
-      searchInput.addEventListener('input', applyVisibility);
+      // row visibility updates instantly (cheap); only the main-list render,
+      // which rebuilds ~1600 shows, is debounced
+      const debouncedRender = debounce(render, 150);
+      searchInput.addEventListener('input', () => { applyVisibility(); debouncedRender(); });
 
       document.querySelectorAll(modeRowSelector).forEach(chip => {
         chip.addEventListener('click', () => {
@@ -345,7 +361,7 @@
         applyVisibility();
       }
 
-      return { rebuild, refreshAvailability, reset };
+      return { rebuild, refreshAvailability, reset, keyMatchesSearch };
     }
 
     function buildFlatRows(getLabel) {
@@ -531,12 +547,13 @@
           // keep a show if any ticked band is on its bill, not just when the
           // ticked band is the only entry there, so a co-headliner or support
           // slot still surfaces the whole lineup
+          const bandOk = b => bandSelection.has(b) && bandFacet.keyMatchesSearch(b);
           list = list.filter(s => {
             const bands = lineupBands.get(lineupKey(s));
-            return bands ? [...bands].some(b => bandSelection.has(b)) : bandSelection.has(s.band);
+            return bands ? [...bands].some(bandOk) : bandOk(s.band);
           });
         } else {
-          list = list.filter(s => !bandSelection.has(s.band));
+          list = list.filter(s => !bandSelection.has(s.band) && bandFacet.keyMatchesSearch(s.band));
         }
       }
       if (excludeFest) list = list.filter(s => !s.fest);
@@ -547,16 +564,16 @@
       }
       if (exclude !== "source") {
         if (sourceMode === "include") {
-          list = list.filter(s => sourceSelection.has(s.source));
+          list = list.filter(s => sourceSelection.has(s.source) && sourceFacet.keyMatchesSearch(s.source));
         } else {
-          list = list.filter(s => !sourceSelection.has(s.source));
+          list = list.filter(s => !sourceSelection.has(s.source) && sourceFacet.keyMatchesSearch(s.source));
         }
       }
       if (exclude !== "city") {
         if (cityMode === "include") {
-          list = list.filter(s => citySelection.has(cityKey(s)));
+          list = list.filter(s => citySelection.has(cityKey(s)) && cityFacet.keyMatchesSearch(cityKey(s)));
         } else {
-          list = list.filter(s => !citySelection.has(cityKey(s)));
+          list = list.filter(s => !citySelection.has(cityKey(s)) && cityFacet.keyMatchesSearch(cityKey(s)));
         }
       }
       if (activeOrigins.size > 0) list = list.filter(s => hasDirectForSelection(s));
