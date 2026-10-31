@@ -247,7 +247,7 @@
     // is never touched while searching, clearing the box always restores
     // exactly whatever was checked before typing started, no matter how the
     // search was used in between.
-    function createFilterFacet({ panelId, searchInputId, modeRowSelector, modeDataAttr, selectAllId, selectNoneId, selection, setMode, buildRows, allKeys }) {
+    function createFilterFacet({ panelId, searchInputId, modeRowSelector, modeDataAttr, selectAllId, selectNoneId, selection, setMode, buildRows, allKeys, extraSearchText }) {
       const panel = document.getElementById(panelId);
       const searchInput = document.getElementById(searchInputId);
 
@@ -301,7 +301,8 @@
         const matchedKeys = [];
         leafCheckboxes().forEach(cb => {
           const row = cb.closest('.city-row');
-          const matches = matchesSearchTerms(row.textContent, rawInput);
+          const text = extraSearchText ? row.textContent + " " + extraSearchText(cb.dataset.key) : row.textContent;
+          const matches = matchesSearchTerms(text, rawInput);
           row.style.display = matches ? "" : "none";
           if (matches) matchedKeys.push(cb.dataset.key);
         });
@@ -486,6 +487,7 @@
       setMode: (v) => { cityMode = v; },
       buildRows: buildCityRows,
       allKeys: () => [...new Set(shows.map(cityKey))],
+      extraSearchText: (key) => countryName(key.split("|")[0]),
     });
 
     function hasDirectForSelection(show) {
