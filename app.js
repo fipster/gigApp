@@ -295,14 +295,19 @@
         buildRows(panel, wireRow, selection);
       }
 
+      function rowMatchesSearch(cb, rawInput) {
+        const row = cb.closest('.city-row');
+        const text = extraSearchText ? row.textContent + " " + extraSearchText(cb.dataset.key) : row.textContent;
+        return matchesSearchTerms(text, rawInput);
+      }
+
       const debouncedRender = debounce(render, 150);
       searchInput.addEventListener('input', (e) => {
         const rawInput = e.target.value;
         const matchedKeys = [];
         leafCheckboxes().forEach(cb => {
           const row = cb.closest('.city-row');
-          const text = extraSearchText ? row.textContent + " " + extraSearchText(cb.dataset.key) : row.textContent;
-          const matches = matchesSearchTerms(text, rawInput);
+          const matches = rowMatchesSearch(cb, rawInput);
           row.style.display = matches ? "" : "none";
           if (matches) matchedKeys.push(cb.dataset.key);
         });
@@ -342,12 +347,16 @@
       // hides rows that have no shows under the OTHER active filters (dates,
       // other facets, etc.) -- run when the panel is opened, so it reflects
       // whatever's currently filtered elsewhere without touching selection
+      // the search box keeps its text while the panel is closed, so rows must
+      // also still match it -- otherwise reopening would list every available
+      // row while the main list stays narrowed to the search
       function refreshAvailability(available) {
+        const rawInput = searchInput.value;
         panel.querySelectorAll('.country-group').forEach(group => {
           let anyVisible = false;
           group.querySelectorAll('[data-key]').forEach(cb => {
             const row = cb.closest('.city-row');
-            const visible = available.has(cb.dataset.key);
+            const visible = available.has(cb.dataset.key) && rowMatchesSearch(cb, rawInput);
             row.style.display = visible ? "" : "none";
             if (visible) anyVisible = true;
           });
@@ -355,7 +364,7 @@
         });
         if (!panel.querySelector('.country-group')) {
           leafCheckboxes().forEach(cb => {
-            cb.closest('.city-row').style.display = available.has(cb.dataset.key) ? "" : "none";
+            cb.closest('.city-row').style.display = available.has(cb.dataset.key) && rowMatchesSearch(cb, rawInput) ? "" : "none";
           });
         }
       }
