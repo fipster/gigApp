@@ -189,16 +189,6 @@
       return escapeHtml(str).replace(/"/g, '&quot;');
     }
 
-    // used to avoid a full filter+DOM-rebuild of the ~1600-show main list on
-    // every single keystroke while a facet search box narrows it live
-    function debounce(fn, waitMs) {
-      let timer;
-      return (...args) => {
-        clearTimeout(timer);
-        timer = setTimeout(() => fn(...args), waitMs);
-      };
-    }
-
     // supports comma-separated search terms: "radiohead, metallica" matches
     // either, so adding a new term accumulates results instead of replacing them
     function matchesSearchTerms(text, rawInput) {
@@ -237,27 +227,18 @@
     // it only cares about elements carrying a `data-key` attribute (each
     // leaf checkbox) and, optionally, an ancestor `.country-group`.
     //
-    // Typing in a facet's search box narrows the main shows list live, same
-    // as before -- but via a separate, purely temporary `searchOverride`
-    // (see below), never by mutating `selection`/a checkbox's `checked`
-    // state directly. An earlier version of this fix mutated them on every
-    // keystroke, so clearing the search box silently re-selected everything
-    // and permanently discarded any manual deselection; the one before that
-    // (the original) had the same mutation bug. Because `selection` itself
-    // is never touched while searching, clearing the box always restores
-    // exactly whatever was checked before typing started, no matter how the
-    // search was used in between.
+    // The search box only narrows which rows the panel DISPLAYS; it never
+    // touches `selection` or the main list. The main list is driven by the
+    // ticks alone. Select all/none and a country's checkbox act on the
+    // currently visible rows only, so "search austria, then select all" ticks
+    // just the Austrian cities.
     function createFilterFacet({ panelId, searchInputId, modeRowSelector, modeDataAttr, selectAllId, selectNoneId, selection, setMode, buildRows, allKeys, extraSearchText }) {
       const panel = document.getElementById(panelId);
       const searchInput = document.getElementById(searchInputId);
 
-      // while the user is actively typing, the main shows list narrows
-      // live to whatever currently matches -- but as a purely temporary
-      // overlay (this Set), never by mutating `selection`/checkbox state.
-      // Clearing the search box sets this back to null and the real
-      // persisted selection (whatever it was, untouched this whole time)
-      // reasserts itself exactly as it was before typing started.
-      let searchOverride = null;
+      // keys with shows under the OTHER active filters, set when the panel is
+      // opened; null = no restriction
+      let available = null;
 
       // the checkbox itself carries data-key (set in wireRow below) -- use
       // .closest('.city-row') on any of these when the row/label wrapper
@@ -266,13 +247,16 @@
         return [...panel.querySelectorAll('[data-key]')];
       }
 
-      // keeps a city-group's own checkbox in sync with its children -- a
-      // no-op for band/source, which have no `.country-group` ancestor
-      function syncGroupCheckbox(row) {
-        const group = row.closest('.country-group');
+      function isRowVisible(cb) {
+        return cb.closest('.city-row').style.display !== "none";
+      }
+
+      // a city-group's own checkbox reflects its VISIBLE children -- a no-op
+      // for band/source, which have no `.country-group`
+      function syncGroupCheckbox(group) {
         if (!group) return;
         const groupCb = group.querySelector('.country-row input[type=checkbox]');
-        const children = [...group.querySelectorAll('[data-key]')];
+        const children = [...group.querySelectorAll('[data-key]')].filter(isRowVisible);
         groupCb.checked = children.length > 0 && children.every(cb => cb.checked);
       }
 
@@ -282,7 +266,7 @@
         cb.dataset.key = key;
         cb.addEventListener('change', () => {
           if (cb.checked) selection.add(key); else selection.delete(key);
-          syncGroupCheckbox(row);
+          syncGroupCheckbox(row.closest('.country-group'));
           render();
         });
       }
@@ -290,7 +274,7 @@
       function rebuild() {
         selection.clear();
         allKeys().forEach(k => selection.add(k));
-        searchOverride = null;
+        available = null;
         panel.innerHTML = "";
         buildRows(panel, wireRow, selection);
       }
@@ -301,25 +285,22 @@
         return matchesSearchTerms(text, rawInput);
       }
 
-      const debouncedRender = debounce(render, 150);
-      searchInput.addEventListener('input', (e) => {
-        const rawInput = e.target.value;
-        const matchedKeys = [];
+      // a row shows if it's available under the other filters AND matches the
+      // search text; country headers show if any of their cities do
+      function applyVisibility() {
+        const rawInput = searchInput.value;
         leafCheckboxes().forEach(cb => {
-          const row = cb.closest('.city-row');
-          const matches = rowMatchesSearch(cb, rawInput);
-          row.style.display = matches ? "" : "none";
-          if (matches) matchedKeys.push(cb.dataset.key);
+          const visible = (!available || available.has(cb.dataset.key)) && rowMatchesSearch(cb, rawInput);
+          cb.closest('.city-row').style.display = visible ? "" : "none";
         });
         panel.querySelectorAll('.country-group').forEach(group => {
-          const anyVisible = [...group.querySelectorAll('[data-key]')].some(cb => cb.closest('.city-row').style.display !== "none");
+          const anyVisible = [...group.querySelectorAll('[data-key]')].some(isRowVisible);
           group.style.display = anyVisible ? "" : "none";
+          syncGroupCheckbox(group);
         });
-        // dropdown row visibility above updates instantly (cheap); only the
-        // expensive main-list render is debounced
-        searchOverride = rawInput.trim() ? new Set(matchedKeys) : null;
-        debouncedRender();
-      });
+      }
+
+      searchInput.addEventListener('input', applyVisibility);
 
       document.querySelectorAll(modeRowSelector).forEach(chip => {
         chip.addEventListener('click', () => {
@@ -330,43 +311,23 @@
         });
       });
 
-      document.getElementById(selectAllId).addEventListener('click', () => {
-        leafCheckboxes().forEach(cb => { cb.checked = true; });
-        panel.querySelectorAll('.country-group input[type=checkbox]').forEach(cb => cb.checked = true);
-        selection.clear();
-        allKeys().forEach(k => selection.add(k));
-        render();
-      });
-      document.getElementById(selectNoneId).addEventListener('click', () => {
-        leafCheckboxes().forEach(cb => { cb.checked = false; });
-        panel.querySelectorAll('.country-group input[type=checkbox]').forEach(cb => cb.checked = false);
-        selection.clear();
-        render();
-      });
-
-      // hides rows that have no shows under the OTHER active filters (dates,
-      // other facets, etc.) -- run when the panel is opened, so it reflects
-      // whatever's currently filtered elsewhere without touching selection
-      // the search box keeps its text while the panel is closed, so rows must
-      // also still match it -- otherwise reopening would list every available
-      // row while the main list stays narrowed to the search
-      function refreshAvailability(available) {
-        const rawInput = searchInput.value;
-        panel.querySelectorAll('.country-group').forEach(group => {
-          let anyVisible = false;
-          group.querySelectorAll('[data-key]').forEach(cb => {
-            const row = cb.closest('.city-row');
-            const visible = available.has(cb.dataset.key) && rowMatchesSearch(cb, rawInput);
-            row.style.display = visible ? "" : "none";
-            if (visible) anyVisible = true;
-          });
-          group.style.display = anyVisible ? "" : "none";
+      function setVisibleChecked(checked) {
+        leafCheckboxes().filter(isRowVisible).forEach(cb => {
+          cb.checked = checked;
+          if (checked) selection.add(cb.dataset.key); else selection.delete(cb.dataset.key);
         });
-        if (!panel.querySelector('.country-group')) {
-          leafCheckboxes().forEach(cb => {
-            cb.closest('.city-row').style.display = available.has(cb.dataset.key) && rowMatchesSearch(cb, rawInput) ? "" : "none";
-          });
-        }
+        panel.querySelectorAll('.country-group').forEach(syncGroupCheckbox);
+        render();
+      }
+      document.getElementById(selectAllId).addEventListener('click', () => setVisibleChecked(true));
+      document.getElementById(selectNoneId).addEventListener('click', () => setVisibleChecked(false));
+
+      // run when the panel is opened, so rows with no shows under the OTHER
+      // active filters (dates, other facets, etc.) are hidden; the search box
+      // keeps its text while the panel is closed, so it still applies too
+      function refreshAvailability(availableKeys) {
+        available = availableKeys;
+        applyVisibility();
       }
 
       function reset() {
@@ -377,15 +338,14 @@
         // with no camelCase conversion needed
         document.querySelector(`${modeRowSelector}[data-${modeDataAttr}="include"]`)?.classList.add('active');
         searchInput.value = "";
-        searchOverride = null;
-        panel.querySelectorAll('.country-group').forEach(g => g.style.display = "");
-        leafCheckboxes().forEach(cb => { cb.closest('.city-row').style.display = ""; cb.checked = true; });
-        panel.querySelectorAll('.country-group input[type=checkbox]').forEach(cb => cb.checked = true);
+        available = null;
+        leafCheckboxes().forEach(cb => { cb.checked = true; });
         selection.clear();
         allKeys().forEach(k => selection.add(k));
+        applyVisibility();
       }
 
-      return { rebuild, refreshAvailability, reset, getSearchOverride: () => searchOverride };
+      return { rebuild, refreshAvailability, reset };
     }
 
     function buildFlatRows(getLabel) {
@@ -447,7 +407,9 @@
         });
 
         countryCb.addEventListener('change', () => {
-          cityCbs.forEach(cb => {
+          // only cities currently shown -- ones hidden by the search or by
+          // availability keep whatever state they had
+          cityCbs.filter(cb => cb.closest('.city-row').style.display !== "none").forEach(cb => {
             cb.checked = countryCb.checked;
             const key = cb.dataset.key;
             if (cb.checked) citySelection.add(key); else citySelection.delete(key);
@@ -564,23 +526,15 @@
     function getFilteredList(exclude) {
       let list = shows.slice();
 
-      // while a facet's search box has text in it, that temporarily
-      // overrides its checkbox selection entirely (matches only) rather
-      // than combining with it -- same as the old behavior's net effect,
-      // just without permanently mutating `selection` to get there
       if (exclude !== "band") {
-        const override = bandFacet.getSearchOverride();
-        if (override) {
-          // match if the searched band is playing that date/venue at all --
-          // not just when it's the only entry there -- so a co-headliner or
-          // support slot still surfaces the whole lineup instead of getting
-          // dropped for not being the "sole" match
+        if (bandMode === "include") {
+          // keep a show if any ticked band is on its bill, not just when the
+          // ticked band is the only entry there, so a co-headliner or support
+          // slot still surfaces the whole lineup
           list = list.filter(s => {
             const bands = lineupBands.get(lineupKey(s));
-            return bands ? [...bands].some(b => override.has(b)) : override.has(s.band);
+            return bands ? [...bands].some(b => bandSelection.has(b)) : bandSelection.has(s.band);
           });
-        } else if (bandMode === "include") {
-          list = list.filter(s => bandSelection.has(s.band));
         } else {
           list = list.filter(s => !bandSelection.has(s.band));
         }
@@ -592,20 +546,14 @@
         if (dateTo) list = list.filter(s => s.date <= dateTo);
       }
       if (exclude !== "source") {
-        const override = sourceFacet.getSearchOverride();
-        if (override) {
-          list = list.filter(s => override.has(s.source));
-        } else if (sourceMode === "include") {
+        if (sourceMode === "include") {
           list = list.filter(s => sourceSelection.has(s.source));
         } else {
           list = list.filter(s => !sourceSelection.has(s.source));
         }
       }
       if (exclude !== "city") {
-        const override = cityFacet.getSearchOverride();
-        if (override) {
-          list = list.filter(s => override.has(cityKey(s)));
-        } else if (cityMode === "include") {
+        if (cityMode === "include") {
           list = list.filter(s => citySelection.has(cityKey(s)));
         } else {
           list = list.filter(s => !citySelection.has(cityKey(s)));
