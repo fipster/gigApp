@@ -166,6 +166,7 @@
     let activeOrigins = new Set();
     let activePriorities = new Set();
     let excludeFest = false;
+    let excludeUK = false;
     let cityMode = "include";
     let citySelection = new Set();
     let datePreset = "all";
@@ -574,6 +575,7 @@
         }
       }
       if (excludeFest) list = list.filter(s => !s.fest);
+      if (excludeUK) list = list.filter(s => s.country !== "GB");
       if (exclude !== "date") {
         if (dateFrom) list = list.filter(s => s.date >= dateFrom);
         if (dateTo) list = list.filter(s => s.date <= dateTo);
@@ -920,6 +922,8 @@
       // festivals + origins + priority
       excludeFest = false;
       document.getElementById('excludeFest').checked = false;
+      excludeUK = false;
+      document.getElementById('excludeUK').checked = false;
       activeOrigins.clear();
       document.querySelectorAll('.chip[data-filter="origin"]').forEach(c => c.classList.remove('active'));
       activePriorities.clear();
@@ -974,6 +978,7 @@
     });
 
     document.getElementById('excludeFest').addEventListener('change', (e) => { excludeFest = e.target.checked; render(); });
+    document.getElementById('excludeUK').addEventListener('change', (e) => { excludeUK = e.target.checked; render(); });
 
     // last date among shows matching the current non-date filters (band/source/city/origin/fest/priority)
     function filteredMaxDate() {
