@@ -1,4 +1,15 @@
 
+    /* Windows ships no flag-emoji glyphs, so Chrome/Edge there render the
+       countries.json flags as bare letter pairs ("EE"). This font only covers
+       the regional-indicator range, so prepending it to every font stack
+       swaps in real flags without touching any other character. */
+    @font-face {
+      font-family: 'Twemoji Country Flags';
+      unicode-range: U+1F1E6-1F1FF, U+1F3F4, U+E0062-E007F;
+      src: url('https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1.8/dist/TwemojiCountryFlags.woff2') format('woff2');
+      font-display: swap;
+    }
+
     :root {
       --paper: #EDE8DD;
       --paper-dark: #E2DCCC;
@@ -27,7 +38,7 @@
       background-image: radial-gradient(circle at 1px 1px, rgba(30, 26, 23, 0.06) 1px, transparent 0);
       background-size: 18px 18px;
       color: var(--ink);
-      font-family: 'Work Sans', sans-serif;
+      font-family: 'Twemoji Country Flags', 'Work Sans', sans-serif;
       -webkit-font-smoothing: antialiased;
     }
 
@@ -63,7 +74,7 @@
     }
 
     .eyebrow {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 12px;
       letter-spacing: .14em;
       text-transform: uppercase;
@@ -73,7 +84,7 @@
     }
 
     h1 {
-      font-family: 'Anton', sans-serif;
+      font-family: 'Twemoji Country Flags', 'Anton', sans-serif;
       font-weight: 400;
       font-size: clamp(34px, 7vw, 58px);
       line-height: .92;
@@ -99,7 +110,7 @@
       display: flex;
       gap: 18px;
       flex-wrap: wrap;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 12px;
       border-top: 1px dashed var(--line);
       padding-top: 12px;
@@ -128,7 +139,7 @@
     }
 
     .label {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 11px;
       text-transform: uppercase;
       letter-spacing: .08em;
@@ -144,7 +155,7 @@
       appearance: none;
       -webkit-appearance: none;
       margin: 0;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 12px;
       padding: 7px 12px;
       border: 2px solid var(--ink);
@@ -176,7 +187,7 @@
 
     select,
     input[type=date] {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 12px;
       padding: 7px 10px;
       border: 2px solid var(--ink);
@@ -195,13 +206,13 @@
     }
 
     .date-range span {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 11px;
       color: var(--text-faint);
     }
 
     .reset-link {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 11px;
       text-decoration: underline;
       cursor: pointer;
@@ -218,7 +229,7 @@
     }
 
     label.toggle {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 11px;
       display: flex;
       align-items: center;
@@ -233,7 +244,7 @@
     }
 
     details.city-filter summary {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 12px;
       padding: 7px 12px;
       border: 2px solid var(--ink);
@@ -278,7 +289,7 @@
     .filter-search {
       width: 100%;
       box-sizing: border-box;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 11px;
       padding: 6px 8px;
       border: 2px solid var(--ink);
@@ -302,7 +313,7 @@
       display: flex;
       align-items: center;
       gap: 7px;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 12px;
       padding: 3px 0;
       cursor: pointer;
@@ -331,7 +342,7 @@
     }
 
     .view-btn {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 12px;
       font-weight: 700;
       letter-spacing: .06em;
@@ -358,7 +369,7 @@
       align-items: center;
       justify-content: space-between;
       margin: 26px 0 12px;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
     }
 
     .week-label {
@@ -376,7 +387,7 @@
     }
 
     .week-col-header {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 11px;
       padding: 6px 8px;
       background: var(--ink);
@@ -391,7 +402,7 @@
 
     .week-country-header {
       grid-column: 1 / -1;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 11px;
       padding: 5px 8px;
       display: flex;
@@ -422,7 +433,7 @@
 
     .week-empty-row {
       grid-column: 1 / -1;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 10px;
       color: var(--grey);
       padding: 6px 8px;
@@ -525,7 +536,7 @@
     }
 
     .map-popup {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 12px;
       max-height: 200px;
       overflow-y: auto;
@@ -563,7 +574,7 @@
     }
 
     .month-divider {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 12px;
       font-weight: 700;
       letter-spacing: .1em;
@@ -628,7 +639,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       padding: 10px 4px;
       border-right: 2px dashed var(--paper-dark);
     }
@@ -640,7 +651,7 @@
     }
 
     .date-block .dnum {
-      font-family: 'Anton', sans-serif;
+      font-family: 'Twemoji Country Flags', 'Anton', sans-serif;
       font-size: 30px;
       line-height: 1;
     }
@@ -670,7 +681,7 @@
     }
 
     .band-tag {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 10px;
       font-weight: 700;
       letter-spacing: .08em;
@@ -705,7 +716,7 @@
     }
 
     .fest-tag {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 10px;
       color: var(--text-muted);
       border: 1px dashed var(--line);
@@ -713,7 +724,7 @@
     }
 
     .city {
-      font-family: 'Anton', sans-serif;
+      font-family: 'Twemoji Country Flags', 'Anton', sans-serif;
       font-size: 22px;
       text-transform: uppercase;
       margin: 6px 0 1px;
@@ -745,7 +756,7 @@
     }
 
     .flight-pill {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 11px;
       border: 1.5px solid var(--ink);
       padding: 5px 9px;
@@ -771,7 +782,7 @@
     }
 
     .flight-duration {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 11px;
       color: var(--grey);
       margin-left: auto;
@@ -797,7 +808,7 @@
       margin-top: 34px;
       padding-top: 16px;
       border-top: 2px dashed var(--line);
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       font-size: 11px;
       color: var(--text-faint);
       line-height: 1.6;
@@ -806,7 +817,7 @@
     .empty {
       padding: 40px 20px;
       text-align: center;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Twemoji Country Flags', 'JetBrains Mono', monospace;
       color: var(--text-faint);
       border: 2px dashed var(--line);
     }
